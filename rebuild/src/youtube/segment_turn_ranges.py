@@ -1,0 +1,90 @@
+import json
+import re
+from pathlib import Path
+
+WORD_TO_NUM = {
+    "one":"1",
+    "two":"2",
+    "three":"3",
+    "four":"4",
+    "five":"5",
+    "six":"6",
+    "seven":"7",
+    "eight":"8",
+    "nine":"9",
+    "ten":"10",
+    "eleven":"11",
+    "twelve":"12",
+    "thirteen":"13",
+    "fourteen":"14",
+    "fifteen":"15",
+    "sixteen":"16",
+    "seventeen":"17",
+    "eighteen":"18"
+}
+
+TURN_RE = re.compile(
+    r"turn\s+("
+    r"\d+[a-z]?"
+    r"|one|two|three|four|five|six|seven|eight|nine|ten"
+    r"|eleven|twelve|thirteen|fourteen|fifteen|sixteen"
+    r"|seventeen|eighteen"
+    r")",
+    re.IGNORECASE
+)
+
+TRANSCRIPTS = Path(
+    "research/youtube/transcripts"
+)
+
+for file in TRANSCRIPTS.glob("*.json"):
+
+    data = json.load(
+        open(
+            file,
+            encoding="utf-8"
+        )
+    )
+
+    turns = []
+
+    for i,row in enumerate(data):
+
+        text = row["text"]
+
+        for m in TURN_RE.finditer(text):
+
+            turn = m.group(1).lower()
+
+            turn = WORD_TO_NUM.get(
+                turn,
+                turn
+            )
+
+            turns.append(
+                (
+                    i,
+                    turn
+                )
+            )
+
+    for idx,(start,turn) in enumerate(turns):
+
+        if idx + 1 < len(turns):
+            end = turns[idx + 1][0]
+        else:
+            end = min(
+                start + 20,
+                len(data)
+            )
+
+        section = " ".join(
+            row["text"]
+            for row in data[start:end]
+        )
+
+        print(
+            f"{file.stem},"
+            f"turn_{turn},"
+            f"{section}"
+        )
