@@ -1,0 +1,197 @@
+{
+  "track_id": 196,
+  "source_coverage": {
+    "track_id": 196,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Mobility Resort Motegi - East",
+    "length_m": 3400
+  },
+  "pit": {
+    "entry_pct": 0.871,
+    "exit_pct": 0.029
+  },
+  "sectors": [
+    {
+      "marker": 0.407,
+      "name": "1"
+    },
+    {
+      "marker": 0.614,
+      "name": "2"
+    },
+    {
+      "marker": 0.867,
+      "name": "3"
+    },
+    {
+      "marker": 1,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.149,
+      "end_pct": 0.186,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 125.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.205,
+      "end_pct": 0.226,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 71.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.227,
+      "end_pct": 0.269,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 142.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.271,
+      "end_pct": 0.293,
+      "corner_length_pct": 0.022,
+      "corner_length_m": 74.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.294,
+      "end_pct": 0.315,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 71.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.455,
+      "end_pct": 0.492,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 125.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.529,
+      "end_pct": 0.589,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 204.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.632,
+      "end_pct": 0.676,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 149.6
+    },
+    {
+      "name": null,
+      "start_pct": 0.677,
+      "end_pct": 0.731,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 183.6
+    },
+    {
+      "name": null,
+      "start_pct": 0.762,
+      "end_pct": 0.809,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 159.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.899,
+      "end_pct": 0.944,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 153.0
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": null,
+      "start_pct": 0.149,
+      "end_pct": 0.186,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 125.8,
+      "exit_importance": 0.1107,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.205,
+      "end_pct": 0.226,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 71.4,
+      "exit_importance": 0.1075,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.227,
+      "end_pct": 0.269,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 142.8,
+      "exit_importance": 0.2377,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.271,
+      "end_pct": 0.293,
+      "corner_length_pct": 0.022,
+      "corner_length_m": 74.8,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.294,
+      "end_pct": 0.315,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 71.4,
+      "exit_importance": 0.6742,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.455,
+      "end_pct": 0.492,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 125.8,
+      "exit_importance": 0.355,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.529,
+      "end_pct": 0.589,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 204.0,
+      "exit_importance": 0.4657,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.632,
+      "end_pct": 0.676,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 149.6,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    }
+  ]
+}

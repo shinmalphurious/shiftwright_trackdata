@@ -1,0 +1,206 @@
+{
+  "track_id": 449,
+  "source_coverage": {
+    "track_id": 449,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Motorsport Arena Oschersleben - Grand Prix",
+    "length_m": 3610
+  },
+  "pit": {
+    "entry_pct": 0.89,
+    "exit_pct": 0.144
+  },
+  "sectors": [
+    {
+      "marker": 0.362,
+      "name": "1"
+    },
+    {
+      "marker": 0.717,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Hotel",
+      "start_pct": 0.1,
+      "end_pct": 0.21,
+      "corner_length_pct": 0.11,
+      "corner_length_m": 397.1
+    },
+    {
+      "name": "Hasseroeder",
+      "start_pct": 0.25,
+      "end_pct": 0.32,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 252.7
+    },
+    {
+      "name": "Triple",
+      "start_pct": 0.375,
+      "end_pct": 0.46,
+      "corner_length_pct": 0.085,
+      "corner_length_m": 306.9
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.463,
+      "end_pct": 0.529,
+      "corner_length_pct": 0.066,
+      "corner_length_m": 238.3
+    },
+    {
+      "name": "Schikane",
+      "start_pct": 0.544,
+      "end_pct": 0.577,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 119.1
+    },
+    {
+      "name": "McDonald's",
+      "start_pct": 0.578,
+      "end_pct": 0.63,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 187.7
+    },
+    {
+      "name": "Shell Kurve",
+      "start_pct": 0.73,
+      "end_pct": 0.77,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 144.4
+    },
+    {
+      "name": "Amman Kurve",
+      "start_pct": 0.771,
+      "end_pct": 0.814,
+      "corner_length_pct": 0.043,
+      "corner_length_m": 155.2
+    },
+    {
+      "name": "Bauer Kurve",
+      "start_pct": 0.841,
+      "end_pct": 0.88,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 140.8
+    },
+    {
+      "name": "Zeppelin Kurve",
+      "start_pct": 0.895,
+      "end_pct": 0.95,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 198.5
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Hotel",
+      "start_pct": 0.1,
+      "end_pct": 0.21,
+      "corner_length_pct": 0.11,
+      "corner_length_m": 397.1,
+      "exit_importance": 0.0814,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Hasseroeder",
+      "start_pct": 0.25,
+      "end_pct": 0.32,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 252.7,
+      "exit_importance": 0.0651,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Triple",
+      "start_pct": 0.375,
+      "end_pct": 0.46,
+      "corner_length_pct": 0.085,
+      "corner_length_m": 306.9,
+      "exit_importance": 0.5309,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.463,
+      "end_pct": 0.529,
+      "corner_length_pct": 0.066,
+      "corner_length_m": 238.3,
+      "exit_importance": 0.4494,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Schikane",
+      "start_pct": 0.544,
+      "end_pct": 0.577,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 119.1,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "hairpin"
+    },
+    {
+      "name": "McDonald's",
+      "start_pct": 0.578,
+      "end_pct": 0.63,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 187.7,
+      "exit_importance": 0.2215,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Shell Kurve",
+      "start_pct": 0.73,
+      "end_pct": 0.77,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 144.4,
+      "exit_importance": 0.342,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Amman Kurve",
+      "start_pct": 0.771,
+      "end_pct": 0.814,
+      "corner_length_pct": 0.043,
+      "corner_length_m": 155.2,
+      "exit_importance": 0.0521,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Bauer Kurve",
+      "start_pct": 0.841,
+      "end_pct": 0.88,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 140.8,
+      "exit_importance": 0.9477,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Zeppelin Kurve",
+      "start_pct": 0.895,
+      "end_pct": 0.95,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 198.5,
+      "exit_importance": 0.2117,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    }
+  ]
+}

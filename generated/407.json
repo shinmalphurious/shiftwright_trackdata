@@ -1,0 +1,73 @@
+{
+  "track_id": 407,
+  "source_coverage": {
+    "track_id": 407,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Red Bull Ring - North",
+    "length_m": 1830
+  },
+  "pit": {
+    "entry_pct": 0.77,
+    "exit_pct": 0.921
+  },
+  "sectors": [
+    {
+      "marker": 0.25,
+      "name": "1"
+    },
+    {
+      "marker": 0.5,
+      "name": "2"
+    },
+    {
+      "marker": 0.75,
+      "name": "3"
+    },
+    {
+      "marker": 0.563,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.045,
+      "end_pct": 0.122,
+      "corner_length_pct": 0.077,
+      "corner_length_m": 140.9
+    },
+    {
+      "name": null,
+      "start_pct": 0.476,
+      "end_pct": 0.543,
+      "corner_length_pct": 0.067,
+      "corner_length_m": 122.6
+    },
+    {
+      "name": null,
+      "start_pct": 0.544,
+      "end_pct": 0.681,
+      "corner_length_pct": 0.137,
+      "corner_length_m": 250.7
+    },
+    {
+      "name": null,
+      "start_pct": 0.763,
+      "end_pct": 0.856,
+      "corner_length_pct": 0.093,
+      "corner_length_m": 170.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.857,
+      "end_pct": 0.911,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 98.8
+    }
+  ]
+}

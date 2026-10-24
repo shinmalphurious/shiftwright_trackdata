@@ -1,0 +1,194 @@
+{
+  "track_id": 47,
+  "source_coverage": {
+    "track_id": 47,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Laguna Seca - Full Course",
+    "length_m": 3570
+  },
+  "pit": {
+    "entry_pct": 0.87,
+    "exit_pct": 0.154
+  },
+  "sectors": [
+    {
+      "marker": 0.184,
+      "name": "1"
+    },
+    {
+      "marker": 0.377,
+      "name": "2"
+    },
+    {
+      "marker": 0.643,
+      "name": "3"
+    },
+    {
+      "marker": 0.804,
+      "name": "4"
+    },
+    {
+      "marker": 1.0,
+      "name": "5"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.045,
+      "end_pct": 0.08,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 125.0
+    },
+    {
+      "name": "Andretti Hairpin",
+      "start_pct": 0.1,
+      "end_pct": 0.173,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 260.6
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.191,
+      "end_pct": 0.245,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 192.8
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.265,
+      "end_pct": 0.321,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 199.9
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.4,
+      "end_pct": 0.465,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 232.1
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.52,
+      "end_pct": 0.575,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 196.3
+    },
+    {
+      "name": "The Corkscrew",
+      "start_pct": 0.661,
+      "end_pct": 0.72,
+      "corner_length_pct": 0.059,
+      "corner_length_m": 210.6
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.725,
+      "end_pct": 0.79,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 232.1
+    },
+    {
+      "name": "Turn 10",
+      "start_pct": 0.805,
+      "end_pct": 0.855,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 178.5
+    },
+    {
+      "name": "Turn 11",
+      "start_pct": 0.89,
+      "end_pct": 0.94,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 178.5
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.045,
+      "end_pct": 0.08,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 125.0,
+      "exit_importance": 0.4332,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Andretti Hairpin",
+      "start_pct": 0.1,
+      "end_pct": 0.173,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 260.6,
+      "exit_importance": 0.609,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.191,
+      "end_pct": 0.245,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 192.8,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.265,
+      "end_pct": 0.321,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 199.9,
+      "exit_importance": 0.3908,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.4,
+      "end_pct": 0.465,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 232.1,
+      "exit_importance": 0.4885,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.52,
+      "end_pct": 0.575,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 196.3,
+      "exit_importance": 0.482,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "The Corkscrew",
+      "start_pct": 0.661,
+      "end_pct": 0.72,
+      "corner_length_pct": 0.059,
+      "corner_length_m": 210.6,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.725,
+      "end_pct": 0.79,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 232.1,
+      "exit_importance": 0.0293,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    }
+  ]
+}

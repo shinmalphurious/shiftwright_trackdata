@@ -1,0 +1,134 @@
+{
+  "track_id": 404,
+  "source_coverage": {
+    "track_id": 404,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Red Bull Ring - National",
+    "length_m": 2336
+  },
+  "pit": {
+    "entry_pct": 0.802,
+    "exit_pct": 0.244
+  },
+  "sectors": [
+    {
+      "marker": 0.684,
+      "name": "1"
+    },
+    {
+      "marker": 1,
+      "name": "2"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.168,
+      "end_pct": 0.233,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 151.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.336,
+      "end_pct": 0.418,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 191.6
+    },
+    {
+      "name": null,
+      "start_pct": 0.419,
+      "end_pct": 0.495,
+      "corner_length_pct": 0.076,
+      "corner_length_m": 177.5
+    },
+    {
+      "name": null,
+      "start_pct": 0.496,
+      "end_pct": 0.591,
+      "corner_length_pct": 0.095,
+      "corner_length_m": 221.9
+    },
+    {
+      "name": null,
+      "start_pct": 0.735,
+      "end_pct": 0.814,
+      "corner_length_pct": 0.079,
+      "corner_length_m": 184.5
+    },
+    {
+      "name": null,
+      "start_pct": 0.839,
+      "end_pct": 0.904,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 151.8
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": null,
+      "start_pct": 0.168,
+      "end_pct": 0.233,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 151.8,
+      "exit_importance": 0.7588,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.336,
+      "end_pct": 0.418,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 191.6,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.419,
+      "end_pct": 0.495,
+      "corner_length_pct": 0.076,
+      "corner_length_m": 177.5,
+      "exit_importance": 0.381,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.496,
+      "end_pct": 0.591,
+      "corner_length_pct": 0.095,
+      "corner_length_m": 221.9,
+      "exit_importance": 0.5015,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.735,
+      "end_pct": 0.814,
+      "corner_length_pct": 0.079,
+      "corner_length_m": 184.5,
+      "exit_importance": 0.1238,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.839,
+      "end_pct": 0.904,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 151.8,
+      "exit_importance": 0.0,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

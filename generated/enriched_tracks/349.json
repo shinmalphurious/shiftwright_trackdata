@@ -1,0 +1,213 @@
+{
+  "track_id": 349,
+  "source_coverage": {
+    "track_id": 349,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Barcelona Historic",
+    "length_m": 4680
+  },
+  "pit": {
+    "entry_pct": 0.922,
+    "exit_pct": 0.098
+  },
+  "sectors": [
+    {
+      "name": "1",
+      "marker": 0.336
+    },
+    {
+      "name": "2",
+      "marker": 0.707
+    },
+    {
+      "name": "3",
+      "marker": 1
+    }
+  ],
+  "corners": [
+    {
+      "name": "Elf",
+      "start_pct": 0.167,
+      "end_pct": 0.213,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 215.3
+    },
+    {
+      "name": "Renault",
+      "start_pct": 0.226,
+      "end_pct": 0.31,
+      "corner_length_pct": 0.084,
+      "corner_length_m": 393.1
+    },
+    {
+      "name": "Repsol",
+      "start_pct": 0.345,
+      "end_pct": 0.409,
+      "corner_length_pct": 0.064,
+      "corner_length_m": 299.5
+    },
+    {
+      "name": "Seat",
+      "start_pct": 0.425,
+      "end_pct": 0.472,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 220.0
+    },
+    {
+      "name": "T6",
+      "start_pct": 0.427,
+      "end_pct": 0.525,
+      "corner_length_pct": 0.098,
+      "corner_length_m": 458.6
+    },
+    {
+      "name": "Wuerth",
+      "start_pct": 0.525,
+      "end_pct": 0.569,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 205.9
+    },
+    {
+      "name": "Campsa",
+      "start_pct": 0.595,
+      "end_pct": 0.637,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 196.6
+    },
+    {
+      "name": "La Caixa",
+      "start_pct": 0.731,
+      "end_pct": 0.789,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 271.4
+    },
+    {
+      "name": "Banc Sabadell",
+      "start_pct": 0.795,
+      "end_pct": 0.842,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 220.0
+    },
+    {
+      "name": "Europcar",
+      "start_pct": 0.866,
+      "end_pct": 0.894,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 131.0
+    },
+    {
+      "name": "New Holland",
+      "start_pct": 0.921,
+      "end_pct": 0.954,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 154.4
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Elf",
+      "start_pct": 0.167,
+      "end_pct": 0.213,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 215.3,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Renault",
+      "start_pct": 0.226,
+      "end_pct": 0.31,
+      "corner_length_pct": 0.084,
+      "corner_length_m": 393.1,
+      "exit_importance": 0.1921,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Repsol",
+      "start_pct": 0.345,
+      "end_pct": 0.409,
+      "corner_length_pct": 0.064,
+      "corner_length_m": 299.5,
+      "exit_importance": 0.1694,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Seat",
+      "start_pct": 0.425,
+      "end_pct": 0.472,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 220.0,
+      "exit_importance": 0.127,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T6",
+      "start_pct": 0.427,
+      "end_pct": 0.525,
+      "corner_length_pct": 0.098,
+      "corner_length_m": 458.6,
+      "exit_importance": 0.723,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Wuerth",
+      "start_pct": 0.525,
+      "end_pct": 0.569,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 205.9,
+      "exit_importance": 0.2508,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Campsa",
+      "start_pct": 0.595,
+      "end_pct": 0.637,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 196.6,
+      "exit_importance": 0.114,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "La Caixa",
+      "start_pct": 0.731,
+      "end_pct": 0.789,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 271.4,
+      "exit_importance": 0.1759,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Banc Sabadell",
+      "start_pct": 0.795,
+      "end_pct": 0.842,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 220.0,
+      "exit_importance": 0.2443,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Europcar",
+      "start_pct": 0.866,
+      "end_pct": 0.894,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 131.0,
+      "exit_importance": 0.964,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    }
+  ]
+}

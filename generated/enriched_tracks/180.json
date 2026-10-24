@@ -1,0 +1,243 @@
+{
+  "track_id": 180,
+  "source_coverage": {
+    "track_id": 180,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Oulton Park Circuit - International",
+    "length_m": 4290
+  },
+  "pit": {
+    "entry_pct": 0.968,
+    "exit_pct": 0.081
+  },
+  "sectors": [
+    {
+      "name": "1",
+      "marker": 0.138
+    },
+    {
+      "name": "2",
+      "marker": 0.279
+    },
+    {
+      "name": "3",
+      "marker": 0.452
+    },
+    {
+      "name": "4",
+      "marker": 0.561
+    },
+    {
+      "name": "5",
+      "marker": 0.737
+    },
+    {
+      "name": "6",
+      "marker": 0.879
+    },
+    {
+      "name": "7",
+      "marker": 1
+    }
+  ],
+  "corners": [
+    {
+      "name": "Old Hall Corner",
+      "start_pct": 0.043,
+      "end_pct": 0.089,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 197.3
+    },
+    {
+      "name": "Denton's",
+      "start_pct": 0.137,
+      "end_pct": 0.151,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 60.1
+    },
+    {
+      "name": "Cascades",
+      "start_pct": 0.162,
+      "end_pct": 0.212,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 214.5
+    },
+    {
+      "name": "Island Bend",
+      "start_pct": 0.303,
+      "end_pct": 0.36,
+      "corner_length_pct": 0.057,
+      "corner_length_m": 244.5
+    },
+    {
+      "name": "Shell Oils Corner",
+      "start_pct": 0.365,
+      "end_pct": 0.418,
+      "corner_length_pct": 0.053,
+      "corner_length_m": 227.4
+    },
+    {
+      "name": "Britten's",
+      "start_pct": 0.464,
+      "end_pct": 0.499,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 150.1
+    },
+    {
+      "name": "Hislop's",
+      "start_pct": 0.592,
+      "end_pct": 0.624,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 137.3
+    },
+    {
+      "name": "Knickerbrook",
+      "start_pct": 0.635,
+      "end_pct": 0.663,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 120.1
+    },
+    {
+      "name": "Clay Hill",
+      "start_pct": 0.686,
+      "end_pct": 0.726,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 171.6
+    },
+    {
+      "name": "Water Tower",
+      "start_pct": 0.746,
+      "end_pct": 0.767,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 90.1
+    },
+    {
+      "name": "Druids Corner",
+      "start_pct": 0.78,
+      "end_pct": 0.824,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 188.8
+    },
+    {
+      "name": "Lodge Corner",
+      "start_pct": 0.903,
+      "end_pct": 0.941,
+      "corner_length_pct": 0.038,
+      "corner_length_m": 163.0
+    },
+    {
+      "name": "Deer Leap",
+      "start_pct": 0.956,
+      "end_pct": 0.995,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 167.3
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Old Hall Corner",
+      "start_pct": 0.043,
+      "end_pct": 0.089,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 197.3,
+      "exit_importance": 0.8337,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Denton's",
+      "start_pct": 0.137,
+      "end_pct": 0.151,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 60.1,
+      "exit_importance": 0.0521,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Cascades",
+      "start_pct": 0.162,
+      "end_pct": 0.212,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 214.5,
+      "exit_importance": 0.6579,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Island Bend",
+      "start_pct": 0.303,
+      "end_pct": 0.36,
+      "corner_length_pct": 0.057,
+      "corner_length_m": 244.5,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Shell Oils Corner",
+      "start_pct": 0.365,
+      "end_pct": 0.418,
+      "corner_length_pct": 0.053,
+      "corner_length_m": 227.4,
+      "exit_importance": 0.1824,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Britten's",
+      "start_pct": 0.464,
+      "end_pct": 0.499,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 150.1,
+      "exit_importance": 0.1433,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Hislop's",
+      "start_pct": 0.592,
+      "end_pct": 0.624,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 137.3,
+      "exit_importance": 0.6872,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Knickerbrook",
+      "start_pct": 0.635,
+      "end_pct": 0.663,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 120.1,
+      "exit_importance": 0.0912,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Clay Hill",
+      "start_pct": 0.686,
+      "end_pct": 0.726,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 171.6,
+      "exit_importance": 0.3713,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Water Tower",
+      "start_pct": 0.746,
+      "end_pct": 0.767,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 90.1,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    }
+  ]
+}

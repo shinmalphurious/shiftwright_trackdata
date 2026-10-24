@@ -1,0 +1,223 @@
+{
+  "track_id": 297,
+  "source_coverage": {
+    "track_id": 297,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Snetterton 300 Circuit",
+    "length_m": 4740
+  },
+  "pit": {
+    "entry_pct": 0.94,
+    "exit_pct": 0.02
+  },
+  "sectors": [
+    {
+      "marker": 0.321,
+      "name": "1"
+    },
+    {
+      "marker": 0.662,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Riches",
+      "start_pct": 0.049,
+      "end_pct": 0.118,
+      "corner_length_pct": 0.069,
+      "corner_length_m": 327.1
+    },
+    {
+      "name": "Wilson",
+      "start_pct": 0.15,
+      "end_pct": 0.189,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 184.9
+    },
+    {
+      "name": "Palmer",
+      "start_pct": 0.221,
+      "end_pct": 0.271,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 237.0
+    },
+    {
+      "name": "Agostini",
+      "start_pct": 0.325,
+      "end_pct": 0.377,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 246.5
+    },
+    {
+      "name": "Hamilton",
+      "start_pct": 0.404,
+      "end_pct": 0.44,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 170.6
+    },
+    {
+      "name": "Oggies",
+      "start_pct": 0.456,
+      "end_pct": 0.492,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 170.6
+    },
+    {
+      "name": "Williams",
+      "start_pct": 0.504,
+      "end_pct": 0.549,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 213.3
+    },
+    {
+      "name": "Brundle",
+      "start_pct": 0.675,
+      "end_pct": 0.741,
+      "corner_length_pct": 0.066,
+      "corner_length_m": 312.8
+    },
+    {
+      "name": "Bomb Hole",
+      "start_pct": 0.755,
+      "end_pct": 0.796,
+      "corner_length_pct": 0.041,
+      "corner_length_m": 194.3
+    },
+    {
+      "name": "Coram",
+      "start_pct": 0.808,
+      "end_pct": 0.89,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 388.7
+    },
+    {
+      "name": "Murrays",
+      "start_pct": 0.891,
+      "end_pct": 0.913,
+      "corner_length_pct": 0.022,
+      "corner_length_m": 104.3
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Riches",
+      "start_pct": 0.049,
+      "end_pct": 0.118,
+      "corner_length_pct": 0.069,
+      "corner_length_m": 327.1,
+      "exit_importance": 0.1661,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Wilson",
+      "start_pct": 0.15,
+      "end_pct": 0.189,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 184.9,
+      "exit_importance": 0.5309,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Palmer",
+      "start_pct": 0.221,
+      "end_pct": 0.271,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 237.0,
+      "exit_importance": 0.2247,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Agostini",
+      "start_pct": 0.325,
+      "end_pct": 0.377,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 246.5,
+      "exit_importance": 0.127,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Hamilton",
+      "start_pct": 0.404,
+      "end_pct": 0.44,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 170.6,
+      "exit_importance": 0.0977,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Oggies",
+      "start_pct": 0.456,
+      "end_pct": 0.492,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 170.6,
+      "exit_importance": 0.0814,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Williams",
+      "start_pct": 0.504,
+      "end_pct": 0.549,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 213.3,
+      "exit_importance": 0.0847,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Brundle",
+      "start_pct": 0.675,
+      "end_pct": 0.741,
+      "corner_length_pct": 0.066,
+      "corner_length_m": 312.8,
+      "exit_importance": 0.1075,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Bomb Hole",
+      "start_pct": 0.755,
+      "end_pct": 0.796,
+      "corner_length_pct": 0.041,
+      "corner_length_m": 194.3,
+      "exit_importance": 0.3973,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Coram",
+      "start_pct": 0.808,
+      "end_pct": 0.89,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 388.7,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Murrays",
+      "start_pct": 0.891,
+      "end_pct": 0.913,
+      "corner_length_pct": 0.022,
+      "corner_length_m": 104.3,
+      "exit_importance": 0.8533,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+====================================================================================================
+FILE: src\pipelines\record_transcript_429.py
+====================================================================================================
+import json
+from datetime import datetime,timedelta,timezone
+
+state = {
+    "last_429":
+        datetime.now(
+            timezone.utc
+        ).isoformat(),
+
+    "global_pause_until":
+        (
+            datetime.now(
+                timezone.utc
+            ) +
+            timedelta(
+                hours=6
+            )
+        ).isoformat()
+}
+
+with open(
+    "generated/transcript_rate_limit.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        state,
+        fp,
+        indent=2
+    )
+
+print(
+    json.dumps(
+        state,
+        indent=2
+    )
+)
+
+
+====================================================================================================
+FILE: src\pipelines\schedule_transcript_retry.py
+====================================================================================================
+import json
+import sys
+from datetime import datetime, timedelta
+
+track_id = int(
+    sys.argv[1]
+)
+
+manifest_path = (
+    "generated/track_acquisition_manifest.json"
+)
+
+manifest = json.load(
+    open(
+        manifest_path,
+        encoding="utf-8"
+    )
+)
+
+for track in manifest:
+
+    if track["track_id"] != track_id:
+        continue
+
+    knowledge = track[
+        "knowledge"
+    ]
+
+    attempts = (
+        knowledge.get(
+            "transcript_attempts",
+            0
+        ) + 1
+    )
+
+    knowledge[
+        "transcript_attempts"
+    ] = attempts
+
+    cooldown = min(
+        attempts * 30,
+        1440
+    )
+
+    knowledge[
+        "next_transcript_try"
+    ] = (
+        datetime.now().astimezone()
+        +
+        timedelta(
+            minutes=cooldown
+        )
+    ).isoformat()
+
+    break
+
+with open(
+    manifest_path,
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        manifest,
+        fp,
+        indent=2
+    )
+
+print(
+    "cooldown scheduled"
+)
+
+
+
+====================================================================================================
+FILE: src\pipelines\start_transcript_cooldown.py
+====================================================================================================
+from pathlib import Path
+from datetime import datetime, timedelta
+
+cooldown = Path(
+    "generated/transcript_cooldown.txt"
+)
+
+if cooldown.exists():
+
+    expires = datetime.fromisoformat(
+        cooldown.read_text().strip()
+    )
+
+    if expires > datetime.now().astimezone():
+
+        print(
+            "cooldown_active"
+        )
+
+        raise SystemExit
+
+next_time = (
+    datetime.now().astimezone()
+    +
+    timedelta(
+        minutes=30
+    )
+)
+
+cooldown.write_text(
+    next_time.isoformat()
+)
+
+print(
+    "cooldown_started"
+)
+
+
+====================================================================================================
+FILE: src\pipelines\release_transcript_queue.py
+====================================================================================================
+import json
+from datetime import datetime,timezone
+
+queue = json.load(
+    open(
+        "generated/transcript_queue.json",
+        encoding="utf-8"
+    )
+)
+
+now = datetime.now(
+    timezone.utc
+)
+
+released = 0
+
+for item in queue:
+
+    if item["status"] != "rate_limited":
+        continue
+
+    next_attempt = item.get(
+        "next_attempt"
+    )
+
+    if not next_attempt:
+        continue
+
+    retry_time = datetime.fromisoformat(
+        next_attempt
+    )
+
+    if retry_time <= now:
+
+        item["status"] = (
+            "ready_for_download"
+        )
+
+        released += 1
+
+with open(
+    "generated/transcript_queue.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        queue,
+        fp,
+        indent=2
+    )
+
+print(
+    "released:",
+    released
+)
+
+
+====================================================================================================
+FILE: src\pipelines\build_caption_registry.py
+====================================================================================================
+import json
+
+queue = json.load(
+    open(
+        "generated/transcript_queue.json",
+        encoding="utf-8"
+    )
+)
+
+registry = {}
+
+for item in queue:
+
+    registry[
+        item["video_id"]
+    ] = {
+        "captions_available":
+            True,
+
+        "preferred_format":
+            "json3",
+
+        "status":
+            item["status"]
+    }
+
+with open(
+    "generated/caption_registry.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        registry,
+        fp,
+        indent=2
+    )
+
+print(
+        "videos:",
+        len(registry)
+)
+
+
+====================================================================================================
+FILE: src\pipelines\inspect_caption_urls.py
+====================================================================================================
+import yt_dlp
+import json
+
+video_id = "1Za5r0B4YvE"
+
+with yt_dlp.YoutubeDL(
+    {
+        "quiet": True,
+        "skip_download": True
+    }
+) as ydl:
+
+    info = ydl.extract_info(
+        f"https://www.youtube.com/watch?v={video_id}",
+        download=False
+    )
+
+    caps = (
+        info.get(
+            "automatic_captions",
+            {}
+        )
+    )
+
+    if "en" in caps:
+
+        print(
+            json.dumps(
+                caps["en"],
+                indent=2
+            )
+        )
+
+
+====================================================================================================
+FILE: src\pipelines\mark_caption_capable.py
+====================================================================================================
+import json
+
+selection = json.load(
+    open(
+        "generated/discovery_selection.json",
+        encoding="utf-8"
+    )
+)
+
+catalog_entry = {
+    "track_id":
+        selection["track_id"],
+
+    "layout":
+        selection["layout"],
+
+    "captions_available":
+        True,
+
+    "selected_guides":
+        selection["selected_guides"]
+}
+
+with open(
+    f"generated/guide_catalog/{selection['track_id']}.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        catalog_entry,
+        fp,
+        indent=2
+    )
+
+print(
+        "updated"
+)
+
+
+====================================================================================================
+FILE: src\pipelines\download_single_vtt.py
+====================================================================================================
+import yt_dlp
+
+video_id = "1Za5r0B4YvE"
+
+url = f"https://www.youtube.com/watch?v={video_id}"
+
+opts = {
+    "skip_download": True,
+
+    "writesubtitles": False,
+
+    "writeautomaticsub": True,
+
+    "subtitleslangs": ["en"],
+
+    "subtitlesformat": "vtt",
+
+    "sleep_interval_requests": 5,
+
+    "extractor_retries": 0,
+
+    "outtmpl": "research/youtube/transcripts/%(id)s"
+}
+
+with yt_dlp.YoutubeDL(opts) as ydl:
+
+    ydl.download(
+        [url]
+    )
+
+print(
+    "caption_download_complete"
+)
+
+
+====================================================================================================
+FILE: src\pipelines\test_caption_transport.py
+====================================================================================================
+import json
+import urllib.request
+
+with open(
+    "generated/current_transcript_task.json",
+    encoding="utf-8"
+) as fp:
+
+    task = json.load(fp)
+
+video_id = task["video_id"]
+
+print(
+    "testing",
+    video_id
+)
+
+url = input(
+    "Paste direct caption URL: "
+)
+
+try:
+
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent":
+            "Mozilla/5.0"
+        }
+    )
+
+    data = urllib.request.urlopen(
+        req,
+        timeout=20
+    ).read(500)
+
+    print(
+        "SUCCESS"
+    )
+
+    print(
+        data[:200]
+    )
+
+except Exception as ex:
+
+    print(
+        "FAIL"
+    )
+
+    print(ex)
+
+
+====================================================================================================
+FILE: src\pipelines\test_direct_caption_url.py
+====================================================================================================
+import yt_dlp
+import urllib.request
+
+video_id = "1Za5r0B4YvE"
+
+with yt_dlp.YoutubeDL(
+    {
+        "quiet": True,
+        "skip_download": True
+    }
+) as ydl:
+
+    info = ydl.extract_info(
+        f"https://www.youtube.com/watch?v={video_id}",
+        download=False
+    )
+
+    url = (
+        info[
+            "automatic_captions"
+        ][
+            "en"
+        ][0][
+            "url"
+        ]
+    )
+
+    print(
+        "testing..."
+    )
+
+    try:
+
+        data = urllib.request.urlopen(
+            url,
+            timeout=15
+        ).read(200)
+
+        print(
+            "SUCCESS"
+        )
+
+        print(
+            data[:100]
+        )
+
+    except Exception as ex:
+
+        print(
+            "FAIL"
+        )
+
+        print(ex)
+
+

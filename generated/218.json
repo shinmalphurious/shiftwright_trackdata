@@ -1,0 +1,104 @@
+{
+  "track_id": 218,
+  "source_coverage": {
+    "track_id": 218,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Circuit Gilles Villeneuve",
+    "length_m": 4310
+  },
+  "pit": {
+    "entry_pct": 0.896,
+    "exit_pct": 0.073
+  },
+  "sectors": [
+    {
+      "marker": 0.253,
+      "name": "1"
+    },
+    {
+      "marker": 0.554,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Virage Senna",
+      "start_pct": 0.037,
+      "end_pct": 0.1,
+      "corner_length_pct": 0.063,
+      "corner_length_m": 271.5
+    },
+    {
+      "name": "T3/T4",
+      "start_pct": 0.145,
+      "end_pct": 0.195,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 215.5
+    },
+    {
+      "name": "T5",
+      "start_pct": 0.206,
+      "end_pct": 0.251,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 194.0
+    },
+    {
+      "name": "T6/T7",
+      "start_pct": 0.273,
+      "end_pct": 0.33,
+      "corner_length_pct": 0.057,
+      "corner_length_m": 245.7
+    },
+    {
+      "name": "T8/T9",
+      "start_pct": 0.44,
+      "end_pct": 0.5,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 258.6
+    },
+    {
+      "name": "L'Epingle",
+      "start_pct": 0.595,
+      "end_pct": 0.634,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 168.1
+    },
+    {
+      "name": "T11",
+      "start_pct": 0.635,
+      "end_pct": 0.665,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 129.3
+    },
+    {
+      "name": "T12",
+      "start_pct": 0.71,
+      "end_pct": 0.75,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 172.4
+    },
+    {
+      "name": "T13",
+      "start_pct": 0.878,
+      "end_pct": 0.899,
+      "corner_length_pct": 0.021,
+      "corner_length_m": 90.5
+    },
+    {
+      "name": "T14 - Wall of Champions",
+      "start_pct": 0.9,
+      "end_pct": 0.922,
+      "corner_length_pct": 0.022,
+      "corner_length_m": 94.8
+    }
+  ]
+}

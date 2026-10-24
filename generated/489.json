@@ -1,0 +1,90 @@
+{
+  "track_id": 489,
+  "source_coverage": {
+    "track_id": 489,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Circuit de Ledenon",
+    "length_m": 3080
+  },
+  "pit": {
+    "entry_pct": 0.891,
+    "exit_pct": 0.062
+  },
+  "sectors": [
+    {
+      "marker": 0.335,
+      "name": "1"
+    },
+    {
+      "marker": 0.618,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Triple Gauche",
+      "start_pct": 0.047,
+      "end_pct": 0.188,
+      "corner_length_pct": 0.141,
+      "corner_length_m": 434.3
+    },
+    {
+      "name": "Virage du Pont",
+      "start_pct": 0.231,
+      "end_pct": 0.3,
+      "corner_length_pct": 0.069,
+      "corner_length_m": 212.5
+    },
+    {
+      "name": "La Carrierasse",
+      "start_pct": 0.348,
+      "end_pct": 0.398,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 154.0
+    },
+    {
+      "name": "La Courmelle",
+      "start_pct": 0.399,
+      "end_pct": 0.467,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 209.4
+    },
+    {
+      "name": "Virage du Camion",
+      "start_pct": 0.484,
+      "end_pct": 0.53,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 141.7
+    },
+    {
+      "name": "Le Cavalet",
+      "start_pct": 0.531,
+      "end_pct": 0.595,
+      "corner_length_pct": 0.064,
+      "corner_length_m": 197.1
+    },
+    {
+      "name": "La servie",
+      "start_pct": 0.675,
+      "end_pct": 0.75,
+      "corner_length_pct": 0.075,
+      "corner_length_m": 231.0
+    },
+    {
+      "name": "La cuvette",
+      "start_pct": 0.827,
+      "end_pct": 0.88,
+      "corner_length_pct": 0.053,
+      "corner_length_m": 163.2
+    }
+  ]
+}

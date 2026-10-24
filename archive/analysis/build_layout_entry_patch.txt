@@ -1,0 +1,61 @@
+def build_layout_entry(track_dir: Path, match) -> dict:
+
+    track_id = int(
+        match.group("track_id")
+    )
+
+    relative_parts = (
+        track_dir
+        .relative_to(TRACK_MAPS_ROOT)
+        .parts
+    )
+
+    category = None
+    venue = None
+
+    if len(relative_parts) >= 3:
+        category = relative_parts[0]
+        venue = relative_parts[1]
+
+    folder_name = track_dir.name
+
+    remainder = match.group(
+        "remainder"
+    )
+
+    knowledge_dir = (
+        KNOWLEDGE_ROOT
+        / str(track_id)
+    )
+
+    elevation_dir = (
+        ELEVATION_ROOT
+        / str(track_id)
+    )
+
+    return {
+        "track_id": track_id,
+
+        "category": category,
+
+        "venue": venue,
+
+        "layout_identifier": remainder,
+
+        "folder_name": folder_name,
+
+        "relative_path": str(
+            track_dir.relative_to(
+                TRACK_MAPS_ROOT
+            )
+        ),
+
+        "assets": discover_assets(
+            track_dir
+        ),
+
+        "coverage": {
+            "knowledge": knowledge_dir.exists(),
+            "elevation": elevation_dir.exists()
+        }
+    }

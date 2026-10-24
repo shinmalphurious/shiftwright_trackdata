@@ -1,0 +1,76 @@
+{
+  "track_id": 9,
+  "source_coverage": {
+    "track_id": 9,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Summit Point Raceway",
+    "length_m": 3200
+  },
+  "pit": {
+    "entry_pct": 0.96,
+    "exit_pct": 0.02
+  },
+  "sectors": [
+    {
+      "marker": 0.467,
+      "name": "1"
+    },
+    {
+      "marker": 0.804,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.141,
+      "end_pct": 0.23,
+      "corner_length_pct": 0.089,
+      "corner_length_m": 284.8
+    },
+    {
+      "name": "Wagon Bend",
+      "start_pct": 0.307,
+      "end_pct": 0.388,
+      "corner_length_pct": 0.081,
+      "corner_length_m": 259.2
+    },
+    {
+      "name": "Chute",
+      "start_pct": 0.455,
+      "end_pct": 0.503,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 153.6
+    },
+    {
+      "name": "Carousel",
+      "start_pct": 0.51,
+      "end_pct": 0.627,
+      "corner_length_pct": 0.117,
+      "corner_length_m": 374.4
+    },
+    {
+      "name": "Esses",
+      "start_pct": 0.628,
+      "end_pct": 0.733,
+      "corner_length_pct": 0.105,
+      "corner_length_m": 336.0
+    },
+    {
+      "name": "Paddock Bend",
+      "start_pct": 0.84,
+      "end_pct": 0.905,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 208.0
+    }
+  ]
+}

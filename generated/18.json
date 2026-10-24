@@ -1,0 +1,137 @@
+{
+  "track_id": 18,
+  "source_coverage": {
+    "track_id": 18,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Road America Full Course",
+    "length_m": 6410
+  },
+  "pit": {
+    "entry_pct": 0.925,
+    "exit_pct": 0.056
+  },
+  "sectors": [
+    {
+      "marker": 0.143,
+      "name": "1"
+    },
+    {
+      "marker": 0.327,
+      "name": "2"
+    },
+    {
+      "marker": 0.478,
+      "name": "3"
+    },
+    {
+      "marker": 0.76,
+      "name": "4"
+    },
+    {
+      "marker": 0.866,
+      "name": "5"
+    },
+    {
+      "marker": 1.0,
+      "name": "6"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.08,
+      "end_pct": 0.118,
+      "corner_length_pct": 0.038,
+      "corner_length_m": 243.6
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.155,
+      "end_pct": 0.19,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 224.4
+    },
+    {
+      "name": "Moraine Sweep",
+      "start_pct": 0.255,
+      "end_pct": 0.3,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 288.4
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.335,
+      "end_pct": 0.37,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 224.3
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.39,
+      "end_pct": 0.415,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 160.2
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.43,
+      "end_pct": 0.45,
+      "corner_length_pct": 0.02,
+      "corner_length_m": 128.2
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.484,
+      "end_pct": 0.515,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 198.7
+    },
+    {
+      "name": "The Carousel",
+      "start_pct": 0.53,
+      "end_pct": 0.615,
+      "corner_length_pct": 0.085,
+      "corner_length_m": 544.8
+    },
+    {
+      "name": "The Kink",
+      "start_pct": 0.64,
+      "end_pct": 0.68,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 256.4
+    },
+    {
+      "name": "Kettle Bottoms",
+      "start_pct": 0.71,
+      "end_pct": 0.76,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 320.5
+    },
+    {
+      "name": "Canada Corner",
+      "start_pct": 0.775,
+      "end_pct": 0.806,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 198.7
+    },
+    {
+      "name": "Bill Mitchell Bend",
+      "start_pct": 0.824,
+      "end_pct": 0.855,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 198.7
+    },
+    {
+      "name": "Turn 14",
+      "start_pct": 0.871,
+      "end_pct": 0.91,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 250.0
+    }
+  ]
+}

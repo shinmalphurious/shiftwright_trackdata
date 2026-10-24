@@ -1,0 +1,196 @@
+{
+  "track_id": 521,
+  "source_coverage": {
+    "track_id": 521,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Sachsenring",
+    "length_m": 3590
+  },
+  "pit": {
+    "entry_pct": 0.974,
+    "exit_pct": 0.147
+  },
+  "sectors": [
+    {
+      "marker": 0.458,
+      "name": "1"
+    },
+    {
+      "marker": 0.724,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "auto motor und sport-Kurve",
+      "start_pct": 0.129,
+      "end_pct": 0.181,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 186.7
+    },
+    {
+      "name": "Omega-Kurve",
+      "start_pct": 0.19,
+      "end_pct": 0.307,
+      "corner_length_pct": 0.117,
+      "corner_length_m": 420.0
+    },
+    {
+      "name": "Kleine Kuppe-Kurve",
+      "start_pct": 0.308,
+      "end_pct": 0.383,
+      "corner_length_pct": 0.075,
+      "corner_length_m": 269.3
+    },
+    {
+      "name": "Karthallen-Kurve",
+      "start_pct": 0.41,
+      "end_pct": 0.453,
+      "corner_length_pct": 0.043,
+      "corner_length_m": 154.4
+    },
+    {
+      "name": "Volkswagen-Kurve",
+      "start_pct": 0.51,
+      "end_pct": 0.555,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 161.6
+    },
+    {
+      "name": "Grosse Kuppe-Kurve",
+      "start_pct": 0.58,
+      "end_pct": 0.615,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 125.7
+    },
+    {
+      "name": "Nordkurve ",
+      "start_pct": 0.62,
+      "end_pct": 0.665,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 161.6
+    },
+    {
+      "name": "Ralf-Waldmann-Kurve",
+      "start_pct": 0.668,
+      "end_pct": 0.749,
+      "corner_length_pct": 0.081,
+      "corner_length_m": 290.8
+    },
+    {
+      "name": "Sachsen Kurve",
+      "start_pct": 0.797,
+      "end_pct": 0.876,
+      "corner_length_pct": 0.079,
+      "corner_length_m": 283.6
+    },
+    {
+      "name": "Queckenberg Kurve",
+      "start_pct": 0.915,
+      "end_pct": 0.98,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 233.3
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "auto motor und sport-Kurve",
+      "start_pct": 0.129,
+      "end_pct": 0.181,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 186.7,
+      "exit_importance": 0.3941,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Omega-Kurve",
+      "start_pct": 0.19,
+      "end_pct": 0.307,
+      "corner_length_pct": 0.117,
+      "corner_length_m": 420.0,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "hairpin"
+    },
+    {
+      "name": "Kleine Kuppe-Kurve",
+      "start_pct": 0.308,
+      "end_pct": 0.383,
+      "corner_length_pct": 0.075,
+      "corner_length_m": 269.3,
+      "exit_importance": 0.1303,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Karthallen-Kurve",
+      "start_pct": 0.41,
+      "end_pct": 0.453,
+      "corner_length_pct": 0.043,
+      "corner_length_m": 154.4,
+      "exit_importance": 0.4136,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Volkswagen-Kurve",
+      "start_pct": 0.51,
+      "end_pct": 0.555,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 161.6,
+      "exit_importance": 0.2573,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Grosse Kuppe-Kurve",
+      "start_pct": 0.58,
+      "end_pct": 0.615,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 125.7,
+      "exit_importance": 0.1075,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Nordkurve ",
+      "start_pct": 0.62,
+      "end_pct": 0.665,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 161.6,
+      "exit_importance": 0.228,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Ralf-Waldmann-Kurve",
+      "start_pct": 0.668,
+      "end_pct": 0.749,
+      "corner_length_pct": 0.081,
+      "corner_length_m": 290.8,
+      "exit_importance": 0.7328,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Sachsen Kurve",
+      "start_pct": 0.797,
+      "end_pct": 0.876,
+      "corner_length_pct": 0.079,
+      "corner_length_m": 283.6,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    }
+  ]
+}

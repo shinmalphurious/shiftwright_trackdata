@@ -1,0 +1,141 @@
+{
+  "track_id": 510,
+  "source_coverage": {
+    "track_id": 510,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": 0.95,
+    "exit_pct": 0.09
+  },
+  "sectors": [
+    {
+      "marker": 0.316,
+      "name": "1"
+    },
+    {
+      "marker": 0.675,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Primeira",
+      "start_pct": 0.124,
+      "end_pct": 0.166,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 192.4
+    },
+    {
+      "name": "Turn 2",
+      "start_pct": 0.167,
+      "end_pct": 0.193,
+      "corner_length_pct": 0.026,
+      "corner_length_m": 119.1
+    },
+    {
+      "name": "Lagos",
+      "start_pct": 0.194,
+      "end_pct": 0.228,
+      "corner_length_pct": 0.034,
+      "corner_length_m": 155.7
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.229,
+      "end_pct": 0.274,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 206.1
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.049,
+      "end_pct": 0.118,
+      "corner_length_pct": 0.069,
+      "corner_length_m": 316.0
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.355,
+      "end_pct": 0.392,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 169.5
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.4,
+      "end_pct": 0.449,
+      "corner_length_pct": 0.049,
+      "corner_length_m": 224.4
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.45,
+      "end_pct": 0.486,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 164.9
+    },
+    {
+      "name": "Samsung",
+      "start_pct": 0.487,
+      "end_pct": 0.537,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 229.0
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.558,
+      "end_pct": 0.617,
+      "corner_length_pct": 0.059,
+      "corner_length_m": 270.2
+    },
+    {
+      "name": "Portimao",
+      "start_pct": 0.618,
+      "end_pct": 0.669,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 233.6
+    },
+    {
+      "name": "Turn 12",
+      "start_pct": 0.67,
+      "end_pct": 0.723,
+      "corner_length_pct": 0.053,
+      "corner_length_m": 242.7
+    },
+    {
+      "name": "Turn 13",
+      "start_pct": 0.728,
+      "end_pct": 0.77,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 192.4
+    },
+    {
+      "name": "Sagres",
+      "start_pct": 0.775,
+      "end_pct": 0.833,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 265.6
+    },
+    {
+      "name": "Galp",
+      "start_pct": 0.85,
+      "end_pct": 0.945,
+      "corner_length_pct": 0.095,
+      "corner_length_m": 435.1
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 509,
+    "inheritance_level": "high"
+  }
+}

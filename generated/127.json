@@ -1,0 +1,136 @@
+{
+  "track_id": 127,
+  "source_coverage": {
+    "track_id": 127,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Road Atlanta - Full Course",
+    "length_m": 4060
+  },
+  "pit": {
+    "entry_pct": 0.94,
+    "exit_pct": 0.131
+  },
+  "sectors": [
+    {
+      "marker": 0.168,
+      "name": "1"
+    },
+    {
+      "marker": 0.443,
+      "name": "2"
+    },
+    {
+      "marker": 0.787,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.049,
+      "end_pct": 0.155,
+      "corner_length_pct": 0.106,
+      "corner_length_m": 430.4
+    },
+    {
+      "name": "Turn 2",
+      "start_pct": 0.156,
+      "end_pct": 0.195,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 158.3
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.196,
+      "end_pct": 0.213,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 69.0
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.214,
+      "end_pct": 0.249,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 142.1
+    },
+    {
+      "name": "The Esses",
+      "start_pct": 0.26,
+      "end_pct": 0.332,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 292.3
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.333,
+      "end_pct": 0.373,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 162.4
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.466,
+      "end_pct": 0.505,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 158.3
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.515,
+      "end_pct": 0.545,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 121.8
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.56,
+      "end_pct": 0.63,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 284.2
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.729,
+      "end_pct": 0.79,
+      "corner_length_pct": 0.061,
+      "corner_length_m": 247.7
+    },
+    {
+      "name": "Turn 10A",
+      "start_pct": 0.825,
+      "end_pct": 0.866,
+      "corner_length_pct": 0.041,
+      "corner_length_m": 166.5
+    },
+    {
+      "name": "Turn 10B",
+      "start_pct": 0.867,
+      "end_pct": 0.897,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 121.8
+    },
+    {
+      "name": "Turn 11",
+      "start_pct": 0.908,
+      "end_pct": 0.941,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 134.0
+    },
+    {
+      "name": "Turn 12",
+      "start_pct": 0.959,
+      "end_pct": 1.0,
+      "corner_length_pct": 0.041,
+      "corner_length_m": 166.5
+    }
+  ]
+}

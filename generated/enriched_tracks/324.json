@@ -1,0 +1,183 @@
+{
+  "track_id": 324,
+  "source_coverage": {
+    "track_id": 324,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Tsukuba Circuit - 2000 Full",
+    "length_m": 2040
+  },
+  "pit": {
+    "entry_pct": null,
+    "exit_pct": null
+  },
+  "sectors": [
+    {
+      "marker": 0.25,
+      "name": "1"
+    },
+    {
+      "marker": 0.5,
+      "name": "2"
+    },
+    {
+      "marker": 0.75,
+      "name": "3"
+    },
+    {
+      "marker": 1,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.091,
+      "end_pct": 0.178,
+      "corner_length_pct": 0.087,
+      "corner_length_m": 177.5
+    },
+    {
+      "name": null,
+      "start_pct": 0.2,
+      "end_pct": 0.244,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 89.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.245,
+      "end_pct": 0.278,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 67.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.279,
+      "end_pct": 0.35,
+      "corner_length_pct": 0.071,
+      "corner_length_m": 144.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.38,
+      "end_pct": 0.438,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 118.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.449,
+      "end_pct": 0.507,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 118.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.508,
+      "end_pct": 0.558,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 102.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.559,
+      "end_pct": 0.64,
+      "corner_length_pct": 0.081,
+      "corner_length_m": 165.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.825,
+      "end_pct": 0.99,
+      "corner_length_pct": 0.165,
+      "corner_length_m": 336.6
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": null,
+      "start_pct": 0.091,
+      "end_pct": 0.178,
+      "corner_length_pct": 0.087,
+      "corner_length_m": 177.5,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.2,
+      "end_pct": 0.244,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 89.8,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.245,
+      "end_pct": 0.278,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 67.3,
+      "exit_importance": 0.0554,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.279,
+      "end_pct": 0.35,
+      "corner_length_pct": 0.071,
+      "corner_length_m": 144.8,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.38,
+      "end_pct": 0.438,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 118.3,
+      "exit_importance": 0.5569,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.449,
+      "end_pct": 0.507,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 118.3,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.508,
+      "end_pct": 0.558,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 102.0,
+      "exit_importance": 0.1498,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.559,
+      "end_pct": 0.64,
+      "corner_length_pct": 0.081,
+      "corner_length_m": 165.2,
+      "exit_importance": 0.0456,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    }
+  ]
+}

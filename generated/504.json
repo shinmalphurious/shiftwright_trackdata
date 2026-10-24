@@ -1,0 +1,92 @@
+{
+  "track_id": 504,
+  "source_coverage": {
+    "track_id": 504,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": 0.905,
+    "exit_pct": 0.117
+  },
+  "sectors": [
+    {
+      "marker": 0.233,
+      "name": "1"
+    },
+    {
+      "marker": 0.639,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Variante del Parco",
+      "start_pct": 0.049,
+      "end_pct": 0.118,
+      "corner_length_pct": 0.069,
+      "corner_length_m": 287.7
+    },
+    {
+      "name": "Curva del Rio",
+      "start_pct": 0.17,
+      "end_pct": 0.265,
+      "corner_length_pct": 0.095,
+      "corner_length_m": 396.1
+    },
+    {
+      "name": "Curva Quericia",
+      "start_pct": 0.365,
+      "end_pct": 0.445,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 333.6
+    },
+    {
+      "name": "Curva Tramonto",
+      "start_pct": 0.475,
+      "end_pct": 0.557,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 341.9
+    },
+    {
+      "name": "Curvone",
+      "start_pct": 0.645,
+      "end_pct": 0.751,
+      "corner_length_pct": 0.106,
+      "corner_length_m": 442.0
+    },
+    {
+      "name": "Curva del Carro",
+      "start_pct": 0.79,
+      "end_pct": 0.839,
+      "corner_length_pct": 0.049,
+      "corner_length_m": 204.3
+    },
+    {
+      "name": "Turn 15",
+      "start_pct": 0.84,
+      "end_pct": 0.89,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 208.5
+    },
+    {
+      "name": "Curva Misano",
+      "start_pct": 0.9,
+      "end_pct": 0.95,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 208.5
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 501,
+    "inheritance_level": "medium"
+  }
+}

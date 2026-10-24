@@ -1,0 +1,167 @@
+{
+  "track_id": 202,
+  "source_coverage": {
+    "track_id": 202,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Oran Park Raceway - GP",
+    "length_m": 2600
+  },
+  "pit": {
+    "entry_pct": 0.965,
+    "exit_pct": 0.138
+  },
+  "sectors": [
+    {
+      "marker": 0.304,
+      "name": "1"
+    },
+    {
+      "marker": 0.481,
+      "name": "2"
+    },
+    {
+      "marker": 0.659,
+      "name": "3"
+    },
+    {
+      "marker": 0.84,
+      "name": "4"
+    },
+    {
+      "marker": 1.0,
+      "name": "5"
+    }
+  ],
+  "corners": [
+    {
+      "name": "The Sweeper",
+      "start_pct": 0.147,
+      "end_pct": 0.195,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 124.8
+    },
+    {
+      "name": "Coca-Cola Corner",
+      "start_pct": 0.196,
+      "end_pct": 0.268,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 187.2
+    },
+    {
+      "name": "Shell Corner",
+      "start_pct": 0.32,
+      "end_pct": 0.38,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 156.0
+    },
+    {
+      "name": "Champion Curve",
+      "start_pct": 0.414,
+      "end_pct": 0.475,
+      "corner_length_pct": 0.061,
+      "corner_length_m": 158.6
+    },
+    {
+      "name": "Yokohama Bridge",
+      "start_pct": 0.478,
+      "end_pct": 0.55,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 187.2
+    },
+    {
+      "name": "Foster's Dip",
+      "start_pct": 0.575,
+      "end_pct": 0.65,
+      "corner_length_pct": 0.075,
+      "corner_length_m": 195.0
+    },
+    {
+      "name": "Momo Corner",
+      "start_pct": 0.67,
+      "end_pct": 0.73,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 156.0
+    },
+    {
+      "name": "O'Brien Aluminium Dogleg",
+      "start_pct": 0.755,
+      "end_pct": 0.83,
+      "corner_length_pct": 0.075,
+      "corner_length_m": 195.0
+    },
+    {
+      "name": "Recaro Corner",
+      "start_pct": 0.85,
+      "end_pct": 0.93,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 208.0
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "The Sweeper",
+      "start_pct": 0.147,
+      "end_pct": 0.195,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 124.8,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Coca-Cola Corner",
+      "start_pct": 0.196,
+      "end_pct": 0.268,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 187.2,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Shell Corner",
+      "start_pct": 0.32,
+      "end_pct": 0.38,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 156.0,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Champion Curve",
+      "start_pct": 0.414,
+      "end_pct": 0.475,
+      "corner_length_pct": 0.061,
+      "corner_length_m": 158.6,
+      "exit_importance": 0.723,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Yokohama Bridge",
+      "start_pct": 0.478,
+      "end_pct": 0.55,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 187.2,
+      "exit_importance": 0.6514,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Foster's Dip",
+      "start_pct": 0.575,
+      "end_pct": 0.65,
+      "corner_length_pct": 0.075,
+      "corner_length_m": 195.0,
+      "exit_importance": 0.5113,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    }
+  ]
+}

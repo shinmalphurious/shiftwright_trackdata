@@ -1,0 +1,158 @@
+{
+  "track_id": 246,
+  "source_coverage": {
+    "track_id": 246,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": 0.966,
+    "exit_pct": 0.061
+  },
+  "sectors": [
+    {
+      "marker": 0.345,
+      "name": "1"
+    },
+    {
+      "marker": 0.476,
+      "name": "2"
+    },
+    {
+      "marker": 0.658,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Prima Variante",
+      "start_pct": 0.143,
+      "end_pct": 0.206,
+      "corner_length_pct": 0.063,
+      "corner_length_m": 362.2
+    },
+    {
+      "name": "Curva Biassono",
+      "start_pct": 0.218,
+      "end_pct": 0.32,
+      "corner_length_pct": 0.102,
+      "corner_length_m": 586.5
+    },
+    {
+      "name": "Seconda Variante",
+      "start_pct": 0.35,
+      "end_pct": 0.392,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 241.5
+    },
+    {
+      "name": "Prima Curva di Lesmo",
+      "start_pct": 0.423,
+      "end_pct": 0.467,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 253.0
+    },
+    {
+      "name": "Seconda Curva di Lesmo",
+      "start_pct": 0.484,
+      "end_pct": 0.52,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 207.0
+    },
+    {
+      "name": "Curva del Serraglio",
+      "start_pct": 0.555,
+      "end_pct": 0.594,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 224.2
+    },
+    {
+      "name": "Variante Ascari",
+      "start_pct": 0.65,
+      "end_pct": 0.73,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 460.0
+    },
+    {
+      "name": "Curva Parabolica",
+      "start_pct": 0.866,
+      "end_pct": 0.96,
+      "corner_length_pct": 0.094,
+      "corner_length_m": 540.5
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 239,
+    "inheritance_level": "high"
+  },
+  "enriched_corners": [
+    {
+      "name": "Prima Variante",
+      "start_pct": 0.143,
+      "end_pct": 0.206,
+      "corner_length_pct": 0.063,
+      "corner_length_m": 362.2,
+      "exit_importance": 0.6579,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Curva Biassono",
+      "start_pct": 0.218,
+      "end_pct": 0.32,
+      "corner_length_pct": 0.102,
+      "corner_length_m": 586.5,
+      "exit_importance": 0.495,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Seconda Variante",
+      "start_pct": 0.35,
+      "end_pct": 0.392,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 241.5,
+      "exit_importance": 0.482,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Prima Curva di Lesmo",
+      "start_pct": 0.423,
+      "end_pct": 0.467,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 253.0,
+      "exit_importance": 0.9608,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Seconda Curva di Lesmo",
+      "start_pct": 0.484,
+      "end_pct": 0.52,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 207.0,
+      "exit_importance": 0.9412,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Curva del Serraglio",
+      "start_pct": 0.555,
+      "end_pct": 0.594,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 224.2,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "hairpin"
+    }
+  ]
+}

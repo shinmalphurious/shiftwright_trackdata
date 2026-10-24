@@ -1,0 +1,172 @@
+{
+  "track_id": 390,
+  "source_coverage": {
+    "track_id": 390,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Hockenheimring - GP",
+    "length_m": 4530
+  },
+  "pit": {
+    "entry_pct": 0.92,
+    "exit_pct": 0.068
+  },
+  "sectors": [
+    {
+      "marker": 0.225,
+      "name": "1"
+    },
+    {
+      "marker": 0.708,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Nordkurve",
+      "start_pct": 0.03,
+      "end_pct": 0.084,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 244.6
+    },
+    {
+      "name": "Einfahrt Parabolika",
+      "start_pct": 0.16,
+      "end_pct": 0.225,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 294.4
+    },
+    {
+      "name": "Parabolika",
+      "start_pct": 0.226,
+      "end_pct": 0.39,
+      "corner_length_pct": 0.164,
+      "corner_length_m": 742.9
+    },
+    {
+      "name": "Spitzkehre",
+      "start_pct": 0.43,
+      "end_pct": 0.48,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 226.5
+    },
+    {
+      "name": "Mercedes",
+      "start_pct": 0.57,
+      "end_pct": 0.64,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 317.1
+    },
+    {
+      "name": "Mobil 1 Kurve",
+      "start_pct": 0.725,
+      "end_pct": 0.788,
+      "corner_length_pct": 0.063,
+      "corner_length_m": 285.4
+    },
+    {
+      "name": "Sachs-Kurve",
+      "start_pct": 0.806,
+      "end_pct": 0.873,
+      "corner_length_pct": 0.067,
+      "corner_length_m": 303.5
+    },
+    {
+      "name": "Suedkurve",
+      "start_pct": 0.891,
+      "end_pct": 0.964,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 330.7
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Nordkurve",
+      "start_pct": 0.03,
+      "end_pct": 0.084,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 244.6,
+      "exit_importance": 0.0423,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Einfahrt Parabolika",
+      "start_pct": 0.16,
+      "end_pct": 0.225,
+      "corner_length_pct": 0.065,
+      "corner_length_m": 294.4,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Parabolika",
+      "start_pct": 0.226,
+      "end_pct": 0.39,
+      "corner_length_pct": 0.164,
+      "corner_length_m": 742.9,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Spitzkehre",
+      "start_pct": 0.43,
+      "end_pct": 0.48,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 226.5,
+      "exit_importance": 0.2736,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Mercedes",
+      "start_pct": 0.57,
+      "end_pct": 0.64,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 317.1,
+      "exit_importance": 0.456,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Mobil 1 Kurve",
+      "start_pct": 0.725,
+      "end_pct": 0.788,
+      "corner_length_pct": 0.063,
+      "corner_length_m": 285.4,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Sachs-Kurve",
+      "start_pct": 0.806,
+      "end_pct": 0.873,
+      "corner_length_pct": 0.067,
+      "corner_length_m": 303.5,
+      "exit_importance": 0.2833,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Suedkurve",
+      "start_pct": 0.891,
+      "end_pct": 0.964,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 330.7,
+      "exit_importance": 0.5146,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

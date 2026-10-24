@@ -1,0 +1,115 @@
+{
+  "track_id": 233,
+  "source_coverage": {
+    "track_id": 233,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Donington Park Racing Circuit - GP",
+    "length_m": 3940
+  },
+  "pit": {
+    "entry_pct": 0.96,
+    "exit_pct": 0.05
+  },
+  "sectors": [
+    {
+      "marker": 0.238,
+      "name": "1"
+    },
+    {
+      "marker": 0.495,
+      "name": "2"
+    },
+    {
+      "marker": 0.795,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Redgate",
+      "start_pct": 0.066,
+      "end_pct": 0.127,
+      "corner_length_pct": 0.061,
+      "corner_length_m": 240.3
+    },
+    {
+      "name": "Hollywood",
+      "start_pct": 0.133,
+      "end_pct": 0.195,
+      "corner_length_pct": 0.062,
+      "corner_length_m": 244.3
+    },
+    {
+      "name": "Craner Curves",
+      "start_pct": 0.2,
+      "end_pct": 0.245,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 177.3
+    },
+    {
+      "name": "Old Hairpin",
+      "start_pct": 0.26,
+      "end_pct": 0.308,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 189.1
+    },
+    {
+      "name": "Starkey's Bridge",
+      "start_pct": 0.32,
+      "end_pct": 0.365,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 177.3
+    },
+    {
+      "name": "Schwantz Curve",
+      "start_pct": 0.375,
+      "end_pct": 0.413,
+      "corner_length_pct": 0.038,
+      "corner_length_m": 149.7
+    },
+    {
+      "name": "McLeans",
+      "start_pct": 0.42,
+      "end_pct": 0.475,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 216.7
+    },
+    {
+      "name": "Coppice",
+      "start_pct": 0.495,
+      "end_pct": 0.584,
+      "corner_length_pct": 0.089,
+      "corner_length_m": 350.7
+    },
+    {
+      "name": "Fogarty Esses",
+      "start_pct": 0.696,
+      "end_pct": 0.75,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 212.8
+    },
+    {
+      "name": "Melbourne Hairpin",
+      "start_pct": 0.815,
+      "end_pct": 0.86,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 177.3
+    },
+    {
+      "name": "Goddards",
+      "start_pct": 0.915,
+      "end_pct": 0.965,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 197.0
+    }
+  ]
+}

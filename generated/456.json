@@ -1,0 +1,94 @@
+{
+  "track_id": 456,
+  "source_coverage": {
+    "track_id": 456,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Motorsport Arena Oschersleben - C Course",
+    "length_m": 1070
+  },
+  "pit": {
+    "entry_pct": 0.721,
+    "exit_pct": 0.764
+  },
+  "sectors": [
+    {
+      "marker": 0.25,
+      "name": "1"
+    },
+    {
+      "marker": 0.5,
+      "name": "2"
+    },
+    {
+      "marker": 0.75,
+      "name": "3"
+    },
+    {
+      "marker": 1,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.015,
+      "end_pct": 0.075,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 64.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.076,
+      "end_pct": 0.303,
+      "corner_length_pct": 0.227,
+      "corner_length_m": 242.9
+    },
+    {
+      "name": null,
+      "start_pct": 0.335,
+      "end_pct": 0.402,
+      "corner_length_pct": 0.067,
+      "corner_length_m": 71.7
+    },
+    {
+      "name": null,
+      "start_pct": 0.403,
+      "end_pct": 0.445,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 44.9
+    },
+    {
+      "name": null,
+      "start_pct": 0.446,
+      "end_pct": 0.601,
+      "corner_length_pct": 0.155,
+      "corner_length_m": 165.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.685,
+      "end_pct": 0.797,
+      "corner_length_pct": 0.112,
+      "corner_length_m": 119.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.821,
+      "end_pct": 0.914,
+      "corner_length_pct": 0.093,
+      "corner_length_m": 99.5
+    },
+    {
+      "name": null,
+      "start_pct": 0.915,
+      "end_pct": 0.9,
+      "corner_length_pct": -0.015,
+      "corner_length_m": -16.1
+    }
+  ]
+}

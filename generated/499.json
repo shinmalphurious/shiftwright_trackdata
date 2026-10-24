@@ -1,0 +1,79 @@
+{
+  "track_id": 499,
+  "source_coverage": {
+    "track_id": 499,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Autodromo Internazionale del Mugello - Short",
+    "length_m": 1400
+  },
+  "pit": {
+    "entry_pct": 0.771,
+    "exit_pct": 0.212
+  },
+  "sectors": [
+    {
+      "marker": 0.728,
+      "name": "1"
+    },
+    {
+      "marker": 1,
+      "name": "2"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.249,
+      "end_pct": 0.329,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 112.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.352,
+      "end_pct": 0.401,
+      "corner_length_pct": 0.049,
+      "corner_length_m": 68.6
+    },
+    {
+      "name": null,
+      "start_pct": 0.402,
+      "end_pct": 0.462,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 84.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.562,
+      "end_pct": 0.61,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 67.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.611,
+      "end_pct": 0.662,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 71.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.735,
+      "end_pct": 0.785,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 70.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.812,
+      "end_pct": 0.885,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 102.2
+    }
+  ]
+}

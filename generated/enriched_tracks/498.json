@@ -1,0 +1,201 @@
+{
+  "track_id": 498,
+  "source_coverage": {
+    "track_id": 498,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Mugello Grand Prix",
+    "length_m": 5190
+  },
+  "pit": {
+    "entry_pct": 0.912,
+    "exit_pct": 0.06
+  },
+  "sectors": [
+    {
+      "marker": 0.356,
+      "name": "1"
+    },
+    {
+      "marker": 0.645,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "San Donato",
+      "start_pct": 0.116,
+      "end_pct": 0.167,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 264.7
+    },
+    {
+      "name": "Luco",
+      "start_pct": 0.17,
+      "end_pct": 0.194,
+      "corner_length_pct": 0.024,
+      "corner_length_m": 124.6
+    },
+    {
+      "name": "Poggiosecco",
+      "start_pct": 0.195,
+      "end_pct": 0.235,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 207.6
+    },
+    {
+      "name": "Materassi",
+      "start_pct": 0.268,
+      "end_pct": 0.294,
+      "corner_length_pct": 0.026,
+      "corner_length_m": 134.9
+    },
+    {
+      "name": "Borgo San Lorenzo",
+      "start_pct": 0.295,
+      "end_pct": 0.32,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 129.8
+    },
+    {
+      "name": "Casanova",
+      "start_pct": 0.355,
+      "end_pct": 0.384,
+      "corner_length_pct": 0.029,
+      "corner_length_m": 150.5
+    },
+    {
+      "name": "Savelli",
+      "start_pct": 0.39,
+      "end_pct": 0.42,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 155.7
+    },
+    {
+      "name": "Arrabbiata 1",
+      "start_pct": 0.436,
+      "end_pct": 0.485,
+      "corner_length_pct": 0.049,
+      "corner_length_m": 254.3
+    },
+    {
+      "name": "Arrabbiata 2",
+      "start_pct": 0.495,
+      "end_pct": 0.535,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 207.6
+    },
+    {
+      "name": "Scarperia",
+      "start_pct": 0.57,
+      "end_pct": 0.59,
+      "corner_length_pct": 0.02,
+      "corner_length_m": 103.8
+    },
+    {
+      "name": "Palagio",
+      "start_pct": 0.592,
+      "end_pct": 0.625,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 171.3
+    },
+    {
+      "name": "Correntaio",
+      "start_pct": 0.666,
+      "end_pct": 0.722,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 290.6
+    },
+    {
+      "name": "Biondetti 1",
+      "start_pct": 0.73,
+      "end_pct": 0.753,
+      "corner_length_pct": 0.023,
+      "corner_length_m": 119.4
+    },
+    {
+      "name": "Biondetti 2",
+      "start_pct": 0.755,
+      "end_pct": 0.77,
+      "corner_length_pct": 0.015,
+      "corner_length_m": 77.9
+    },
+    {
+      "name": "Bucine",
+      "start_pct": 0.83,
+      "end_pct": 0.9,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 363.3
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "San Donato",
+      "start_pct": 0.116,
+      "end_pct": 0.167,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 264.7,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Luco",
+      "start_pct": 0.17,
+      "end_pct": 0.194,
+      "corner_length_pct": 0.024,
+      "corner_length_m": 124.6,
+      "exit_importance": 0.7686,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Poggiosecco",
+      "start_pct": 0.195,
+      "end_pct": 0.235,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 207.6,
+      "exit_importance": 0.1628,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Materassi",
+      "start_pct": 0.268,
+      "end_pct": 0.294,
+      "corner_length_pct": 0.026,
+      "corner_length_m": 134.9,
+      "exit_importance": 0.6644,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Borgo San Lorenzo",
+      "start_pct": 0.295,
+      "end_pct": 0.32,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 129.8,
+      "exit_importance": 0.3094,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Casanova",
+      "start_pct": 0.355,
+      "end_pct": 0.384,
+      "corner_length_pct": 0.029,
+      "corner_length_m": 150.5,
+      "exit_importance": 0.0,
+      "dependency_reason": "normal",
+      "corner_type": "hairpin"
+    }
+  ]
+}

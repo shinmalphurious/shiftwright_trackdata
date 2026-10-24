@@ -1,0 +1,190 @@
+{
+  "track_id": 522,
+  "source_coverage": {
+    "track_id": 522,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": 0.833,
+    "exit_pct": 0.107
+  },
+  "sectors": [
+    {
+      "marker": 0.261,
+      "name": "1"
+    },
+    {
+      "marker": 0.505,
+      "name": "2"
+    },
+    {
+      "marker": 0.662,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.15,
+      "end_pct": 0.183,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 127.1
+    },
+    {
+      "name": "Turn 2",
+      "start_pct": 0.184,
+      "end_pct": 0.209,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 96.2
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.21,
+      "end_pct": 0.254,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 169.4
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.255,
+      "end_pct": 0.3,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 173.2
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.309,
+      "end_pct": 0.326,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 65.5
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.327,
+      "end_pct": 0.351,
+      "corner_length_pct": 0.024,
+      "corner_length_m": 92.4
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.51,
+      "end_pct": 0.549,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 150.2
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.55,
+      "end_pct": 0.579,
+      "corner_length_pct": 0.029,
+      "corner_length_m": 111.6
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.58,
+      "end_pct": 0.604,
+      "corner_length_pct": 0.024,
+      "corner_length_m": 92.4
+    },
+    {
+      "name": "Turn 10",
+      "start_pct": 0.605,
+      "end_pct": 0.655,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 192.5
+    },
+    {
+      "name": "Turn 11",
+      "start_pct": 0.675,
+      "end_pct": 0.733,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 223.3
+    },
+    {
+      "name": "Turn 12",
+      "start_pct": 0.77,
+      "end_pct": 0.805,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 134.8
+    },
+    {
+      "name": "Turn 13",
+      "start_pct": 0.81,
+      "end_pct": 0.843,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 127.0
+    },
+    {
+      "name": "Turn 14",
+      "start_pct": 0.85,
+      "end_pct": 0.934,
+      "corner_length_pct": 0.084,
+      "corner_length_m": 323.4
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 448,
+    "inheritance_level": "high"
+  },
+  "enriched_corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.15,
+      "end_pct": 0.183,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 127.1,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 2",
+      "start_pct": 0.184,
+      "end_pct": 0.209,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 96.2,
+      "exit_importance": 0.3257,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.21,
+      "end_pct": 0.254,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 169.4,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.255,
+      "end_pct": 0.3,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 173.2,
+      "exit_importance": 0.3322,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.309,
+      "end_pct": 0.326,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 65.5,
+      "exit_importance": 0.2996,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

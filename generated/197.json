@@ -1,0 +1,72 @@
+{
+  "track_id": 197,
+  "source_coverage": {
+    "track_id": 197,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Mobility Resort Motegi - West",
+    "length_m": 1400
+  },
+  "pit": {
+    "entry_pct": 0.771,
+    "exit_pct": 0.079
+  },
+  "sectors": [
+    {
+      "marker": 0.507,
+      "name": "1"
+    },
+    {
+      "marker": 1,
+      "name": "2"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.135,
+      "end_pct": 0.217,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 114.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.218,
+      "end_pct": 0.281,
+      "corner_length_pct": 0.063,
+      "corner_length_m": 88.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.562,
+      "end_pct": 0.618,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 78.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.619,
+      "end_pct": 0.649,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 42.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.662,
+      "end_pct": 0.704,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 58.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.715,
+      "end_pct": 0.781,
+      "corner_length_pct": 0.066,
+      "corner_length_m": 92.4
+    }
+  ]
+}

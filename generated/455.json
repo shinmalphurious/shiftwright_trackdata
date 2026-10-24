@@ -1,0 +1,86 @@
+{
+  "track_id": 455,
+  "source_coverage": {
+    "track_id": 455,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Motorsport Arena Oschersleben - B Course",
+    "length_m": 2390
+  },
+  "pit": {
+    "entry_pct": 0.841,
+    "exit_pct": 0.249
+  },
+  "sectors": [
+    {
+      "marker": 0.601,
+      "name": "1"
+    },
+    {
+      "marker": 1,
+      "name": "2"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.156,
+      "end_pct": 0.207,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 121.9
+    },
+    {
+      "name": "Hotel",
+      "start_pct": 0.208,
+      "end_pct": 0.318,
+      "corner_length_pct": 0.11,
+      "corner_length_m": 262.9
+    },
+    {
+      "name": "Hasser\u00f6der",
+      "start_pct": 0.387,
+      "end_pct": 0.471,
+      "corner_length_pct": 0.084,
+      "corner_length_m": 200.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.488,
+      "end_pct": 0.546,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 138.6
+    },
+    {
+      "name": "Shell Kurve",
+      "start_pct": 0.604,
+      "end_pct": 0.658,
+      "corner_length_pct": 0.054,
+      "corner_length_m": 129.1
+    },
+    {
+      "name": "Amman Kurve",
+      "start_pct": 0.659,
+      "end_pct": 0.721,
+      "corner_length_pct": 0.062,
+      "corner_length_m": 148.2
+    },
+    {
+      "name": "Bauer Kurve",
+      "start_pct": 0.766,
+      "end_pct": 0.825,
+      "corner_length_pct": 0.059,
+      "corner_length_m": 141.0
+    },
+    {
+      "name": "Zeppelin Kurve",
+      "start_pct": 0.841,
+      "end_pct": 0.931,
+      "corner_length_pct": 0.09,
+      "corner_length_m": 215.1
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "track_id": 515,
+  "source_coverage": {
+    "track_id": 515,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Circuito de Navarra Speed Circuit Long",
+    "length_m": 3890
+  },
+  "pit": {
+    "entry_pct": 0.802,
+    "exit_pct": 0.029
+  },
+  "sectors": [
+    {
+      "marker": 0.27,
+      "name": "1"
+    },
+    {
+      "marker": 0.568,
+      "name": "2"
+    },
+    {
+      "marker": 0.735,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.089,
+      "end_pct": 0.125,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 140.0
+    },
+    {
+      "name": "Turn 2",
+      "start_pct": 0.126,
+      "end_pct": 0.16,
+      "corner_length_pct": 0.034,
+      "corner_length_m": 132.3
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.161,
+      "end_pct": 0.201,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 155.6
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.202,
+      "end_pct": 0.26,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 225.6
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.29,
+      "end_pct": 0.345,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 213.9
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.346,
+      "end_pct": 0.385,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 151.7
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.386,
+      "end_pct": 0.43,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 171.2
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.435,
+      "end_pct": 0.477,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 163.4
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.565,
+      "end_pct": 0.605,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 155.6
+    },
+    {
+      "name": "Turn 10",
+      "start_pct": 0.606,
+      "end_pct": 0.641,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 136.2
+    },
+    {
+      "name": "Turn 11",
+      "start_pct": 0.646,
+      "end_pct": 0.687,
+      "corner_length_pct": 0.041,
+      "corner_length_m": 159.5
+    },
+    {
+      "name": "Turn 12",
+      "start_pct": 0.69,
+      "end_pct": 0.727,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 143.9
+    },
+    {
+      "name": "Turn 13",
+      "start_pct": 0.75,
+      "end_pct": 0.795,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 175.1
+    },
+    {
+      "name": "Turn 14",
+      "start_pct": 0.815,
+      "end_pct": 0.855,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 155.6
+    },
+    {
+      "name": "Turn 15",
+      "start_pct": 0.868,
+      "end_pct": 0.915,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 182.8
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.089,
+      "end_pct": 0.125,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 140.0,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 2",
+      "start_pct": 0.126,
+      "end_pct": 0.16,
+      "corner_length_pct": 0.034,
+      "corner_length_m": 132.3,
+      "exit_importance": 0.7523,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "hairpin"
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.161,
+      "end_pct": 0.201,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 155.6,
+      "exit_importance": 0.215,
+      "dependency_reason": "normal",
+      "corner_type": "hairpin"
+    },
+    {
+      "name": "Turn 4",
+      "start_pct": 0.202,
+      "end_pct": 0.26,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 225.6,
+      "exit_importance": 0.4169,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.29,
+      "end_pct": 0.345,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 213.9,
+      "exit_importance": 0.8468,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.346,
+      "end_pct": 0.385,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 151.7,
+      "exit_importance": 0.3908,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.386,
+      "end_pct": 0.43,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 171.2,
+      "exit_importance": 0.1531,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.435,
+      "end_pct": 0.477,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 163.4,
+      "exit_importance": 0.2899,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.565,
+      "end_pct": 0.605,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 155.6,
+      "exit_importance": 0.3094,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 10",
+      "start_pct": 0.606,
+      "end_pct": 0.641,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 136.2,
+      "exit_importance": 0.456,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

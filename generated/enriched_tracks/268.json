@@ -1,0 +1,289 @@
+{
+  "track_id": 268,
+  "source_coverage": {
+    "track_id": 268,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Circuit des 24 Heures du Mans",
+    "length_m": 13550
+  },
+  "pit": {
+    "entry_pct": 0.962,
+    "exit_pct": 0.03
+  },
+  "sectors": [
+    {
+      "marker": 0.13,
+      "name": "1"
+    },
+    {
+      "marker": 0.263,
+      "name": "2"
+    },
+    {
+      "marker": 0.409,
+      "name": "3"
+    },
+    {
+      "marker": 0.53,
+      "name": "4"
+    },
+    {
+      "marker": 0.686,
+      "name": "5"
+    },
+    {
+      "marker": 0.816,
+      "name": "6"
+    },
+    {
+      "marker": 1.0,
+      "name": "7"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Courbe Dunlop",
+      "start_pct": 0.04,
+      "end_pct": 0.054,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 189.7
+    },
+    {
+      "name": "Ralentisseur Dunlop",
+      "start_pct": 0.057,
+      "end_pct": 0.074,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 230.3
+    },
+    {
+      "name": "Descente de la Chapelle",
+      "start_pct": 0.077,
+      "end_pct": 0.085,
+      "corner_length_pct": 0.008,
+      "corner_length_m": 108.4
+    },
+    {
+      "name": "S du Tetre Rouge",
+      "start_pct": 0.087,
+      "end_pct": 0.121,
+      "corner_length_pct": 0.034,
+      "corner_length_m": 460.7
+    },
+    {
+      "name": "Virage du Tertre Rouge",
+      "start_pct": 0.133,
+      "end_pct": 0.165,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 433.6
+    },
+    {
+      "name": "Courbe d'Antares",
+      "start_pct": 0.182,
+      "end_pct": 0.2,
+      "corner_length_pct": 0.018,
+      "corner_length_m": 243.9
+    },
+    {
+      "name": "1er Ralentisseur",
+      "start_pct": 0.284,
+      "end_pct": 0.315,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 420.1
+    },
+    {
+      "name": "2e Ralentisseur",
+      "start_pct": 0.431,
+      "end_pct": 0.463,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 433.6
+    },
+    {
+      "name": "Courbe des Hunaudieres",
+      "start_pct": 0.468,
+      "end_pct": 0.485,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 230.3
+    },
+    {
+      "name": "Virage de Mulsanne",
+      "start_pct": 0.55,
+      "end_pct": 0.575,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 338.7
+    },
+    {
+      "name": "Courbe du Golf",
+      "start_pct": 0.61,
+      "end_pct": 0.632,
+      "corner_length_pct": 0.022,
+      "corner_length_m": 298.1
+    },
+    {
+      "name": "Esses d'Indianapolis",
+      "start_pct": 0.695,
+      "end_pct": 0.73,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 474.3
+    },
+    {
+      "name": "Virage d'Arnage",
+      "start_pct": 0.74,
+      "end_pct": 0.753,
+      "corner_length_pct": 0.013,
+      "corner_length_m": 176.2
+    },
+    {
+      "name": "Courbe du Buisson",
+      "start_pct": 0.77,
+      "end_pct": 0.8,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 406.5
+    },
+    {
+      "name": "Virage Porsche",
+      "start_pct": 0.829,
+      "end_pct": 0.855,
+      "corner_length_pct": 0.026,
+      "corner_length_m": 352.3
+    },
+    {
+      "name": "Virage du Pont",
+      "start_pct": 0.856,
+      "end_pct": 0.876,
+      "corner_length_pct": 0.02,
+      "corner_length_m": 271.0
+    },
+    {
+      "name": "Esses du Karting",
+      "start_pct": 0.877,
+      "end_pct": 0.906,
+      "corner_length_pct": 0.029,
+      "corner_length_m": 393.0
+    },
+    {
+      "name": "Virage Corvette",
+      "start_pct": 0.907,
+      "end_pct": 0.923,
+      "corner_length_pct": 0.016,
+      "corner_length_m": 216.8
+    },
+    {
+      "name": "Maison Blanche",
+      "start_pct": 0.933,
+      "end_pct": 0.947,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 189.7
+    },
+    {
+      "name": "Virage Ford",
+      "start_pct": 0.968,
+      "end_pct": 0.979,
+      "corner_length_pct": 0.011,
+      "corner_length_m": 149.1
+    },
+    {
+      "name": "Virage du Raccordement",
+      "start_pct": 0.98,
+      "end_pct": 0.994,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 189.7
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Courbe Dunlop",
+      "start_pct": 0.04,
+      "end_pct": 0.054,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 189.7,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Ralentisseur Dunlop",
+      "start_pct": 0.057,
+      "end_pct": 0.074,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 230.3,
+      "exit_importance": 0.3094,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Descente de la Chapelle",
+      "start_pct": 0.077,
+      "end_pct": 0.085,
+      "corner_length_pct": 0.008,
+      "corner_length_m": 108.4,
+      "exit_importance": 0.2899,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "S du Tetre Rouge",
+      "start_pct": 0.087,
+      "end_pct": 0.121,
+      "corner_length_pct": 0.034,
+      "corner_length_m": 460.7,
+      "exit_importance": 0.5537,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Virage du Tertre Rouge",
+      "start_pct": 0.133,
+      "end_pct": 0.165,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 433.6,
+      "exit_importance": 0.0391,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Courbe d'Antares",
+      "start_pct": 0.182,
+      "end_pct": 0.2,
+      "corner_length_pct": 0.018,
+      "corner_length_m": 243.9,
+      "exit_importance": 0.8793,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "1er Ralentisseur",
+      "start_pct": 0.284,
+      "end_pct": 0.315,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 420.1,
+      "exit_importance": 0.6253,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "2e Ralentisseur",
+      "start_pct": 0.431,
+      "end_pct": 0.463,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 433.6,
+      "exit_importance": 0.8142,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Courbe des Hunaudieres",
+      "start_pct": 0.468,
+      "end_pct": 0.485,
+      "corner_length_pct": 0.017,
+      "corner_length_m": 230.3,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    }
+  ]
+}

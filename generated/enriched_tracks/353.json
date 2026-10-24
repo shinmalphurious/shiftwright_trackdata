@@ -1,0 +1,125 @@
+{
+  "track_id": 353,
+  "source_coverage": {
+    "track_id": 353,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Limerock GP",
+    "length_m": 2340
+  },
+  "pit": {
+    "entry_pct": 0.9,
+    "exit_pct": 0.046
+  },
+  "sectors": [
+    {
+      "marker": 0.23,
+      "name": "1"
+    },
+    {
+      "marker": 0.479,
+      "name": "2"
+    },
+    {
+      "marker": 0.628,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Big Bend",
+      "start_pct": 0.077,
+      "end_pct": 0.219,
+      "corner_length_pct": 0.142,
+      "corner_length_m": 332.3
+    },
+    {
+      "name": "Esses",
+      "start_pct": 0.234,
+      "end_pct": 0.384,
+      "corner_length_pct": 0.15,
+      "corner_length_m": 351.0
+    },
+    {
+      "name": "Uphill",
+      "start_pct": 0.48,
+      "end_pct": 0.595,
+      "corner_length_pct": 0.115,
+      "corner_length_m": 269.1
+    },
+    {
+      "name": "West Bend",
+      "start_pct": 0.649,
+      "end_pct": 0.735,
+      "corner_length_pct": 0.086,
+      "corner_length_m": 201.2
+    },
+    {
+      "name": "Diving Turn",
+      "start_pct": 0.788,
+      "end_pct": 0.858,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 163.8
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Big Bend",
+      "start_pct": 0.077,
+      "end_pct": 0.219,
+      "corner_length_pct": 0.142,
+      "corner_length_m": 332.3,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Esses",
+      "start_pct": 0.234,
+      "end_pct": 0.384,
+      "corner_length_pct": 0.15,
+      "corner_length_m": 351.0,
+      "exit_importance": 0.583,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Uphill",
+      "start_pct": 0.48,
+      "end_pct": 0.595,
+      "corner_length_pct": 0.115,
+      "corner_length_m": 269.1,
+      "exit_importance": 0.2768,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "West Bend",
+      "start_pct": 0.649,
+      "end_pct": 0.735,
+      "corner_length_pct": 0.086,
+      "corner_length_m": 201.2,
+      "exit_importance": 0.2768,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Diving Turn",
+      "start_pct": 0.788,
+      "end_pct": 0.858,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 163.8,
+      "exit_importance": 0.4299,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

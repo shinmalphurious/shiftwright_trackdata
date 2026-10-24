@@ -1,0 +1,186 @@
+{
+  "track_id": 29,
+  "source_coverage": {
+    "track_id": 29,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": null,
+    "exit_pct": null
+  },
+  "sectors": [
+    {
+      "name": "1",
+      "marker": 0.14
+    },
+    {
+      "name": "2",
+      "marker": 0.272
+    },
+    {
+      "name": "3",
+      "marker": 0.355
+    },
+    {
+      "name": "4",
+      "marker": 0.63
+    },
+    {
+      "name": "5",
+      "marker": 1
+    }
+  ],
+  "corners": [
+    {
+      "name": "T1",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T2",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T3",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T4",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T5",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T6",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T7",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T8",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T9",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T10",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T11",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T12",
+      "start_pct": null,
+      "end_pct": null
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 192,
+    "inheritance_level": "medium"
+  },
+  "enriched_corners": [
+    {
+      "name": "T1",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.355,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "T2",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.2475,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "T3",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "T4",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.2736,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "T5",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.7816,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "T6",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": "T7",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T8",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.8663,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T9",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.4722,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "T10",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.7881,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    }
+  ]
+}

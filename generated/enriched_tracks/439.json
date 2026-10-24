@@ -1,0 +1,210 @@
+{
+  "track_id": 439,
+  "source_coverage": {
+    "track_id": 439,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Winton National",
+    "length_m": 2950
+  },
+  "pit": {
+    "entry_pct": 0.868,
+    "exit_pct": 0.038
+  },
+  "sectors": [
+    {
+      "marker": 0.25,
+      "name": "1"
+    },
+    {
+      "marker": 0.5,
+      "name": "2"
+    },
+    {
+      "marker": 0.75,
+      "name": "3"
+    },
+    {
+      "marker": 1.0,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Motorsport News Esses",
+      "start_pct": 0.063,
+      "end_pct": 0.131,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 200.6
+    },
+    {
+      "name": "Honda Corner",
+      "start_pct": 0.195,
+      "end_pct": 0.244,
+      "corner_length_pct": 0.049,
+      "corner_length_m": 144.5
+    },
+    {
+      "name": "Nissan Corner",
+      "start_pct": 0.245,
+      "end_pct": 0.29,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 132.7
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.321,
+      "end_pct": 0.425,
+      "corner_length_pct": 0.104,
+      "corner_length_m": 306.8
+    },
+    {
+      "name": "Roll-Over Corner",
+      "start_pct": 0.426,
+      "end_pct": 0.459,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 97.4
+    },
+    {
+      "name": "Penrite Corner",
+      "start_pct": 0.46,
+      "end_pct": 0.504,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 129.8
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.505,
+      "end_pct": 0.557,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 153.4
+    },
+    {
+      "name": "Kitome Corner",
+      "start_pct": 0.558,
+      "end_pct": 0.614,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 165.2
+    },
+    {
+      "name": "Northern BM Corner",
+      "start_pct": 0.683,
+      "end_pct": 0.73,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 138.6
+    },
+    {
+      "name": "Advanced Petroleum Corner",
+      "start_pct": 0.829,
+      "end_pct": 0.919,
+      "corner_length_pct": 0.09,
+      "corner_length_m": 265.5
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Motorsport News Esses",
+      "start_pct": 0.063,
+      "end_pct": 0.131,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 200.6,
+      "exit_importance": 0.5081,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Honda Corner",
+      "start_pct": 0.195,
+      "end_pct": 0.244,
+      "corner_length_pct": 0.049,
+      "corner_length_m": 144.5,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Nissan Corner",
+      "start_pct": 0.245,
+      "end_pct": 0.29,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 132.7,
+      "exit_importance": 0.1205,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.321,
+      "end_pct": 0.425,
+      "corner_length_pct": 0.104,
+      "corner_length_m": 306.8,
+      "exit_importance": 0.8565,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Roll-Over Corner",
+      "start_pct": 0.426,
+      "end_pct": 0.459,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 97.4,
+      "exit_importance": 0.622,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Penrite Corner",
+      "start_pct": 0.46,
+      "end_pct": 0.504,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 129.8,
+      "exit_importance": 0.0521,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.505,
+      "end_pct": 0.557,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 153.4,
+      "exit_importance": 0.114,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Kitome Corner",
+      "start_pct": 0.558,
+      "end_pct": 0.614,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 165.2,
+      "exit_importance": 0.114,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Northern BM Corner",
+      "start_pct": 0.683,
+      "end_pct": 0.73,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 138.6,
+      "exit_importance": 0.4038,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": "Advanced Petroleum Corner",
+      "start_pct": 0.829,
+      "end_pct": 0.919,
+      "corner_length_pct": 0.09,
+      "corner_length_m": 265.5,
+      "exit_importance": 0.1791,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

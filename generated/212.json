@@ -1,0 +1,133 @@
+{
+  "track_id": 212,
+  "source_coverage": {
+    "track_id": 212,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Interlagos GP",
+    "length_m": 4220
+  },
+  "pit": {
+    "entry_pct": 0.95,
+    "exit_pct": 0.195
+  },
+  "sectors": [
+    {
+      "marker": 0.278,
+      "name": "1"
+    },
+    {
+      "marker": 0.432,
+      "name": "2"
+    },
+    {
+      "marker": 0.609,
+      "name": "3"
+    },
+    {
+      "marker": 0.726,
+      "name": "4"
+    },
+    {
+      "marker": 1.0,
+      "name": "5"
+    }
+  ],
+  "corners": [
+    {
+      "name": "S do Senna",
+      "start_pct": 0.045,
+      "end_pct": 0.113,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 287.0
+    },
+    {
+      "name": "Curva do Sol",
+      "start_pct": 0.114,
+      "end_pct": 0.196,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 346.0
+    },
+    {
+      "name": "Descida do Lago",
+      "start_pct": 0.298,
+      "end_pct": 0.403,
+      "corner_length_pct": 0.105,
+      "corner_length_m": 443.1
+    },
+    {
+      "name": "Ferradura",
+      "start_pct": 0.456,
+      "end_pct": 0.487,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 130.8
+    },
+    {
+      "name": "Laranjinha",
+      "start_pct": 0.488,
+      "end_pct": 0.517,
+      "corner_length_pct": 0.029,
+      "corner_length_m": 122.4
+    },
+    {
+      "name": "Esse",
+      "start_pct": 0.525,
+      "end_pct": 0.556,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 130.8
+    },
+    {
+      "name": "Pinheirinho",
+      "start_pct": 0.557,
+      "end_pct": 0.594,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 156.1
+    },
+    {
+      "name": "Bico de Pato",
+      "start_pct": 0.622,
+      "end_pct": 0.657,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 147.7
+    },
+    {
+      "name": "Mergulho",
+      "start_pct": 0.659,
+      "end_pct": 0.715,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 236.3
+    },
+    {
+      "name": "Juncao",
+      "start_pct": 0.734,
+      "end_pct": 0.77,
+      "corner_length_pct": 0.036,
+      "corner_length_m": 151.9
+    },
+    {
+      "name": "T13",
+      "start_pct": 0.771,
+      "end_pct": 0.8,
+      "corner_length_pct": 0.029,
+      "corner_length_m": 122.4
+    },
+    {
+      "name": "T14",
+      "start_pct": 0.815,
+      "end_pct": 0.874,
+      "corner_length_pct": 0.059,
+      "corner_length_m": 249.0
+    },
+    {
+      "name": "T15",
+      "start_pct": 0.9,
+      "end_pct": 0.955,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 232.1
+    }
+  ]
+}

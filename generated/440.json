@@ -1,0 +1,108 @@
+{
+  "track_id": 440,
+  "source_coverage": {
+    "track_id": 440,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Winton Motor Raceway - Club Circuit",
+    "length_m": 2020
+  },
+  "pit": {
+    "entry_pct": null,
+    "exit_pct": null
+  },
+  "sectors": [
+    {
+      "marker": 0.25,
+      "name": "1"
+    },
+    {
+      "marker": 0.5,
+      "name": "2"
+    },
+    {
+      "marker": 0.75,
+      "name": "3"
+    },
+    {
+      "marker": 1,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Honda Corner",
+      "start_pct": 0.061,
+      "end_pct": 0.116,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 111.1
+    },
+    {
+      "name": "Nissan Corner",
+      "start_pct": 0.117,
+      "end_pct": 0.204,
+      "corner_length_pct": 0.087,
+      "corner_length_m": 175.7
+    },
+    {
+      "name": null,
+      "start_pct": 0.26,
+      "end_pct": 0.388,
+      "corner_length_pct": 0.128,
+      "corner_length_m": 258.6
+    },
+    {
+      "name": "Roll-Over Corner",
+      "start_pct": 0.389,
+      "end_pct": 0.44,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 103.0
+    },
+    {
+      "name": "Penrite Corner",
+      "start_pct": 0.441,
+      "end_pct": 0.509,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 137.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.51,
+      "end_pct": 0.59,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 161.6
+    },
+    {
+      "name": "Kitome Corner",
+      "start_pct": 0.591,
+      "end_pct": 0.673,
+      "corner_length_pct": 0.082,
+      "corner_length_m": 165.6
+    },
+    {
+      "name": null,
+      "start_pct": 0.809,
+      "end_pct": 0.866,
+      "corner_length_pct": 0.057,
+      "corner_length_m": 115.1
+    },
+    {
+      "name": null,
+      "start_pct": 0.867,
+      "end_pct": 0.909,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 84.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.91,
+      "end_pct": 0.95,
+      "corner_length_pct": 0.04,
+      "corner_length_m": 80.8
+    }
+  ]
+}

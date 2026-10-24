@@ -1,0 +1,691 @@
+====================================================================================================
+FILE: src\pipelines\attempt_transcript_download.py
+====================================================================================================
+import json
+import subprocess
+import sys
+
+from src.providers.provider_factory import (
+    get_provider
+)
+
+PYTHON = sys.executable
+
+config = json.load(
+    open(
+        "generated/transcript_provider.json",
+        encoding="utf-8"
+    )
+)
+
+task = json.load(
+    open(
+        "generated/current_transcript_task.json",
+        encoding="utf-8"
+    )
+)
+
+provider = get_provider(
+    config["provider"]
+)
+
+print()
+print(
+    "VIDEO:",
+    task["video_id"]
+)
+
+print(
+    "PROVIDER:",
+    type(provider).__name__
+)
+
+try:
+
+    transcript = provider.fetch(
+        task["video_id"]
+    )
+
+    print(
+        "SUCCESS"
+    )
+
+    print(
+        "segments:",
+        len(transcript)
+    )
+
+except Exception as ex:
+
+    print(
+        "FAILED"
+    )
+
+    print(ex)
+
+    subprocess.run(
+        [
+            PYTHON,
+            "-m",
+            "src.pipelines.record_transcript_429"
+        ]
+    )
+
+    raise SystemExit(1)
+
+
+====================================================================================================
+FILE: src\pipelines\claim_next_transcript.py
+====================================================================================================
+import json
+from datetime import datetime,timezone
+
+rate_limit = json.load(
+    open(
+        "generated/transcript_rate_limit.json",
+        encoding="utf-8"
+    )
+)
+
+pause_until = rate_limit.get(
+    "global_pause_until"
+)
+
+if pause_until:
+
+    unlock = datetime.fromisoformat(
+        pause_until
+    )
+
+    if unlock > datetime.now(
+        timezone.utc
+    ):
+
+        print(
+            "GLOBAL_TRANSCRIPT_PAUSE"
+        )
+
+        raise SystemExit
+
+queue = json.load(
+    open(
+        "generated/transcript_queue.json",
+        encoding="utf-8"
+    )
+)
+
+for item in queue:
+
+    if item["status"] != "ready_for_download":
+        continue
+
+    item["status"] = "claimed"
+
+    with open(
+        "generated/current_transcript_task.json",
+        "w",
+        encoding="utf-8"
+    ) as fp:
+
+        json.dump(
+            item,
+            fp,
+            indent=2
+        )
+
+    with open(
+        "generated/transcript_queue.json",
+        "w",
+        encoding="utf-8"
+    ) as fp:
+
+        json.dump(
+            queue,
+            fp,
+            indent=2
+        )
+
+    print(
+        "claimed:",
+        item["video_id"]
+    )
+
+    raise SystemExit
+
+print(
+    "nothing available"
+)
+
+
+====================================================================================================
+FILE: src\pipelines\ingest_transcript_result.py
+====================================================================================================
+import json
+import sys
+from pathlib import Path
+
+if len(sys.argv) != 3:
+
+    print(
+        "usage: track_id video_id"
+    )
+
+    raise SystemExit
+
+track_id = int(sys.argv[1])
+
+video_id = sys.argv[2]
+
+manifest_path = (
+    "generated/track_acquisition_manifest.json"
+)
+
+manifest = json.load(
+    open(
+        manifest_path,
+        encoding="utf-8"
+    )
+)
+
+transcript_exists = (
+    Path(
+        f"research/youtube/transcripts/{video_id}.json"
+    ).exists()
+)
+
+for track in manifest:
+
+    if track["track_id"] != track_id:
+        continue
+
+    if transcript_exists:
+
+        track[
+            "knowledge"
+        ][
+            "transcript_acquired"
+        ] = True
+
+        track[
+            "state"
+        ] = "transcript_acquired"
+
+    break
+
+with open(
+    manifest_path,
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        manifest,
+        fp,
+        indent=2
+    )
+
+print(
+    "transcript_found:",
+    transcript_exists
+)
+
+
+====================================================================================================
+FILE: src\pipelines\build_transcript_queue.py
+====================================================================================================
+import json
+from pathlib import Path
+
+queue = []
+
+for file in Path(
+    "generated/guide_catalog"
+).glob("*.json"):
+
+    data = json.load(
+        open(
+            file,
+            encoding="utf-8"
+        )
+    )
+
+    for car,videos in data.get(
+        "selected_guides",
+        {}
+    ).items():
+
+        for video in videos:
+
+            queue.append(
+                {
+                    "track_id":
+                        data["track_id"],
+
+                    "layout":
+                        data["layout"],
+
+                    "car":
+                        car,
+
+                    "video_id":
+                        video["video_id"],
+
+                    "title":
+                        video["title"],
+
+                    "status":
+                        "ready_for_download",
+
+                    "attempts":
+                        0,
+
+                    "last_attempt":
+                        None,
+
+                    "next_attempt":
+                        None,
+
+                    "caption_format":
+                        "json3"
+                }
+            )
+
+with open(
+    "generated/transcript_queue.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        queue,
+        fp,
+        indent=2
+    )
+
+print(
+    "queued:",
+    len(queue)
+)
+
+
+====================================================================================================
+FILE: src\pipelines\run_transcript_worker.py
+====================================================================================================
+import json
+from datetime import datetime,timedelta,timezone
+
+from src.shared.transcript_backoff import (
+    transcript_backoff_minutes
+)
+
+queue = json.load(
+    open(
+        "generated/transcript_queue.json",
+        encoding="utf-8"
+    )
+)
+
+for item in queue:
+
+    if item["status"] != "ready_for_download":
+        continue
+
+    item["attempts"] += 1
+
+    item["last_attempt"] = (
+        datetime.now(
+            timezone.utc
+        ).isoformat()
+    )
+
+    delay = (
+        transcript_backoff_minutes(
+            item["attempts"]
+        )
+    )
+
+    item["next_attempt"] = (
+        datetime.now(
+            timezone.utc
+        )
+        +
+        timedelta(
+            minutes=delay
+        )
+    ).isoformat()
+
+    item["status"] = (
+        "rate_limited"
+    )
+
+    break
+
+with open(
+    "generated/transcript_queue.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        queue,
+        fp,
+        indent=2
+    )
+
+print(
+    "updated queue"
+)
+
+
+====================================================================================================
+FILE: src\providers\provider_factory.py
+====================================================================================================
+from src.providers.youtube_transcript_provider import (
+    YoutubeTranscriptProvider
+)
+
+from src.providers.ytdlp_caption_provider import (
+    YtDlpCaptionProvider
+)
+
+def get_provider(
+    name
+):
+
+    if name == "youtube":
+
+        return (
+            YoutubeTranscriptProvider()
+        )
+
+    if name == "ytdlp":
+
+        return (
+            YtDlpCaptionProvider()
+        )
+
+    raise ValueError(
+        name
+    )
+
+
+====================================================================================================
+FILE: src\providers\transcript_provider.py
+====================================================================================================
+from abc import ABC,abstractmethod
+
+class TranscriptProvider(
+    ABC
+):
+
+    @abstractmethod
+    def fetch(
+        self,
+        video_id
+    ):
+        pass
+
+
+====================================================================================================
+FILE: src\providers\youtube_transcript_provider.py
+====================================================================================================
+from youtube_transcript_api import (
+    YouTubeTranscriptApi
+)
+
+from src.providers.transcript_provider import (
+    TranscriptProvider
+)
+
+class YoutubeTranscriptProvider(
+    TranscriptProvider
+):
+
+    def fetch(
+        self,
+        video_id
+    ):
+
+        api = (
+            YouTubeTranscriptApi()
+        )
+
+        return api.fetch(
+            video_id
+        ).to_raw_data()
+
+
+====================================================================================================
+FILE: src\providers\ytdlp_caption_provider.py
+====================================================================================================
+import yt_dlp
+
+from src.providers.transcript_provider import (
+    TranscriptProvider
+)
+
+class YtDlpCaptionProvider(
+    TranscriptProvider
+):
+
+    def fetch(
+        self,
+        video_id
+    ):
+
+        raise NotImplementedError(
+            "caption download not yet implemented"
+        )
+
+
+====================================================================================================
+FILE: src\pipelines\parse_json3_transcripts.py
+====================================================================================================
+import json
+from pathlib import Path
+
+for file in Path(
+    "research/youtube/transcripts"
+).glob("*.json"):
+
+    try:
+
+        data = json.load(
+            open(
+                file,
+                encoding="utf-8"
+            )
+        )
+
+        segments = []
+
+        for event in data.get(
+            "events",
+            []
+        ):
+
+            text = ""
+
+            for seg in event.get(
+                "segs",
+                []
+            ):
+
+                text += seg.get(
+                    "utf8",
+                    ""
+                )
+
+            if not text.strip():
+                continue
+
+            segments.append(
+                {
+                    "start":
+                        event.get(
+                            "tStartMs",
+                            0
+                        ) / 1000,
+
+                    "text":
+                        text.strip()
+                }
+            )
+
+        outfile = (
+            Path(
+                "research/youtube/parsed_transcripts"
+            )
+            /
+            file.name
+        )
+
+        json.dump(
+            segments,
+            open(
+                outfile,
+                "w",
+                encoding="utf-8"
+            ),
+            indent=2
+        )
+
+        print(
+            outfile.name
+        )
+
+    except Exception:
+
+        pass
+
+
+====================================================================================================
+FILE: src\pipelines\cache_caption_capabilities.py
+====================================================================================================
+import yt_dlp
+import json
+
+task = json.load(
+    open(
+        "generated/current_transcript_task.json",
+        encoding="utf-8"
+    )
+)
+
+video_id = task[
+    "video_id"
+]
+
+with yt_dlp.YoutubeDL(
+    {
+        "quiet": True,
+        "skip_download": True
+    }
+) as ydl:
+
+    info = ydl.extract_info(
+        f"https://www.youtube.com/watch?v={video_id}",
+        download=False
+    )
+
+caps = (
+    info.get(
+        "automatic_captions",
+        {}
+    )
+)
+
+output = {
+    "video_id":
+        video_id,
+
+    "languages":
+        list(
+            caps.keys()
+        )
+}
+
+with open(
+    f"generated/caption_capabilities_{video_id}.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        output,
+        fp,
+        indent=2
+    )
+
+print(
+    "languages:",
+    len(
+        output["languages"]
+    )
+)
+
+
+====================================================================================================
+FILE: src\pipelines\cache_transcript_metadata.py
+====================================================================================================
+import json
+
+task = json.load(
+    open(
+        "generated/current_transcript_task.json",
+        encoding="utf-8"
+    )
+)
+
+cache = {
+    "video_id":
+        task["video_id"],
+
+    "preferred_format":
+        "json3",
+
+    "captions_available":
+        True,
+
+    "status":
+        "waiting_for_transport"
+}
+
+with open(
+    f"generated/caption_cache_{task['video_id']}.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        cache,
+        fp,
+        indent=2
+    )
+
+print(
+    cache["video_id"]
+)
+
+
+====================================================================================================
+FILE: src\shared\transcript_backoff.py
+====================================================================================================
+def transcript_backoff_minutes(
+    attempts
+):
+
+    schedule = [
+        30,
+        120,
+        360,
+        720,
+        1440
+    ]
+
+    if attempts >= len(schedule):
+        return schedule[-1]
+
+    return schedule[attempts]
+
+

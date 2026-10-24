@@ -1,0 +1,208 @@
+import sys
+print(sys.executable)
+import json
+import re
+from pathlib import Path
+import yt_dlp
+
+aliases = json.load(
+    open(
+        "data/vehicle_aliases.json",
+        encoding="utf-8"
+    )
+)
+
+task = json.load(
+    open(
+        "generated/discovery_task.json",
+        encoding="utf-8"
+    )
+)
+
+query = task["query"]["query"]
+
+opts = {
+    "quiet": True,
+    "extract_flat": True,
+
+    "socket_timeout": 15,
+
+    "extractor_retries": 1,
+
+    "fragment_retries": 0
+}
+
+videos = []
+
+with yt_dlp.YoutubeDL(opts) as ydl:
+
+    result = ydl.extract_info(
+        f"ytsearch10:{query}",
+        download=False
+    )
+
+    for video in result.get(
+        "entries",
+        []
+    ):
+
+        title = video.get(
+            "title",
+            ""
+        )
+
+        description = video.get(
+            "description",
+            ""
+        )
+
+        lower = title.lower()
+        desc_lower = description.lower()
+
+        if (
+            "track guide" in lower
+            or "lap guide" in lower
+            or "guide" in lower
+        ):
+            video_type = "lap_walkthrough"
+
+        elif (
+            "catalyst" in lower
+            or "overlay" in lower
+            or "telemetry" in lower
+        ):
+            video_type = "telemetry_lap"
+
+        elif (
+            "hotlap" in lower
+            or "hot lap" in lower
+        ):
+            video_type = "hotlap"
+
+        else:
+            video_type = "other"
+
+        car = None
+
+        search_text = (
+            title
+            + " "
+            + description
+        ).lower()
+
+        aliases = json.load(
+            open(
+                "data/vehicle_aliases.json",
+                encoding="utf-8"
+            )
+        )
+
+        for canonical,names in aliases.items():
+
+            if any(
+                alias.lower() in search_text
+                for alias in names
+            ):
+
+                car = canonical
+
+                break
+
+        score = 0
+
+        if video_type == "lap_walkthrough":
+            score += 100
+
+        if car:
+            score += 20
+
+        if "iracing" in lower:
+            score += 100
+
+
+
+        videos.append(
+            {
+                "video_id":
+                    video.get("id"),
+
+                "title":
+                    title,
+
+                "description":
+                    description,
+
+                "video_type":
+                    video_type,
+
+                "car":
+                    car,
+
+                "iracing_score":
+                    (
+                        100
+                        if (
+                            "iracing" in lower
+                            or
+                            "iracing" in desc_lower
+                        )
+                        else 0
+                    ),
+
+                "quality_score":
+                    score
+            }
+        )
+
+videos = [
+    v
+    for v in videos
+    if v["iracing_score"] > 0
+]
+
+videos.sort(
+    key=lambda v:
+        v["quality_score"],
+    reverse=True
+)
+
+output = {
+    "track_id":
+        task["track_id"],
+
+    "layout":
+        task["layout"],
+
+    "query":
+        task["query"],
+
+    "videos":
+        videos
+}
+
+with open(
+    "generated/discovery_result.json",
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        output,
+        fp,
+        indent=2
+    )
+
+print(
+    "videos found:",
+    len(videos)
+)
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+{
+  "track_id": 434,
+  "source_coverage": {
+    "track_id": 434,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Watkins Glen",
+    "length_m": 5410
+  },
+  "pit": {
+    "entry_pct": 0.947,
+    "exit_pct": 0.078
+  },
+  "sectors": [
+    {
+      "marker": 0.299,
+      "name": "1"
+    },
+    {
+      "marker": 0.472,
+      "name": "2"
+    },
+    {
+      "marker": 0.686,
+      "name": "3"
+    },
+    {
+      "marker": 0.839,
+      "name": "4"
+    },
+    {
+      "marker": 1.0,
+      "name": "5"
+    }
+  ],
+  "corners": [
+    {
+      "name": "The 90",
+      "start_pct": 0.045,
+      "end_pct": 0.087,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 227.2
+    },
+    {
+      "name": "Esses",
+      "start_pct": 0.113,
+      "end_pct": 0.254,
+      "corner_length_pct": 0.141,
+      "corner_length_m": 762.8
+    },
+    {
+      "name": "Inner Loop",
+      "start_pct": 0.341,
+      "end_pct": 0.391,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 270.5
+    },
+    {
+      "name": "Outer Loop",
+      "start_pct": 0.392,
+      "end_pct": 0.464,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 389.5
+    },
+    {
+      "name": "Chute",
+      "start_pct": 0.49,
+      "end_pct": 0.54,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 270.5
+    },
+    {
+      "name": "Toe",
+      "start_pct": 0.58,
+      "end_pct": 0.637,
+      "corner_length_pct": 0.057,
+      "corner_length_m": 308.4
+    },
+    {
+      "name": "Heel",
+      "start_pct": 0.718,
+      "end_pct": 0.762,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 238.0
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.781,
+      "end_pct": 0.82,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 211.0
+    },
+    {
+      "name": "Turn 10",
+      "start_pct": 0.844,
+      "end_pct": 0.895,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 275.9
+    },
+    {
+      "name": "Turn 11",
+      "start_pct": 0.913,
+      "end_pct": 0.96,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 254.3
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "The 90",
+      "start_pct": 0.045,
+      "end_pct": 0.087,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 227.2,
+      "exit_importance": 0.7295,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Esses",
+      "start_pct": 0.113,
+      "end_pct": 0.254,
+      "corner_length_pct": 0.141,
+      "corner_length_m": 762.8,
+      "exit_importance": 0.1987,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Inner Loop",
+      "start_pct": 0.341,
+      "end_pct": 0.391,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 270.5,
+      "exit_importance": 0.3289,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Outer Loop",
+      "start_pct": 0.392,
+      "end_pct": 0.464,
+      "corner_length_pct": 0.072,
+      "corner_length_m": 389.5,
+      "exit_importance": 0.2377,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Chute",
+      "start_pct": 0.49,
+      "end_pct": 0.54,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 270.5,
+      "exit_importance": 0.6253,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Toe",
+      "start_pct": 0.58,
+      "end_pct": 0.637,
+      "corner_length_pct": 0.057,
+      "corner_length_m": 308.4,
+      "exit_importance": 0.3452,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Heel",
+      "start_pct": 0.718,
+      "end_pct": 0.762,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 238.0,
+      "exit_importance": 0.2605,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 9",
+      "start_pct": 0.781,
+      "end_pct": 0.82,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 211.0,
+      "exit_importance": 0.0651,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 10",
+      "start_pct": 0.844,
+      "end_pct": 0.895,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 275.9,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 11",
+      "start_pct": 0.913,
+      "end_pct": 0.96,
+      "corner_length_pct": 0.047,
+      "corner_length_m": 254.3,
+      "exit_importance": 0.2605,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

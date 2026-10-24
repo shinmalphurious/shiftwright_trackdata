@@ -1,251 +1,237 @@
-# Architecture
+# Track Knowledge Architecture
 
-## Track Discovery
+## External Dependencies
 
-### src/pipelines/build_track_catalog.py
+### Racing Track Maps Vector Repository
 
-**Input**
+Location:
 
 ```text
-E:\Project_Shiftwright\external\racing-track-maps-vector\from-iracing
+E:\Project_Shiftwright\external\racing-track-maps-vector
 ```
 
-**Output**
+Primary source of:
 
 ```text
-generated/track_catalog.json
-```
-
-**Purpose**
-
-```text
-Discover all track layouts and track assets.
+Track Geometry
+Track Layouts
+SVG Track Ribbons
+Track Variants
 ```
 
 ---
 
-## Acquisition Tracking
+### Lovely Racing Repository
 
-### src/pipelines/build_acquisition_registry.py
-
-**Input**
+Location:
 
 ```text
-generated/track_catalog.json
+E:\Project_Shiftwright\...
 ```
 
-**Output**
+Primary source of:
 
 ```text
-generated/acquisition_registry.json
+Named Corners
+Corner Metadata
+Corner Lengths
+Track Metadata
 ```
 
-**Purpose**
+Lovely is an enrichment source.
 
-```text
-Track enrichment status for each layout.
-```
+The geometry pipeline remains functional without Lovely.
 
 ---
 
-## YouTube Extraction
+# Geometry Pipeline
 
-### src/youtube/segment_turn_ranges.py
-
-**Input**
+### src/geometry/skeleton_generator.py
 
 ```text
-research/youtube/transcripts/*.json
-```
-
-**Output**
-
-```text
-research/youtube/turn_ranges.csv
-```
-
-**Purpose**
-
-```text
-Transcript
+SVG Ribbon
     ↓
-Turn Segments
+Skeleton
 ```
 
 ---
 
-### src/youtube/extract_turn_facts_v2.py
-
-**Input**
+### src/geometry/centreline_extractor.py
 
 ```text
-research/youtube/turn_ranges.csv
-```
-
-**Output**
-
-```text
-research/youtube/turn_facts_v2.csv
-```
-
-**Purpose**
-
-```text
-Turn Segment
+Skeleton
     ↓
-Structured Facts
+Ordered Centreline
 ```
 
 ---
 
-## Track Knowledge Aggregation
-
-### src/youtube/build_track_turn_consensus.py
-
-**Input**
+### src/pipelines/build_axis_library.py
 
 ```text
-research/youtube/turn_facts_v2.csv
+Centreline
+    ↓
+Axis Library
 ```
 
-**Output**
+Output:
 
 ```text
-Track + Turn Consensus
+generated/axis_registry.json
 ```
 
-**Example**
+Coverage:
 
 ```text
-Zandvoort
-    turn_10
-        braking_zone
-        cambered
-        slippery
+424 tracks
+2048 centreline samples per track
 ```
 
 ---
 
-### src/youtube/build_track_fact_summary.py
-
-**Input**
+### src/geometry/curvature_analyzer.py
 
 ```text
-research/youtube/turn_facts_v2.csv
-```
-
-**Output**
-
-```text
-Track Summary
-```
-
-**Example**
-
-```text
-Zandvoort
-    braking_zone
-    trail_braking
-    cambered
+Axis
+    ↓
+Curvature Profile
 ```
 
 ---
 
-## Corner Model
+# Corner Detection Pipeline
 
-### src/pipelines/build_enriched_tracks.py
-
-**Inputs**
+### src/pipelines/build_corner_candidate_library.py
 
 ```text
-generated/*.json
-generated/corner_dependencies/*.json
-generated/corner_characteristics/*.json
-```
-
-**Output**
-
-```text
-generated/enriched_tracks/*.json
-```
-
-**Purpose**
-
-```text
-Corner Names
-Corner Boundaries
-Corner Characteristics
-Corner Dependencies
+Curvature
+    ↓
+Corner Candidates
 ```
 
 ---
 
-### src/models/track_knowledge.py
-
-**Purpose**
+### src/pipelines/build_corner_apex_library.py
 
 ```text
-Track knowledge data models.
+Corner Candidates
+    ↓
+Corner Apexes
 ```
 
 ---
 
-### src/corners/track_insights.py
-
-**Purpose**
+### src/pipelines/build_corner_region_library.py
 
 ```text
-Corner insight classification logic.
+Corner Apexes
+    ↓
+Corner Regions
 ```
 
----
-
-# Current Pipeline
+Output:
 
 ```text
-SVG Repository
-        ↓
-build_track_catalog.py
-        ↓
-track_catalog.json
-        ↓
-build_acquisition_registry.py
-        ↓
-acquisition_registry.json
-
-
-transcripts/*.json
-        ↓
-segment_turn_ranges.py
-        ↓
-turn_ranges.csv
-        ↓
-extract_turn_facts_v2.py
-        ↓
-turn_facts_v2.csv
-                ├── build_track_turn_consensus.py
-                └── build_track_fact_summary.py
-
-
-Corner Data
-        ↓
-build_enriched_tracks.py
-        ↓
-enriched_tracks/*.json
+generated/corner_regions/*.json
 ```
-## Corner Region Generation
 
-### generated/corner_regions/*.json
-
-Provides geometry-derived corner regions for all tracks.
-
-Structure:
+*orner Region Structure:
 
 ```text
-start_pct
+s*art_pct
 apex_pct
-end_pct
-strength
+end_pct*strength
+```
+
+Coverage:
+
+```text
+4*4 tracks
+```
+
+*--
+
+# Track Knowledge Pipeline
+
+##* src/pipelines/build_knowledge*registry.py
+
+Inputs:
+
+```text
+gene*ated/*.json
+generated/corner_regio*s/*.json
+```
+
+Output:
+
+```text*generated/knowledge*registry.json
+```
+
+Knowledge Level*:
+
+```text
+direct
+inherited
+geomet*y_only
+```
+
+*--
+
+### src/pipelines/build_enrich*d_tracks.py
+
+Inputs:
+
+```text*Lovely Corner Data
+Corner Dependen*ies
+Corner Characteristics
+``*
+
+Output:
+
+```text*generated/enriched_tracks/*.json
+`*`
+
+Provides:
+
+```text
+Named Corner*
+Corner Characteristics
+Corner Rel*tionships
+```
+
+*--
+
+### src/models/track_knowledge*py
+
+```text
+Track Knowledge Data*Models
+```
+
+*--
+
+### src/corners/track_insights*py
+
+```text
+Corner Classification *ogic
+```
+
+*--
+
+###*src/pipelines/build_track_knowledg*_pack.py
+
+Inputs:
+
+```text
+Track M*dels
+Knowledge Registry
+Corner Reg*ons
+Track Catalog
+```
+
+Output:
+
+```text
+generated/knowledge_packs/*.json
 ```
 
 Coverage:
@@ -254,81 +240,177 @@ Coverage:
 424 tracks
 ```
 
----
+*--
 
-## Corner Model
+# YouTube Knowledge*Pipeline
 
-### src/pipelines/build_enriched_tracks.py
+### src/youtube/segment_*urn_ranges.py
 
-Inputs:
+```*ext
+Transcripts
+    ↓
+Turn Segment*
+```
+
+Output*
 
 ```text
-generated/*.json
-generated/corner_dependencies/*.json
-generated/corner_characteristics/*.json
+research/youtube/turn_ra*ges.csv
+```
+
+*--
+
+### src/youtube/extract_turn_f*cts_v2.py
+
+```text
+*urn Segments
+    ↓
+Structured Fact*
 ```
 
 Output:
 
+```text*research/youtube/turn_facts_v2.csv*```
+
+*--
+
+### src/youtube/build_track_tu*n_consensus.py
+
 ```text
-gener*ted/enriched_tracks/*.json
+Turn Facts*    ↓
+Corner*Consensus
 ```
 
-Pu*pose:
+Provides:
 
 ```text
-Corner Names
-Corner*Boundaries
+*orner Coaching Knowledge
+Community*Techniques
 Corner Characteristics
-*orner Dependencies
-```
+*``
 
 ---
 
-### s*c/models/track_knowledge.py
-
-Purpo*e:
+### src/youtube/build_tra*k_fact_summary.py
 
 ```text
-Track knowledge data m*dels.
+Turn Fa*ts
+    ↓
+Track Summary
+```
+
+Provid*s:
+
+```text*Track Themes
+Driving Characteristi*s
+Common Coaching Advice
 ```
 
 ---
+*# Platform Infrastructure
 
-### src/corners/tr*ck_insights.py
+### src*p*pelines/build_track_catalog.py
 
-Purpose:
-
-```text
-*orner insight classification logic*
-```
-
----
-
-## Knowledge Registry
-
-*## src/pipelines/build_knowledge_r*gistry.py
-
-Inputs:
+Ou*put:
 
 ```text
-genera*ed/*.json
-generated/corner_regions**.json
+generated/track_cata*og.json
 ```
+
+Provides:
+
+```text
+Tr*ck Discovery
+Track Layout*Metadata
+*rack Asset Coverage
+```
+
+*--
+
+### src/pipelines/build_acquis*tion_registry.py
 
 Output:
 
-```text
-gener*ted/knowledge_registry.json
+```text*generated/acquisition_registry.jso*
 ```
 
-P*rpose:
+Provides:
 
 ```text
-Classify track kno*ledge coverage.
+Knowledge*Acquisition Status
+Coverage Tracki*g
+```
 
-Levels:
-    geome*ry_only
-    direct
-    inherited
-`*`
+---
+
+# Core Data Flow
+
+```t*xt*Racing Track Maps Vector SVGs
+    *           ↓
+
+s*eleton_generator.py
+              * ↓
+
+centreline_extractor.py
+      *         ↓
+
+build_axis_library.py
+*               ↓
+
+Axis Library
+   *            ↓
+
+curvature_analyzer.*y
+                ↓
+
+build_corner_*andidate_library.py
+              * ↓
+
+build_corner_apex_library.py
+ *              ↓
+
+build_corner_regi*n_library.py
+                ↓
+
+ge*erated/corner_regions/*.json
+     *          ↓
+
+build_knowledge_regis*ry.py
+                ↓
+
+knowledge*registry.json
+                ↓
+
+b*ild_track_knowledge_pack.py
+      *         ↓
+
+knowledge_packs/*.json*
+
+Lovely Racing
+        ↓
+
+build_e*riched_tracks.py
+        ↓
+
+Named *orners
+Corner Metadata
+Track Metad*ta
+
+
+YouTube Transcripts
+        ↓*
+segment_turn_ranges.py
+        ↓
+*extract_turn_facts_v2.py
+        ↓*
+build_track*turn_consensus.py
+build_track*fact_summary.py
+*       ↓
+
+Track Knowledge
+Corner K*owledge
+        ↓
+
+knowledge_packs**.json
+```
+*

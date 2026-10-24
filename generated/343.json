@@ -1,0 +1,149 @@
+{
+  "track_id": 343,
+  "source_coverage": {
+    "track_id": 343,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": 0.905,
+    "exit_pct": 0.02
+  },
+  "sectors": [
+    {
+      "marker": 0.135,
+      "name": "1"
+    },
+    {
+      "marker": 0.293,
+      "name": "2"
+    },
+    {
+      "marker": 0.609,
+      "name": "3"
+    },
+    {
+      "marker": 0.83,
+      "name": "4"
+    },
+    {
+      "marker": 1.0,
+      "name": "5"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Abbey",
+      "start_pct": 0.05,
+      "end_pct": 0.089,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 226.2
+    },
+    {
+      "name": "Farm Curve",
+      "start_pct": 0.092,
+      "end_pct": 0.123,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 179.8
+    },
+    {
+      "name": "Village",
+      "start_pct": 0.141,
+      "end_pct": 0.167,
+      "corner_length_pct": 0.026,
+      "corner_length_m": 150.8
+    },
+    {
+      "name": "The Loop",
+      "start_pct": 0.168,
+      "end_pct": 0.191,
+      "corner_length_pct": 0.023,
+      "corner_length_m": 133.4
+    },
+    {
+      "name": "Aintree",
+      "start_pct": 0.195,
+      "end_pct": 0.232,
+      "corner_length_pct": 0.037,
+      "corner_length_m": 214.6
+    },
+    {
+      "name": "Brooklands",
+      "start_pct": 0.313,
+      "end_pct": 0.352,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 226.2
+    },
+    {
+      "name": "Luffield",
+      "start_pct": 0.353,
+      "end_pct": 0.397,
+      "corner_length_pct": 0.044,
+      "corner_length_m": 255.2
+    },
+    {
+      "name": "Woodcote",
+      "start_pct": 0.407,
+      "end_pct": 0.455,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 278.4
+    },
+    {
+      "name": "Copse",
+      "start_pct": 0.5,
+      "end_pct": 0.559,
+      "corner_length_pct": 0.059,
+      "corner_length_m": 342.2
+    },
+    {
+      "name": "Maggots",
+      "start_pct": 0.604,
+      "end_pct": 0.643,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 226.2
+    },
+    {
+      "name": "Becketts",
+      "start_pct": 0.644,
+      "end_pct": 0.671,
+      "corner_length_pct": 0.027,
+      "corner_length_m": 156.6
+    },
+    {
+      "name": "Chapel",
+      "start_pct": 0.672,
+      "end_pct": 0.723,
+      "corner_length_pct": 0.051,
+      "corner_length_m": 295.8
+    },
+    {
+      "name": "Stowe",
+      "start_pct": 0.836,
+      "end_pct": 0.888,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 301.6
+    },
+    {
+      "name": "Vale",
+      "start_pct": 0.924,
+      "end_pct": 0.947,
+      "corner_length_pct": 0.023,
+      "corner_length_m": 133.4
+    },
+    {
+      "name": "Club",
+      "start_pct": 0.948,
+      "end_pct": 1.0,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 301.6
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 341,
+    "inheritance_level": "high"
+  }
+}

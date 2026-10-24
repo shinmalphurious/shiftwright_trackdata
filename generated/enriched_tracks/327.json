@@ -1,0 +1,200 @@
+{
+  "track_id": 327,
+  "source_coverage": {
+    "track_id": 327,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Tsukuba Circuit - 1000 Full",
+    "length_m": 9900
+  },
+  "pit": {
+    "entry_pct": null,
+    "exit_pct": null
+  },
+  "sectors": [
+    {
+      "marker": 0.25,
+      "name": "1"
+    },
+    {
+      "marker": 0.5,
+      "name": "2"
+    },
+    {
+      "marker": 0.75,
+      "name": "3"
+    },
+    {
+      "marker": 1,
+      "name": "4"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.138,
+      "end_pct": 0.249,
+      "corner_length_pct": 0.111,
+      "corner_length_m": 1098.9
+    },
+    {
+      "name": null,
+      "start_pct": 0.25,
+      "end_pct": 0.37,
+      "corner_length_pct": 0.12,
+      "corner_length_m": 1188.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.395,
+      "end_pct": 0.475,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 792.0
+    },
+    {
+      "name": null,
+      "start_pct": 0.476,
+      "end_pct": 0.518,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 415.8
+    },
+    {
+      "name": null,
+      "start_pct": 0.519,
+      "end_pct": 0.592,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 722.7
+    },
+    {
+      "name": null,
+      "start_pct": 0.593,
+      "end_pct": 0.651,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 574.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.721,
+      "end_pct": 0.788,
+      "corner_length_pct": 0.067,
+      "corner_length_m": 663.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.789,
+      "end_pct": 0.834,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 445.5
+    },
+    {
+      "name": null,
+      "start_pct": 0.835,
+      "end_pct": 0.874,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 386.1
+    },
+    {
+      "name": null,
+      "start_pct": 0.875,
+      "end_pct": 0.951,
+      "corner_length_pct": 0.076,
+      "corner_length_m": 752.4
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": null,
+      "start_pct": 0.138,
+      "end_pct": 0.249,
+      "corner_length_pct": 0.111,
+      "corner_length_m": 1098.9,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.25,
+      "end_pct": 0.37,
+      "corner_length_pct": 0.12,
+      "corner_length_m": 1188.0,
+      "exit_importance": 0.114,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.395,
+      "end_pct": 0.475,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 792.0,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.476,
+      "end_pct": 0.518,
+      "corner_length_pct": 0.042,
+      "corner_length_m": 415.8,
+      "exit_importance": 0.6807,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.519,
+      "end_pct": 0.592,
+      "corner_length_pct": 0.073,
+      "corner_length_m": 722.7,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.593,
+      "end_pct": 0.651,
+      "corner_length_pct": 0.058,
+      "corner_length_m": 574.2,
+      "exit_importance": 0.1563,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.721,
+      "end_pct": 0.788,
+      "corner_length_pct": 0.067,
+      "corner_length_m": 663.3,
+      "exit_importance": 0.1563,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.789,
+      "end_pct": 0.834,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 445.5,
+      "exit_importance": 0.5634,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.835,
+      "end_pct": 0.874,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 386.1,
+      "exit_importance": 0.3127,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    }
+  ]
+}

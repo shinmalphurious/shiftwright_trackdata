@@ -1,0 +1,100 @@
+{
+  "track_id": 198,
+  "source_coverage": {
+    "track_id": 198,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Mobility Resort Motegi - Oval",
+    "length_m": 2493
+  },
+  "pit": {
+    "entry_pct": 0.852,
+    "exit_pct": 0.44
+  },
+  "sectors": [
+    {
+      "marker": 0.5,
+      "name": "1"
+    },
+    {
+      "marker": 1,
+      "name": "2"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.115,
+      "end_pct": 0.284,
+      "corner_length_pct": 0.169,
+      "corner_length_m": 421.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.285,
+      "end_pct": 0.452,
+      "corner_length_pct": 0.167,
+      "corner_length_m": 416.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.641,
+      "end_pct": 0.759,
+      "corner_length_pct": 0.118,
+      "corner_length_m": 294.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.761,
+      "end_pct": 0.903,
+      "corner_length_pct": 0.142,
+      "corner_length_m": 354.0
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": null,
+      "start_pct": 0.115,
+      "end_pct": 0.284,
+      "corner_length_pct": 0.169,
+      "corner_length_m": 421.3,
+      "exit_importance": 0.6383,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.285,
+      "end_pct": 0.452,
+      "corner_length_pct": 0.167,
+      "corner_length_m": 416.3,
+      "exit_importance": 0.0847,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.641,
+      "end_pct": 0.759,
+      "corner_length_pct": 0.118,
+      "corner_length_m": 294.2,
+      "exit_importance": 0.1628,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.761,
+      "end_pct": 0.903,
+      "corner_length_pct": 0.142,
+      "corner_length_m": 354.0,
+      "exit_importance": 0.4722,
+      "dependency_reason": "normal",
+      "corner_type": "kink"
+    }
+  ]
+}

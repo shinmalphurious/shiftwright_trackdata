@@ -1,0 +1,2415 @@
+﻿
+====================================================================================================
+FILE: src\geometry\skeleton_generator.py
+====================================================================================================
+
+from svgpathtools import svg2paths
+
+from PIL import Image
+from PIL import ImageDraw
+
+import numpy as np
+
+from skimage.morphology import skeletonize
+
+
+def svg_to_skeleton(
+    svg_file,
+    samples=12000
+):
+
+    paths, _ = svg2paths(
+        str(svg_file)
+    )
+
+    path = paths[0]
+
+    polygon = []
+
+    for i in range(samples):
+
+        p = path.point(
+            i/(samples-1)
+        )
+
+        polygon.append(
+            (
+                float(p.real),
+                float(p.imag)
+            )
+        )
+
+    img = Image.new(
+        "L",
+        (1920,1080),
+        0
+    )
+
+    draw = ImageDraw.Draw(
+        img
+    )
+
+    draw.polygon(
+        polygon,
+        fill=255
+    )
+
+    binary = (
+        np.array(img)
+        > 0
+    )
+
+    return skeletonize(
+        binary
+    )
+
+====================================================================================================
+FILE: src\geometry\centreline_extractor.py
+====================================================================================================
+
+import numpy as np
+
+from scipy.spatial import KDTree
+
+
+def skeleton_to_points(
+    skeleton
+):
+
+    ys, xs = np.where(
+        skeleton
+    )
+
+    return np.column_stack(
+        (
+            xs,
+            ys
+        )
+    )
+
+
+def order_skeleton(
+    points
+):
+
+    tree = KDTree(
+        points
+    )
+
+    remaining = set(
+        range(len(points))
+    )
+
+    start = np.argmin(
+        points[:,0]
+    )
+
+    ordered = [start]
+
+    remaining.remove(
+        start
+    )
+
+    current = start
+
+    while remaining:
+
+        dists, idxs = tree.query(
+            points[current],
+            k=20
+        )
+
+        next_idx = None
+
+        for idx in np.atleast_1d(idxs):
+
+            if idx in remaining:
+
+                next_idx = idx
+                break
+
+        if next_idx is None:
+            break
+
+        ordered.append(
+            next_idx
+        )
+
+        remaining.remove(
+            next_idx
+        )
+
+        current = next_idx
+
+    return points[
+        ordered
+    ]
+
+====================================================================================================
+FILE: src\geometry\curvature_analyzer.py
+====================================================================================================
+
+import numpy as np
+
+from scipy.ndimage import gaussian_filter1d
+
+
+def curvature_profile(
+    points
+):
+
+    x = gaussian_filter1d(
+        points[:,0],
+        sigma=5
+    )
+
+    y = gaussian_filter1d(
+        points[:,1],
+        sigma=5
+    )
+
+    dx = np.gradient(x)
+    dy = np.gradient(y)
+
+    ddx = np.gradient(dx)
+    ddy = np.gradient(dy)
+
+    num = np.abs(
+        dx * ddy
+        -
+        dy * ddx
+    )
+
+    den = np.power(
+        dx*dx + dy*dy,
+        1.5
+    )
+
+    return np.divide(
+        num,
+        den,
+        out=np.zeros_like(num),
+        where=den>0
+    )
+
+====================================================================================================
+FILE: src\corners\curvature_peak_detector.py
+====================================================================================================
+
+import numpy as np
+
+from scipy.ndimage import gaussian_filter1d
+from scipy.signal import find_peaks
+
+
+def detect_corner_candidates(
+    axis_points
+):
+
+    x = gaussian_filter1d(
+        axis_points[:,1],
+        sigma=5
+    )
+
+    y = gaussian_filter1d(
+        axis_points[:,2],
+        sigma=5
+    )
+
+    dx = np.gradient(x)
+    dy = np.gradient(y)
+
+    ddx = np.gradient(dx)
+    ddy = np.gradient(dy)
+
+    curvature = np.abs(
+        dx * ddy
+        -
+        dy * ddx
+    )
+
+    denom = np.power(
+        dx * dx + dy * dy,
+        1.5
+    )
+
+    curvature = np.divide(
+        curvature,
+        denom,
+        out=np.zeros_like(curvature),
+        where=denom > 0
+    )
+
+    curvature = gaussian_filter1d(
+        curvature,
+        sigma=10
+    )
+
+    threshold = (
+        np.percentile(
+            curvature,
+            90
+        ) * 0.25
+    )
+
+    peaks, _ = find_peaks(
+        curvature,
+        prominence=threshold,
+        distance=40
+    )
+
+    return peaks, curvature
+
+====================================================================================================
+FILE: src\corners\corner_region_detector.py
+====================================================================================================
+
+import numpy as np
+
+
+def expand_corner_region(
+    curvature,
+    apex_idx,
+    threshold_ratio=0.35,
+    max_width_pct=0.15
+):
+
+    peak = curvature[
+        apex_idx
+    ]
+
+    threshold = (
+        peak *
+        threshold_ratio
+    )
+
+    max_span = int(
+        len(curvature) *
+        max_width_pct
+    )
+
+    start = apex_idx
+
+    while (
+        start > 0
+        and
+        curvature[start] > threshold
+        and
+        (apex_idx - start) < max_span
+    ):
+        start -= 1
+
+    end = apex_idx
+
+    while (
+        end < len(curvature)-1
+        and
+        curvature[end] > threshold
+        and
+        (end - apex_idx) < max_span
+    ):
+        end += 1
+
+    return (
+        start,
+        apex_idx,
+        end
+    )
+
+====================================================================================================
+FILE: src\corners\region_deduplicator.py
+====================================================================================================
+
+from __future__ import annotations
+
+def deduplicate_regions(
+    corners,
+    overlap_threshold=0.80
+):
+
+    if not corners:
+        return []
+
+    corners = sorted(
+        corners,
+        key=lambda c: c["strength"],
+        reverse=True
+    )
+
+    kept = []
+
+    for candidate in corners:
+
+        c_start = candidate["start_pct"]
+        c_end = candidate["end_pct"]
+
+        keep = True
+
+        for existing in kept:
+
+            overlap_start = max(
+                c_start,
+                existing["start_pct"]
+            )
+
+            overlap_end = min(
+                c_end,
+                existing["end_pct"]
+            )
+
+            overlap = max(
+                0.0,
+                overlap_end - overlap_start
+            )
+
+            width = max(
+                c_end - c_start,
+                1e-6
+            )
+
+            overlap_ratio = (
+                overlap / width
+            )
+
+            if overlap_ratio >= overlap_threshold:
+                keep = False
+                break
+
+        if keep:
+            kept.append(candidate)
+
+    return sorted(
+        kept,
+        key=lambda c: c["apex_pct"]
+    )
+
+====================================================================================================
+FILE: src\corners\characteristics.py
+====================================================================================================
+
+from __future__ import annotations
+
+
+def classify_corner(angle_deg: float) -> str:
+    if angle_deg < 20:
+        return "kink"
+
+    if angle_deg < 60:
+        return "bend"
+
+    if angle_deg < 120:
+        return "corner"
+
+    return "hairpin"
+
+
+def calculate_severity(
+    angle_deg: float,
+    strength: float
+) -> float:
+
+    angle_component = min(
+        max(angle_deg / 180.0, 0.0),
+        1.0
+    )
+
+    strength_component = min(
+        max(strength / 0.03, 0.0),
+        1.0
+    )
+
+    return round(
+        0.6 * angle_component +
+        0.4 * strength_component,
+        4
+    )
+
+====================================================================================================
+FILE: src\corners\corner_dependency.py
+====================================================================================================
+
+from __future__ import annotations
+
+def calculate_exit_importance(
+    following_straight_pct: float
+) -> float:
+
+    score = min(
+        following_straight_pct / 0.15,
+        1.0
+    )
+
+    return round(score, 4)
+
+====================================================================================================
+FILE: src\corners\track_insights.py
+====================================================================================================
+
+from __future__ import annotations
+
+def classify_insight(
+    severity: float,
+    exit_importance: float
+) -> list[str\]:
+
+    tags = []
+
+    if exit_importance >= 0.8:
+        tags.append(
+            "critical_exit"
+        )
+
+    if severity >= 0.7:
+        tags.append(
+            "heavy_braking_candidate"
+        )
+
+    return tags
+
+====================================================================================================
+FILE: src\pipelines\build_axis_library.py
+====================================================================================================
+
+from pathlib import Path
+
+import numpy as np
+
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+sys.path.insert(
+    0,
+    str(ROOT)
+)
+
+from src.geometry.skeleton_generator import svg_to_skeleton
+from src.geometry.centreline_extractor import (
+    skeleton_to_points,
+    order_skeleton
+)
+
+VECTOR_ROOT = Path(
+r"E:\Project_Shiftwright\external\racing-track-maps-vector\from-iracing"
+)
+
+OUTPUT = Path(
+    "generated/axes"
+)
+
+OUTPUT.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+built = 0
+
+for svg in VECTOR_ROOT.rglob(
+    "active.svg"
+):
+
+    track_folder = svg.parent.name
+
+    track_id = track_folder.split(
+        "-"
+    )[0]
+
+    try:
+
+        skeleton = svg_to_skeleton(
+            svg
+        )
+
+        points = skeleton_to_points(
+            skeleton
+        )
+
+        ordered = order_skeleton(
+            points
+        )
+
+        np.savetxt(
+            OUTPUT /
+            f"{track_id}_axis.csv",
+            ordered,
+            delimiter=",",
+            fmt="%d"
+        )
+
+        built += 1
+
+        print(
+            f"{track_id} OK"
+        )
+
+    except Exception as ex:
+
+        print(
+            f"{track_id} FAIL {ex}"
+        )
+
+print()
+print(
+    f"Built: {built}"
+)
+
+====================================================================================================
+FILE: src\pipelines\normalize_axis_library.py
+====================================================================================================
+
+from pathlib import Path
+import numpy as np
+
+AXIS_DIR = Path(
+    "generated/axes"
+)
+
+OUTPUT_DIR = Path(
+    "generated/axes_normalized"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+TARGET_POINTS = 2048
+
+built = 0
+
+for axis_file in AXIS_DIR.glob(
+    "*_axis.csv"
+):
+
+    try:
+
+        pts = np.loadtxt(
+            axis_file,
+            delimiter=","
+        )
+
+        if len(pts) < 10:
+            continue
+
+        seg = np.linalg.norm(
+            pts[1:] - pts[:-1],
+            axis=1
+        )
+
+        cumulative = np.concatenate(
+            (
+                [0],
+                np.cumsum(seg)
+            )
+        )
+
+        target_dist = np.linspace(
+            0,
+            cumulative[-1],
+            TARGET_POINTS
+        )
+
+        x = np.interp(
+            target_dist,
+            cumulative,
+            pts[:,0]
+        )
+
+        y = np.interp(
+            target_dist,
+            cumulative,
+            pts[:,1]
+        )
+
+        lap_pct = np.linspace(
+            0.0,
+            1.0,
+            TARGET_POINTS
+        )
+
+        normalized = np.column_stack(
+            (
+                lap_pct,
+                x,
+                y
+            )
+        )
+
+        np.savetxt(
+            OUTPUT_DIR / axis_file.name,
+            normalized,
+            delimiter=",",
+            fmt=[
+                "%.6f",
+                "%.3f",
+                "%.3f"
+            ],
+            header="lap_pct,x,y",
+            comments=""
+        )
+
+        built += 1
+
+    except Exception as ex:
+
+        print(
+            f"FAIL {axis_file.name}: "
+            f"{ex}"
+        )
+
+print()
+print(
+    f"Normalized: {built}"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_axis_registry.py
+====================================================================================================
+
+from pathlib import Path
+import numpy as np
+import json
+
+AXIS_DIR = Path(
+    "generated/axes_normalized"
+)
+
+OUTPUT = Path(
+    "generated/axis_registry.json"
+)
+
+registry = {}
+
+for axis in AXIS_DIR.glob(
+    "*_axis.csv"
+):
+
+    track_id = (
+        axis.stem
+        .replace(
+            "_axis",
+            ""
+        )
+    )
+
+    pts = np.loadtxt(
+        axis,
+        delimiter=",",
+        skiprows=1
+    )
+
+    registry[track_id] = {
+
+        "track_id":
+            int(track_id),
+
+        "axis_points":
+            int(len(pts)),
+
+        "lap_coordinate_system":
+            "lap_pct",
+
+        "start_pct":
+            0.0,
+
+        "end_pct":
+            1.0
+    }
+
+with open(
+    OUTPUT,
+    "w",
+    encoding="utf-8"
+) as fp:
+
+    json.dump(
+        dict(
+            sorted(
+                registry.items(),
+                key=lambda x: int(x[0])
+            )
+        ),
+        fp,
+        indent=2
+    )
+
+print()
+print(
+    f"Registered: {len(registry)}"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_corner_candidate_library.py
+====================================================================================================
+
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+sys.path.insert(
+    0,
+    str(ROOT)
+)
+
+import json
+import numpy as np
+
+from src.corners.curvature_peak_detector import (
+    detect_corner_candidates
+)
+
+AXIS_DIR = Path(
+    "generated/axes_normalized"
+)
+
+OUTPUT_DIR = Path(
+    "generated/corner_candidates"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+built = 0
+
+for axis_file in AXIS_DIR.glob(
+    "*_axis.csv"
+):
+
+    track_id = (
+        axis_file.stem
+        .replace(
+            "_axis",
+            ""
+        )
+    )
+
+    try:
+
+        data = np.loadtxt(
+            axis_file,
+            delimiter=",",
+            skiprows=1
+        )
+
+        peaks, curvature = detect_corner_candidates(
+            data
+        )
+
+        candidates = []
+
+        for peak in peaks:
+
+            candidates.append({
+
+                "lap_pct":
+                    round(
+                        float(
+                            data[
+                                peak
+                            ][0]
+                        ),
+                        6
+                    ),
+
+                "curvature":
+                    round(
+                        float(
+                            curvature[
+                                peak
+                            ]
+                        ),
+                        6
+                    )
+            })
+
+        with open(
+            OUTPUT_DIR /
+            f"{track_id}.json",
+            "w",
+            encoding="utf-8"
+        ) as fp:
+
+            json.dump(
+                {
+                    "track_id":
+                        int(track_id),
+
+                    "source":
+                        "generated",
+
+                    "candidate_count":
+                        len(candidates),
+
+                    "candidates":
+                        candidates
+                },
+                fp,
+                indent=2
+            )
+
+        built += 1
+
+        if built % 25 == 0:
+
+            print(
+                f"{built} complete"
+            )
+
+    except Exception as ex:
+
+        print(
+            f"{track_id} FAIL: "
+            f"{ex}"
+        )
+
+print()
+print(
+    f"Built: {built}"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_corner_apex_library.py
+====================================================================================================
+
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+sys.path.insert(
+    0,
+    str(ROOT)
+)
+
+import json
+import numpy as np
+
+from src.corners.curvature_peak_detector import (
+    detect_corner_candidates
+)
+
+AXIS_DIR = Path(
+    "generated/axes_normalized"
+)
+
+OUTPUT_DIR = Path(
+    "generated/corner_apexes"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+built = 0
+
+for axis_file in AXIS_DIR.glob(
+    "*_axis.csv"
+):
+
+    track_id = (
+        axis_file.stem
+        .replace(
+            "_axis",
+            ""
+        )
+    )
+
+    try:
+
+        data = np.loadtxt(
+            axis_file,
+            delimiter=",",
+            skiprows=1
+        )
+
+        peaks, curvature = detect_corner_candidates(
+            data
+        )
+
+        apexes = []
+
+        for peak in peaks:
+
+            apexes.append({
+
+                "lap_pct":
+                    round(
+                        float(
+                            data[peak][0]
+                        ),
+                        6
+                    ),
+
+                "curvature":
+                    round(
+                        float(
+                            curvature[peak]
+                        ),
+                        6
+                    )
+            })
+
+        with open(
+            OUTPUT_DIR /
+            f"{track_id}.json",
+            "w",
+            encoding="utf-8"
+        ) as fp:
+
+            json.dump(
+                {
+                    "track_id":
+                        int(track_id),
+
+                    "source":
+                        "generated",
+
+                    "apex_count":
+                        len(apexes),
+
+                    "apexes":
+                        apexes
+                },
+                fp,
+                indent=2
+            )
+
+        built += 1
+
+        if built % 25 == 0:
+
+            print(
+                f"{built} complete"
+            )
+
+    except Exception as ex:
+
+        print(
+            f"{track_id} FAIL: "
+            f"{ex}"
+        )
+
+print()
+
+print(
+    f"Built: {built}"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_corner_region_library.py
+====================================================================================================
+
+import sys
+from pathlib import Path
+import json
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[2]
+
+sys.path.insert(
+    0,
+    str(ROOT)
+)
+
+from src.corners.curvature_peak_detector import (
+    detect_corner_candidates
+)
+
+from src.corners.corner_region_detector import (
+    expand_corner_region
+)
+
+from src.corners.region_deduplicator import (
+    deduplicate_regions
+)
+
+AXIS_DIR = Path(
+    "generated/axes_normalized"
+)
+
+OUTPUT_DIR = Path(
+    "generated/corner_regions"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+built = 0
+
+for axis_file in AXIS_DIR.glob(
+    "*_axis.csv"
+):
+
+    track_id = (
+        axis_file.stem
+        .replace(
+            "_axis",
+            ""
+        )
+    )
+
+    try:
+
+        data = np.loadtxt(
+            axis_file,
+            delimiter=",",
+            skiprows=1
+        )
+
+        peaks, curvature = (
+            detect_corner_candidates(
+                data
+            )
+        )
+
+        corners = []
+
+        for peak in peaks:
+
+            start, apex, end = (
+                expand_corner_region(
+                    curvature,
+                    peak
+                )
+            )
+
+            corners.append(
+                {
+                    "start_pct": round(
+                        float(data[start][0]),
+                        6
+                    ),
+                    "apex_pct": round(
+                        float(data[apex][0]),
+                        6
+                    ),
+                    "end_pct": round(
+                        float(data[end][0]),
+                        6
+                    ),
+                    "strength": round(
+                        float(curvature[apex]),
+                        6
+                    )
+                }
+            )
+
+        corners = deduplicate_regions(
+            corners
+        )
+
+        with open(
+            OUTPUT_DIR /
+            f"{track_id}.json",
+            "w",
+            encoding="utf-8"
+        ) as fp:
+
+            json.dump(
+                {
+                    "track_id":
+                        int(track_id),
+
+                    "source":
+                        "generated",
+
+                    "corner_count":
+                        len(corners),
+
+                    "corners":
+                        corners
+                },
+                fp,
+                indent=2
+            )
+
+        built += 1
+
+        if built % 25 == 0:
+
+            print(
+                f"{built} complete"
+            )
+
+    except Exception as ex:
+
+        print(
+            f"{track_id} FAIL: {ex}"
+        )
+
+print()
+print(
+    f"Built: {built}"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_corner_metrics_library.py
+====================================================================================================
+
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+sys.path.insert(
+    0,
+    str(ROOT)
+)
+
+import json
+import numpy as np
+
+AXIS_DIR = Path(
+    "generated/axes_normalized"
+)
+
+CORNER_DIR = Path(
+    "generated/corner_regions"
+)
+
+OUTPUT_DIR = Path(
+    "generated/corner_metrics"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+built = 0
+
+for corner_file in CORNER_DIR.glob(
+    "*.json"
+):
+
+    track_id = corner_file.stem
+
+    axis_file = (
+        AXIS_DIR /
+        f"{track_id}_axis.csv"
+    )
+
+    if not axis_file.exists():
+        continue
+
+    axis = np.loadtxt(
+        axis_file,
+        delimiter=",",
+        skiprows=1
+    )
+
+    data = json.load(
+        open(
+            corner_file,
+            encoding="utf-8"
+        )
+    )
+
+    metrics = []
+
+    for corner in data[
+        "corners"
+    ]:
+
+        start_pct = corner[
+            "start_pct"
+        ]
+
+        apex_pct = corner[
+            "apex_pct"
+        ]
+
+        end_pct = corner[
+            "end_pct"
+        ]
+
+        width_pct = (
+            end_pct
+            -
+            start_pct
+        )
+
+        start_idx = int(
+            start_pct
+            *
+            (
+                len(axis)-1
+            )
+        )
+
+        apex_idx = int(
+            apex_pct
+            *
+            (
+                len(axis)-1
+            )
+        )
+
+        end_idx = int(
+            end_pct
+            *
+            (
+                len(axis)-1
+            )
+        )
+
+        p1 = axis[
+            start_idx
+        ][1:3]
+
+        p2 = axis[
+            apex_idx
+        ][1:3]
+
+        p3 = axis[
+            end_idx
+        ][1:3]
+
+        v1 = p2 - p1
+        v2 = p3 - p2
+
+        angle = np.degrees(
+            np.arccos(
+                np.clip(
+                    np.dot(
+                        v1,
+                        v2
+                    )
+                    /
+                    (
+                        np.linalg.norm(v1)
+                        *
+                        np.linalg.norm(v2)
+                    ),
+                    -1,
+                    1
+                )
+            )
+        )
+
+        metrics.append({
+
+            "start_pct":
+                start_pct,
+
+            "apex_pct":
+                apex_pct,
+
+            "end_pct":
+                end_pct,
+
+            "strength":
+                corner[
+                    "strength"
+                ],
+
+            "width_pct":
+                round(
+                    width_pct,
+                    6
+                ),
+
+            "angle_deg":
+                round(
+                    float(angle),
+                    2
+                )
+        })
+
+    with open(
+        OUTPUT_DIR /
+        corner_file.name,
+        "w",
+        encoding="utf-8"
+    ) as fp:
+
+        json.dump(
+            {
+                "track_id":
+                    int(track_id),
+
+                "corners":
+                    metrics
+            },
+            fp,
+            indent=2
+        )
+
+    built += 1
+
+print()
+print(
+    f"Built: {built}"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_corner_characteristics_library.py
+====================================================================================================
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from src.corners.characteristics import (
+    classify_corner,
+    calculate_severity,
+)
+
+
+ROOT = Path(__file__).resolve().parents[2]
+
+INPUT_DIR = ROOT / "generated" / "corner_metrics"
+
+OUTPUT_DIR = ROOT / "generated" / "corner_characteristics"
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+
+def process_file(path: Path):
+
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    output = {
+        "track_id": data["track_id"],
+        "source": "generated",
+        "corners": []
+    }
+
+    for idx, corner in enumerate(
+        data.get("corners", []),
+        start=1
+    ):
+
+        angle = corner.get(
+            "angle_deg",
+            0.0
+        )
+
+        strength = corner.get(
+            "strength",
+            0.0
+        )
+
+        severity = calculate_severity(
+            angle,
+            strength
+        )
+
+        output["corners"].append(
+            {
+                "corner_id": idx,
+
+                "start_pct":
+                    corner["start_pct"],
+
+                "apex_pct":
+                    corner["apex_pct"],
+
+                "end_pct":
+                    corner["end_pct"],
+
+                "strength":
+                    strength,
+
+                "width_pct":
+                    corner["width_pct"],
+
+                "angle_deg":
+                    angle,
+
+                "severity":
+                    severity,
+
+                "classification":
+                    classify_corner(angle)
+            }
+        )
+
+    out_file = (
+        OUTPUT_DIR /
+        path.name
+    )
+
+    with open(
+        out_file,
+        "w",
+        encoding="utf-8"
+    ) as f:
+        json.dump(
+            output,
+            f,
+            indent=2
+        )
+
+    print(
+        f"processed {path.name}"
+    )
+
+
+def main():
+
+    files = sorted(
+        INPUT_DIR.glob("*.json")
+    )
+
+    for file in files:
+        process_file(file)
+
+    print(
+        f"generated {len(files)} files"
+    )
+
+
+if __name__ == "__main__":
+    main()
+
+====================================================================================================
+FILE: src\pipelines\build_corner_dependency_library.py
+====================================================================================================
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from src.corners.corner_dependency import (
+    calculate_exit_importance
+)
+
+ROOT = Path(__file__).resolve().parents[2]
+
+REGION_DIR = (
+    ROOT /
+    "generated" /
+    "corner_regions"
+)
+
+OUTPUT_DIR = (
+    ROOT /
+    "generated" /
+    "corner_dependencies"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+
+def process_file(path: Path):
+
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+        data = json.load(f)
+
+    corners = data.get(
+        "corners",
+        []
+    )
+
+    output = {
+        "track_id":
+            data["track_id"],
+        "dependencies": []
+    }
+
+    count = len(corners)
+
+    for i, corner in enumerate(corners):
+
+        next_corner = corners[
+            (i + 1) % count
+        ]
+
+        straight_len = (
+            next_corner["start_pct"]
+            -
+            corner["end_pct"]
+        )
+
+        if straight_len < 0:
+            straight_len += 1.0
+
+        output["dependencies"].append(
+            {
+                "corner_id": i + 1,
+
+                "following_straight_pct":
+                    round(
+                        straight_len,
+                        6
+                    ),
+
+                "exit_importance":
+                    calculate_exit_importance(
+                        straight_len
+                    ),
+
+                "reason":
+                    "long_following_straight"
+                    if straight_len > 0.08
+                    else "normal"
+            }
+        )
+
+    with open(
+        OUTPUT_DIR / path.name,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            output,
+            f,
+            indent=2
+        )
+
+    print(
+        f"processed {path.name}"
+    )
+
+
+def main():
+
+    files = sorted(
+        REGION_DIR.glob("*.json")
+    )
+
+    for file in files:
+        process_file(file)
+
+    print(
+        f"generated {len(files)} files"
+    )
+
+
+if __name__ == "__main__":
+    main()
+
+====================================================================================================
+FILE: src\pipelines\build_enriched_tracks.py
+====================================================================================================
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+TRACK_DIR = ROOT / "generated"
+DEP_DIR = ROOT / "generated" / "corner_dependencies"
+CHAR_DIR = ROOT / "generated" / "corner_characteristics"
+
+OUT_DIR = ROOT / "generated" / "enriched_tracks"
+
+OUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+for track_file in TRACK_DIR.glob("*.json"):
+
+    if track_file.parent != TRACK_DIR:
+        continue
+
+    track_id = track_file.stem
+
+    dep_file = DEP_DIR / f"{track_id}.json"
+    char_file = CHAR_DIR / f"{track_id}.json"
+
+    if (
+        not dep_file.exists()
+        or
+        not char_file.exists()
+    ):
+        continue
+
+    with open(
+        track_file,
+        "r",
+        encoding="utf-8"
+    ) as f:
+        track = json.load(f)
+
+    with open(
+        dep_file,
+        "r",
+        encoding="utf-8"
+    ) as f:
+        deps = json.load(f)
+
+    with open(
+        char_file,
+        "r",
+        encoding="utf-8"
+    ) as f:
+        chars = json.load(f)
+
+    named_corners = track.get(
+        "corners",
+        []
+    )
+
+    deps_list = deps.get(
+        "dependencies",
+        []
+    )
+
+    chars_list = chars.get(
+        "corners",
+        []
+    )
+
+    merged = []
+
+    count = min(
+        len(named_corners),
+        len(deps_list),
+        len(chars_list)
+    )
+
+    for i in range(count):
+
+        corner = dict(
+            named_corners[i]
+        )
+
+        corner[
+            "exit_importance"
+        ] = deps_list[i].get(
+            "exit_importance"
+        )
+
+        corner[
+            "dependency_reason"
+        ] = deps_list[i].get(
+            "reason"
+        )
+
+        corner[
+            "corner_type"
+        ] = chars_list[i].get(
+            "classification"
+        )
+
+        merged.append(
+            corner
+        )
+
+    track[
+        "enriched_corners"
+    ] = merged
+
+    with open(
+        OUT_DIR /
+        track_file.name,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            track,
+            f,
+            indent=2
+        )
+
+print(
+    "complete"
+)
+
+====================================================================================================
+FILE: src\models\track_knowledge.py
+====================================================================================================
+
+from dataclasses import dataclass
+
+@dataclass
+class TrackFact:
+    category: str
+    value: str
+    source: str
+    confidence: str = "manual"
+
+
+@dataclass
+class TrackKnowledge:
+    track_id: int
+    track_name: str
+    source: str
+    facts: list
+
+====================================================================================================
+FILE: src\pipelines\build_knowledge_registry.py
+====================================================================================================
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+REGION_DIR = ROOT / "generated" / "corner_regions"
+TRACK_DIR = ROOT / "generated"
+
+registry = []
+
+for region_file in REGION_DIR.glob("*.json"):
+
+    track_id = region_file.stem
+
+    track_file = TRACK_DIR / f"{track_id}.json"
+
+    record = {
+        "track_id": int(track_id),
+        "knowledge_level": "geometry_only",
+        "named_corner_count": 0,
+        "generated_corner_count": 0
+    }
+
+    with open(
+        region_file,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        region_data = json.load(f)
+
+    record["generated_corner_count"] = len(
+        region_data.get(
+            "corners",
+            []
+        )
+    )
+
+    if track_file.exists():
+
+        with open(
+            track_file,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            track_data = json.load(f)
+
+        named_count = len(
+            track_data.get(
+                "corners",
+                []
+            )
+        )
+
+        record["named_corner_count"] = named_count
+
+        if named_count > 0:
+
+            record["knowledge_level"] = "direct"
+
+        knowledge_source = track_data.get(
+            "knowledge_source"
+        )
+
+        if knowledge_source:
+
+            record["knowledge_level"] = "inherited"
+
+            record["parent_track_id"] = (
+                knowledge_source.get(
+                    "parent_track_id"
+                )
+            )
+
+            record["inheritance_level"] = (
+                knowledge_source.get(
+                    "inheritance_level"
+                )
+            )
+
+    registry.append(record)
+
+registry.sort(
+    key=lambda x: x["track_id"]
+)
+
+with open(
+    ROOT /
+    "generated" /
+    "knowledge_registry.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        registry,
+        f,
+        indent=2
+    )
+
+print(
+    f"Built {len(registry)} records"
+)
+
+====================================================================================================
+FILE: src\pipelines\build_track_knowledge_pack.py
+====================================================================================================
+
+import json
+from pathlib import Path
+
+OUTDIR = Path(
+    "generated/knowledge_packs"
+)
+
+OUTDIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+built = 0
+
+for source in Path(
+    "generated"
+).glob("*.json"):
+
+    try:
+        track_id = int(source.stem)
+    except:
+        continue
+
+    track = json.load(
+        open(
+            source,
+            encoding="utf-8"
+        )
+    )
+
+    region_file = Path(
+        f"generated/corner_regions/{track_id}.json"
+    )
+
+    corner_regions = {}
+
+    if region_file.exists():
+
+        corner_regions = json.load(
+            open(
+                region_file,
+                encoding="utf-8"
+            )
+        )
+
+    pack = {
+
+        "track_id": track_id,
+
+        "knowledge_level":
+            "named"
+            if track.get("corners")
+            else "geometry_only",
+
+        "named_corners":
+            track.get(
+                "corners",
+                []
+            ),
+
+        "generated_corner_regions":
+            corner_regions.get(
+                "corners",
+                []
+            ),
+
+        "youtube_summary": {},
+
+        "turn_consensus": {},
+
+        "metadata":
+            track.get(
+                "metadata",
+                {}
+            )
+    }
+
+    with open(
+        OUTDIR /
+        f"{track_id}.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            pack,
+            f,
+            indent=2
+        )
+
+    built += 1
+
+print(
+    "knowledge packs:",
+    built
+)
+
+====================================================================================================
+FILE: src\pipelines\build_track_catalog.py
+====================================================================================================
+
+import json
+from pathlib import Path
+
+ROOT = Path(
+    r"E:\Project_Shiftwright\external\racing-track-maps-vector\from-iracing"
+)
+
+tracks = []
+
+for turns_svg in ROOT.rglob("turns.svg"):
+
+    folder = turns_svg.parent
+
+    layout = folder.name
+
+    try:
+        track_id = int(
+            layout.split("-")[0]
+        )
+    except:
+        continue
+
+    tracks.append({
+
+        "track_id": track_id,
+
+        "layout": layout,
+
+        "folder": str(folder),
+
+        "has_active_svg":
+            (folder / "active.svg").exists(),
+
+        "has_turns_svg": True,
+
+        "has_commentary":
+            (folder / "commentary.json").exists()
+    })
+
+tracks.sort(
+    key=lambda x: x["track_id"]
+)
+
+with open(
+    "generated/track_catalog.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        tracks,
+        f,
+        indent=2
+    )
+
+print(
+    "tracks:",
+    len(tracks)
+)
+
+====================================================================================================
+FILE: src\pipelines\build_acquisition_registry.py
+====================================================================================================
+
+import json
+
+catalog = json.load(
+    open(
+        "generated/track_catalog.json",
+        encoding="utf-8"
+    )
+)
+
+registry = {}
+
+for track in catalog:
+
+    track_id = str(
+        track["track_id"]
+    )
+
+    registry[track_id] = {
+
+        "layout":
+            track["layout"],
+
+        "youtube": {
+
+            "status":
+                "pending",
+
+            "videos_found": 0,
+
+            "videos_processed": 0
+        },
+
+        "garage61": {
+
+            "status":
+                "pending"
+        },
+
+        "telemetry": {
+
+            "status":
+                "pending"
+        }
+    }
+
+with open(
+    "generated/acquisition_registry.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        registry,
+        f,
+        indent=2
+    )
+
+print(
+    "created",
+    len(registry),
+    "registry entries"
+)
+
+====================================================================================================
+FILE: src\youtube\segment_turn_ranges.py
+====================================================================================================
+
+import json
+import re
+from pathlib import Path
+
+WORD_TO_NUM = {
+    "one":"1",
+    "two":"2",
+    "three":"3",
+    "four":"4",
+    "five":"5",
+    "six":"6",
+    "seven":"7",
+    "eight":"8",
+    "nine":"9",
+    "ten":"10",
+    "eleven":"11",
+    "twelve":"12",
+    "thirteen":"13",
+    "fourteen":"14",
+    "fifteen":"15",
+    "sixteen":"16",
+    "seventeen":"17",
+    "eighteen":"18"
+}
+
+TURN_RE = re.compile(
+    r"turn\s+("
+    r"\d+[a-z]?"
+    r"|one|two|three|four|five|six|seven|eight|nine|ten"
+    r"|eleven|twelve|thirteen|fourteen|fifteen|sixteen"
+    r"|seventeen|eighteen"
+    r")",
+    re.IGNORECASE
+)
+
+TRANSCRIPTS = Path(
+    "research/youtube/transcripts"
+)
+
+for file in TRANSCRIPTS.glob("*.json"):
+
+    data = json.load(
+        open(
+            file,
+            encoding="utf-8"
+        )
+    )
+
+    turns = []
+
+    for i,row in enumerate(data):
+
+        text = row["text"]
+
+        for m in TURN_RE.finditer(text):
+
+            turn = m.group(1).lower()
+
+            turn = WORD_TO_NUM.get(
+                turn,
+                turn
+            )
+
+            turns.append(
+                (
+                    i,
+                    turn
+                )
+            )
+
+    for idx,(start,turn) in enumerate(turns):
+
+        if idx + 1 < len(turns):
+            end = turns[idx + 1][0]
+        else:
+            end = min(
+                start + 20,
+                len(data)
+            )
+
+        section = " ".join(
+            row["text"]
+            for row in data[start:end]
+        )
+
+        print(
+            f"{file.stem},"
+            f"turn_{turn},"
+            f"{section}"
+        )
+
+====================================================================================================
+FILE: src\youtube\extract_turn_facts_v2.py
+====================================================================================================
+
+import csv
+from collections import defaultdict
+
+FACT_WORDS = {
+    "braking_zone": [
+        "brake",
+        "braking"
+    ],
+    "trail_braking": [
+        "trail"
+    ],
+    "apex_focus": [
+        "apex"
+    ],
+    "exit_focus": [
+        "exit"
+    ],
+    "long_straight": [
+        "straight"
+    ],
+    "flat_corner": [
+        "flat"
+    ],
+    "hairpin": [
+        "hairpin"
+    ],
+    "cambered": [
+        "camber"
+    ],
+    "slippery": [
+        "slippery",
+        "slippy"
+    ]
+}
+
+facts = defaultdict(set)
+
+with open(
+    "research/youtube/turn_ranges.csv",
+    encoding="utf-16"
+) as f:
+
+    reader = csv.reader(f)
+
+    for row in reader:
+
+        if len(row) < 3:
+            continue
+
+        video_id = row[0]
+        turn = row[1]
+        text = row[2].lower()
+
+        key = f"{video_id}:{turn}"
+
+        for fact,words in FACT_WORDS.items():
+
+            if any(word in text for word in words):
+
+                facts[key].add(fact)
+
+for key in sorted(facts):
+
+    print(
+        key,
+        ",",
+        ",".join(
+            sorted(facts[key])
+        )
+    )
+
+====================================================================================================
+FILE: src\youtube\build_track_turn_consensus.py
+====================================================================================================
+
+import csv
+from collections import defaultdict, Counter
+
+video_track = {}
+
+with open(
+    "research/youtube/video_metadata.csv",
+    encoding="utf-16"
+) as f:
+
+    reader = csv.reader(f)
+
+    for row in reader:
+
+        if len(row) < 2:
+            continue
+
+        video_track[row[0]] = row[1]
+
+consensus = defaultdict(Counter)
+
+with open(
+    "research/youtube/turn_facts_v2.csv",
+    encoding="utf-16"
+) as f:
+
+    for line in f:
+
+        line = line.strip()
+
+        if ":" not in line:
+            continue
+
+        left,right = line.split(
+            ",",
+            1
+        )
+
+        video_id,turn = left.split(
+            ":",
+            1
+        )
+
+        track = video_track.get(
+            video_id,
+            "unknown"
+        )
+
+        key = f"{track}:{turn}"
+
+        for fact in right.split(","):
+
+            fact = fact.strip()
+
+            if fact:
+                consensus[key][fact] += 1
+
+for key in sorted(consensus):
+
+    print()
+    print(key)
+
+    for fact,count in consensus[key].most_common():
+
+        print(
+            f"  {fact}: {count}"
+        )
+
+====================================================================================================
+FILE: src\youtube\build_track_fact_summary.py
+====================================================================================================
+
+import csv
+from collections import defaultdict, Counter
+
+video_track = {}
+
+with open(
+    "research/youtube/video_metadata.csv",
+    encoding="utf-16"
+) as f:
+
+    reader = csv.reader(f)
+
+    for row in reader:
+
+        if len(row) < 2:
+            continue
+
+        video_track[row[0]] = row[1]
+
+track_facts = defaultdict(Counter)
+
+with open(
+    "research/youtube/turn_facts_v2.csv",
+    encoding="utf-16"
+) as f:
+
+    for line in f:
+
+        if ":" not in line:
+            continue
+
+        left,right = line.strip().split(
+            ",",
+            1
+        )
+
+        video_id,turn = left.split(
+            ":",
+            1
+        )
+
+        track = video_track.get(
+            video_id
+        )
+
+        if not track:
+            continue
+
+        for fact in right.split(","):
+
+            fact = fact.strip()
+
+            if fact:
+
+                track_facts[
+                    track
+                ][fact] += 1
+
+for track,facts in sorted(track_facts.items()):
+
+    print()
+    print("=" * 50)
+    print(track)
+    print("=" * 50)
+
+    for fact,count in facts.most_common():
+
+        print(
+            f"{fact},{count}"
+        )

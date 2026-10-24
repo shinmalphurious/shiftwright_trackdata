@@ -1,0 +1,155 @@
+{
+  "track_id": 403,
+  "source_coverage": {
+    "track_id": 403,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Red Bull Ring - GP",
+    "length_m": 4280
+  },
+  "pit": {
+    "entry_pct": 0.89,
+    "exit_pct": 0.112
+  },
+  "sectors": [
+    {
+      "marker": 0.272,
+      "name": "1"
+    },
+    {
+      "marker": 0.668,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Niki Lauda Kurve",
+      "start_pct": 0.075,
+      "end_pct": 0.125,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 214.0
+    },
+    {
+      "name": "Remus",
+      "start_pct": 0.29,
+      "end_pct": 0.345,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 235.4
+    },
+    {
+      "name": "Schlossgold",
+      "start_pct": 0.47,
+      "end_pct": 0.54,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 299.6
+    },
+    {
+      "name": "Rauch",
+      "start_pct": 0.59,
+      "end_pct": 0.66,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 299.6
+    },
+    {
+      "name": "Wuerth",
+      "start_pct": 0.675,
+      "end_pct": 0.78,
+      "corner_length_pct": 0.105,
+      "corner_length_m": 449.4
+    },
+    {
+      "name": "Rindt",
+      "start_pct": 0.83,
+      "end_pct": 0.9,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 299.6
+    },
+    {
+      "name": "Red Bull Mobile",
+      "start_pct": 0.905,
+      "end_pct": 0.951,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 196.9
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Niki Lauda Kurve",
+      "start_pct": 0.075,
+      "end_pct": 0.125,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 214.0,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Remus",
+      "start_pct": 0.29,
+      "end_pct": 0.345,
+      "corner_length_pct": 0.055,
+      "corner_length_m": 235.4,
+      "exit_importance": 0.1726,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Schlossgold",
+      "start_pct": 0.47,
+      "end_pct": 0.54,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 299.6,
+      "exit_importance": 0.6221,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Rauch",
+      "start_pct": 0.59,
+      "end_pct": 0.66,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 299.6,
+      "exit_importance": 0.0391,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Wuerth",
+      "start_pct": 0.675,
+      "end_pct": 0.78,
+      "corner_length_pct": 0.105,
+      "corner_length_m": 449.4,
+      "exit_importance": 0.1922,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Rindt",
+      "start_pct": 0.83,
+      "end_pct": 0.9,
+      "corner_length_pct": 0.07,
+      "corner_length_m": 299.6,
+      "exit_importance": 0.5699,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Red Bull Mobile",
+      "start_pct": 0.905,
+      "end_pct": 0.951,
+      "corner_length_pct": 0.046,
+      "corner_length_m": 196.9,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    }
+  ]
+}

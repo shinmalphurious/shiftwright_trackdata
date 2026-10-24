@@ -1,0 +1,239 @@
+{
+  "track_id": 50,
+  "source_coverage": {
+    "track_id": 50,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Road America Bend",
+    "length_m": 6480
+  },
+  "pit": {
+    "entry_pct": 0.926,
+    "exit_pct": 0.055
+  },
+  "sectors": [
+    {
+      "marker": 0.141,
+      "name": "1"
+    },
+    {
+      "marker": 0.323,
+      "name": "2"
+    },
+    {
+      "marker": 0.473,
+      "name": "3"
+    },
+    {
+      "marker": 0.763,
+      "name": "4"
+    },
+    {
+      "marker": 0.867,
+      "name": "5"
+    },
+    {
+      "marker": 1.0,
+      "name": "6"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.079,
+      "end_pct": 0.117,
+      "corner_length_pct": 0.038,
+      "corner_length_m": 246.2
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.153,
+      "end_pct": 0.188,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 226.8
+    },
+    {
+      "name": "Moraine Sweep",
+      "start_pct": 0.252,
+      "end_pct": 0.297,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 291.6
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.331,
+      "end_pct": 0.366,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 226.8
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.386,
+      "end_pct": 0.411,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 162.0
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.425,
+      "end_pct": 0.445,
+      "corner_length_pct": 0.02,
+      "corner_length_m": 129.6
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.479,
+      "end_pct": 0.509,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 194.4
+    },
+    {
+      "name": "The Carousel",
+      "start_pct": 0.524,
+      "end_pct": 0.608,
+      "corner_length_pct": 0.084,
+      "corner_length_m": 544.3
+    },
+    {
+      "name": "The Bend",
+      "start_pct": 0.624,
+      "end_pct": 0.652,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 181.4
+    },
+    {
+      "name": "Kettle Bottoms",
+      "start_pct": 0.713,
+      "end_pct": 0.763,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 324.0
+    },
+    {
+      "name": "Canada Corner",
+      "start_pct": 0.777,
+      "end_pct": 0.808,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 200.9
+    },
+    {
+      "name": "Bill Mitchell Bend",
+      "start_pct": 0.826,
+      "end_pct": 0.857,
+      "corner_length_pct": 0.031,
+      "corner_length_m": 200.9
+    },
+    {
+      "name": "Turn 14",
+      "start_pct": 0.872,
+      "end_pct": 0.911,
+      "corner_length_pct": 0.039,
+      "corner_length_m": 252.7
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "Turn 1",
+      "start_pct": 0.079,
+      "end_pct": 0.117,
+      "corner_length_pct": 0.038,
+      "corner_length_m": 246.2,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 3",
+      "start_pct": 0.153,
+      "end_pct": 0.188,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 226.8,
+      "exit_importance": 0.1596,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Moraine Sweep",
+      "start_pct": 0.252,
+      "end_pct": 0.297,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 291.6,
+      "exit_importance": 0.0521,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 5",
+      "start_pct": 0.331,
+      "end_pct": 0.366,
+      "corner_length_pct": 0.035,
+      "corner_length_m": 226.8,
+      "exit_importance": 0.9054,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 6",
+      "start_pct": 0.386,
+      "end_pct": 0.411,
+      "corner_length_pct": 0.025,
+      "corner_length_m": 162.0,
+      "exit_importance": 0.1791,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "Turn 7",
+      "start_pct": 0.425,
+      "end_pct": 0.445,
+      "corner_length_pct": 0.02,
+      "corner_length_m": 129.6,
+      "exit_importance": 0.0619,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Turn 8",
+      "start_pct": 0.479,
+      "end_pct": 0.509,
+      "corner_length_pct": 0.03,
+      "corner_length_m": 194.4,
+      "exit_importance": 0.3029,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "The Carousel",
+      "start_pct": 0.524,
+      "end_pct": 0.608,
+      "corner_length_pct": 0.084,
+      "corner_length_m": 544.3,
+      "exit_importance": 0.1075,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "The Bend",
+      "start_pct": 0.624,
+      "end_pct": 0.652,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 181.4,
+      "exit_importance": 0.1791,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "Kettle Bottoms",
+      "start_pct": 0.713,
+      "end_pct": 0.763,
+      "corner_length_pct": 0.05,
+      "corner_length_m": 324.0,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    }
+  ]
+}

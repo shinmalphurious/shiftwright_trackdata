@@ -1,0 +1,130 @@
+{
+  "track_id": 486,
+  "source_coverage": {
+    "track_id": 486,
+    "map_vector": true,
+    "lovely": false,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {},
+  "pit": {
+    "entry_pct": 0.965,
+    "exit_pct": 0.095
+  },
+  "sectors": [
+    {
+      "marker": 0.356,
+      "name": "1"
+    },
+    {
+      "marker": 0.698,
+      "name": "2"
+    },
+    {
+      "marker": 1.0,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": "Tarzanbocht",
+      "start_pct": 0.05,
+      "end_pct": 0.118,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 286.3
+    },
+    {
+      "name": "Gerlachbocht",
+      "start_pct": 0.129,
+      "end_pct": 0.174,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 189.4
+    },
+    {
+      "name": "Hugenholzbocht",
+      "start_pct": 0.175,
+      "end_pct": 0.231,
+      "corner_length_pct": 0.056,
+      "corner_length_m": 235.8
+    },
+    {
+      "name": "Rob Slotemakerbocht",
+      "start_pct": 0.305,
+      "end_pct": 0.357,
+      "corner_length_pct": 0.052,
+      "corner_length_m": 218.9
+    },
+    {
+      "name": "Scheivlak",
+      "start_pct": 0.37,
+      "end_pct": 0.438,
+      "corner_length_pct": 0.068,
+      "corner_length_m": 286.3
+    },
+    {
+      "name": "Mastersbocht",
+      "start_pct": 0.46,
+      "end_pct": 0.522,
+      "corner_length_pct": 0.062,
+      "corner_length_m": 261.0
+    },
+    {
+      "name": "Bocht 9",
+      "start_pct": 0.523,
+      "end_pct": 0.555,
+      "corner_length_pct": 0.032,
+      "corner_length_m": 134.7
+    },
+    {
+      "name": "Bocht 10",
+      "start_pct": 0.556,
+      "end_pct": 0.63,
+      "corner_length_pct": 0.074,
+      "corner_length_m": 311.5
+    },
+    {
+      "name": "Hans Ernst Bocht",
+      "start_pct": 0.706,
+      "end_pct": 0.772,
+      "corner_length_pct": 0.066,
+      "corner_length_m": 277.9
+    },
+    {
+      "name": "Kumho",
+      "start_pct": 0.8,
+      "end_pct": 0.845,
+      "corner_length_pct": 0.045,
+      "corner_length_m": 189.4
+    },
+    {
+      "name": "Arie Luyendijk Bocht",
+      "start_pct": 0.85,
+      "end_pct": 0.93,
+      "corner_length_pct": 0.08,
+      "corner_length_m": 336.8
+    }
+  ],
+  "knowledge_source": {
+    "type": "inherited",
+    "parent_track_id": 485,
+    "inheritance_level": "high"
+  },
+  "inherited_corner_knowledge": {
+    "parent_track_id": 485,
+    "parent_corner_count": 11,
+    "corner_names": [
+      "Tarzanbocht",
+      "Gerlachbocht",
+      "Hugenholzbocht",
+      "Rob Slotemakerbocht",
+      "Scheivlak",
+      "Mastersbocht",
+      "Bocht 9",
+      "Bocht 10",
+      "Hans Ernst Bocht",
+      "Kumho",
+      "Arie Luyendijk Bocht"
+    ]
+  }
+}

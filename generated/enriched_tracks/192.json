@@ -1,0 +1,160 @@
+{
+  "track_id": 192,
+  "source_coverage": {
+    "track_id": 192,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Daytona",
+    "length_m": null
+  },
+  "pit": {
+    "entry_pct": null,
+    "exit_pct": null
+  },
+  "sectors": [
+    {
+      "name": "1",
+      "marker": 0.14
+    },
+    {
+      "name": "2",
+      "marker": 0.272
+    },
+    {
+      "name": "3",
+      "marker": 0.355
+    },
+    {
+      "name": "4",
+      "marker": 0.63
+    },
+    {
+      "name": "5",
+      "marker": 1
+    }
+  ],
+  "corners": [
+    {
+      "name": "T1",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T2",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T3",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T4",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T5",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T6",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T7",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T8",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T9",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T10",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T11",
+      "start_pct": null,
+      "end_pct": null
+    },
+    {
+      "name": "T12",
+      "start_pct": null,
+      "end_pct": null
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": "T1",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T2",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.1791,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "T3",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.3843,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T4",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.1922,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": "T5",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 0.2866,
+      "dependency_reason": "normal",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T6",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": "T7",
+      "start_pct": null,
+      "end_pct": null,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "bend"
+    }
+  ]
+}

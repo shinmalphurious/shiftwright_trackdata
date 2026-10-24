@@ -1,0 +1,180 @@
+{
+  "track_id": 152,
+  "source_coverage": {
+    "track_id": 152,
+    "map_vector": true,
+    "lovely": true,
+    "elevation": false,
+    "annotations": false
+  },
+  "metadata": {
+    "name": "Phillip Island Circuit",
+    "length_m": 4440
+  },
+  "pit": {
+    "entry_pct": 0.834,
+    "exit_pct": 0.024
+  },
+  "sectors": [
+    {
+      "marker": 0.371,
+      "name": "1"
+    },
+    {
+      "marker": 0.629,
+      "name": "2"
+    },
+    {
+      "marker": 1,
+      "name": "3"
+    }
+  ],
+  "corners": [
+    {
+      "name": null,
+      "start_pct": 0.1,
+      "end_pct": 0.16,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 266.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.178,
+      "end_pct": 0.267,
+      "corner_length_pct": 0.089,
+      "corner_length_m": 395.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.324,
+      "end_pct": 0.384,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 266.4
+    },
+    {
+      "name": null,
+      "start_pct": 0.415,
+      "end_pct": 0.448,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 146.5
+    },
+    {
+      "name": null,
+      "start_pct": 0.456,
+      "end_pct": 0.47,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 62.2
+    },
+    {
+      "name": null,
+      "start_pct": 0.472,
+      "end_pct": 0.525,
+      "corner_length_pct": 0.053,
+      "corner_length_m": 235.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.546,
+      "end_pct": 0.574,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 124.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.584,
+      "end_pct": 0.632,
+      "corner_length_pct": 0.048,
+      "corner_length_m": 213.1
+    },
+    {
+      "name": null,
+      "start_pct": 0.648,
+      "end_pct": 0.735,
+      "corner_length_pct": 0.087,
+      "corner_length_m": 386.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.74,
+      "end_pct": 0.768,
+      "corner_length_pct": 0.028,
+      "corner_length_m": 124.3
+    },
+    {
+      "name": null,
+      "start_pct": 0.77,
+      "end_pct": 0.813,
+      "corner_length_pct": 0.043,
+      "corner_length_m": 190.9
+    },
+    {
+      "name": null,
+      "start_pct": 0.83,
+      "end_pct": 0.913,
+      "corner_length_pct": 0.083,
+      "corner_length_m": 368.5
+    }
+  ],
+  "enriched_corners": [
+    {
+      "name": null,
+      "start_pct": 0.1,
+      "end_pct": 0.16,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 266.4,
+      "exit_importance": 0.2052,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.178,
+      "end_pct": 0.267,
+      "corner_length_pct": 0.089,
+      "corner_length_m": 395.2,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.324,
+      "end_pct": 0.384,
+      "corner_length_pct": 0.06,
+      "corner_length_m": 266.4,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "kink"
+    },
+    {
+      "name": null,
+      "start_pct": 0.415,
+      "end_pct": 0.448,
+      "corner_length_pct": 0.033,
+      "corner_length_m": 146.5,
+      "exit_importance": 0.3908,
+      "dependency_reason": "normal",
+      "corner_type": "bend"
+    },
+    {
+      "name": null,
+      "start_pct": 0.456,
+      "end_pct": 0.47,
+      "corner_length_pct": 0.014,
+      "corner_length_m": 62.2,
+      "exit_importance": 1.0,
+      "dependency_reason": "long_following_straight",
+      "corner_type": "corner"
+    },
+    {
+      "name": null,
+      "start_pct": 0.472,
+      "end_pct": 0.525,
+      "corner_length_pct": 0.053,
+      "corner_length_m": 235.3,
+      "exit_importance": 0.1726,
+      "dependency_reason": "normal",
+      "corner_type": "hairpin"
+    }
+  ]
+}
