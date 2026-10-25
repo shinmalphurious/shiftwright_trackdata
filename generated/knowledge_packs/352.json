@@ -1,6 +1,62 @@
 {
   "track_id": 352,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Limerock GP",
+    "length_m": 2350
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 327.15,
+      "y": 935.04,
+      "lap_pct": 0.1113
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.4,
+      "y": 785.61,
+      "lap_pct": 0.1748
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 601.09,
+      "y": 679.79,
+      "lap_pct": 0.2754
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 636.65,
+      "y": 469.56,
+      "lap_pct": 0.3428
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1199.48,
+      "y": 134.71,
+      "lap_pct": 0.5283
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1613.96,
+      "y": 483.98,
+      "lap_pct": 0.6787
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1425.54,
+      "y": 944.0,
+      "lap_pct": 0.8223
+    }
+  ],
   "named_corners": [
     {
       "name": "Big Bend",
@@ -8,7 +64,10 @@
       "end_pct": 0.219,
       "corner_length_pct": 0.142,
       "corner_length_m": 333.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Esses",
@@ -16,7 +75,10 @@
       "end_pct": 0.384,
       "corner_length_pct": 0.15,
       "corner_length_m": 352.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3",
+        "T4"
+      ]
     },
     {
       "name": "Uphill",
@@ -24,7 +86,9 @@
       "end_pct": 0.58,
       "corner_length_pct": 0.1,
       "corner_length_m": 235.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "West Bend",
@@ -32,7 +96,9 @@
       "end_pct": 0.735,
       "corner_length_pct": 0.086,
       "corner_length_m": 202.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Diving Turn",
@@ -40,7 +106,9 @@
       "end_pct": 0.858,
       "corner_length_pct": 0.07,
       "corner_length_m": 164.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -94,9 +162,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Limerock GP",
-    "length_m": 2350
-  }
+  "turn_consensus": {}
 }

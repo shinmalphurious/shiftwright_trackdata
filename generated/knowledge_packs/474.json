@@ -1,6 +1,104 @@
 {
   "track_id": 474,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Circuito de Jerez - Moto",
+    "length_m": 4370
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 965.8,
+      "y": 149.5,
+      "lap_pct": 0.0703
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1077.8,
+      "y": 147.1,
+      "lap_pct": 0.1318
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1096.1,
+      "y": 234.0,
+      "lap_pct": 0.1475
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1115.4,
+      "y": 372.3,
+      "lap_pct": 0.1914
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1408.1,
+      "y": 543.6,
+      "lap_pct": 0.3008
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1002.1,
+      "y": 914.5,
+      "lap_pct": 0.4531
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1003.5,
+      "y": 735.4,
+      "lap_pct": 0.5332
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 854.1,
+      "y": 583.5,
+      "lap_pct": 0.6074
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 700.5,
+      "y": 735.4,
+      "lap_pct": 0.668
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 641.8,
+      "y": 693.7,
+      "lap_pct": 0.7148
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 752.7,
+      "y": 493.6,
+      "lap_pct": 0.7822
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 886.2,
+      "y": 505.1,
+      "lap_pct": 0.5967
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1133.7,
+      "y": 714.3,
+      "lap_pct": 0.9062
+    }
+  ],
   "named_corners": [
     {
       "name": "Expo 92",
@@ -8,7 +106,9 @@
       "end_pct": 0.088,
       "corner_length_pct": 0.058,
       "corner_length_m": 253.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Michelin",
@@ -16,7 +116,9 @@
       "end_pct": 0.14,
       "corner_length_pct": 0.045,
       "corner_length_m": 196.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Sito Pons",
@@ -24,7 +126,9 @@
       "end_pct": 0.35,
       "corner_length_pct": 0.1,
       "corner_length_m": 437.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Dry Sack",
@@ -32,7 +136,9 @@
       "end_pct": 0.49,
       "corner_length_pct": 0.055,
       "corner_length_m": 240.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Aspar",
@@ -40,7 +146,11 @@
       "end_pct": 0.649,
       "corner_length_pct": 0.179,
       "corner_length_m": 782.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T7",
+        "T8",
+        "T12"
+      ]
     },
     {
       "name": "Angel Nieto",
@@ -48,7 +158,9 @@
       "end_pct": 0.695,
       "corner_length_pct": 0.045,
       "corner_length_m": 196.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Peluqui",
@@ -56,7 +168,9 @@
       "end_pct": 0.735,
       "corner_length_pct": 0.039,
       "corner_length_m": 170.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Alex Criville",
@@ -64,7 +178,9 @@
       "end_pct": 0.805,
       "corner_length_pct": 0.053,
       "corner_length_m": 231.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Ferrari",
@@ -72,7 +188,7 @@
       "end_pct": 0.855,
       "corner_length_pct": 0.038,
       "corner_length_m": 166.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Lorenzo",
@@ -80,7 +196,9 @@
       "end_pct": 0.93,
       "corner_length_pct": 0.058,
       "corner_length_m": 253.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T13"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -158,9 +276,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuito de Jerez - Moto",
-    "length_m": 4370
-  }
+  "turn_consensus": {}
 }

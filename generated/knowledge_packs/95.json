@@ -1,6 +1,132 @@
 {
   "track_id": 95,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Sebring Int. Raceway",
+    "length_m": 5954
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1323.71,
+      "y": 765.26,
+      "lap_pct": 0.084
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1371.62,
+      "y": 514.27,
+      "lap_pct": 0.1348
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1308.65,
+      "y": 389.13,
+      "lap_pct": 0.1582
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1260.65,
+      "y": 311.89,
+      "lap_pct": 0.1797
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1177.04,
+      "y": 346.6,
+      "lap_pct": 0.1914
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 970.96,
+      "y": 483.27,
+      "lap_pct": 0.2432
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 492.65,
+      "y": 526.46,
+      "lap_pct": 0.333
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 600.65,
+      "y": 378.89,
+      "lap_pct": 0.3867
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 759.31,
+      "y": 242.79,
+      "lap_pct": 0.4238
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 980.64,
+      "y": 110.56,
+      "lap_pct": 0.4688
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1121.62,
+      "y": 124.27,
+      "lap_pct": 0.5049
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1278.97,
+      "y": 147.13,
+      "lap_pct": 0.5332
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1377.3,
+      "y": 147.13,
+      "lap_pct": 0.5527
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1455.3,
+      "y": 509.22,
+      "lap_pct": 0.6309
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1550.95,
+      "y": 805.27,
+      "lap_pct": 0.7002
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1487.64,
+      "y": 983.13,
+      "lap_pct": 0.7422
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 544.3,
+      "y": 914.13,
+      "lap_pct": 0.9238
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn One",
@@ -8,7 +134,9 @@
       "end_pct": 0.117,
       "corner_length_pct": 0.064,
       "corner_length_m": 381.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Turn Two",
@@ -16,7 +144,9 @@
       "end_pct": 0.151,
       "corner_length_pct": 0.026,
       "corner_length_m": 154.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "T3",
@@ -24,7 +154,9 @@
       "end_pct": 0.17,
       "corner_length_pct": 0.018,
       "corner_length_m": 107.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "T4",
@@ -32,7 +164,9 @@
       "end_pct": 0.185,
       "corner_length_pct": 0.014,
       "corner_length_m": 83.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "T5",
@@ -40,7 +174,9 @@
       "end_pct": 0.213,
       "corner_length_pct": 0.027,
       "corner_length_m": 160.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Gurney Bend",
@@ -48,7 +184,9 @@
       "end_pct": 0.287,
       "corner_length_pct": 0.073,
       "corner_length_m": 434.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Hairpin Turn",
@@ -56,7 +194,9 @@
       "end_pct": 0.373,
       "corner_length_pct": 0.044,
       "corner_length_m": 262.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Fangio Chicane",
@@ -64,7 +204,9 @@
       "end_pct": 0.402,
       "corner_length_pct": 0.028,
       "corner_length_m": 166.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Fangio Chicane",
@@ -72,7 +214,9 @@
       "end_pct": 0.447,
       "corner_length_pct": 0.044,
       "corner_length_m": 262.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Cunningham",
@@ -80,7 +224,9 @@
       "end_pct": 0.489,
       "corner_length_pct": 0.023,
       "corner_length_m": 136.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "T11",
@@ -88,7 +234,9 @@
       "end_pct": 0.524,
       "corner_length_pct": 0.031,
       "corner_length_m": 184.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "T12",
@@ -96,7 +244,9 @@
       "end_pct": 0.548,
       "corner_length_pct": 0.018,
       "corner_length_m": 107.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "Tower Turn",
@@ -104,7 +254,9 @@
       "end_pct": 0.581,
       "corner_length_pct": 0.029,
       "corner_length_m": 172.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Bishop Bend",
@@ -112,7 +264,9 @@
       "end_pct": 0.675,
       "corner_length_pct": 0.055,
       "corner_length_m": 327.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     },
     {
       "name": "Gendebien Bend",
@@ -120,7 +274,9 @@
       "end_pct": 0.707,
       "corner_length_pct": 0.027,
       "corner_length_m": 160.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T15"
+      ]
     },
     {
       "name": "Le Mans Curve",
@@ -128,7 +284,9 @@
       "end_pct": 0.753,
       "corner_length_pct": 0.041,
       "corner_length_m": 244.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T16"
+      ]
     },
     {
       "name": "Sunset Bend",
@@ -136,7 +294,9 @@
       "end_pct": 0.972,
       "corner_length_pct": 0.091,
       "corner_length_m": 541.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T17"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -190,9 +350,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Sebring Int. Raceway",
-    "length_m": 5954
-  }
+  "turn_consensus": {}
 }

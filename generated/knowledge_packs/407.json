@@ -1,6 +1,48 @@
 {
   "track_id": 407,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Red Bull Ring - North",
+    "length_m": 1830
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 336.75,
+      "y": 164.5,
+      "lap_pct": 0.1016
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1189.65,
+      "y": 214.53,
+      "lap_pct": 0.5225
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1019.99,
+      "y": 386.87,
+      "lap_pct": 0.625
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 625.7,
+      "y": 300.74,
+      "lap_pct": 0.8145
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 550.36,
+      "y": 375.4,
+      "lap_pct": 0.8584
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +50,9 @@
       "end_pct": 0.122,
       "corner_length_pct": 0.077,
       "corner_length_m": 140.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": null,
@@ -16,7 +60,9 @@
       "end_pct": 0.543,
       "corner_length_pct": 0.067,
       "corner_length_m": 122.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -24,7 +70,9 @@
       "end_pct": 0.681,
       "corner_length_pct": 0.137,
       "corner_length_m": 250.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": null,
@@ -32,7 +80,9 @@
       "end_pct": 0.856,
       "corner_length_pct": 0.093,
       "corner_length_m": 170.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": null,
@@ -40,7 +90,9 @@
       "end_pct": 0.911,
       "corner_length_pct": 0.054,
       "corner_length_m": 98.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -94,9 +146,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Red Bull Ring - North",
-    "length_m": 1830
-  }
+  "turn_consensus": {}
 }

@@ -1,6 +1,62 @@
 {
   "track_id": 508,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Lime Rock Park - School",
+    "length_m": 2460
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 327.15,
+      "y": 935.04,
+      "lap_pct": 0.1123
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.4,
+      "y": 785.61,
+      "lap_pct": 0.1748
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 601.09,
+      "y": 679.79,
+      "lap_pct": 0.2754
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 636.65,
+      "y": 469.56,
+      "lap_pct": 0.3438
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1199.48,
+      "y": 134.71,
+      "lap_pct": 0.5293
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1613.96,
+      "y": 483.98,
+      "lap_pct": 0.6797
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1425.54,
+      "y": 944.0,
+      "lap_pct": 0.8223
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -53,9 +109,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Lime Rock Park - School",
-    "length_m": 2460
-  }
+  "turn_consensus": {}
 }

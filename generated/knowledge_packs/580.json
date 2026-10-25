@@ -1,90 +1,215 @@
 {
   "track_id": 580,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Adelaide Street Circuit",
+    "length_m": null
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1081.46,
+      "y": 544.71,
+      "lap_pct": 0.6631
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1043.24,
+      "y": 569.01,
+      "lap_pct": 0.6758
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 886.98,
+      "y": 574.34,
+      "lap_pct": 0.71
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 522.63,
+      "y": 754.43,
+      "lap_pct": 0.8037
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 388.24,
+      "y": 591.88,
+      "lap_pct": 0.8535
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 205.16,
+      "y": 698.2,
+      "lap_pct": 0.8945
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 77.12,
+      "y": 522.8,
+      "lap_pct": 0.9521
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 896.29,
+      "y": 115.87,
+      "lap_pct": 0.1533
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1459.41,
+      "y": 151.88,
+      "lap_pct": 0.2744
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1244.12,
+      "y": 231.56,
+      "lap_pct": 0.3174
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1254.31,
+      "y": 381.29,
+      "lap_pct": 0.3477
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1394.84,
+      "y": 473.63,
+      "lap_pct": 0.3896
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1600.45,
+      "y": 576.11,
+      "lap_pct": 0.4404
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1800.11,
+      "y": 774.52,
+      "lap_pct": 0.5029
+    }
+  ],
   "named_corners": [
     {
       "name": "T1",
       "start_pct": 0.055,
       "end_pct": 0.083,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T2",
       "start_pct": 0.083,
       "end_pct": 0.113,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T3",
       "start_pct": 0.113,
       "end_pct": 0.16,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "T4",
       "start_pct": 0.19,
       "end_pct": 0.245,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T5",
       "start_pct": 0.245,
       "end_pct": 0.293,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "T6",
       "start_pct": 0.293,
       "end_pct": 0.338,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "T7",
       "start_pct": 0.338,
       "end_pct": 0.39,
-      "corner_knowledge": {}
+      "labels": [
+        "T11",
+        "T12"
+      ]
     },
     {
       "name": "T8",
       "start_pct": 0.53,
       "end_pct": 0.59,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T9",
       "start_pct": 0.66,
       "end_pct": 0.71,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2",
+        "T3"
+      ]
     },
     {
       "name": "T10",
       "start_pct": 0.71,
       "end_pct": 0.75,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "T11",
       "start_pct": 0.75,
       "end_pct": 0.798,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T12",
       "start_pct": 0.798,
       "end_pct": 0.853,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "T13",
       "start_pct": 0.853,
       "end_pct": 0.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T5",
+        "T6"
+      ]
     },
     {
       "name": "T14",
       "start_pct": 0.9,
       "end_pct": 0.935,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -162,9 +287,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Adelaide Street Circuit",
-    "length_m": null
-  }
+  "turn_consensus": {}
 }

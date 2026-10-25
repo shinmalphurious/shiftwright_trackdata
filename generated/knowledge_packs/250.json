@@ -1,6 +1,125 @@
 {
   "track_id": 250,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Nuerburgring Grand-Prix-Strecke - Grand Prix",
+    "length_m": 5140
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 922.84,
+      "y": 475.15,
+      "lap_pct": 0.1289
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 943.94,
+      "y": 334.75,
+      "lap_pct": 0.1719
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 798.23,
+      "y": 380.97,
+      "lap_pct": 0.2139
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 882.97,
+      "y": 383.7,
+      "lap_pct": 0.2334
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 868.42,
+      "y": 519.21,
+      "lap_pct": 0.2734
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 835.58,
+      "y": 665.93,
+      "lap_pct": 0.334
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 858.6,
+      "y": 724.01,
+      "lap_pct": 0.3525
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 616.28,
+      "y": 951.69,
+      "lap_pct": 0.4922
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 734.96,
+      "y": 765.36,
+      "lap_pct": 0.5674
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 719.47,
+      "y": 681.6,
+      "lap_pct": 0.5957
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 794.73,
+      "y": 473.5,
+      "lap_pct": 0.6787
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 692.83,
+      "y": 399.03,
+      "lap_pct": 0.7236
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 885.8,
+      "y": 221.02,
+      "lap_pct": 0.8076
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1119.14,
+      "y": 166.45,
+      "lap_pct": 0.8896
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1090.79,
+      "y": 115.42,
+      "lap_pct": 0.8994
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1280.43,
+      "y": 82.94,
+      "lap_pct": 0.9531
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -77,9 +196,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Nuerburgring Grand-Prix-Strecke - Grand Prix",
-    "length_m": 5140
-  }
+  "turn_consensus": {}
 }

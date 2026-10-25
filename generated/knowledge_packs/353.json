@@ -1,6 +1,76 @@
 {
   "track_id": 353,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Limerock GP",
+    "length_m": 2340
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 327.15,
+      "y": 935.04,
+      "lap_pct": 0.1113
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.4,
+      "y": 785.61,
+      "lap_pct": 0.1738
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 601.09,
+      "y": 679.79,
+      "lap_pct": 0.2734
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 636.65,
+      "y": 469.56,
+      "lap_pct": 0.3438
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1130.82,
+      "y": 171.04,
+      "lap_pct": 0.5215
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1226.96,
+      "y": 198.98,
+      "lap_pct": 0.5479
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1338.98,
+      "y": 185.24,
+      "lap_pct": 0.5674
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1598.32,
+      "y": 561.89,
+      "lap_pct": 0.7041
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1424.46,
+      "y": 943.37,
+      "lap_pct": 0.8213
+    }
+  ],
   "named_corners": [
     {
       "name": "Big Bend",
@@ -8,7 +78,10 @@
       "end_pct": 0.219,
       "corner_length_pct": 0.142,
       "corner_length_m": 332.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Esses",
@@ -16,7 +89,10 @@
       "end_pct": 0.384,
       "corner_length_pct": 0.15,
       "corner_length_m": 351.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T3",
+        "T4"
+      ]
     },
     {
       "name": "Uphill",
@@ -24,7 +100,11 @@
       "end_pct": 0.595,
       "corner_length_pct": 0.115,
       "corner_length_m": 269.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T5",
+        "T6",
+        "T7"
+      ]
     },
     {
       "name": "West Bend",
@@ -32,7 +112,9 @@
       "end_pct": 0.735,
       "corner_length_pct": 0.086,
       "corner_length_m": 201.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Diving Turn",
@@ -40,7 +122,9 @@
       "end_pct": 0.858,
       "corner_length_pct": 0.07,
       "corner_length_m": 163.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -100,9 +184,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Limerock GP",
-    "length_m": 2340
-  }
+  "turn_consensus": {}
 }

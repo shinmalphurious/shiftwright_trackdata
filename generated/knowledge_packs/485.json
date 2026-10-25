@@ -1,6 +1,118 @@
 {
   "track_id": 485,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Circuit Zandvoort - GP",
+    "length_m": 4210
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 816.72,
+      "y": 650.77,
+      "lap_pct": 0.7354
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 831.18,
+      "y": 650.77,
+      "lap_pct": 0.7207
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 969.06,
+      "y": 44.85,
+      "lap_pct": 0.0859
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 872.66,
+      "y": 414.67,
+      "lap_pct": 0.1553
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 695.1,
+      "y": 483.49,
+      "lap_pct": 0.1885
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 917.03,
+      "y": 551.55,
+      "lap_pct": 0.2559
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1141.72,
+      "y": 563.85,
+      "lap_pct": 0.2998
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1362.58,
+      "y": 590.74,
+      "lap_pct": 0.3457
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1581.1,
+      "y": 684.56,
+      "lap_pct": 0.4023
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1386.83,
+      "y": 962.85,
+      "lap_pct": 0.4824
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1231.09,
+      "y": 863.23,
+      "lap_pct": 0.5439
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1406.32,
+      "y": 754.44,
+      "lap_pct": 0.5928
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 737.61,
+      "y": 670.39,
+      "lap_pct": 0.7578
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 631.13,
+      "y": 980.46,
+      "lap_pct": 0.832
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 435.93,
+      "y": 878.67,
+      "lap_pct": 0.8896
+    }
+  ],
   "named_corners": [
     {
       "name": "Tarzanbocht",
@@ -8,13 +120,9 @@
       "end_pct": 0.118,
       "corner_length_pct": 0.068,
       "corner_length_m": 286.3,
-      "corner_knowledge": {
-        "exit_focus": 2,
-        "flat_corner": 1,
-        "apex_focus": 1,
-        "trail_braking": 1,
-        "braking_zone": 1
-      }
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Gerlachbocht",
@@ -22,10 +130,9 @@
       "end_pct": 0.174,
       "corner_length_pct": 0.045,
       "corner_length_m": 189.4,
-      "corner_knowledge": {
-        "braking_zone": 1,
-        "exit_focus": 1
-      }
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Hugenholzbocht",
@@ -33,12 +140,9 @@
       "end_pct": 0.231,
       "corner_length_pct": 0.056,
       "corner_length_m": 235.8,
-      "corner_knowledge": {
-        "braking_zone": 1,
-        "cambered": 1,
-        "flat_corner": 1,
-        "trail_braking": 1
-      }
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Rob Slotemakerbocht",
@@ -46,7 +150,9 @@
       "end_pct": 0.357,
       "corner_length_pct": 0.052,
       "corner_length_m": 218.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Scheivlak",
@@ -54,9 +160,9 @@
       "end_pct": 0.438,
       "corner_length_pct": 0.068,
       "corner_length_m": 286.3,
-      "corner_knowledge": {
-        "flat_corner": 1
-      }
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Mastersbocht",
@@ -64,7 +170,9 @@
       "end_pct": 0.522,
       "corner_length_pct": 0.062,
       "corner_length_m": 261.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Bocht 9",
@@ -72,11 +180,9 @@
       "end_pct": 0.555,
       "corner_length_pct": 0.032,
       "corner_length_m": 134.7,
-      "corner_knowledge": {
-        "apex_focus": 1,
-        "braking_zone": 1,
-        "trail_braking": 1
-      }
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Bocht 10",
@@ -84,9 +190,9 @@
       "end_pct": 0.63,
       "corner_length_pct": 0.074,
       "corner_length_m": 311.5,
-      "corner_knowledge": {
-        "apex_focus": 1
-      }
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Hans Ernst Bocht",
@@ -94,11 +200,11 @@
       "end_pct": 0.772,
       "corner_length_pct": 0.066,
       "corner_length_m": 277.9,
-      "corner_knowledge": {
-        "long_straight": 1,
-        "trail_braking": 1,
-        "braking_zone": 1
-      }
+      "labels": [
+        "T1",
+        "T1",
+        "T12"
+      ]
     },
     {
       "name": "Kumho",
@@ -106,11 +212,9 @@
       "end_pct": 0.845,
       "corner_length_pct": 0.045,
       "corner_length_m": 189.4,
-      "corner_knowledge": {
-        "braking_zone": 2,
-        "cambered": 1,
-        "slippery": 1
-      }
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Arie Luyendijk Bocht",
@@ -118,7 +222,9 @@
       "end_pct": 0.93,
       "corner_length_pct": 0.08,
       "corner_length_m": 336.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -194,47 +300,43 @@
     "slippery": 1
   },
   "turn_consensus": {
-    "turn_7": {
+    "turn_7 ": {
       "apex_focus": 1,
       "braking_zone": 1,
       "trail_braking": 1
     },
-    "turn_8": {
+    "turn_8 ": {
       "apex_focus": 1
     },
-    "turn_1": {
+    "turn_1 ": {
       "exit_focus": 2,
       "flat_corner": 1,
       "apex_focus": 1,
       "trail_braking": 1,
       "braking_zone": 1
     },
-    "turn_10": {
+    "turn_10 ": {
       "braking_zone": 2,
       "cambered": 1,
       "slippery": 1
     },
-    "turn_9": {
+    "turn_9 ": {
       "long_straight": 1,
       "trail_braking": 1,
       "braking_zone": 1
     },
-    "turn_3": {
+    "turn_3 ": {
       "braking_zone": 1,
       "cambered": 1,
       "flat_corner": 1,
       "trail_braking": 1
     },
-    "turn_2": {
+    "turn_2 ": {
       "braking_zone": 1,
       "exit_focus": 1
     },
-    "turn_5": {
+    "turn_5 ": {
       "flat_corner": 1
     }
-  },
-  "metadata": {
-    "name": "Circuit Zandvoort - GP",
-    "length_m": 4210
   }
 }

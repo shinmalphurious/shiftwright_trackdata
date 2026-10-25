@@ -1,6 +1,132 @@
 {
   "track_id": 463,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Magny-Cours",
+    "length_m": 4410
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 698.15,
+      "y": 471.0,
+      "lap_pct": 0.4082
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 543.12,
+      "y": 461.48,
+      "lap_pct": 0.7861
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 351.07,
+      "y": 349.44,
+      "lap_pct": 0.5957
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 913.53,
+      "y": 135.21,
+      "lap_pct": 0.877
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1526.19,
+      "y": 233.72,
+      "lap_pct": 0.043
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1153.52,
+      "y": 278.4,
+      "lap_pct": 0.9482
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 828.71,
+      "y": 213.61,
+      "lap_pct": 0.8701
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 721.85,
+      "y": 235.16,
+      "lap_pct": 0.8594
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 508.67,
+      "y": 301.81,
+      "lap_pct": 0.5322
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 625.52,
+      "y": 332.1,
+      "lap_pct": 0.4756
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 802.14,
+      "y": 302.99,
+      "lap_pct": 0.877
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1217.46,
+      "y": 369.49,
+      "lap_pct": 0.001
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1324.23,
+      "y": 355.76,
+      "lap_pct": 0.0215
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1537.3,
+      "y": 390.09,
+      "lap_pct": 0.1006
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1145.46,
+      "y": 923.89,
+      "lap_pct": 0.1455
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1100.24,
+      "y": 898.31,
+      "lap_pct": 0.1455
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 1099.07,
+      "y": 849.81,
+      "lap_pct": 0.1416
+    }
+  ],
   "named_corners": [
     {
       "name": "Grande Courbe",
@@ -8,7 +134,9 @@
       "end_pct": 0.128,
       "corner_length_pct": 0.054,
       "corner_length_m": 238.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     },
     {
       "name": "Estoril",
@@ -16,7 +144,11 @@
       "end_pct": 0.227,
       "corner_length_pct": 0.098,
       "corner_length_m": 432.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T15",
+        "T16",
+        "T17"
+      ]
     },
     {
       "name": "Golf",
@@ -24,7 +156,7 @@
       "end_pct": 0.35,
       "corner_length_pct": 0.065,
       "corner_length_m": 286.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Adelaide",
@@ -32,7 +164,9 @@
       "end_pct": 0.44,
       "corner_length_pct": 0.045,
       "corner_length_m": 198.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Nuerburgring",
@@ -40,7 +174,9 @@
       "end_pct": 0.57,
       "corner_length_pct": 0.06,
       "corner_length_m": 264.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "180\u00b0",
@@ -48,7 +184,9 @@
       "end_pct": 0.633,
       "corner_length_pct": 0.043,
       "corner_length_m": 189.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Imola",
@@ -56,7 +194,9 @@
       "end_pct": 0.795,
       "corner_length_pct": 0.06,
       "corner_length_m": 264.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Chateaou d'Eau",
@@ -64,7 +204,7 @@
       "end_pct": 0.845,
       "corner_length_pct": 0.04,
       "corner_length_m": 176.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Chicane",
@@ -72,7 +212,7 @@
       "end_pct": 0.925,
       "corner_length_pct": 0.045,
       "corner_length_m": 198.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Complexe du Lycee",
@@ -80,7 +220,9 @@
       "end_pct": 1.0,
       "corner_length_pct": 0.06,
       "corner_length_m": 264.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -116,9 +258,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Magny-Cours",
-    "length_m": 4410
-  }
+  "turn_consensus": {}
 }

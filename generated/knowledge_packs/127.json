@@ -1,6 +1,90 @@
 {
   "track_id": 127,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Road Atlanta - Full Course",
+    "length_m": 4060
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1639.25,
+      "y": 802.03,
+      "lap_pct": 0.127
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1409.13,
+      "y": 865.58,
+      "lap_pct": 0.1807
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1315.09,
+      "y": 806.14,
+      "lap_pct": 0.2031
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1187.29,
+      "y": 826.12,
+      "lap_pct": 0.2354
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 709.18,
+      "y": 772.21,
+      "lap_pct": 0.3564
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 184.42,
+      "y": 977.4,
+      "lap_pct": 0.4834
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 115.22,
+      "y": 895.6,
+      "lap_pct": 0.5381
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 295.56,
+      "y": 712.88,
+      "lap_pct": 0.5928
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 951.58,
+      "y": 329.04,
+      "lap_pct": 0.7637
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1510.65,
+      "y": 112.29,
+      "lap_pct": 0.9121
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1673.97,
+      "y": 217.57,
+      "lap_pct": 0.9658
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn 1",
@@ -8,7 +92,9 @@
       "end_pct": 0.155,
       "corner_length_pct": 0.106,
       "corner_length_m": 430.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Turn 2",
@@ -16,7 +102,9 @@
       "end_pct": 0.195,
       "corner_length_pct": 0.039,
       "corner_length_m": 158.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Turn 3",
@@ -24,7 +112,9 @@
       "end_pct": 0.213,
       "corner_length_pct": 0.017,
       "corner_length_m": 69.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Turn 4",
@@ -32,7 +122,9 @@
       "end_pct": 0.249,
       "corner_length_pct": 0.035,
       "corner_length_m": 142.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "The Esses",
@@ -40,7 +132,7 @@
       "end_pct": 0.332,
       "corner_length_pct": 0.072,
       "corner_length_m": 292.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 5",
@@ -48,7 +140,9 @@
       "end_pct": 0.373,
       "corner_length_pct": 0.04,
       "corner_length_m": 162.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Turn 6",
@@ -56,7 +150,9 @@
       "end_pct": 0.505,
       "corner_length_pct": 0.039,
       "corner_length_m": 158.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Turn 7",
@@ -64,7 +160,9 @@
       "end_pct": 0.545,
       "corner_length_pct": 0.03,
       "corner_length_m": 121.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Turn 8",
@@ -72,7 +170,9 @@
       "end_pct": 0.63,
       "corner_length_pct": 0.07,
       "corner_length_m": 284.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Turn 9",
@@ -80,7 +180,9 @@
       "end_pct": 0.79,
       "corner_length_pct": 0.061,
       "corner_length_m": 247.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Turn 10A",
@@ -88,7 +190,7 @@
       "end_pct": 0.866,
       "corner_length_pct": 0.041,
       "corner_length_m": 166.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 10B",
@@ -96,7 +198,7 @@
       "end_pct": 0.897,
       "corner_length_pct": 0.03,
       "corner_length_m": 121.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 11",
@@ -104,7 +206,9 @@
       "end_pct": 0.941,
       "corner_length_pct": 0.033,
       "corner_length_m": 134.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Turn 12",
@@ -112,7 +216,9 @@
       "end_pct": 1.0,
       "corner_length_pct": 0.041,
       "corner_length_m": 166.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -166,9 +272,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Road Atlanta - Full Course",
-    "length_m": 4060
-  }
+  "turn_consensus": {}
 }

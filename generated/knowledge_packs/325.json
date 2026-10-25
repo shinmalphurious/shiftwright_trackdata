@@ -1,6 +1,83 @@
 {
   "track_id": 325,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Tsukuba Circuit - 2000 Moto",
+    "length_m": 2070
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1065.48,
+      "y": 140.71,
+      "lap_pct": 0.751
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 805.74,
+      "y": 346.27,
+      "lap_pct": 0.8359
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 629.09,
+      "y": 389.79,
+      "lap_pct": 0.8994
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 520.31,
+      "y": 506.22,
+      "lap_pct": 0.9336
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 836.15,
+      "y": 468.71,
+      "lap_pct": 0.8164
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 885.96,
+      "y": 537.09,
+      "lap_pct": 0.792
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 954.99,
+      "y": 573.67,
+      "lap_pct": 0.7637
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1286.46,
+      "y": 605.04,
+      "lap_pct": 0.6357
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1502.42,
+      "y": 627.48,
+      "lap_pct": 0.5332
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 381.41,
+      "y": 481.48,
+      "lap_pct": 0.9873
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -53,9 +130,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Tsukuba Circuit - 2000 Moto",
-    "length_m": 2070
-  }
+  "turn_consensus": {}
 }

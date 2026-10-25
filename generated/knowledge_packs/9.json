@@ -1,6 +1,83 @@
 {
   "track_id": 9,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Summit Point Raceway",
+    "length_m": 3200
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 302.77,
+      "y": 873.67,
+      "lap_pct": 0.167
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 358.44,
+      "y": 800.16,
+      "lap_pct": 0.21
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 911.43,
+      "y": 757.13,
+      "lap_pct": 0.3477
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1274.02,
+      "y": 339.62,
+      "lap_pct": 0.4805
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1434.3,
+      "y": 219.12,
+      "lap_pct": 0.5361
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1381.07,
+      "y": 95.5,
+      "lap_pct": 0.5781
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1479.39,
+      "y": 82.87,
+      "lap_pct": 0.6201
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1597.46,
+      "y": 150.99,
+      "lap_pct": 0.6533
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1699.8,
+      "y": 282.65,
+      "lap_pct": 0.6924
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1631.37,
+      "y": 992.34,
+      "lap_pct": 0.8623
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn 1",
@@ -8,7 +85,10 @@
       "end_pct": 0.23,
       "corner_length_pct": 0.089,
       "corner_length_m": 284.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Wagon Bend",
@@ -16,7 +96,9 @@
       "end_pct": 0.388,
       "corner_length_pct": 0.081,
       "corner_length_m": 259.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Chute",
@@ -24,7 +106,9 @@
       "end_pct": 0.503,
       "corner_length_pct": 0.048,
       "corner_length_m": 153.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Carousel",
@@ -32,7 +116,11 @@
       "end_pct": 0.627,
       "corner_length_pct": 0.117,
       "corner_length_m": 374.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T5",
+        "T6",
+        "T7"
+      ]
     },
     {
       "name": "Esses",
@@ -40,7 +128,10 @@
       "end_pct": 0.733,
       "corner_length_pct": 0.105,
       "corner_length_m": 336.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T8",
+        "T9"
+      ]
     },
     {
       "name": "Paddock Bend",
@@ -48,7 +139,9 @@
       "end_pct": 0.905,
       "corner_length_pct": 0.065,
       "corner_length_m": 208.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -102,9 +195,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Summit Point Raceway",
-    "length_m": 3200
-  }
+  "turn_consensus": {}
 }

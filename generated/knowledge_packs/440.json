@@ -1,6 +1,83 @@
 {
   "track_id": 440,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Winton Motor Raceway - Club Circuit",
+    "length_m": 2020
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 407.68,
+      "y": 809.92,
+      "lap_pct": 0.0938
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 424.05,
+      "y": 682.55,
+      "lap_pct": 0.1543
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 746.53,
+      "y": 493.21,
+      "lap_pct": 0.335
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 747.08,
+      "y": 311.49,
+      "lap_pct": 0.416
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 740.55,
+      "y": 217.44,
+      "lap_pct": 0.458
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 867.66,
+      "y": 251.27,
+      "lap_pct": 0.5508
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 953.26,
+      "y": 189.36,
+      "lap_pct": 0.6436
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 926.05,
+      "y": 656.67,
+      "lap_pct": 0.8281
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 840.18,
+      "y": 759.51,
+      "lap_pct": 0.8887
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 731.37,
+      "y": 776.0,
+      "lap_pct": 0.9336
+    }
+  ],
   "named_corners": [
     {
       "name": "Honda Corner",
@@ -8,7 +85,9 @@
       "end_pct": 0.116,
       "corner_length_pct": 0.055,
       "corner_length_m": 111.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Nissan Corner",
@@ -16,7 +95,9 @@
       "end_pct": 0.204,
       "corner_length_pct": 0.087,
       "corner_length_m": 175.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -24,7 +105,9 @@
       "end_pct": 0.388,
       "corner_length_pct": 0.128,
       "corner_length_m": 258.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Roll-Over Corner",
@@ -32,7 +115,9 @@
       "end_pct": 0.44,
       "corner_length_pct": 0.051,
       "corner_length_m": 103.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Penrite Corner",
@@ -40,7 +125,9 @@
       "end_pct": 0.509,
       "corner_length_pct": 0.068,
       "corner_length_m": 137.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": null,
@@ -48,7 +135,9 @@
       "end_pct": 0.59,
       "corner_length_pct": 0.08,
       "corner_length_m": 161.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Kitome Corner",
@@ -56,7 +145,9 @@
       "end_pct": 0.673,
       "corner_length_pct": 0.082,
       "corner_length_m": 165.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": null,
@@ -64,7 +155,9 @@
       "end_pct": 0.866,
       "corner_length_pct": 0.057,
       "corner_length_m": 115.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": null,
@@ -72,7 +165,9 @@
       "end_pct": 0.909,
       "corner_length_pct": 0.042,
       "corner_length_m": 84.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": null,
@@ -80,7 +175,9 @@
       "end_pct": 0.95,
       "corner_length_pct": 0.04,
       "corner_length_m": 80.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -134,9 +231,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Winton Motor Raceway - Club Circuit",
-    "length_m": 2020
-  }
+  "turn_consensus": {}
 }

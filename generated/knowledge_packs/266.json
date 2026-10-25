@@ -1,12 +1,138 @@
 {
   "track_id": 266,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Imola",
+    "length_m": 4909
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 985.48,
+      "y": 902.26,
+      "lap_pct": 0.0654
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1291.07,
+      "y": 895.61,
+      "lap_pct": 0.1475
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1362.98,
+      "y": 906.68,
+      "lap_pct": 0.1484
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1429.42,
+      "y": 802.45,
+      "lap_pct": 0.1836
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1601.37,
+      "y": 481.26,
+      "lap_pct": 0.2686
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1672.29,
+      "y": 422.94,
+      "lap_pct": 0.2939
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1799.43,
+      "y": 254.13,
+      "lap_pct": 0.3379
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1300.42,
+      "y": 212.0,
+      "lap_pct": 0.4785
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1191.6,
+      "y": 496.71,
+      "lap_pct": 0.5527
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1138.61,
+      "y": 543.5,
+      "lap_pct": 0.5889
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 732.08,
+      "y": 486.13,
+      "lap_pct": 0.6875
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 659.08,
+      "y": 535.45,
+      "lap_pct": 0.7002
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 220.86,
+      "y": 686.78,
+      "lap_pct": 0.8076
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 125.14,
+      "y": 798.6,
+      "lap_pct": 0.8486
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 141.06,
+      "y": 852.5,
+      "lap_pct": 0.8613
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 432.19,
+      "y": 791.35,
+      "lap_pct": 0.9395
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 723.86,
+      "y": 819.11,
+      "lap_pct": 0.0049
+    }
+  ],
   "named_corners": [
     {
       "name": "T1",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Variante Tamburello",
@@ -14,7 +140,10 @@
       "end_pct": 0.15,
       "corner_length_pct": 0.035,
       "corner_length_m": 171.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T2",
+        "T3"
+      ]
     },
     {
       "name": "Variante Tamburello",
@@ -22,13 +151,13 @@
       "end_pct": 0.165,
       "corner_length_pct": 0.014,
       "corner_length_m": 68.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T4",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Variante Villeneuve",
@@ -36,7 +165,9 @@
       "end_pct": 0.28,
       "corner_length_pct": 0.028,
       "corner_length_m": 137.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Variante Villeneuve",
@@ -44,7 +175,9 @@
       "end_pct": 0.302,
       "corner_length_pct": 0.021,
       "corner_length_m": 103.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Tosa",
@@ -52,13 +185,15 @@
       "end_pct": 0.37,
       "corner_length_pct": 0.045,
       "corner_length_m": 220.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "T8",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Piratella",
@@ -66,13 +201,15 @@
       "end_pct": 0.508,
       "corner_length_pct": 0.06,
       "corner_length_m": 294.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "T10",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Acque Minerali",
@@ -80,7 +217,9 @@
       "end_pct": 0.575,
       "corner_length_pct": 0.035,
       "corner_length_m": 171.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Acque Minerali",
@@ -88,13 +227,15 @@
       "end_pct": 0.598,
       "corner_length_pct": 0.023,
       "corner_length_m": 112.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "T13",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "GRESINI",
@@ -102,7 +243,9 @@
       "end_pct": 0.69,
       "corner_length_pct": 0.035,
       "corner_length_m": 171.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "GRESINI",
@@ -110,19 +253,21 @@
       "end_pct": 0.705,
       "corner_length_pct": 0.015,
       "corner_length_m": 73.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "T16",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T17",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Rivazza",
@@ -130,13 +275,16 @@
       "end_pct": 0.887,
       "corner_length_pct": 0.069,
       "corner_length_m": 338.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T14",
+        "T15"
+      ]
     },
     {
       "name": "T20",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -214,9 +362,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Imola",
-    "length_m": 4909
-  }
+  "turn_consensus": {}
 }

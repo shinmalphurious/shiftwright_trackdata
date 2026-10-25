@@ -1,6 +1,66 @@
 {
   "track_id": 148,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 969.06,
+      "y": 44.85,
+      "lap_pct": 0.8232
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 872.66,
+      "y": 414.67,
+      "lap_pct": 0.8232
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 695.1,
+      "y": 483.49,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 943.88,
+      "y": 591.78,
+      "lap_pct": 0.8252
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 823.94,
+      "y": 650.77,
+      "lap_pct": 0.9209
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 745.95,
+      "y": 670.39,
+      "lap_pct": 0.9648
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 639.47,
+      "y": 980.46,
+      "lap_pct": 0.2432
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 444.27,
+      "y": 878.67,
+      "lap_pct": 0.4277
+    }
+  ],
   "named_corners": [
     {
       "name": "Tarzanbocht",
@@ -8,7 +68,7 @@
       "end_pct": 0.118,
       "corner_length_pct": 0.068,
       "corner_length_m": 286.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Gerlachbocht",
@@ -16,7 +76,7 @@
       "end_pct": 0.174,
       "corner_length_pct": 0.045,
       "corner_length_m": 189.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hugenholzbocht",
@@ -24,7 +84,7 @@
       "end_pct": 0.231,
       "corner_length_pct": 0.056,
       "corner_length_m": 235.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Rob Slotemakerbocht",
@@ -32,7 +92,7 @@
       "end_pct": 0.357,
       "corner_length_pct": 0.052,
       "corner_length_m": 218.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Scheivlak",
@@ -40,7 +100,9 @@
       "end_pct": 0.438,
       "corner_length_pct": 0.068,
       "corner_length_m": 286.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Mastersbocht",
@@ -48,7 +110,7 @@
       "end_pct": 0.522,
       "corner_length_pct": 0.062,
       "corner_length_m": 261.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Bocht 9",
@@ -56,7 +118,7 @@
       "end_pct": 0.555,
       "corner_length_pct": 0.032,
       "corner_length_m": 134.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Bocht 10",
@@ -64,7 +126,7 @@
       "end_pct": 0.63,
       "corner_length_pct": 0.074,
       "corner_length_m": 311.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hans Ernst Bocht",
@@ -72,7 +134,7 @@
       "end_pct": 0.772,
       "corner_length_pct": 0.066,
       "corner_length_m": 277.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Kumho",
@@ -80,7 +142,11 @@
       "end_pct": 0.845,
       "corner_length_pct": 0.045,
       "corner_length_m": 189.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2",
+        "T4"
+      ]
     },
     {
       "name": "Arie Luyendijk Bocht",
@@ -88,7 +154,9 @@
       "end_pct": 0.93,
       "corner_length_pct": 0.08,
       "corner_length_m": 336.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -172,6 +240,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

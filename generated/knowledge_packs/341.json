@@ -1,6 +1,139 @@
 {
   "track_id": 341,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Silverstone Circuit - Arena Grand Prix",
+    "length_m": 5800
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1016.01,
+      "y": 698.86,
+      "lap_pct": 0.0801
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 928.16,
+      "y": 544.53,
+      "lap_pct": 0.1152
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 794.2,
+      "y": 369.59,
+      "lap_pct": 0.165
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 824.19,
+      "y": 286.0,
+      "lap_pct": 0.1934
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 692.88,
+      "y": 300.33,
+      "lap_pct": 0.2236
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 450.93,
+      "y": 893.39,
+      "lap_pct": 0.3535
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 550.92,
+      "y": 962.93,
+      "lap_pct": 0.3867
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 319.5,
+      "y": 899.75,
+      "lap_pct": 0.4482
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 77.91,
+      "y": 423.23,
+      "lap_pct": 0.5391
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 488.27,
+      "y": 182.7,
+      "lap_pct": 0.2246
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 614.89,
+      "y": 198.57,
+      "lap_pct": 0.2217
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 717.71,
+      "y": 132.82,
+      "lap_pct": 0.209
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 853.42,
+      "y": 108.22,
+      "lap_pct": 0.1924
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 980.17,
+      "y": 117.85,
+      "lap_pct": 0.1885
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1688.08,
+      "y": 384.09,
+      "lap_pct": 0.8281
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1585.09,
+      "y": 721.97,
+      "lap_pct": 0.9316
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 1524.25,
+      "y": 794.42,
+      "lap_pct": 0.9434
+    },
+    {
+      "label": "T18",
+      "number": 18,
+      "x": 1462.45,
+      "y": 869.84,
+      "lap_pct": 0.9883
+    }
+  ],
   "named_corners": [
     {
       "name": "Abbey",
@@ -8,7 +141,9 @@
       "end_pct": 0.089,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Farm Curve",
@@ -16,7 +151,9 @@
       "end_pct": 0.123,
       "corner_length_pct": 0.031,
       "corner_length_m": 179.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Village",
@@ -24,7 +161,9 @@
       "end_pct": 0.167,
       "corner_length_pct": 0.026,
       "corner_length_m": 150.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "The Loop",
@@ -32,7 +171,9 @@
       "end_pct": 0.191,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     },
     {
       "name": "Aintree",
@@ -40,7 +181,12 @@
       "end_pct": 0.232,
       "corner_length_pct": 0.037,
       "corner_length_m": 214.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T5",
+        "T10",
+        "T11",
+        "T12"
+      ]
     },
     {
       "name": "Brooklands",
@@ -48,7 +194,7 @@
       "end_pct": 0.352,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Luffield",
@@ -56,7 +202,10 @@
       "end_pct": 0.397,
       "corner_length_pct": 0.044,
       "corner_length_m": 255.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T6",
+        "T7"
+      ]
     },
     {
       "name": "Woodcote",
@@ -64,7 +213,9 @@
       "end_pct": 0.455,
       "corner_length_pct": 0.048,
       "corner_length_m": 278.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Copse",
@@ -72,7 +223,9 @@
       "end_pct": 0.559,
       "corner_length_pct": 0.059,
       "corner_length_m": 342.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Maggots",
@@ -80,7 +233,7 @@
       "end_pct": 0.643,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Becketts",
@@ -88,7 +241,7 @@
       "end_pct": 0.671,
       "corner_length_pct": 0.027,
       "corner_length_m": 156.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Chapel",
@@ -96,7 +249,7 @@
       "end_pct": 0.723,
       "corner_length_pct": 0.051,
       "corner_length_m": 295.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Stowe",
@@ -104,7 +257,7 @@
       "end_pct": 0.888,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Vale",
@@ -112,7 +265,10 @@
       "end_pct": 0.947,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T16",
+        "T17"
+      ]
     },
     {
       "name": "Club",
@@ -120,7 +276,9 @@
       "end_pct": 1.0,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T18"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -186,9 +344,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Silverstone Circuit - Arena Grand Prix",
-    "length_m": 5800
-  }
+  "turn_consensus": {}
 }

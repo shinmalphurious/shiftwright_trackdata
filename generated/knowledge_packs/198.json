@@ -1,6 +1,41 @@
 {
   "track_id": 198,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Mobility Resort Motegi - Oval",
+    "length_m": 2493
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1315.32,
+      "y": 943.67,
+      "lap_pct": 0.2236
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1329.21,
+      "y": 650.67,
+      "lap_pct": 0.3467
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 548.21,
+      "y": 582.33,
+      "lap_pct": 0.7666
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 507.55,
+      "y": 761.78,
+      "lap_pct": 0.8457
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +43,9 @@
       "end_pct": 0.284,
       "corner_length_pct": 0.169,
       "corner_length_m": 421.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": null,
@@ -16,7 +53,9 @@
       "end_pct": 0.452,
       "corner_length_pct": 0.167,
       "corner_length_m": 416.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -24,7 +63,7 @@
       "end_pct": 0.759,
       "corner_length_pct": 0.118,
       "corner_length_m": 294.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -32,7 +71,10 @@
       "end_pct": 0.903,
       "corner_length_pct": 0.142,
       "corner_length_m": 354.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T3",
+        "T4"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -98,9 +140,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Mobility Resort Motegi - Oval",
-    "length_m": 2493
-  }
+  "turn_consensus": {}
 }

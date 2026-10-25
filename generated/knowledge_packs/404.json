@@ -1,6 +1,55 @@
 {
   "track_id": 404,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Red Bull Ring - National",
+    "length_m": 2336
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 881.43,
+      "y": 921.96,
+      "lap_pct": 0.1826
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 682.64,
+      "y": 615.99,
+      "lap_pct": 0.3809
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 814.98,
+      "y": 591.01,
+      "lap_pct": 0.4531
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 991.56,
+      "y": 567.05,
+      "lap_pct": 0.5332
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1553.16,
+      "y": 528.68,
+      "lap_pct": 0.7705
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1683.79,
+      "y": 720.6,
+      "lap_pct": 0.8633
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +57,9 @@
       "end_pct": 0.233,
       "corner_length_pct": 0.065,
       "corner_length_m": 151.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": null,
@@ -16,7 +67,9 @@
       "end_pct": 0.418,
       "corner_length_pct": 0.082,
       "corner_length_m": 191.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -24,7 +77,9 @@
       "end_pct": 0.495,
       "corner_length_pct": 0.076,
       "corner_length_m": 177.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": null,
@@ -32,7 +87,9 @@
       "end_pct": 0.591,
       "corner_length_pct": 0.095,
       "corner_length_m": 221.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": null,
@@ -40,7 +97,9 @@
       "end_pct": 0.814,
       "corner_length_pct": 0.079,
       "corner_length_m": 184.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": null,
@@ -48,7 +107,9 @@
       "end_pct": 0.904,
       "corner_length_pct": 0.065,
       "corner_length_m": 151.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -90,9 +151,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Red Bull Ring - National",
-    "length_m": 2336
-  }
+  "turn_consensus": {}
 }

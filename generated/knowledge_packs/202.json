@@ -1,6 +1,97 @@
 {
   "track_id": 202,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Oran Park Raceway - GP",
+    "length_m": 2600
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1597.9,
+      "y": 805.3,
+      "lap_pct": 0.7441
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1794.1,
+      "y": 639.0,
+      "lap_pct": 0.6592
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1259.7,
+      "y": 416.4,
+      "lap_pct": 0.502
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1537.1,
+      "y": 207.1,
+      "lap_pct": 0.582
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1670.7,
+      "y": 308.3,
+      "lap_pct": 0.5986
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1558.4,
+      "y": 571.7,
+      "lap_pct": 0.5752
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1148.2,
+      "y": 528.1,
+      "lap_pct": 0.4688
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1051.8,
+      "y": 395.3,
+      "lap_pct": 0.4482
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 842.1,
+      "y": 213.0,
+      "lap_pct": 0.3984
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 454.3,
+      "y": 407.4,
+      "lap_pct": 0.29
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 347.2,
+      "y": 498.7,
+      "lap_pct": 0.2588
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 89.3,
+      "y": 754.5,
+      "lap_pct": 0.1826
+    }
+  ],
   "named_corners": [
     {
       "name": "The Sweeper",
@@ -8,7 +99,9 @@
       "end_pct": 0.195,
       "corner_length_pct": 0.048,
       "corner_length_m": 124.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "Coca-Cola Corner",
@@ -16,7 +109,9 @@
       "end_pct": 0.268,
       "corner_length_pct": 0.072,
       "corner_length_m": 187.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Shell Corner",
@@ -24,7 +119,7 @@
       "end_pct": 0.38,
       "corner_length_pct": 0.06,
       "corner_length_m": 156.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Champion Curve",
@@ -32,7 +127,10 @@
       "end_pct": 0.475,
       "corner_length_pct": 0.061,
       "corner_length_m": 158.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T7",
+        "T8"
+      ]
     },
     {
       "name": "Yokohama Bridge",
@@ -40,7 +138,9 @@
       "end_pct": 0.55,
       "corner_length_pct": 0.072,
       "corner_length_m": 187.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Foster's Dip",
@@ -48,7 +148,11 @@
       "end_pct": 0.65,
       "corner_length_pct": 0.075,
       "corner_length_m": 195.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T4",
+        "T5",
+        "T6"
+      ]
     },
     {
       "name": "Momo Corner",
@@ -56,7 +160,7 @@
       "end_pct": 0.73,
       "corner_length_pct": 0.06,
       "corner_length_m": 156.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "O'Brien Aluminium Dogleg",
@@ -64,7 +168,7 @@
       "end_pct": 0.83,
       "corner_length_pct": 0.075,
       "corner_length_m": 195.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Recaro Corner",
@@ -72,7 +176,7 @@
       "end_pct": 0.93,
       "corner_length_pct": 0.08,
       "corner_length_m": 208.0,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -114,9 +218,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Oran Park Raceway - GP",
-    "length_m": 2600
-  }
+  "turn_consensus": {}
 }

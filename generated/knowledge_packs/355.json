@@ -1,6 +1,76 @@
 {
   "track_id": 355,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Lime Rock Park - West Bend Chicane",
+    "length_m": 2460
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 327.15,
+      "y": 935.04,
+      "lap_pct": 0.1094
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.4,
+      "y": 785.61,
+      "lap_pct": 0.1719
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 601.09,
+      "y": 679.79,
+      "lap_pct": 0.2695
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 636.65,
+      "y": 469.56,
+      "lap_pct": 0.3389
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1199.48,
+      "y": 134.71,
+      "lap_pct": 0.5205
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1659.29,
+      "y": 510.98,
+      "lap_pct": 0.6797
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1656.98,
+      "y": 558.57,
+      "lap_pct": 0.708
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1661.13,
+      "y": 632.37,
+      "lap_pct": 0.7217
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1424.46,
+      "y": 943.37,
+      "lap_pct": 0.8232
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -53,9 +123,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Lime Rock Park - West Bend Chicane",
-    "length_m": 2460
-  }
+  "turn_consensus": {}
 }

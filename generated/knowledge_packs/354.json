@@ -1,6 +1,90 @@
 {
   "track_id": 354,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Lime Rock Park - Chicanes",
+    "length_m": 2460
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 327.15,
+      "y": 935.04,
+      "lap_pct": 0.1113
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.4,
+      "y": 785.61,
+      "lap_pct": 0.1719
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 601.09,
+      "y": 679.79,
+      "lap_pct": 0.2705
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 636.65,
+      "y": 469.56,
+      "lap_pct": 0.3389
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1130.82,
+      "y": 171.04,
+      "lap_pct": 0.5146
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1226.96,
+      "y": 198.98,
+      "lap_pct": 0.541
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1338.98,
+      "y": 185.24,
+      "lap_pct": 0.5605
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1658.79,
+      "y": 510.7,
+      "lap_pct": 0.6768
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1660.18,
+      "y": 558.57,
+      "lap_pct": 0.707
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1651.12,
+      "y": 633.22,
+      "lap_pct": 0.7207
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1415.79,
+      "y": 943.37,
+      "lap_pct": 0.8262
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -59,9 +143,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Lime Rock Park - Chicanes",
-    "length_m": 2460
-  }
+  "turn_consensus": {}
 }

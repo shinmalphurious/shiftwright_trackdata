@@ -1,125 +1,63 @@
+"""Final step: one knowledge pack per track, consumed by the Shiftwright platform.
+
+Pack schema (stable contract, see docs/KNOWLEDGE_PACK.md):
+  track_id, knowledge_level ("named" | "geometry_only"), metadata {name, length_m},
+  turns [{label, number, x, y, lap_pct}], direction_known,
+  named_corners [{name, start_pct, end_pct, labels[...], ...}],
+  generated_corner_regions, youtube_summary, turn_consensus
+"""
 import json
+import sys
 from pathlib import Path
 
-OUTDIR = Path(
-    "generated/knowledge_packs"
-)
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-OUTDIR.mkdir(
-    parents=True,
-    exist_ok=True
-)
+from src.shared.paths import GENERATED
 
-built = 0
+OUTDIR = GENERATED / "knowledge_packs"
 
-for source in Path(
-    "generated"
-).glob("*.json"):
 
-    try:
+def _load(path, default):
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+
+
+def main():
+    OUTDIR.mkdir(exist_ok=True)
+    built = 0
+    for source in GENERATED.glob("*.json"):
+        if not source.stem.isdigit():
+            continue
         track_id = int(source.stem)
-    except:
-        continue
+        track = _load(source, {})
+        youtube = _load(GENERATED / "youtube_knowledge" / f"{track_id}.json", {})
+        markers = _load(GENERATED / "turn_markers" / f"{track_id}.json", {})
+        turns = markers.get("turns", [])
+        direction_known = markers.get("direction_known", False)
 
-    track = json.load(
-        open(
-            source,
-            encoding="utf-8"
-        )
-    )
+        named = []
+        for corner in track.get("corners", []):
+            start, end = corner.get("start_pct"), corner.get("end_pct")
+            labels = [t["label"] for t in turns
+                      if direction_known and start is not None and end is not None
+                      and start <= t["lap_pct"] <= end]
+            named.append({**corner, "labels": labels})
 
-    region_file = Path(
-        f"generated/corner_regions/{track_id}.json"
-    )
+        pack = {
+            "track_id": track_id,
+            "knowledge_level": "named" if named else "geometry_only",
+            "metadata": track.get("metadata", {}),
+            "direction_known": direction_known,
+            "turns": turns,
+            "named_corners": named,
+            "generated_corner_regions": _load(GENERATED / "corner_regions" / f"{track_id}.json", {}).get("corners", []),
+            "youtube_summary": youtube.get("track_summary", {}),
+            "turn_consensus": youtube.get("turn_consensus", {}),
+        }
+        (OUTDIR / f"{track_id}.json").write_text(json.dumps(pack, indent=2), encoding="utf-8")
+        built += 1
 
-    corner_regions = {}
-
-    if region_file.exists():
-
-        corner_regions = json.load(
-            open(
-                region_file,
-                encoding="utf-8"
-            )
-        )
-
-    youtube_summary = {}
-
-    turn_consensus = {}
-
-    youtube_file = Path(
-        f"generated/youtube_knowledge/{track_id}.json"
-    )
-
-    if youtube_file.exists():
-
-        youtube = json.load(
-            open(
-                youtube_file,
-                encoding="utf-8"
-            )
-        )
-
-        youtube_summary = youtube.get(
-            "track_summary",
-            {}
-        )
-
-        turn_consensus = youtube.get(
-            "turn_consensus",
-            {}
-        )
-
-    pack = {
-
-        "track_id": track_id,
-
-        "knowledge_level":
-            "named"
-            if track.get("corners")
-            else "geometry_only",
-
-        "named_corners":
-            track.get(
-                "corners",
-                []
-            ),
-
-        "generated_corner_regions":
-            corner_regions.get(
-                "corners",
-                []
-            ),
-
-        "youtube_summary": youtube_summary,
-        "turn_consensus": turn_consensus,
-
-        "metadata":
-            track.get(
-                "metadata",
-                {}
-            )
-    }
-
-    with open(
-        OUTDIR /
-        f"{track_id}.json",
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        json.dump(
-            pack,
-            f,
-            indent=2
-        )
-
-    built += 1
-
-print(
-    "knowledge packs:",
-    built
-)
+    print("knowledge packs:", built)
 
 
-
+if __name__ == "__main__":
+    main()

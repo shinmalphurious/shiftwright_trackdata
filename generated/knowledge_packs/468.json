@@ -1,6 +1,97 @@
 {
   "track_id": 468,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Virginia International Raceway - South Course",
+    "length_m": 2655
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1050.25,
+      "y": 802.29,
+      "lap_pct": 0.2432
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 984.86,
+      "y": 710.38,
+      "lap_pct": 0.2754
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1208.92,
+      "y": 636.93,
+      "lap_pct": 0.3652
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1343.53,
+      "y": 573.02,
+      "lap_pct": 0.4326
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1350.15,
+      "y": 527.03,
+      "lap_pct": 0.4521
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1391.94,
+      "y": 474.91,
+      "lap_pct": 0.4854
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1171.36,
+      "y": 383.23,
+      "lap_pct": 0.5898
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1247.17,
+      "y": 321.11,
+      "lap_pct": 0.623
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1320.79,
+      "y": 312.79,
+      "lap_pct": 0.6494
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1513.26,
+      "y": 392.91,
+      "lap_pct": 0.7314
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1783.12,
+      "y": 372.68,
+      "lap_pct": 0.8438
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1809.67,
+      "y": 404.41,
+      "lap_pct": 0.9033
+    }
+  ],
   "named_corners": [
     {
       "name": "Bitch",
@@ -8,7 +99,10 @@
       "end_pct": 0.29,
       "corner_length_pct": 0.057,
       "corner_length_m": 151.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -16,7 +110,9 @@
       "end_pct": 0.39,
       "corner_length_pct": 0.042,
       "corner_length_m": 111.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": null,
@@ -24,7 +120,9 @@
       "end_pct": 0.44,
       "corner_length_pct": 0.04,
       "corner_length_m": 106.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": null,
@@ -32,7 +130,9 @@
       "end_pct": 0.465,
       "corner_length_pct": 0.024,
       "corner_length_m": 63.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": null,
@@ -40,7 +140,9 @@
       "end_pct": 0.518,
       "corner_length_pct": 0.052,
       "corner_length_m": 138.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Fish Hook",
@@ -48,7 +150,9 @@
       "end_pct": 0.607,
       "corner_length_pct": 0.042,
       "corner_length_m": 111.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": null,
@@ -56,7 +160,9 @@
       "end_pct": 0.666,
       "corner_length_pct": 0.036,
       "corner_length_m": 95.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "South Bend",
@@ -64,7 +170,9 @@
       "end_pct": 0.798,
       "corner_length_pct": 0.094,
       "corner_length_m": 249.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": null,
@@ -72,7 +180,9 @@
       "end_pct": 0.868,
       "corner_length_pct": 0.028,
       "corner_length_m": 74.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Oak Tree",
@@ -80,7 +190,9 @@
       "end_pct": 0.915,
       "corner_length_pct": 0.046,
       "corner_length_m": 122.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -134,9 +246,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Virginia International Raceway - South Course",
-    "length_m": 2655
-  }
+  "turn_consensus": {}
 }

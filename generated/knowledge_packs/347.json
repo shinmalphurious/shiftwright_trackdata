@@ -1,6 +1,59 @@
 {
   "track_id": 347,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 468.26,
+      "y": 797.15,
+      "lap_pct": 0.0156
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 365.26,
+      "y": 794.15,
+      "lap_pct": 0.1094
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 293.85,
+      "y": 730.72,
+      "lap_pct": 0.1533
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 151.43,
+      "y": 497.02,
+      "lap_pct": 0.3076
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 656.09,
+      "y": 408.26,
+      "lap_pct": 0.6426
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 343.04,
+      "y": 561.82,
+      "lap_pct": 0.8564
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 468.26,
+      "y": 740.57,
+      "lap_pct": 0.9863
+    }
+  ],
   "named_corners": [
     {
       "name": "Elf",
@@ -8,7 +61,7 @@
       "end_pct": 0.213,
       "corner_length_pct": 0.046,
       "corner_length_m": 214.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Renault",
@@ -16,7 +69,9 @@
       "end_pct": 0.31,
       "corner_length_pct": 0.084,
       "corner_length_m": 392.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Repsol",
@@ -24,7 +79,7 @@
       "end_pct": 0.409,
       "corner_length_pct": 0.064,
       "corner_length_m": 298.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Seat",
@@ -32,7 +87,7 @@
       "end_pct": 0.472,
       "corner_length_pct": 0.047,
       "corner_length_m": 219.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T6",
@@ -40,7 +95,7 @@
       "end_pct": 0.525,
       "corner_length_pct": 0.098,
       "corner_length_m": 457.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Wuerth",
@@ -48,7 +103,7 @@
       "end_pct": 0.569,
       "corner_length_pct": 0.044,
       "corner_length_m": 205.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Campsa",
@@ -56,7 +111,7 @@
       "end_pct": 0.637,
       "corner_length_pct": 0.042,
       "corner_length_m": 196.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "La Caixa",
@@ -64,7 +119,7 @@
       "end_pct": 0.789,
       "corner_length_pct": 0.058,
       "corner_length_m": 270.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Banc Sabadell",
@@ -72,7 +127,7 @@
       "end_pct": 0.842,
       "corner_length_pct": 0.047,
       "corner_length_m": 219.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Europcar",
@@ -80,7 +135,9 @@
       "end_pct": 0.875,
       "corner_length_pct": 0.025,
       "corner_length_m": 116.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Chicane RACC",
@@ -88,7 +145,7 @@
       "end_pct": 0.915,
       "corner_length_pct": 0.038,
       "corner_length_m": 177.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "New Holland",
@@ -96,7 +153,7 @@
       "end_pct": 0.954,
       "corner_length_pct": 0.038,
       "corner_length_m": 177.5,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -144,6 +201,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

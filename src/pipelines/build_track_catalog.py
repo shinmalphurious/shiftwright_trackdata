@@ -1,62 +1,30 @@
 import json
+import sys
 from pathlib import Path
 
-ROOT = (
-    Path(__file__).resolve().parents[2]
-    / "external"
-    / "racing-track-maps-vector"
-    / "from-iracing"
-)
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
+from src.shared.paths import GENERATED, TRACK_MAPS
 
 tracks = []
 
-for turns_svg in ROOT.rglob("turns.svg"):
-
+for turns_svg in TRACK_MAPS.rglob("turns.svg"):
     folder = turns_svg.parent
-
-    layout = folder.name
-
     try:
-        track_id = int(
-            layout.split("-")[0]
-        )
-    except:
+        track_id = int(folder.name.split("-")[0])
+    except ValueError:
         continue
-
     tracks.append({
-
         "track_id": track_id,
-
-        "layout": layout,
-
-        "folder": str(folder),
-
-        "has_active_svg":
-            (folder / "active.svg").exists(),
-
+        "layout": folder.name,
+        "layout_path": folder.relative_to(TRACK_MAPS).as_posix(),
+        "has_active_svg": (folder / "active.svg").exists(),
         "has_turns_svg": True,
-
-        "has_commentary":
-            (folder / "commentary.json").exists()
+        "has_commentary": (folder / "commentary.json").exists(),
     })
 
-tracks.sort(
-    key=lambda x: x["track_id"]
-)
+tracks.sort(key=lambda x: x["track_id"])
 
-with open(
-    "generated/track_catalog.json",
-    "w",
-    encoding="utf-8"
-) as f:
+(GENERATED / "track_catalog.json").write_text(json.dumps(tracks, indent=2), encoding="utf-8")
 
-    json.dump(
-        tracks,
-        f,
-        indent=2
-    )
-
-print(
-    "tracks:",
-    len(tracks)
-)
+print("tracks:", len(tracks))

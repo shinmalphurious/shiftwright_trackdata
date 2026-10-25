@@ -1,6 +1,104 @@
 {
   "track_id": 297,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Snetterton 300 Circuit",
+    "length_m": 4740
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 155.39,
+      "y": 695.52,
+      "lap_pct": 0.1875
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 128.58,
+      "y": 237.18,
+      "lap_pct": 0.2393
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 231.43,
+      "y": 631.89,
+      "lap_pct": 0.2861
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 881.88,
+      "y": 472.78,
+      "lap_pct": 0.4736
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 533.39,
+      "y": 405.85,
+      "lap_pct": 0.3662
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 290.92,
+      "y": 573.07,
+      "lap_pct": 0.3018
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 245.1,
+      "y": 529.89,
+      "lap_pct": 0.2861
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 270.5,
+      "y": 336.52,
+      "lap_pct": 0.2852
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1448.47,
+      "y": 381.52,
+      "lap_pct": 0.8008
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1564.76,
+      "y": 384.56,
+      "lap_pct": 0.7988
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1865.98,
+      "y": 511.33,
+      "lap_pct": 0.6885
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1588.6,
+      "y": 885.85,
+      "lap_pct": 0.708
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1332.6,
+      "y": 784.52,
+      "lap_pct": 0.6221
+    }
+  ],
   "named_corners": [
     {
       "name": "Riches",
@@ -8,7 +106,7 @@
       "end_pct": 0.118,
       "corner_length_pct": 0.069,
       "corner_length_m": 327.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Wilson",
@@ -16,7 +114,9 @@
       "end_pct": 0.189,
       "corner_length_pct": 0.039,
       "corner_length_m": 184.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Palmer",
@@ -24,7 +124,9 @@
       "end_pct": 0.271,
       "corner_length_pct": 0.05,
       "corner_length_m": 237.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Agostini",
@@ -32,7 +134,9 @@
       "end_pct": 0.377,
       "corner_length_pct": 0.052,
       "corner_length_m": 246.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Hamilton",
@@ -40,7 +144,7 @@
       "end_pct": 0.44,
       "corner_length_pct": 0.036,
       "corner_length_m": 170.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Oggies",
@@ -48,7 +152,9 @@
       "end_pct": 0.492,
       "corner_length_pct": 0.036,
       "corner_length_m": 170.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Williams",
@@ -56,7 +162,7 @@
       "end_pct": 0.549,
       "corner_length_pct": 0.045,
       "corner_length_m": 213.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Brundle",
@@ -64,7 +170,10 @@
       "end_pct": 0.741,
       "corner_length_pct": 0.066,
       "corner_length_m": 312.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T11",
+        "T12"
+      ]
     },
     {
       "name": "Bomb Hole",
@@ -72,7 +181,7 @@
       "end_pct": 0.796,
       "corner_length_pct": 0.041,
       "corner_length_m": 194.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Coram",
@@ -80,7 +189,7 @@
       "end_pct": 0.89,
       "corner_length_pct": 0.082,
       "corner_length_m": 388.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Murrays",
@@ -88,7 +197,7 @@
       "end_pct": 0.913,
       "corner_length_pct": 0.022,
       "corner_length_m": 104.3,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -166,9 +275,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Snetterton 300 Circuit",
-    "length_m": 4740
-  }
+  "turn_consensus": {}
 }

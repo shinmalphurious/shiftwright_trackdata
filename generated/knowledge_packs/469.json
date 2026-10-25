@@ -1,6 +1,83 @@
 {
   "track_id": 469,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Virginia International Raceway - Patriot Course",
+    "length_m": 1770
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 903.57,
+      "y": 515.92,
+      "lap_pct": 0.0439
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 882.99,
+      "y": 632.72,
+      "lap_pct": 0.1328
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 902.7,
+      "y": 726.92,
+      "lap_pct": 0.2002
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 941.25,
+      "y": 760.54,
+      "lap_pct": 0.2393
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 978.06,
+      "y": 717.36,
+      "lap_pct": 0.2979
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1344.56,
+      "y": 573.28,
+      "lap_pct": 0.5635
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1355.19,
+      "y": 515.45,
+      "lap_pct": 0.6006
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1395.72,
+      "y": 475.17,
+      "lap_pct": 0.6523
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1153.08,
+      "y": 381.77,
+      "lap_pct": 0.8496
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 982.11,
+      "y": 435.1,
+      "lap_pct": 0.9678
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +85,9 @@
       "end_pct": 0.091,
       "corner_length_pct": 0.052,
       "corner_length_m": 92.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": null,
@@ -16,7 +95,9 @@
       "end_pct": 0.175,
       "corner_length_pct": 0.083,
       "corner_length_m": 146.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -24,7 +105,10 @@
       "end_pct": 0.245,
       "corner_length_pct": 0.07,
       "corner_length_m": 123.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T3",
+        "T4"
+      ]
     },
     {
       "name": null,
@@ -32,7 +116,7 @@
       "end_pct": 0.27,
       "corner_length_pct": 0.024,
       "corner_length_m": 42.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -40,7 +124,9 @@
       "end_pct": 0.348,
       "corner_length_pct": 0.077,
       "corner_length_m": 136.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": null,
@@ -48,7 +134,9 @@
       "end_pct": 0.589,
       "corner_length_pct": 0.069,
       "corner_length_m": 122.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Spiral",
@@ -56,7 +144,9 @@
       "end_pct": 0.624,
       "corner_length_pct": 0.034,
       "corner_length_m": 60.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": null,
@@ -64,7 +154,9 @@
       "end_pct": 0.711,
       "corner_length_pct": 0.086,
       "corner_length_m": 152.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": null,
@@ -72,7 +164,9 @@
       "end_pct": 0.95,
       "corner_length_pct": 0.125,
       "corner_length_m": 221.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": null,
@@ -80,7 +174,9 @@
       "end_pct": 0.999,
       "corner_length_pct": 0.048,
       "corner_length_m": 85.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -122,9 +218,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Virginia International Raceway - Patriot Course",
-    "length_m": 1770
-  }
+  "turn_consensus": {}
 }

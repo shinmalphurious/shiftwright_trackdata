@@ -1,6 +1,90 @@
 {
   "track_id": 329,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Tsukuba Circuit - 1000 Chicane",
+    "length_m": 1000
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1142.19,
+      "y": 986.19,
+      "lap_pct": 0.1172
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1003.96,
+      "y": 960.68,
+      "lap_pct": 0.1807
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 992.76,
+      "y": 815.98,
+      "lap_pct": 0.2871
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1244.24,
+      "y": 785.67,
+      "lap_pct": 0.4229
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1169.23,
+      "y": 808.49,
+      "lap_pct": 0.5059
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1053.29,
+      "y": 864.09,
+      "lap_pct": 0.5693
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1050.35,
+      "y": 903.83,
+      "lap_pct": 0.6309
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1305.79,
+      "y": 826.0,
+      "lap_pct": 0.7695
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1402.09,
+      "y": 789.46,
+      "lap_pct": 0.8203
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1434.41,
+      "y": 790.22,
+      "lap_pct": 0.8477
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1466.56,
+      "y": 833.07,
+      "lap_pct": 0.9248
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -59,9 +143,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Tsukuba Circuit - 1000 Chicane",
-    "length_m": 1000
-  }
+  "turn_consensus": {}
 }

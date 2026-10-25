@@ -1,6 +1,111 @@
 {
   "track_id": 448,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Indianapolis Motor Speedway - Road Course",
+    "length_m": 3850
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 490.26,
+      "y": 871.49,
+      "lap_pct": 0.1777
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 409.62,
+      "y": 841.94,
+      "lap_pct": 0.1836
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 303.31,
+      "y": 749.79,
+      "lap_pct": 0.2285
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 250.65,
+      "y": 636.51,
+      "lap_pct": 0.2822
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 381.82,
+      "y": 546.63,
+      "lap_pct": 0.3193
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 456.12,
+      "y": 584.07,
+      "lap_pct": 0.3369
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1255.8,
+      "y": 501.51,
+      "lap_pct": 0.5439
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1337.79,
+      "y": 426.29,
+      "lap_pct": 0.5625
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1346.21,
+      "y": 313.52,
+      "lap_pct": 0.5947
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1420.48,
+      "y": 234.57,
+      "lap_pct": 0.6152
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1689.16,
+      "y": 324.98,
+      "lap_pct": 0.7178
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1739.97,
+      "y": 550.78,
+      "lap_pct": 0.8018
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1655.69,
+      "y": 636.51,
+      "lap_pct": 0.8398
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1569.95,
+      "y": 812.22,
+      "lap_pct": 0.8916
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn 1",
@@ -8,7 +113,9 @@
       "end_pct": 0.183,
       "corner_length_pct": 0.033,
       "corner_length_m": 127.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Turn 2",
@@ -16,7 +123,7 @@
       "end_pct": 0.209,
       "corner_length_pct": 0.025,
       "corner_length_m": 96.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 3",
@@ -24,7 +131,9 @@
       "end_pct": 0.254,
       "corner_length_pct": 0.044,
       "corner_length_m": 169.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Turn 4",
@@ -32,7 +141,9 @@
       "end_pct": 0.3,
       "corner_length_pct": 0.045,
       "corner_length_m": 173.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Turn 5",
@@ -40,7 +151,9 @@
       "end_pct": 0.326,
       "corner_length_pct": 0.017,
       "corner_length_m": 65.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Turn 6",
@@ -48,7 +161,9 @@
       "end_pct": 0.351,
       "corner_length_pct": 0.024,
       "corner_length_m": 92.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Turn 7",
@@ -56,7 +171,9 @@
       "end_pct": 0.549,
       "corner_length_pct": 0.039,
       "corner_length_m": 150.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Turn 8",
@@ -64,7 +181,9 @@
       "end_pct": 0.579,
       "corner_length_pct": 0.029,
       "corner_length_m": 111.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Turn 9",
@@ -72,7 +191,9 @@
       "end_pct": 0.604,
       "corner_length_pct": 0.024,
       "corner_length_m": 92.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Turn 10",
@@ -80,7 +201,9 @@
       "end_pct": 0.655,
       "corner_length_pct": 0.05,
       "corner_length_m": 192.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Turn 11",
@@ -88,7 +211,9 @@
       "end_pct": 0.733,
       "corner_length_pct": 0.058,
       "corner_length_m": 223.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Turn 12",
@@ -96,7 +221,9 @@
       "end_pct": 0.805,
       "corner_length_pct": 0.035,
       "corner_length_m": 134.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "Turn 13",
@@ -104,7 +231,9 @@
       "end_pct": 0.843,
       "corner_length_pct": 0.033,
       "corner_length_m": 127.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Turn 14",
@@ -112,7 +241,9 @@
       "end_pct": 0.934,
       "corner_length_pct": 0.084,
       "corner_length_m": 323.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -172,9 +303,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Indianapolis Motor Speedway - Road Course",
-    "length_m": 3850
-  }
+  "turn_consensus": {}
 }

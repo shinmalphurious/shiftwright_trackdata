@@ -1,6 +1,125 @@
 {
   "track_id": 509,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Autodromo Internacional do Algarve",
+    "length_m": 4580
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 632.33,
+      "y": 846.0,
+      "lap_pct": 0.6543
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 649.68,
+      "y": 846.0,
+      "lap_pct": 0.6543
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1686.56,
+      "y": 218.98,
+      "lap_pct": 0.1455
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1764.57,
+      "y": 406.67,
+      "lap_pct": 0.1768
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1632.18,
+      "y": 622.89,
+      "lap_pct": 0.2129
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1551.46,
+      "y": 390.6,
+      "lap_pct": 0.2471
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 785.46,
+      "y": 430.46,
+      "lap_pct": 0.3691
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1099.36,
+      "y": 589.19,
+      "lap_pct": 0.4229
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1371.96,
+      "y": 483.49,
+      "lap_pct": 0.4688
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1504.33,
+      "y": 693.46,
+      "lap_pct": 0.5029
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 970.0,
+      "y": 633.27,
+      "lap_pct": 0.5869
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 788.23,
+      "y": 882.18,
+      "lap_pct": 0.6348
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 608.12,
+      "y": 600.41,
+      "lap_pct": 0.6992
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 371.15,
+      "y": 441.81,
+      "lap_pct": 0.7461
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 479.52,
+      "y": 783.88,
+      "lap_pct": 0.8027
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 157.73,
+      "y": 366.67,
+      "lap_pct": 0.8877
+    }
+  ],
   "named_corners": [
     {
       "name": "Primeira",
@@ -8,7 +127,9 @@
       "end_pct": 0.166,
       "corner_length_pct": 0.042,
       "corner_length_m": 192.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Turn 2",
@@ -16,7 +137,9 @@
       "end_pct": 0.193,
       "corner_length_pct": 0.026,
       "corner_length_m": 119.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Lagos",
@@ -24,7 +147,9 @@
       "end_pct": 0.228,
       "corner_length_pct": 0.034,
       "corner_length_m": 155.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Turn 4",
@@ -32,7 +157,9 @@
       "end_pct": 0.274,
       "corner_length_pct": 0.045,
       "corner_length_m": 206.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Turn 4",
@@ -40,7 +167,7 @@
       "end_pct": 0.118,
       "corner_length_pct": 0.069,
       "corner_length_m": 316.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 5",
@@ -48,7 +175,9 @@
       "end_pct": 0.392,
       "corner_length_pct": 0.037,
       "corner_length_m": 169.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Turn 6",
@@ -56,7 +185,9 @@
       "end_pct": 0.449,
       "corner_length_pct": 0.049,
       "corner_length_m": 224.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Turn 7",
@@ -64,7 +195,9 @@
       "end_pct": 0.486,
       "corner_length_pct": 0.036,
       "corner_length_m": 164.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Samsung",
@@ -72,7 +205,9 @@
       "end_pct": 0.537,
       "corner_length_pct": 0.05,
       "corner_length_m": 229.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Turn 9",
@@ -80,7 +215,9 @@
       "end_pct": 0.617,
       "corner_length_pct": 0.059,
       "corner_length_m": 270.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Portimao",
@@ -88,7 +225,11 @@
       "end_pct": 0.669,
       "corner_length_pct": 0.051,
       "corner_length_m": 233.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T1",
+        "T10"
+      ]
     },
     {
       "name": "Turn 12",
@@ -96,7 +237,9 @@
       "end_pct": 0.723,
       "corner_length_pct": 0.053,
       "corner_length_m": 242.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "Turn 13",
@@ -104,7 +247,9 @@
       "end_pct": 0.77,
       "corner_length_pct": 0.042,
       "corner_length_m": 192.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Sagres",
@@ -112,7 +257,9 @@
       "end_pct": 0.833,
       "corner_length_pct": 0.058,
       "corner_length_m": 265.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     },
     {
       "name": "Galp",
@@ -120,7 +267,9 @@
       "end_pct": 0.945,
       "corner_length_pct": 0.095,
       "corner_length_m": 435.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T15"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -204,9 +353,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Autodromo Internacional do Algarve",
-    "length_m": 4580
-  }
+  "turn_consensus": {}
 }

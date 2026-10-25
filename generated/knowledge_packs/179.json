@@ -1,72 +1,156 @@
 {
   "track_id": 179,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Longbeach",
+    "length_m": 3167
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 403.11,
+      "y": 651.04,
+      "lap_pct": 0.1113
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 268.68,
+      "y": 813.92,
+      "lap_pct": 0.3086
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 162.46,
+      "y": 790.58,
+      "lap_pct": 0.3848
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 16.07,
+      "y": 665.81,
+      "lap_pct": 0.5566
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 131.81,
+      "y": 537.92,
+      "lap_pct": 0.6338
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 705.83,
+      "y": 766.88,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 754.99,
+      "y": 656.0,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 749.27,
+      "y": 350.36,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1634.25,
+      "y": 362.57,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1693.77,
+      "y": 506.47,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1868.32,
+      "y": 524.95,
+      "lap_pct": 0.0
+    }
+  ],
   "named_corners": [
     {
       "name": "T1",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T2",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T3",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T4",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T5",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T6",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T7",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T8",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T9",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T10",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T11",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -156,9 +240,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Longbeach",
-    "length_m": 3167
-  }
+  "turn_consensus": {}
 }

@@ -1,6 +1,62 @@
 {
   "track_id": 242,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Autodromo Nazionale Monza - GP without chicanes",
+    "length_m": null
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 348.6,
+      "y": 879.71,
+      "lap_pct": 0.2617
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 119.66,
+      "y": 221.33,
+      "lap_pct": 0.46
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 276.88,
+      "y": 191.56,
+      "lap_pct": 0.4893
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 824.09,
+      "y": 675.28,
+      "lap_pct": 0.6689
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 879.26,
+      "y": 741.26,
+      "lap_pct": 0.6904
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 951.1,
+      "y": 715.78,
+      "lap_pct": 0.709
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1649.32,
+      "y": 835.89,
+      "lap_pct": 0.9131
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -29,9 +85,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Autodromo Nazionale Monza - GP without chicanes",
-    "length_m": null
-  }
+  "turn_consensus": {}
 }

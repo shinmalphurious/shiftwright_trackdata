@@ -1,6 +1,104 @@
 {
   "track_id": 393,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Hockenheimring Baden-W\u00fcrttemberg - Short A",
+    "length_m": 2630
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 378.18,
+      "y": 506.33,
+      "lap_pct": 0.1055
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 567.96,
+      "y": 273.44,
+      "lap_pct": 0.2305
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 589.9,
+      "y": 371.43,
+      "lap_pct": 0.2676
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 649.01,
+      "y": 417.98,
+      "lap_pct": 0.2949
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 806.35,
+      "y": 625.98,
+      "lap_pct": 0.4268
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 895.35,
+      "y": 651.98,
+      "lap_pct": 0.4717
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 897.37,
+      "y": 734.1,
+      "lap_pct": 0.5127
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 802.22,
+      "y": 770.65,
+      "lap_pct": 0.5859
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 591.49,
+      "y": 597.13,
+      "lap_pct": 0.7061
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 629.33,
+      "y": 722.55,
+      "lap_pct": 0.7588
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 633.27,
+      "y": 806.22,
+      "lap_pct": 0.7852
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 664.97,
+      "y": 849.02,
+      "lap_pct": 0.8535
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 613.53,
+      "y": 879.78,
+      "lap_pct": 0.9072
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -59,9 +157,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Hockenheimring Baden-W\u00fcrttemberg - Short A",
-    "length_m": 2630
-  }
+  "turn_consensus": {}
 }

@@ -1,6 +1,20 @@
 {
   "track_id": 252,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Nuerburgring Gesamtstrecke 24h",
+    "length_m": 25180
+  },
+  "direction_known": false,
+  "turns": [
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 810.15,
+      "y": 762.6,
+      "lap_pct": 0.875
+    }
+  ],
   "named_corners": [
     {
       "name": "Yokohama-S",
@@ -8,7 +22,7 @@
       "end_pct": 0.033,
       "corner_length_pct": 0.012,
       "corner_length_m": 302.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Valvoline Kurve",
@@ -16,7 +30,7 @@
       "end_pct": 0.05,
       "corner_length_pct": 0.008,
       "corner_length_m": 201.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Ford-Kurve",
@@ -24,7 +38,7 @@
       "end_pct": 0.058,
       "corner_length_pct": 0.007,
       "corner_length_m": 176.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Dunlop-Kehre",
@@ -32,7 +46,7 @@
       "end_pct": 0.082,
       "corner_length_pct": 0.011,
       "corner_length_m": 277.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Michael-Schumacher-S",
@@ -40,7 +54,7 @@
       "end_pct": 0.102,
       "corner_length_pct": 0.015,
       "corner_length_m": 377.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Michelin-Kurve",
@@ -48,7 +62,7 @@
       "end_pct": 0.117,
       "corner_length_pct": 0.007,
       "corner_length_m": 176.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Warsteiner-Kurve",
@@ -56,7 +70,7 @@
       "end_pct": 0.128,
       "corner_length_pct": 0.01,
       "corner_length_m": 251.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "ADVAN-Bogen",
@@ -64,7 +78,7 @@
       "end_pct": 0.145,
       "corner_length_pct": 0.01,
       "corner_length_m": 251.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "NGK-Schikane",
@@ -72,7 +86,7 @@
       "end_pct": 0.164,
       "corner_length_pct": 0.011,
       "corner_length_m": 277.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T13",
@@ -80,7 +94,7 @@
       "end_pct": 0.173,
       "corner_length_pct": 0.008,
       "corner_length_m": 201.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hatzenbach",
@@ -88,7 +102,7 @@
       "end_pct": 0.224,
       "corner_length_pct": 0.041,
       "corner_length_m": 1032.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hoheneichen",
@@ -96,7 +110,7 @@
       "end_pct": 0.25,
       "corner_length_pct": 0.024,
       "corner_length_m": 604.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Quiddelbacher Hoehe",
@@ -104,7 +118,7 @@
       "end_pct": 0.264,
       "corner_length_pct": 0.013,
       "corner_length_m": 327.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Flugplatz",
@@ -112,7 +126,7 @@
       "end_pct": 0.301,
       "corner_length_pct": 0.049,
       "corner_length_m": 1233.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Schwedenkreuz",
@@ -120,7 +134,7 @@
       "end_pct": 0.316,
       "corner_length_pct": 0.012,
       "corner_length_m": 302.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Aremberg",
@@ -128,7 +142,7 @@
       "end_pct": 0.341,
       "corner_length_pct": 0.024,
       "corner_length_m": 604.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Fuchsroehre",
@@ -136,7 +150,7 @@
       "end_pct": 0.365,
       "corner_length_pct": 0.023,
       "corner_length_m": 579.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Adenauer Forst",
@@ -144,7 +158,7 @@
       "end_pct": 0.397,
       "corner_length_pct": 0.029,
       "corner_length_m": 730.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Metzgesfeld",
@@ -152,7 +166,7 @@
       "end_pct": 0.415,
       "corner_length_pct": 0.017,
       "corner_length_m": 428.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Kallenhard",
@@ -160,7 +174,7 @@
       "end_pct": 0.429,
       "corner_length_pct": 0.012,
       "corner_length_m": 302.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Spiegelkurve",
@@ -168,7 +182,7 @@
       "end_pct": 0.437,
       "corner_length_pct": 0.007,
       "corner_length_m": 176.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Dreifach-Rechts",
@@ -176,7 +190,7 @@
       "end_pct": 0.454,
       "corner_length_pct": 0.016,
       "corner_length_m": 402.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Wehrseifen",
@@ -184,7 +198,7 @@
       "end_pct": 0.472,
       "corner_length_pct": 0.017,
       "corner_length_m": 428.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "ExMuehle",
@@ -192,7 +206,7 @@
       "end_pct": 0.505,
       "corner_length_pct": 0.018,
       "corner_length_m": 453.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Bergwerk",
@@ -200,7 +214,7 @@
       "end_pct": 0.535,
       "corner_length_pct": 0.021,
       "corner_length_m": 528.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Kesselchen",
@@ -208,7 +222,7 @@
       "end_pct": 0.575,
       "corner_length_pct": 0.015,
       "corner_length_m": 377.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Klostertal",
@@ -216,7 +230,7 @@
       "end_pct": 0.586,
       "corner_length_pct": 0.01,
       "corner_length_m": 251.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Mutkurve",
@@ -224,7 +238,7 @@
       "end_pct": 0.605,
       "corner_length_pct": 0.018,
       "corner_length_m": 453.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Caracciola-Karussell",
@@ -232,7 +246,7 @@
       "end_pct": 0.65,
       "corner_length_pct": 0.011,
       "corner_length_m": 277.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hohe Acht",
@@ -240,7 +254,7 @@
       "end_pct": 0.685,
       "corner_length_pct": 0.01,
       "corner_length_m": 251.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hedwigshoehe",
@@ -248,7 +262,7 @@
       "end_pct": 0.702,
       "corner_length_pct": 0.016,
       "corner_length_m": 402.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Wippermann",
@@ -256,7 +270,7 @@
       "end_pct": 0.716,
       "corner_length_pct": 0.013,
       "corner_length_m": 327.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Eschbach",
@@ -264,7 +278,7 @@
       "end_pct": 0.73,
       "corner_length_pct": 0.013,
       "corner_length_m": 327.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Bruennchen",
@@ -272,7 +286,7 @@
       "end_pct": 0.76,
       "corner_length_pct": 0.029,
       "corner_length_m": 730.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Pflanzgarten",
@@ -280,7 +294,7 @@
       "end_pct": 0.798,
       "corner_length_pct": 0.037,
       "corner_length_m": 931.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Stefan-Bellof-S",
@@ -288,7 +302,7 @@
       "end_pct": 0.82,
       "corner_length_pct": 0.021,
       "corner_length_m": 528.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Schwalbenschwanz",
@@ -296,7 +310,7 @@
       "end_pct": 0.845,
       "corner_length_pct": 0.024,
       "corner_length_m": 604.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Galgenkopf",
@@ -304,7 +318,7 @@
       "end_pct": 0.865,
       "corner_length_pct": 0.017,
       "corner_length_m": 428.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Doettinger Hoehe",
@@ -312,7 +326,7 @@
       "end_pct": 0.936,
       "corner_length_pct": 0.07,
       "corner_length_m": 1762.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Antoniusbuche",
@@ -320,7 +334,7 @@
       "end_pct": 0.955,
       "corner_length_pct": 0.015,
       "corner_length_m": 377.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Tiergarten",
@@ -328,7 +342,7 @@
       "end_pct": 0.965,
       "corner_length_pct": 0.006,
       "corner_length_m": 151.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hohenrain",
@@ -336,7 +350,7 @@
       "end_pct": 0.989,
       "corner_length_pct": 0.023,
       "corner_length_m": 579.1,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -414,9 +428,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Nuerburgring Gesamtstrecke 24h",
-    "length_m": 25180
-  }
+  "turn_consensus": {}
 }

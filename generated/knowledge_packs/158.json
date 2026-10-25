@@ -1,6 +1,90 @@
 {
   "track_id": 158,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Laguna Seca - School",
+    "length_m": 3602
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1191.07,
+      "y": 971.32,
+      "lap_pct": 0.0703
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1371.69,
+      "y": 756.56,
+      "lap_pct": 0.1484
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1097.96,
+      "y": 925.76,
+      "lap_pct": 0.2373
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 974.41,
+      "y": 655.67,
+      "lap_pct": 0.3184
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1382.44,
+      "y": 378.64,
+      "lap_pct": 0.4971
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1135.12,
+      "y": 140.3,
+      "lap_pct": 0.5557
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 801.52,
+      "y": 319.54,
+      "lap_pct": 0.6602
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 730.56,
+      "y": 347.67,
+      "lap_pct": 0.6826
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 594.18,
+      "y": 529.57,
+      "lap_pct": 0.7305
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 757.39,
+      "y": 688.56,
+      "lap_pct": 0.8154
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 599.92,
+      "y": 981.67,
+      "lap_pct": 0.9062
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn 1",
@@ -8,7 +92,9 @@
       "end_pct": 0.08,
       "corner_length_pct": 0.035,
       "corner_length_m": 126.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Andretti Hairpin",
@@ -16,7 +102,9 @@
       "end_pct": 0.173,
       "corner_length_pct": 0.073,
       "corner_length_m": 262.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Turn 3",
@@ -24,7 +112,9 @@
       "end_pct": 0.245,
       "corner_length_pct": 0.054,
       "corner_length_m": 194.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Turn 4",
@@ -32,7 +122,9 @@
       "end_pct": 0.321,
       "corner_length_pct": 0.056,
       "corner_length_m": 201.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Turn 5",
@@ -40,7 +132,7 @@
       "end_pct": 0.465,
       "corner_length_pct": 0.065,
       "corner_length_m": 234.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 6",
@@ -48,7 +140,9 @@
       "end_pct": 0.575,
       "corner_length_pct": 0.055,
       "corner_length_m": 198.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "The Corkscrew",
@@ -56,7 +150,9 @@
       "end_pct": 0.72,
       "corner_length_pct": 0.059,
       "corner_length_m": 212.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Turn 9",
@@ -64,7 +160,9 @@
       "end_pct": 0.79,
       "corner_length_pct": 0.065,
       "corner_length_m": 234.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Turn 10",
@@ -72,7 +170,9 @@
       "end_pct": 0.855,
       "corner_length_pct": 0.05,
       "corner_length_m": 180.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Turn 11",
@@ -80,7 +180,9 @@
       "end_pct": 0.94,
       "corner_length_pct": 0.05,
       "corner_length_m": 180.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -134,9 +236,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Laguna Seca - School",
-    "length_m": 3602
-  }
+  "turn_consensus": {}
 }

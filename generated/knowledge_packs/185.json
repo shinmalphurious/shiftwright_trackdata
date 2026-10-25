@@ -1,6 +1,97 @@
 {
   "track_id": 185,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Oulton Park Circuit - Intl w/no Chicanes",
+    "length_m": 4330
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 848.6,
+      "y": 95.85,
+      "lap_pct": 0.0654
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 982.92,
+      "y": 500.57,
+      "lap_pct": 0.1387
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1068.54,
+      "y": 680.67,
+      "lap_pct": 0.1758
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1765.84,
+      "y": 429.92,
+      "lap_pct": 0.3252
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1855.53,
+      "y": 142.43,
+      "lap_pct": 0.3926
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1842.15,
+      "y": 397.42,
+      "lap_pct": 0.4482
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 965.26,
+      "y": 954.81,
+      "lap_pct": 0.6426
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 654.66,
+      "y": 873.67,
+      "lap_pct": 0.7021
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 388.31,
+      "y": 834.37,
+      "lap_pct": 0.752
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 157.66,
+      "y": 755.42,
+      "lap_pct": 0.7998
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 69.39,
+      "y": 138.51,
+      "lap_pct": 0.9199
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 287.62,
+      "y": 116.64,
+      "lap_pct": 0.9658
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -65,9 +156,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Oulton Park Circuit - Intl w/no Chicanes",
-    "length_m": 4330
-  }
+  "turn_consensus": {}
 }

@@ -1,6 +1,76 @@
 {
   "track_id": 145,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Brands Hatch GP",
+    "length_m": 3890
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 464.66,
+      "y": 240.0,
+      "lap_pct": 0.0654
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 871.66,
+      "y": 433.33,
+      "lap_pct": 0.1582
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 588.99,
+      "y": 420.0,
+      "lap_pct": 0.2168
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 591.66,
+      "y": 780.0,
+      "lap_pct": 0.3271
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1322.32,
+      "y": 216.0,
+      "lap_pct": 0.5254
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1622.32,
+      "y": 493.33,
+      "lap_pct": 0.6035
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1235.66,
+      "y": 849.33,
+      "lap_pct": 0.7109
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1036.99,
+      "y": 694.67,
+      "lap_pct": 0.7666
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 607.66,
+      "y": 1045.33,
+      "lap_pct": 0.8857
+    }
+  ],
   "named_corners": [
     {
       "name": "Paddock Hill Bend",
@@ -8,7 +78,9 @@
       "end_pct": 0.1,
       "corner_length_pct": 0.065,
       "corner_length_m": 252.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Druids",
@@ -16,7 +88,9 @@
       "end_pct": 0.181,
       "corner_length_pct": 0.045,
       "corner_length_m": 175.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Graham Hill Bend",
@@ -24,7 +98,9 @@
       "end_pct": 0.255,
       "corner_length_pct": 0.049,
       "corner_length_m": 190.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Surtees",
@@ -32,7 +108,9 @@
       "end_pct": 0.352,
       "corner_length_pct": 0.057,
       "corner_length_m": 221.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Hawthorn Bend",
@@ -40,7 +118,9 @@
       "end_pct": 0.55,
       "corner_length_pct": 0.06,
       "corner_length_m": 233.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Westfield Bend",
@@ -48,7 +128,9 @@
       "end_pct": 0.647,
       "corner_length_pct": 0.056,
       "corner_length_m": 217.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Dingle Dell",
@@ -56,7 +138,7 @@
       "end_pct": 0.69,
       "corner_length_pct": 0.026,
       "corner_length_m": 101.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Sheene's",
@@ -64,7 +146,9 @@
       "end_pct": 0.726,
       "corner_length_pct": 0.035,
       "corner_length_m": 136.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Stirling's",
@@ -72,7 +156,9 @@
       "end_pct": 0.793,
       "corner_length_pct": 0.044,
       "corner_length_m": 171.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Clark Curve",
@@ -80,7 +166,9 @@
       "end_pct": 0.954,
       "corner_length_pct": 0.091,
       "corner_length_m": 354.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -140,9 +228,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Brands Hatch GP",
-    "length_m": 3890
-  }
+  "turn_consensus": {}
 }

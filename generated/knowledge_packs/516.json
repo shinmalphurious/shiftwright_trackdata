@@ -1,6 +1,69 @@
 {
   "track_id": 516,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Circuito de Navarra - Speed Circuit - Medium",
+    "length_m": 2670
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 522.25,
+      "y": 811.0,
+      "lap_pct": 0.1377
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.79,
+      "y": 676.6,
+      "lap_pct": 0.041
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 296.79,
+      "y": 597.94,
+      "lap_pct": 0.9883
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 486.12,
+      "y": 702.6,
+      "lap_pct": 0.9209
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 886.36,
+      "y": 732.78,
+      "lap_pct": 0.792
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1513.87,
+      "y": 240.09,
+      "lap_pct": 0.626
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1569.23,
+      "y": 601.33,
+      "lap_pct": 0.4873
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1757.23,
+      "y": 833.08,
+      "lap_pct": 0.5234
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -35,9 +98,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuito de Navarra - Speed Circuit - Medium",
-    "length_m": 2670
-  }
+  "turn_consensus": {}
 }

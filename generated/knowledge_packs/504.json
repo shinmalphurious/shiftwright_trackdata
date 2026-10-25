@@ -1,6 +1,52 @@
 {
   "track_id": 504,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 212.85,
+      "y": 393.04,
+      "lap_pct": 0.1455
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 361.3,
+      "y": 347.7,
+      "lap_pct": 0.2373
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 420.37,
+      "y": 465.94,
+      "lap_pct": 0.3545
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 739.21,
+      "y": 547.63,
+      "lap_pct": 0.623
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 640.33,
+      "y": 607.61,
+      "lap_pct": 0.7061
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 492.54,
+      "y": 677.15,
+      "lap_pct": 0.835
+    }
+  ],
   "named_corners": [
     {
       "name": "Variante del Parco",
@@ -8,7 +54,7 @@
       "end_pct": 0.118,
       "corner_length_pct": 0.069,
       "corner_length_m": 287.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curva del Rio",
@@ -16,7 +62,9 @@
       "end_pct": 0.265,
       "corner_length_pct": 0.095,
       "corner_length_m": 396.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Curva Quericia",
@@ -24,7 +72,7 @@
       "end_pct": 0.445,
       "corner_length_pct": 0.08,
       "corner_length_m": 333.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curva Tramonto",
@@ -32,7 +80,7 @@
       "end_pct": 0.557,
       "corner_length_pct": 0.082,
       "corner_length_m": 341.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curvone",
@@ -40,7 +88,9 @@
       "end_pct": 0.751,
       "corner_length_pct": 0.106,
       "corner_length_m": 442.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Curva del Carro",
@@ -48,7 +98,9 @@
       "end_pct": 0.839,
       "corner_length_pct": 0.049,
       "corner_length_m": 204.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Turn 15",
@@ -56,7 +108,7 @@
       "end_pct": 0.89,
       "corner_length_pct": 0.05,
       "corner_length_m": 208.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curva Misano",
@@ -64,7 +116,7 @@
       "end_pct": 0.95,
       "corner_length_pct": 0.05,
       "corner_length_m": 208.5,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -130,6 +182,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

@@ -1,6 +1,41 @@
 {
   "track_id": 328,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Tsukuba Circuit - 1000 Outer",
+    "length_m": 800
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1001.26,
+      "y": 961.93,
+      "lap_pct": 0.2627
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 999.18,
+      "y": 810.39,
+      "lap_pct": 0.4346
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1445.76,
+      "y": 788.13,
+      "lap_pct": 0.7764
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1481.09,
+      "y": 832.89,
+      "lap_pct": 0.8447
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -47,9 +82,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Tsukuba Circuit - 1000 Outer",
-    "length_m": 800
-  }
+  "turn_consensus": {}
 }

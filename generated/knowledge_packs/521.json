@@ -1,6 +1,104 @@
 {
   "track_id": 521,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Sachsenring",
+    "length_m": 3590
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1364.58,
+      "y": 544.23,
+      "lap_pct": 0.2852
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1219.89,
+      "y": 689.89,
+      "lap_pct": 0.3359
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1169.84,
+      "y": 834.88,
+      "lap_pct": 0.3877
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1096.14,
+      "y": 732.12,
+      "lap_pct": 0.4316
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1148.47,
+      "y": 653.28,
+      "lap_pct": 0.4463
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 937.75,
+      "y": 636.84,
+      "lap_pct": 0.4902
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 959.87,
+      "y": 926.67,
+      "lap_pct": 0.5518
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1472.18,
+      "y": 853.13,
+      "lap_pct": 0.6689
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1496.75,
+      "y": 599.11,
+      "lap_pct": 0.7227
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1400.33,
+      "y": 448.67,
+      "lap_pct": 0.7598
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1129.51,
+      "y": 407.67,
+      "lap_pct": 0.8203
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 585.17,
+      "y": 62.0,
+      "lap_pct": 0.9697
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 406.11,
+      "y": 511.22,
+      "lap_pct": 0.0723
+    }
+  ],
   "named_corners": [
     {
       "name": "auto motor und sport-Kurve",
@@ -8,7 +106,7 @@
       "end_pct": 0.181,
       "corner_length_pct": 0.052,
       "corner_length_m": 186.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Omega-Kurve",
@@ -16,7 +114,9 @@
       "end_pct": 0.307,
       "corner_length_pct": 0.117,
       "corner_length_m": 420.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Kleine Kuppe-Kurve",
@@ -24,7 +124,9 @@
       "end_pct": 0.383,
       "corner_length_pct": 0.075,
       "corner_length_m": 269.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Karthallen-Kurve",
@@ -32,7 +134,10 @@
       "end_pct": 0.453,
       "corner_length_pct": 0.043,
       "corner_length_m": 154.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T4",
+        "T5"
+      ]
     },
     {
       "name": "Volkswagen-Kurve",
@@ -40,7 +145,9 @@
       "end_pct": 0.555,
       "corner_length_pct": 0.045,
       "corner_length_m": 161.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Grosse Kuppe-Kurve",
@@ -48,7 +155,7 @@
       "end_pct": 0.615,
       "corner_length_pct": 0.035,
       "corner_length_m": 125.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Nordkurve ",
@@ -56,7 +163,7 @@
       "end_pct": 0.665,
       "corner_length_pct": 0.045,
       "corner_length_m": 161.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Ralf-Waldmann-Kurve",
@@ -64,7 +171,10 @@
       "end_pct": 0.749,
       "corner_length_pct": 0.081,
       "corner_length_m": 290.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T8",
+        "T9"
+      ]
     },
     {
       "name": "Sachsen Kurve",
@@ -72,7 +182,9 @@
       "end_pct": 0.876,
       "corner_length_pct": 0.079,
       "corner_length_m": 283.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Queckenberg Kurve",
@@ -80,7 +192,9 @@
       "end_pct": 0.98,
       "corner_length_pct": 0.065,
       "corner_length_m": 233.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -140,9 +254,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Sachsenring",
-    "length_m": 3590
-  }
+  "turn_consensus": {}
 }

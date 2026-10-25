@@ -1,6 +1,118 @@
 {
   "track_id": 515,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Circuito de Navarra Speed Circuit Long",
+    "length_m": 3890
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 522.25,
+      "y": 811.0,
+      "lap_pct": 0.0605
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 298.79,
+      "y": 676.6,
+      "lap_pct": 0.0176
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 296.79,
+      "y": 597.94,
+      "lap_pct": 0.9951
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 486.12,
+      "y": 702.6,
+      "lap_pct": 0.9648
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 970.0,
+      "y": 690.72,
+      "lap_pct": 0.8965
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 976.79,
+      "y": 504.51,
+      "lap_pct": 0.3613
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 845.18,
+      "y": 487.9,
+      "lap_pct": 0.3857
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 669.89,
+      "y": 350.75,
+      "lap_pct": 0.4238
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1301.46,
+      "y": 111.33,
+      "lap_pct": 0.5469
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1249.76,
+      "y": 223.23,
+      "lap_pct": 0.5713
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1130.55,
+      "y": 330.75,
+      "lap_pct": 0.6064
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1221.89,
+      "y": 428.42,
+      "lap_pct": 0.627
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1490.44,
+      "y": 228.47,
+      "lap_pct": 0.6816
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1569.23,
+      "y": 601.33,
+      "lap_pct": 0.7354
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1757.23,
+      "y": 833.08,
+      "lap_pct": 0.7773
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn 1",
@@ -8,7 +120,7 @@
       "end_pct": 0.125,
       "corner_length_pct": 0.036,
       "corner_length_m": 140.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 2",
@@ -16,7 +128,7 @@
       "end_pct": 0.16,
       "corner_length_pct": 0.034,
       "corner_length_m": 132.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 3",
@@ -24,7 +136,7 @@
       "end_pct": 0.201,
       "corner_length_pct": 0.04,
       "corner_length_m": 155.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 4",
@@ -32,7 +144,7 @@
       "end_pct": 0.26,
       "corner_length_pct": 0.058,
       "corner_length_m": 225.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 5",
@@ -40,7 +152,7 @@
       "end_pct": 0.345,
       "corner_length_pct": 0.055,
       "corner_length_m": 213.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 6",
@@ -48,7 +160,9 @@
       "end_pct": 0.385,
       "corner_length_pct": 0.039,
       "corner_length_m": 151.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Turn 7",
@@ -56,7 +170,9 @@
       "end_pct": 0.43,
       "corner_length_pct": 0.044,
       "corner_length_m": 171.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Turn 8",
@@ -64,7 +180,7 @@
       "end_pct": 0.477,
       "corner_length_pct": 0.042,
       "corner_length_m": 163.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 9",
@@ -72,7 +188,9 @@
       "end_pct": 0.605,
       "corner_length_pct": 0.04,
       "corner_length_m": 155.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Turn 10",
@@ -80,7 +198,10 @@
       "end_pct": 0.641,
       "corner_length_pct": 0.035,
       "corner_length_m": 136.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T11",
+        "T12"
+      ]
     },
     {
       "name": "Turn 11",
@@ -88,7 +209,9 @@
       "end_pct": 0.687,
       "corner_length_pct": 0.041,
       "corner_length_m": 159.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Turn 12",
@@ -96,7 +219,7 @@
       "end_pct": 0.727,
       "corner_length_pct": 0.037,
       "corner_length_m": 143.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 13",
@@ -104,7 +227,9 @@
       "end_pct": 0.795,
       "corner_length_pct": 0.045,
       "corner_length_m": 175.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T15"
+      ]
     },
     {
       "name": "Turn 14",
@@ -112,7 +237,7 @@
       "end_pct": 0.855,
       "corner_length_pct": 0.04,
       "corner_length_m": 155.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 15",
@@ -120,7 +245,9 @@
       "end_pct": 0.915,
       "corner_length_pct": 0.047,
       "corner_length_m": 182.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -186,9 +313,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuito de Navarra Speed Circuit Long",
-    "length_m": 3890
-  }
+  "turn_consensus": {}
 }

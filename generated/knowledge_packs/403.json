@@ -1,6 +1,83 @@
 {
   "track_id": 403,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Red Bull Ring - GP",
+    "length_m": 4280
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 881.43,
+      "y": 921.96,
+      "lap_pct": 0.1133
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 452.31,
+      "y": 394.99,
+      "lap_pct": 0.2578
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 336.75,
+      "y": 164.5,
+      "lap_pct": 0.3359
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1189.65,
+      "y": 214.53,
+      "lap_pct": 0.5146
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1019.99,
+      "y": 386.87,
+      "lap_pct": 0.5586
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 700.03,
+      "y": 398.4,
+      "lap_pct": 0.6377
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 814.98,
+      "y": 591.01,
+      "lap_pct": 0.7031
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 991.56,
+      "y": 567.05,
+      "lap_pct": 0.7461
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1549.88,
+      "y": 536.3,
+      "lap_pct": 0.877
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1685.78,
+      "y": 720.6,
+      "lap_pct": 0.9258
+    }
+  ],
   "named_corners": [
     {
       "name": "Niki Lauda Kurve",
@@ -8,7 +85,9 @@
       "end_pct": 0.125,
       "corner_length_pct": 0.05,
       "corner_length_m": 214.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Remus",
@@ -16,7 +95,9 @@
       "end_pct": 0.345,
       "corner_length_pct": 0.055,
       "corner_length_m": 235.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Schlossgold",
@@ -24,7 +105,9 @@
       "end_pct": 0.54,
       "corner_length_pct": 0.07,
       "corner_length_m": 299.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Rauch",
@@ -32,7 +115,9 @@
       "end_pct": 0.66,
       "corner_length_pct": 0.07,
       "corner_length_m": 299.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Wuerth",
@@ -40,7 +125,10 @@
       "end_pct": 0.78,
       "corner_length_pct": 0.105,
       "corner_length_m": 449.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T7",
+        "T8"
+      ]
     },
     {
       "name": "Rindt",
@@ -48,7 +136,9 @@
       "end_pct": 0.9,
       "corner_length_pct": 0.07,
       "corner_length_m": 299.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Red Bull Mobile",
@@ -56,7 +146,9 @@
       "end_pct": 0.951,
       "corner_length_pct": 0.046,
       "corner_length_m": 196.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -104,9 +196,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Red Bull Ring - GP",
-    "length_m": 4280
-  }
+  "turn_consensus": {}
 }

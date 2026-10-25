@@ -1,6 +1,69 @@
 {
   "track_id": 455,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Motorsport Arena Oschersleben - B Course",
+    "length_m": 2390
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 660.18,
+      "y": 614.14,
+      "lap_pct": 0.1836
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 518.77,
+      "y": 541.42,
+      "lap_pct": 0.25
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 964.61,
+      "y": 440.61,
+      "lap_pct": 0.4395
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 831.4,
+      "y": 309.42,
+      "lap_pct": 0.5352
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1133.2,
+      "y": 387.86,
+      "lap_pct": 0.6299
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1278.47,
+      "y": 453.11,
+      "lap_pct": 0.6924
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1565.91,
+      "y": 597.56,
+      "lap_pct": 0.7822
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1627.38,
+      "y": 817.8,
+      "lap_pct": 0.8945
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +71,9 @@
       "end_pct": 0.207,
       "corner_length_pct": 0.051,
       "corner_length_m": 121.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Hotel",
@@ -16,7 +81,9 @@
       "end_pct": 0.318,
       "corner_length_pct": 0.11,
       "corner_length_m": 262.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Hasser\u00f6der",
@@ -24,7 +91,9 @@
       "end_pct": 0.471,
       "corner_length_pct": 0.084,
       "corner_length_m": 200.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": null,
@@ -32,7 +101,9 @@
       "end_pct": 0.546,
       "corner_length_pct": 0.058,
       "corner_length_m": 138.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Shell Kurve",
@@ -40,7 +111,9 @@
       "end_pct": 0.658,
       "corner_length_pct": 0.054,
       "corner_length_m": 129.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Amman Kurve",
@@ -48,7 +121,9 @@
       "end_pct": 0.721,
       "corner_length_pct": 0.062,
       "corner_length_m": 148.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Bauer Kurve",
@@ -56,7 +131,9 @@
       "end_pct": 0.825,
       "corner_length_pct": 0.059,
       "corner_length_m": 141.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Zeppelin Kurve",
@@ -64,7 +141,9 @@
       "end_pct": 0.931,
       "corner_length_pct": 0.09,
       "corner_length_m": 215.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -112,9 +191,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Motorsport Arena Oschersleben - B Course",
-    "length_m": 2390
-  }
+  "turn_consensus": {}
 }

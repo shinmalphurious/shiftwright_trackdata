@@ -1,6 +1,76 @@
 {
   "track_id": 96,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Sebring International Raceway - Modified",
+    "length_m": 3170
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1344.37,
+      "y": 730.6,
+      "lap_pct": 0.1768
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1371.62,
+      "y": 522.27,
+      "lap_pct": 0.2461
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1403.65,
+      "y": 506.91,
+      "lap_pct": 0.2861
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1506.2,
+      "y": 628.78,
+      "lap_pct": 0.3389
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1569.48,
+      "y": 808.26,
+      "lap_pct": 0.4102
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1595.29,
+      "y": 891.16,
+      "lap_pct": 0.4365
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1508.43,
+      "y": 987.24,
+      "lap_pct": 0.4775
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 497.87,
+      "y": 983.45,
+      "lap_pct": 0.8369
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 571.28,
+      "y": 859.09,
+      "lap_pct": 0.8955
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -47,9 +117,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Sebring International Raceway - Modified",
-    "length_m": 3170
-  }
+  "turn_consensus": {}
 }

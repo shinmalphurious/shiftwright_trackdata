@@ -1,6 +1,80 @@
 {
   "track_id": 240,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 601.93,
+      "y": 701.04,
+      "lap_pct": 0.5654
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1802.62,
+      "y": 692.27,
+      "lap_pct": 0.8652
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 357.32,
+      "y": 889.33,
+      "lap_pct": 0.2373
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 184.65,
+      "y": 396.17,
+      "lap_pct": 0.3643
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 116.6,
+      "y": 222.04,
+      "lap_pct": 0.4209
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 282.66,
+      "y": 190.0,
+      "lap_pct": 0.4531
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 825.32,
+      "y": 672.33,
+      "lap_pct": 0.6094
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 873.53,
+      "y": 736.17,
+      "lap_pct": 0.625
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 959.76,
+      "y": 719.28,
+      "lap_pct": 0.6416
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1638.52,
+      "y": 817.4,
+      "lap_pct": 0.793
+    }
+  ],
   "named_corners": [
     {
       "name": "Prima Variante",
@@ -8,7 +82,7 @@
       "end_pct": 0.206,
       "corner_length_pct": 0.063,
       "corner_length_m": 362.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curva Biassono",
@@ -16,7 +90,9 @@
       "end_pct": 0.32,
       "corner_length_pct": 0.102,
       "corner_length_m": 586.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Seconda Variante",
@@ -24,7 +100,9 @@
       "end_pct": 0.392,
       "corner_length_pct": 0.042,
       "corner_length_m": 241.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Prima Curva di Lesmo",
@@ -32,7 +110,9 @@
       "end_pct": 0.467,
       "corner_length_pct": 0.044,
       "corner_length_m": 253.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Seconda Curva di Lesmo",
@@ -40,7 +120,7 @@
       "end_pct": 0.52,
       "corner_length_pct": 0.036,
       "corner_length_m": 207.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curva del Serraglio",
@@ -48,7 +128,9 @@
       "end_pct": 0.594,
       "corner_length_pct": 0.039,
       "corner_length_m": 224.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Variante Ascari",
@@ -56,7 +138,7 @@
       "end_pct": 0.73,
       "corner_length_pct": 0.08,
       "corner_length_m": 460.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Curva Parabolica",
@@ -64,7 +146,7 @@
       "end_pct": 0.96,
       "corner_length_pct": 0.094,
       "corner_length_m": 540.5,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -136,6 +218,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

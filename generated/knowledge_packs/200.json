@@ -1,6 +1,83 @@
 {
   "track_id": 200,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Zolder Circuit - Alternate",
+    "length_m": 4010
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 431.66,
+      "y": 692.33,
+      "lap_pct": 0.0752
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 332.25,
+      "y": 976.52,
+      "lap_pct": 0.1611
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 183.43,
+      "y": 889.56,
+      "lap_pct": 0.2158
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 220.21,
+      "y": 613.11,
+      "lap_pct": 0.2891
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 926.06,
+      "y": 562.85,
+      "lap_pct": 0.4492
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1248.92,
+      "y": 382.07,
+      "lap_pct": 0.5342
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1444.77,
+      "y": 112.89,
+      "lap_pct": 0.6289
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1708.83,
+      "y": 537.85,
+      "lap_pct": 0.7578
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1586.8,
+      "y": 554.52,
+      "lap_pct": 0.8037
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1152.79,
+      "y": 645.86,
+      "lap_pct": 0.9102
+    }
+  ],
   "named_corners": [
     {
       "name": "Earste",
@@ -8,7 +85,9 @@
       "end_pct": 0.105,
       "corner_length_pct": 0.056,
       "corner_length_m": 224.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Sterrenwachtbocht",
@@ -16,7 +95,9 @@
       "end_pct": 0.175,
       "corner_length_pct": 0.052,
       "corner_length_m": 208.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Kanaalbocht",
@@ -24,7 +105,9 @@
       "end_pct": 0.235,
       "corner_length_pct": 0.055,
       "corner_length_m": 220.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Lucien Bianchbocht",
@@ -32,7 +115,9 @@
       "end_pct": 0.32,
       "corner_length_pct": 0.06,
       "corner_length_m": 240.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Kleine Chicane",
@@ -40,7 +125,9 @@
       "end_pct": 0.466,
       "corner_length_pct": 0.046,
       "corner_length_m": 184.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Sacramentshelling",
@@ -48,7 +135,7 @@
       "end_pct": 0.52,
       "corner_length_pct": 0.045,
       "corner_length_m": 180.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Butte",
@@ -56,7 +143,9 @@
       "end_pct": 0.565,
       "corner_length_pct": 0.044,
       "corner_length_m": 176.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Villeneuve Chicane",
@@ -64,7 +153,7 @@
       "end_pct": 0.617,
       "corner_length_pct": 0.047,
       "corner_length_m": 188.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Terlamenbocht",
@@ -72,7 +161,9 @@
       "end_pct": 0.67,
       "corner_length_pct": 0.048,
       "corner_length_m": 192.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Bolderbergbocht",
@@ -80,7 +171,9 @@
       "end_pct": 0.775,
       "corner_length_pct": 0.035,
       "corner_length_m": 140.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Jochen Rindtbocht",
@@ -88,7 +181,9 @@
       "end_pct": 0.81,
       "corner_length_pct": 0.034,
       "corner_length_m": 136.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Jacky Ickxbocht",
@@ -96,7 +191,9 @@
       "end_pct": 0.94,
       "corner_length_pct": 0.06,
       "corner_length_m": 240.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -174,9 +271,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Zolder Circuit - Alternate",
-    "length_m": 4010
-  }
+  "turn_consensus": {}
 }

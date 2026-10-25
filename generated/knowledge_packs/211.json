@@ -1,6 +1,97 @@
 {
   "track_id": 211,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Oran Park Raceway - Moto",
+    "length_m": 2600
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1597.9,
+      "y": 805.3,
+      "lap_pct": 0.7441
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1794.1,
+      "y": 639.0,
+      "lap_pct": 0.6592
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1259.7,
+      "y": 416.4,
+      "lap_pct": 0.502
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1414.0,
+      "y": 272.5,
+      "lap_pct": 0.5469
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1533.6,
+      "y": 208.0,
+      "lap_pct": 0.5811
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1558.4,
+      "y": 571.7,
+      "lap_pct": 0.5752
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1148.2,
+      "y": 528.1,
+      "lap_pct": 0.4688
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1051.8,
+      "y": 395.3,
+      "lap_pct": 0.4482
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 842.1,
+      "y": 213.0,
+      "lap_pct": 0.3984
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 454.3,
+      "y": 407.4,
+      "lap_pct": 0.29
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 347.2,
+      "y": 498.7,
+      "lap_pct": 0.2588
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 89.3,
+      "y": 754.5,
+      "lap_pct": 0.1826
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -41,9 +132,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Oran Park Raceway - Moto",
-    "length_m": 2600
-  }
+  "turn_consensus": {}
 }

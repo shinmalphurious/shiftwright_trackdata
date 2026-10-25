@@ -1,6 +1,90 @@
 {
   "track_id": 196,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Mobility Resort Motegi - East",
+    "length_m": 3400
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1516.77,
+      "y": 851.56,
+      "lap_pct": 0.1543
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1391.14,
+      "y": 822.07,
+      "lap_pct": 0.2236
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1317.44,
+      "y": 759.33,
+      "lap_pct": 0.252
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1241.99,
+      "y": 673.0,
+      "lap_pct": 0.2861
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1173.1,
+      "y": 679.0,
+      "lap_pct": 0.3066
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 658.32,
+      "y": 610.67,
+      "lap_pct": 0.4824
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 819.14,
+      "y": 433.52,
+      "lap_pct": 0.5625
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1126.88,
+      "y": 412.56,
+      "lap_pct": 0.666
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1237.99,
+      "y": 369.22,
+      "lap_pct": 0.708
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1437.31,
+      "y": 464.11,
+      "lap_pct": 0.7793
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1517.21,
+      "y": 47.52,
+      "lap_pct": 0.9229
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +92,9 @@
       "end_pct": 0.186,
       "corner_length_pct": 0.037,
       "corner_length_m": 125.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": null,
@@ -16,7 +102,9 @@
       "end_pct": 0.226,
       "corner_length_pct": 0.021,
       "corner_length_m": 71.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -24,7 +112,9 @@
       "end_pct": 0.269,
       "corner_length_pct": 0.042,
       "corner_length_m": 142.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": null,
@@ -32,7 +122,9 @@
       "end_pct": 0.293,
       "corner_length_pct": 0.022,
       "corner_length_m": 74.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": null,
@@ -40,7 +132,9 @@
       "end_pct": 0.315,
       "corner_length_pct": 0.021,
       "corner_length_m": 71.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": null,
@@ -48,7 +142,9 @@
       "end_pct": 0.492,
       "corner_length_pct": 0.037,
       "corner_length_m": 125.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": null,
@@ -56,7 +152,9 @@
       "end_pct": 0.589,
       "corner_length_pct": 0.06,
       "corner_length_m": 204.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": null,
@@ -64,7 +162,9 @@
       "end_pct": 0.676,
       "corner_length_pct": 0.044,
       "corner_length_m": 149.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": null,
@@ -72,7 +172,9 @@
       "end_pct": 0.731,
       "corner_length_pct": 0.054,
       "corner_length_m": 183.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": null,
@@ -80,7 +182,9 @@
       "end_pct": 0.809,
       "corner_length_pct": 0.047,
       "corner_length_m": 159.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": null,
@@ -88,7 +192,9 @@
       "end_pct": 0.944,
       "corner_length_pct": 0.045,
       "corner_length_m": 153.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -142,9 +248,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Mobility Resort Motegi - East",
-    "length_m": 3400
-  }
+  "turn_consensus": {}
 }

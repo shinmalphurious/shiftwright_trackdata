@@ -1,6 +1,38 @@
 {
   "track_id": 110,
   "knowledge_level": "geometry_only",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1147.61,
+      "y": 896.85,
+      "lap_pct": 0.2275
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1123.25,
+      "y": 804.74,
+      "lap_pct": 0.3164
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 840.77,
+      "y": 805.89,
+      "lap_pct": 0.6855
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 816.77,
+      "y": 898.22,
+      "lap_pct": 0.7754
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -83,6 +115,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

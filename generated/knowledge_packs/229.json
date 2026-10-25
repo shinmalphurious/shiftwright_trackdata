@@ -1,6 +1,160 @@
 {
   "track_id": 229,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Circuit of the Americas",
+    "length_m": 5794
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 176.98,
+      "y": 525.67,
+      "lap_pct": 0.5596
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 194.33,
+      "y": 525.67,
+      "lap_pct": 0.5635
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1527.32,
+      "y": 273.33,
+      "lap_pct": 0.0215
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1436.32,
+      "y": 378.33,
+      "lap_pct": 0.0293
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1234.32,
+      "y": 496.0,
+      "lap_pct": 0.0537
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1130.32,
+      "y": 470.0,
+      "lap_pct": 0.1904
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1075.99,
+      "y": 555.0,
+      "lap_pct": 0.1924
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 933.66,
+      "y": 558.0,
+      "lap_pct": 0.3301
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 783.32,
+      "y": 528.67,
+      "lap_pct": 0.3662
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 672.32,
+      "y": 473.0,
+      "lap_pct": 0.3994
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 587.66,
+      "y": 466.67,
+      "lap_pct": 0.4219
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 432.65,
+      "y": 428.33,
+      "lap_pct": 0.4648
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1104.31,
+      "y": 802.67,
+      "lap_pct": 0.8135
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1110.31,
+      "y": 625.33,
+      "lap_pct": 0.1924
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1171.31,
+      "y": 716.33,
+      "lap_pct": 0.21
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1243.65,
+      "y": 787.33,
+      "lap_pct": 0.1426
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1298.64,
+      "y": 858.0,
+      "lap_pct": 0.8691
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 1333.98,
+      "y": 632.67,
+      "lap_pct": 0.0576
+    },
+    {
+      "label": "T18",
+      "number": 18,
+      "x": 1433.65,
+      "y": 644.0,
+      "lap_pct": 0.0117
+    },
+    {
+      "label": "T19",
+      "number": 19,
+      "x": 1573.98,
+      "y": 829.0,
+      "lap_pct": 0.9434
+    },
+    {
+      "label": "T20",
+      "number": 20,
+      "x": 1840.31,
+      "y": 917.33,
+      "lap_pct": 0.9375
+    }
+  ],
   "named_corners": [
     {
       "name": "T1",
@@ -8,7 +162,7 @@
       "end_pct": 0.14,
       "corner_length_pct": 0.035,
       "corner_length_m": 202.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T2",
@@ -16,7 +170,9 @@
       "end_pct": 0.185,
       "corner_length_pct": 0.045,
       "corner_length_m": 260.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T15"
+      ]
     },
     {
       "name": "T3",
@@ -24,7 +180,12 @@
       "end_pct": 0.22,
       "corner_length_pct": 0.035,
       "corner_length_m": 202.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T4",
+        "T5",
+        "T13",
+        "T14"
+      ]
     },
     {
       "name": "T4",
@@ -32,7 +193,7 @@
       "end_pct": 0.238,
       "corner_length_pct": 0.018,
       "corner_length_m": 104.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T5",
@@ -40,7 +201,7 @@
       "end_pct": 0.263,
       "corner_length_pct": 0.025,
       "corner_length_m": 144.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T6",
@@ -48,7 +209,7 @@
       "end_pct": 0.298,
       "corner_length_pct": 0.035,
       "corner_length_m": 202.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T7",
@@ -56,7 +217,7 @@
       "end_pct": 0.328,
       "corner_length_pct": 0.03,
       "corner_length_m": 173.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T8",
@@ -64,7 +225,9 @@
       "end_pct": 0.35,
       "corner_length_pct": 0.022,
       "corner_length_m": 127.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "T9",
@@ -72,7 +235,9 @@
       "end_pct": 0.38,
       "corner_length_pct": 0.03,
       "corner_length_m": 173.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "T10",
@@ -80,7 +245,10 @@
       "end_pct": 0.43,
       "corner_length_pct": 0.05,
       "corner_length_m": 289.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T8",
+        "T9"
+      ]
     },
     {
       "name": "T11",
@@ -88,7 +256,9 @@
       "end_pct": 0.5,
       "corner_length_pct": 0.06,
       "corner_length_m": 347.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "T12",
@@ -96,7 +266,7 @@
       "end_pct": 0.708,
       "corner_length_pct": 0.048,
       "corner_length_m": 278.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T13",
@@ -104,7 +274,7 @@
       "end_pct": 0.738,
       "corner_length_pct": 0.03,
       "corner_length_m": 173.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T14",
@@ -112,7 +282,7 @@
       "end_pct": 0.76,
       "corner_length_pct": 0.022,
       "corner_length_m": 127.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T15",
@@ -120,7 +290,7 @@
       "end_pct": 0.775,
       "corner_length_pct": 0.015,
       "corner_length_m": 86.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T16",
@@ -128,7 +298,7 @@
       "end_pct": 0.803,
       "corner_length_pct": 0.028,
       "corner_length_m": 162.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T17",
@@ -136,7 +306,9 @@
       "end_pct": 0.848,
       "corner_length_pct": 0.045,
       "corner_length_m": 260.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "T18",
@@ -144,7 +316,9 @@
       "end_pct": 0.893,
       "corner_length_pct": 0.045,
       "corner_length_m": 260.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T16"
+      ]
     },
     {
       "name": "T19",
@@ -152,7 +326,10 @@
       "end_pct": 0.945,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T19",
+        "T20"
+      ]
     },
     {
       "name": "T20",
@@ -160,7 +337,7 @@
       "end_pct": 0.99,
       "corner_length_pct": 0.045,
       "corner_length_m": 260.7,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -214,9 +391,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuit of the Americas",
-    "length_m": 5794
-  }
+  "turn_consensus": {}
 }

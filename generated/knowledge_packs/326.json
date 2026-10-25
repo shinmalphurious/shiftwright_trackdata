@@ -1,6 +1,62 @@
 {
   "track_id": 326,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Tsukuba Circuit - 2000 Short",
+    "length_m": 1600
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1065.48,
+      "y": 140.71,
+      "lap_pct": 0.1689
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 805.74,
+      "y": 346.27,
+      "lap_pct": 0.3008
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 629.09,
+      "y": 389.79,
+      "lap_pct": 0.3584
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 520.31,
+      "y": 506.22,
+      "lap_pct": 0.4248
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 836.15,
+      "y": 468.71,
+      "lap_pct": 0.5625
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 910.96,
+      "y": 624.42,
+      "lap_pct": 0.6436
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 392.62,
+      "y": 480.76,
+      "lap_pct": 0.876
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -41,9 +97,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Tsukuba Circuit - 2000 Short",
-    "length_m": 1600
-  }
+  "turn_consensus": {}
 }

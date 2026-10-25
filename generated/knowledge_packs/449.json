@@ -1,6 +1,111 @@
 {
   "track_id": 449,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Motorsport Arena Oschersleben - Grand Prix",
+    "length_m": 3610
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 596.59,
+      "y": 551.9,
+      "lap_pct": 0.1299
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 518.77,
+      "y": 541.42,
+      "lap_pct": 0.1641
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 963.35,
+      "y": 449.83,
+      "lap_pct": 0.2852
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 499.62,
+      "y": 330.9,
+      "lap_pct": 0.3916
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 383.79,
+      "y": 393.58,
+      "lap_pct": 0.4287
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 363.36,
+      "y": 500.99,
+      "lap_pct": 0.4502
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 283.76,
+      "y": 590.2,
+      "lap_pct": 0.4893
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 256.27,
+      "y": 373.56,
+      "lap_pct": 0.5508
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 234.1,
+      "y": 283.42,
+      "lap_pct": 0.5713
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 338.23,
+      "y": 220.1,
+      "lap_pct": 0.5908
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1133.2,
+      "y": 387.86,
+      "lap_pct": 0.7549
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1259.91,
+      "y": 462.09,
+      "lap_pct": 0.7871
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1565.91,
+      "y": 597.56,
+      "lap_pct": 0.8564
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1627.38,
+      "y": 817.8,
+      "lap_pct": 0.9307
+    }
+  ],
   "named_corners": [
     {
       "name": "Hotel",
@@ -8,7 +113,10 @@
       "end_pct": 0.21,
       "corner_length_pct": 0.11,
       "corner_length_m": 397.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Hasseroeder",
@@ -16,7 +124,9 @@
       "end_pct": 0.32,
       "corner_length_pct": 0.07,
       "corner_length_m": 252.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Triple",
@@ -24,7 +134,11 @@
       "end_pct": 0.46,
       "corner_length_pct": 0.085,
       "corner_length_m": 306.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T4",
+        "T5",
+        "T6"
+      ]
     },
     {
       "name": "Turn 7",
@@ -32,7 +146,9 @@
       "end_pct": 0.529,
       "corner_length_pct": 0.066,
       "corner_length_m": 238.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Schikane",
@@ -40,7 +156,10 @@
       "end_pct": 0.577,
       "corner_length_pct": 0.033,
       "corner_length_m": 119.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T8",
+        "T9"
+      ]
     },
     {
       "name": "McDonald's",
@@ -48,7 +167,9 @@
       "end_pct": 0.63,
       "corner_length_pct": 0.052,
       "corner_length_m": 187.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Shell Kurve",
@@ -56,7 +177,9 @@
       "end_pct": 0.77,
       "corner_length_pct": 0.04,
       "corner_length_m": 144.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Amman Kurve",
@@ -64,7 +187,9 @@
       "end_pct": 0.814,
       "corner_length_pct": 0.043,
       "corner_length_m": 155.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "Bauer Kurve",
@@ -72,7 +197,9 @@
       "end_pct": 0.88,
       "corner_length_pct": 0.039,
       "corner_length_m": 140.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Zeppelin Kurve",
@@ -80,7 +207,9 @@
       "end_pct": 0.95,
       "corner_length_pct": 0.055,
       "corner_length_m": 198.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -146,9 +275,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Motorsport Arena Oschersleben - Grand Prix",
-    "length_m": 3610
-  }
+  "turn_consensus": {}
 }

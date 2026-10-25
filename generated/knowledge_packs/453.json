@@ -1,6 +1,38 @@
 {
   "track_id": 453,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1740.6,
+      "y": 900.82,
+      "lap_pct": 0.1201
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1748.29,
+      "y": 156.27,
+      "lap_pct": 0.2803
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 209.98,
+      "y": 121.79,
+      "lap_pct": 0.6143
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 155.98,
+      "y": 880.17,
+      "lap_pct": 0.7764
+    }
+  ],
   "named_corners": [
     {
       "name": "Turn 1",
@@ -8,7 +40,7 @@
       "end_pct": 0.183,
       "corner_length_pct": 0.033,
       "corner_length_m": 127.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 2",
@@ -16,7 +48,7 @@
       "end_pct": 0.209,
       "corner_length_pct": 0.025,
       "corner_length_m": 96.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 3",
@@ -24,7 +56,7 @@
       "end_pct": 0.254,
       "corner_length_pct": 0.044,
       "corner_length_m": 169.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 4",
@@ -32,7 +64,9 @@
       "end_pct": 0.3,
       "corner_length_pct": 0.045,
       "corner_length_m": 173.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Turn 5",
@@ -40,7 +74,7 @@
       "end_pct": 0.326,
       "corner_length_pct": 0.017,
       "corner_length_m": 65.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 6",
@@ -48,7 +82,7 @@
       "end_pct": 0.351,
       "corner_length_pct": 0.024,
       "corner_length_m": 92.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 7",
@@ -56,7 +90,7 @@
       "end_pct": 0.549,
       "corner_length_pct": 0.039,
       "corner_length_m": 150.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 8",
@@ -64,7 +98,7 @@
       "end_pct": 0.579,
       "corner_length_pct": 0.029,
       "corner_length_m": 111.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 9",
@@ -72,7 +106,7 @@
       "end_pct": 0.604,
       "corner_length_pct": 0.024,
       "corner_length_m": 92.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 10",
@@ -80,7 +114,9 @@
       "end_pct": 0.655,
       "corner_length_pct": 0.05,
       "corner_length_m": 192.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Turn 11",
@@ -88,7 +124,7 @@
       "end_pct": 0.733,
       "corner_length_pct": 0.058,
       "corner_length_m": 223.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 12",
@@ -96,7 +132,9 @@
       "end_pct": 0.805,
       "corner_length_pct": 0.035,
       "corner_length_m": 134.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Turn 13",
@@ -104,7 +142,7 @@
       "end_pct": 0.843,
       "corner_length_pct": 0.033,
       "corner_length_m": 127.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Turn 14",
@@ -112,7 +150,7 @@
       "end_pct": 0.934,
       "corner_length_pct": 0.084,
       "corner_length_m": 323.4,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -148,6 +186,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

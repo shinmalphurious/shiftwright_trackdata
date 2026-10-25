@@ -1,6 +1,104 @@
 {
   "track_id": 349,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Barcelona Historic",
+    "length_m": 4680
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 365.26,
+      "y": 794.15,
+      "lap_pct": 0.1504
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 293.85,
+      "y": 730.72,
+      "lap_pct": 0.167
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 151.43,
+      "y": 497.02,
+      "lap_pct": 0.2236
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 656.09,
+      "y": 410.0,
+      "lap_pct": 0.3408
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 343.04,
+      "y": 561.82,
+      "lap_pct": 0.416
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 524.29,
+      "y": 688.27,
+      "lap_pct": 0.4668
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 730.43,
+      "y": 695.46,
+      "lap_pct": 0.5117
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 798.42,
+      "y": 634.78,
+      "lap_pct": 0.5254
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 980.37,
+      "y": 408.26,
+      "lap_pct": 0.583
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1615.17,
+      "y": 645.38,
+      "lap_pct": 0.7305
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1495.3,
+      "y": 439.22,
+      "lap_pct": 0.7842
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1725.97,
+      "y": 518.56,
+      "lap_pct": 0.8486
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1713.75,
+      "y": 775.45,
+      "lap_pct": 0.9053
+    }
+  ],
   "named_corners": [
     {
       "name": "Elf",
@@ -8,7 +106,9 @@
       "end_pct": 0.213,
       "corner_length_pct": 0.046,
       "corner_length_m": 215.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Renault",
@@ -16,7 +116,7 @@
       "end_pct": 0.31,
       "corner_length_pct": 0.084,
       "corner_length_m": 393.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Repsol",
@@ -24,7 +124,7 @@
       "end_pct": 0.409,
       "corner_length_pct": 0.064,
       "corner_length_m": 299.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Seat",
@@ -32,7 +132,9 @@
       "end_pct": 0.472,
       "corner_length_pct": 0.047,
       "corner_length_m": 220.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "T6",
@@ -40,7 +142,10 @@
       "end_pct": 0.525,
       "corner_length_pct": 0.098,
       "corner_length_m": 458.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T6",
+        "T7"
+      ]
     },
     {
       "name": "Wuerth",
@@ -48,7 +153,9 @@
       "end_pct": 0.569,
       "corner_length_pct": 0.044,
       "corner_length_m": 205.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Campsa",
@@ -56,7 +163,7 @@
       "end_pct": 0.637,
       "corner_length_pct": 0.042,
       "corner_length_m": 196.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "La Caixa",
@@ -64,7 +171,9 @@
       "end_pct": 0.789,
       "corner_length_pct": 0.058,
       "corner_length_m": 271.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Banc Sabadell",
@@ -72,7 +181,7 @@
       "end_pct": 0.842,
       "corner_length_pct": 0.047,
       "corner_length_m": 220.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Europcar",
@@ -80,7 +189,7 @@
       "end_pct": 0.894,
       "corner_length_pct": 0.028,
       "corner_length_m": 131.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "New Holland",
@@ -88,7 +197,7 @@
       "end_pct": 0.954,
       "corner_length_pct": 0.033,
       "corner_length_m": 154.4,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -154,9 +263,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Barcelona Historic",
-    "length_m": 4680
-  }
+  "turn_consensus": {}
 }

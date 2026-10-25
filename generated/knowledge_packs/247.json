@@ -1,6 +1,104 @@
 {
   "track_id": 247,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Autodromo Nazionale Monza - Combined",
+    "length_m": 9.99
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 601.93,
+      "y": 701.04,
+      "lap_pct": 0.6299
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1802.62,
+      "y": 692.27,
+      "lap_pct": 0.8906
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 712.88,
+      "y": 970.22,
+      "lap_pct": 0.1602
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 626.76,
+      "y": 903.28,
+      "lap_pct": 0.1846
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 369.93,
+      "y": 903.93,
+      "lap_pct": 0.2578
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 167.1,
+      "y": 495.78,
+      "lap_pct": 0.377
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 185.32,
+      "y": 426.56,
+      "lap_pct": 0.3965
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 114.2,
+      "y": 220.95,
+      "lap_pct": 0.4619
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 283.31,
+      "y": 185.84,
+      "lap_pct": 0.4922
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 812.86,
+      "y": 675.73,
+      "lap_pct": 0.666
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 866.08,
+      "y": 742.4,
+      "lap_pct": 0.6836
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 951.52,
+      "y": 718.4,
+      "lap_pct": 0.708
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1636.3,
+      "y": 827.73,
+      "lap_pct": 0.9092
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -47,9 +145,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Autodromo Nazionale Monza - Combined",
-    "length_m": 9.99
-  }
+  "turn_consensus": {}
 }

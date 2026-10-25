@@ -1,6 +1,76 @@
 {
   "track_id": 324,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Tsukuba Circuit - 2000 Full",
+    "length_m": 2040
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1065.48,
+      "y": 140.71,
+      "lap_pct": 0.752
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 805.74,
+      "y": 346.27,
+      "lap_pct": 0.8359
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 629.09,
+      "y": 389.79,
+      "lap_pct": 0.9004
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 520.31,
+      "y": 506.22,
+      "lap_pct": 0.9336
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 836.15,
+      "y": 468.71,
+      "lap_pct": 0.8164
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1028.96,
+      "y": 570.42,
+      "lap_pct": 0.7363
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1303.65,
+      "y": 599.24,
+      "lap_pct": 0.6299
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1501.46,
+      "y": 626.37,
+      "lap_pct": 0.5322
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 398.42,
+      "y": 477.48,
+      "lap_pct": 0.9814
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +78,7 @@
       "end_pct": 0.178,
       "corner_length_pct": 0.087,
       "corner_length_m": 177.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -16,7 +86,7 @@
       "end_pct": 0.244,
       "corner_length_pct": 0.044,
       "corner_length_m": 89.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -24,7 +94,7 @@
       "end_pct": 0.278,
       "corner_length_pct": 0.033,
       "corner_length_m": 67.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -32,7 +102,7 @@
       "end_pct": 0.35,
       "corner_length_pct": 0.071,
       "corner_length_m": 144.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -40,7 +110,7 @@
       "end_pct": 0.438,
       "corner_length_pct": 0.058,
       "corner_length_m": 118.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -48,7 +118,7 @@
       "end_pct": 0.507,
       "corner_length_pct": 0.058,
       "corner_length_m": 118.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -56,7 +126,9 @@
       "end_pct": 0.558,
       "corner_length_pct": 0.05,
       "corner_length_m": 102.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": null,
@@ -64,7 +136,9 @@
       "end_pct": 0.64,
       "corner_length_pct": 0.081,
       "corner_length_m": 165.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": null,
@@ -72,7 +146,12 @@
       "end_pct": 0.99,
       "corner_length_pct": 0.165,
       "corner_length_m": 336.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T2",
+        "T3",
+        "T4",
+        "T9"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -126,9 +205,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Tsukuba Circuit - 2000 Full",
-    "length_m": 2040
-  }
+  "turn_consensus": {}
 }

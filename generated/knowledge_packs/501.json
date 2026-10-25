@@ -1,6 +1,132 @@
 {
   "track_id": 501,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Misano Grand Prix",
+    "length_m": 4170
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 703.44,
+      "y": 679.07,
+      "lap_pct": 0.082
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1478.97,
+      "y": 376.16,
+      "lap_pct": 0.6875
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1496.32,
+      "y": 376.16,
+      "lap_pct": 0.6895
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 640.33,
+      "y": 607.61,
+      "lap_pct": 0.0986
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 492.54,
+      "y": 677.15,
+      "lap_pct": 0.1377
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 212.85,
+      "y": 393.04,
+      "lap_pct": 0.21
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 361.3,
+      "y": 347.7,
+      "lap_pct": 0.2314
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 420.37,
+      "y": 465.94,
+      "lap_pct": 0.2588
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 876.0,
+      "y": 472.44,
+      "lap_pct": 0.3506
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1139.67,
+      "y": 424.4,
+      "lap_pct": 0.4033
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 794.14,
+      "y": 251.6,
+      "lap_pct": 0.5117
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 807.76,
+      "y": 173.41,
+      "lap_pct": 0.5186
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1663.06,
+      "y": 673.83,
+      "lap_pct": 0.7529
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1668.7,
+      "y": 910.42,
+      "lap_pct": 0.7939
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1394.51,
+      "y": 1020.75,
+      "lap_pct": 0.8301
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1518.76,
+      "y": 761.5,
+      "lap_pct": 0.875
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1370.16,
+      "y": 446.19,
+      "lap_pct": 0.9482
+    }
+  ],
   "named_corners": [
     {
       "name": "Variante del Parco",
@@ -8,7 +134,10 @@
       "end_pct": 0.118,
       "corner_length_pct": 0.069,
       "corner_length_m": 287.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Curva del Rio",
@@ -16,7 +145,11 @@
       "end_pct": 0.265,
       "corner_length_pct": 0.095,
       "corner_length_m": 396.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T4",
+        "T5",
+        "T6"
+      ]
     },
     {
       "name": "Curva Quericia",
@@ -24,7 +157,9 @@
       "end_pct": 0.445,
       "corner_length_pct": 0.08,
       "corner_length_m": 333.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Curva Tramonto",
@@ -32,7 +167,10 @@
       "end_pct": 0.557,
       "corner_length_pct": 0.082,
       "corner_length_m": 341.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T9",
+        "T10"
+      ]
     },
     {
       "name": "Curvone",
@@ -40,7 +178,10 @@
       "end_pct": 0.751,
       "corner_length_pct": 0.106,
       "corner_length_m": 442.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T1"
+      ]
     },
     {
       "name": "Curva del Carro",
@@ -48,7 +189,10 @@
       "end_pct": 0.839,
       "corner_length_pct": 0.049,
       "corner_length_m": 204.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T13",
+        "T14"
+      ]
     },
     {
       "name": "Turn 15",
@@ -56,7 +200,9 @@
       "end_pct": 0.89,
       "corner_length_pct": 0.05,
       "corner_length_m": 208.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T15"
+      ]
     },
     {
       "name": "Curva Misano",
@@ -64,7 +210,9 @@
       "end_pct": 0.95,
       "corner_length_pct": 0.05,
       "corner_length_m": 208.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T16"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -148,9 +296,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Misano Grand Prix",
-    "length_m": 4170
-  }
+  "turn_consensus": {}
 }

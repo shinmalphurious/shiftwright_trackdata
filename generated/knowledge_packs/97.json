@@ -1,6 +1,90 @@
 {
   "track_id": 97,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Sebring International Raceway - Club",
+    "length_m": 2810
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 770.71,
+      "y": 230.93,
+      "lap_pct": 0.0439
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 991.62,
+      "y": 105.27,
+      "lap_pct": 0.1406
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1135.31,
+      "y": 121.46,
+      "lap_pct": 0.2227
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1285.98,
+      "y": 143.89,
+      "lap_pct": 0.2832
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1397.71,
+      "y": 145.93,
+      "lap_pct": 0.3467
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1398.62,
+      "y": 318.94,
+      "lap_pct": 0.4209
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1274.98,
+      "y": 315.13,
+      "lap_pct": 0.4893
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1173.98,
+      "y": 346.22,
+      "lap_pct": 0.5322
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1004.31,
+      "y": 453.13,
+      "lap_pct": 0.6221
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 484.08,
+      "y": 523.11,
+      "lap_pct": 0.873
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 603.42,
+      "y": 375.11,
+      "lap_pct": 0.958
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -47,9 +131,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Sebring International Raceway - Club",
-    "length_m": 2810
-  }
+  "turn_consensus": {}
 }

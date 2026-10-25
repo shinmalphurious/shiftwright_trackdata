@@ -1,6 +1,55 @@
 {
   "track_id": 517,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Circuito de Navarra - Speed Circuit - Short",
+    "length_m": 1330
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 787.25,
+      "y": 345.49,
+      "lap_pct": 0.791
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 867.67,
+      "y": 423.12,
+      "lap_pct": 0.8271
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 770.51,
+      "y": 450.71,
+      "lap_pct": 0.8799
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 674.36,
+      "y": 345.49,
+      "lap_pct": 0.0225
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1298.33,
+      "y": 105.6,
+      "lap_pct": 0.4375
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1249.76,
+      "y": 233.41,
+      "lap_pct": 0.5352
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -29,9 +78,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuito de Navarra - Speed Circuit - Short",
-    "length_m": 1330
-  }
+  "turn_consensus": {}
 }

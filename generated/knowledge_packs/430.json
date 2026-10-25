@@ -1,6 +1,62 @@
 {
   "track_id": 430,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Hockenheimring Baden-W\u00fcrttemberg - Porsche Experience Center - West",
+    "length_m": 980
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 907.91,
+      "y": 829.17,
+      "lap_pct": 0.7451
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 897.15,
+      "y": 758.16,
+      "lap_pct": 0.7822
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 862.75,
+      "y": 636.28,
+      "lap_pct": 0.6016
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 766.5,
+      "y": 572.48,
+      "lap_pct": 0.5381
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 759.46,
+      "y": 504.24,
+      "lap_pct": 0.498
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 700.99,
+      "y": 465.69,
+      "lap_pct": 0.459
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 601.51,
+      "y": 221.47,
+      "lap_pct": 0.3184
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -59,9 +115,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Hockenheimring Baden-W\u00fcrttemberg - Porsche Experience Center - West",
-    "length_m": 980
-  }
+  "turn_consensus": {}
 }

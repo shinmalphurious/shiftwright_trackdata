@@ -1,6 +1,97 @@
 {
   "track_id": 439,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Winton National",
+    "length_m": 2950
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 845.18,
+      "y": 764.51,
+      "lap_pct": 0.084
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 736.37,
+      "y": 781.0,
+      "lap_pct": 0.1162
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 407.68,
+      "y": 809.92,
+      "lap_pct": 0.2256
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 424.05,
+      "y": 682.55,
+      "lap_pct": 0.2676
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 746.53,
+      "y": 493.21,
+      "lap_pct": 0.3906
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 747.08,
+      "y": 311.49,
+      "lap_pct": 0.4443
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 740.55,
+      "y": 217.44,
+      "lap_pct": 0.4727
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 867.66,
+      "y": 251.27,
+      "lap_pct": 0.5352
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 953.26,
+      "y": 189.36,
+      "lap_pct": 0.5996
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1001.74,
+      "y": 563.13,
+      "lap_pct": 0.6943
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1497.56,
+      "y": 521.05,
+      "lap_pct": 0.8438
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1507.05,
+      "y": 596.88,
+      "lap_pct": 0.9072
+    }
+  ],
   "named_corners": [
     {
       "name": "Motorsport News Esses",
@@ -8,7 +99,10 @@
       "end_pct": 0.131,
       "corner_length_pct": 0.068,
       "corner_length_m": 200.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Honda Corner",
@@ -16,7 +110,9 @@
       "end_pct": 0.244,
       "corner_length_pct": 0.049,
       "corner_length_m": 144.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Nissan Corner",
@@ -24,7 +120,9 @@
       "end_pct": 0.29,
       "corner_length_pct": 0.045,
       "corner_length_m": 132.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Turn 5",
@@ -32,7 +130,9 @@
       "end_pct": 0.425,
       "corner_length_pct": 0.104,
       "corner_length_m": 306.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Roll-Over Corner",
@@ -40,7 +140,9 @@
       "end_pct": 0.459,
       "corner_length_pct": 0.033,
       "corner_length_m": 97.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Penrite Corner",
@@ -48,7 +150,9 @@
       "end_pct": 0.504,
       "corner_length_pct": 0.044,
       "corner_length_m": 129.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Turn 8",
@@ -56,7 +160,9 @@
       "end_pct": 0.557,
       "corner_length_pct": 0.052,
       "corner_length_m": 153.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Kitome Corner",
@@ -64,7 +170,9 @@
       "end_pct": 0.614,
       "corner_length_pct": 0.056,
       "corner_length_m": 165.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Northern BM Corner",
@@ -72,7 +180,9 @@
       "end_pct": 0.73,
       "corner_length_pct": 0.047,
       "corner_length_m": 138.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Advanced Petroleum Corner",
@@ -80,7 +190,10 @@
       "end_pct": 0.919,
       "corner_length_pct": 0.09,
       "corner_length_m": 265.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T11",
+        "T12"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -146,9 +259,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Winton National",
-    "length_m": 2950
-  }
+  "turn_consensus": {}
 }

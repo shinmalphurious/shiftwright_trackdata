@@ -1,6 +1,111 @@
 {
   "track_id": 218,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Circuit Gilles Villeneuve",
+    "length_m": 4310
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 155.06,
+      "y": 576.59,
+      "lap_pct": 0.8994
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 42.58,
+      "y": 631.59,
+      "lap_pct": 0.8486
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 277.1,
+      "y": 369.96,
+      "lap_pct": 0.9131
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 323.54,
+      "y": 470.18,
+      "lap_pct": 0.7451
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 518.06,
+      "y": 362.59,
+      "lap_pct": 0.6631
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 736.92,
+      "y": 373.14,
+      "lap_pct": 0.1582
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 739.1,
+      "y": 225.63,
+      "lap_pct": 0.1582
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1330.5,
+      "y": 403.93,
+      "lap_pct": 0.3623
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1260.47,
+      "y": 449.92,
+      "lap_pct": 0.3623
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1846.31,
+      "y": 625.52,
+      "lap_pct": 0.3633
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1710.2,
+      "y": 678.07,
+      "lap_pct": 0.3633
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1384.27,
+      "y": 735.93,
+      "lap_pct": 0.3652
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 779.79,
+      "y": 657.37,
+      "lap_pct": 0.543
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 705.42,
+      "y": 629.4,
+      "lap_pct": 0.1455
+    }
+  ],
   "named_corners": [
     {
       "name": "Virage Senna",
@@ -8,7 +113,7 @@
       "end_pct": 0.1,
       "corner_length_pct": 0.063,
       "corner_length_m": 271.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T3/T4",
@@ -16,7 +121,11 @@
       "end_pct": 0.195,
       "corner_length_pct": 0.05,
       "corner_length_m": 215.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T6",
+        "T7",
+        "T14"
+      ]
     },
     {
       "name": "T5",
@@ -24,7 +133,7 @@
       "end_pct": 0.251,
       "corner_length_pct": 0.045,
       "corner_length_m": 194.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T6/T7",
@@ -32,7 +141,7 @@
       "end_pct": 0.33,
       "corner_length_pct": 0.057,
       "corner_length_m": 245.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T8/T9",
@@ -40,7 +149,7 @@
       "end_pct": 0.5,
       "corner_length_pct": 0.06,
       "corner_length_m": 258.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "L'Epingle",
@@ -48,7 +157,7 @@
       "end_pct": 0.634,
       "corner_length_pct": 0.039,
       "corner_length_m": 168.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T11",
@@ -56,7 +165,9 @@
       "end_pct": 0.665,
       "corner_length_pct": 0.03,
       "corner_length_m": 129.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "T12",
@@ -64,7 +175,9 @@
       "end_pct": 0.75,
       "corner_length_pct": 0.04,
       "corner_length_m": 172.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "T13",
@@ -72,7 +185,7 @@
       "end_pct": 0.899,
       "corner_length_pct": 0.021,
       "corner_length_m": 90.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T14 - Wall of Champions",
@@ -80,7 +193,9 @@
       "end_pct": 0.922,
       "corner_length_pct": 0.022,
       "corner_length_m": 94.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -182,9 +297,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuit Gilles Villeneuve",
-    "length_m": 4310
-  }
+  "turn_consensus": {}
 }

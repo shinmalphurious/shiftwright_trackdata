@@ -1,6 +1,73 @@
 {
   "track_id": 342,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1016.01,
+      "y": 698.86,
+      "lap_pct": 0.1621
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 932.86,
+      "y": 541.37,
+      "lap_pct": 0.2314
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 794.23,
+      "y": 369.7,
+      "lap_pct": 0.335
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 824.68,
+      "y": 286.05,
+      "lap_pct": 0.3438
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 920.03,
+      "y": 173.84,
+      "lap_pct": 0.375
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1710.65,
+      "y": 386.82,
+      "lap_pct": 0.7207
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1594.59,
+      "y": 722.49,
+      "lap_pct": 0.8604
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1542.01,
+      "y": 795.14,
+      "lap_pct": 0.8906
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1471.91,
+      "y": 870.45,
+      "lap_pct": 0.9707
+    }
+  ],
   "named_corners": [
     {
       "name": "Abbey",
@@ -8,7 +75,7 @@
       "end_pct": 0.089,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Farm Curve",
@@ -16,7 +83,7 @@
       "end_pct": 0.123,
       "corner_length_pct": 0.031,
       "corner_length_m": 179.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Village",
@@ -24,7 +91,9 @@
       "end_pct": 0.167,
       "corner_length_pct": 0.026,
       "corner_length_m": 150.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "The Loop",
@@ -32,7 +101,7 @@
       "end_pct": 0.191,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Aintree",
@@ -40,7 +109,9 @@
       "end_pct": 0.232,
       "corner_length_pct": 0.037,
       "corner_length_m": 214.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Brooklands",
@@ -48,7 +119,10 @@
       "end_pct": 0.352,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T3",
+        "T4"
+      ]
     },
     {
       "name": "Luffield",
@@ -56,7 +130,9 @@
       "end_pct": 0.397,
       "corner_length_pct": 0.044,
       "corner_length_m": 255.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Woodcote",
@@ -64,7 +140,7 @@
       "end_pct": 0.455,
       "corner_length_pct": 0.048,
       "corner_length_m": 278.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Copse",
@@ -72,7 +148,7 @@
       "end_pct": 0.559,
       "corner_length_pct": 0.059,
       "corner_length_m": 342.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Maggots",
@@ -80,7 +156,7 @@
       "end_pct": 0.643,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Becketts",
@@ -88,7 +164,7 @@
       "end_pct": 0.671,
       "corner_length_pct": 0.027,
       "corner_length_m": 156.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Chapel",
@@ -96,7 +172,9 @@
       "end_pct": 0.723,
       "corner_length_pct": 0.051,
       "corner_length_m": 295.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Stowe",
@@ -104,7 +182,9 @@
       "end_pct": 0.888,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Vale",
@@ -112,7 +192,7 @@
       "end_pct": 0.947,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Club",
@@ -120,7 +200,9 @@
       "end_pct": 1.0,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -168,6 +250,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

@@ -1,6 +1,52 @@
 {
   "track_id": 343,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 90.9,
+      "y": 417.59,
+      "lap_pct": 0.2119
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 512.63,
+      "y": 175.3,
+      "lap_pct": 0.2236
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 623.08,
+      "y": 198.57,
+      "lap_pct": 0.2734
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 450.93,
+      "y": 893.39,
+      "lap_pct": 0.5225
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 550.92,
+      "y": 962.93,
+      "lap_pct": 0.7275
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 319.5,
+      "y": 899.75,
+      "lap_pct": 0.9092
+    }
+  ],
   "named_corners": [
     {
       "name": "Abbey",
@@ -8,7 +54,7 @@
       "end_pct": 0.089,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Farm Curve",
@@ -16,7 +62,7 @@
       "end_pct": 0.123,
       "corner_length_pct": 0.031,
       "corner_length_m": 179.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Village",
@@ -24,7 +70,7 @@
       "end_pct": 0.167,
       "corner_length_pct": 0.026,
       "corner_length_m": 150.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "The Loop",
@@ -32,7 +78,7 @@
       "end_pct": 0.191,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Aintree",
@@ -40,7 +86,10 @@
       "end_pct": 0.232,
       "corner_length_pct": 0.037,
       "corner_length_m": 214.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Brooklands",
@@ -48,7 +97,7 @@
       "end_pct": 0.352,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Luffield",
@@ -56,7 +105,7 @@
       "end_pct": 0.397,
       "corner_length_pct": 0.044,
       "corner_length_m": 255.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Woodcote",
@@ -64,7 +113,7 @@
       "end_pct": 0.455,
       "corner_length_pct": 0.048,
       "corner_length_m": 278.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Copse",
@@ -72,7 +121,9 @@
       "end_pct": 0.559,
       "corner_length_pct": 0.059,
       "corner_length_m": 342.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Maggots",
@@ -80,7 +131,7 @@
       "end_pct": 0.643,
       "corner_length_pct": 0.039,
       "corner_length_m": 226.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Becketts",
@@ -88,7 +139,7 @@
       "end_pct": 0.671,
       "corner_length_pct": 0.027,
       "corner_length_m": 156.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Chapel",
@@ -96,7 +147,7 @@
       "end_pct": 0.723,
       "corner_length_pct": 0.051,
       "corner_length_m": 295.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Stowe",
@@ -104,7 +155,7 @@
       "end_pct": 0.888,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Vale",
@@ -112,7 +163,7 @@
       "end_pct": 0.947,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Club",
@@ -120,7 +171,7 @@
       "end_pct": 1.0,
       "corner_length_pct": 0.052,
       "corner_length_m": 301.6,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -198,6 +249,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

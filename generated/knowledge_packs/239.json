@@ -1,6 +1,90 @@
 {
   "track_id": 239,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Monza Full",
+    "length_m": 5750
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 718.26,
+      "y": 923.04,
+      "lap_pct": 0.1602
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 660.99,
+      "y": 953.33,
+      "lap_pct": 0.1807
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 363.21,
+      "y": 887.22,
+      "lap_pct": 0.2607
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 168.09,
+      "y": 492.62,
+      "lap_pct": 0.3779
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 183.26,
+      "y": 422.6,
+      "lap_pct": 0.3984
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 116.43,
+      "y": 227.78,
+      "lap_pct": 0.4639
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 281.32,
+      "y": 193.22,
+      "lap_pct": 0.4941
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 826.43,
+      "y": 677.11,
+      "lap_pct": 0.6748
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 885.99,
+      "y": 741.89,
+      "lap_pct": 0.6982
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 950.65,
+      "y": 712.0,
+      "lap_pct": 0.707
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1629.98,
+      "y": 821.89,
+      "lap_pct": 0.9131
+    }
+  ],
   "named_corners": [
     {
       "name": "Prima Variante",
@@ -8,7 +92,10 @@
       "end_pct": 0.206,
       "corner_length_pct": 0.063,
       "corner_length_m": 362.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Curva Biassono",
@@ -16,7 +103,9 @@
       "end_pct": 0.32,
       "corner_length_pct": 0.102,
       "corner_length_m": 586.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Seconda Variante",
@@ -24,7 +113,9 @@
       "end_pct": 0.392,
       "corner_length_pct": 0.042,
       "corner_length_m": 241.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Prima Curva di Lesmo",
@@ -32,7 +123,9 @@
       "end_pct": 0.467,
       "corner_length_pct": 0.044,
       "corner_length_m": 253.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Seconda Curva di Lesmo",
@@ -40,7 +133,9 @@
       "end_pct": 0.52,
       "corner_length_pct": 0.036,
       "corner_length_m": 207.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Curva del Serraglio",
@@ -48,7 +143,7 @@
       "end_pct": 0.594,
       "corner_length_pct": 0.039,
       "corner_length_m": 224.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Variante Ascari",
@@ -56,7 +151,11 @@
       "end_pct": 0.73,
       "corner_length_pct": 0.08,
       "corner_length_m": 460.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T8",
+        "T9",
+        "T10"
+      ]
     },
     {
       "name": "Curva Parabolica",
@@ -64,7 +163,9 @@
       "end_pct": 0.96,
       "corner_length_pct": 0.094,
       "corner_length_m": 540.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -106,9 +207,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Monza Full",
-    "length_m": 5750
-  }
+  "turn_consensus": {}
 }

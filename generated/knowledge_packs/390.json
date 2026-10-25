@@ -1,6 +1,125 @@
 {
   "track_id": 390,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Hockenheimring - GP",
+    "length_m": 4530
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 378.18,
+      "y": 506.33,
+      "lap_pct": 0.0596
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 701.53,
+      "y": 195.58,
+      "lap_pct": 0.1914
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 756.51,
+      "y": 195.58,
+      "lap_pct": 0.1973
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 723.86,
+      "y": 289.84,
+      "lap_pct": 0.2158
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1121.43,
+      "y": 380.21,
+      "lap_pct": 0.3223
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1646.2,
+      "y": 282.88,
+      "lap_pct": 0.4609
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1318.16,
+      "y": 522.22,
+      "lap_pct": 0.5576
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1061.05,
+      "y": 455.19,
+      "lap_pct": 0.6201
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1109.6,
+      "y": 525.74,
+      "lap_pct": 0.6387
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1062.65,
+      "y": 595.09,
+      "lap_pct": 0.6504
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 804.13,
+      "y": 768.53,
+      "lap_pct": 0.7617
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 581.48,
+      "y": 597.13,
+      "lap_pct": 0.832
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 629.33,
+      "y": 722.55,
+      "lap_pct": 0.8613
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 631.93,
+      "y": 806.22,
+      "lap_pct": 0.877
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 664.97,
+      "y": 849.02,
+      "lap_pct": 0.917
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 613.53,
+      "y": 879.78,
+      "lap_pct": 0.9463
+    }
+  ],
   "named_corners": [
     {
       "name": "Nordkurve",
@@ -8,7 +127,9 @@
       "end_pct": 0.084,
       "corner_length_pct": 0.054,
       "corner_length_m": 244.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Einfahrt Parabolika",
@@ -16,7 +137,11 @@
       "end_pct": 0.225,
       "corner_length_pct": 0.065,
       "corner_length_m": 294.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T2",
+        "T3",
+        "T4"
+      ]
     },
     {
       "name": "Parabolika",
@@ -24,7 +149,9 @@
       "end_pct": 0.39,
       "corner_length_pct": 0.164,
       "corner_length_m": 742.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Spitzkehre",
@@ -32,7 +159,9 @@
       "end_pct": 0.48,
       "corner_length_pct": 0.05,
       "corner_length_m": 226.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Mercedes",
@@ -40,7 +169,10 @@
       "end_pct": 0.64,
       "corner_length_pct": 0.07,
       "corner_length_m": 317.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T8",
+        "T9"
+      ]
     },
     {
       "name": "Mobil 1 Kurve",
@@ -48,7 +180,9 @@
       "end_pct": 0.788,
       "corner_length_pct": 0.063,
       "corner_length_m": 285.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Sachs-Kurve",
@@ -56,7 +190,10 @@
       "end_pct": 0.873,
       "corner_length_pct": 0.067,
       "corner_length_m": 303.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T12",
+        "T13"
+      ]
     },
     {
       "name": "Suedkurve",
@@ -64,7 +201,10 @@
       "end_pct": 0.964,
       "corner_length_pct": 0.073,
       "corner_length_m": 330.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T15",
+        "T16"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -136,9 +276,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Hockenheimring - GP",
-    "length_m": 4530
-  }
+  "turn_consensus": {}
 }

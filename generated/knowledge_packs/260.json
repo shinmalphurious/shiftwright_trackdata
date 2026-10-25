@@ -1,6 +1,73 @@
 {
   "track_id": 260,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 922.84,
+      "y": 475.15,
+      "lap_pct": 0.2148
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 895.57,
+      "y": 401.01,
+      "lap_pct": 0.2412
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 790.81,
+      "y": 626.31,
+      "lap_pct": 0.373
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 801.4,
+      "y": 473.5,
+      "lap_pct": 0.4658
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 699.5,
+      "y": 399.03,
+      "lap_pct": 0.5342
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 892.47,
+      "y": 221.02,
+      "lap_pct": 0.6816
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1125.81,
+      "y": 166.45,
+      "lap_pct": 0.8174
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1117.45,
+      "y": 107.22,
+      "lap_pct": 0.8369
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1287.1,
+      "y": 82.94,
+      "lap_pct": 0.9238
+    }
+  ],
   "named_corners": [
     {
       "name": "Hatzenbach",
@@ -8,7 +75,7 @@
       "end_pct": 0.071,
       "corner_length_pct": 0.051,
       "corner_length_m": 1052.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hoheneichen",
@@ -16,7 +83,7 @@
       "end_pct": 0.09,
       "corner_length_pct": 0.018,
       "corner_length_m": 371.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Quiddelbacher Hoehe",
@@ -24,7 +91,7 @@
       "end_pct": 0.11,
       "corner_length_pct": 0.02,
       "corner_length_m": 412.8,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Flugplatz",
@@ -32,7 +99,7 @@
       "end_pct": 0.167,
       "corner_length_pct": 0.057,
       "corner_length_m": 1176.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Schwedenkreuz",
@@ -40,7 +107,7 @@
       "end_pct": 0.18,
       "corner_length_pct": 0.013,
       "corner_length_m": 268.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Aremberg",
@@ -48,7 +115,7 @@
       "end_pct": 0.196,
       "corner_length_pct": 0.016,
       "corner_length_m": 330.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Fuchsroehre",
@@ -56,7 +123,9 @@
       "end_pct": 0.234,
       "corner_length_pct": 0.036,
       "corner_length_m": 743.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Adenauer Forst",
@@ -64,7 +133,9 @@
       "end_pct": 0.262,
       "corner_length_pct": 0.027,
       "corner_length_m": 557.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Metzgesfeld",
@@ -72,7 +143,7 @@
       "end_pct": 0.302,
       "corner_length_pct": 0.033,
       "corner_length_m": 681.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Kallenhard",
@@ -80,7 +151,7 @@
       "end_pct": 0.32,
       "corner_length_pct": 0.018,
       "corner_length_m": 371.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Spiegelkurve",
@@ -88,7 +159,7 @@
       "end_pct": 0.329,
       "corner_length_pct": 0.008,
       "corner_length_m": 165.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Dreifach-Rechts",
@@ -96,7 +167,7 @@
       "end_pct": 0.355,
       "corner_length_pct": 0.025,
       "corner_length_m": 516.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Wehrseifen",
@@ -104,7 +175,7 @@
       "end_pct": 0.37,
       "corner_length_pct": 0.014,
       "corner_length_m": 289.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "ExMuehle",
@@ -112,7 +183,9 @@
       "end_pct": 0.408,
       "corner_length_pct": 0.037,
       "corner_length_m": 763.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Bergwerk",
@@ -120,7 +193,7 @@
       "end_pct": 0.45,
       "corner_length_pct": 0.03,
       "corner_length_m": 619.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Kesselchen",
@@ -128,7 +201,9 @@
       "end_pct": 0.514,
       "corner_length_pct": 0.063,
       "corner_length_m": 1300.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Mutkurve",
@@ -136,7 +211,7 @@
       "end_pct": 0.527,
       "corner_length_pct": 0.012,
       "corner_length_m": 247.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Klostertal",
@@ -144,7 +219,9 @@
       "end_pct": 0.572,
       "corner_length_pct": 0.044,
       "corner_length_m": 908.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Caracciola-Karussell",
@@ -152,7 +229,7 @@
       "end_pct": 0.588,
       "corner_length_pct": 0.012,
       "corner_length_m": 247.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hohe Acht",
@@ -160,7 +237,7 @@
       "end_pct": 0.632,
       "corner_length_pct": 0.016,
       "corner_length_m": 330.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Hedwigshoehe",
@@ -168,7 +245,7 @@
       "end_pct": 0.652,
       "corner_length_pct": 0.019,
       "corner_length_m": 392.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Wippermann",
@@ -176,7 +253,7 @@
       "end_pct": 0.668,
       "corner_length_pct": 0.015,
       "corner_length_m": 309.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Eschbach",
@@ -184,7 +261,9 @@
       "end_pct": 0.686,
       "corner_length_pct": 0.017,
       "corner_length_m": 350.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Bruennchen",
@@ -192,7 +271,7 @@
       "end_pct": 0.72,
       "corner_length_pct": 0.032,
       "corner_length_m": 660.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Pflanzgarten",
@@ -200,7 +279,7 @@
       "end_pct": 0.77,
       "corner_length_pct": 0.041,
       "corner_length_m": 846.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Stefan-Bellof-S",
@@ -208,7 +287,7 @@
       "end_pct": 0.79,
       "corner_length_pct": 0.018,
       "corner_length_m": 371.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Schwalbenschwanz",
@@ -216,7 +295,9 @@
       "end_pct": 0.825,
       "corner_length_pct": 0.033,
       "corner_length_m": 681.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Galgenkopf",
@@ -224,7 +305,9 @@
       "end_pct": 0.852,
       "corner_length_pct": 0.02,
       "corner_length_m": 412.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Doettinger Hoehe",
@@ -232,7 +315,9 @@
       "end_pct": 0.94,
       "corner_length_pct": 0.085,
       "corner_length_m": 1754.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Antoniusbuche",
@@ -240,7 +325,7 @@
       "end_pct": 0.961,
       "corner_length_pct": 0.016,
       "corner_length_m": 330.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Tiergarten",
@@ -248,7 +333,7 @@
       "end_pct": 0.972,
       "corner_length_pct": 0.01,
       "corner_length_m": 206.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Tiergarten",
@@ -256,7 +341,7 @@
       "end_pct": 1,
       "corner_length_pct": 0.027,
       "corner_length_m": 557.3,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -304,6 +389,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }

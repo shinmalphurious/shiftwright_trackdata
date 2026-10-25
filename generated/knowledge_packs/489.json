@@ -1,6 +1,118 @@
 {
   "track_id": 489,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Circuit de Ledenon",
+    "length_m": 3080
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1430.85,
+      "y": 835.86,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1588.81,
+      "y": 619.51,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1403.29,
+      "y": 409.78,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1299.83,
+      "y": 601.86,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 949.6,
+      "y": 721.88,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1349.44,
+      "y": 289.1,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1025.8,
+      "y": 318.8,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 812.42,
+      "y": 698.07,
+      "lap_pct": 0.0
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 604.08,
+      "y": 599.21,
+      "lap_pct": 0.126
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 862.9,
+      "y": 334.63,
+      "lap_pct": 0.001
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 848.1,
+      "y": 95.24,
+      "lap_pct": 0.0693
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 732.0,
+      "y": 263.21,
+      "lap_pct": 0.1562
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 517.27,
+      "y": 394.43,
+      "lap_pct": 0.4727
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 330.93,
+      "y": 704.22,
+      "lap_pct": 0.4873
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 573.75,
+      "y": 780.9,
+      "lap_pct": 0.0391
+    }
+  ],
   "named_corners": [
     {
       "name": "Triple Gauche",
@@ -8,7 +120,11 @@
       "end_pct": 0.188,
       "corner_length_pct": 0.141,
       "corner_length_m": 434.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T9",
+        "T11",
+        "T12"
+      ]
     },
     {
       "name": "Virage du Pont",
@@ -16,7 +132,7 @@
       "end_pct": 0.3,
       "corner_length_pct": 0.069,
       "corner_length_m": 212.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "La Carrierasse",
@@ -24,7 +140,7 @@
       "end_pct": 0.398,
       "corner_length_pct": 0.05,
       "corner_length_m": 154.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "La Courmelle",
@@ -32,7 +148,7 @@
       "end_pct": 0.467,
       "corner_length_pct": 0.068,
       "corner_length_m": 209.4,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Virage du Camion",
@@ -40,7 +156,9 @@
       "end_pct": 0.53,
       "corner_length_pct": 0.046,
       "corner_length_m": 141.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T14"
+      ]
     },
     {
       "name": "Le Cavalet",
@@ -48,7 +166,7 @@
       "end_pct": 0.595,
       "corner_length_pct": 0.064,
       "corner_length_m": 197.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "La servie",
@@ -56,7 +174,7 @@
       "end_pct": 0.75,
       "corner_length_pct": 0.075,
       "corner_length_m": 231.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "La cuvette",
@@ -64,7 +182,7 @@
       "end_pct": 0.88,
       "corner_length_pct": 0.053,
       "corner_length_m": 163.2,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -130,9 +248,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Circuit de Ledenon",
-    "length_m": 3080
-  }
+  "turn_consensus": {}
 }

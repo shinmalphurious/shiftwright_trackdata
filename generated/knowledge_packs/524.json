@@ -1,6 +1,146 @@
 {
   "track_id": 524,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Spa Classic Pits",
+    "length_m": 6930
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 344.71,
+      "y": 261.15,
+      "lap_pct": 0.0439
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 655.85,
+      "y": 84.16,
+      "lap_pct": 0.9727
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 738.2,
+      "y": 123.13,
+      "lap_pct": 0.9707
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 824.87,
+      "y": 73.0,
+      "lap_pct": 0.9707
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1531.82,
+      "y": 229.49,
+      "lap_pct": 0.4629
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1600.18,
+      "y": 231.72,
+      "lap_pct": 0.4443
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1651.87,
+      "y": 320.57,
+      "lap_pct": 0.4346
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1671.98,
+      "y": 508.33,
+      "lap_pct": 0.377
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1601.48,
+      "y": 434.71,
+      "lap_pct": 0.4258
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1279.84,
+      "y": 364.94,
+      "lap_pct": 0.5225
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1235.86,
+      "y": 438.68,
+      "lap_pct": 0.2783
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1334.41,
+      "y": 687.33,
+      "lap_pct": 0.6104
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1358.92,
+      "y": 779.04,
+      "lap_pct": 0.6436
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1342.73,
+      "y": 931.05,
+      "lap_pct": 0.6953
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 1256.75,
+      "y": 967.13,
+      "lap_pct": 0.7256
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 1068.75,
+      "y": 573.67,
+      "lap_pct": 0.835
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 962.92,
+      "y": 454.6,
+      "lap_pct": 0.2178
+    },
+    {
+      "label": "T18",
+      "number": 18,
+      "x": 688.95,
+      "y": 305.38,
+      "lap_pct": 0.9668
+    },
+    {
+      "label": "T19",
+      "number": 19,
+      "x": 604.42,
+      "y": 308.91,
+      "lap_pct": 0.1328
+    }
+  ],
   "named_corners": [
     {
       "name": "Eau Rouge",
@@ -8,7 +148,7 @@
       "end_pct": 0.042,
       "corner_length_pct": 0.018,
       "corner_length_m": 124.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Raidillon",
@@ -16,7 +156,9 @@
       "end_pct": 0.084,
       "corner_length_pct": 0.041,
       "corner_length_m": 284.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Kemmel",
@@ -24,7 +166,7 @@
       "end_pct": 0.125,
       "corner_length_pct": 0.022,
       "corner_length_m": 152.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Les Combes",
@@ -32,7 +174,9 @@
       "end_pct": 0.252,
       "corner_length_pct": 0.041,
       "corner_length_m": 284.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T17"
+      ]
     },
     {
       "name": "Malmedy",
@@ -40,7 +184,7 @@
       "end_pct": 0.277,
       "corner_length_pct": 0.021,
       "corner_length_m": 145.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Bruxelles",
@@ -48,7 +192,7 @@
       "end_pct": 0.34,
       "corner_length_pct": 0.04,
       "corner_length_m": 277.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Speaker's Corner",
@@ -56,7 +200,7 @@
       "end_pct": 0.372,
       "corner_length_pct": 0.029,
       "corner_length_m": 201.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Double Gauche",
@@ -64,7 +208,12 @@
       "end_pct": 0.486,
       "corner_length_pct": 0.071,
       "corner_length_m": 492.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T5",
+        "T6",
+        "T7",
+        "T9"
+      ]
     },
     {
       "name": "Les Fagnes",
@@ -72,7 +221,9 @@
       "end_pct": 0.567,
       "corner_length_pct": 0.057,
       "corner_length_m": 395.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Campus",
@@ -80,7 +231,7 @@
       "end_pct": 0.601,
       "corner_length_pct": 0.022,
       "corner_length_m": 152.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Stavelot",
@@ -88,7 +239,7 @@
       "end_pct": 0.636,
       "corner_length_pct": 0.025,
       "corner_length_m": 173.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Courbe Paul Frere",
@@ -96,7 +247,10 @@
       "end_pct": 0.73,
       "corner_length_pct": 0.069,
       "corner_length_m": 478.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T14",
+        "T15"
+      ]
     },
     {
       "name": "Blanchimont",
@@ -104,7 +258,7 @@
       "end_pct": 0.8,
       "corner_length_pct": 0.045,
       "corner_length_m": 311.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "Chicane",
@@ -112,7 +266,9 @@
       "end_pct": 0.868,
       "corner_length_pct": 0.033,
       "corner_length_m": 228.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T16"
+      ]
     },
     {
       "name": "La Source",
@@ -120,7 +276,7 @@
       "end_pct": 0.96,
       "corner_length_pct": 0.03,
       "corner_length_m": 207.9,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -186,9 +342,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Spa Classic Pits",
-    "length_m": 6930
-  }
+  "turn_consensus": {}
 }

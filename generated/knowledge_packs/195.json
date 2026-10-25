@@ -1,6 +1,111 @@
 {
   "track_id": 195,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Mobility Resort Motegi - Grand Prix",
+    "length_m": 4796
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 632.1,
+      "y": 793.22,
+      "lap_pct": 0.2939
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 647.92,
+      "y": 747.07,
+      "lap_pct": 0.2959
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1192.66,
+      "y": 758.89,
+      "lap_pct": 0.7383
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1173.1,
+      "y": 679.0,
+      "lap_pct": 0.7383
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 658.32,
+      "y": 610.67,
+      "lap_pct": 0.2705
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 819.14,
+      "y": 433.52,
+      "lap_pct": 0.3594
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1126.88,
+      "y": 412.56,
+      "lap_pct": 0.6064
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1237.99,
+      "y": 369.22,
+      "lap_pct": 0.6875
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1449.21,
+      "y": 464.11,
+      "lap_pct": 0.7461
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 1516.02,
+      "y": 47.52,
+      "lap_pct": 0.7383
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 1509.06,
+      "y": 851.56,
+      "lap_pct": 0.7471
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 1334.43,
+      "y": 884.0,
+      "lap_pct": 0.7471
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 1267.54,
+      "y": 921.56,
+      "lap_pct": 0.7471
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 1194.31,
+      "y": 935.44,
+      "lap_pct": 0.7471
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +113,7 @@
       "end_pct": 0.064,
       "corner_length_pct": 0.024,
       "corner_length_m": 115.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -16,7 +121,7 @@
       "end_pct": 0.092,
       "corner_length_pct": 0.027,
       "corner_length_m": 129.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -24,7 +129,7 @@
       "end_pct": 0.207,
       "corner_length_pct": 0.018,
       "corner_length_m": 86.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -32,7 +137,7 @@
       "end_pct": 0.238,
       "corner_length_pct": 0.03,
       "corner_length_m": 143.9,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -40,7 +145,9 @@
       "end_pct": 0.361,
       "corner_length_pct": 0.026,
       "corner_length_m": 124.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": null,
@@ -48,7 +155,7 @@
       "end_pct": 0.425,
       "corner_length_pct": 0.039,
       "corner_length_m": 187.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -56,7 +163,7 @@
       "end_pct": 0.491,
       "corner_length_pct": 0.028,
       "corner_length_m": 134.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -64,7 +171,7 @@
       "end_pct": 0.531,
       "corner_length_pct": 0.039,
       "corner_length_m": 187.0,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -72,7 +179,7 @@
       "end_pct": 0.586,
       "corner_length_pct": 0.027,
       "corner_length_m": 129.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -80,7 +187,7 @@
       "end_pct": 0.684,
       "corner_length_pct": 0.036,
       "corner_length_m": 172.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -88,7 +195,7 @@
       "end_pct": 0.855,
       "corner_length_pct": 0.026,
       "corner_length_m": 124.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -96,7 +203,7 @@
       "end_pct": 0.891,
       "corner_length_pct": 0.016,
       "corner_length_m": 76.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -104,7 +211,7 @@
       "end_pct": 0.915,
       "corner_length_pct": 0.016,
       "corner_length_m": 76.7,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -112,7 +219,7 @@
       "end_pct": 0.934,
       "corner_length_pct": 0.018,
       "corner_length_m": 86.3,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -148,9 +255,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Mobility Resort Motegi - Grand Prix",
-    "length_m": 4796
-  }
+  "turn_consensus": {}
 }

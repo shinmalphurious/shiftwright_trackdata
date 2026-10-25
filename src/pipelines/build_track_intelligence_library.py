@@ -28,7 +28,7 @@ for track in catalog:
             "track_id": track_id,
             "layout": layout,
             "venue": venue,
-            "folder": track["folder"],
+            "layout_path": track["layout_path"],
 
             "search_topics": [
                 "track guide",

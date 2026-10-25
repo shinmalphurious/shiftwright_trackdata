@@ -1,6 +1,181 @@
 {
   "track_id": 219,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Mount Panorama Circuit",
+    "length_m": 6140
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 206.49,
+      "y": 471.1,
+      "lap_pct": 0.5059
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 223.84,
+      "y": 471.1,
+      "lap_pct": 0.5059
+    },
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1748.36,
+      "y": 567.02,
+      "lap_pct": 0.0459
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 915.75,
+      "y": 468.55,
+      "lap_pct": 0.2119
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 980.24,
+      "y": 226.89,
+      "lap_pct": 0.2764
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 893.32,
+      "y": 93.45,
+      "lap_pct": 0.2979
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 796.44,
+      "y": 172.19,
+      "lap_pct": 0.3164
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 691.78,
+      "y": 171.93,
+      "lap_pct": 0.3506
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 625.98,
+      "y": 105.37,
+      "lap_pct": 0.3691
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 528.95,
+      "y": 49.23,
+      "lap_pct": 0.3896
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 391.24,
+      "y": 45.57,
+      "lap_pct": 0.4121
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 184.8,
+      "y": 213.28,
+      "lap_pct": 0.457
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 188.04,
+      "y": 531.97,
+      "lap_pct": 0.5195
+    },
+    {
+      "label": "T13",
+      "number": 13,
+      "x": 190.46,
+      "y": 586.67,
+      "lap_pct": 0.54
+    },
+    {
+      "label": "T14",
+      "number": 14,
+      "x": 278.95,
+      "y": 634.45,
+      "lap_pct": 0.5342
+    },
+    {
+      "label": "T15",
+      "number": 15,
+      "x": 161.4,
+      "y": 668.18,
+      "lap_pct": 0.5576
+    },
+    {
+      "label": "T16",
+      "number": 16,
+      "x": 211.6,
+      "y": 769.2,
+      "lap_pct": 0.5703
+    },
+    {
+      "label": "T17",
+      "number": 17,
+      "x": 106.69,
+      "y": 788.76,
+      "lap_pct": 0.5869
+    },
+    {
+      "label": "T18",
+      "number": 18,
+      "x": 41.56,
+      "y": 896.34,
+      "lap_pct": 0.6025
+    },
+    {
+      "label": "T19",
+      "number": 19,
+      "x": 248.56,
+      "y": 1008.06,
+      "lap_pct": 0.6396
+    },
+    {
+      "label": "T20",
+      "number": 20,
+      "x": 1137.34,
+      "y": 903.59,
+      "lap_pct": 0.8135
+    },
+    {
+      "label": "T21",
+      "number": 21,
+      "x": 1349.4,
+      "y": 1047.17,
+      "lap_pct": 0.8584
+    },
+    {
+      "label": "T22",
+      "number": 22,
+      "x": 1396.62,
+      "y": 901.99,
+      "lap_pct": 0.876
+    },
+    {
+      "label": "T23",
+      "number": 23,
+      "x": 1741.84,
+      "y": 886.02,
+      "lap_pct": 0.9414
+    }
+  ],
   "named_corners": [
     {
       "name": "Hell Corner",
@@ -8,10 +183,7 @@
       "end_pct": 0.075,
       "corner_length_pct": 0.029,
       "corner_length_m": 178.1,
-      "corner_knowledge": {
-        "exit_focus": 1,
-        "long_straight": 1
-      }
+      "labels": []
     },
     {
       "name": "Quarry Bend",
@@ -19,7 +191,7 @@
       "end_pct": 0.267,
       "corner_length_pct": 0.047,
       "corner_length_m": 288.6,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "The Cutting",
@@ -27,7 +199,9 @@
       "end_pct": 0.33,
       "corner_length_pct": 0.03,
       "corner_length_m": 184.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Griffin's Mount",
@@ -35,7 +209,9 @@
       "end_pct": 0.356,
       "corner_length_pct": 0.022,
       "corner_length_m": 135.1,
-      "corner_knowledge": {}
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Reid Park",
@@ -43,7 +219,9 @@
       "end_pct": 0.384,
       "corner_length_pct": 0.019,
       "corner_length_m": 116.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Sulman Park",
@@ -51,7 +229,10 @@
       "end_pct": 0.458,
       "corner_length_pct": 0.068,
       "corner_length_m": 417.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T9",
+        "T10"
+      ]
     },
     {
       "name": "McPhillamy Park",
@@ -59,7 +240,10 @@
       "end_pct": 0.507,
       "corner_length_pct": 0.044,
       "corner_length_m": 270.2,
-      "corner_knowledge": {}
+      "labels": [
+        "T1",
+        "T1"
+      ]
     },
     {
       "name": "Skyline",
@@ -67,7 +251,11 @@
       "end_pct": 0.55,
       "corner_length_pct": 0.033,
       "corner_length_m": 202.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T12",
+        "T13",
+        "T14"
+      ]
     },
     {
       "name": "The Esses",
@@ -75,7 +263,11 @@
       "end_pct": 0.599,
       "corner_length_pct": 0.048,
       "corner_length_m": 294.7,
-      "corner_knowledge": {}
+      "labels": [
+        "T15",
+        "T16",
+        "T17"
+      ]
     },
     {
       "name": "The Dipper",
@@ -83,7 +275,9 @@
       "end_pct": 0.614,
       "corner_length_pct": 0.014,
       "corner_length_m": 86.0,
-      "corner_knowledge": {}
+      "labels": [
+        "T18"
+      ]
     },
     {
       "name": "Forest's Elbow",
@@ -91,7 +285,9 @@
       "end_pct": 0.67,
       "corner_length_pct": 0.054,
       "corner_length_m": 331.6,
-      "corner_knowledge": {}
+      "labels": [
+        "T19"
+      ]
     },
     {
       "name": "The Chase",
@@ -99,7 +295,9 @@
       "end_pct": 0.926,
       "corner_length_pct": 0.056,
       "corner_length_m": 343.8,
-      "corner_knowledge": {}
+      "labels": [
+        "T22"
+      ]
     },
     {
       "name": "Murray's Corner",
@@ -107,7 +305,7 @@
       "end_pct": 0.993,
       "corner_length_pct": 0.028,
       "corner_length_m": 171.9,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -195,13 +393,9 @@
     "long_straight": 1
   },
   "turn_consensus": {
-    "turn_1": {
+    "turn_1 ": {
       "exit_focus": 1,
       "long_straight": 1
     }
-  },
-  "metadata": {
-    "name": "Mount Panorama Circuit",
-    "length_m": 6140
   }
 }

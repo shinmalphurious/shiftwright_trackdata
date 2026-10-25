@@ -1,6 +1,97 @@
 {
   "track_id": 152,
   "knowledge_level": "named",
+  "metadata": {
+    "name": "Phillip Island Circuit",
+    "length_m": 4440
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 1402.24,
+      "y": 734.8,
+      "lap_pct": 0.1689
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1670.78,
+      "y": 1003.1,
+      "lap_pct": 0.373
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1483.8,
+      "y": 568.79,
+      "lap_pct": 0.168
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1179.89,
+      "y": 444.77,
+      "lap_pct": 0.0996
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1298.94,
+      "y": 414.85,
+      "lap_pct": 0.1299
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1398.87,
+      "y": 330.32,
+      "lap_pct": 0.1455
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1193.45,
+      "y": 179.27,
+      "lap_pct": 0.1025
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 975.53,
+      "y": 188.69,
+      "lap_pct": 0.042
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 660.88,
+      "y": 72.19,
+      "lap_pct": 0.7246
+    },
+    {
+      "label": "T10",
+      "number": 10,
+      "x": 480.52,
+      "y": 277.72,
+      "lap_pct": 0.7529
+    },
+    {
+      "label": "T11",
+      "number": 11,
+      "x": 359.56,
+      "y": 262.25,
+      "lap_pct": 0.7852
+    },
+    {
+      "label": "T12",
+      "number": 12,
+      "x": 295.3,
+      "y": 596.69,
+      "lap_pct": 0.8428
+    }
+  ],
   "named_corners": [
     {
       "name": null,
@@ -8,7 +99,11 @@
       "end_pct": 0.16,
       "corner_length_pct": 0.06,
       "corner_length_m": 266.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T5",
+        "T6",
+        "T7"
+      ]
     },
     {
       "name": null,
@@ -16,7 +111,7 @@
       "end_pct": 0.267,
       "corner_length_pct": 0.089,
       "corner_length_m": 395.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -24,7 +119,9 @@
       "end_pct": 0.384,
       "corner_length_pct": 0.06,
       "corner_length_m": 266.4,
-      "corner_knowledge": {}
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": null,
@@ -32,7 +129,7 @@
       "end_pct": 0.448,
       "corner_length_pct": 0.033,
       "corner_length_m": 146.5,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -40,7 +137,7 @@
       "end_pct": 0.47,
       "corner_length_pct": 0.014,
       "corner_length_m": 62.2,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -48,7 +145,7 @@
       "end_pct": 0.525,
       "corner_length_pct": 0.053,
       "corner_length_m": 235.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -56,7 +153,7 @@
       "end_pct": 0.574,
       "corner_length_pct": 0.028,
       "corner_length_m": 124.3,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -64,7 +161,7 @@
       "end_pct": 0.632,
       "corner_length_pct": 0.048,
       "corner_length_m": 213.1,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": null,
@@ -72,7 +169,9 @@
       "end_pct": 0.735,
       "corner_length_pct": 0.087,
       "corner_length_m": 386.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": null,
@@ -80,7 +179,9 @@
       "end_pct": 0.768,
       "corner_length_pct": 0.028,
       "corner_length_m": 124.3,
-      "corner_knowledge": {}
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": null,
@@ -88,7 +189,9 @@
       "end_pct": 0.813,
       "corner_length_pct": 0.043,
       "corner_length_m": 190.9,
-      "corner_knowledge": {}
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": null,
@@ -96,7 +199,9 @@
       "end_pct": 0.913,
       "corner_length_pct": 0.083,
       "corner_length_m": 368.5,
-      "corner_knowledge": {}
+      "labels": [
+        "T12"
+      ]
     }
   ],
   "generated_corner_regions": [
@@ -138,9 +243,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Phillip Island Circuit",
-    "length_m": 4440
-  }
+  "turn_consensus": {}
 }

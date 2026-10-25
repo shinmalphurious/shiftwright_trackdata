@@ -1,6 +1,76 @@
 {
   "track_id": 24,
   "knowledge_level": "geometry_only",
+  "metadata": {
+    "name": "Summit Point Raceway - Short",
+    "length_m": 2340
+  },
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 865.43,
+      "y": 914.0,
+      "lap_pct": 0.0625
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 911.43,
+      "y": 757.13,
+      "lap_pct": 0.1182
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1274.02,
+      "y": 339.62,
+      "lap_pct": 0.2979
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1434.3,
+      "y": 219.12,
+      "lap_pct": 0.374
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1381.07,
+      "y": 95.5,
+      "lap_pct": 0.4297
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1479.39,
+      "y": 82.87,
+      "lap_pct": 0.4863
+    },
+    {
+      "label": "T7",
+      "number": 7,
+      "x": 1597.46,
+      "y": 150.99,
+      "lap_pct": 0.5312
+    },
+    {
+      "label": "T8",
+      "number": 8,
+      "x": 1699.8,
+      "y": 282.65,
+      "lap_pct": 0.585
+    },
+    {
+      "label": "T9",
+      "number": 9,
+      "x": 1640.26,
+      "y": 992.34,
+      "lap_pct": 0.8125
+    }
+  ],
   "named_corners": [],
   "generated_corner_regions": [
     {
@@ -59,9 +129,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {
-    "name": "Summit Point Raceway - Short",
-    "length_m": 2340
-  }
+  "turn_consensus": {}
 }

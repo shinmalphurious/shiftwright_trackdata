@@ -1,78 +1,124 @@
 {
   "track_id": 29,
   "knowledge_level": "named",
+  "metadata": {},
+  "direction_known": true,
+  "turns": [
+    {
+      "label": "T1",
+      "number": 1,
+      "x": 937.71,
+      "y": 571.49,
+      "lap_pct": 0.1455
+    },
+    {
+      "label": "T2",
+      "number": 2,
+      "x": 1406.29,
+      "y": 477.78,
+      "lap_pct": 0.4033
+    },
+    {
+      "label": "T3",
+      "number": 3,
+      "x": 1676.65,
+      "y": 368.79,
+      "lap_pct": 0.6152
+    },
+    {
+      "label": "T4",
+      "number": 4,
+      "x": 1460.31,
+      "y": 612.51,
+      "lap_pct": 0.8008
+    },
+    {
+      "label": "T5",
+      "number": 5,
+      "x": 1267.79,
+      "y": 633.32,
+      "lap_pct": 0.917
+    },
+    {
+      "label": "T6",
+      "number": 6,
+      "x": 1182.53,
+      "y": 659.95,
+      "lap_pct": 0.9531
+    }
+  ],
   "named_corners": [
     {
       "name": "T1",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T2",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T3",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T4",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T5",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T6",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T7",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T8",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T9",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T10",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T11",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     },
     {
       "name": "T12",
       "start_pct": null,
       "end_pct": null,
-      "corner_knowledge": {}
+      "labels": []
     }
   ],
   "generated_corner_regions": [
@@ -138,6 +184,5 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {},
-  "metadata": {}
+  "turn_consensus": {}
 }
