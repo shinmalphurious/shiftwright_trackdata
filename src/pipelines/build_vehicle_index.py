@@ -1,9 +1,10 @@
 import json
+import sys
 from pathlib import Path
 
-SOURCE = Path(
-    "external/lovely-car-data/data/iracing"
-)
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
+from src.shared.paths import LOVELY_CARS as SOURCE
 
 cars = []
 

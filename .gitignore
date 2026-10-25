@@ -7,5 +7,5 @@ __pycache__/
 temp/
 tmp/
 
-# Third-party / external sources (kept locally, not versioned)
+# Datasets live in the shared SHIFTWRIGHT_DATA_ROOT (src/shared/paths.py); never copy them here
 external/

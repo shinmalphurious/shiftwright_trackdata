@@ -20,12 +20,7 @@ from src.geometry.centreline_extractor import (
 
 ROOT = Path(__file__).resolve().parents[2]
 
-VECTOR_ROOT = (
-    ROOT /
-    "external" /
-    "racing-track-maps-vector" /
-    "from-iracing"
-)
+from src.shared.paths import TRACK_MAPS as VECTOR_ROOT
 
 OUTPUT = Path(
     "generated/axes"
