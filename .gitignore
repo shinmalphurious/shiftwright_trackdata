@@ -9,3 +9,6 @@ tmp/
 
 # Datasets live in the shared SHIFTWRIGHT_DATA_ROOT (src/shared/paths.py); never copy them here
 external/
+
+# Car knowledge is extracted from iRacing manuals (their text): regenerate locally, never commit
+generated/car_knowledge/
