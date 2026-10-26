@@ -3,103 +3,61 @@
   "knowledge_level": "geometry_only",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 1140.92,
       "y": 945.09,
-      "lap_pct": 0.207
+      "lap_pct": 0.208
     },
     {
       "label": "T2",
       "number": 2,
       "x": 1140.85,
       "y": 852.35,
-      "lap_pct": 0.2949
+      "lap_pct": 0.2969
     },
     {
       "label": "T3",
       "number": 3,
       "x": 833.5,
       "y": 850.09,
-      "lap_pct": 0.6914
+      "lap_pct": 0.6943
     },
     {
       "label": "T4",
       "number": 4,
       "x": 836.21,
       "y": 949.19,
-      "lap_pct": 0.7959
+      "lap_pct": 0.7949
     }
   ],
   "named_corners": [],
   "generated_corner_regions": [
     {
-      "start_pct": 0.0,
-      "apex_pct": 0.012702,
-      "end_pct": 0.060088,
-      "strength": 0.054507
+      "start_pct": 0.001954,
+      "apex_pct": 0.040547,
+      "end_pct": 0.139228,
+      "strength": 0.022887
     },
     {
-      "start_pct": 0.0,
-      "apex_pct": 0.147044,
-      "end_pct": 0.156326,
-      "strength": 0.048642
+      "start_pct": 0.38935,
+      "apex_pct": 0.539326,
+      "end_pct": 0.631168,
+      "strength": 0.023701
     },
     {
-      "start_pct": 0.376649,
-      "apex_pct": 0.487054,
-      "end_pct": 0.500733,
-      "strength": 0.061588
-    },
-    {
-      "start_pct": 0.509526,
-      "apex_pct": 0.523205,
-      "end_pct": 0.558378,
-      "strength": 0.062014
-    },
-    {
-      "start_pct": 0.505129,
-      "apex_pct": 0.572057,
-      "end_pct": 0.660479,
-      "strength": 0.031121
-    },
-    {
-      "start_pct": 0.593063,
-      "apex_pct": 0.622863,
-      "end_pct": 0.635076,
-      "strength": 0.054393
-    },
-    {
-      "start_pct": 0.639961,
-      "apex_pct": 0.649731,
-      "end_pct": 0.659013,
-      "strength": 0.048613
-    },
-    {
-      "start_pct": 0.851001,
-      "apex_pct": 0.860283,
-      "end_pct": 0.870054,
-      "strength": 0.048593
-    },
-    {
-      "start_pct": 0.874939,
-      "apex_pct": 0.887152,
-      "end_pct": 0.922325,
-      "strength": 0.054305
-    },
-    {
-      "start_pct": 0.933073,
-      "apex_pct": 0.948705,
+      "start_pct": 0.895945,
+      "apex_pct": 0.985344,
       "end_pct": 1.0,
-      "strength": 0.059161
-    },
-    {
-      "start_pct": 0.850024,
-      "apex_pct": 0.991695,
-      "end_pct": 1.0,
-      "strength": 0.038684
+      "strength": 0.023574
     }
   ],
   "youtube_summary": {},

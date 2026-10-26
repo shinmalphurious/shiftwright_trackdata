@@ -24,6 +24,7 @@ def _load(path, default):
 def main():
     OUTDIR.mkdir(exist_ok=True)
     built = 0
+    checks = _load(GENERATED / "axes" / "axis_quality.json", {})
     for source in GENERATED.glob("*.json"):
         if not source.stem.isdigit():
             continue
@@ -47,6 +48,9 @@ def main():
             "knowledge_level": "named" if named else "geometry_only",
             "metadata": track.get("metadata", {}),
             "direction_known": direction_known,
+            # Centreline check against the active.svg ribbon (src/geometry/ribbon_axis.py); ok false =
+            # the centreline is approximate for this layout
+            "centreline_check": checks.get(str(track_id)),
             "turns": turns,
             "named_corners": named,
             "generated_corner_regions": _load(GENERATED / "corner_regions" / f"{track_id}.json", {}).get("corners", []),

@@ -6,125 +6,131 @@
     "length_m": 4410
   },
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 698.15,
       "y": 471.0,
-      "lap_pct": 0.4082
+      "lap_pct": 0.0459
     },
     {
       "label": "T2",
       "number": 2,
       "x": 543.12,
       "y": 461.48,
-      "lap_pct": 0.7861
+      "lap_pct": 0.0801
     },
     {
       "label": "T3",
       "number": 3,
       "x": 351.07,
       "y": 349.44,
-      "lap_pct": 0.5957
+      "lap_pct": 0.1289
     },
     {
       "label": "T4",
       "number": 4,
       "x": 913.53,
       "y": 135.21,
-      "lap_pct": 0.877
+      "lap_pct": 0.2627
     },
     {
       "label": "T5",
       "number": 5,
       "x": 1526.19,
       "y": 233.72,
-      "lap_pct": 0.043
+      "lap_pct": 0.3701
     },
     {
       "label": "T6",
       "number": 6,
       "x": 1153.52,
       "y": 278.4,
-      "lap_pct": 0.9482
+      "lap_pct": 0.4316
     },
     {
       "label": "T7",
       "number": 7,
       "x": 828.71,
       "y": 213.61,
-      "lap_pct": 0.8701
+      "lap_pct": 0.4902
     },
     {
       "label": "T8",
       "number": 8,
       "x": 721.85,
       "y": 235.16,
-      "lap_pct": 0.8594
+      "lap_pct": 0.5107
     },
     {
       "label": "T9",
       "number": 9,
       "x": 508.67,
       "y": 301.81,
-      "lap_pct": 0.5322
+      "lap_pct": 0.5664
     },
     {
       "label": "T10",
       "number": 10,
       "x": 625.52,
       "y": 332.1,
-      "lap_pct": 0.4756
+      "lap_pct": 0.5977
     },
     {
       "label": "T11",
       "number": 11,
       "x": 802.14,
       "y": 302.99,
-      "lap_pct": 0.877
+      "lap_pct": 0.6309
     },
     {
       "label": "T12",
       "number": 12,
       "x": 1217.46,
       "y": 369.49,
-      "lap_pct": 0.001
+      "lap_pct": 0.7051
     },
     {
       "label": "T13",
       "number": 13,
       "x": 1324.23,
       "y": 355.76,
-      "lap_pct": 0.0215
+      "lap_pct": 0.7266
     },
     {
       "label": "T14",
       "number": 14,
       "x": 1537.3,
       "y": 390.09,
-      "lap_pct": 0.1006
+      "lap_pct": 0.7646
     },
     {
       "label": "T15",
       "number": 15,
       "x": 1145.46,
       "y": 923.89,
-      "lap_pct": 0.1455
+      "lap_pct": 0.9258
     },
     {
       "label": "T16",
       "number": 16,
       "x": 1100.24,
       "y": 898.31,
-      "lap_pct": 0.1455
+      "lap_pct": 0.9355
     },
     {
       "label": "T17",
       "number": 17,
       "x": 1099.07,
       "y": 849.81,
-      "lap_pct": 0.1416
+      "lap_pct": 0.9473
     }
   ],
   "named_corners": [
@@ -135,7 +141,7 @@
       "corner_length_pct": 0.054,
       "corner_length_m": 238.1,
       "labels": [
-        "T14"
+        "T2"
       ]
     },
     {
@@ -144,11 +150,7 @@
       "end_pct": 0.227,
       "corner_length_pct": 0.098,
       "corner_length_m": 432.2,
-      "labels": [
-        "T15",
-        "T16",
-        "T17"
-      ]
+      "labels": []
     },
     {
       "name": "Golf",
@@ -165,7 +167,7 @@
       "corner_length_pct": 0.045,
       "corner_length_m": 198.4,
       "labels": [
-        "T1"
+        "T6"
       ]
     },
     {
@@ -175,6 +177,7 @@
       "corner_length_pct": 0.06,
       "corner_length_m": 264.6,
       "labels": [
+        "T8",
         "T9"
       ]
     },
@@ -185,7 +188,8 @@
       "corner_length_pct": 0.043,
       "corner_length_m": 189.6,
       "labels": [
-        "T3"
+        "T10",
+        "T11"
       ]
     },
     {
@@ -195,7 +199,7 @@
       "corner_length_pct": 0.06,
       "corner_length_m": 264.6,
       "labels": [
-        "T2"
+        "T14"
       ]
     },
     {
@@ -221,40 +225,58 @@
       "corner_length_pct": 0.06,
       "corner_length_m": 264.6,
       "labels": [
-        "T6"
+        "T17"
       ]
     }
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.040059,
-      "apex_pct": 0.190034,
-      "end_pct": 0.207621,
-      "strength": 0.016472
+      "start_pct": 0.07914,
+      "apex_pct": 0.090376,
+      "end_pct": 0.101124,
+      "strength": 0.008731
     },
     {
-      "start_pct": 0.233512,
-      "apex_pct": 0.242794,
-      "end_pct": 0.252076,
-      "strength": 0.007132
+      "start_pct": 0.186126,
+      "apex_pct": 0.196873,
+      "end_pct": 0.208598,
+      "strength": 0.022125
     },
     {
-      "start_pct": 0.275525,
-      "apex_pct": 0.304348,
-      "end_pct": 0.324866,
-      "strength": 0.012924
+      "start_pct": 0.212995,
+      "apex_pct": 0.223254,
+      "end_pct": 0.231558,
+      "strength": 0.025057
     },
     {
-      "start_pct": 0.404494,
-      "apex_pct": 0.465071,
-      "end_pct": 0.49829,
-      "strength": 0.004681
+      "start_pct": 0.350757,
+      "apex_pct": 0.362482,
+      "end_pct": 0.371275,
+      "strength": 0.028543
     },
     {
-      "start_pct": 0.638007,
-      "apex_pct": 0.647777,
-      "end_pct": 0.658036,
-      "strength": 0.163367
+      "start_pct": 0.40254,
+      "apex_pct": 0.428432,
+      "end_pct": 0.438202,
+      "strength": 0.010415
+    },
+    {
+      "start_pct": 0.553981,
+      "apex_pct": 0.568149,
+      "end_pct": 0.588178,
+      "strength": 0.023504
+    },
+    {
+      "start_pct": 0.618466,
+      "apex_pct": 0.643869,
+      "end_pct": 0.653151,
+      "strength": 0.010746
+    },
+    {
+      "start_pct": 0.759648,
+      "apex_pct": 0.768442,
+      "end_pct": 0.777235,
+      "strength": 0.041072
     }
   ],
   "youtube_summary": {},

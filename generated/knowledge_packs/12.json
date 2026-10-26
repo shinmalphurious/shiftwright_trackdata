@@ -3,6 +3,12 @@
   "knowledge_level": "geometry_only",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
@@ -23,7 +29,7 @@
       "number": 3,
       "x": 457.81,
       "y": 196.32,
-      "lap_pct": 0.6543
+      "lap_pct": 0.6533
     },
     {
       "label": "T4",
@@ -37,45 +43,39 @@
   "generated_corner_regions": [
     {
       "start_pct": 0.0,
-      "apex_pct": 0.087445,
-      "end_pct": 0.237421,
-      "strength": 0.002966
+      "apex_pct": 0.102589,
+      "end_pct": 0.244748,
+      "strength": 0.002939
     },
     {
-      "start_pct": 0.103078,
-      "apex_pct": 0.253053,
-      "end_pct": 0.403029,
-      "strength": 0.003267
+      "start_pct": 0.25745,
+      "apex_pct": 0.407426,
+      "end_pct": 0.557401,
+      "strength": 0.003181
     },
     {
-      "start_pct": 0.278456,
-      "apex_pct": 0.428432,
-      "end_pct": 0.578407,
-      "strength": 0.003148
+      "start_pct": 0.356131,
+      "apex_pct": 0.506106,
+      "end_pct": 0.656082,
+      "strength": 0.002899
     },
     {
-      "start_pct": 0.359551,
-      "apex_pct": 0.509526,
-      "end_pct": 0.659502,
-      "strength": 0.003308
+      "start_pct": 0.433806,
+      "apex_pct": 0.583781,
+      "end_pct": 0.733757,
+      "strength": 0.003344
     },
     {
-      "start_pct": 0.423058,
-      "apex_pct": 0.573034,
-      "end_pct": 0.723009,
-      "strength": 0.003278
+      "start_pct": 0.601368,
+      "apex_pct": 0.751343,
+      "end_pct": 0.901319,
+      "strength": 0.002789
     },
     {
-      "start_pct": 0.578896,
-      "apex_pct": 0.728872,
-      "end_pct": 0.878847,
-      "strength": 0.002563
-    },
-    {
-      "start_pct": 0.761114,
-      "apex_pct": 0.911089,
+      "start_pct": 0.770884,
+      "apex_pct": 0.92086,
       "end_pct": 1.0,
-      "strength": 0.003338
+      "strength": 0.003394
     }
   ],
   "youtube_summary": {},

@@ -6,27 +6,33 @@
     "length_m": 1830
   },
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 336.75,
       "y": 164.5,
-      "lap_pct": 0.1016
+      "lap_pct": 0.0469
     },
     {
       "label": "T2",
       "number": 2,
       "x": 1189.65,
       "y": 214.53,
-      "lap_pct": 0.5225
+      "lap_pct": 0.5234
     },
     {
       "label": "T3",
       "number": 3,
       "x": 1019.99,
       "y": 386.87,
-      "lap_pct": 0.625
+      "lap_pct": 0.627
     },
     {
       "label": "T4",
@@ -40,7 +46,7 @@
       "number": 5,
       "x": 550.36,
       "y": 375.4,
-      "lap_pct": 0.8584
+      "lap_pct": 0.8564
     }
   ],
   "named_corners": [
@@ -90,59 +96,33 @@
       "end_pct": 0.911,
       "corner_length_pct": 0.054,
       "corner_length_m": 98.8,
-      "labels": [
-        "T5"
-      ]
+      "labels": []
     }
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.037128,
-      "apex_pct": 0.077675,
-      "end_pct": 0.09575,
-      "strength": 0.004111
+      "start_pct": 0.186615,
+      "apex_pct": 0.198339,
+      "end_pct": 0.209086,
+      "strength": 0.050511
     },
     {
-      "start_pct": 0.181729,
-      "apex_pct": 0.192965,
-      "end_pct": 0.203713,
-      "strength": 0.054351
+      "start_pct": 0.222277,
+      "apex_pct": 0.235467,
+      "end_pct": 0.299463,
+      "strength": 0.010735
     },
     {
-      "start_pct": 0.218368,
-      "apex_pct": 0.234978,
-      "end_pct": 0.291646,
-      "strength": 0.012522
-    },
-    {
-      "start_pct": 0.397167,
-      "apex_pct": 0.431363,
-      "end_pct": 0.581339,
-      "strength": 0.006525
+      "start_pct": 0.410357,
+      "apex_pct": 0.504641,
+      "end_pct": 0.624817,
+      "strength": 0.006261
     },
     {
       "start_pct": 0.534929,
       "apex_pct": 0.559844,
-      "end_pct": 0.575965,
-      "strength": 0.035264
-    },
-    {
-      "start_pct": 0.625305,
-      "apex_pct": 0.654128,
-      "end_pct": 0.691744,
-      "strength": 0.005724
-    },
-    {
-      "start_pct": 0.868588,
-      "apex_pct": 0.884221,
-      "end_pct": 0.893991,
-      "strength": 0.004539
-    },
-    {
-      "start_pct": 0.912555,
-      "apex_pct": 0.922325,
-      "end_pct": 0.954079,
-      "strength": 0.005275
+      "end_pct": 0.574988,
+      "strength": 0.034531
     }
   ],
   "youtube_summary": {},

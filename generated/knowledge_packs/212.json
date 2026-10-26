@@ -5,112 +5,118 @@
     "name": "Interlagos GP",
     "length_m": 4220
   },
-  "direction_known": false,
+  "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 1743.6,
       "y": 565.82,
-      "lap_pct": 0.1357
+      "lap_pct": 0.0742
     },
     {
       "label": "T2",
       "number": 2,
       "x": 1651.29,
       "y": 462.72,
-      "lap_pct": 0.1475
+      "lap_pct": 0.1025
     },
     {
       "label": "T3",
       "number": 3,
       "x": 1638.65,
       "y": 230.79,
-      "lap_pct": 0.1475
+      "lap_pct": 0.1406
     },
     {
       "label": "T4",
       "number": 4,
       "x": 658.98,
       "y": 198.84,
-      "lap_pct": 0.4971
+      "lap_pct": 0.3203
     },
     {
       "label": "T5",
       "number": 5,
       "x": 678.26,
       "y": 371.82,
-      "lap_pct": 0.4922
+      "lap_pct": 0.3662
     },
     {
       "label": "T6",
       "number": 6,
       "x": 1098.62,
       "y": 667.39,
-      "lap_pct": 0.3594
+      "lap_pct": 0.4658
     },
     {
       "label": "T7",
       "number": 7,
       "x": 1101.31,
       "y": 769.46,
-      "lap_pct": 0.9229
+      "lap_pct": 0.4932
     },
     {
       "label": "T8",
       "number": 8,
       "x": 949.98,
       "y": 835.17,
-      "lap_pct": 0.8516
+      "lap_pct": 0.5449
     },
     {
       "label": "T9",
       "number": 9,
       "x": 881.6,
       "y": 757.15,
-      "lap_pct": 0.4287
+      "lap_pct": 0.5674
     },
     {
       "label": "T10",
       "number": 10,
       "x": 642.95,
       "y": 862.39,
-      "lap_pct": 0.7461
+      "lap_pct": 0.6426
     },
     {
       "label": "T11",
       "number": 11,
       "x": 648.31,
       "y": 684.46,
-      "lap_pct": 0.5029
+      "lap_pct": 0.6748
     },
     {
       "label": "T12",
       "number": 12,
       "x": 403.97,
       "y": 539.84,
-      "lap_pct": 0.5791
+      "lap_pct": 0.7578
     },
     {
       "label": "T13",
       "number": 13,
       "x": 389.25,
       "y": 658.49,
-      "lap_pct": 0.585
+      "lap_pct": 0.7822
     },
     {
       "label": "T14",
       "number": 14,
       "x": 518.5,
       "y": 983.05,
-      "lap_pct": 0.7148
+      "lap_pct": 0.8428
     },
     {
       "label": "T15",
       "number": 15,
       "x": 1037.19,
       "y": 1001.02,
-      "lap_pct": 0.8721
+      "lap_pct": 0.9307
     }
   ],
   "named_corners": [
@@ -120,7 +126,10 @@
       "end_pct": 0.113,
       "corner_length_pct": 0.068,
       "corner_length_m": 287.0,
-      "labels": []
+      "labels": [
+        "T1",
+        "T2"
+      ]
     },
     {
       "name": "Curva do Sol",
@@ -128,7 +137,9 @@
       "end_pct": 0.196,
       "corner_length_pct": 0.082,
       "corner_length_m": 346.0,
-      "labels": []
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Descida do Lago",
@@ -136,7 +147,10 @@
       "end_pct": 0.403,
       "corner_length_pct": 0.105,
       "corner_length_m": 443.1,
-      "labels": []
+      "labels": [
+        "T4",
+        "T5"
+      ]
     },
     {
       "name": "Ferradura",
@@ -144,7 +158,9 @@
       "end_pct": 0.487,
       "corner_length_pct": 0.031,
       "corner_length_m": 130.8,
-      "labels": []
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Laranjinha",
@@ -152,7 +168,9 @@
       "end_pct": 0.517,
       "corner_length_pct": 0.029,
       "corner_length_m": 122.4,
-      "labels": []
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Esse",
@@ -160,7 +178,9 @@
       "end_pct": 0.556,
       "corner_length_pct": 0.031,
       "corner_length_m": 130.8,
-      "labels": []
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Pinheirinho",
@@ -168,7 +188,9 @@
       "end_pct": 0.594,
       "corner_length_pct": 0.037,
       "corner_length_m": 156.1,
-      "labels": []
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Bico de Pato",
@@ -176,7 +198,9 @@
       "end_pct": 0.657,
       "corner_length_pct": 0.035,
       "corner_length_m": 147.7,
-      "labels": []
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Mergulho",
@@ -184,7 +208,9 @@
       "end_pct": 0.715,
       "corner_length_pct": 0.056,
       "corner_length_m": 236.3,
-      "labels": []
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Juncao",
@@ -192,7 +218,9 @@
       "end_pct": 0.77,
       "corner_length_pct": 0.036,
       "corner_length_m": 151.9,
-      "labels": []
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "T13",
@@ -200,7 +228,9 @@
       "end_pct": 0.8,
       "corner_length_pct": 0.029,
       "corner_length_m": 122.4,
-      "labels": []
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "T14",
@@ -208,7 +238,9 @@
       "end_pct": 0.874,
       "corner_length_pct": 0.059,
       "corner_length_m": 249.0,
-      "labels": []
+      "labels": [
+        "T14"
+      ]
     },
     {
       "name": "T15",
@@ -216,63 +248,65 @@
       "end_pct": 0.955,
       "corner_length_pct": 0.055,
       "corner_length_m": 232.1,
-      "labels": []
+      "labels": [
+        "T15"
+      ]
     }
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.005374,
-      "apex_pct": 0.01661,
-      "end_pct": 0.032242,
-      "strength": 0.010198
+      "start_pct": 0.137763,
+      "apex_pct": 0.153395,
+      "end_pct": 0.16512,
+      "strength": 0.003893
     },
     {
-      "start_pct": 0.045432,
-      "apex_pct": 0.087445,
-      "end_pct": 0.237421,
-      "strength": 0.004468
+      "start_pct": 0.283341,
+      "apex_pct": 0.296532,
+      "end_pct": 0.331216,
+      "strength": 0.018702
     },
     {
-      "start_pct": 0.154372,
-      "apex_pct": 0.252565,
-      "end_pct": 0.289692,
-      "strength": 0.008226
+      "start_pct": 0.532487,
+      "apex_pct": 0.545188,
+      "end_pct": 0.556913,
+      "strength": 0.015055
     },
     {
-      "start_pct": 0.404006,
-      "apex_pct": 0.413288,
-      "end_pct": 0.501221,
-      "strength": 0.006301
+      "start_pct": 0.572057,
+      "apex_pct": 0.587201,
+      "end_pct": 0.60381,
+      "strength": 0.007484
     },
     {
-      "start_pct": 0.424524,
-      "apex_pct": 0.439179,
-      "end_pct": 0.500733,
-      "strength": 0.006926
+      "start_pct": 0.676111,
+      "apex_pct": 0.68979,
+      "end_pct": 0.730337,
+      "strength": 0.009633
     },
     {
-      "start_pct": 0.516854,
-      "apex_pct": 0.526136,
-      "end_pct": 0.535418,
-      "strength": 0.003147
+      "start_pct": 0.748412,
+      "apex_pct": 0.759648,
+      "end_pct": 0.805569,
+      "strength": 0.023377
     },
     {
-      "start_pct": 0.576942,
-      "apex_pct": 0.648266,
-      "end_pct": 0.708354,
-      "strength": 0.003206
+      "start_pct": 0.845139,
+      "apex_pct": 0.856375,
+      "end_pct": 0.866634,
+      "strength": 0.028396
     },
     {
-      "start_pct": 0.887152,
-      "apex_pct": 0.91744,
-      "end_pct": 0.965804,
-      "strength": 0.021393
+      "start_pct": 0.882267,
+      "apex_pct": 0.903762,
+      "end_pct": 0.930142,
+      "strength": 0.008273
     },
     {
-      "start_pct": 0.940401,
-      "apex_pct": 0.950171,
-      "end_pct": 0.959453,
-      "strength": 0.113134
+      "start_pct": 0.961895,
+      "apex_pct": 0.972154,
+      "end_pct": 0.982413,
+      "strength": 0.019726
     }
   ],
   "youtube_summary": {},

@@ -3,235 +3,223 @@
   "knowledge_level": "geometry_only",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 1461.93,
       "y": 804.49,
-      "lap_pct": 0.0059
+      "lap_pct": 0.1025
     },
     {
       "label": "T2",
       "number": 2,
       "x": 1606.74,
       "y": 784.5,
-      "lap_pct": 0.0059
+      "lap_pct": 0.1309
     },
     {
       "label": "T3",
       "number": 3,
       "x": 1659.98,
       "y": 701.46,
-      "lap_pct": 0.0059
+      "lap_pct": 0.1436
     },
     {
       "label": "T4",
       "number": 4,
       "x": 1817.65,
       "y": 395.84,
-      "lap_pct": 0.0059
+      "lap_pct": 0.2422
     },
     {
       "label": "T5",
       "number": 5,
       "x": 1768.32,
       "y": 329.33,
-      "lap_pct": 0.0059
+      "lap_pct": 0.2598
     },
     {
       "label": "T6",
       "number": 6,
       "x": 1634.74,
       "y": 252.83,
-      "lap_pct": 0.0059
+      "lap_pct": 0.2871
     },
     {
       "label": "T7",
       "number": 7,
       "x": 1175.31,
       "y": 201.13,
-      "lap_pct": 0.0059
+      "lap_pct": 0.3809
     },
     {
       "label": "T8",
       "number": 8,
       "x": 1176.98,
       "y": 252.17,
-      "lap_pct": 0.0059
+      "lap_pct": 0.415
     },
     {
       "label": "T9",
       "number": 9,
       "x": 1275.58,
       "y": 248.44,
-      "lap_pct": 0.0059
+      "lap_pct": 0.4365
     },
     {
       "label": "T10",
       "number": 10,
       "x": 1367.57,
       "y": 279.83,
-      "lap_pct": 0.0059
+      "lap_pct": 0.4531
     },
     {
       "label": "T11",
       "number": 11,
       "x": 1523.53,
       "y": 280.26,
-      "lap_pct": 0.0059
+      "lap_pct": 0.4854
     },
     {
       "label": "T12",
       "number": 12,
       "x": 1582.64,
       "y": 315.13,
-      "lap_pct": 0.0059
+      "lap_pct": 0.5254
     },
     {
       "label": "T13",
       "number": 13,
       "x": 1343.64,
       "y": 383.51,
-      "lap_pct": 0.0059
+      "lap_pct": 0.582
     },
     {
       "label": "T14",
       "number": 14,
       "x": 1268.31,
       "y": 432.67,
-      "lap_pct": 0.0059
+      "lap_pct": 0.5928
     },
     {
       "label": "T15",
       "number": 15,
       "x": 608.06,
       "y": 386.83,
-      "lap_pct": 0.3066
+      "lap_pct": 0.7285
     },
     {
       "label": "T16",
       "number": 16,
       "x": 526.3,
       "y": 396.46,
-      "lap_pct": 0.3486
+      "lap_pct": 0.7422
     },
     {
       "label": "T17",
       "number": 17,
       "x": 474.19,
       "y": 397.36,
-      "lap_pct": 0.376
+      "lap_pct": 0.7568
     },
     {
       "label": "T18",
       "number": 18,
       "x": 369.58,
       "y": 375.57,
-      "lap_pct": 0.4385
+      "lap_pct": 0.7754
     },
     {
       "label": "T19",
       "number": 19,
       "x": 301.93,
       "y": 454.94,
-      "lap_pct": 0.4531
+      "lap_pct": 0.7988
     },
     {
       "label": "T20",
       "number": 20,
       "x": 247.34,
       "y": 598.8,
-      "lap_pct": 0.4434
+      "lap_pct": 0.832
     },
     {
       "label": "T21",
       "number": 21,
       "x": 323.92,
       "y": 740.82,
-      "lap_pct": 0.5947
+      "lap_pct": 0.8672
     },
     {
       "label": "T22",
       "number": 22,
       "x": 659.95,
       "y": 850.27,
-      "lap_pct": 0.832
+      "lap_pct": 0.9395
     }
   ],
   "named_corners": [],
   "generated_corner_regions": [
     {
-      "start_pct": 0.002443,
-      "apex_pct": 0.015144,
-      "end_pct": 0.030777,
-      "strength": 0.030303
+      "start_pct": 0.030777,
+      "apex_pct": 0.04299,
+      "end_pct": 0.055203,
+      "strength": 0.006098
     },
     {
-      "start_pct": 0.086468,
-      "apex_pct": 0.097704,
-      "end_pct": 0.110405,
-      "strength": 0.030522
+      "start_pct": 0.266732,
+      "apex_pct": 0.276502,
+      "end_pct": 0.333659,
+      "strength": 0.008851
     },
     {
-      "start_pct": 0.136297,
-      "apex_pct": 0.147533,
-      "end_pct": 0.158769,
-      "strength": 0.017707
+      "start_pct": 0.397655,
+      "apex_pct": 0.426966,
+      "end_pct": 0.436737,
+      "strength": 0.021713
     },
     {
-      "start_pct": 0.165608,
-      "apex_pct": 0.181241,
-      "end_pct": 0.228627,
-      "strength": 0.015597
+      "start_pct": 0.552516,
+      "apex_pct": 0.561309,
+      "end_pct": 0.591109,
+      "strength": 0.022164
     },
     {
-      "start_pct": 0.234001,
-      "apex_pct": 0.380068,
-      "end_pct": 0.391304,
-      "strength": 0.017389
+      "start_pct": 0.599902,
+      "apex_pct": 0.611138,
+      "end_pct": 0.634099,
+      "strength": 0.00738
     },
     {
-      "start_pct": 0.396678,
-      "apex_pct": 0.406937,
-      "end_pct": 0.416219,
-      "strength": 0.014947
+      "start_pct": 0.674157,
+      "apex_pct": 0.686859,
+      "end_pct": 0.697118,
+      "strength": 0.025831
     },
     {
-      "start_pct": 0.451881,
-      "apex_pct": 0.534441,
-      "end_pct": 0.545677,
-      "strength": 0.018628
+      "start_pct": 0.743039,
+      "apex_pct": 0.753298,
+      "end_pct": 0.765511,
+      "strength": 0.019569
     },
     {
-      "start_pct": 0.553981,
-      "apex_pct": 0.56424,
-      "end_pct": 0.574988,
-      "strength": 0.014863
+      "start_pct": 0.88764,
+      "apex_pct": 0.897899,
+      "end_pct": 0.926722,
+      "strength": 0.019063
     },
     {
-      "start_pct": 0.604787,
-      "apex_pct": 0.649243,
-      "end_pct": 0.799218,
-      "strength": 0.017374
-    },
-    {
-      "start_pct": 0.729849,
-      "apex_pct": 0.879824,
-      "end_pct": 1.0,
-      "strength": 0.030482
-    },
-    {
-      "start_pct": 0.932584,
-      "apex_pct": 0.940889,
-      "end_pct": 0.948705,
-      "strength": 1.342031
-    },
-    {
-      "start_pct": 0.980459,
-      "apex_pct": 0.987787,
-      "end_pct": 0.995115,
-      "strength": 11.76582
+      "start_pct": 0.957499,
+      "apex_pct": 0.966781,
+      "end_pct": 0.975574,
+      "strength": 0.016728
     }
   ],
   "youtube_summary": {},

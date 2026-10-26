@@ -3,48 +3,54 @@
   "knowledge_level": "named",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 90.9,
       "y": 417.59,
-      "lap_pct": 0.2119
+      "lap_pct": 0.1592
     },
     {
       "label": "T2",
       "number": 2,
       "x": 512.63,
       "y": 175.3,
-      "lap_pct": 0.2236
+      "lap_pct": 0.3574
     },
     {
       "label": "T3",
       "number": 3,
       "x": 623.08,
       "y": 198.57,
-      "lap_pct": 0.2734
+      "lap_pct": 0.3926
     },
     {
       "label": "T4",
       "number": 4,
       "x": 450.93,
       "y": 893.39,
-      "lap_pct": 0.5225
+      "lap_pct": 0.7354
     },
     {
       "label": "T5",
       "number": 5,
       "x": 550.92,
       "y": 962.93,
-      "lap_pct": 0.7275
+      "lap_pct": 0.8066
     },
     {
       "label": "T6",
       "number": 6,
       "x": 319.5,
       "y": 899.75,
-      "lap_pct": 0.9092
+      "lap_pct": 0.9414
     }
   ],
   "named_corners": [
@@ -70,7 +76,9 @@
       "end_pct": 0.167,
       "corner_length_pct": 0.026,
       "corner_length_m": 150.8,
-      "labels": []
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "The Loop",
@@ -86,10 +94,7 @@
       "end_pct": 0.232,
       "corner_length_pct": 0.037,
       "corner_length_m": 214.6,
-      "labels": [
-        "T1",
-        "T2"
-      ]
+      "labels": []
     },
     {
       "name": "Brooklands",
@@ -105,7 +110,10 @@
       "end_pct": 0.397,
       "corner_length_pct": 0.044,
       "corner_length_m": 255.2,
-      "labels": []
+      "labels": [
+        "T2",
+        "T3"
+      ]
     },
     {
       "name": "Woodcote",
@@ -121,9 +129,7 @@
       "end_pct": 0.559,
       "corner_length_pct": 0.059,
       "corner_length_m": 342.2,
-      "labels": [
-        "T4"
-      ]
+      "labels": []
     },
     {
       "name": "Maggots",
@@ -163,7 +169,9 @@
       "end_pct": 0.947,
       "corner_length_pct": 0.023,
       "corner_length_m": 133.4,
-      "labels": []
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Club",
@@ -176,76 +184,40 @@
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.007328,
-      "apex_pct": 0.021495,
-      "end_pct": 0.042501,
-      "strength": 0.024253
+      "start_pct": 0.157303,
+      "apex_pct": 0.175379,
+      "end_pct": 0.251588,
+      "strength": 0.005309
     },
     {
-      "start_pct": 0.067416,
-      "apex_pct": 0.080606,
-      "end_pct": 0.09233,
-      "strength": 0.009995
+      "start_pct": 0.294089,
+      "apex_pct": 0.340987,
+      "end_pct": 0.369809,
+      "strength": 0.022825
     },
     {
-      "start_pct": 0.15828,
-      "apex_pct": 0.170493,
-      "end_pct": 0.182218,
-      "strength": 0.010043
+      "start_pct": 0.383,
+      "apex_pct": 0.40254,
+      "end_pct": 0.441622,
+      "strength": 0.019724
     },
     {
-      "start_pct": 0.346849,
-      "apex_pct": 0.413288,
-      "end_pct": 0.443576,
-      "strength": 0.010929
+      "start_pct": 0.676111,
+      "apex_pct": 0.686859,
+      "end_pct": 0.69956,
+      "strength": 0.010708
     },
     {
-      "start_pct": 0.452858,
-      "apex_pct": 0.473864,
-      "end_pct": 0.525159,
-      "strength": 0.013963
+      "start_pct": 0.713727,
+      "apex_pct": 0.729849,
+      "end_pct": 0.763068,
+      "strength": 0.023722
     },
     {
-      "start_pct": 0.487054,
-      "apex_pct": 0.500733,
-      "end_pct": 0.523205,
-      "strength": 0.015243
-    },
-    {
-      "start_pct": 0.538349,
-      "apex_pct": 0.604787,
-      "end_pct": 0.633122,
-      "strength": 0.012027
-    },
-    {
-      "start_pct": 0.735222,
-      "apex_pct": 0.743527,
-      "end_pct": 0.751343,
-      "strength": 0.154728
-    },
-    {
-      "start_pct": 0.760625,
-      "apex_pct": 0.769907,
-      "end_pct": 0.779678,
-      "strength": 0.019638
-    },
-    {
-      "start_pct": 0.785051,
-      "apex_pct": 0.794822,
+      "start_pct": 0.707865,
+      "apex_pct": 0.788959,
       "end_pct": 0.804104,
-      "strength": 0.019586
-    },
-    {
-      "start_pct": 0.829995,
-      "apex_pct": 0.838788,
-      "end_pct": 0.847582,
-      "strength": 0.146121
-    },
-    {
-      "start_pct": 0.81192,
-      "apex_pct": 0.89106,
-      "end_pct": 1.0,
-      "strength": 0.028859
+      "strength": 0.008123
     }
   ],
   "youtube_summary": {},

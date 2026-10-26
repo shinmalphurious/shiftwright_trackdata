@@ -3,62 +3,68 @@
   "knowledge_level": "named",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 1639.9,
       "y": 802.03,
-      "lap_pct": 0.1709
+      "lap_pct": 0.1738
     },
     {
       "label": "T2",
       "number": 2,
       "x": 1409.78,
       "y": 865.58,
-      "lap_pct": 0.2461
+      "lap_pct": 0.25
     },
     {
       "label": "T3",
       "number": 3,
       "x": 1315.74,
       "y": 806.14,
-      "lap_pct": 0.2861
+      "lap_pct": 0.2881
     },
     {
       "label": "T4",
       "number": 4,
       "x": 1251.36,
       "y": 807.19,
-      "lap_pct": 0.293
+      "lap_pct": 0.3105
     },
     {
       "label": "T5",
       "number": 5,
       "x": 1073.81,
       "y": 778.25,
-      "lap_pct": 0.3564
+      "lap_pct": 0.3584
     },
     {
       "label": "T6",
       "number": 6,
       "x": 1015.39,
       "y": 825.0,
-      "lap_pct": 0.3682
+      "lap_pct": 0.3701
     },
     {
       "label": "T7",
       "number": 7,
       "x": 798.64,
       "y": 723.19,
-      "lap_pct": 0.4541
+      "lap_pct": 0.4551
     },
     {
       "label": "T8",
       "number": 8,
       "x": 891.17,
       "y": 356.71,
-      "lap_pct": 0.6172
+      "lap_pct": 0.6182
     },
     {
       "label": "T9",
@@ -72,7 +78,7 @@
       "number": 10,
       "x": 1380.75,
       "y": 112.24,
-      "lap_pct": 0.7861
+      "lap_pct": 0.7881
     },
     {
       "label": "T11",
@@ -136,9 +142,7 @@
       "end_pct": 0.249,
       "corner_length_pct": 0.035,
       "corner_length_m": 142.1,
-      "labels": [
-        "T2"
-      ]
+      "labels": []
     },
     {
       "name": "The Esses",
@@ -239,46 +243,46 @@
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.045432,
-      "apex_pct": 0.057157,
-      "end_pct": 0.076698,
-      "strength": 0.011385
+      "start_pct": 0.041524,
+      "apex_pct": 0.053737,
+      "end_pct": 0.073766,
+      "strength": 0.011129
     },
     {
-      "start_pct": 0.133854,
-      "apex_pct": 0.147533,
-      "end_pct": 0.160234,
-      "strength": 0.042732
+      "start_pct": 0.128969,
+      "apex_pct": 0.142159,
+      "end_pct": 0.155838,
+      "strength": 0.038827
     },
     {
-      "start_pct": 0.194431,
-      "apex_pct": 0.226673,
-      "end_pct": 0.246702,
-      "strength": 0.033186
+      "start_pct": 0.186615,
+      "apex_pct": 0.221299,
+      "end_pct": 0.242306,
+      "strength": 0.029079
     },
     {
-      "start_pct": 0.328774,
-      "apex_pct": 0.367855,
-      "end_pct": 0.401563,
-      "strength": 0.00956
+      "start_pct": 0.326331,
+      "apex_pct": 0.362482,
+      "end_pct": 0.395213,
+      "strength": 0.009741
     },
     {
-      "start_pct": 0.570591,
-      "apex_pct": 0.581827,
-      "end_pct": 0.591597,
-      "strength": 0.024342
+      "start_pct": 0.572057,
+      "apex_pct": 0.583293,
+      "end_pct": 0.593063,
+      "strength": 0.023667
     },
     {
-      "start_pct": 0.660479,
-      "apex_pct": 0.682951,
+      "start_pct": 0.661944,
+      "apex_pct": 0.684416,
       "end_pct": 0.722521,
-      "strength": 0.052437
+      "strength": 0.05298
     },
     {
-      "start_pct": 0.656571,
+      "start_pct": 0.658036,
       "apex_pct": 0.742062,
-      "end_pct": 0.751832,
-      "strength": 0.022974
+      "end_pct": 0.75232,
+      "strength": 0.022866
     }
   ],
   "youtube_summary": {},

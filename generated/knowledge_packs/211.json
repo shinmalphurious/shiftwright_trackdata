@@ -6,6 +6,11 @@
     "length_m": 2600
   },
   "direction_known": true,
+  "centreline_check": {
+    "method": "previous (new axis failed the check)",
+    "ok": false,
+    "error": "skeleton too small"
+  },
   "turns": [
     {
       "label": "T1",

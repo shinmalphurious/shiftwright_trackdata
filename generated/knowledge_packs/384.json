@@ -3,13 +3,19 @@
   "knowledge_level": "geometry_only",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 1812.09,
       "y": 707.66,
-      "lap_pct": 0.208
+      "lap_pct": 0.209
     },
     {
       "label": "T2",
@@ -23,7 +29,7 @@
       "number": 3,
       "x": 80.01,
       "y": 320.93,
-      "lap_pct": 0.708
+      "lap_pct": 0.709
     },
     {
       "label": "T4",
@@ -37,21 +43,21 @@
   "generated_corner_regions": [
     {
       "start_pct": 0.0,
-      "apex_pct": 0.034196,
-      "end_pct": 0.097704,
-      "strength": 0.005459
+      "apex_pct": 0.027357,
+      "end_pct": 0.087934,
+      "strength": 0.005364
     },
     {
-      "start_pct": 0.417196,
-      "apex_pct": 0.494382,
-      "end_pct": 0.589155,
-      "strength": 0.005295
+      "start_pct": 0.418173,
+      "apex_pct": 0.486566,
+      "end_pct": 0.583293,
+      "strength": 0.0053
     },
     {
-      "start_pct": 0.919883,
+      "start_pct": 0.921348,
       "apex_pct": 0.939424,
       "end_pct": 1.0,
-      "strength": 0.006015
+      "strength": 0.005731
     }
   ],
   "youtube_summary": {},

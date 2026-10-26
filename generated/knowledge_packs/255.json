@@ -5,188 +5,194 @@
     "name": "Nuerburgring Grand-Prix-Strecke - BES/WEC",
     "length_m": 5060
   },
-  "direction_known": false,
+  "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 922.84,
       "y": 475.15,
-      "lap_pct": 0.0
+      "lap_pct": 0.1328
     },
     {
       "label": "T2",
       "number": 2,
       "x": 943.94,
       "y": 334.75,
-      "lap_pct": 0.0
+      "lap_pct": 0.1768
     },
     {
       "label": "T3",
       "number": 3,
       "x": 798.23,
       "y": 380.97,
-      "lap_pct": 0.0
+      "lap_pct": 0.2227
     },
     {
       "label": "T4",
       "number": 4,
       "x": 882.97,
       "y": 383.7,
-      "lap_pct": 0.0
+      "lap_pct": 0.2441
     },
     {
       "label": "T5",
       "number": 5,
       "x": 868.42,
       "y": 519.21,
-      "lap_pct": 0.002
+      "lap_pct": 0.2842
     },
     {
       "label": "T6",
       "number": 6,
       "x": 835.58,
       "y": 665.93,
-      "lap_pct": 0.1416
+      "lap_pct": 0.3467
     },
     {
       "label": "T7",
       "number": 7,
       "x": 858.6,
       "y": 724.01,
-      "lap_pct": 0.6582
+      "lap_pct": 0.3652
     },
     {
       "label": "T8",
       "number": 8,
       "x": 616.28,
       "y": 951.69,
-      "lap_pct": 0.457
+      "lap_pct": 0.4912
     },
     {
       "label": "T9",
       "number": 9,
       "x": 734.96,
       "y": 765.36,
-      "lap_pct": 0.6719
+      "lap_pct": 0.5684
     },
     {
       "label": "T10",
       "number": 10,
       "x": 719.47,
       "y": 681.6,
-      "lap_pct": 0.7793
+      "lap_pct": 0.5967
     },
     {
       "label": "T11",
       "number": 11,
       "x": 794.73,
       "y": 473.5,
-      "lap_pct": 0.0
+      "lap_pct": 0.6807
     },
     {
       "label": "T12",
       "number": 12,
       "x": 692.83,
       "y": 399.03,
-      "lap_pct": 0.9697
+      "lap_pct": 0.7197
     },
     {
       "label": "T13",
       "number": 13,
       "x": 885.8,
       "y": 221.02,
-      "lap_pct": 0.0
+      "lap_pct": 0.8076
     },
     {
       "label": "T14",
       "number": 14,
       "x": 1119.14,
       "y": 166.45,
-      "lap_pct": 0.0
+      "lap_pct": 0.8916
     },
     {
       "label": "T15",
       "number": 15,
       "x": 1121.17,
       "y": 107.22,
-      "lap_pct": 0.0
+      "lap_pct": 0.9062
     },
     {
       "label": "T16",
       "number": 16,
       "x": 1280.43,
       "y": 82.94,
-      "lap_pct": 0.0
+      "lap_pct": 0.9521
     }
   ],
   "named_corners": [],
   "generated_corner_regions": [
     {
-      "start_pct": 0.01319,
-      "apex_pct": 0.02296,
-      "end_pct": 0.116268,
-      "strength": 0.070901
+      "start_pct": 0.114802,
+      "apex_pct": 0.127015,
+      "end_pct": 0.138251,
+      "strength": 0.041413
     },
     {
-      "start_pct": 0.064485,
-      "apex_pct": 0.074744,
-      "end_pct": 0.103078,
-      "strength": 0.756033
+      "start_pct": 0.145579,
+      "apex_pct": 0.160723,
+      "end_pct": 0.172447,
+      "strength": 0.023448
     },
     {
-      "start_pct": 0.153884,
-      "apex_pct": 0.181729,
-      "end_pct": 0.331705,
-      "strength": 0.063722
+      "start_pct": 0.246214,
+      "apex_pct": 0.276014,
+      "end_pct": 0.290181,
+      "strength": 0.048462
     },
     {
-      "start_pct": 0.373229,
-      "apex_pct": 0.383,
-      "end_pct": 0.393747,
-      "strength": 1.184755
+      "start_pct": 0.308256,
+      "apex_pct": 0.3234,
+      "end_pct": 0.343918,
+      "strength": 0.029472
     },
     {
-      "start_pct": 0.451881,
-      "apex_pct": 0.460186,
-      "end_pct": 0.478261,
-      "strength": 0.238076
+      "start_pct": 0.3532,
+      "apex_pct": 0.36297,
+      "end_pct": 0.371764,
+      "strength": 0.06671
     },
     {
-      "start_pct": 0.529555,
-      "apex_pct": 0.539326,
-      "end_pct": 0.549585,
-      "strength": 0.06186
+      "start_pct": 0.52809,
+      "apex_pct": 0.5447,
+      "end_pct": 0.559355,
+      "strength": 0.035103
     },
     {
-      "start_pct": 0.553004,
-      "apex_pct": 0.563263,
-      "end_pct": 0.573034,
-      "strength": 0.062161
+      "start_pct": 0.581339,
+      "apex_pct": 0.601368,
+      "end_pct": 0.611138,
+      "strength": 0.026654
     },
     {
-      "start_pct": 0.576942,
-      "apex_pct": 0.586712,
-      "end_pct": 0.596971,
-      "strength": 0.061799
+      "start_pct": 0.684416,
+      "apex_pct": 0.694675,
+      "end_pct": 0.709331,
+      "strength": 0.010759
     },
     {
-      "start_pct": 0.600391,
-      "apex_pct": 0.61065,
-      "end_pct": 0.760625,
-      "strength": 0.062236
+      "start_pct": 0.768442,
+      "apex_pct": 0.782609,
+      "end_pct": 0.794333,
+      "strength": 0.029931
     },
     {
-      "start_pct": 0.712262,
-      "apex_pct": 0.862237,
-      "end_pct": 1.0,
-      "strength": 0.07842
+      "start_pct": 0.812408,
+      "apex_pct": 0.822667,
+      "end_pct": 0.832438,
+      "strength": 0.030908
     },
     {
-      "start_pct": 0.93405,
-      "apex_pct": 0.945286,
-      "end_pct": 0.956033,
-      "strength": 0.144346
+      "start_pct": 0.899365,
+      "apex_pct": 0.931607,
+      "end_pct": 0.944309,
+      "strength": 0.017701
     }
   ],
   "youtube_summary": {},

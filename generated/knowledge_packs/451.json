@@ -5,105 +5,111 @@
     "name": "Rudskogen Motorsenter",
     "length_m": 3150
   },
-  "direction_known": false,
+  "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 425.91,
       "y": 776.87,
-      "lap_pct": 0.0186
+      "lap_pct": 0.1191
     },
     {
       "label": "T2",
       "number": 2,
       "x": 329.27,
       "y": 860.26,
-      "lap_pct": 0.335
+      "lap_pct": 0.1602
     },
     {
       "label": "T3",
       "number": 3,
       "x": 953.16,
       "y": 125.71,
-      "lap_pct": 0.0098
+      "lap_pct": 0.3799
     },
     {
       "label": "T4",
       "number": 4,
       "x": 1068.14,
       "y": 231.08,
-      "lap_pct": 0.0
+      "lap_pct": 0.4268
     },
     {
       "label": "T5",
       "number": 5,
       "x": 881.07,
       "y": 425.66,
-      "lap_pct": 0.0
+      "lap_pct": 0.4922
     },
     {
       "label": "T6",
       "number": 6,
       "x": 790.91,
       "y": 467.95,
-      "lap_pct": 0.0
+      "lap_pct": 0.5039
     },
     {
       "label": "T7",
       "number": 7,
       "x": 724.64,
       "y": 608.68,
-      "lap_pct": 0.0
+      "lap_pct": 0.542
     },
     {
       "label": "T8",
       "number": 8,
       "x": 763.25,
       "y": 673.11,
-      "lap_pct": 0.0
+      "lap_pct": 0.5762
     },
     {
       "label": "T9",
       "number": 9,
       "x": 906.17,
       "y": 576.22,
-      "lap_pct": 0.0
+      "lap_pct": 0.6143
     },
     {
       "label": "T10",
       "number": 10,
       "x": 1190.3,
       "y": 336.22,
-      "lap_pct": 0.0
+      "lap_pct": 0.6855
     },
     {
       "label": "T11",
       "number": 11,
       "x": 1132.36,
       "y": 548.35,
-      "lap_pct": 0.0
+      "lap_pct": 0.7529
     },
     {
       "label": "T12",
       "number": 12,
       "x": 1101.36,
       "y": 692.92,
-      "lap_pct": 0.0
+      "lap_pct": 0.7822
     },
     {
       "label": "T13",
       "number": 13,
       "x": 1317.57,
       "y": 699.18,
-      "lap_pct": 0.0
+      "lap_pct": 0.834
     },
     {
       "label": "T14",
       "number": 14,
       "x": 1483.89,
       "y": 689.08,
-      "lap_pct": 0.0
+      "lap_pct": 0.875
     }
   ],
   "named_corners": [
@@ -113,7 +119,9 @@
       "end_pct": 0.125,
       "corner_length_pct": 0.033,
       "corner_length_m": 104.0,
-      "labels": []
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Turn 2",
@@ -121,7 +129,9 @@
       "end_pct": 0.22,
       "corner_length_pct": 0.088,
       "corner_length_m": 277.2,
-      "labels": []
+      "labels": [
+        "T2"
+      ]
     },
     {
       "name": "Turn 3",
@@ -129,7 +139,9 @@
       "end_pct": 0.407,
       "corner_length_pct": 0.083,
       "corner_length_m": 261.4,
-      "labels": []
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Turn 4",
@@ -137,7 +149,9 @@
       "end_pct": 0.456,
       "corner_length_pct": 0.048,
       "corner_length_m": 151.2,
-      "labels": []
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Turn 5",
@@ -145,7 +159,9 @@
       "end_pct": 0.499,
       "corner_length_pct": 0.029,
       "corner_length_m": 91.4,
-      "labels": []
+      "labels": [
+        "T5"
+      ]
     },
     {
       "name": "Turn 6",
@@ -153,7 +169,9 @@
       "end_pct": 0.527,
       "corner_length_pct": 0.027,
       "corner_length_m": 85.1,
-      "labels": []
+      "labels": [
+        "T6"
+      ]
     },
     {
       "name": "Turn 7",
@@ -161,7 +179,9 @@
       "end_pct": 0.552,
       "corner_length_pct": 0.024,
       "corner_length_m": 75.6,
-      "labels": []
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Turn 8",
@@ -169,7 +189,9 @@
       "end_pct": 0.598,
       "corner_length_pct": 0.045,
       "corner_length_m": 141.7,
-      "labels": []
+      "labels": [
+        "T8"
+      ]
     },
     {
       "name": "Turn 9",
@@ -177,7 +199,9 @@
       "end_pct": 0.642,
       "corner_length_pct": 0.043,
       "corner_length_m": 135.5,
-      "labels": []
+      "labels": [
+        "T9"
+      ]
     },
     {
       "name": "Turn 10",
@@ -185,7 +209,9 @@
       "end_pct": 0.729,
       "corner_length_pct": 0.058,
       "corner_length_m": 182.7,
-      "labels": []
+      "labels": [
+        "T10"
+      ]
     },
     {
       "name": "Turn 11",
@@ -193,7 +219,9 @@
       "end_pct": 0.774,
       "corner_length_pct": 0.035,
       "corner_length_m": 110.3,
-      "labels": []
+      "labels": [
+        "T11"
+      ]
     },
     {
       "name": "Turn 12",
@@ -201,7 +229,9 @@
       "end_pct": 0.819,
       "corner_length_pct": 0.044,
       "corner_length_m": 138.6,
-      "labels": []
+      "labels": [
+        "T12"
+      ]
     },
     {
       "name": "Turn 13",
@@ -209,7 +239,9 @@
       "end_pct": 0.854,
       "corner_length_pct": 0.034,
       "corner_length_m": 107.1,
-      "labels": []
+      "labels": [
+        "T13"
+      ]
     },
     {
       "name": "Turn 14",
@@ -217,63 +249,65 @@
       "end_pct": 0.95,
       "corner_length_pct": 0.095,
       "corner_length_m": 299.2,
-      "labels": []
+      "labels": [
+        "T14"
+      ]
     }
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.063508,
-      "apex_pct": 0.107963,
-      "end_pct": 0.203224,
-      "strength": 0.097821
+      "start_pct": 0.004397,
+      "apex_pct": 0.063508,
+      "end_pct": 0.072301,
+      "strength": 0.017497
     },
     {
-      "start_pct": 0.230093,
-      "apex_pct": 0.334636,
+      "start_pct": 0.252565,
+      "apex_pct": 0.341964,
       "end_pct": 0.351246,
-      "strength": 0.100872
+      "strength": 0.01336
     },
     {
-      "start_pct": 0.387396,
-      "apex_pct": 0.399609,
-      "end_pct": 0.440645,
-      "strength": 0.092897
+      "start_pct": 0.385442,
+      "apex_pct": 0.395213,
+      "end_pct": 0.404983,
+      "strength": 0.020274
     },
     {
-      "start_pct": 0.453346,
-      "apex_pct": 0.463605,
-      "end_pct": 0.510992,
-      "strength": 0.083483
+      "start_pct": 0.41915,
+      "apex_pct": 0.432829,
+      "end_pct": 0.44895,
+      "strength": 0.003793
     },
     {
-      "start_pct": 0.518319,
-      "apex_pct": 0.541768,
-      "end_pct": 0.576942,
-      "strength": 0.071347
+      "start_pct": 0.468979,
+      "apex_pct": 0.482658,
+      "end_pct": 0.49829,
+      "strength": 0.023226
     },
     {
-      "start_pct": 0.583293,
-      "apex_pct": 0.593552,
-      "end_pct": 0.743527,
-      "strength": 0.050498
+      "start_pct": 0.587201,
+      "apex_pct": 0.622374,
+      "end_pct": 0.658036,
+      "strength": 0.013922
     },
     {
-      "start_pct": 0.691744,
-      "apex_pct": 0.70298,
-      "end_pct": 0.736688,
-      "strength": 0.287038
+      "start_pct": 0.586224,
+      "apex_pct": 0.695652,
+      "end_pct": 0.707377,
+      "strength": 0.012262
     },
     {
-      "start_pct": 0.622863,
-      "apex_pct": 0.72936,
-      "end_pct": 0.77235,
-      "strength": 0.168221
+      "start_pct": 0.735222,
+      "apex_pct": 0.748412,
+      "end_pct": 0.779189,
+      "strength": 0.011783
     },
     {
-      "start_pct": 0.829018,
-      "apex_pct": 0.978994,
-      "end_pct": 1.0,
-      "strength": 0.111916
+      "start_pct": 0.73278,
+      "apex_pct": 0.799218,
+      "end_pct": 0.817294,
+      "strength": 0.007811
     }
   ],
   "youtube_summary": {},

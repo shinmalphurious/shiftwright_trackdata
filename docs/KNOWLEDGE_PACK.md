@@ -11,6 +11,11 @@ All coordinates are SVG space (`viewBox 0 0 1920 1080`) of `racing-track-maps-ve
 
 `lap_pct,x,y`, 1025 rows, first row == last row (closed loop).
 Built by `src/pipelines/build_centreline_library.py` from `axes_normalized/` + `start-finish.svg` + `turns.svg`.
+The axis is the centre of the active.svg ribbon (`src/geometry/ribbon_axis.py`, since 2026-10-26): even-odd
+fill of the outer and inner outlines, spur pruning, a heading-following loop trace and 15 px smoothing. It is
+published only when at most 2 % of its points lie off the ribbon and it covers 95 % of it (393 of 424
+layouts; the other 31 keep their previous axis, flagged in `centreline_check`). Checked against GPS laps:
+Spa 6.6 m, Red Bull Ring 4.5 m, Le Mans 11.7 m median (the previous axes: 169 m, 5.3 m, 14.6 m).
 
 ## `generated/turn_markers/<track_id>.json`
 
@@ -29,6 +34,7 @@ Built by `src/pipelines/build_centreline_library.py` from `axes_normalized/` + `
 | `knowledge_level` | `named` (has named corners) or `geometry_only` |
 | `metadata` | `{name, length_m}` (may be empty) |
 | `direction_known`, `turns` | Copied from turn markers |
+| `centreline_check` | `{method, off_track_share, coverage, ok}` from `generated/axes/axis_quality.json`; `ok: false` means the centreline is approximate for this layout |
 | `named_corners[]` | `{name, start_pct, end_pct, labels[], ...}`; `labels` = turns inside the range (empty if direction unknown) |
 | `generated_corner_regions[]` | Curvature-detected `{start_pct, apex_pct, end_pct, strength}` |
 | `youtube_summary`, `turn_consensus` | YouTube enrichment (sparse) |

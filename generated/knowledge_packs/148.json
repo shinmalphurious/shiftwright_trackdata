@@ -3,62 +3,68 @@
   "knowledge_level": "named",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 969.06,
       "y": 44.85,
-      "lap_pct": 0.8232
+      "lap_pct": 0.1465
     },
     {
       "label": "T2",
       "number": 2,
       "x": 872.66,
       "y": 414.67,
-      "lap_pct": 0.8232
+      "lap_pct": 0.2656
     },
     {
       "label": "T3",
       "number": 3,
       "x": 695.1,
       "y": 483.49,
-      "lap_pct": 0.0
+      "lap_pct": 0.3203
     },
     {
       "label": "T4",
       "number": 4,
       "x": 943.88,
       "y": 591.78,
-      "lap_pct": 0.8252
+      "lap_pct": 0.4648
     },
     {
       "label": "T5",
       "number": 5,
       "x": 823.94,
       "y": 650.77,
-      "lap_pct": 0.9209
+      "lap_pct": 0.5283
     },
     {
       "label": "T6",
       "number": 6,
       "x": 745.95,
       "y": 670.39,
-      "lap_pct": 0.9648
+      "lap_pct": 0.5508
     },
     {
       "label": "T7",
       "number": 7,
       "x": 639.47,
       "y": 980.46,
-      "lap_pct": 0.2432
+      "lap_pct": 0.708
     },
     {
       "label": "T8",
       "number": 8,
       "x": 444.27,
       "y": 878.67,
-      "lap_pct": 0.4277
+      "lap_pct": 0.8105
     }
   ],
   "named_corners": [
@@ -76,7 +82,9 @@
       "end_pct": 0.174,
       "corner_length_pct": 0.045,
       "corner_length_m": 189.4,
-      "labels": []
+      "labels": [
+        "T1"
+      ]
     },
     {
       "name": "Hugenholzbocht",
@@ -92,7 +100,9 @@
       "end_pct": 0.357,
       "corner_length_pct": 0.052,
       "corner_length_m": 218.9,
-      "labels": []
+      "labels": [
+        "T3"
+      ]
     },
     {
       "name": "Scheivlak",
@@ -100,9 +110,7 @@
       "end_pct": 0.438,
       "corner_length_pct": 0.068,
       "corner_length_m": 286.3,
-      "labels": [
-        "T8"
-      ]
+      "labels": []
     },
     {
       "name": "Mastersbocht",
@@ -110,7 +118,9 @@
       "end_pct": 0.522,
       "corner_length_pct": 0.062,
       "corner_length_m": 261.0,
-      "labels": []
+      "labels": [
+        "T4"
+      ]
     },
     {
       "name": "Bocht 9",
@@ -118,7 +128,10 @@
       "end_pct": 0.555,
       "corner_length_pct": 0.032,
       "corner_length_m": 134.7,
-      "labels": []
+      "labels": [
+        "T5",
+        "T6"
+      ]
     },
     {
       "name": "Bocht 10",
@@ -134,7 +147,9 @@
       "end_pct": 0.772,
       "corner_length_pct": 0.066,
       "corner_length_m": 277.9,
-      "labels": []
+      "labels": [
+        "T7"
+      ]
     },
     {
       "name": "Kumho",
@@ -143,9 +158,7 @@
       "corner_length_pct": 0.045,
       "corner_length_m": 189.4,
       "labels": [
-        "T1",
-        "T2",
-        "T4"
+        "T8"
       ]
     },
     {
@@ -154,89 +167,45 @@
       "end_pct": 0.93,
       "corner_length_pct": 0.08,
       "corner_length_m": 336.8,
-      "labels": [
-        "T5"
-      ]
+      "labels": []
     }
   ],
   "generated_corner_regions": [
     {
-      "start_pct": 0.011724,
-      "apex_pct": 0.023449,
-      "end_pct": 0.063019,
-      "strength": 0.015745
+      "start_pct": 0.104055,
+      "apex_pct": 0.126038,
+      "end_pct": 0.142648,
+      "strength": 0.017647
     },
     {
-      "start_pct": 0.01319,
-      "apex_pct": 0.163166,
-      "end_pct": 0.202247,
-      "strength": 0.012083
+      "start_pct": 0.237909,
+      "apex_pct": 0.288227,
+      "end_pct": 0.297997,
+      "strength": 0.033958
     },
     {
-      "start_pct": 0.264289,
-      "apex_pct": 0.28383,
-      "end_pct": 0.400098,
-      "strength": 0.023486
+      "start_pct": 0.328774,
+      "apex_pct": 0.348315,
+      "end_pct": 0.398632,
+      "strength": 0.016238
     },
     {
-      "start_pct": 0.42892,
-      "apex_pct": 0.437714,
-      "end_pct": 0.447484,
-      "strength": 0.014474
+      "start_pct": 0.463605,
+      "apex_pct": 0.497313,
+      "end_pct": 0.510992,
+      "strength": 0.024858
     },
     {
-      "start_pct": 0.453835,
-      "apex_pct": 0.463117,
-      "end_pct": 0.473864,
-      "strength": 0.014426
-    },
-    {
-      "start_pct": 0.47533,
-      "apex_pct": 0.508061,
-      "end_pct": 0.518808,
-      "strength": 0.014496
-    },
-    {
-      "start_pct": 0.520274,
-      "apex_pct": 0.530532,
-      "end_pct": 0.540303,
-      "strength": 0.014478
-    },
-    {
-      "start_pct": 0.546654,
+      "start_pct": 0.540791,
       "apex_pct": 0.555936,
-      "end_pct": 0.565217,
-      "strength": 0.014459
+      "end_pct": 0.569126,
+      "strength": 0.017892
     },
     {
-      "start_pct": 0.582316,
-      "apex_pct": 0.591597,
-      "end_pct": 0.602345,
-      "strength": 0.014461
-    },
-    {
-      "start_pct": 0.609673,
-      "apex_pct": 0.644358,
-      "end_pct": 0.722521,
-      "strength": 0.03202
-    },
-    {
-      "start_pct": 0.737665,
-      "apex_pct": 0.748412,
-      "end_pct": 0.762091,
-      "strength": 0.06663
-    },
-    {
-      "start_pct": 0.84172,
-      "apex_pct": 0.850024,
-      "end_pct": 0.862726,
-      "strength": 0.183458
-    },
-    {
-      "start_pct": 0.913532,
-      "apex_pct": 0.924279,
-      "end_pct": 0.937469,
-      "strength": 0.129577
+      "start_pct": 0.653151,
+      "apex_pct": 0.687347,
+      "end_pct": 0.708354,
+      "strength": 0.02166
     }
   ],
   "youtube_summary": {},

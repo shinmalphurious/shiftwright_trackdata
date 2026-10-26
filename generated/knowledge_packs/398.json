@@ -3,6 +3,11 @@
   "knowledge_level": "geometry_only",
   "metadata": {},
   "direction_known": false,
+  "centreline_check": {
+    "method": "previous (new axis failed the check)",
+    "ok": false,
+    "error": "skeleton too small"
+  },
   "turns": [],
   "named_corners": [],
   "generated_corner_regions": [

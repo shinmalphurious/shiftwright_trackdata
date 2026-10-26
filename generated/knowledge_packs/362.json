@@ -3,67 +3,61 @@
   "knowledge_level": "geometry_only",
   "metadata": {},
   "direction_known": true,
+  "centreline_check": {
+    "method": "ribbon_axis",
+    "off_track_share": 0.0,
+    "coverage": 1.0,
+    "ok": true
+  },
   "turns": [
     {
       "label": "T1",
       "number": 1,
       "x": 1719.06,
       "y": 896.19,
-      "lap_pct": 0.126
+      "lap_pct": 0.1729
     },
     {
       "label": "T2",
       "number": 2,
       "x": 1633.25,
       "y": 145.85,
-      "lap_pct": 0.2588
+      "lap_pct": 0.3564
     },
     {
       "label": "T3",
       "number": 3,
       "x": 235.77,
       "y": 163.89,
-      "lap_pct": 0.4277
+      "lap_pct": 0.6631
     },
     {
       "label": "T4",
       "number": 4,
       "x": 249.88,
       "y": 919.11,
-      "lap_pct": 0.8896
+      "lap_pct": 0.8486
     }
   ],
   "named_corners": [],
   "generated_corner_regions": [
     {
-      "start_pct": 0.002443,
-      "apex_pct": 0.017587,
-      "end_pct": 0.146556,
-      "strength": 0.002826
+      "start_pct": 0.187103,
+      "apex_pct": 0.221788,
+      "end_pct": 0.232535,
+      "strength": 0.000996
     },
     {
-      "start_pct": 0.182706,
-      "apex_pct": 0.210552,
-      "end_pct": 0.221788,
-      "strength": 0.000954
+      "start_pct": 0.250611,
+      "apex_pct": 0.260381,
+      "end_pct": 0.269663,
+      "strength": 0.000956
     },
     {
-      "start_pct": 0.235467,
-      "apex_pct": 0.244748,
-      "end_pct": 0.25403,
-      "strength": 0.000866
-    },
-    {
-      "start_pct": 0.328774,
-      "apex_pct": 0.449438,
-      "end_pct": 0.599414,
-      "strength": 0.003209
-    },
-    {
-      "start_pct": 0.771861,
-      "apex_pct": 0.780166,
-      "end_pct": 0.787982,
-      "strength": 0.051084
+      "start_pct": 0.400098,
+      "apex_pct": 0.550073,
+      "end_pct": 0.631168,
+      "strength": 0.00317
     }
   ],
   "youtube_summary": {},
