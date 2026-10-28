@@ -1,0 +1,130 @@
+{
+  "track_id": 150,
+  "track": "Circuit Park Zandvoort - Nationaal - 2009",
+  "records": {
+    "150:T1:heavy_braking": {
+      "id": "150:T1:heavy_braking",
+      "track_id": 150,
+      "track": "Circuit Park Zandvoort - Nationaal - 2009",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after starting straight, typically requires heavy braking.",
+          "at": "2026-10-28T09:20:04+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:10:25+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit Zandvoort - Grand Prix",
+            "source_track_id": 485,
+            "corner": "T1",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 2,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "150:T4:fast_corner": {
+      "id": "150:T4:fast_corner",
+      "track_id": 150,
+      "track": "Circuit Park Zandvoort - Nationaal - 2009",
+      "corner": "T4",
+      "corner_name": "Scheivlak",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known as a fast corner on the Zandvoort circuit.",
+          "at": "2026-10-28T09:20:04+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:10:25+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit Zandvoort - Grand Prix",
+            "source_track_id": 485,
+            "corner": "T4",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

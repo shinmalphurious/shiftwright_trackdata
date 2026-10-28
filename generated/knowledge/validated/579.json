@@ -1,0 +1,30 @@
+{
+  "track_id": 579,
+  "track": "Circuit of the Americas - NASCAR West",
+  "records": {
+    "579:T11:slow_corner": {
+      "id": "579:T11:slow_corner",
+      "track_id": 579,
+      "track": "Circuit of the Americas - NASCAR West",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.9
+      },
+      "source_track": "Circuit of the Americas - West",
+      "source_track_id": 231,
+      "source_corner": "T12",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "231:T12:slow_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Slow corner at T11: inherited from Circuit of the Americas - West T12 (same corner, inheritance 1.00); Slow corner at T12: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

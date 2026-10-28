@@ -1,0 +1,27 @@
+{
+  "_about": "Settings for src/pipelines/enrich_corner_assignments.py. Command-line flags override them.",
+  "minimum_confidence": 0.75,
+  "max_passes": 3,
+  "confidence_decay_per_pass": 0.02,
+  "alias_requires_spoken_reference": true,
+  "_alias_requires_spoken_reference": "An alias places a note only when the note itself refers to the corner by that name (its spoken_as) and the name is said in the transcript. Speakers use named corners as reference points for their neighbours ('after Cunningham'), which misplaced 7 of 16 hidden notes without this.",
+  "calibrate": true,
+  "calibration_min_samples": 8,
+  "_calibrate": "Each run hides every third explicit note, enriches, and measures how often each method puts it back on the right corner. A method's confidence is then capped at that accuracy ((correct + 1) / (placed + 2)) when it was tried at least calibration_min_samples times. Calibration can only lower a confidence.",
+  "method_confidence": {
+    "explicit": 1.0,
+    "alias_match": 0.98,
+    "telemetry_match": 0.95,
+    "sequence_match": 0.93,
+    "lap_position": 0.9
+  },
+  "locate": {
+    "_about": "How a note is found back in its transcript. A whole note must share min_note_share of its words with 3 transcript lines; failing that, single fields of at least min_field_words words must share min_field_share with 3 lines, and the located fields must lie within max_field_spread_seconds of each other.",
+    "window_lines": 3,
+    "min_note_share": 0.35,
+    "min_field_words": 3,
+    "min_field_share": 0.6,
+    "max_field_spread_seconds": 30,
+    "context_seconds": 25
+  }
+}

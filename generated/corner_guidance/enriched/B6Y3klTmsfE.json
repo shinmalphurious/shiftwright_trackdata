@@ -1,0 +1,249 @@
+{
+  "video_id": "B6Y3klTmsfE",
+  "track_id": 18,
+  "track_name": "Road America - Full Course",
+  "title": "iRacing Porsche Cup Road America Guide 2:03.7 Porsche 992.2 Road America Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7109
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at grass alongside left, 45-55%.",
+      "gear": "4th",
+      "line": "Turn right, run over yellow and red curbing.",
+      "exit": "Exit wide, 100% throttle.",
+      "note_id": "B6Y3klTmsfE:0",
+      "text": "braking: Brake at grass alongside left, 45-55%.; gear: 4th; line: Turn right, run over yellow and red curbing.; exit: Exit wide, 100% throttle.",
+      "spoken_as": "first breaking marker",
+      "passage_time": "2:49",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "line": 0.67,
+          "exit": 0.75
+        }
+      },
+      "time": "2:54",
+      "snippet": "we get back alongside the grass, we are going to get on the brakes straight up to about 45 55% at a push. Trail it off,"
+    },
+    {
+      "braking": "Brake after orange Marshall's inlet, 50-55%.",
+      "gear": "3rd",
+      "line": "Turn right, tickle inside curb.",
+      "exit": "Exit wide, return to track before grass.",
+      "note_id": "B6Y3klTmsfE:1",
+      "text": "braking: Brake after orange Marshall's inlet, 50-55%.; gear: 3rd; line: Turn right, tickle inside curb.; exit: Exit wide, return to track before grass.",
+      "spoken_as": "turn three",
+      "passage_time": "2:49",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:40",
+      "snippet": "to that inside curb there. Exiting wide and making sure we return to the track before we end up in the grass.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at 400 meter board, 55%.",
+      "note_id": "B6Y3klTmsfE:2",
+      "text": "braking: Brake at 400 meter board, 55%.",
+      "spoken_as": "turn five",
+      "passage_time": "2:49",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:00",
+      "snippet": "this one. Uh, sorry, 400 meter board except its feet. Oh, my brain's gone to jelly. Right on the brakes about 55% all",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Past porta potty, 40% braking, trail braking",
+      "gear": "3rd",
+      "line": "Left tires on white concrete",
+      "exit": "Wide exit, left side",
+      "mistakes": "Go over corrugator",
+      "note_id": "B6Y3klTmsfE:3",
+      "text": "braking: Past porta potty, 40% braking, trail braking; gear: 3rd; line: Left tires on white concrete; exit: Wide exit, left side; mistakes: Go over corrugator",
+      "spoken_as": "turn six",
+      "passage_time": "4:09",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 1.0
+        }
+      },
+      "time": "4:24",
+      "snippet": "on the brakes as soon as we've gone past this porta potty from our um sort of peripheral vision. And it's just ahead",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "300 board, 55% braking",
+      "gear": "3rd",
+      "line": "Inside curb",
+      "exit": "Wide exit, left side",
+      "note_id": "B6Y3klTmsfE:4",
+      "text": "braking: 300 board, 55% braking; gear: 3rd; line: Inside curb; exit: Wide exit, left side",
+      "spoken_as": "turn number eight",
+      "passage_time": "4:09",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:12",
+      "snippet": "third gear attacking this inside curb. Exit nice and wide. Head over to the left hand side. Now we're going to do",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.418,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T11",
+        "estimated_pct": 0.5394,
+        "corner_pct": 0.5381,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T11",
+        "corners_between": [
+          "T7",
+          "T8",
+          "T9",
+          "T10"
+        ]
+      }
+    },
+    {
+      "braking": "100 board, 35%",
+      "gear": "lift, back on gas",
+      "line": "attack curb, grass",
+      "exit": "wide",
+      "note_id": "B6Y3klTmsfE:5",
+      "text": "braking: 100 board, 35%; gear: lift, back on gas; line: attack curb, grass; exit: wide",
+      "spoken_as": "Turn 11",
+      "passage_time": "5:26",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:53",
+      "snippet": "turn in just before the 100 board. We're going to do a lift down to about 35% and then back on the gas. And we're really",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "400, 55%",
+      "gear": "3rd",
+      "line": "right side, attack curb",
+      "exit": "wide, right side",
+      "note_id": "B6Y3klTmsfE:6",
+      "text": "braking: 400, 55%; gear: 3rd; line: right side, attack curb; exit: wide, right side",
+      "spoken_as": "Turn 12",
+      "passage_time": "5:26",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:31",
+      "snippet": "to third gear. Get over to the right hand side again. really attacking this curb. Just running over the very edge of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Get on the brakes to about 35%",
+      "gear": "Third",
+      "line": "Head over to the left hand side",
+      "exit": "Exit wide and easy",
+      "note_id": "B6Y3klTmsfE:7",
+      "text": "braking: Get on the brakes to about 35%; gear: Third; line: Head over to the left hand side; exit: Exit wide and easy",
+      "spoken_as": "Bill Mitchell Bend",
+      "passage_time": "6:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:58",
+      "snippet": "the left hand side and we're going to get on the brakes to about 35%. Long trail off back on the gas in third.",
+      "best_candidate": {
+        "corner_id": "T14",
+        "confidence": 0.381,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T12",
+        "before": "start/finish",
+        "estimated_pct": 0.9101,
+        "corner_pct": 0.9014,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T12",
+        "before": "start/finish",
+        "corners_between": [
+          "T13",
+          "T14"
+        ]
+      }
+    }
+  ]
+}

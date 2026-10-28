@@ -1,0 +1,161 @@
+{
+  "video_id": "zCm3azyHWSs",
+  "track_id": 212,
+  "track_name": "Autódromo José Carlos Pace - Grand Prix",
+  "title": "iRacing GR86 Interlagos Guide 1:48.7 Toyota GR86 Autodromo Jose Carlos Pace Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:07:12.889699+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "50 board, 80% brake, down to second",
+      "gear": "second",
+      "line": "cut the corner slightly",
+      "exit": "get straight back on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "80% brake, down to third",
+      "gear": "third",
+      "line": "cut the corner",
+      "exit": "exit nice and wide, flat out through turn five"
+    },
+    {
+      "label": null,
+      "spoken_as": "marshals at number 10",
+      "start_time": "1:16",
+      "sequence": 1,
+      "label_guess": "T10",
+      "braking": "brakes to about 40% short trail off",
+      "gear": "third",
+      "line": "cut that corner at the end",
+      "exit": "back on the gas"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "1:16",
+      "sequence": 1,
+      "braking": "brakes to about 70-75% short trail off",
+      "gear": "second",
+      "line": "cut that corner",
+      "exit": "flat out"
+    },
+    {
+      "label": null,
+      "spoken_as": "halfway along this paved section",
+      "start_time": "1:16",
+      "sequence": 1,
+      "label_guess": "T12",
+      "braking": "brakes to about 65-70%",
+      "gear": "second",
+      "exit": "back on the gas",
+      "mistakes": "braking any harder than 75%, maybe 80%"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next braking marker",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "Brake after 50 board, 80-85% pressure",
+      "gear": "2nd",
+      "line": "Turn left, use left kerb",
+      "exit": "Flat out, cut turn two"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:34",
+      "sequence": 2,
+      "line": "Reverse of turn two",
+      "exit": "Use right side of track",
+      "mistakes": "Not cutting the track"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "Brake after 100 board, 80% pressure",
+      "gear": "3rd",
+      "line": "Cut the corner",
+      "exit": "Full throttle, left tires on track",
+      "mistakes": "Not cutting the track"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn five",
+      "start_time": "3:52",
+      "sequence": 3,
+      "label_guess": "T5",
+      "braking": "cut the corner without hitting the grass on exit, flat",
+      "mistakes": "hitting the grass on exit"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:52",
+      "sequence": 3,
+      "braking": "brake up to 35-40%, shortest trail off, drop to third",
+      "gear": "third",
+      "line": "cut the corner, left-hand tires just on track",
+      "exit": "get back on gas alongside right-hand curbing"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:52",
+      "sequence": 3,
+      "braking": "brake for rumble strip",
+      "line": "cut rumble strip"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:52",
+      "sequence": 3,
+      "braking": "brake to 78%, trail off, cut corner",
+      "line": "left-hand tires just on track",
+      "exit": "start picking up gas at apex",
+      "mistakes": "not keeping left-hand tires on track"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "5:08",
+      "sequence": 4,
+      "braking": "brake at tree marker, 70-75%",
+      "line": "cut corner, left tires on track",
+      "exit": "progressive throttle, wide exit",
+      "mistakes": "driving into tree"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "5:08",
+      "sequence": 4,
+      "label_guess": "T11",
+      "braking": "brake halfway along right-hand side, 65%",
+      "gear": "drop to 3rd, then 2nd",
+      "line": "early apex",
+      "exit": "hug left side, run over curb"
+    }
+  ],
+  "general_tips": [
+    "take turn two absolutely flat",
+    "take turn three absolutely flat",
+    "keep it nice and tight over to the left-hand side",
+    "Cut the track for maximum width and speed"
+  ],
+  "dropped_ungrounded": 0
+}

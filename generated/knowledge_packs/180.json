@@ -337,5 +337,1478 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": "Old Hall Corner",
+      "videos": 3,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 6
+      },
+      "braking": [
+        {
+          "text": "Downshift to third gear, use all the road on the outside.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at start of jordanbikes.com advertising board",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break once I get to the marker here on the left",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake 15 to 20 meters after turn right sign",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "down to third before I apply the throttle again",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "downshift to 3rd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Third",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn in late, use all the apex curve available.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "cut the curb as much as you can",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Late apex to avoid left wall.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "use all track on entry",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Full throttle by the time you're in line with the green and white striped fence, run wide on exit.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "let the car walk out to the left side of the track",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "commit to throttle input",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Using too much of the grated section on exit can bog the car down.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "keep one set of wheels within the white line",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Avoid early apex, use astro turf carefully.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "don't use white line as edge of track",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at jordanbikes.com board, downshift to 3rd, use all track on entry, late apex, avoid left wall, run wide on exit, commit to throttle."
+    },
+    "T2": {
+      "name": "Denton's",
+      "videos": 2,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "just after the crest",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "downshift to second",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "flat out",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "brake on top of the crest",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake just after crest, not on top. Downshift to 2nd. Aim for flat exit."
+    },
+    "T3": {
+      "name": "Cascades",
+      "videos": 4,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 4
+      },
+      "braking": [
+        {
+          "text": "Brakes up to 45-50%, drop to 4th gear, up to 80-85% at exit",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break just before we get to the little jump in the road",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake at the little divot in the road.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "lift at the start",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4th",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "take a later Apex here and get all the way up on the curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Late apex to avoid right runoff.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn-in at dip, apex at 100%",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "apply the throttle again",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Exit wide",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "put too much of the car out there and now it's a track race",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Avoid early apex, avoid right runoff.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the road dip to 4th gear, lift briefly, then brake to 80-85% at exit. Take a late apex, exit wide, and apply throttle."
+    },
+    "T4": {
+      "name": "Island Bend",
+      "videos": 4,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "sequence_match": 1,
+        "explicit": 4
+      },
+      "braking": [
+        {
+          "text": "break a little bit when I get to the road here on the right side of the track",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Trail off to almost nothing, then increase to 100% on the gas.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Instant lift to 4%, pick up gas at apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "not braking, rolling off the throttle",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4th",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "smooth lift and smooth steering input",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn-in at cones, apex at 4%",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "fast through the corner",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle at the end of apex curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "straight back onto the throttle",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "overload the front wheels, scrub the front wheels, push understeer, no grip for the hairpin",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Braking too hard causes understeer.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently to 4%, lift off, then accelerate hard. Smooth steering, turn-in at cones, apex at 4%, full throttle at apex curb."
+    },
+    "T5": {
+      "name": "Shell Oils Corner",
+      "videos": 4,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 5
+      },
+      "braking": [
+        {
+          "text": "brake in a straight line towards the outside of turn five",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "braking hard just before the tyre walls ends on the left",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake to 70% at end of tire wall, straight line to left",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break when past the tires on the left side",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Second",
+          "videos": 2,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "drop to 2nd",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "2",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn-in left, apex left, right edge on exit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get nice and tight to that set of walls",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "start picking on the gas where I am now",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "aim for the inside curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "back on the gas lightly on the brakes back on the gas in second give yourself room on the left hand side little lift back on the gas and then change it to third as we exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "trail off, get left tires on curb edge, right tires on right edge",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "getting off the brakes, picking up the throttle early",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "ease in the throttle again",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "careful with throttle pickup, turning as well",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "be too hard on the throttle causing oversteer",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "don't over brake",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard past the tire walls, 70% brake pressure, drop to 2nd gear. Turn left, apex left, exit right edge. Light throttle, trail off, curb left, edge right, change to 3rd."
+    },
+    "T6": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "legends"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "breaking really high into second gear",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "second",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cutting it nice and close",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "absolutely flat out",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard into T6, downshift to 2nd gear, cut the corner close, and exit flat out."
+    },
+    "T8": {
+      "name": "Britten's",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "running brakes to apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get off brakes, feed power back on",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to apex, then release brakes and accelerate smoothly."
+    },
+    "T10": {
+      "name": "Hislop's",
+      "videos": 1,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "100 board, 80% brake pressure, ease off to tire wall",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cut left, get close to tire wall",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "slowly apply throttle, aim for mid-track",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "be aggressive, car is unstable",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 100 board with 80% pressure, ease off near tire wall. Use 2nd gear. Cut left, hug tire wall. Exit slowly, aim for mid-track."
+    },
+    "T11": {
+      "name": "Hislop's",
+      "videos": 1,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "after tire wall",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "lift, cut curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "ease throttle in",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "car is unstable",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake after tire wall, use 3rd gear, lift and cut curb. Ease throttle on exit to avoid instability."
+    },
+    "T12": {
+      "name": "Knickerbrook",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "gear": [
+        {
+          "text": "1st, then 2nd",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "60%, lift down",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Use 1st gear, then 2nd. Exit at 60%, lift off the throttle."
+    },
+    "T14": {
+      "name": "Water Tower",
+      "videos": 1,
+      "cars": [
+        "legends"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "gear": [
+        {
+          "text": "fourth",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Use fourth gear."
+    },
+    "T15": {
+      "name": "Druids Corner",
+      "videos": 5,
+      "cars": [
+        "bmw_m2",
+        "legends"
+      ],
+      "notes_by_method": {
+        "explicit": 4,
+        "alias_match": 1
+      },
+      "braking": [
+        {
+          "text": "A little bit before the change of color in the asphalt, trail braking",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake to 35-40%, trail off, pick up gas after first curbs",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brakes to about 45% down to third gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "after turn 14",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "third",
+          "videos": 2,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "alias_match",
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "try and get your right-hand tires over that rumble strip",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn in after left curbing, apex on second curbs",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "cut left, get close to curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Double apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "exit nice and wide",
+          "videos": 2,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "alias_match",
+            "explicit"
+          ]
+        },
+        {
+          "text": "back to 100% by second curb, right tires over edge",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Hard on throttle all the way",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "apply throttle",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't go on the grass",
+          "videos": 2,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "alias_match",
+            "explicit"
+          ]
+        },
+        {
+          "text": "Breaking too late, off the track on the left hand side",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 45%, trail off, downshift to 3rd. Turn in after left curbing, apex on second curbs, double apex. Exit wide, right tires over edge, full throttle. Avoid grass."
+    },
+    "T16": {
+      "name": "Lodge Corner",
+      "videos": 3,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Halfway between right side and marshal's hut (22)",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake briefly to 90-95%, drop to 2nd gear",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at the sign for the last corner",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "5 to 2",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn in late, avoid grass on left",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "patient with throttle, track cambered, light rear tires",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Throttle at apex, right tires over curbing",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "turn in too early, lose time and drive up the hill",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 90-95% at the sign, drop to 2nd gear, turn in late to avoid grass. Throttle gently at apex, use right curbing. Avoid early turn-in to prevent losing time."
+    },
+    "T17": {
+      "name": "Deer Leap",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "late apex, use all available track on the left",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "keep close to the left-hand side of the track",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Late apex at the left, use all track. Exit tight to the left."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 3
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T5": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T5: inherited from Oulton Park Circuit - Intl w/out Brittens T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 2 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+        "source_corner": "T5",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T16": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T16: inherited from Oulton Park Circuit - Intl w/out Brittens T13 (same corner, same approach, inheritance 1.00); Heavy braking zone at T13: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+        "source_corner": "T13",
+        "inheritance_confidence": 1.0
+      },
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.9,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Fast corner at T16: inherited from Oulton Park Circuit - Intl w/no Chicanes T11 (same corner, inheritance 1.00); Fast corner at T11: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/no Chicanes",
+        "source_corner": "T11",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T15": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.969,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T15: inherited from Oulton Park Circuit - Fosters w/Hislop T10 (same corner, same approach, inheritance 1.00); Heavy braking zone at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+        "source_corner": "T10",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

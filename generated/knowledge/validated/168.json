@@ -1,0 +1,97 @@
+{
+  "track_id": 168,
+  "track": "Suzuka International Racing Course - Grand Prix",
+  "records": {
+    "168:T11:slow_corner": {
+      "id": "168:T11:slow_corner",
+      "track_id": 168,
+      "track": "Suzuka International Racing Course - Grand Prix",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner length, likely tight turn",
+          "at": "2026-10-28T09:23:11+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:09:15+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Suzuka International Racing Course - Moto",
+            "source_track_id": 173,
+            "corner": "T11",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "168:T10:fast_corner": {
+      "id": "168:T10:fast_corner",
+      "track_id": 168,
+      "track": "Suzuka International Racing Course - Grand Prix",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.9
+      },
+      "source_track": "Suzuka International Racing Course - Moto",
+      "source_track_id": 173,
+      "source_corner": "T10",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "173:T10:fast_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Fast corner at T10: inherited from Suzuka International Racing Course - Moto T10 (same corner, inheritance 1.00); Fast corner at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

@@ -1,15 +1,42 @@
 {
   "track_id": 399,
   "layout": "399-mtwashington-reverse",
+  "name": "Mount Washington Hillclimb - Descent",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:06:46.759830+00:00",
+  "candidates_seen": 57,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 57,
+    "new_candidates": 56,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 56,
+    "rejection_reasons": {
+      "no guide words in title": 50,
+      "too long": 3,
+      "too short": 2,
+      "venue not in title": 1
+    }
+  },
   "selected_guides": {
     "vee": [
       {
-        "video_id": "6d7224VCi84",
-        "title": "iRacing Soapbox Derby at Mt. Washington!!!",
-        "description": "By having the option to descend down Mt. Washington, it only made sense to start a soapbox derby event in the Formula Vee.",
-        "video_type": "other",
+        "video_id": "M2A46wJkZq8",
+        "title": "Mt. Washington Hill Climb in the Formula Vee - iRacing Tutorial",
+        "description": "",
+        "channel": "Rocco Horvath",
+        "duration": 416,
+        "video_type": "lap_walkthrough",
         "car": "vee",
-        "quality_score": 120
+        "quality_score": 192,
+        "venue_confidence": 0.8
       }
     ]
   }

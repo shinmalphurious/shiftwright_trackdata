@@ -1,15 +1,151 @@
 {
   "track_id": 105,
   "layout": "105-phoenix-road",
+  "name": "[Legacy] Phoenix Raceway - 2008 - Road Course",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:18:50.741063+00:00",
+  "candidates_seen": 26,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 26,
+    "new_candidates": 16,
+    "accepted": 10,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 16,
+    "rejection_reasons": {
+      "no guide words in title": 7,
+      "too short": 4,
+      "too long": 4,
+      "venue not in title": 1
+    }
+  },
   "selected_guides": {
     "bmw_m2": [
       {
         "video_id": "idfsvgS1WzI",
         "title": "iRacing BMW M2 Phoenix Road Guide - 1:03.0 - M2 Phoenix Legacy Road Track Guide",
-        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our\u00a0...",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "bmw_m2",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "truck": [
+      {
+        "video_id": "7vzPtX9VYig",
+        "title": "iRacing | Trucks At Phoenix Raceway Track Guide 27.061",
+        "description": "iracing #truckseries #phoenixraceway #trackguide #simracing #videogames iRacing brings the truck series to Phoenix Raceway ...",
+        "channel": "TheGuitarGamer33",
+        "duration": 620,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "rallycross_beetle": [
+      {
+        "video_id": "8ur64EHY3oM",
+        "title": "iRacing Rallycross Track Guide | Phoenix RX | Volkswagen Beetle Lite",
+        "description": "Looking to dominate Phoenix RX in iRacing Rallycross? This guide breaks down everything you need to know to maximize ...",
+        "channel": "Kieran Liflander",
+        "duration": 304,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "fY4UspcNVFY",
+        "title": "iRacing Track Guides - NASCAR Next Gen at Phoenix Raceway",
+        "description": "",
+        "channel": "Jonathan Schwartz",
+        "duration": 295,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "7lHjecdA2Fs",
+        "title": "iRacing Maconi C-Fixed Trucks Phoenix Guide to Qualifying and Race 26S1",
+        "description": "iRacing NASCAR Series Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the Open ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 487,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      }
+    ],
+    "general": [
+      {
+        "video_id": "sCtSjevfpgs",
+        "title": "iRacing Skip Barber Phoenix International Raceway 2008 Road Course Track Guide (S4 2019)",
+        "description": "Welcome to my track guide for week 7 of the season at Phoenix International Raceway 2008 Road Course in the iRacing Skip ...",
+        "channel": "Kinduci",
+        "duration": 403,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "VYiHqr8doQg",
+        "title": "iRacing Track Guide Phoenix Raceway | Skip Barber | 1:06.146",
+        "description": "Join at www.iracing.com Join this channel: https://www.youtube.com/channel/UC12PJZcJYY3UDsRn56IDp2w/join Right then!",
+        "channel": "Tdi99",
+        "duration": 439,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "BMMBGz2IXR4",
+        "title": "iRacing Track Guide: B Fixed at Phoenix",
+        "description": "Music from GT Sport.",
+        "channel": "PDResh",
+        "duration": 752,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "oZ8rDesTDsY",
+        "title": "iRacing Track Guide | Phoenix Raceway| Xfinity Car",
+        "description": "Welcome to another exciting tutorial from Slingshot Racing League! In this video, we take you to the iconic Phoenix Raceway in ...",
+        "channel": "Slingshot Racing Media",
+        "duration": 173,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "w9XmFUB4bh0",
+        "title": "Iracing Arca Phoenix Race/Qualifying Tutorial",
+        "description": "",
+        "channel": "Jerrley34",
+        "duration": 1528,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 222,
+        "venue_confidence": 0.8
       }
     ]
   }

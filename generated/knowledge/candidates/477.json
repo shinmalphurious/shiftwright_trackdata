@@ -1,0 +1,668 @@
+{
+  "track_id": 477,
+  "track": "MotorLand Aragón - West",
+  "records": {
+    "477:T1:heavy_braking": {
+      "id": "477:T1:heavy_braking",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Official description mentions a sharp turn after the start-finish line.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T2:slow_corner": {
+      "id": "477:T2:slow_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a technical corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T3:slow_corner": {
+      "id": "477:T3:slow_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a technical corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T4:fast_corner": {
+      "id": "477:T4:fast_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a flowing corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T5:fast_corner": {
+      "id": "477:T5:fast_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a flowing corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T5: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T6:fast_corner": {
+      "id": "477:T6:fast_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a flowing corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T7:fast_corner": {
+      "id": "477:T7:fast_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a flowing corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T8:fast_corner": {
+      "id": "477:T8:fast_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a flowing corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T8: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T9:slow_corner": {
+      "id": "477:T9:slow_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a technical corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T9: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T10:slow_corner": {
+      "id": "477:T10:slow_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a technical corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T11:slow_corner": {
+      "id": "477:T11:slow_corner",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Positioning and nature of the track suggest a technical corner.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "477:T12:hairpin": {
+      "id": "477:T12:hairpin",
+      "track_id": 477,
+      "track": "MotorLand Aragón - West",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "hairpin",
+      "statement": "Hairpin",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Official description mentions a sharp hairpin.",
+          "at": "2026-10-28T09:59:13+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:47:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Hairpin at T12: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

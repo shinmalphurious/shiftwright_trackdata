@@ -1,0 +1,739 @@
+{
+  "track_id": 536,
+  "track": "Portland International Raceway - Full Circuit",
+  "records": {
+    "536:T1:heavy_braking": {
+      "id": "536:T1:heavy_braking",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically the first corner after a long straight, requiring heavy braking.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T1:slow_corner": {
+      "id": "536:T1:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner after heavy braking, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T2:slow_corner": {
+      "id": "536:T2:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following another corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T3:slow_corner": {
+      "id": "536:T3:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following another corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T4:fast_corner": {
+      "id": "536:T4:fast_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Longer corner that can be taken flat out.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T6:slow_corner": {
+      "id": "536:T6:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following another corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T7:flat_out": {
+      "id": "536:T7:flat_out",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight, typically flat out.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T8:fast_corner": {
+      "id": "536:T8:fast_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Longer corner that can be taken flat out.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T8: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T9:fast_corner": {
+      "id": "536:T9:fast_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Longer corner that can be taken flat out.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T9: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T10:slow_corner": {
+      "id": "536:T10:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following another corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T11:slow_corner": {
+      "id": "536:T11:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following another corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T12:slow_corner": {
+      "id": "536:T12:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following another corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:57:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T12: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "536:T5:slow_corner": {
+      "id": "536:T5:slow_corner",
+      "track_id": 536,
+      "track": "Portland International Raceway - Full Circuit",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short corner following a fast corner, usually slow.",
+          "at": "2026-10-28T10:08:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:59:03+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

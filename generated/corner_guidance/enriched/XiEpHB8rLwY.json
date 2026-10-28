@@ -1,0 +1,163 @@
+{
+  "video_id": "XiEpHB8rLwY",
+  "track_id": 181,
+  "track_name": "Oulton Park Circuit - Fosters",
+  "title": "Track Guide Oulton Park Fosters Mazda MX5 Rookie iRacing",
+  "car": "MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at banner, 55% pressure, off brake to middle of track",
+      "line": "Cut inside curb, roll into corner",
+      "exit": "Accelerate on exit, stay within white line",
+      "mistakes": "Avoid grass, car will bounce",
+      "note_id": "XiEpHB8rLwY:0",
+      "text": "braking: Brake at banner, 55% pressure, off brake to middle of track; line: Cut inside curb, roll into corner; exit: Accelerate on exit, stay within white line; mistakes: Avoid grass, car will bounce",
+      "spoken_as": "first corner",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "line": 0.8,
+          "mistakes": 0.75
+        }
+      },
+      "time": "0:14",
+      "snippet": "pressure of about 55% and we are using off the brake till we cross the middle of the track. Then we let the car roll"
+    },
+    {
+      "line": "Flat out",
+      "note_id": "XiEpHB8rLwY:1",
+      "text": "line: Flat out",
+      "spoken_as": "turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:31",
+      "snippet": "line. Turn two is going to be flat out. Just make sure to end up on the right side of the track for turn three. You",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Lift off throttle at dip",
+      "line": "Cut all inside curbing",
+      "exit": "Mid-track exit",
+      "note_id": "XiEpHB8rLwY:2",
+      "text": "braking: Lift off throttle at dip; line: Cut all inside curbing; exit: Mid-track exit",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:40",
+      "snippet": "we want to turn in and cut all of the inside curbing. We want to come out of turn three just about mid-track. So it's",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "80% pressure at fastest layout entrance",
+      "gear": "1st",
+      "line": "Turn in at inside curb, anti-cut curb",
+      "exit": "Ease in throttle to avoid understeer",
+      "mistakes": "Avoid going further than mid-track",
+      "note_id": "XiEpHB8rLwY:3",
+      "text": "braking: 80% pressure at fastest layout entrance; gear: 1st; line: Turn in at inside curb, anti-cut curb; exit: Ease in throttle to avoid understeer; mistakes: Avoid going further than mid-track",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8,
+          "line": 0.8,
+          "exit": 0.75,
+          "mistakes": 0.6
+        }
+      },
+      "time": "0:55",
+      "snippet": "fastest layout, which is the road here just in front of us. I aim for about 80% brake pressure, and we're easing that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake once over dust, 50%, ease off until first curve",
+      "line": "use inside curbing to help exit",
+      "exit": "full throttle before second curb",
+      "mistakes": "use outside curbing",
+      "note_id": "XiEpHB8rLwY:4",
+      "text": "braking: brake once over dust, 50%, ease off until first curve; line: use inside curbing to help exit; exit: full throttle before second curb; mistakes: use outside curbing",
+      "spoken_as": "turn eight",
+      "passage_time": "1:16",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:57",
+      "snippet": "before the second curb as well. We have a bit of outside curbing we can use to help us maximize our exit speed. Turn 9",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at hill top, 80%, ease off until emergency road",
+      "line": "close to inside curb",
+      "exit": "accelerate, ease in throttle",
+      "mistakes": "go on inside curb",
+      "note_id": "XiEpHB8rLwY:5",
+      "text": "braking: brake at hill top, 80%, ease off until emergency road; line: close to inside curb; exit: accelerate, ease in throttle; mistakes: go on inside curb",
+      "spoken_as": "turn 9",
+      "passage_time": "1:16",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:12",
+      "snippet": "an emergency road on the inside. You want to be as close to the inside curb as we can. If you go on it, it will",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

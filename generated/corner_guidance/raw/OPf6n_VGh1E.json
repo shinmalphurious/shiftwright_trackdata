@@ -1,0 +1,94 @@
+{
+  "video_id": "OPf6n_VGh1E",
+  "track_id": 142,
+  "track_name": "Summit Point Raceway - Jefferson Reverse",
+  "title": "Track Guide Summit Point Mazda MX5 Fixed iRacing",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:22:16.629229+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake hard at two cones, trail brake to curb",
+      "line": "follow repaved part around, touch curb",
+      "exit": "full throttle, get to right when repaved part stops",
+      "mistakes": "hitting curb too much unsettles car"
+    },
+    {
+      "label": null,
+      "spoken_as": "t three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T3",
+      "braking": "use tree as reference, brake to 40% when tree out of sight",
+      "line": "apex in middle, take some inside curb",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "touching gravel kills momentum"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "Feel when car is settled, brake hard initially, trail brake to curb",
+      "line": "Follow repaved part, apex where curb and repaved part meet",
+      "exit": "Ease in throttle after apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "6",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "Quick hit of brakes to 60%, trail brake to repaved part",
+      "line": "Follow repaved part, apex where curb and repaved part meet",
+      "exit": "Go on throttle after apex, smooth inputs"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "7",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Take a bit of curb, follow repaved part",
+      "exit": "Full throttle through"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn eight",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Get close to curb but do not touch, avoid grass on inside",
+      "mistakes": "Do not touch curb or grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn nine",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Turn in early for uphill curve",
+      "exit": "Use all curb on outside if necessary"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "patch of dirt on left, quick 50% brake, roll into curb",
+      "line": "turn in early, use curb on outside",
+      "exit": "apply throttle on curb, use asphalt and curb on outside",
+      "mistakes": "touching gravel loses momentum, car goes sideways"
+    }
+  ],
+  "general_tips": [
+    "good overtaking places: turn one and t three",
+    "for qual, be left for t one, right for t three",
+    "6 7 8 and 9 are essential for lap times"
+  ],
+  "dropped_ungrounded": 0
+}

@@ -1,0 +1,73 @@
+{
+  "track_id": 26,
+  "track": "Daytona International Speedway - Road Course - 2008",
+  "records": {
+    "26:T1:heavy_braking": {
+      "id": "26:T1:heavy_braking",
+      "track_id": 26,
+      "track": "Daytona International Speedway - Road Course - 2008",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically the first corner after the start requires heavy braking.",
+          "at": "2026-10-28T09:10:35+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:11+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T21:55:58+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Daytona International Speedway - Road Course",
+            "source_track_id": 192,
+            "corner": "T1",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

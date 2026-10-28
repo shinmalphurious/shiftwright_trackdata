@@ -1,0 +1,685 @@
+{
+  "track_id": 354,
+  "track": "Lime Rock Park - Chicanes",
+  "records": {
+    "354:T1:heavy_braking": {
+      "id": "354:T1:heavy_braking",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "704 m from the previous corner",
+          "at": "2026-10-28T09:45:45+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long distance to next corner suggests a braking zone",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.789
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); consensus 0.79 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T1:overtaking_zone": {
+      "id": "354:T1:overtaking_zone",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "704 m from the previous corner",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T1: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T11:important_exit": {
+      "id": "354:T11:important_exit",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "704 m to the next corner",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T11: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T4:important_exit": {
+      "id": "354:T4:important_exit",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long distance to next corner suggests a long acceleration stretch",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T5:chicane": {
+      "id": "354:T5:chicane",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner and lap position progression suggest a tight sequence",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Chicane at T5: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T6:chicane": {
+      "id": "354:T6:chicane",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner and lap position progression suggest a tight sequence",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Chicane at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T7:important_exit": {
+      "id": "354:T7:important_exit",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long distance to next corner suggests a long acceleration stretch",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T8:chicane": {
+      "id": "354:T8:chicane",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner and lap position progression suggest a tight sequence",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Chicane at T8: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T9:chicane": {
+      "id": "354:T9:chicane",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner and lap position progression suggest a tight sequence",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Chicane at T9: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T10:important_exit": {
+      "id": "354:T10:important_exit",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long distance to next corner suggests a long acceleration stretch",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:33:14+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T2:chicane": {
+      "id": "354:T2:chicane",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner and lap position progression suggest a tight sequence",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:36:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Chicane at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T3:chicane": {
+      "id": "354:T3:chicane",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner and lap position progression suggest a tight sequence",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:36:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Chicane at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "354:T11:flat_out": {
+      "id": "354:T11:flat_out",
+      "track_id": 354,
+      "track": "Lime Rock Park - Chicanes",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long distance to next corner suggests a long flat-out section",
+          "at": "2026-10-28T09:45:45+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:36:08+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T11: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

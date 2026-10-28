@@ -1,0 +1,162 @@
+{
+  "video_id": "eNayOOfgcNo",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRACING GT3 Oulton Park International TRACK GUIDE - 2022 Season 2 Week 8",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:42:29.079571+00:00",
+  "passages": 8,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:09",
+      "sequence": 1,
+      "braking": "brake 15 to 20 meters after turn right sign",
+      "line": "late apex",
+      "mistakes": "apexing too early"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "3:27",
+      "sequence": 2,
+      "line": "Late apex to avoid left wall.",
+      "mistakes": "Avoid early apex, use astro turf carefully."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "3:27",
+      "sequence": 2,
+      "braking": "Brake at the little divot in the road.",
+      "line": "Late apex to avoid right runoff.",
+      "mistakes": "Avoid early apex, avoid right runoff."
+    },
+    {
+      "label": null,
+      "spoken_as": "four",
+      "start_time": "4:44",
+      "sequence": 3,
+      "label_guess": "T4",
+      "braking": "not braking, rolling off the throttle",
+      "gear": "flat",
+      "line": "fast through the corner",
+      "exit": "straight back onto the throttle"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "the hairpin",
+      "start_time": "4:44",
+      "sequence": 3,
+      "braking": "braking hard just before the tyre walls ends on the left",
+      "exit": "getting off the brakes, picking up the throttle early",
+      "mistakes": "careful with throttle pickup, turning as well"
+    },
+    {
+      "label": null,
+      "spoken_as": "seven",
+      "start_time": "6:06",
+      "sequence": 4,
+      "label_guess": "T7",
+      "braking": "hard braking to the apex",
+      "line": "take the first left curb",
+      "exit": "feed power back on exit",
+      "mistakes": "bouncing the car, inducing locking"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "eight",
+      "start_time": "6:06",
+      "sequence": 4,
+      "braking": "running brakes to apex",
+      "exit": "get off brakes, feed power back on"
+    },
+    {
+      "label": null,
+      "spoken_as": "nine",
+      "start_time": "6:06",
+      "sequence": 4,
+      "label_guess": "T9",
+      "exit": "feed power back on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "100 meter board",
+      "start_time": "6:06",
+      "sequence": 4,
+      "label_guess": "T10",
+      "braking": "hard stop on 100 meter board",
+      "gear": "second gear",
+      "line": "not wanting to push out too wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "of 12",
+      "start_time": "7:25",
+      "sequence": 5,
+      "label_guess": "T12",
+      "braking": "Easy on the throttle pickup here",
+      "exit": "Getting hard on throttle driving out",
+      "mistakes": "Not pushing out too wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "13",
+      "start_time": "7:25",
+      "sequence": 5,
+      "label_guess": "T13",
+      "exit": "Flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "14",
+      "start_time": "7:25",
+      "sequence": 5,
+      "label_guess": "T14",
+      "exit": "Flat"
+    },
+    {
+      "label": "T15",
+      "spoken_as": "turn 15 for druids",
+      "start_time": "7:25",
+      "sequence": 5,
+      "braking": "A little bit before the change of color in the asphalt, trail braking",
+      "line": "Double apex",
+      "exit": "Hard on throttle all the way",
+      "mistakes": "Breaking too late, off the track on the left hand side"
+    },
+    {
+      "label": "T16",
+      "spoken_as": "turn 16",
+      "start_time": "8:42",
+      "sequence": 6,
+      "braking": "brake at the sign for the last corner",
+      "gear": "5 to 2",
+      "line": "turn in late, avoid grass on left",
+      "exit": "patient with throttle, track cambered, light rear tires",
+      "mistakes": "turn in too early, lose time and drive up the hill"
+    },
+    {
+      "label": "T17",
+      "spoken_as": "turn 17",
+      "start_time": "10:00",
+      "sequence": 7,
+      "line": "late apex, use all available track on the left",
+      "exit": "keep close to the left-hand side of the track"
+    }
+  ],
+  "general_tips": [
+    "use file chase cam to see brake lights and braking markers",
+    "Flat through turn three.",
+    "apexing really late here and still turning",
+    "trying not to use too much of that off track",
+    "coming into the hislops chicane",
+    "Maintain corner spinner momentum",
+    "Roll off the brakes a little bit early"
+  ],
+  "dropped_ungrounded": 1
+}

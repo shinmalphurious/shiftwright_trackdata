@@ -1,56 +1,36 @@
-import json
-from datetime import datetime,timezone
+"""Return items to ready_for_download before the next claim.
 
-queue = json.load(
-    open(
-        "generated/transcript_queue.json",
-        encoding="utf-8"
-    )
-)
+Runs at the start of every pipeline cycle, when no download is in progress, so:
+- claimed items are left over from an interrupted run and are released straight away;
+- rate_limited and failed items are released once their next_attempt has passed.
+"""
+import sys
+from datetime import datetime
+from pathlib import Path
 
-now = datetime.now(
-    timezone.utc
-)
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-released = 0
+from src.shared import transcript_queue as tq
 
-for item in queue:
 
-    if item["status"] != "rate_limited":
-        continue
+def due(item):
+    next_attempt = item.get("next_attempt")
+    return not next_attempt or datetime.fromisoformat(next_attempt) <= tq.now()
 
-    next_attempt = item.get(
-        "next_attempt"
-    )
 
-    if not next_attempt:
-        continue
+def main():
+    queue = tq.load()
+    released = 0
+    for item in queue:
+        stale_claim = item["status"] == "claimed"
+        retry = item["status"] in ("rate_limited", "failed") and due(item)
+        if stale_claim or retry:
+            item["status"] = "ready_for_download"
+            released += 1
+    tq.save(queue)
+    tq.clear_task()
+    print("released:", released)
 
-    retry_time = datetime.fromisoformat(
-        next_attempt
-    )
 
-    if retry_time <= now:
-
-        item["status"] = (
-            "ready_for_download"
-        )
-
-        released += 1
-
-with open(
-    "generated/transcript_queue.json",
-    "w",
-    encoding="utf-8"
-) as fp:
-
-    json.dump(
-        queue,
-        fp,
-        indent=2
-    )
-
-print(
-    "released:",
-    released
-)
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,57 @@
+{
+  "track_id": 249,
+  "track": "Nürburgring Nordschleife - Industriefahrten",
+  "records": {
+    "249:T13:slow_corner": {
+      "id": "249:T13:slow_corner",
+      "track_id": 249,
+      "track": "Nürburgring Nordschleife - Industriefahrten",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "T13 is known as a tight corner requiring significant braking and a slow entry speed.",
+          "at": "2026-10-28T09:35:27+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:22:12+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T13: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "video_id": "i7N7ylDPLYI",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Caterham 420R Zandvoort Guide 1:41.1 Caterham Zandvoort Grand Prix Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:22:37.323301+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:20",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at 100 board, 55% pressure, trail to 3rd gear",
+      "gear": "3rd",
+      "line": "Turn-in to curb, apex close to curb, exit wide",
+      "exit": "Accelerate to 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "start of this uh 88C um yellow holding on the left-hand side",
+      "start_time": "2:20",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "Brake at yellow holding board, 15% pressure",
+      "line": "Trail brake, remain on road, exit wide",
+      "exit": "Accelerate as soon as possible"
+    },
+    {
+      "label": null,
+      "spoken_as": "dip",
+      "start_time": "2:20",
+      "sequence": 1,
+      "label_guess": "T3",
+      "braking": "Brake at dip, 30% pressure",
+      "line": "High line, exit wide onto rumble strip",
+      "exit": "Accelerate as soon as possible"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:38",
+      "sequence": 2,
+      "braking": "flat",
+      "gear": "flat",
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "3:38",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "flat",
+      "gear": "flat",
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:38",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "brakes to about 40%",
+      "line": "all the way over to the left-hand side",
+      "mistakes": "hitting the sausage curb"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "3:38",
+      "sequence": 2,
+      "braking": "brake lightly",
+      "exit": "carry as much speed"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "4:55",
+      "sequence": 3,
+      "braking": "as close to porta potty, 30%",
+      "line": "trail off until pointing at cm.coms",
+      "exit": "slowly increase back on gas",
+      "mistakes": "could need correction on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "11-12 chicane",
+      "start_time": "4:55",
+      "sequence": 3,
+      "braking": "100 board, early"
+    },
+    {
+      "label": null,
+      "spoken_as": "this first cone",
+      "start_time": "6:13",
+      "sequence": 4,
+      "label_guess": "T12",
+      "braking": "Brake at 100 board, 55% trail off, then 10-15% trail off at Caterham cone curb.",
+      "line": "Use full camber without hitting gravel trap.",
+      "exit": "Slowly pick up gas.",
+      "mistakes": "Avoid hitting gravel trap."
+    },
+    {
+      "label": null,
+      "spoken_as": "final bit of braking",
+      "start_time": "6:13",
+      "sequence": 4,
+      "label_guess": "T13",
+      "braking": "Brake halfway between 50 board and left curb, 30% quick trail off.",
+      "gear": "Fourth",
+      "exit": "Get on gas early."
+    }
+  ],
+  "general_tips": [
+    "be aware of skittish exit and bumpy ride with high force feedback"
+  ],
+  "dropped_ungrounded": 0
+}

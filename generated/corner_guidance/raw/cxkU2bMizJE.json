@@ -1,0 +1,77 @@
+{
+  "video_id": "cxkU2bMizJE",
+  "track_id": 198,
+  "track_name": "Mobility Resort Motegi - Oval",
+  "title": "iRacing Indycar Twin Ring Motegi (Oval) Track Guide | Team I5G",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:41:53.222774+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "high arcing entry, bottom of the track"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "hold the white line, drift up out of the corner"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "break just past the hundred meter board",
+      "gear": "downshift to third gear",
+      "exit": "get on the throttle as soon as possible"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "this corner",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "Brake just past the 100 meter board.",
+      "line": "Hold the line, steer smoothly.",
+      "exit": "Roll off throttle on exit if behind another car.",
+      "mistakes": "Steer too much or too little, hit the wall."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "next corner",
+      "start_time": "1:21",
+      "sequence": 1,
+      "line": "Run a higher lane, sleep down low on exit.",
+      "exit": "Get slipstream on corner exit.",
+      "mistakes": "Pinned throttle, hit the wall."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn three",
+      "start_time": "2:38",
+      "sequence": 2,
+      "braking": "stay on brakes, let car glide on apron towards cones",
+      "mistakes": "don't overdrive turn three and four"
+    }
+  ],
+  "general_tips": [
+    "use in-car tools effectively",
+    "positive weight jacker helps if tight on entry",
+    "soften front arb on exit for better turn off",
+    "stiffen rear arb on exit for better turn off",
+    "motegi is essentially a one lane track",
+    "Be prepared for sudden loss of downforce.",
+    "Mitigate dirty air or aero push by running higher entry and sleeping down.",
+    "be active with your in-card tools",
+    "run the bottom",
+    "enable lift early and often in traffic"
+  ],
+  "dropped_ungrounded": 0
+}

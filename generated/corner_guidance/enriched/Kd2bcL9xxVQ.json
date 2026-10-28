@@ -1,0 +1,377 @@
+{
+  "video_id": "Kd2bcL9xxVQ",
+  "track_id": 123,
+  "track_name": "Chicagoland Speedway",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Chicagoland Speedway",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "line": "Turn in early and use the apron to set up for the banking.",
+      "mistakes": "Avoid using the grass as it adds stress to the right front tire.",
+      "note_id": "Kd2bcL9xxVQ:0",
+      "text": "line: Turn in early and use the apron to set up for the banking.; mistakes: Avoid using the grass as it adds stress to the right front tire.",
+      "spoken_as": "turn one",
+      "passage_time": "4:55",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:02",
+      "snippet": "stress to the right front when you're trying to progress from the banking up to or from the apron to the banking and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Look where stands end, brake before, close to wall",
+      "line": "Parallel to wall, turn-in just before stands end",
+      "note_id": "Kd2bcL9xxVQ:1",
+      "text": "braking: Look where stands end, brake before, close to wall; line: Parallel to wall, turn-in just before stands end",
+      "spoken_as": "turn one",
+      "passage_time": "6:15",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:21",
+      "snippet": "stands end, right? And I want to make sure I'm parallel with the wall as much as I can here and get as close to it",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake before the seam patch, lift before crossing it.",
+      "line": "Turn-in before the seam patch, apex around the white line.",
+      "exit": "Maintain partial throttle into the banking, watch for bumps.",
+      "mistakes": "Avoid lifting too early and using too much wheel input.",
+      "note_id": "Kd2bcL9xxVQ:2",
+      "text": "braking: Brake before the seam patch, lift before crossing it.; line: Turn-in before the seam patch, apex around the white line.; exit: Maintain partial throttle into the banking, watch for bumps.; mistakes: Avoid lifting too early and using too much wheel input.",
+      "spoken_as": "next braking marker",
+      "passage_time": "7:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.62,
+          "mistakes": 0.88
+        }
+      },
+      "time": "8:04",
+      "snippet": "want to be around this white line for the center of the corner to mid exit. Okay? And I'm putting the right front."
+    },
+    {
+      "line": "Hold partial throttle through the banking transition and maintain it until apex.",
+      "mistakes": "Adding too much wheel input to break the car free.",
+      "note_id": "Kd2bcL9xxVQ:3",
+      "text": "line: Hold partial throttle through the banking transition and maintain it until apex.; mistakes: Adding too much wheel input to break the car free.",
+      "spoken_as": "turn, that",
+      "passage_time": "8:53",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:41",
+      "snippet": "adding too much wheel input to break the car free. Okay? So, I'm trying to keep the car consistent, which is why I",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "Maintain full throttle after iRacing logo and billboard on right.",
+      "mistakes": "Opening the wheel up too early to the light.",
+      "note_id": "Kd2bcL9xxVQ:4",
+      "text": "exit: Maintain full throttle after iRacing logo and billboard on right.; mistakes: Opening the wheel up too early to the light.",
+      "spoken_as": "turn two",
+      "passage_time": "10:12",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:03",
+      "snippet": "iRacing logo and billboard on the right is when I'm actually back to full throttle opening obviously first three",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "Maintain line to safer barrier, peak exit near concrete wall.",
+      "note_id": "Kd2bcL9xxVQ:5",
+      "text": "exit: Maintain line to safer barrier, peak exit near concrete wall.",
+      "spoken_as": "turn two",
+      "passage_time": "11:30",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:14",
+      "snippet": "concrete wall is taller, right, than the safer barrier. So find this point on exit if you're running a low line to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Curve back to follow radius, lift off throttle, maintain partial throttle",
+      "exit": "Feel same quality centered exit as turn two",
+      "mistakes": "Watch for bumps, avoid hitting splitter",
+      "note_id": "Kd2bcL9xxVQ:6",
+      "text": "line: Curve back to follow radius, lift off throttle, maintain partial throttle; exit: Feel same quality centered exit as turn two; mistakes: Watch for bumps, avoid hitting splitter",
+      "spoken_as": "turn three",
+      "passage_time": "12:48",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:55",
+      "snippet": "for centered exit turn two. But on this side of track, we have more bumps on that we have to worry about. So, we're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "shallow entry up just a hair at the initial turn away from the wall",
+      "line": "pointed all the way down to this white line",
+      "exit": "keep the front and rear working together to hold your apex line",
+      "mistakes": "turn in too late and have to dump too much throttle out to get the front to turn",
+      "note_id": "Kd2bcL9xxVQ:7",
+      "text": "braking: shallow entry up just a hair at the initial turn away from the wall; line: pointed all the way down to this white line; exit: keep the front and rear working together to hold your apex line; mistakes: turn in too late and have to dump too much throttle out to get the front to turn",
+      "spoken_as": "turn three",
+      "passage_time": "14:04",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.8,
+          "exit": 0.62,
+          "mistakes": 1.0
+        }
+      },
+      "time": "14:40",
+      "snippet": "hair at the initial turn away from the wall, you're going to have a lot better ability to dictate the rate you need to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Before crossing the middle seam, start lifting phase",
+      "line": "Clip the white line where the billboards end, apex on the white line",
+      "exit": "Maintain momentum on exit, partial throttle",
+      "mistakes": "Too much throttle through bumps, throwing the car left or right",
+      "note_id": "Kd2bcL9xxVQ:8",
+      "text": "braking: Before crossing the middle seam, start lifting phase; line: Clip the white line where the billboards end, apex on the white line; exit: Maintain momentum on exit, partial throttle; mistakes: Too much throttle through bumps, throwing the car left or right",
+      "spoken_as": "turn four",
+      "passage_time": "15:22",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86,
+          "line": 0.83,
+          "mistakes": 0.78
+        }
+      },
+      "time": "15:35",
+      "snippet": "seam, I'm starting my lifting phase, and I'm partial throttle again, much like I was in turns one and two. I'm a little",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "close the throttle",
+      "line": "center of the track",
+      "exit": "wrap the bottom a little bit longer",
+      "mistakes": "get closer to the wall",
+      "note_id": "Kd2bcL9xxVQ:9",
+      "text": "braking: close the throttle; line: center of the track; exit: wrap the bottom a little bit longer; mistakes: get closer to the wall",
+      "spoken_as": "turn three",
+      "passage_time": "19:20",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "19:55",
+      "snippet": "track. Close the throttle. Wrapping the bottom a little bit longer. Really hard to wrap the bottom sometimes",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "run high line",
+      "exit": "maximize drive off",
+      "mistakes": "don't go to the wall through the bumps",
+      "note_id": "Kd2bcL9xxVQ:10",
+      "text": "line: run high line; exit: maximize drive off; mistakes: don't go to the wall through the bumps",
+      "spoken_as": "turns three and four",
+      "passage_time": "20:40",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:58",
+      "snippet": "the wall through the bumps. I want to give myself some room to let the front turn and I'm going to utilize doing that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "run high line",
+      "mistakes": "don't go to the wall through the bumps",
+      "note_id": "Kd2bcL9xxVQ:11",
+      "text": "line: run high line; mistakes: don't go to the wall through the bumps",
+      "spoken_as": "turns three and four",
+      "passage_time": "20:40",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:58",
+      "snippet": "the wall through the bumps. I want to give myself some room to let the front turn and I'm going to utilize doing that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Utilize banking as long as possible, then brake to downshift to third and second.",
+      "gear": "Third, Second",
+      "line": "Partial throttle at center, manage balance.",
+      "mistakes": "Maximize entry down crossing banking to apron.",
+      "note_id": "Kd2bcL9xxVQ:12",
+      "text": "braking: Utilize banking as long as possible, then brake to downshift to third and second.; gear: Third, Second; line: Partial throttle at center, manage balance.; mistakes: Maximize entry down crossing banking to apron.",
+      "spoken_as": "turn three",
+      "passage_time": "21:58",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "gear": 1.0,
+          "line": 0.8
+        }
+      },
+      "time": "23:10",
+      "snippet": "third and downshift to second. And you can see how I'm still on the brake and keeping myself on this line. I'm not",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "cross this, get the front slowed down enough to turn",
+      "line": "on the racing line, cross the bank and down on the apron",
+      "exit": "straight line entry, no brake, below the cone",
+      "mistakes": "slide the front, get a penalty",
+      "note_id": "Kd2bcL9xxVQ:13",
+      "text": "braking: cross this, get the front slowed down enough to turn; line: on the racing line, cross the bank and down on the apron; exit: straight line entry, no brake, below the cone; mistakes: slide the front, get a penalty",
+      "spoken_as": "next braking marker",
+      "passage_time": "23:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "23:24",
+      "snippet": "the front slowed down enough to where I have the grip to turn. I'm off the brake to turn left and make sure I'm crossing"
+    },
+    {
+      "line": "attack the middle of the track",
+      "mistakes": "speed loss out of the center, not gaining lap time",
+      "note_id": "Kd2bcL9xxVQ:14",
+      "text": "line: attack the middle of the track; mistakes: speed loss out of the center, not gaining lap time",
+      "spoken_as": "one and two",
+      "passage_time": "24:32",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "25:09",
+      "snippet": "and then you're taking some speed loss out of the center and not really gaining a lot of lap time because of your entry"
+    },
+    {
+      "line": "skeptical of running the second lane due to bumps",
+      "mistakes": "waiting on the front to settle, too aggressive for the car to turn",
+      "note_id": "Kd2bcL9xxVQ:15",
+      "text": "line: skeptical of running the second lane due to bumps; mistakes: waiting on the front to settle, too aggressive for the car to turn",
+      "spoken_as": "three and four",
+      "passage_time": "24:32",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "25:07",
+      "snippet": "be too aggressive for the car to turn and then you're taking some speed loss out of the center and not really gaining"
+    }
+  ]
+}

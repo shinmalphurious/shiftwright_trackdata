@@ -1,0 +1,414 @@
+{
+  "track_id": 17,
+  "track": "Lanier National Speedway - Asphalt",
+  "records": {
+    "17:T1:heavy_braking": {
+      "id": "17:T1:heavy_braking",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position at 0.17 of lap suggests a turn early in the lap, likely requiring braking to slow down for the corner.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T21:54:49+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T3:important_exit": {
+      "id": "17:T3:important_exit",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position at 0.67 of lap suggests this corner is near the middle of the lap, with a long full-throttle run to follow.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T21:54:49+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T4:fast_corner": {
+      "id": "17:T4:fast_corner",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Near the end of the lap, likely a faster corner to build speed for the final stretch.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T21:54:49+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T1:slow_corner": {
+      "id": "17:T1:slow_corner",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Early in the lap, likely a slower corner to set up for faster sections later.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:48+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T1: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T2:heavy_braking": {
+      "id": "17:T2:heavy_braking",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position at 0.33 of lap suggests another turn early in the lap, likely requiring braking to slow down for the corner.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:48+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T2:slow_corner": {
+      "id": "17:T2:slow_corner",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Early in the lap, likely a slower corner to set up for faster sections later.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:48+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T3:fast_corner": {
+      "id": "17:T3:fast_corner",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Middle of the lap, likely a faster corner to build speed for the final stretch.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:48+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "17:T4:important_exit": {
+      "id": "17:T4:important_exit",
+      "track_id": 17,
+      "track": "Lanier National Speedway - Asphalt",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position at 0.81 of lap suggests this corner is near the end of the lap, with a long full-throttle run to follow.",
+          "at": "2026-10-28T09:09:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:48+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

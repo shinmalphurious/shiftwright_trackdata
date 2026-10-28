@@ -1,0 +1,822 @@
+{
+  "track_id": 135,
+  "track": "Indianapolis Motor Speedway - Bike - 2009",
+  "records": {
+    "135:T1:heavy_braking": {
+      "id": "135:T1:heavy_braking",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner, likely to be a braking zone",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T2:slow_corner": {
+      "id": "135:T2:slow_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a slower corner after braking",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T3:fast_corner": {
+      "id": "135:T3:fast_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Position suggests a faster corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T3: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T4:flat_out": {
+      "id": "135:T4:flat_out",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.6,
+          "basis": "Position suggests a long straight or fast corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T4: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T5:heavy_braking": {
+      "id": "135:T5:heavy_braking",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a braking zone",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T5: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T6:slow_corner": {
+      "id": "135:T6:slow_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a slower corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T7:fast_corner": {
+      "id": "135:T7:fast_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Position suggests a faster corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T7: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T8:flat_out": {
+      "id": "135:T8:flat_out",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.6,
+          "basis": "Position suggests a long straight or fast corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T8: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T9:heavy_braking": {
+      "id": "135:T9:heavy_braking",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a braking zone",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T9: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T10:slow_corner": {
+      "id": "135:T10:slow_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a slower corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T11:fast_corner": {
+      "id": "135:T11:fast_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Position suggests a faster corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T11: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T12:flat_out": {
+      "id": "135:T12:flat_out",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.6,
+          "basis": "Position suggests a long straight or fast corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T12: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T13:heavy_braking": {
+      "id": "135:T13:heavy_braking",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a braking zone",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T13: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T14:slow_corner": {
+      "id": "135:T14:slow_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T14",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a slower corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T14: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T15:fast_corner": {
+      "id": "135:T15:fast_corner",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T15",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Position suggests a faster corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T15: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "135:T16:flat_out": {
+      "id": "135:T16:flat_out",
+      "track_id": 135,
+      "track": "Indianapolis Motor Speedway - Bike - 2009",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.6,
+          "basis": "Position suggests a long straight or fast corner",
+          "at": "2026-10-28T09:17:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:03:34+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T16: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

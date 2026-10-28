@@ -1,0 +1,133 @@
+{
+  "video_id": "jySb4J0mIJg",
+  "track_id": 212,
+  "track_name": "Autódromo José Carlos Pace - Grand Prix",
+  "title": "iRacing Mazda MX5 Interlagos Guide 1:51.0 - MX5 Interlagos Track Guide & Setup",
+  "car_hint": "mx5",
+  "car": "Mazda MX5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:50:05.414629+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "50 board, 70% briefly, trail to apex",
+      "gear": "2",
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next breaking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "50 board, flat",
+      "gear": "flat",
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next breaking marker",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "75% down to third gear",
+      "gear": "third",
+      "exit": "exit nice and wide"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "lightly on the brakes",
+      "gear": "third",
+      "exit": "back on the gas"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "break at the tree for turn 10",
+      "gear": "first",
+      "exit": "back on the gas",
+      "mistakes": "don't over rotate"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "55%",
+      "line": "trail it off back on the gas at the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 12",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T12",
+      "line": "hug it tight over to the left hand side"
+    },
+    {
+      "label": null,
+      "spoken_as": "50 marker",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T12",
+      "braking": "brakes up to about 70%",
+      "gear": "second gear",
+      "line": "trail it off, back on the gas at the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn four",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T13",
+      "braking": "brakes up to about 80%",
+      "line": "trail it off down to the apex",
+      "exit": "back on the gas as we hit it",
+      "mistakes": "get an off track, keep left hand tires on the track on the white line"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "this Marshall's hut",
+      "start_time": "3:55",
+      "sequence": 3,
+      "braking": "Brake up to 10-13% at first apex, trail off to 70% at second apex.",
+      "gear": "Drop to 3rd gear at first apex, 2nd gear at second apex.",
+      "line": "Flat on second curbing, exit wide.",
+      "exit": "Back on gas at apex, flat exit."
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "3:55",
+      "sequence": 3,
+      "braking": "Brake at tree, 65%.",
+      "gear": "Down to 1st gear.",
+      "line": "Trail off to 1st gear, back on gas at apex.",
+      "exit": "Flat exit."
+    },
+    {
+      "label": null,
+      "spoken_as": "last one here on the right hand side",
+      "start_time": "5:14",
+      "sequence": 4,
+      "braking": "brakes with about 60%",
+      "gear": "second gear"
+    }
+  ],
+  "general_tips": [
+    "Click the link in our description for the setup used in the guide.",
+    "wait till Marshall's hut completely disappears from your screen",
+    "Heat up here"
+  ],
+  "dropped_ungrounded": 1
+}

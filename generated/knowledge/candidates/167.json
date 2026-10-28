@@ -1,0 +1,559 @@
+{
+  "track_id": 167,
+  "track": "Okayama International Circuit - Short",
+  "records": {
+    "167:T1:heavy_braking": {
+      "id": "167:T1:heavy_braking",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "validated",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "749 m from the previous corner",
+          "at": "2026-10-28T09:22:52+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance from previous corner (749m) suggests high speed approach, and short distance to next corner (233m) suggests need for braking.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.971,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.971
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "c9bdN5K2nSI",
+              "result": "confirm",
+              "time": "0:26",
+              "note": "braking: braking marker at tire marks, 85% brake pressure; line: aim for inside curb; exit: let car walk out to left side of track; mistakes: don't go into gravel",
+              "transcript_snippet": "walk out to the left side of the track of course using all of the curb on the outside if needed but don't go into the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=c9bdN5K2nSI"
+            },
+            {
+              "video_id": "KRnKtDz7ENs",
+              "result": "confirm",
+              "time": "0:14",
+              "note": "braking: brake hard at tire marks, trail brake to apex; line: turn-in left, apex at brown patch, track out; exit: full throttle, use all track, take curb; mistakes: don't go off track with curb",
+              "transcript_snippet": "tire marks here on the ground once I get to him I break hard and then I drill the brick all the way to the apex of the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=KRnKtDz7ENs"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 2 video(s) confirm, 0 contradict; consensus 0.97 -> validated (evidence supports the claim)"
+    },
+    "167:T1:overtaking_zone": {
+      "id": "167:T1:overtaking_zone",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "749 m from the previous corner",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T1: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "167:T7:important_exit": {
+      "id": "167:T7:important_exit",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "749 m to the next corner",
+          "at": "2026-10-28T09:22:52+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner (749m) suggests a long full-throttle run follows.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.789
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T7: research 0.75 from 2 source(s); consensus 0.79 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "167:T1:important_exit": {
+      "id": "167:T1:important_exit",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner (233m) suggests a long full-throttle run follows.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T1: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "167:T2:heavy_braking": {
+      "id": "167:T2:heavy_braking",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner (233m) and to next corner (153m) suggests a braking zone.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "167:T3:slow_corner": {
+      "id": "167:T3:slow_corner",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner (367m) but not necessarily a long braking zone, suggesting a slower corner.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "167:T4:fast_corner": {
+      "id": "167:T4:fast_corner",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Short distance to next corner (139m) and long distance from previous corner (367m) suggest a fast corner.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.368,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.368
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Okayama International Circuit - Full Course",
+            "source_track_id": 166,
+            "corner": "T8",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T4: research 0.70 from 1 source(s); consensus 0.37 -> pending (evidence not yet strong enough)"
+    },
+    "167:T5:slow_corner": {
+      "id": "167:T5:slow_corner",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Short distance from previous corner (139m) and to next corner (237m) suggest a slower corner.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.966,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.7,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.966
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "aSi8YK-mTcg",
+              "result": "confirm",
+              "time": "5:07",
+              "note": "braking: Marshall's Hut, 80% pressure",
+              "transcript_snippet": "Hut so as we get to the Marshall's Hut on the left here with the big number 10 on it I'm going to break quite hard I'm",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=aSi8YK-mTcg"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Okayama International Circuit - Full Course",
+            "source_track_id": 166,
+            "corner": "T9",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T5: research 0.70 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+    },
+    "167:T6:fast_corner": {
+      "id": "167:T6:fast_corner",
+      "track_id": 167,
+      "track": "Okayama International Circuit - Short",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Short distance to next corner (212m) and long distance from previous corner (237m) suggest a fast corner.",
+          "at": "2026-10-28T09:22:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.89,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:55+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.89
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Okayama International Circuit - Full Course",
+            "source_track_id": 166,
+            "corner": "T10",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 2,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T6: research 0.70 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.89 -> pending (evidence not yet strong enough)"
+    }
+  }
+}

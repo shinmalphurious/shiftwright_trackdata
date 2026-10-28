@@ -1,0 +1,747 @@
+{
+  "track_id": 8,
+  "track_name": "Summit Point Raceway - Jefferson Circuit",
+  "videos": 3,
+  "corners": {
+    "T1": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake at the left wall, 90% pressure, trail brake to the top of the corner.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Break at the tree on the right, 90% brake pressure, trail to curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn-in to the inside curb, apex close to the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn-in at curb, let car roll, exit mid-track.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "hold an outside line",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate smoothly, cut the first inside curb of turn two.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Get on throttle as exit, aim mid-track.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "try to hold it around the outside, difficult",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Overbraking and losing the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "People will try to overtake in race.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 90% pressure, trail brake to curb. Turn in early, apex close to curb. Accelerate smoothly, aim mid-track for turn two. Avoid overbraking and outside line."
+    },
+    "T2": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake at the middle of the track, no more than 10% pressure.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Cut inside curb, lift throttle, repeat for second part.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Cut the second curb, apex in the middle of the track.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "inside line",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate smoothly, stay close to the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "End up mid-track for turn three.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Going wider than the middle of the track.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 10% at track center, use 3rd gear. Cut inside curb, lift throttle, repeat for second part. Accelerate smoothly, stay close to inside curb, aim for middle of track exiting."
+    },
+    "T3": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Brake just before the corner, 50% pressure, trail brake to the top of the corner.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Start braking where inside curb changes color, 80% brake pressure.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Stay close to the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate gently to avoid spinning, aim mid-track.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Accelerate smoothly, short shift into 3rd.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Going wider than the middle of the track.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the color change, 80% pressure (mx5). Stay inside, trail brake, 3rd gear (bmw_m2). Accelerate gently, aim mid-track."
+    },
+    "T4": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Brake once losing the tree on the left, 80% pressure, trail brake to the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Stay as far to the right side of the track as possible.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Cut in on curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Car wants to go sideways, be careful.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Hitting the curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the tree, 80% pressure (bmw_m2), trail brake to the inside curb. Stay right, cut in slightly, avoid curb and sideways slides."
+    },
+    "T5": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Break once you lose the tree on the left, 80% brake pressure, trail off to the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake at last three on left, 65% brake pressure, trail to inside curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Stay close to the inside curb.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Slowly apply throttle, avoid grass to prevent spinning.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Hitting the traction control, going onto the grass.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Do not overtake into turn five.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at last three markers on left, 65-80% pressure, trail to inside curb. Stay close to curb, slowly apply throttle to avoid grass and spinning. Do not overtake here."
+    },
+    "T6": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake at the end of the curb on the right, 70% brake pressure, trail off to the top of the hill.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break in the middle of the circuit across the white lines, 30-35%",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake at the inside curb, 60% pressure.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "fourth to second",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take a tighter line, get close to the inside curb.",
+          "videos": 2,
+          "cars": [
+            "bmw_m2",
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn right, miss kerb on right",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate smoothly, aim for mid-track before turn seven.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Accelerate as you get to the top of the hill.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get on gas early",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Spinning the car, hitting the traction control.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "car will run wide, be careful",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the inside curb, 60% pressure. Take a tight line, close to the inside curb. Shift from 4th to 2nd. Accelerate smoothly, aim for mid-track before turn seven. Avoid spinning and hitting traction control."
+    },
+    "T7": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "line": [
+        {
+          "text": "Out to mid track before turning in, then close to inside curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Aim for mid-track before turn seven.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Use all the room on the outside, accelerate smoothly.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Accelerate, use right side of track, even pit entry.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Going onto the grass too early will spin the car.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Spinning the car.",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on mid-track before turning, avoid grass. Exit wide, accelerate hard. (mx5)"
+    }
+  },
+  "unplaced_notes": 18
+}

@@ -1,0 +1,167 @@
+{
+  "video_id": "YTcSTO6gNIY",
+  "track_id": 182,
+  "track_name": "Oulton Park Circuit - Island",
+  "title": "Track guide Oulton Park - Island Ray FF1600 - Fixed iRacing",
+  "car": "Ray FF1600",
+  "car_hint": "ff1600",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Banner on fence, peak 85%",
+      "gear": "4th",
+      "line": "Turn-in left, apex last quarter curb",
+      "exit": "Full throttle, use outside astro turf",
+      "mistakes": "Avoid hitting the little hill on the inside",
+      "note_id": "YTcSTO6gNIY:0",
+      "text": "braking: Banner on fence, peak 85%; gear: 4th; line: Turn-in left, apex last quarter curb; exit: Full throttle, use outside astro turf; mistakes: Avoid hitting the little hill on the inside",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 0.67,
+          "exit": 0.83,
+          "mistakes": 0.75
+        }
+      },
+      "time": "0:13",
+      "snippet": "banner all the way out on the fence once I get past that I will break Peak brake pressure is about 85 and then a trail of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Before little hill, 70%",
+      "gear": "4th",
+      "line": "Trail brake to curb",
+      "exit": "Full throttle",
+      "mistakes": "Avoid outside curb incident point",
+      "note_id": "YTcSTO6gNIY:1",
+      "text": "braking: Before little hill, 70%; gear: 4th; line: Trail brake to curb; exit: Full throttle; mistakes: Avoid outside curb incident point",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:48",
+      "snippet": "you want to Trail the brake all the way to the curb a break to about 70 before trailing off this is one of the places"
+    },
+    {
+      "braking": "Break hard when car tops the hill, trail brake to apex",
+      "line": "Overshoot the corner, get close to the curb at the top",
+      "exit": "Full throttle, open steering on exit",
+      "mistakes": "Lock up tires easily, miss the curb",
+      "note_id": "YTcSTO6gNIY:2",
+      "text": "braking: Break hard when car tops the hill, trail brake to apex; line: Overshoot the corner, get close to the curb at the top; exit: Full throttle, open steering on exit; mistakes: Lock up tires easily, miss the curb",
+      "spoken_as": "this corner",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "line": 0.8,
+          "exit": 0.8,
+          "mistakes": 0.8
+        }
+      },
+      "time": "1:26",
+      "snippet": "once the car tops you want to break and you want to break hard I try to break all the way into the apex of the corner"
+    },
+    {
+      "braking": "Midway between 100 and 50 boards, break hard, trail brake to first tire barrier",
+      "mistakes": "Going into Turn 5 too fast compromises the rest of the section",
+      "note_id": "YTcSTO6gNIY:3",
+      "text": "braking: Midway between 100 and 50 boards, break hard, trail brake to first tire barrier; mistakes: Going into Turn 5 too fast compromises the rest of the section",
+      "spoken_as": "Turn 5",
+      "passage_time": "1:17",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:08",
+      "snippet": "the brake all the way to the first Tire barrier they'll go into Turn 5 too fast as it will compromise the rest of the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake marker is discolored spot, brake to 50% pressure, trail brake to first curb",
+      "line": "take inside curb, use outside curb for overtaking",
+      "exit": "full throttle from first curb",
+      "mistakes": "don't heat inside curbs, easy to slide out",
+      "note_id": "YTcSTO6gNIY:4",
+      "text": "braking: brake marker is discolored spot, brake to 50% pressure, trail brake to first curb; line: take inside curb, use outside curb for overtaking; exit: full throttle from first curb; mistakes: don't heat inside curbs, easy to slide out",
+      "spoken_as": "turn 7",
+      "passage_time": "2:34",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:05",
+      "snippet": "the first curb I'll go Full Throttle just don't heat these two inside curbs they will unsettle the car quite a lot",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake marker is discolored part of track, brake hard to apex",
+      "line": "apex is emergency road, late third of corner",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "easy to overshoot apex, rear can go around",
+      "note_id": "YTcSTO6gNIY:5",
+      "text": "braking: brake marker is discolored part of track, brake hard to apex; line: apex is emergency road, late third of corner; exit: full throttle, use outside curb; mistakes: easy to overshoot apex, rear can go around",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86,
+          "line": 0.71,
+          "exit": 1.0,
+          "mistakes": 1.0
+        }
+      },
+      "time": "3:22",
+      "snippet": "previous marker is again this discolored part of the track in front of us once I get to it I break hard and I try to"
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "track_id": 523,
+  "track_name": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+  "videos": 2,
+  "corners": {
+    "T1": {
+      "name": "La Source",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "telemetry_match": 1,
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at the marshal's position on left, 90% pressure.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Max braking before 100m board",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.95,
+          "methods": [
+            "telemetry_match"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Straight line",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.95,
+          "methods": [
+            "telemetry_match"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Take some curb on exit, same on right.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Smooth exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.95,
+          "methods": [
+            "telemetry_match"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Too much curbing",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.95,
+          "methods": [
+            "telemetry_match"
+          ]
+        }
+      ],
+      "tip": "Brake at 100m board, 90% pressure, downshift to 2nd. Take a straight line, use some curb on exit but avoid too much."
+    },
+    "T2": {
+      "name": "Eau Rouge",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Flat out",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Smooth exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Too much curbing",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay wide, flat out. Avoid curbing to maintain speed. Smooth exit."
+    },
+    "T3": {
+      "name": "Raidillon",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Flat out",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Smooth exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Too much curbing",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay wide, flat out. Avoid curbing, keep exit smooth."
+    },
+    "T5": {
+      "name": "Les Combes",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake on left curbing, 60% pressure.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Brake at curbing, apex on right.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Start accelerating at apex.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake on left curbing at 60% pressure, shift to 3rd gear. Apex right, start accelerating through the corner."
+    },
+    "T7": {
+      "name": "Malmedy",
+      "videos": 2,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Before 50 board, brake, trail brake, leave in 4th gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake lightly to 70% at apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3 to 4",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "4th",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "flat in 3, short shift to 4, lift to 70% at apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Flat corner.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Exit wide, look for 50 meter, down to 3rd gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat out on right side",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Flat exit.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 70% at apex in 4th gear, flat exit on right side, downshift to 3rd at 50 meters."
+    },
+    "T8": {
+      "name": "Bruxelles",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake at curb on left, 50% pressure",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3 to 2",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail braking, double apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "flat out on left side",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at curb on left with 50% pressure, shift from 3 to 2, trail brake, double apex, exit flat out on left side."
+    },
+    "T12": {
+      "name": "Les Fagnes",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "curbing starts, 70%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "fourth",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 70% on the curbing, shift to fourth gear."
+    },
+    "T13": {
+      "name": "Les Fagnes",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "tiny lift",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "smoothly back on",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, lift slightly before corner apex. Accelerate smoothly upon exit."
+    },
+    "T14": {
+      "name": "Campus",
+      "videos": 2,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "before curb, brake onto curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "On left curb, 30-35%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Trail off, 100% at apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "curb to open corner",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "100% at apex",
+          "videos": 2,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 30-35% on left curb, shift to 3rd, trail off curb, go full throttle at apex."
+    },
+    "T15": {
+      "name": "Stavelot",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay flat through T15 (Stavelot). No braking needed."
+    },
+    "T18": {
+      "name": "Chicane",
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake just after 100 board, 55-60%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd, then 1st",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "use curbing on left, brake 3/4 of the way down",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "25% throttle, bigger lift, back on gas in 1st",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "too much camber, curb strike moves second apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 100 board, 55-60%. Use left curbing, brake 3/4 down. Gear 2nd, then 1st. Exit with 25% throttle, lift more, back on gas in 1st. Avoid curb strikes."
+    }
+  },
+  "unplaced_notes": 7
+}

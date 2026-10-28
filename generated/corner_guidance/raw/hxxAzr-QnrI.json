@@ -1,0 +1,171 @@
+{
+  "video_id": "hxxAzr-QnrI",
+  "track_id": 207,
+  "track_name": "Oran Park Raceway - North",
+  "title": "iRacing - Johnny Guindi Skip Barber Track Guide @ Oran Park",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:47:23.137357+00:00",
+  "passages": 15,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "at end of pit wall, lift after white line",
+      "line": "turn in late, keep car at angle",
+      "mistakes": "turning in too late, missing apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:19",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "brake with car a few meters after white line, keep angle straight",
+      "line": "turn-in after inside kerb, double apex, get close to both curbs on left"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:41",
+      "sequence": 2,
+      "braking": "brake a few meters after left white curbing, drop to first gear at end",
+      "gear": "3, then 1",
+      "line": "turn in, carry brakes to apex"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "4:00",
+      "sequence": 3,
+      "braking": "brake before the grain tires on the left side",
+      "gear": "2nd or 3rd",
+      "line": "use all the curve on the left side",
+      "exit": "get on the throttle early, use all the space",
+      "mistakes": "overbraking, not using the space on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn five",
+      "start_time": "5:22",
+      "sequence": 4,
+      "label_guess": "T5",
+      "braking": "turn in full throttle, coast to right curbing",
+      "gear": "3rd",
+      "line": "turn in full throttle, coast to right curbing",
+      "exit": "get completely on throttle after curbing",
+      "mistakes": "avoid bump at end of curbing"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "6:40",
+      "sequence": 5,
+      "braking": "brush brakes as turn, before curbing starts",
+      "gear": "3rd",
+      "line": "use left side of track, turn-in before curbing",
+      "exit": "use curve itself, avoid concrete beyond curve",
+      "mistakes": "going beyond curve, car bottoms out"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "8:03",
+      "sequence": 6,
+      "braking": "Brake after curbing starts on right, drop to 3rd gear.",
+      "gear": "3rd",
+      "line": "Use curbing, apex near white curbing.",
+      "exit": "Get on throttle early, use all exit curbing.",
+      "mistakes": "Avoid overusing curbing, may brush brakes lightly."
+    },
+    {
+      "label": null,
+      "spoken_as": "next bit of the corner",
+      "start_time": "9:26",
+      "sequence": 7,
+      "line": "Keep car in middle of track, avoid left side",
+      "exit": "Full throttle",
+      "mistakes": "Using the white concrete on the left side"
+    },
+    {
+      "label": null,
+      "spoken_as": "final corner",
+      "start_time": "9:26",
+      "sequence": 7,
+      "mistakes": "Using the white concrete on the left side, car will bottom out"
+    },
+    {
+      "label": null,
+      "spoken_as": "final corner",
+      "start_time": "10:45",
+      "sequence": 8,
+      "label_guess": "T1",
+      "braking": "Brake at end of brown spots, stay right.",
+      "line": "Turn in late, apex far in.",
+      "mistakes": "Inconsistent braking reference, turn in late."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "T6",
+      "start_time": "12:05",
+      "sequence": 9,
+      "braking": "Lightly brake midway through the corner to tuck in the nose.",
+      "line": "Wide entry, apex at the curbing that goes from darker to lighter on the inside.",
+      "exit": "Get on the throttle a little bit before reaching the apex."
+    },
+    {
+      "label": null,
+      "spoken_as": "the curves",
+      "start_time": "13:26",
+      "sequence": 10,
+      "exit": "Get close to wall, straighten wheels fully"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "14:45",
+      "sequence": 11,
+      "braking": "on brakes or coasting before braking",
+      "mistakes": "bouncing after apex if going too fast"
+    },
+    {
+      "label": null,
+      "spoken_as": "between turn one and two",
+      "start_time": "14:45",
+      "sequence": 11,
+      "mistakes": "bouncing, car unsettled if going too fast"
+    },
+    {
+      "label": null,
+      "spoken_as": "T1",
+      "start_time": "16:04",
+      "sequence": 12,
+      "braking": "Brake with a tiny bit of steering input.",
+      "mistakes": "Steering input can cause rear to step out."
+    },
+    {
+      "label": null,
+      "spoken_as": "that first turn",
+      "start_time": "18:01",
+      "sequence": 13,
+      "label_guess": "T2",
+      "braking": "lift before the white line, brake around the inside kerb",
+      "line": "turn-in at the white line, coast to braking point",
+      "exit": "coast until braking point, then brake",
+      "mistakes": "don't get back on the throttle until braking point"
+    }
+  ],
+  "general_tips": [
+    "carry brakes to apex carefully, avoid overbraking",
+    "Get on throttle early, may use grass on exit.",
+    "Use light braking midway through the corner to maintain rotation.",
+    "trail brake lightly initially, brush brakes halfway through corner",
+    "Notice the rear stepping out due to steering input rather than track bumpiness.",
+    "lift before the white line, brake around the inside kerb, coast until braking point"
+  ],
+  "dropped_ungrounded": 8
+}

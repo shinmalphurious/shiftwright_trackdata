@@ -1,0 +1,363 @@
+{
+  "track_id": 555,
+  "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+  "records": {
+    "555:T6:heavy_braking": {
+      "id": "555:T6:heavy_braking",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position early in lap suggests significant braking required before corner entry.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T23:00:39+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "555:T7:slow_corner": {
+      "id": "555:T7:slow_corner",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position between T6 and T8 suggests a slower corner requiring careful entry and exit.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T23:00:39+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "555:T8:important_exit": {
+      "id": "555:T8:important_exit",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a corner leading into a long straight or acceleration zone.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T23:00:39+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "555:T9:fast_corner": {
+      "id": "555:T9:fast_corner",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position close to T10 suggests a faster corner with less braking required.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T02:02:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T9: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "555:T10:flat_out": {
+      "id": "555:T10:flat_out",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Position suggests a corner that can be taken flat out with minimal braking.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T02:02:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T10: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "555:T11:slow_corner": {
+      "id": "555:T11:slow_corner",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position late in lap suggests a slower corner requiring careful entry and exit.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T02:02:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "555:T12:important_exit": {
+      "id": "555:T12:important_exit",
+      "track_id": 555,
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Position suggests a corner leading into a long straight or acceleration zone.",
+          "at": "2026-10-28T10:12:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T02:02:16+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T12: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

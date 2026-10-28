@@ -1,16 +1,29 @@
 {
   "track_id": 351,
   "layout": "351-lernerville",
-  "selected_guides": {
-    "street_stock": [
-      {
-        "video_id": "af8l1mpqk5Y",
-        "title": "Street Stock - Lernerville - iRacing Dirt",
-        "description": "This race shows exactly why iRacing is a joke when it comes to open dirt races.",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      }
-    ]
-  }
+  "name": "Lernerville Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:03:54.231335+00:00",
+  "candidates_seen": 54,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 54,
+    "new_candidates": 54,
+    "accepted": 0,
+    "selected": 0,
+    "kept_previous": 0,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 54,
+    "rejection_reasons": {
+      "no guide words in title": 37,
+      "too long": 11,
+      "venue not in title": 5,
+      "too short": 1
+    }
+  },
+  "selected_guides": {}
 }

@@ -189,5 +189,136 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.98,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 4
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 4 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T4": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.98,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 2
+        },
+        "explanation": "Fast corner at T4: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T6": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.98,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 2
+        },
+        "explanation": "Fast corner at T6: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T14": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T14: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T14: inherited from Oulton Park Circuit - Intl w/out Brittens T13 (same corner, same approach, inheritance 1.00); Heavy braking zone at T13: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+        "source_corner": "T13",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T5": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.9,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T5: inherited from Oulton Park Circuit - International T5 (same corner, inheritance 1.00); Slow corner at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - International",
+        "source_corner": "T5",
+        "inheritance_confidence": 1.0
+      },
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T5: inherited from Oulton Park Circuit - Intl w/out Brittens T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 2 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+        "source_corner": "T5",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T13": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.969,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T13: inherited from Oulton Park Circuit - Fosters w/Hislop T10 (same corner, same approach, inheritance 1.00); Heavy braking zone at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+        "source_corner": "T10",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

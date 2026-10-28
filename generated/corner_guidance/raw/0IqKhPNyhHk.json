@@ -1,0 +1,92 @@
+{
+  "video_id": "0IqKhPNyhHk",
+  "track_id": 128,
+  "track_name": "Road Atlanta - Short",
+  "title": "iRacing MX5 Road Atlanta Guide 1:35.3 Mazda MX5 Road Atlanta Track Guide",
+  "car_hint": "mx5",
+  "car": "Mazda MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:09:26.351301+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker into turn one, lightly on the brakes to about 30%",
+      "gear": "third gear",
+      "line": "get out to left-hand side, trail it off down to the apex",
+      "exit": "back on the gas in third gear, exit nice and wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn six",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T5",
+      "braking": "200-ft line, just before the 100 or the 150"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "get on brakes from left-hand position, 30-35%",
+      "gear": "trail braking",
+      "line": "straight past grass bit"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:38",
+      "sequence": 2,
+      "gear": "drop into 3rd ahead of apex",
+      "line": "turn-in left, apex left, cut curbing on exit",
+      "exit": "get back on gas 100% at apex, left tires on rumble strip curbing",
+      "mistakes": "can be slippy, may need counter steering"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn five",
+      "start_time": "2:38",
+      "sequence": 2,
+      "label_guess": "T4",
+      "braking": "brake to 55-60%, short trail off",
+      "line": "right tires on curbing, left tires on left curbing",
+      "exit": "get back on gas 100% at left apex"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:54",
+      "sequence": 3,
+      "braking": "Brake before second set of dashed lines, 75% pressure, sharp trail off",
+      "gear": "2nd, then 1st, back to 2nd at apex",
+      "line": "Left-hand curbing at apex",
+      "exit": "100% throttle before apex"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "5:12",
+      "sequence": 4,
+      "braking": "brake at this line, briefly hit 100%",
+      "line": "turn in slightly early",
+      "exit": "flat out",
+      "mistakes": "could have turned in earlier, might have cost a tenth"
+    }
+  ],
+  "general_tips": [
+    "give space on the right-hand side",
+    "little dab of the brake to enter third gear or staying in third gear",
+    "can go flat through here in the MX-5",
+    "look for curbing on the right-hand side",
+    "on the brakes back on the gas in third",
+    "get right tires on curbing for turn five",
+    "Start with full fuel, run till empty"
+  ],
+  "dropped_ungrounded": 5
+}

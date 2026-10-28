@@ -1,71 +1,148 @@
 {
   "track_id": 201,
   "layout": "201-langley",
+  "name": "Langley Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:22:41.118300+00:00",
+  "candidates_seen": 21,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 21,
+    "new_candidates": 11,
+    "accepted": 13,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 8,
+    "rejection_reasons": {
+      "venue not in title": 5,
+      "no guide words in title": 2,
+      "too short": 1
+    }
+  },
   "selected_guides": {
-    "late_model": [
-      {
-        "video_id": "8PEBm2_D5cg",
-        "title": "Learn to Drive Langley in a Late Model Stock for iRacing 2025 Season 3 Week 5 Lap Guide & Tutorial",
-        "description": "Learn to Drive Langley in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S3 Week 5 of official races! The owner of\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "late_model",
-        "quality_score": 220
-      }
-    ],
     "arca": [
       {
         "video_id": "JZfOVN6Zcn4",
         "title": "ARCA Car Fastest Lap Guide | Langley Speedway| iRacing Week 6 Officials Tutorial/Driver Coaching",
-        "description": "Struggling to get your ARCA car to turn at Langley? You're not alone. Week 6 of the iRacing ARCA Menards Series takes us to\u00a0...",
+        "description": "Struggling to get your ARCA car to turn at Langley? You're not alone. Week 6 of the iRacing ARCA Menards Series takes us to ...",
+        "channel": "Slingshot Racing Media",
+        "duration": 182,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 230,
+        "venue_confidence": 1.0
       },
       {
         "video_id": "USvCMNLk_UQ",
         "title": "iRacing Langley Speedway Arca Ford Mustang (Dry) Beginner Track Guide",
         "description": "Sign up with the code LANGLEY9445 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 149,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "jEPalKNNoc0",
+        "title": "iRacing Track Guide: ARCA at Langley Speedway",
+        "description": "Music by Karl Casey at White Bat Audio Song used: New Beginnings.",
+        "channel": "PDResh",
+        "duration": 666,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 230,
+        "venue_confidence": 1.0
       },
       {
         "video_id": "1IDJLRPSMs0",
         "title": "iRacing ARCA Menards Series | Langley Speedway Guide (15.820)",
-        "description": "Here is a fast 15.820 lap guide for the iRacing ARCA Menards car at Langley Speedway. In this video, I break down the braking\u00a0...",
+        "description": "Here is a fast 15.820 lap guide for the iRacing ARCA Menards car at Langley Speedway. In this video, I break down the braking ...",
+        "channel": "TheGuitarGamer33",
+        "duration": 525,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 200,
+        "venue_confidence": 1.0
       }
     ],
     "street_stock": [
       {
-        "video_id": "bx99oGFC1dM",
-        "title": "iRacing Langley Speedway Street Stock Panther (Dry) Track Guide (Hotlap + Telemetry)",
-        "description": "Sign up with the code LANGLEY8574 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "video_id": "ORoNQpwuipo",
+        "title": "iRacing Track Guides - Street Stock at Langley Speedway",
+        "description": "Check out www.simracecity.com for your simracing products! #iracing #simracing.",
+        "channel": "Jonathan Schwartz",
+        "duration": 276,
         "video_type": "lap_walkthrough",
         "car": "street_stock",
-        "quality_score": 220
+        "quality_score": 230,
+        "venue_confidence": 1.0
       }
     ],
-    "legends": [
+    "modified": [
       {
-        "video_id": "0b5uJD9GmfQ",
-        "title": "iRacing: Asphalt Legends @ Langley",
-        "description": "Get This EXACT Same Setup Pack Here(Lap Time Shown): https://bit.ly/3GtQ8XJ \u25bb What Is Premier Racing Setups? Premier\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
-      }
-    ],
-    "nascar": [
-      {
-        "video_id": "T6zmn-H-08M",
-        "title": "Langley Speedway-Charger Cup Series-Lap Guide",
-        "description": "Langley is a fun, slightly banked shorter track that is high on speed & dependent on precision. These laps in this guide are\u00a0...",
+        "video_id": "Sag1dYhWBr0",
+        "title": "iRacing Tour Modified: Learn to Drive Langley Speedway for 2025 Season 1 Week 11 Lap Guide",
+        "description": "Learn to drive Langley Speedway in a Tour Modified for the iRacing 2025 S1 Week 11 of official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 430,
         "video_type": "lap_walkthrough",
-        "car": "nascar",
-        "quality_score": 120
+        "car": "modified",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      }
+    ],
+    "late_model": [
+      {
+        "video_id": "8PEBm2_D5cg",
+        "title": "Learn to Drive Langley in a Late Model Stock for iRacing 2025 Season 3 Week 5 Lap Guide & Tutorial",
+        "description": "Learn to Drive Langley in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S3 Week 5 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 610,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "xBc6KZSwXEA",
+        "title": "iRacing National Series Track Guide Week 1 Langley Speedway",
+        "description": "Here is my first attempt ever at a track guide. Hope it helps people get around this track. Hope this isn't too bad.",
+        "channel": "Talonegress",
+        "duration": 295,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "Kg23WoFGTxU",
+        "title": "iRacing Rookie Mini-Stock: Learn to Drive Langley for 2025 Season 1 Week 2",
+        "description": "Learn to drive Langley in an iRacing Mini Stock for the iRacing 2025 S1 Week 2 of official races! The owner of Team53 walks you ...",
+        "channel": "Team53",
+        "duration": 391,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "kenILu4NKS4",
+        "title": "Track guide for Langley Jr open wheel Time Trial 13.961//Iracing//2026S4//IndyPro 2000",
+        "description": "WATCH THE SEAM IN T3/4 it will ruin a good race and possibly take out those behind.",
+        "channel": "Stephen Hart",
+        "duration": 476,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

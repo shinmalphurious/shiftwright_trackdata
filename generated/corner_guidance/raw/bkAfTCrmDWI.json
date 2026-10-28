@@ -1,0 +1,181 @@
+{
+  "video_id": "bkAfTCrmDWI",
+  "track_id": 173,
+  "track_name": "Suzuka International Racing Course - Moto",
+  "title": "iRacing LMP3 Suzuka Guide 1:54.1 Ligier JS P320 LMP3 Suzuka Track Guide",
+  "car_hint": "general",
+  "car": "Ligier JS P320 LMP3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:54:52.249104+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker, 40% long trail off",
+      "gear": "3rd",
+      "line": "turn-in at 50, apex left",
+      "exit": "smoothly back on gas",
+      "mistakes": "don't over brake"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T3",
+      "braking": "lift",
+      "exit": "room to the right"
+    },
+    {
+      "label": null,
+      "spoken_as": "light braking through four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T4",
+      "braking": "lightly on the brakes",
+      "exit": "back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "light braking through five",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T5",
+      "braking": "lift"
+    },
+    {
+      "label": null,
+      "spoken_as": "light braking through six",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T6",
+      "braking": "little dab on the brakes",
+      "exit": "lift"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T7",
+      "braking": "lift",
+      "exit": "back on gas at curve",
+      "mistakes": "don't over brake"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 12",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T12",
+      "braking": "brakes to about 50%, trail it off",
+      "gear": "first gear",
+      "line": "cut back over to the right",
+      "exit": "back on the gas in third"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 14",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T14",
+      "braking": "brakes to about 75%",
+      "gear": "second gear",
+      "line": "wide entry",
+      "exit": "back on the gas, little lift, back on the gas again"
+    },
+    {
+      "label": null,
+      "spoken_as": "final chicane",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T16",
+      "braking": "brakes to about 75%",
+      "gear": "second gear",
+      "line": "left-hand tires on the track",
+      "exit": "over and across the line"
+    },
+    {
+      "label": null,
+      "spoken_as": "here",
+      "start_time": "2:35",
+      "sequence": 2,
+      "label_guess": "T2",
+      "braking": "50 board, 40-45%",
+      "gear": "3rd",
+      "line": "wide turn-in, second apex",
+      "exit": "lift, back on gas at apex, trail brake, back on gas on exit",
+      "mistakes": "breaking early"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number three",
+      "start_time": "2:35",
+      "sequence": 2,
+      "label_guess": "T3",
+      "braking": "10-15%",
+      "line": "straighten steering, trail brake, right side room",
+      "exit": "lightly brake, trail off, back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "seven",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T7",
+      "braking": "lift, few percentage points of brake until car grips",
+      "gear": "third",
+      "line": "2/3 of the way across to the right-hand side",
+      "exit": "pick back up once on curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T8",
+      "braking": "50-board, 30%, trail off to fourth",
+      "gear": "fourth",
+      "exit": "back on gas in fourth at apex"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "3:53",
+      "sequence": 3,
+      "braking": "end of curving, 60%, trail off to first",
+      "gear": "first",
+      "line": "keep flat until end of curving, straighten steering wheel",
+      "mistakes": "getting down to apex too early"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "Spoon",
+      "start_time": "5:12",
+      "sequence": 4,
+      "braking": "brakes briefly to 50-55%, trail off",
+      "gear": "third",
+      "exit": "blip of gas, lift",
+      "mistakes": "easy to wash out, get a nasty off track"
+    },
+    {
+      "label": "T14",
+      "spoken_as": "midway between the 100 and the 150",
+      "start_time": "5:12",
+      "sequence": 4,
+      "braking": "brakes hardest up to 70-75%, hold until turn-in",
+      "gear": "second",
+      "line": "turn in",
+      "exit": "back on gas, blip of gas, lift",
+      "mistakes": "cut right-hand tires over right edge of rumble strip"
+    }
+  ],
+  "general_tips": [
+    "don't over brake through this"
+  ],
+  "dropped_ungrounded": 2
+}

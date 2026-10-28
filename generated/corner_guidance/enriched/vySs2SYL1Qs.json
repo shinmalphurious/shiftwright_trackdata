@@ -1,0 +1,313 @@
+{
+  "video_id": "vySs2SYL1Qs",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "iRacing BMW M2 CS Summit Point Raceway Track Guide 1:15.969 - Rookie Fixed Setup",
+  "car": null,
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "break at the full c i Peak at 92% brake pressure before reducing to roughly 70 to 75%",
+      "line": "keep the car tight at Apex and get back to full throttle in an instant",
+      "exit": "allow the car to track out but no more than the middle of one exit",
+      "note_id": "vySs2SYL1Qs:0",
+      "text": "braking: break at the full c i Peak at 92% brake pressure before reducing to roughly 70 to 75%; line: keep the car tight at Apex and get back to full throttle in an instant; exit: allow the car to track out but no more than the middle of one exit",
+      "spoken_as": "turn one",
+      "passage_time": "0:05",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.52,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:36",
+      "snippet": "no more than the middle of one exit keep a tight line going through turn two to shorten track",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "fourth gear",
+      "line": "keep a tight line going through turn two to shorten track distance",
+      "note_id": "vySs2SYL1Qs:1",
+      "text": "gear: fourth gear; line: keep a tight line going through turn two to shorten track distance",
+      "spoken_as": "turn two",
+      "passage_time": "0:05",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.77,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:38",
+      "snippet": "a tight line going through turn two to shorten track distance heading towards turn three keep",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break it as soon as you are level with the first access r t rate peeking at 50% before reducing to Apex",
+      "line": "get as close to Apex curve",
+      "exit": "gradually get back to full throttle the car will be moving around",
+      "mistakes": "best to keep steering input smooth and minimal",
+      "note_id": "vySs2SYL1Qs:2",
+      "text": "braking: break it as soon as you are level with the first access r t rate peeking at 50% before reducing to Apex; line: get as close to Apex curve; exit: gradually get back to full throttle the car will be moving around; mistakes: best to keep steering input smooth and minimal",
+      "spoken_as": "turn three",
+      "passage_time": "0:05",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.48,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:58",
+      "snippet": "car will be moving around best to keep steering input smooth and minimal make full use of the exit curve and position",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "dab the brakes just after the last Tree on your right",
+      "line": "kiss the Apex curb",
+      "exit": "get back to full throttle once you see the S TI marks on the left",
+      "note_id": "vySs2SYL1Qs:3",
+      "text": "braking: dab the brakes just after the last Tree on your right; line: kiss the Apex curb; exit: get back to full throttle once you see the S TI marks on the left",
+      "spoken_as": "turn four",
+      "passage_time": "0:05",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.65,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:18",
+      "snippet": "back to full throttle once you see the S TI marks on the left break using No More than 70% brake pressure keep the car in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake in the middle of the track",
+      "gear": "3rd",
+      "line": "turn to Apex as you start your trajectory",
+      "exit": "get back to throttle end of Apex curve",
+      "mistakes": "don't track out too wide",
+      "note_id": "vySs2SYL1Qs:4",
+      "text": "braking: brake in the middle of the track; gear: 3rd; line: turn to Apex as you start your trajectory; exit: get back to throttle end of Apex curve; mistakes: don't track out too wide",
+      "spoken_as": "turn 3",
+      "passage_time": "1:24",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {
+        "after": "T4",
+        "before": "T6",
+        "corners_between": [
+          "T5"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:29",
+      "snippet": "important you don't track out too wide get back to the left for turn six use a small amount of brake pressure and keep",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "use a small amount of brake pressure",
+      "gear": "3rd",
+      "line": "keep the car tight at Apex",
+      "exit": "get back to throttle end of Apex curve",
+      "note_id": "vySs2SYL1Qs:5",
+      "text": "braking: use a small amount of brake pressure; gear: 3rd; line: keep the car tight at Apex; exit: get back to throttle end of Apex curve",
+      "spoken_as": "turn 5",
+      "passage_time": "1:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:32",
+      "snippet": "small amount of brake pressure and keep the car tight at Apex get back to throttle end of Apex curve place the car",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.253,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T9",
+        "estimated_pct": 0.5955,
+        "corner_pct": 0.5781,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T9",
+        "corners_between": [
+          "T7",
+          "T8"
+        ]
+      }
+    },
+    {
+      "line": "get back to the left",
+      "exit": "use maintenance throttle",
+      "note_id": "vySs2SYL1Qs:6",
+      "text": "line: get back to the left; exit: use maintenance throttle",
+      "spoken_as": "turn 6",
+      "passage_time": "1:24",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:30",
+      "snippet": "get back to the left for turn six use a small amount of brake pressure and keep the car tight at Apex get back to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "keep car to the left",
+      "exit": "reduce to half throttle before increasing to Full Throttle at Apex",
+      "note_id": "vySs2SYL1Qs:7",
+      "text": "line: keep car to the left; exit: reduce to half throttle before increasing to Full Throttle at Apex",
+      "spoken_as": "turn 7",
+      "passage_time": "1:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:48",
+      "snippet": "nine reduce to half throttle before increasing to Full Throttle at Apex allow the car to run wide on exit curve",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T9",
+        "before": "T10",
+        "estimated_pct": 0.7421,
+        "corner_pct": 0.6934,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T9",
+        "before": "T10",
+        "corners_between": []
+      }
+    },
+    {
+      "exit": "allow the car to run wide on exit curve and keep steering minimal",
+      "mistakes": "prevent Tire scrubbing",
+      "note_id": "vySs2SYL1Qs:8",
+      "text": "exit: allow the car to run wide on exit curve and keep steering minimal; mistakes: prevent Tire scrubbing",
+      "spoken_as": "turn 8",
+      "passage_time": "1:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:52",
+      "snippet": "allow the car to run wide on exit curve and keep steering minimal to prevent Tire scrubbing stay in Forth gear",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T9",
+        "before": "T10",
+        "estimated_pct": 0.7765,
+        "corner_pct": 0.6934,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T9",
+        "before": "T10",
+        "corners_between": []
+      }
+    },
+    {
+      "exit": "place the car in the middle and reduce throttle",
+      "note_id": "vySs2SYL1Qs:9",
+      "text": "exit: place the car in the middle and reduce throttle",
+      "spoken_as": "turn 9",
+      "passage_time": "1:24",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:43",
+      "snippet": "in the middle and reduce throttle once again as you hit the left Apex curve keep car to the left to open up turn",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "start breaking as the tree on your left ends using No More than 70% brake pressure",
+      "line": "quickly reduce pressure to Apex",
+      "exit": "get back to full and purposely track out wide on exit",
+      "note_id": "vySs2SYL1Qs:10",
+      "text": "braking: start breaking as the tree on your left ends using No More than 70% brake pressure; line: quickly reduce pressure to Apex; exit: get back to full and purposely track out wide on exit",
+      "spoken_as": "turn 10",
+      "passage_time": "1:24",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:01",
+      "snippet": "than 70% brake pressure before quickly reducing pressure to Apex get back to frle and purposely track out wide on",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

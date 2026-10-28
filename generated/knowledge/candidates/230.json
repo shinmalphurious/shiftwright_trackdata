@@ -1,0 +1,371 @@
+{
+  "track_id": 230,
+  "track": "Circuit of the Americas - East",
+  "records": {
+    "230:T1:heavy_braking": {
+      "id": "230:T1:heavy_braking",
+      "track_id": 230,
+      "track": "Circuit of the Americas - East",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner, usually requires heavy braking.",
+          "at": "2026-10-28T09:33:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:54+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "230:T3:slow_corner": {
+      "id": "230:T3:slow_corner",
+      "track_id": 230,
+      "track": "Circuit of the Americas - East",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between T2 and T3 suggests a slower corner.",
+          "at": "2026-10-28T09:33:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:54+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "LodhX9rpeHA",
+              "result": "contradict",
+              "time": "3:13",
+              "note": "line: flat, left curb; exit: straighten steering, 40% brakes",
+              "transcript_snippet": "this curb here on the left-hand side. As we do that, we straighten our steering wheel on the brakes to about 40%. We're",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=LodhX9rpeHA"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "230:T4:fast_corner": {
+      "id": "230:T4:fast_corner",
+      "track_id": 230,
+      "track": "Circuit of the Americas - East",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Larger distance between T3 and T4 suggests a faster corner.",
+          "at": "2026-10-28T09:33:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:54+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "230:T2:slow_corner": {
+      "id": "230:T2:slow_corner",
+      "track_id": 230,
+      "track": "Circuit of the Americas - East",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between T1 and T2 suggests a slower corner.",
+          "at": "2026-10-28T09:33:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.748,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:23:39+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.497,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.748
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "GHd00PoNfl0",
+              "result": "confirm",
+              "time": "3:11",
+              "note": "braking: 20-25% to first gear, trail off to apex; gear: 3rd; line: Turn-in at rumble strip, apex left, flat exit; exit: Back on gas in 3rd gear",
+              "transcript_snippet": "first, back on the gas once you get to the apex, head over to the left hand side, give ourselves room cuz we're",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=GHd00PoNfl0"
+            }
+          ],
+          "contradict": [
+            {
+              "video_id": "T6fq1klBOBc",
+              "result": "contradict",
+              "time": "3:25",
+              "note": "braking: Flat, get on brakes at rumble strip, 25% trail off; line: Flat left side, left front tires on track; exit: Flat until left side, then get on gas 100%",
+              "transcript_snippet": "left hand tires staying on the track. Up to 100% give ourselves room to the right. We're going to stay flat until",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=T6fq1klBOBc"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); 1 video(s) confirm, 1 contradict; consensus 0.75 -> pending (evidence not yet strong enough)"
+    },
+    "230:T5:slow_corner": {
+      "id": "230:T5:slow_corner",
+      "track_id": 230,
+      "track": "Circuit of the Americas - East",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between T4 and T5 suggests a slower corner.",
+          "at": "2026-10-28T09:33:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:23:39+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "LodhX9rpeHA",
+              "result": "contradict",
+              "time": "3:29",
+              "note": "braking: 8-10% to first apex; gear: 4th; line: trail off, flat; exit: lightly brake, curb, back on gas",
+              "transcript_snippet": "back on the gas in fourth. We're going to go flat until we get over to this curb here, then we're going to lightly",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=LodhX9rpeHA"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "230:T6:important_exit": {
+      "id": "230:T6:important_exit",
+      "track_id": 230,
+      "track": "Circuit of the Americas - East",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Last corner, exit leads onto a long full-throttle run.",
+          "at": "2026-10-28T09:33:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:23:39+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

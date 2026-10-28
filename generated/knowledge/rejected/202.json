@@ -1,0 +1,83 @@
+{
+  "track_id": 202,
+  "track": "Oran Park Raceway - Grand Prix",
+  "records": {
+    "202:T12:flat_out": {
+      "id": "202:T12:flat_out",
+      "track_id": 202,
+      "track": "Oran Park Raceway - Grand Prix",
+      "corner": "T12",
+      "corner_name": "The Sweeper",
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner",
+          "at": "2026-10-28T09:28:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:36+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "2vXBbQZDVmw",
+              "result": "contradict",
+              "time": "3:05",
+              "note": "braking: Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.; gear: 1st; line: Take shortest route, use all curb.; exit: Apply throttle on darkened part, keep full throttle.; mistakes: Taking too much curb causes spin, use 2nd gear to avoid spin.",
+              "transcript_snippet": "take the shortest route possible I take a little bit of curb on turn 10 and all of the curb on turn 11 if you take too",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2vXBbQZDVmw"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oran Park Raceway - Moto",
+            "source_track_id": 211,
+            "corner": "T12",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T12: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.20 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

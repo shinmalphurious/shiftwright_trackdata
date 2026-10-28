@@ -1,0 +1,172 @@
+{
+  "video_id": "iNsvNLC3NCY",
+  "track_id": 115,
+  "track_name": "Darlington Raceway",
+  "title": "Darlington I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+  "car_hint": "nascar",
+  "car": "NASCAR",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:24:09.244673+00:00",
+  "passages": 17,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "3:30",
+      "sequence": 2,
+      "braking": "Full lift right before turn-in",
+      "line": "Stay on throttle through compression zone",
+      "exit": "Ramp up throttle on exit",
+      "mistakes": "Getting too free in the compression zone"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:50",
+      "sequence": 3,
+      "braking": "lift at third red before Cookout logo",
+      "mistakes": "overdrive compression zone, lift at Cookout logo"
+    },
+    {
+      "label": null,
+      "spoken_as": "this point",
+      "start_time": "6:09",
+      "sequence": 4,
+      "braking": "lift earlier to manage car balance",
+      "exit": "get in compression zone correctly",
+      "mistakes": "overspeeding, getting free on entry"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "7:28",
+      "sequence": 5,
+      "line": "turn-in on seam, apex on seam, line through corner maintaining balance",
+      "exit": "throttle ramp up through compression zone, aim for center of turn one and two",
+      "mistakes": "don't hit splitter edge, avoid pushing fronts to wall too early"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "8:45",
+      "sequence": 6,
+      "line": "pivot away from the wall",
+      "mistakes": "stressing the tire out, carrying too much speed"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "8:45",
+      "sequence": 6,
+      "line": "pivot away from the wall",
+      "mistakes": "being at the wall at full throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "the cookout sign",
+      "start_time": "10:05",
+      "sequence": 7,
+      "gear": "partial throttle",
+      "line": "turn away from the wall",
+      "exit": "partial throttle, may lift to pivot",
+      "mistakes": "sliding the fronts, not turning away from the wall"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "11:23",
+      "sequence": 8,
+      "line": "Turn down the hill, straddle the seam splitter.",
+      "exit": "Maintain exit velocity, use micro adjustments of counter steering.",
+      "mistakes": "Modulating throttle too much, not crossing seams smoothly."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "12:42",
+      "sequence": 9,
+      "exit": "throttle early, maintain speed",
+      "mistakes": "dive in too much"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "13:59",
+      "sequence": 10,
+      "braking": "brake at the point where the wall opens up",
+      "line": "use extra radius to widen entry",
+      "mistakes": "overshooting entry speed"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "15:17",
+      "sequence": 11,
+      "braking": "Smooth braking, get left front on seam.",
+      "line": "Use references, turn in early, roll through.",
+      "exit": "Off brake early, back to throttle before Cookout logo.",
+      "mistakes": "Too much initial throttle can cause drift, lose control."
+    },
+    {
+      "label": null,
+      "spoken_as": "three and four",
+      "start_time": "16:36",
+      "sequence": 12,
+      "label_guess": "T4",
+      "braking": "More braking. Same braking points a lot longer on like a 70 to 80% range of throttle.",
+      "line": "Manage less throttle in this whole phase. Wait longer to full throttle.",
+      "mistakes": "Rushing the process, picking up the throttle too early."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn down",
+      "start_time": "17:55",
+      "sequence": 13,
+      "label_guess": "T2",
+      "line": "turn-in to left throttle, cross seam",
+      "exit": "open wheel up as soon as possible",
+      "mistakes": "get free crossing seam, use full throttle too early"
+    },
+    {
+      "label": null,
+      "spoken_as": "three",
+      "start_time": "19:13",
+      "sequence": 14,
+      "label_guess": "T2",
+      "braking": "Same breaking point, heavy peak pressure",
+      "line": "Get to the bottom a little earlier, straighter approach",
+      "exit": "Slow 80% throttle, 90% throttle, full throttle on exit",
+      "mistakes": "Balancing the car incorrectly on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "20:30",
+      "sequence": 15,
+      "label_guess": "T2",
+      "braking": "Brake before crossing yellow line, off brake by cone.",
+      "gear": "2nd gear before crossing yellow line",
+      "line": "Point before cone, delay angle entry, shape angle to racing line.",
+      "mistakes": "Slipping, locking left and right front wheels."
+    }
+  ],
+  "general_tips": [
+    "Look for markers to understand the track",
+    "keep left and right rear wheels turning at the same rate",
+    "mitigate car balance by adjusting lift point",
+    "back lift point up if feeling free on entry",
+    "carry momentum, find the point to work up to the wall",
+    "place all four tires just above the seam at the top",
+    "keep the car turning away from the wall",
+    "be precise with left side placement above the seam",
+    "decrease throttle to pivot away from the wall",
+    "Keep it smooth, find displacement of left front.",
+    "modulate throttle as right rear crosses seam",
+    "peek up to wall at Cookout logo on exit of turn two",
+    "Maintain balance and keep the radius longer.",
+    "lift to manage compression zone, use less maintenance throttle",
+    "Maintain lateral grip, avoid pushing up early"
+  ],
+  "dropped_ungrounded": 4
+}

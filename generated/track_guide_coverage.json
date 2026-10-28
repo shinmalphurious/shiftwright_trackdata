@@ -5,7 +5,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -15,7 +23,19 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -25,7 +45,19 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 2
+        "guides": 4
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -36,6 +68,26 @@
       {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 4
+      },
+      {
+        "car": "arca",
+        "guides": 1
       }
     ]
   },
@@ -44,16 +96,8 @@
     "layout": "11-stafford-oval",
     "cars": [
       {
-        "car": "arca",
-        "guides": 1
-      },
-      {
         "car": "modified",
-        "guides": 3
-      },
-      {
-        "car": "late_model",
-        "guides": 3
+        "guides": 2
       }
     ]
   },
@@ -63,33 +107,46 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
       },
       {
         "car": "arca",
-        "guides": 1
-      },
-      {
-        "car": "legends",
-        "guides": 2
+        "guides": 3
       }
     ]
   },
   {
     "track_id": 111,
     "layout": "111-vegas-roadlong",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 6
+      },
+      {
+        "car": "arca",
+        "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 112,
     "layout": "112-vegas-roadshort",
     "cars": [
       {
-        "car": "truck",
-        "guides": 2
+        "car": "nascar",
+        "guides": 6
       },
       {
-        "car": "legends",
+        "car": "arca",
+        "guides": 3
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -100,7 +157,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 2
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 3
       }
     ]
   },
@@ -110,19 +171,11 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "arca",
         "guides": 3
-      },
-      {
-        "car": "legends",
-        "guides": 1
-      },
-      {
-        "car": "vee",
-        "guides": 1
-      },
-      {
-        "car": "truck",
-        "guides": 1
       }
     ]
   },
@@ -132,7 +185,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -142,11 +203,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
       },
       {
-        "car": "arca",
-        "guides": 1
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -154,6 +215,14 @@
     "track_id": 117,
     "layout": "117-texas-infieldrclong",
     "cars": [
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
       {
         "car": "nascar",
         "guides": 1
@@ -167,6 +236,14 @@
       {
         "car": "nascar",
         "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
@@ -174,6 +251,14 @@
     "track_id": 119,
     "layout": "119-texas-infieldrcshortb",
     "cars": [
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
       {
         "car": "nascar",
         "guides": 1
@@ -185,15 +270,31 @@
     "layout": "12-oxford-oval",
     "cars": [
       {
+        "car": "legends",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
+        "guides": 2
+      },
+      {
         "car": "modified",
         "guides": 1
       },
       {
-        "car": "legends",
-        "guides": 3
+        "car": "street_stock",
+        "guides": 1
       },
       {
-        "car": "street_stock",
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
         "guides": 1
       }
     ]
@@ -204,15 +305,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 1
+        "guides": 2
       },
       {
-        "car": "street_stock",
-        "guides": 3
+        "car": "general",
+        "guides": 2
       },
       {
-        "car": "legends",
-        "guides": 3
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
@@ -222,6 +323,10 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "general",
         "guides": 2
       },
       {
@@ -235,8 +340,12 @@
     "layout": "122-texas-roadcourse",
     "cars": [
       {
+        "car": "general",
+        "guides": 2
+      },
+      {
         "car": "arca",
-        "guides": 1
+        "guides": 2
       }
     ]
   },
@@ -246,11 +355,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 5
       },
       {
         "car": "arca",
-        "guides": 2
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -260,7 +373,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "general",
+        "guides": 2
       },
       {
         "car": "truck",
@@ -273,23 +390,40 @@
     "layout": "126-roadatlanta-club",
     "cars": [
       {
-        "car": "mx5",
+        "car": "nascar",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 127,
     "layout": "127-roadatlanta-full",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 128,
     "layout": "128-roadatlanta-short",
     "cars": [
       {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -299,7 +433,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -309,6 +451,14 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 5
+      },
+      {
+        "car": "general",
+        "guides": 4
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -319,7 +469,7 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
       },
       {
         "car": "usf2000",
@@ -328,6 +478,10 @@
       {
         "car": "street_stock",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -336,7 +490,15 @@
     "layout": "132-newhampshire-southoval",
     "cars": [
       {
-        "car": "usf2000",
+        "car": "nascar",
+        "guides": 6
+      },
+      {
+        "car": "general",
+        "guides": 3
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -348,6 +510,14 @@
       {
         "car": "nascar",
         "guides": 3
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -358,13 +528,38 @@
       {
         "car": "usf2000",
         "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 135,
     "layout": "135-indianapolis-motogp",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
   },
   {
     "track_id": 136,
@@ -372,7 +567,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 5
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
@@ -386,6 +589,14 @@
       },
       {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -396,6 +607,14 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -403,14 +622,31 @@
   {
     "track_id": 139,
     "layout": "139-pocono-north",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 14,
     "layout": "14-southboston",
     "cars": [
       {
-        "car": "arca",
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "street_stock",
         "guides": 2
       },
       {
@@ -418,12 +654,16 @@
         "guides": 3
       },
       {
-        "car": "mx5",
+        "car": "general",
         "guides": 1
       },
       {
-        "car": "modified",
+        "car": "legends",
         "guides": 1
+      },
+      {
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
@@ -434,6 +674,14 @@
       {
         "car": "nascar",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
@@ -442,7 +690,15 @@
     "layout": "142-summit-jefferson-rev",
     "cars": [
       {
+        "car": "bmw_m2",
+        "guides": 3
+      },
+      {
         "car": "mx5",
+        "guides": 6
+      },
+      {
+        "car": "vee",
         "guides": 1
       }
     ]
@@ -452,7 +708,7 @@
     "layout": "143-skidpad",
     "cars": [
       {
-        "car": "vee",
+        "car": "general",
         "guides": 1
       }
     ]
@@ -463,23 +719,56 @@
     "cars": [
       {
         "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
         "guides": 1
       },
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 5
       }
     ]
   },
   {
     "track_id": 145,
     "layout": "145-brandshatch-grandprix",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 146,
     "layout": "146-brandshatch-indy",
     "cars": [
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
       {
         "car": "mx5",
         "guides": 1
@@ -493,13 +782,38 @@
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 148,
     "layout": "148-zandvoort-club",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 149,
@@ -507,38 +821,101 @@
     "cars": [
       {
         "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 15,
     "layout": "15-concordhalf",
-    "cars": []
+    "cars": [
+      {
+        "car": "street_stock",
+        "guides": 1
+      },
+      {
+        "car": "legends",
+        "guides": 3
+      },
+      {
+        "car": "late_model",
+        "guides": 2
+      },
+      {
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 150,
     "layout": "150-zandvoort-national",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 2
-      },
-      {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 151,
     "layout": "151-zandvoort-oostelijk",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 152,
     "layout": "152-phillipisland",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 153,
@@ -547,6 +924,18 @@
       {
         "car": "usf2000",
         "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -557,6 +946,18 @@
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
       }
     ]
   },
@@ -565,8 +966,20 @@
     "layout": "155-midohio-short",
     "cars": [
       {
-        "car": "mx5",
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -575,12 +988,16 @@
     "layout": "156-midohio-oval",
     "cars": [
       {
-        "car": "arca",
+        "car": "bmw_m2",
         "guides": 1
       },
       {
-        "car": "nascar",
+        "car": "usf2000",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -589,20 +1006,16 @@
     "layout": "157-midohio-altoval",
     "cars": [
       {
-        "car": "nascar",
-        "guides": 2
-      },
-      {
-        "car": "rallycross_beetle",
+        "car": "bmw_m2",
         "guides": 1
       },
       {
-        "car": "arca",
+        "car": "usf2000",
         "guides": 1
       },
       {
-        "car": "street_stock",
-        "guides": 2
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -612,7 +1025,15 @@
     "cars": [
       {
         "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "vee",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -622,6 +1043,22 @@
     "cars": [
       {
         "car": "mx5",
+        "guides": 4
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 3
+      },
+      {
+        "car": "vee",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -629,7 +1066,32 @@
   {
     "track_id": 16,
     "layout": "16-lakeland",
-    "cars": []
+    "cars": [
+      {
+        "car": "late_model",
+        "guides": 2
+      },
+      {
+        "car": "legends",
+        "guides": 2
+      },
+      {
+        "car": "street_stock",
+        "guides": 3
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 161,
@@ -642,6 +1104,22 @@
       {
         "car": "late_model",
         "guides": 2
+      },
+      {
+        "car": "street_stock",
+        "guides": 2
+      },
+      {
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
+      },
+      {
+        "car": "legends",
+        "guides": 1
       }
     ]
   },
@@ -651,7 +1129,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 2
+        "guides": 6
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -660,23 +1142,32 @@
     "layout": "163-spa-up",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
   {
     "track_id": 164,
     "layout": "164-spa-low",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 165,
     "layout": "165-spa-combined",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -686,11 +1177,15 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 5
       },
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 4
       }
     ]
   },
@@ -700,10 +1195,22 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 5
       },
       {
         "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "vee",
+        "guides": 2
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -713,12 +1220,16 @@
     "layout": "168-suzuka-grandprix",
     "cars": [
       {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
         "car": "usf2000",
         "guides": 1
       },
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -728,15 +1239,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
       },
       {
         "car": "arca",
-        "guides": 2
+        "guides": 1
       },
       {
-        "car": "vee",
-        "guides": 1
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -745,12 +1256,12 @@
     "layout": "17-lanier",
     "cars": [
       {
-        "car": "street_stock",
-        "guides": 3
+        "car": "arca",
+        "guides": 2
       },
       {
-        "car": "arca",
-        "guides": 1
+        "car": "street_stock",
+        "guides": 2
       },
       {
         "car": "modified",
@@ -758,7 +1269,15 @@
       },
       {
         "car": "legends",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -768,18 +1287,18 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
-      },
-      {
-        "car": "rallycross_beetle",
-        "guides": 1
+        "guides": 7
       },
       {
         "car": "arca",
         "guides": 1
       },
       {
-        "car": "mx5",
+        "car": "rallycross_beetle",
+        "guides": 1
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -790,7 +1309,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -800,7 +1327,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -809,8 +1344,12 @@
     "layout": "173-suzuka-moto",
     "cars": [
       {
-        "car": "legends",
-        "guides": 2
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -820,18 +1359,27 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 2
+        "guides": 1
       },
       {
-        "car": "usf2000",
-        "guides": 1
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 175,
     "layout": "175-suzuka-west",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 176,
@@ -840,6 +1388,10 @@
       {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -849,7 +1401,15 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -862,15 +1422,36 @@
         "guides": 1
       },
       {
-        "car": "legends",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 18,
     "layout": "18-roadamerica-full",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 180,
@@ -886,10 +1467,14 @@
       },
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 5
       },
       {
         "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -908,7 +1493,11 @@
       },
       {
         "car": "mx5",
-        "guides": 2
+        "guides": 4
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -918,22 +1507,31 @@
     "cars": [
       {
         "car": "ff1600",
-        "guides": 3
+        "guides": 5
+      },
+      {
+        "car": "general",
+        "guides": 4
       },
       {
         "car": "vee",
         "guides": 1
-      },
-      {
-        "car": "mx5",
-        "guides": 2
       }
     ]
   },
   {
     "track_id": 183,
     "layout": "183-oulton-intbrittens",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
   },
   {
     "track_id": 184,
@@ -941,15 +1539,19 @@
     "cars": [
       {
         "car": "bmw_m2",
-        "guides": 2
+        "guides": 3
       },
       {
         "car": "ff1600",
         "guides": 1
       },
       {
-        "car": "modified",
+        "car": "legends",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
@@ -958,7 +1560,15 @@
     "layout": "185-oulton-intnochicane",
     "cars": [
       {
+        "car": "general",
+        "guides": 7
+      },
+      {
         "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "ff1600",
         "guides": 1
       }
     ]
@@ -969,11 +1579,15 @@
     "cars": [
       {
         "car": "ff1600",
-        "guides": 1
+        "guides": 4
       },
       {
         "car": "mx5",
-        "guides": 1
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 4
       }
     ]
   },
@@ -987,7 +1601,11 @@
       },
       {
         "car": "ff1600",
-        "guides": 3
+        "guides": 6
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -1000,12 +1618,8 @@
         "guides": 2
       },
       {
-        "car": "street_stock",
-        "guides": 1
-      },
-      {
-        "car": "arca",
-        "guides": 1
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -1014,8 +1628,12 @@
     "layout": "189-kentucky-legend",
     "cars": [
       {
-        "car": "legends",
-        "guides": 3
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -1025,14 +1643,22 @@
     "cars": [
       {
         "car": "modified",
-        "guides": 2
-      },
-      {
-        "car": "late_model",
         "guides": 3
       },
       {
-        "car": "street_stock",
+        "car": "late_model",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -1043,14 +1669,14 @@
     "cars": [
       {
         "car": "late_model",
-        "guides": 2
+        "guides": 4
       },
       {
         "car": "modified",
-        "guides": 1
+        "guides": 2
       },
       {
-        "car": "nascar",
+        "car": "general",
         "guides": 1
       }
     ]
@@ -1061,39 +1687,77 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 192,
     "layout": "192-daytona-2011-road",
-    "cars": []
-  },
-  {
-    "track_id": 193,
-    "layout": "193-daytona-2011-bike",
-    "cars": []
-  },
-  {
-    "track_id": 194,
-    "layout": "194-daytona-2011-short",
     "cars": [
       {
         "car": "nascar",
         "guides": 1
       },
       {
-        "car": "mx5",
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "legends",
+        "car": "general",
+        "guides": 8
+      }
+    ]
+  },
+  {
+    "track_id": 193,
+    "layout": "193-daytona-2011-bike",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "rallycross_beetle",
         "guides": 1
       },
       {
-        "car": "truck",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      }
+    ]
+  },
+  {
+    "track_id": 194,
+    "layout": "194-daytona-2011-short",
+    "cars": [
+      {
+        "car": "rallycross_beetle",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
+      },
+      {
+        "car": "nascar",
+        "guides": 4
       }
     ]
   },
@@ -1104,6 +1768,14 @@
       {
         "car": "usf2000",
         "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -1112,8 +1784,12 @@
     "layout": "196-twinring-east",
     "cars": [
       {
-        "car": "mx5",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -1122,16 +1798,16 @@
     "layout": "197-twinring-west",
     "cars": [
       {
-        "car": "nascar",
-        "guides": 2
-      },
-      {
-        "car": "truck",
+        "car": "bmw_m2",
         "guides": 1
       },
       {
-        "car": "arca",
-        "guides": 3
+        "car": "general",
+        "guides": 8
+      },
+      {
+        "car": "nascar",
+        "guides": 1
       }
     ]
   },
@@ -1140,19 +1816,32 @@
     "layout": "198-twinring-oval",
     "cars": [
       {
-        "car": "arca",
-        "guides": 2
+        "car": "usf2000",
+        "guides": 1
       },
       {
-        "car": "nascar",
-        "guides": 2
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 199,
     "layout": "199-zolder-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 20,
@@ -1160,7 +1849,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -1170,7 +1863,11 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -1179,24 +1876,24 @@
     "layout": "201-langley",
     "cars": [
       {
-        "car": "late_model",
-        "guides": 1
-      },
-      {
         "car": "arca",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "street_stock",
         "guides": 1
       },
       {
-        "car": "legends",
+        "car": "modified",
         "guides": 1
       },
       {
-        "car": "nascar",
+        "car": "late_model",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -1210,11 +1907,19 @@
       },
       {
         "car": "ff1600",
-        "guides": 2
+        "guides": 3
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
       },
       {
         "car": "vee",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -1224,7 +1929,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
+        "guides": 1
       }
     ]
   },
@@ -1233,7 +1946,15 @@
     "layout": "204-rockingham-road",
     "cars": [
       {
-        "car": "mx5",
+        "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
         "guides": 1
       }
     ]
@@ -1244,7 +1965,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
+        "guides": 1
       }
     ]
   },
@@ -1254,10 +1983,14 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "late_model",
         "guides": 1
       },
       {
-        "car": "truck",
+        "car": "arca",
         "guides": 2
       }
     ]
@@ -1267,16 +2000,16 @@
     "layout": "207-oran-north",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 3
+        "car": "ff1600",
+        "guides": 5
       },
       {
-        "car": "bmw_m2",
+        "car": "mx5",
         "guides": 2
       },
       {
-        "car": "ff1600",
-        "guides": 1
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -1286,11 +2019,23 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "legends",
+        "guides": 1
       },
       {
         "car": "vee",
+        "guides": 2
+      },
+      {
+        "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -1299,12 +2044,16 @@
     "layout": "209-oran-northa",
     "cars": [
       {
+        "car": "ff1600",
+        "guides": 4
+      },
+      {
         "car": "mx5",
         "guides": 3
       },
       {
-        "car": "ff1600",
-        "guides": 2
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -1314,11 +2063,15 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "modified",
-        "guides": 1
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -1331,8 +2084,16 @@
         "guides": 1
       },
       {
-        "car": "vee",
+        "car": "mx5",
         "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -1342,27 +2103,53 @@
     "cars": [
       {
         "car": "vee",
-        "guides": 1
+        "guides": 2
       },
       {
         "car": "ff1600",
         "guides": 2
       },
       {
-        "car": "mx5",
+        "car": "general",
         "guides": 3
+      },
+      {
+        "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 212,
     "layout": "212-interlagos-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 213,
     "layout": "213-interlagos-moto",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 9
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 214,
@@ -1370,7 +2157,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -1380,11 +2175,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 2
       },
       {
-        "car": "arca",
-        "guides": 1
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -1394,10 +2189,14 @@
     "cars": [
       {
         "car": "arca",
-        "guides": 1
+        "guides": 2
       },
       {
         "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -1407,19 +2206,23 @@
     "layout": "217-irwindale-figureeight",
     "cars": [
       {
+        "car": "modified",
+        "guides": 3
+      },
+      {
+        "car": "late_model",
+        "guides": 1
+      },
+      {
         "car": "arca",
         "guides": 1
       },
       {
-        "car": "modified",
-        "guides": 1
+        "car": "nascar",
+        "guides": 2
       },
       {
-        "car": "mx5",
-        "guides": 1
-      },
-      {
-        "car": "street_stock",
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -1427,7 +2230,20 @@
   {
     "track_id": 218,
     "layout": "218-montreal",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 22,
@@ -1435,26 +2251,35 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 5
+      },
+      {
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "modified",
-        "guides": 1
+        "car": "general",
+        "guides": 4
       }
     ]
   },
   {
     "track_id": 220,
     "layout": "220-newjersey-full",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 3
+      }
+    ]
   },
   {
     "track_id": 221,
     "layout": "221-newjersey-chicane",
     "cars": [
       {
-        "car": "bmw_m2",
-        "guides": 1
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -1468,26 +2293,35 @@
       },
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 5
       },
       {
-        "car": "late_model",
+        "car": "arca",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
       }
     ]
   },
   {
     "track_id": 223,
     "layout": "223-newjersey-firstchicane",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 3
+      }
+    ]
   },
   {
     "track_id": 224,
     "layout": "224-newjersey-secondchicane",
     "cars": [
       {
-        "car": "usf2000",
-        "guides": 1
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -1497,11 +2331,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 2
+        "guides": 4
       },
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -1510,48 +2344,87 @@
     "layout": "226-california-competition",
     "cars": [
       {
-        "car": "bmw_m2",
+        "car": "arca",
         "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
   {
     "track_id": 227,
     "layout": "227-california-moto",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 228,
     "layout": "228-california-interiora",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 4
+      }
+    ]
   },
   {
     "track_id": 229,
     "layout": "229-cota-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 23,
     "layout": "23-irwindale-outer",
     "cars": [
       {
+        "car": "late_model",
+        "guides": 1
+      },
+      {
+        "car": "modified",
+        "guides": 2
+      },
+      {
         "car": "arca",
         "guides": 1
       },
       {
         "car": "nascar",
-        "guides": 1
+        "guides": 2
       },
       {
-        "car": "late_model",
-        "guides": 3
-      },
-      {
-        "car": "legends",
-        "guides": 1
-      },
-      {
-        "car": "modified",
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -1559,7 +2432,12 @@
   {
     "track_id": 230,
     "layout": "230-cota-east",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 231,
@@ -1568,6 +2446,10 @@
       {
         "car": "nascar",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -1576,15 +2458,27 @@
     "layout": "232-irp",
     "cars": [
       {
-        "car": "arca",
-        "guides": 1
-      },
-      {
         "car": "nascar",
-        "guides": 3
+        "guides": 5
       },
       {
         "car": "late_model",
+        "guides": 1
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 1
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -1592,7 +2486,16 @@
   {
     "track_id": 233,
     "layout": "233-donington-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 234,
@@ -1601,6 +2504,10 @@
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -1614,7 +2521,19 @@
       },
       {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
@@ -1623,8 +2542,12 @@
     "layout": "239-monza-full",
     "cars": [
       {
-        "car": "legends",
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -1633,22 +2556,47 @@
     "layout": "24-summit-summit-short",
     "cars": [
       {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
         "car": "vee",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
   {
     "track_id": 240,
     "layout": "240-monza-historic",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 241,
     "layout": "241-monza-junior",
     "cars": [
       {
-        "car": "legends",
+        "car": "general",
+        "guides": 9
+      },
+      {
+        "car": "mx5",
         "guides": 1
       }
     ]
@@ -1664,6 +2612,10 @@
       {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -1676,8 +2628,12 @@
         "guides": 1
       },
       {
-        "car": "legends",
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -1686,8 +2642,16 @@
     "layout": "244-monza-gpsecondchicane",
     "cars": [
       {
-        "car": "legends",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -1697,11 +2661,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 1
       },
       {
-        "car": "truck",
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -1710,15 +2678,36 @@
     "layout": "246-monza-historicsecondchicane",
     "cars": [
       {
-        "car": "legends",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 247,
     "layout": "247-monza-combinedchicanes",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 8
+      },
+      {
+        "car": "legends",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 248,
@@ -1726,19 +2715,19 @@
     "cars": [
       {
         "car": "late_model",
-        "guides": 3
-      },
-      {
-        "car": "arca",
-        "guides": 1
+        "guides": 5
       },
       {
         "car": "nascar",
         "guides": 1
       },
       {
+        "car": "arca",
+        "guides": 1
+      },
+      {
         "car": "modified",
-        "guides": 2
+        "guides": 1
       }
     ]
   },
@@ -1747,8 +2736,8 @@
     "layout": "249-nurburgring-nordschleife",
     "cars": [
       {
-        "car": "legends",
-        "guides": 2
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -1757,8 +2746,8 @@
     "layout": "250-nurburgring-gp",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -1767,8 +2756,8 @@
     "layout": "252-nurburgring-combined",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -1777,8 +2766,8 @@
     "layout": "253-nurburgring-nordschleifetourist",
     "cars": [
       {
-        "car": "legends",
-        "guides": 2
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -1787,8 +2776,8 @@
     "layout": "255-nurburgring-gpnochicane",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -1797,23 +2786,23 @@
     "layout": "256-southernnational",
     "cars": [
       {
-        "car": "late_model",
+        "car": "arca",
         "guides": 2
+      },
+      {
+        "car": "late_model",
+        "guides": 3
       },
       {
         "car": "street_stock",
-        "guides": 2
-      },
-      {
-        "car": "arca",
-        "guides": 2
+        "guides": 3
       },
       {
         "car": "modified",
         "guides": 1
       },
       {
-        "car": "legends",
+        "car": "general",
         "guides": 1
       }
     ]
@@ -1823,8 +2812,8 @@
     "layout": "257-nurburgring-gpshort",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -1835,13 +2824,30 @@
       {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 26,
     "layout": "26-daytona-road",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
   },
   {
     "track_id": 260,
@@ -1850,38 +2856,66 @@
       {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 261,
     "layout": "261-nurburgring-mullenbachschleife",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 262,
     "layout": "262-nurburgring-combinedshortb",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
   {
     "track_id": 263,
     "layout": "263-nurburgring-combinedshorta",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 264,
     "layout": "264-nurburgring-combinedlong",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 266,
     "layout": "266-imola-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 267,
@@ -1889,23 +2923,37 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 2
+        "guides": 1
       },
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 268,
     "layout": "268-lemans-full",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 269,
     "layout": "269-lemans-nochicane",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 27,
@@ -1913,30 +2961,39 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
   {
     "track_id": 271,
     "layout": "271-bullring",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 273,
     "layout": "273-eldora",
     "cars": [
       {
-        "car": "street_stock",
-        "guides": 1
+        "car": "general",
+        "guides": 2
       },
       {
         "car": "nascar",
-        "guides": 1
-      },
-      {
-        "car": "modified",
-        "guides": 1
+        "guides": 2
       }
     ]
   },
@@ -1946,11 +3003,7 @@
     "cars": [
       {
         "car": "late_model",
-        "guides": 3
-      },
-      {
-        "car": "modified",
-        "guides": 2
+        "guides": 1
       }
     ]
   },
@@ -1959,12 +3012,36 @@
     "layout": "275-lakeland-dirt",
     "cars": [
       {
-        "car": "late_model",
-        "guides": 3
-      },
-      {
         "car": "street_stock",
         "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "late_model",
+        "guides": 1
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "legends",
+        "guides": 1
       }
     ]
   },
@@ -1973,11 +3050,15 @@
     "layout": "276-michigan-2018",
     "cars": [
       {
-        "car": "nascar",
-        "guides": 1
+        "car": "arca",
+        "guides": 3
       },
       {
-        "car": "arca",
+        "car": "nascar",
+        "guides": 6
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -1988,7 +3069,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -1997,15 +3082,7 @@
     "layout": "279-volusia",
     "cars": [
       {
-        "car": "street_stock",
-        "guides": 1
-      },
-      {
-        "car": "late_model",
-        "guides": 1
-      },
-      {
-        "car": "modified",
+        "car": "general",
         "guides": 1
       }
     ]
@@ -2015,8 +3092,16 @@
     "layout": "28-daytona-bike",
     "cars": [
       {
-        "car": "legends",
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -2025,19 +3110,19 @@
     "layout": "286-myrtlebeach",
     "cars": [
       {
-        "car": "nascar",
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "arca",
-        "guides": 2
+        "car": "modified",
+        "guides": 1
       },
       {
         "car": "late_model",
         "guides": 2
       },
       {
-        "car": "modified",
+        "car": "nascar",
         "guides": 1
       }
     ]
@@ -2048,7 +3133,15 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "arca",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -2058,14 +3151,26 @@
     "cars": [
       {
         "car": "street_stock",
-        "guides": 3
+        "guides": 2
       },
       {
         "car": "legends",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
         "guides": 1
       },
       {
         "car": "modified",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -2076,19 +3181,19 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 1
+        "guides": 2
       },
       {
         "car": "pro_lite_2",
         "guides": 1
       },
       {
-        "car": "legends",
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "rallycross_beetle",
-        "guides": 1
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -2097,12 +3202,20 @@
     "layout": "290-brandshatch-rallycross",
     "cars": [
       {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
         "car": "usf2000",
         "guides": 1
       },
       {
-        "car": "rallycross_beetle",
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -2112,7 +3225,15 @@
     "cars": [
       {
         "car": "rallycross_beetle",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -2122,7 +3243,15 @@
     "cars": [
       {
         "car": "rallycross_beetle",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
       }
     ]
   },
@@ -2132,14 +3261,35 @@
     "cars": [
       {
         "car": "rallycross_beetle",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 297,
     "layout": "297-snetterton-300",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 298,
@@ -2147,7 +3297,15 @@
     "cars": [
       {
         "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -2156,12 +3314,24 @@
     "layout": "299-snetterton-100",
     "cars": [
       {
+        "car": "vee",
+        "guides": 1
+      },
+      {
         "car": "legends",
-        "guides": 2
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
       },
       {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -2170,15 +3340,23 @@
     "layout": "30-irwindale-outerinner",
     "cars": [
       {
-        "car": "late_model",
-        "guides": 3
+        "car": "modified",
+        "guides": 2
       },
       {
-        "car": "nascar",
+        "car": "late_model",
         "guides": 1
       },
       {
-        "car": "modified",
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -2188,6 +3366,10 @@
     "layout": "303-limaland",
     "cars": [
       {
+        "car": "general",
+        "guides": 5
+      },
+      {
         "car": "late_model",
         "guides": 2
       },
@@ -2196,7 +3378,7 @@
         "guides": 1
       },
       {
-        "car": "street_stock",
+        "car": "modified",
         "guides": 1
       }
     ]
@@ -2207,10 +3389,22 @@
     "cars": [
       {
         "car": "rallycross_beetle",
+        "guides": 4
+      },
+      {
+        "car": "nascar",
         "guides": 3
       },
       {
-        "car": "mx5",
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -2218,7 +3412,16 @@
   {
     "track_id": 305,
     "layout": "305-knoxville",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 3
+      }
+    ]
   },
   {
     "track_id": 306,
@@ -2227,6 +3430,18 @@
       {
         "car": "rallycross_beetle",
         "guides": 3
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
@@ -2235,12 +3450,16 @@
     "layout": "312-sonoma-rallycross",
     "cars": [
       {
-        "car": "rallycross_beetle",
-        "guides": 3
+        "car": "nascar",
+        "guides": 5
       },
       {
-        "car": "legends",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -2249,15 +3468,23 @@
     "layout": "314-charlottedirt",
     "cars": [
       {
-        "car": "late_model",
-        "guides": 1
-      },
-      {
         "car": "street_stock",
         "guides": 3
       },
       {
+        "car": "rallycross_beetle",
+        "guides": 3
+      },
+      {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 1
+      },
+      {
+        "car": "late_model",
         "guides": 1
       }
     ]
@@ -2269,6 +3496,10 @@
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -2279,6 +3510,10 @@
       {
         "car": "modified",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -2287,8 +3522,20 @@
     "layout": "322-atlanta-rallycross-short",
     "cars": [
       {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
         "car": "rallycross_beetle",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -2297,8 +3544,16 @@
     "layout": "323-atlanta-rallycross-long",
     "cars": [
       {
-        "car": "rallycross_beetle",
-        "guides": 3
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
@@ -2316,11 +3571,11 @@
       },
       {
         "car": "bmw_m2",
-        "guides": 1
+        "guides": 3
       },
       {
         "car": "vee",
-        "guides": 1
+        "guides": 2
       }
     ]
   },
@@ -2329,8 +3584,20 @@
     "layout": "325-tsukuba-2kchicane",
     "cars": [
       {
+        "car": "general",
+        "guides": 4
+      },
+      {
         "car": "mx5",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "vee",
+        "guides": 1
       }
     ]
   },
@@ -2344,11 +3611,15 @@
       },
       {
         "car": "ff1600",
-        "guides": 1
+        "guides": 4
       },
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 2
+      },
+      {
+        "car": "vee",
+        "guides": 1
       }
     ]
   },
@@ -2357,12 +3628,28 @@
     "layout": "327-tsukuba-1kfull",
     "cars": [
       {
+        "car": "legends",
+        "guides": 1
+      },
+      {
         "car": "mx5",
-        "guides": 3
+        "guides": 5
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       },
       {
         "car": "ff1600",
-        "guides": 2
+        "guides": 1
+      },
+      {
+        "car": "street_stock",
+        "guides": 1
       }
     ]
   },
@@ -2372,11 +3659,19 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "vee",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
       }
     ]
   },
@@ -2390,11 +3685,19 @@
       },
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 4
       },
       {
-        "car": "street_stock",
+        "car": "vee",
         "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 3
       }
     ]
   },
@@ -2404,14 +3707,27 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 7
+      },
+      {
+        "car": "late_model",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 331,
     "layout": "331-chilibowl",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 3
+      }
+    ]
   },
   {
     "track_id": 332,
@@ -2419,11 +3735,7 @@
     "cars": [
       {
         "car": "truck",
-        "guides": 3
-      },
-      {
-        "car": "nascar",
-        "guides": 1
+        "guides": 4
       }
     ]
   },
@@ -2433,11 +3745,19 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "vee",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
       }
     ]
   },
@@ -2447,7 +3767,11 @@
     "cars": [
       {
         "car": "truck",
-        "guides": 2
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -2456,8 +3780,16 @@
     "layout": "341-silverstone-2019-gp",
     "cars": [
       {
-        "car": "vee",
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -2470,30 +3802,35 @@
         "guides": 1
       },
       {
-        "car": "vee",
+        "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 343,
     "layout": "343-silverstone-2019-national",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 344,
     "layout": "344-fairbury",
     "cars": [
       {
-        "car": "late_model",
-        "guides": 3
-      },
-      {
-        "car": "street_stock",
-        "guides": 3
-      },
-      {
-        "car": "modified",
+        "car": "general",
         "guides": 1
       }
     ]
@@ -2501,50 +3838,95 @@
   {
     "track_id": 345,
     "layout": "345-barcelona-gp",
-    "cars": []
-  },
-  {
-    "track_id": 346,
-    "layout": "346-barcelona-national",
-    "cars": []
-  },
-  {
-    "track_id": 347,
-    "layout": "347-barcelona-club",
-    "cars": []
-  },
-  {
-    "track_id": 348,
-    "layout": "348-barcelona-moto",
-    "cars": []
-  },
-  {
-    "track_id": 349,
-    "layout": "349-barcelona-historic",
-    "cars": []
-  },
-  {
-    "track_id": 351,
-    "layout": "351-lernerville",
     "cars": [
       {
-        "car": "street_stock",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
   {
+    "track_id": 346,
+    "layout": "346-barcelona-national",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 347,
+    "layout": "347-barcelona-club",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 348,
+    "layout": "348-barcelona-moto",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 349,
+    "layout": "349-barcelona-historic",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 351,
+    "layout": "351-lernerville",
+    "cars": []
+  },
+  {
     "track_id": 352,
     "layout": "352-limerock-2019-classic",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 5
+      },
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 353,
     "layout": "353-limerock-2019-gp",
     "cars": [
       {
-        "car": "ff1600",
-        "guides": 3
+        "car": "mx5",
+        "guides": 5
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 4
+      },
+      {
+        "car": "vee",
+        "guides": 1
       }
     ]
   },
@@ -2554,10 +3936,18 @@
     "cars": [
       {
         "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "vee",
         "guides": 3
       },
       {
-        "car": "ff1600",
+        "car": "bmw_m2",
+        "guides": 3
+      },
+      {
+        "car": "general",
         "guides": 2
       }
     ]
@@ -2567,20 +3957,12 @@
     "layout": "355-limerock-2019-chicanewestb",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 3
-      },
-      {
         "car": "ff1600",
         "guides": 1
       },
       {
-        "car": "vee",
-        "guides": 1
-      },
-      {
-        "car": "bmw_m2",
-        "guides": 1
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -2589,90 +3971,69 @@
     "layout": "357-texas-2020-oval",
     "cars": [
       {
-        "car": "arca",
-        "guides": 2
+        "car": "nascar",
+        "guides": 3
       },
       {
-        "car": "nascar",
-        "guides": 1
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 358,
     "layout": "358-lankebanen-hellrx",
-    "cars": [
-      {
-        "car": "rallycross_beetle",
-        "guides": 3
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 359,
     "layout": "359-lankebanen-club",
-    "cars": [
-      {
-        "car": "legends",
-        "guides": 1
-      },
-      {
-        "car": "rallycross_beetle",
-        "guides": 3
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 360,
     "layout": "360-lankebanen-rallyshort",
-    "cars": [
-      {
-        "car": "rallycross_beetle",
-        "guides": 1
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 361,
     "layout": "361-lankebanen-road-roadshort",
-    "cars": [
-      {
-        "car": "legends",
-        "guides": 1
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 362,
     "layout": "362-homestead-ovalindy",
     "cars": [
       {
-        "car": "usf2000",
+        "car": "nascar",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 363,
     "layout": "363-lankebanen-road-roadlong",
-    "cars": [
-      {
-        "car": "rallycross_beetle",
-        "guides": 2
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 364,
     "layout": "364-texas-2020-legendsoval",
     "cars": [
       {
-        "car": "street_stock",
-        "guides": 1
+        "car": "nascar",
+        "guides": 2
       },
       {
-        "car": "legends",
-        "guides": 3
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 1
       }
     ]
   },
@@ -2682,7 +4043,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -2692,10 +4061,18 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
       },
       {
         "car": "late_model",
+        "guides": 1
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -2705,36 +4082,23 @@
     "layout": "371-kentucky-2020-oval",
     "cars": [
       {
-        "car": "arca",
-        "guides": 2
-      },
-      {
         "car": "nascar",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "truck",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
   {
     "track_id": 373,
     "layout": "373-weedsport",
-    "cars": [
-      {
-        "car": "modified",
-        "guides": 3
-      },
-      {
-        "car": "street_stock",
-        "guides": 1
-      },
-      {
-        "car": "late_model",
-        "guides": 1
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 374,
@@ -2746,11 +4110,19 @@
       },
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 4
       },
       {
-        "car": "arca",
+        "car": "street_stock",
         "guides": 1
+      },
+      {
+        "car": "late_model",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -2760,38 +4132,43 @@
     "cars": [
       {
         "car": "street_stock",
-        "guides": 2
-      },
-      {
-        "car": "nascar",
-        "guides": 2
+        "guides": 1
       },
       {
         "car": "legends",
         "guides": 1
       },
       {
-        "car": "modified",
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "late_model",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
       }
     ]
   },
   {
     "track_id": 381,
     "layout": "381-daytona-2011-roadnascar2020",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 382,
     "layout": "382-crandon-full",
     "cars": [
       {
-        "car": "rallycross_beetle",
-        "guides": 1
-      },
-      {
         "car": "truck",
-        "guides": 3
+        "guides": 2
       }
     ]
   },
@@ -2801,7 +4178,7 @@
     "cars": [
       {
         "car": "truck",
-        "guides": 3
+        "guides": 1
       }
     ]
   },
@@ -2810,16 +4187,16 @@
     "layout": "384-iracingss",
     "cars": [
       {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
         "car": "mx5",
         "guides": 2
       },
       {
         "car": "bmw_m2",
         "guides": 3
-      },
-      {
-        "car": "nascar",
-        "guides": 1
       },
       {
         "car": "vee",
@@ -2833,42 +4210,41 @@
     "cars": [
       {
         "car": "rallycross_beetle",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 387,
     "layout": "387-cedarlake",
-    "cars": [
-      {
-        "car": "late_model",
-        "guides": 3
-      },
-      {
-        "car": "modified",
-        "guides": 2
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 388,
     "layout": "388-irwindale-figureeightjump",
     "cars": [
       {
-        "car": "arca",
+        "car": "late_model",
         "guides": 2
       },
       {
-        "car": "mx5",
+        "car": "modified",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "street_stock",
-        "guides": 1
+        "car": "nascar",
+        "guides": 2
       },
       {
-        "car": "rallycross_beetle",
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -2876,32 +4252,52 @@
   {
     "track_id": 390,
     "layout": "390-hockenheim-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 391,
     "layout": "391-hockenheim-nationala",
     "cars": [
       {
-        "car": "ff1600",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
   {
     "track_id": 392,
     "layout": "392-hockenheim-nationalb",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 393,
     "layout": "393-hockenheim-shorta",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 394,
     "layout": "394-hockenheim-shortb",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 395,
@@ -2916,8 +4312,8 @@
         "guides": 1
       },
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -2927,14 +4323,19 @@
     "cars": [
       {
         "car": "truck",
-        "guides": 3
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 398,
     "layout": "398-mtwashington-climb",
-    "cars": []
+    "cars": [
+      {
+        "car": "vee",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 399,
@@ -2952,7 +4353,7 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
       },
       {
         "car": "usf2000",
@@ -2967,7 +4368,12 @@
   {
     "track_id": 403,
     "layout": "403-spielberg-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 404,
@@ -2978,8 +4384,8 @@
         "guides": 1
       },
       {
-        "car": "mx5",
-        "guides": 1
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -2989,47 +4395,58 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 9
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 407,
     "layout": "407-spielberg-north",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 41,
     "layout": "41-silverstone-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 413,
     "layout": "413-hungaroring",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 414,
     "layout": "414-hickory",
     "cars": [
       {
+        "car": "late_model",
+        "guides": 2
+      },
+      {
         "car": "nascar",
         "guides": 3
       },
       {
         "car": "arca",
-        "guides": 1
-      },
-      {
-        "car": "late_model",
-        "guides": 3
-      },
-      {
-        "car": "legends",
-        "guides": 1
-      },
-      {
-        "car": "modified",
         "guides": 1
       }
     ]
@@ -3039,24 +4456,45 @@
     "layout": "418-phoenix-2021-oval",
     "cars": [
       {
-        "car": "arca",
-        "guides": 2
+        "car": "nascar",
+        "guides": 8
       },
       {
-        "car": "nascar",
-        "guides": 3
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 419,
     "layout": "419-phoenix-2021-ovalopen",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 6
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
+      }
+    ]
   },
   {
     "track_id": 42,
     "layout": "42-silverstone-historicgp",
     "cars": [
+      {
+        "car": "general",
+        "guides": 7
+      },
       {
         "car": "mx5",
         "guides": 1
@@ -3070,6 +4508,18 @@
       {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -3078,7 +4528,11 @@
     "layout": "424-knockhill-internationalrev",
     "cars": [
       {
-        "car": "legends",
+        "car": "general",
+        "guides": 9
+      },
+      {
+        "car": "mx5",
         "guides": 1
       }
     ]
@@ -3089,14 +4543,35 @@
     "cars": [
       {
         "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 426,
     "layout": "426-knockhill-nationalrev",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 8
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 427,
@@ -3104,42 +4579,65 @@
     "cars": [
       {
         "car": "rallycross_beetle",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 428,
     "layout": "428-hockenheim-pec-peceast",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 429,
     "layout": "429-hockenheim-pec-pecouter",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 43,
     "layout": "43-silverstone-international",
     "cars": [
       {
-        "car": "vee",
-        "guides": 1
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 430,
     "layout": "430-hockenheim-pec-pecwest",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 431,
     "layout": "431-hockenheim-pec-pechandling",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -3148,11 +4646,11 @@
     "layout": "432-watkinsglen-2021-classic",
     "cars": [
       {
-        "car": "usf2000",
-        "guides": 1
+        "car": "general",
+        "guides": 9
       },
       {
-        "car": "mx5",
+        "car": "usf2000",
         "guides": 1
       }
     ]
@@ -3160,17 +4658,48 @@
   {
     "track_id": 433,
     "layout": "433-watkinsglen-2021-cupcircuit",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 434,
     "layout": "434-watkinsglen-2021-fullcourse",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 8
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      }
+    ]
   },
   {
     "track_id": 435,
     "layout": "435-watkinsglen-2021-fullnoloop",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 436,
@@ -3178,11 +4707,15 @@
     "cars": [
       {
         "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
       },
       {
-        "car": "rallycross_beetle",
-        "guides": 1
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -3193,30 +4726,13 @@
       {
         "car": "nascar",
         "guides": 3
-      },
-      {
-        "car": "modified",
-        "guides": 1
-      },
-      {
-        "car": "late_model",
-        "guides": 1
       }
     ]
   },
   {
     "track_id": 438,
     "layout": "438-pevely",
-    "cars": [
-      {
-        "car": "modified",
-        "guides": 2
-      },
-      {
-        "car": "late_model",
-        "guides": 2
-      }
-    ]
+    "cars": []
   },
   {
     "track_id": 439,
@@ -3224,7 +4740,7 @@
     "cars": [
       {
         "car": "ff1600",
-        "guides": 2
+        "guides": 1
       },
       {
         "car": "mx5",
@@ -3237,6 +4753,10 @@
       {
         "car": "bmw_m2",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -3245,8 +4765,8 @@
     "layout": "44-silverstone-national",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 1
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -3260,11 +4780,15 @@
       },
       {
         "car": "ff1600",
-        "guides": 1
+        "guides": 2
       },
       {
         "car": "mx5",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -3274,14 +4798,27 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 2
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 443,
     "layout": "443-sandown",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 444,
@@ -3289,26 +4826,35 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 2
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 445,
     "layout": "445-fuji-nochicane",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 446,
     "layout": "446-portroyal",
     "cars": [
       {
-        "car": "modified",
-        "guides": 1
-      },
-      {
-        "car": "late_model",
-        "guides": 1
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -3318,7 +4864,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -3329,6 +4883,14 @@
       {
         "car": "usf2000",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -3342,11 +4904,11 @@
       },
       {
         "car": "bmw_m2",
-        "guides": 2
+        "guides": 4
       },
       {
         "car": "mx5",
-        "guides": 2
+        "guides": 3
       },
       {
         "car": "vee",
@@ -3357,7 +4919,12 @@
   {
     "track_id": 45,
     "layout": "45-silverstone-southern",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
   },
   {
     "track_id": 451,
@@ -3365,15 +4932,19 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 1
+        "guides": 2
       },
       {
         "car": "bmw_m2",
-        "guides": 1
+        "guides": 3
       },
       {
         "car": "ff1600",
-        "guides": 1
+        "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -3382,11 +4953,19 @@
     "layout": "452-wheatland",
     "cars": [
       {
-        "car": "truck",
-        "guides": 1
+        "car": "general",
+        "guides": 2
       },
       {
-        "car": "street_stock",
+        "car": "rallycross_beetle",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "truck",
         "guides": 1
       }
     ]
@@ -3397,7 +4976,15 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -3407,11 +4994,15 @@
     "cars": [
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "ff1600",
-        "guides": 1
+        "guides": 2
+      },
+      {
+        "car": "mx5",
+        "guides": 4
       }
     ]
   },
@@ -3421,11 +5012,19 @@
     "cars": [
       {
         "car": "ff1600",
-        "guides": 1
+        "guides": 2
       },
       {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 5
       }
     ]
   },
@@ -3439,11 +5038,15 @@
       },
       {
         "car": "bmw_m2",
-        "guides": 2
+        "guides": 4
       },
       {
         "car": "mx5",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
@@ -3451,6 +5054,10 @@
     "track_id": 462,
     "layout": "462-lincoln",
     "cars": [
+      {
+        "car": "general",
+        "guides": 1
+      },
       {
         "car": "nascar",
         "guides": 1
@@ -3466,20 +5073,41 @@
         "guides": 1
       },
       {
-        "car": "bmw_m2",
-        "guides": 1
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 465,
     "layout": "465-virginia-2022-full",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 466,
     "layout": "466-virginia-2022-grand",
     "cars": [
+      {
+        "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
       {
         "car": "ff1600",
         "guides": 1
@@ -3491,12 +5119,24 @@
     "layout": "467-virginia-2022-north",
     "cars": [
       {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
         "car": "vee",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       },
       {
         "car": "ff1600",
-        "guides": 2
+        "guides": 1
       }
     ]
   },
@@ -3505,19 +5145,36 @@
     "layout": "468-virginia-2022-south",
     "cars": [
       {
-        "car": "vee",
+        "car": "ff1600",
         "guides": 1
       },
       {
         "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "vee",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
   {
     "track_id": 469,
     "layout": "469-virginia-2022-patriot",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 47,
@@ -3525,19 +5182,53 @@
     "cars": [
       {
         "car": "mx5",
+        "guides": 2
+      },
+      {
+        "car": "vee",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 470,
     "layout": "470-daytona-rallycross-long-nojoker",
-    "cars": []
+    "cars": [
+      {
+        "car": "rallycross_beetle",
+        "guides": 5
+      },
+      {
+        "car": "general",
+        "guides": 3
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 471,
     "layout": "471-daytona-rallycross-short-nojoker",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 5
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 472,
@@ -3550,33 +5241,25 @@
       {
         "car": "truck",
         "guides": 1
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
   {
     "track_id": 473,
     "layout": "473-jerez-gp",
-    "cars": []
-  },
-  {
-    "track_id": 474,
-    "layout": "474-jerez-moto",
-    "cars": []
-  },
-  {
-    "track_id": 475,
-    "layout": "475-aragon-gp",
-    "cars": []
-  },
-  {
-    "track_id": 476,
-    "layout": "476-aragon-national",
-    "cars": []
-  },
-  {
-    "track_id": 477,
-    "layout": "477-aragon-west",
     "cars": [
+      {
+        "car": "general",
+        "guides": 9
+      },
       {
         "car": "ff1600",
         "guides": 1
@@ -3584,22 +5267,72 @@
     ]
   },
   {
+    "track_id": 474,
+    "layout": "474-jerez-moto",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 475,
+    "layout": "475-aragon-gp",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 476,
+    "layout": "476-aragon-national",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 477,
+    "layout": "477-aragon-west",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
     "track_id": 478,
     "layout": "478-aragon-moto",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 479,
     "layout": "479-aragon-nationalmoto",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 480,
     "layout": "480-aragon-outer",
     "cars": [
       {
-        "car": "nascar",
-        "guides": 2
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -3610,41 +5343,84 @@
       {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 482,
     "layout": "482-aragon-tc",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 483,
     "layout": "483-chicago-2023",
     "cars": [
       {
+        "car": "general",
+        "guides": 3
+      },
+      {
         "car": "nascar",
-        "guides": 2
+        "guides": 7
       }
     ]
   },
   {
     "track_id": 485,
     "layout": "485-zandvoort-2023-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 486,
     "layout": "486-zandvoort-2023-gpchicane",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
   },
   {
     "track_id": 487,
     "layout": "487-zandvoort-2023-nationaal",
     "cars": [
       {
-        "car": "bmw_m2",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
@@ -3654,14 +5430,18 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "vee",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
         "guides": 1
       }
     ]
@@ -3672,14 +5452,14 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
-      },
-      {
-        "car": "arca",
         "guides": 2
       },
       {
-        "car": "legends",
+        "car": "late_model",
+        "guides": 1
+      },
+      {
+        "car": "arca",
         "guides": 2
       }
     ]
@@ -3689,16 +5469,16 @@
     "layout": "494-kern-dirt",
     "cars": [
       {
+        "car": "late_model",
+        "guides": 1
+      },
+      {
         "car": "nascar",
-        "guides": 1
+        "guides": 2
       },
       {
-        "car": "modified",
-        "guides": 1
-      },
-      {
-        "car": "street_stock",
-        "guides": 1
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
@@ -3707,16 +5487,16 @@
     "layout": "496-kern-legends",
     "cars": [
       {
-        "car": "arca",
-        "guides": 2
-      },
-      {
-        "car": "legends",
-        "guides": 3
+        "car": "late_model",
+        "guides": 1
       },
       {
         "car": "nascar",
-        "guides": 1
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 3
       }
     ]
   },
@@ -3725,20 +5505,46 @@
     "layout": "497-kern-dirtmini",
     "cars": [
       {
-        "car": "legends",
+        "car": "late_model",
         "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
   {
     "track_id": 498,
     "layout": "498-mugello-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 499,
     "layout": "499-mugello-short",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 50,
@@ -3747,6 +5553,10 @@
       {
         "car": "mx5",
         "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -3756,6 +5566,10 @@
     "cars": [
       {
         "car": "late_model",
+        "guides": 3
+      },
+      {
+        "car": "legends",
         "guides": 2
       }
     ]
@@ -3763,47 +5577,118 @@
   {
     "track_id": 501,
     "layout": "501-misano-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 502,
     "layout": "502-misano-gp2007",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 503,
     "layout": "503-misano-historicgp",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 504,
     "layout": "504-misano-club",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 505,
     "layout": "505-misano-truck",
     "cars": [
       {
-        "car": "truck",
-        "guides": 3
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 506,
     "layout": "506-slinger-figure8",
-    "cars": []
+    "cars": [
+      {
+        "car": "late_model",
+        "guides": 3
+      },
+      {
+        "car": "legends",
+        "guides": 2
+      }
+    ]
   },
   {
     "track_id": 508,
     "layout": "508-limerock-2019-school",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 7
+      },
+      {
+        "car": "vee",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      }
+    ]
   },
   {
     "track_id": 509,
     "layout": "509-algarve-gp",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 51,
@@ -3811,36 +5696,80 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 5
+      },
+      {
+        "car": "arca",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 4
       }
     ]
   },
   {
     "track_id": 510,
     "layout": "510-algarve-gpchicane",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 9
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 511,
     "layout": "511-algarve-moto",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 512,
     "layout": "512-algarve-motochicane",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 513,
     "layout": "513-millbridge",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 514,
     "layout": "514-kokomo-tiresout",
     "cars": [
       {
-        "car": "legends",
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "general",
         "guides": 1
       }
     ]
@@ -3851,21 +5780,11 @@
     "cars": [
       {
         "car": "bmw_m2",
-        "guides": 1
+        "guides": 3
       },
       {
         "car": "mx5",
-        "guides": 2
-      }
-    ]
-  },
-  {
-    "track_id": 516,
-    "layout": "516-navarra-speedmedium",
-    "cars": [
-      {
-        "car": "ff1600",
-        "guides": 1
+        "guides": 6
       },
       {
         "car": "vee",
@@ -3874,24 +5793,63 @@
     ]
   },
   {
-    "track_id": 517,
-    "layout": "517-navarra-speedshort",
-    "cars": []
-  },
-  {
-    "track_id": 518,
-    "layout": "518-oswego-oval",
+    "track_id": 516,
+    "layout": "516-navarra-speedmedium",
     "cars": [
       {
-        "car": "late_model",
-        "guides": 1
+        "car": "vee",
+        "guides": 4
       },
       {
         "car": "nascar",
         "guides": 1
       },
       {
-        "car": "street_stock",
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 3
+      }
+    ]
+  },
+  {
+    "track_id": 517,
+    "layout": "517-navarra-speedshort",
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 4
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "vee",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
+      }
+    ]
+  },
+  {
+    "track_id": 518,
+    "layout": "518-oswego-oval",
+    "cars": [
+      {
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "late_model",
         "guides": 1
       }
     ]
@@ -3901,7 +5859,11 @@
     "layout": "519-oswego-mini",
     "cars": [
       {
-        "car": "street_stock",
+        "car": "modified",
+        "guides": 1
+      },
+      {
+        "car": "late_model",
         "guides": 1
       }
     ]
@@ -3912,15 +5874,15 @@
     "cars": [
       {
         "car": "nascar",
+        "guides": 5
+      },
+      {
+        "car": "arca",
         "guides": 1
       },
       {
-        "car": "legends",
-        "guides": 3
-      },
-      {
-        "car": "late_model",
-        "guides": 1
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -3930,14 +5892,23 @@
     "cars": [
       {
         "car": "modified",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "late_model",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 521,
     "layout": "521-sachsenring",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 522,
@@ -3945,44 +5916,121 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "general",
+        "guides": 2
       }
     ]
   },
   {
     "track_id": 523,
     "layout": "523-spa-2024-up",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 524,
     "layout": "524-spa-2024-low",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 2
+        "car": "general",
+        "guides": 9
+      },
+      {
+        "car": "legends",
+        "guides": 1
       }
     ]
   },
   {
     "track_id": 525,
     "layout": "525-spa-2024-combined",
-    "cars": []
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 3
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
   },
   {
     "track_id": 527,
     "layout": "527-cadwell-full",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 528,
     "layout": "528-cadwell-club",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 529,
     "layout": "529-cadwell-moto",
-    "cars": []
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 53,
@@ -3990,7 +6038,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 8
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
       }
     ]
   },
@@ -3999,8 +6055,20 @@
     "layout": "530-cadwell-woodlands",
     "cars": [
       {
-        "car": "mx5",
+        "car": "ff1600",
         "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
       }
     ]
   },
@@ -4016,25 +6084,38 @@
       {
         "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 533,
     "layout": "533-miami-marinaloop",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 9
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 534,
     "layout": "534-miami-mialoop",
     "cars": [
       {
-        "car": "bmw_m2",
+        "car": "mx5",
         "guides": 1
       },
       {
-        "car": "mx5",
-        "guides": 1
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -4044,7 +6125,11 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 1
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
       },
       {
         "car": "bmw_m2",
@@ -4067,6 +6152,14 @@
       {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
       }
     ]
   },
@@ -4075,39 +6168,32 @@
     "layout": "537-portland-nochicane",
     "cars": [
       {
-        "car": "legends",
+        "car": "ff1600",
         "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
   {
     "track_id": 538,
     "layout": "538-miami-exmarinaloop",
-    "cars": []
-  },
-  {
-    "track_id": 539,
-    "layout": "539-miami-gp",
-    "cars": []
-  },
-  {
-    "track_id": 540,
-    "layout": "540-thebend-gt",
-    "cars": []
-  },
-  {
-    "track_id": 541,
-    "layout": "541-thebend-international",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 1
+        "car": "general",
+        "guides": 10
       }
     ]
   },
   {
-    "track_id": 542,
-    "layout": "542-thebend-east",
+    "track_id": 539,
+    "layout": "539-miami-gp",
     "cars": [
       {
         "car": "ff1600",
@@ -4116,6 +6202,56 @@
       {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
+  },
+  {
+    "track_id": 540,
+    "layout": "540-thebend-gt",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
+  },
+  {
+    "track_id": 541,
+    "layout": "541-thebend-international",
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
+      }
+    ]
+  },
+  {
+    "track_id": 542,
+    "layout": "542-thebend-east",
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   },
@@ -4125,32 +6261,63 @@
     "cars": [
       {
         "car": "mx5",
-        "guides": 3
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
   {
     "track_id": 544,
     "layout": "544-thebend-westplus",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 545,
     "layout": "545-thebend-sprint",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 546,
     "layout": "546-thebend-southwest",
-    "cars": []
+    "cars": [
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
   },
   {
     "track_id": 550,
     "layout": "550-charlotte-2025-legendsrc2025",
     "cars": [
       {
-        "car": "rallycross_beetle",
-        "guides": 1
+        "car": "nascar",
+        "guides": 3
       },
       {
         "car": "mx5",
@@ -4158,11 +6325,11 @@
       },
       {
         "car": "bmw_m2",
-        "guides": 2
+        "guides": 4
       },
       {
-        "car": "nascar",
-        "guides": 3
+        "car": "rallycross_beetle",
+        "guides": 1
       }
     ]
   },
@@ -4171,27 +6338,60 @@
     "layout": "551-charlotte-2025-legendsrclong",
     "cars": [
       {
-        "car": "legends",
-        "guides": 1
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 2
       }
     ]
   },
   {
     "track_id": 552,
     "layout": "552-charlotte-2025-legendsrcshort",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 553,
     "layout": "553-charlotte-2025-roval2019",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 3
+        "car": "general",
+        "guides": 5
       },
       {
-        "car": "ff1600",
-        "guides": 1
+        "car": "mx5",
+        "guides": 5
       }
     ]
   },
@@ -4205,7 +6405,15 @@
       },
       {
         "car": "bmw_m2",
-        "guides": 3
+        "guides": 4
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 1
       }
     ]
   },
@@ -4214,12 +6422,16 @@
     "layout": "555-charlotte-2025-rovalnochicanes",
     "cars": [
       {
-        "car": "mx5",
-        "guides": 2
+        "car": "bmw_m2",
+        "guides": 3
       },
       {
-        "car": "bmw_m2",
-        "guides": 1
+        "car": "general",
+        "guides": 4
+      },
+      {
+        "car": "mx5",
+        "guides": 3
       }
     ]
   },
@@ -4229,7 +6441,11 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 5
+      },
+      {
+        "car": "street_stock",
+        "guides": 1
       },
       {
         "car": "mx5",
@@ -4246,11 +6462,23 @@
     "layout": "557-charlotte-2025-legendsoval",
     "cars": [
       {
-        "car": "legends",
-        "guides": 3
+        "car": "nascar",
+        "guides": 5
       },
       {
-        "car": "nascar",
+        "car": "legends",
+        "guides": 2
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -4260,7 +6488,23 @@
     "layout": "558-charlotte-2025-rallycrosslong",
     "cars": [
       {
+        "car": "general",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
         "car": "rallycross_beetle",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "arca",
         "guides": 1
       }
     ]
@@ -4271,11 +6515,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
       },
       {
-        "car": "mx5",
-        "guides": 2
+        "car": "arca",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -4285,11 +6533,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 6
       },
       {
-        "car": "truck",
+        "car": "arca",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
       }
     ]
   },
@@ -4299,7 +6551,7 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 9
       },
       {
         "car": "truck",
@@ -4313,7 +6565,7 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 3
+        "guides": 4
       },
       {
         "car": "late_model",
@@ -4321,14 +6573,10 @@
       },
       {
         "car": "arca",
-        "guides": 1
+        "guides": 3
       },
       {
         "car": "legends",
-        "guides": 1
-      },
-      {
-        "car": "truck",
         "guides": 1
       }
     ]
@@ -4339,15 +6587,15 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 1
+        "guides": 5
       },
       {
         "car": "usf2000",
         "guides": 1
       },
       {
-        "car": "bmw_m2",
-        "guides": 1
+        "car": "general",
+        "guides": 4
       }
     ]
   },
@@ -4357,15 +6605,421 @@
     "cars": [
       {
         "car": "nascar",
-        "guides": 1
+        "guides": 6
       },
       {
         "car": "usf2000",
         "guides": 1
       },
       {
+        "car": "general",
+        "guides": 3
+      }
+    ]
+  },
+  {
+    "track_id": 565,
+    "layout": "565-sonoma-2025-irl12",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 4
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 5
+      }
+    ]
+  },
+  {
+    "track_id": 566,
+    "layout": "566-sonoma-2025-nascarlong",
+    "cars": [
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "nascar",
+        "guides": 3
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 4
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 567,
+    "layout": "567-sonoma-2025-nascarshort",
+    "cars": [
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "legends",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 5
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 568,
+    "layout": "568-sonoma-2025-oval",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "arca",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 569,
+    "layout": "569-sonoma-2025-short",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 6
+      },
+      {
         "car": "bmw_m2",
         "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "legends",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 570,
+    "layout": "570-sonoma-2025-sportscar",
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 6
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      }
+    ]
+  },
+  {
+    "track_id": 571,
+    "layout": "571-sonoma-2025-sportscaralt",
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 3
+      },
+      {
+        "car": "nascar",
+        "guides": 5
+      }
+    ]
+  },
+  {
+    "track_id": 572,
+    "layout": "572-mexicocity-gp",
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
+  },
+  {
+    "track_id": 573,
+    "layout": "573-mexicocity-gphistoric",
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 574,
+    "layout": "574-mexicocity-national",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
+  },
+  {
+    "track_id": 575,
+    "layout": "575-mexicocity-nationalhistoric",
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 576,
+    "layout": "576-mexicocity-ev",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 7
+      },
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      }
+    ]
+  },
+  {
+    "track_id": 577,
+    "layout": "577-mexicocity-oval",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
+  },
+  {
+    "track_id": 578,
+    "layout": "578-mexicocity-ovalstadium",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 1
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "general",
+        "guides": 7
+      }
+    ]
+  },
+  {
+    "track_id": 579,
+    "layout": "579-cota-nascarwest",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 6
+      },
+      {
+        "car": "general",
+        "guides": 4
+      }
+    ]
+  },
+  {
+    "track_id": 580,
+    "layout": "580-adelaide",
+    "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
+  },
+  {
+    "track_id": 581,
+    "layout": "581-wheatland-road",
+    "cars": [
+      {
+        "car": "general",
+        "guides": 2
+      },
+      {
+        "car": "rallycross_beetle",
+        "guides": 2
+      },
+      {
+        "car": "nascar",
+        "guides": 2
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 582,
+    "layout": "582-winton-rallycross",
+    "cars": [
+      {
+        "car": "rallycross_beetle",
+        "guides": 2
+      },
+      {
+        "car": "ff1600",
+        "guides": 2
+      },
+      {
+        "car": "bmw_m2",
+        "guides": 3
+      },
+      {
+        "car": "mx5",
+        "guides": 3
+      }
+    ]
+  },
+  {
+    "track_id": 583,
+    "layout": "583-rockingham-2025-oval",
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "arca",
+        "guides": 2
+      },
+      {
+        "car": "late_model",
+        "guides": 1
+      }
+    ]
+  },
+  {
+    "track_id": 584,
+    "layout": "584-stpete",
+    "cars": [
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
+      }
+    ]
+  },
+  {
+    "track_id": 585,
+    "layout": "585-barber-2026",
+    "cars": [
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "ff1600",
+        "guides": 1
+      },
+      {
+        "car": "mx5",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 7
       }
     ]
   },
@@ -4373,6 +7027,10 @@
     "track_id": 8,
     "layout": "8-summit-jefferson",
     "cars": [
+      {
+        "car": "bmw_m2",
+        "guides": 2
+      },
       {
         "car": "usf2000",
         "guides": 1
@@ -4387,10 +7045,10 @@
       },
       {
         "car": "mx5",
-        "guides": 2
+        "guides": 4
       },
       {
-        "car": "bmw_m2",
+        "car": "general",
         "guides": 1
       }
     ]
@@ -4401,14 +7059,18 @@
     "cars": [
       {
         "car": "ff1600",
-        "guides": 1
-      },
-      {
-        "car": "mx5",
-        "guides": 3
+        "guides": 2
       },
       {
         "car": "bmw_m2",
+        "guides": 2
+      },
+      {
+        "car": "mx5",
+        "guides": 4
+      },
+      {
+        "car": "general",
         "guides": 2
       }
     ]
@@ -4416,24 +7078,46 @@
   {
     "track_id": 94,
     "layout": "94-milwaukee",
-    "cars": []
+    "cars": [
+      {
+        "car": "nascar",
+        "guides": 7
+      },
+      {
+        "car": "usf2000",
+        "guides": 1
+      },
+      {
+        "car": "truck",
+        "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 1
+      }
+    ]
   },
   {
     "track_id": 95,
     "layout": "95-sebring-international",
-    "cars": []
+    "cars": [
+      {
+        "car": "general",
+        "guides": 10
+      }
+    ]
   },
   {
     "track_id": 96,
     "layout": "96-sebring-modified",
     "cars": [
       {
-        "car": "modified",
-        "guides": 3
-      },
-      {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 9
       }
     ]
   },
@@ -4448,6 +7132,10 @@
       {
         "car": "mx5",
         "guides": 1
+      },
+      {
+        "car": "general",
+        "guides": 8
       }
     ]
   }

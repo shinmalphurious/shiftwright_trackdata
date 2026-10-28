@@ -1,0 +1,1526 @@
+{
+  "track_id": 229,
+  "track": "Circuit of the Americas - Grand Prix",
+  "records": {
+    "229:T1:heavy_braking": {
+      "id": "229:T1:heavy_braking",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T1",
+      "corner_name": "T10",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "validated",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "939 m from the previous corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight before corner, significant distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.978,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.978
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "Yhivso3np6o",
+              "result": "confirm",
+              "time": "3:02",
+              "note": "braking: midway between 150 and 100 board, 60%; gear: 2nd, then 1st; line: wide on exit; exit: back on gas at apex",
+              "transcript_snippet": "back on the gas once we get to the apex. Exit nice and wide over to the left-hand side. We're going to go absolutely flat",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Yhivso3np6o"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit of the Americas - West",
+            "source_track_id": 231,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+    },
+    "229:T1:overtaking_zone": {
+      "id": "229:T1:overtaking_zone",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T1",
+      "corner_name": "T10",
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "939 m from the previous corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T1: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T10:important_exit": {
+      "id": "229:T10:important_exit",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T10",
+      "corner_name": "T8",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1584 m to the next corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straightaway after corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.789
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.75 from 2 source(s); consensus 0.79 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T12:heavy_braking": {
+      "id": "229:T12:heavy_braking",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "validated",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1584 m from the previous corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight before corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.918
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "KwMYNSDgHHI",
+              "result": "confirm",
+              "time": "6:15",
+              "note": "braking: brakes just after 150 marker, 60%, trail off; gear: 1; line: turn in, apex at end of grass patch, white line; exit: slowly pick up throttle; mistakes: avoid traction control",
+              "transcript_snippet": "to avoid that traction control. Now, the braking marker coming into turn 15 and 16 is going to be the start of",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=KwMYNSDgHHI"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T12: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)"
+    },
+    "229:T12:overtaking_zone": {
+      "id": "229:T12:overtaking_zone",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "1584 m from the previous corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T12: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T13:important_exit": {
+      "id": "229:T13:important_exit",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "5720 m to the next corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T13: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T14:heavy_braking": {
+      "id": "229:T14:heavy_braking",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T14",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "5720 m from the previous corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T14: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T14:overtaking_zone": {
+      "id": "229:T14:overtaking_zone",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T14",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "5720 m from the previous corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T14: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T20:important_exit": {
+      "id": "229:T20:important_exit",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T20",
+      "corner_name": "T19",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "939 m to the next corner",
+          "at": "2026-10-28T09:33:10+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straightaway after corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.789
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T20: research 0.75 from 2 source(s); consensus 0.79 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T1:important_exit": {
+      "id": "229:T1:important_exit",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T1",
+      "corner_name": "T10",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straightaway after corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T1: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T2:heavy_braking": {
+      "id": "229:T2:heavy_braking",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, long straight after.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "KwMYNSDgHHI",
+              "result": "contradict",
+              "time": "3:25",
+              "note": "line: sweep through flat out",
+              "transcript_snippet": "left-hand side so we can sweep through turn two absolutely flat out. Now, for turn three, we're going to go",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=KwMYNSDgHHI"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "229:T3:slow_corner": {
+      "id": "229:T3:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "KwMYNSDgHHI",
+              "result": "contradict",
+              "time": "3:37",
+              "note": "braking: full lift on the brakes to about 30%, trail off to the right apex, then left; line: flat until left curb, apex right, then left; exit: get back on the gas, briefly up to 90%, lift for turn six",
+              "transcript_snippet": "lift on the brakes to about 30%. We're going to trail it off down to this apex on the right-hand side, and then we're",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=KwMYNSDgHHI"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "229:T4:slow_corner": {
+      "id": "229:T4:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T5:slow_corner": {
+      "id": "229:T5:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T5",
+      "corner_name": "T3",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T6:slow_corner": {
+      "id": "229:T6:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T6",
+      "corner_name": "T4",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T7:slow_corner": {
+      "id": "229:T7:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T7",
+      "corner_name": "T5",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T8:slow_corner": {
+      "id": "229:T8:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T8",
+      "corner_name": "T6",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit of the Americas - East",
+            "source_track_id": 230,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T8: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+    },
+    "229:T9:flat_out": {
+      "id": "229:T9:flat_out",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T9",
+      "corner_name": "T7",
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight after corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit of the Americas - East",
+            "source_track_id": 230,
+            "corner": "T3",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Taken flat, no braking at T9: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+    },
+    "229:T10:heavy_braking": {
+      "id": "229:T10:heavy_braking",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T10",
+      "corner_name": "T8",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight before corner, significant distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T10: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T13:slow_corner": {
+      "id": "229:T13:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T13: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T14:slow_corner": {
+      "id": "229:T14:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T14",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit of the Americas - West",
+            "source_track_id": 231,
+            "corner": "T12",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T14: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+    },
+    "229:T15:slow_corner": {
+      "id": "229:T15:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T15",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T15: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T16:slow_corner": {
+      "id": "229:T16:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T16: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T17:slow_corner": {
+      "id": "229:T17:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T17",
+      "corner_name": "T15",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T17: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T18:slow_corner": {
+      "id": "229:T18:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T18",
+      "corner_name": "T17",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T18: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T19:slow_corner": {
+      "id": "229:T19:slow_corner",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T19",
+      "corner_name": "T18",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, short distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T19: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "229:T20:heavy_braking": {
+      "id": "229:T20:heavy_braking",
+      "track_id": 229,
+      "track": "Circuit of the Americas - Grand Prix",
+      "corner": "T20",
+      "corner_name": "T19",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight before corner, significant distance to next corner.",
+          "at": "2026-10-28T09:33:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:19:47+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T20: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "video_id": "jDJmVck65Ww",
+  "track_id": 231,
+  "track_name": "Circuit of the Americas - West",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR O'Reilly Series at COTA (NASCAR West)",
+  "car": "NASCAR B car",
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.5195
+    ],
+    [
+      "T1",
+      0.5205
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake before 150 braking marker, earlier than the marker.",
+      "note_id": "jDJmVck65Ww:0",
+      "text": "braking: Brake before 150 braking marker, earlier than the marker.",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:14",
+      "snippet": "I'm actually breaking earlier than that portion. Right? So, I'm going to be breaking about the 175 mark, if you guys",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "175 mark, brake near pedexit cone, maximize brake pressure before downshifting to second",
+      "gear": "downshift to first over crest",
+      "exit": "off the brake by the sec portion",
+      "mistakes": "rear too light, front lacking positive turns",
+      "note_id": "jDJmVck65Ww:1",
+      "text": "braking: 175 mark, brake near pedexit cone, maximize brake pressure before downshifting to second; gear: downshift to first over crest; exit: off the brake by the sec portion; mistakes: rear too light, front lacking positive turns",
+      "spoken_as": "this corner",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 0.75,
+          "exit": 0.67
+        }
+      },
+      "time": "1:58",
+      "snippet": "downshift to second. And so, I can set up for when I get to the crest of this hill. I have all the capability one not"
+    },
+    {
+      "braking": "center of track, off brake by apex",
+      "line": "center of track, turn-in to left",
+      "exit": "straighter exit, keep rear wheels connected",
+      "mistakes": "one rear wheel spinning too aggressively",
+      "note_id": "jDJmVck65Ww:2",
+      "text": "braking: center of track, off brake by apex; line: center of track, turn-in to left; exit: straighter exit, keep rear wheels connected; mistakes: one rear wheel spinning too aggressively",
+      "spoken_as": "this portion",
+      "passage_time": "2:35",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:34",
+      "snippet": "straighter exits mean keeping the rear connected together, the left rear and the right right rear together. making",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Manage downhill momentum, focus on turn radius",
+      "gear": "3rd",
+      "line": "Open exit, use downhill momentum",
+      "exit": "Focus on entry angle into next corner",
+      "mistakes": "Costing momentum on exit",
+      "note_id": "jDJmVck65Ww:3",
+      "text": "braking: Manage downhill momentum, focus on turn radius; gear: 3rd; line: Open exit, use downhill momentum; exit: Focus on entry angle into next corner; mistakes: Costing momentum on exit",
+      "spoken_as": "second corner",
+      "passage_time": "3:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:27",
+      "snippet": "radius and not costing my momentum on exit. So I'll shift up to third here so I'm not having to add an additional"
+    },
+    {
+      "braking": "clip right edge of curb, top of curbing",
+      "line": "far right, center of track",
+      "mistakes": "slide across curb, lose aerodynamics",
+      "note_id": "jDJmVck65Ww:4",
+      "text": "braking: clip right edge of curb, top of curbing; line: far right, center of track; mistakes: slide across curb, lose aerodynamics",
+      "spoken_as": "turn 1",
+      "passage_time": "5:12",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8,
+          "line": 0.75,
+          "mistakes": 0.8
+        }
+      },
+      "time": "5:28",
+      "snippet": "the right edge of these tires just on pretty much the top of this curbon to get as far rate as possible. And my goal",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "far left, red curbing",
+      "mistakes": "off track slowdowns, lose two tires on curbing",
+      "note_id": "jDJmVck65Ww:5",
+      "text": "line: far left, red curbing; mistakes: off track slowdowns, lose two tires on curbing",
+      "spoken_as": "turn three",
+      "passage_time": "5:12",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:16",
+      "snippet": "We just have to keep two tires on the red weight and curbon to avoid any off tracks slowdowns. Okay. Right. So,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to slow entry momentum",
+      "line": "get as far left as possible, pivot to right",
+      "mistakes": "not getting left far enough, losing front grip",
+      "note_id": "jDJmVck65Ww:6",
+      "text": "braking: brake to slow entry momentum; line: get as far left as possible, pivot to right; mistakes: not getting left far enough, losing front grip",
+      "spoken_as": "turn four",
+      "passage_time": "6:31",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:43",
+      "snippet": "little bit of brake to help slow my entry momentum so I can actually get the car to pivot, get the front working",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "slow entry speed before curbing",
+      "line": "get as far right as possible, clip white paint, later apex",
+      "exit": "get right side tires on curbing, right front and rear close to edge",
+      "note_id": "jDJmVck65Ww:7",
+      "text": "braking: slow entry speed before curbing; line: get as far right as possible, clip white paint, later apex; exit: get right side tires on curbing, right front and rear close to edge",
+      "spoken_as": "this curbing",
+      "passage_time": "7:48",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8,
+          "line": 0.75
+        }
+      },
+      "time": "7:55",
+      "snippet": "got to make sure my entry speed slowed down enough to make sure the front's still gripping. So I'm going to get as"
+    },
+    {
+      "braking": "cross curbon, get as far right as possible",
+      "mistakes": "hit curbon at tall part of section",
+      "note_id": "jDJmVck65Ww:8",
+      "text": "braking: cross curbon, get as far right as possible; mistakes: hit curbon at tall part of section",
+      "spoken_as": "turn six",
+      "passage_time": "9:06",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:29",
+      "snippet": "the curbon at the tall part of the section. I need to think ahead and I need to make sure I'm getting as far",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "straight line brake, downshift to first gear",
+      "gear": "1st",
+      "line": "get as far right as possible",
+      "exit": "get close to tire barrier",
+      "mistakes": "not getting close enough to tire barrier",
+      "note_id": "jDJmVck65Ww:9",
+      "text": "braking: straight line brake, downshift to first gear; gear: 1st; line: get as far right as possible; exit: get close to tire barrier; mistakes: not getting close enough to tire barrier",
+      "spoken_as": "turn seven",
+      "passage_time": "9:06",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:44",
+      "snippet": "this curb as possible to straight line my braking zone. I'm going to be going down to first gear. The technique here",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Trail brake to blue wall, slow play",
+      "gear": "1st",
+      "line": "Turn before right-hand curbing, aim for inside wall",
+      "exit": "Partial throttle over left curbing, extend out",
+      "mistakes": "Overuse of throttle causing rear traction loss",
+      "note_id": "jDJmVck65Ww:10",
+      "text": "braking: Trail brake to blue wall, slow play; gear: 1st; line: Turn before right-hand curbing, aim for inside wall; exit: Partial throttle over left curbing, extend out; mistakes: Overuse of throttle causing rear traction loss",
+      "spoken_as": "next section",
+      "passage_time": "10:26",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.62,
+          "exit": 0.6
+        }
+      },
+      "time": "11:20",
+      "snippet": "curbing on the right hand side. Right? So you can see I'm turning before I get even clipping that at all. My goal is to"
+    },
+    {
+      "braking": "Brake on the paint, stay right of the curbing.",
+      "mistakes": "Stay precise to avoid splitter contact.",
+      "note_id": "jDJmVck65Ww:11",
+      "text": "braking: Brake on the paint, stay right of the curbing.; mistakes: Stay precise to avoid splitter contact.",
+      "spoken_as": "turn nine",
+      "passage_time": "11:45",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:53",
+      "snippet": "stay on this paint and stay to the right of this curbon. So, you have to be really precise in doing that. I'd rather",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "1st gear",
+      "line": "Turn left at curbing, apex at curbing",
+      "exit": "Partial throttle at curbing, full throttle at exit, 2nd gear",
+      "mistakes": "Pinch exit, don't open wheel",
+      "note_id": "jDJmVck65Ww:12",
+      "text": "gear: 1st gear; line: Turn left at curbing, apex at curbing; exit: Partial throttle at curbing, full throttle at exit, 2nd gear; mistakes: Pinch exit, don't open wheel",
+      "spoken_as": "turn nine",
+      "passage_time": "13:05",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 0.67
+        }
+      },
+      "time": "13:23",
+      "snippet": "gear first at the right spot when you start adding some wheel input to the left. But you want to do as much",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "straight line braking, off brake by max wheel angle at apex",
+      "gear": "second",
+      "line": "max wheel angle at apex",
+      "exit": "in throttle at apex, exit with speed",
+      "mistakes": "sliding rear tires in first gear, overusing RPMs",
+      "note_id": "jDJmVck65Ww:13",
+      "text": "braking: straight line braking, off brake by max wheel angle at apex; gear: second; line: max wheel angle at apex; exit: in throttle at apex, exit with speed; mistakes: sliding rear tires in first gear, overusing RPMs",
+      "spoken_as": "turn 10",
+      "passage_time": "14:23",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "line": 1.0,
+          "exit": 1.0
+        }
+      },
+      "time": "15:14",
+      "snippet": "get to my max wheel angle at the apex. My goal is to be in the throttle at the apex of these corners. Okay? So, I'm",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "try to straighten line as much as possible",
+      "note_id": "jDJmVck65Ww:14",
+      "text": "line: try to straighten line as much as possible",
+      "spoken_as": "turn 11",
+      "passage_time": "14:23",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:37",
+      "snippet": "aspect out as much as possible, but it's really hard to because you don't want to open it up and get too far to the left."
+    },
+    {
+      "braking": "straight line brake",
+      "gear": "first gear",
+      "line": "turn in early, aim for apex, clip curb",
+      "exit": "partial throttle, extend exit to green paint, drop to second gear",
+      "note_id": "jDJmVck65Ww:15",
+      "text": "braking: straight line brake; gear: first gear; line: turn in early, aim for apex, clip curb; exit: partial throttle, extend exit to green paint, drop to second gear",
+      "spoken_as": "turn 12",
+      "passage_time": "15:41",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.48,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:55",
+      "snippet": "first gear, drop into second right there, and now we're going to the sweeping section. Okay? You know, 13 14",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Don't overspeed entry, get fronts connected with rear",
+      "line": "Hold apex into T14",
+      "exit": "Partial throttle",
+      "mistakes": "Over speeding entry",
+      "note_id": "jDJmVck65Ww:16",
+      "text": "braking: Don't overspeed entry, get fronts connected with rear; line: Hold apex into T14; exit: Partial throttle; mistakes: Over speeding entry",
+      "spoken_as": "13",
+      "passage_time": "17:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:10",
+      "snippet": "we're not over speeding our entry. So, we got to get the fronts connected with the rear at the same cornering",
+      "best_candidate": {
+        "corner_id": "T13",
+        "confidence": 0.246,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T12",
+        "before": "T16",
+        "estimated_pct": 0.6,
+        "corner_pct": 0.5703,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T12",
+        "before": "T16",
+        "corners_between": [
+          "T13",
+          "T14",
+          "T15"
+        ]
+      }
+    },
+    {
+      "line": "Hold apex from T13",
+      "exit": "Partial throttle",
+      "mistakes": "Over speeding entry",
+      "note_id": "jDJmVck65Ww:17",
+      "text": "line: Hold apex from T13; exit: Partial throttle; mistakes: Over speeding entry",
+      "spoken_as": "14",
+      "passage_time": "17:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:28",
+      "snippet": "with some partial throttle and not over speeding entry. Okay. So, I'm hugging the exit of 15 to help straighten in my",
+      "best_candidate": {
+        "corner_id": "T15",
+        "confidence": 0.388,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T12",
+        "before": "T16",
+        "estimated_pct": 0.7191,
+        "corner_pct": 0.7246,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T12",
+        "before": "T16",
+        "corners_between": [
+          "T13",
+          "T14",
+          "T15"
+        ]
+      }
+    },
+    {
+      "gear": "Second",
+      "line": "Hug exit to straighten entry into T16",
+      "exit": "Second gear",
+      "note_id": "jDJmVck65Ww:18",
+      "text": "gear: Second; line: Hug exit to straighten entry into T16; exit: Second gear",
+      "spoken_as": "15",
+      "passage_time": "17:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:39",
+      "snippet": "staying in second gear, mind you, in this whole capacity. Okay. So, I'm staying in second gear at this point in"
+    },
+    {
+      "gear": "Second",
+      "exit": "Second gear",
+      "mistakes": "Extending too far out to runoff",
+      "note_id": "jDJmVck65Ww:19",
+      "text": "gear: Second; exit: Second gear; mistakes: Extending too far out to runoff",
+      "spoken_as": "turn 16",
+      "passage_time": "17:00",
+      "corner_id": "T16",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:39",
+      "snippet": "staying in second gear, mind you, in this whole capacity. Okay. So, I'm staying in second gear at this point in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Second",
+      "exit": "Second gear",
+      "note_id": "jDJmVck65Ww:20",
+      "text": "gear: Second; exit: Second gear",
+      "spoken_as": "turn 17",
+      "passage_time": "17:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:39",
+      "snippet": "staying in second gear, mind you, in this whole capacity. Okay. So, I'm staying in second gear at this point in"
+    },
+    {
+      "braking": "partial brake, then full max pressure in a straight line",
+      "gear": "1st or 2nd",
+      "line": "cut the curbing, aim for the inside painted line",
+      "exit": "partial throttle to maximize radius, full throttle on exit",
+      "mistakes": "tunnel vision on apex, not looking ahead for exit",
+      "note_id": "jDJmVck65Ww:21",
+      "text": "braking: partial brake, then full max pressure in a straight line; gear: 1st or 2nd; line: cut the curbing, aim for the inside painted line; exit: partial throttle to maximize radius, full throttle on exit; mistakes: tunnel vision on apex, not looking ahead for exit",
+      "spoken_as": "this portion",
+      "passage_time": "18:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "exit": 0.67
+        }
+      },
+      "time": "19:17",
+      "snippet": "And now full max pressure as much as I can in a straight line. Okay. Obviously, I was in some pressure, brake pressure"
+    },
+    {
+      "gear": "Second",
+      "line": "Extend out into painted section.",
+      "exit": "Partial throttle to maximize exit.",
+      "mistakes": "Costing momentum by not pushing limits.",
+      "note_id": "jDJmVck65Ww:22",
+      "text": "gear: Second; line: Extend out into painted section.; exit: Partial throttle to maximize exit.; mistakes: Costing momentum by not pushing limits.",
+      "spoken_as": "17",
+      "passage_time": "19:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:26",
+      "snippet": "partial throttle to extend out into the painted section again. And again, going to maximize using this as a good tool."
+    }
+  ]
+}

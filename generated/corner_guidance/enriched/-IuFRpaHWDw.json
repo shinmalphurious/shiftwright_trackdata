@@ -1,0 +1,245 @@
+{
+  "video_id": "-IuFRpaHWDw",
+  "track_id": 103,
+  "track_name": "Las Vegas Motor Speedway - Oval",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Las Vegas",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "use Las Vegas logo on the wall as reference",
+      "line": "load into the bank",
+      "note_id": "-IuFRpaHWDw:0",
+      "text": "braking: use Las Vegas logo on the wall as reference; line: load into the bank",
+      "spoken_as": "turn one",
+      "passage_time": "2:48",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:04",
+      "snippet": "you see this Las Vegas logo on the wall I'll slow it down a little bit you can see I'm starting to track out from the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift at the last number one on the wall",
+      "line": "track out from the wall, use wheel to turn away from it",
+      "exit": "wide open throttle",
+      "note_id": "-IuFRpaHWDw:1",
+      "text": "braking: lift at the last number one on the wall; line: track out from the wall, use wheel to turn away from it; exit: wide open throttle",
+      "spoken_as": "turn one",
+      "passage_time": "4:07",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:25",
+      "snippet": "last number one on the wall here and I'm decelerating but I'm not fully out of the gas at this point I stay part",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "decelerate but not fully out of throttle",
+      "line": "bring more than half car below seam",
+      "exit": "carry max potential, may get slightly offline",
+      "mistakes": "scrubbing speed off",
+      "note_id": "-IuFRpaHWDw:2",
+      "text": "braking: decelerate but not fully out of throttle; line: bring more than half car below seam; exit: carry max potential, may get slightly offline; mistakes: scrubbing speed off",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:12",
+      "snippet": "that Max potential of the car you may get a little bit offline um but it's pretty simple you"
+    },
+    {
+      "line": "find marker to turn in, front clip at second to last logo before fence",
+      "note_id": "-IuFRpaHWDw:3",
+      "text": "line: find marker to turn in, front clip at second to last logo before fence",
+      "spoken_as": "turn three",
+      "passage_time": "5:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:37",
+      "snippet": "here the second to last logo before the fence um in 23 and line so and I guys can't see it on the screen here but you"
+    },
+    {
+      "braking": "Brake near the logo before the fence, lift off the throttle.",
+      "exit": "Maintain part throttle, keep radius consistent.",
+      "note_id": "-IuFRpaHWDw:4",
+      "text": "braking: Brake near the logo before the fence, lift off the throttle.; exit: Maintain part throttle, keep radius consistent.",
+      "spoken_as": "next braking marker",
+      "passage_time": "6:49",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.67
+        }
+      },
+      "time": "8:06",
+      "snippet": "that part throttle keeping that radius like you need use this weight line as a tool use it as a simple tool just trying"
+    },
+    {
+      "line": "wrap as long as you can in the center",
+      "exit": "crossing the seam, keep stability, exit low",
+      "mistakes": "not wrapping the weight line long enough",
+      "note_id": "-IuFRpaHWDw:5",
+      "text": "line: wrap as long as you can in the center; exit: crossing the seam, keep stability, exit low; mistakes: not wrapping the weight line long enough",
+      "spoken_as": "turn four",
+      "passage_time": "8:07",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:13",
+      "snippet": "to wrap as long as you can in the center three and4 when you cross the seam it's going",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Dive into the bottom lane",
+      "exit": "Get through the bumps, get offline aggressively, get back to optimal line by mid exit",
+      "mistakes": "Driving through the bumps, crossing dash line too late, being too aggressive with throttle",
+      "note_id": "-IuFRpaHWDw:6",
+      "text": "line: Dive into the bottom lane; exit: Get through the bumps, get offline aggressively, get back to optimal line by mid exit; mistakes: Driving through the bumps, crossing dash line too late, being too aggressive with throttle",
+      "spoken_as": "the bottom Lane",
+      "passage_time": "9:27",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:27",
+      "snippet": "just too aggressive with the throttle I get offline and you know I'm back to the optimal line by the center um and mid"
+    },
+    {
+      "line": "land and then momentum gain",
+      "exit": "lower exit put the right sides on the seam",
+      "note_id": "-IuFRpaHWDw:7",
+      "text": "line: land and then momentum gain; exit: lower exit put the right sides on the seam",
+      "spoken_as": "turn three",
+      "passage_time": "12:06",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:00",
+      "snippet": "completely have a lower exit put the right sides on the seam just to keep some balance do I used to top here no",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "bottom pretty good angle",
+      "note_id": "-IuFRpaHWDw:8",
+      "text": "line: bottom pretty good angle",
+      "spoken_as": "turn four",
+      "passage_time": "12:06",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:23",
+      "snippet": "bottom pretty good angle pretty good angle for sure you see how off the throttle the whole a lot longer in this",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "clip left front on Dash, off throttle, then build throttle",
+      "exit": "manage Center speed, keep angle",
+      "mistakes": "limiting potential by running middle, risking slider",
+      "note_id": "-IuFRpaHWDw:9",
+      "text": "line: clip left front on Dash, off throttle, then build throttle; exit: manage Center speed, keep angle; mistakes: limiting potential by running middle, risking slider",
+      "spoken_as": "turn one and two",
+      "passage_time": "13:26",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:47",
+      "snippet": "to manage my Center speed and keep an angle of the car like I need on that weight"
+    },
+    {
+      "line": "turn-in to center port, apex at 5/8 portion, use track to turn away from center",
+      "exit": "keep momentum, use wall grip, stay on throttle",
+      "mistakes": "running top side early, risk of contact, longer lap time, more off-throttle time",
+      "note_id": "-IuFRpaHWDw:10",
+      "text": "line: turn-in to center port, apex at 5/8 portion, use track to turn away from center; exit: keep momentum, use wall grip, stay on throttle; mistakes: running top side early, risk of contact, longer lap time, more off-throttle time",
+      "spoken_as": "three",
+      "passage_time": "14:45",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.62,
+          "mistakes": 0.6
+        }
+      },
+      "time": "15:13",
+      "snippet": "grip to turn away from the center Port portion into the 5/8 portion of one two so you may have a lot more luxury"
+    }
+  ]
+}

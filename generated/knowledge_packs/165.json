@@ -374,5 +374,186 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T2": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T3": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T4": [
+      {
+        "claim": "flat_out",
+        "statement": "Taken flat, no braking",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Taken flat, no braking at T4: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T10": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T10: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T11": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T11: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T16": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T16: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T18": [
+      {
+        "claim": "chicane",
+        "statement": "Chicane",
+        "confidence": 0.973,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 2
+        },
+        "explanation": "Chicane at T18: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T7": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T7: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T15": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.973,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 2
+        },
+        "explanation": "Fast corner at T15: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T17": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T17: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

@@ -1,15 +1,56 @@
 {
   "track_id": 462,
   "layout": "462-lincoln",
+  "name": "Lincoln Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:08:36.183701+00:00",
+  "candidates_seen": 63,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 63,
+    "new_candidates": 61,
+    "accepted": 2,
+    "selected": 2,
+    "kept_previous": 2,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 61,
+    "rejection_reasons": {
+      "no guide words in title": 44,
+      "venue not in title": 8,
+      "too long": 7,
+      "too short": 1,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
+    "general": [
+      {
+        "video_id": "7qCSVhy2HYA",
+        "title": "Lincoln Park Speedway: The Capitol of Cushion | Jen Estes Interview | Indiana Track Guide Ep. 2",
+        "description": "What makes Lincoln Park Speedway one of Indiana's most iconic non-wing sprint car tracks? In this first episode of the No Wing ...",
+        "channel": "No Wing Network NWN",
+        "duration": 571,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 126,
+        "venue_confidence": 0.9
+      }
+    ],
     "nascar": [
       {
         "video_id": "vO-u6P87q8g",
         "title": "Race guide: Lincoln Grand Prix - 2016 Motorpoint Spring Cup Series",
-        "description": "Race guide for the 2016 Cycle Wiltshire, the fourth and penultimate round of the 2016 Motorpoint Spring Cup Series on Sunday 8\u00a0...",
+        "description": "Race guide for the 2016 Cycle Wiltshire, the fourth and penultimate round of the 2016 Motorpoint Spring Cup Series on Sunday 8 ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 116,
+        "venue_confidence": 0.9
       }
     ]
   }

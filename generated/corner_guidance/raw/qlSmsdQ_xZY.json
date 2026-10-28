@@ -1,0 +1,138 @@
+{
+  "video_id": "qlSmsdQ_xZY",
+  "track_id": 145,
+  "track_name": "Brands Hatch Circuit - Grand Prix",
+  "title": "iRacing Porsche 718 GT4 Brands Hatch Grand Prix Guide - 1:29.8 Porsche GT4 Brands GP Track Guide",
+  "car_hint": "general",
+  "car": "Porsche 718 GT4",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:24:07.246677+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "Paddock Hill Bend",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T1",
+      "braking": "100 mark, 60% long trail off",
+      "gear": "3rd",
+      "line": "cut the corner",
+      "exit": "exit wide",
+      "mistakes": "late throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T2",
+      "braking": "50 marker, 50% long",
+      "gear": "2nd",
+      "line": "cut the corner",
+      "exit": "exit wide",
+      "mistakes": "late throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T3",
+      "braking": "50 marker, 50% long",
+      "gear": "3rd",
+      "line": "cut the corner",
+      "exit": "exit wide",
+      "mistakes": "late throttle"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "between 100 and 50 markers, 60%",
+      "gear": "fourth gear",
+      "line": "midway between 100 and 50 markers",
+      "exit": "exit wide, third gear"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "right-hand side 50 marker",
+      "gear": "third gear",
+      "exit": "exit wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "final corner",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "100 board, 60% briefly, long trail off",
+      "gear": "fourth gear, then third gear",
+      "exit": "get back on gas at apex, 100% after clearing corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "the car loop",
+      "start_time": "2:39",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "brakes up to 70%, gradual trail off",
+      "gear": "down to second gear",
+      "line": "wide turn-in, apex wide",
+      "exit": "back on gas at apex, gradual increase in power",
+      "mistakes": "don't get up to full power until steering is opened"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:39",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "brakes at 50%, rapid trail off",
+      "gear": "down to second",
+      "line": "wide turn-in, apex wide",
+      "exit": "back on gas at apex, gradual increase in power",
+      "mistakes": "don't get up to full power until steering is opened"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:57",
+      "sequence": 3,
+      "braking": "braking marker midway between the 100 and the 50",
+      "gear": "third",
+      "line": "cutting the corner, right-hand tires on the rumble strip",
+      "exit": "exit wide, right-hand tires on the rumble strip"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:57",
+      "sequence": 3,
+      "braking": "50 board",
+      "gear": "third",
+      "exit": "get back over to the right-hand side"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "5:15",
+      "sequence": 4,
+      "braking": "brake midway between 100 and 50 board, 60%",
+      "gear": "down to third gear",
+      "line": "smoothly back on the gas"
+    }
+  ],
+  "general_tips": [
+    "get power on early",
+    "patience on throttle",
+    "exit wide",
+    "close racing around here",
+    "look for the 50 board"
+  ],
+  "dropped_ungrounded": 0
+}

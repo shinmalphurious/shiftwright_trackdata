@@ -1,0 +1,1489 @@
+{
+  "track_id": 218,
+  "track": "Circuit Gilles Villeneuve",
+  "records": {
+    "218:T1:heavy_braking": {
+      "id": "218:T1:heavy_braking",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "618 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "618m distance from previous corner suggests a long straight before corner, requiring heavy braking.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.553,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.553
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "2jvokP0JGAg",
+              "result": "contradict",
+              "time": "4:01",
+              "note": "gear: 3rd; line: Left tires on track, right tires attacking curve; exit: Flat, left tires touching grass, attack last part to avoid right wall; mistakes: End up in right-hand wall",
+              "transcript_snippet": "tires on the track, right-hand tires absolutely attacking that curve. And we get straight up to 100% and now we're",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2jvokP0JGAg"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 0 video(s) confirm, 1 contradict; consensus 0.55 -> pending (evidence not yet strong enough)"
+    },
+    "218:T1:overtaking_zone": {
+      "id": "218:T1:overtaking_zone",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "618 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T1: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T7:important_exit": {
+      "id": "218:T7:important_exit",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "648 m to the next corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T7: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T8:heavy_braking": {
+      "id": "218:T8:heavy_braking",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "648 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.818,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.818
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "2jvokP0JGAg",
+              "result": "confirm",
+              "time": "5:29",
+              "note": "braking: two marker on left, 80-85% to second gear; gear: second; line: avoid no-cut curve, left tires left of no-cut curve; exit: flat out",
+              "transcript_snippet": "down to second gear. We want to start picking back up on the gas just at",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2jvokP0JGAg"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T8: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.82 -> pending (evidence not yet strong enough)"
+    },
+    "218:T8:overtaking_zone": {
+      "id": "218:T8:overtaking_zone",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "648 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T8: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T9:important_exit": {
+      "id": "218:T9:important_exit",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "635 m to the next corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T9: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T10:heavy_braking": {
+      "id": "218:T10:heavy_braking",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T10",
+      "corner_name": "L'Epingle",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "635 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.818,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.818
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "RVKquin4rB8",
+              "result": "confirm",
+              "time": "4:28",
+              "note": "braking: beside asphalt, 60-65%",
+              "transcript_snippet": "asphalt here as we come into the turn 10 hair pin. And again on the brakes to 60 65%. If you don't know why Johnny breaks",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=RVKquin4rB8"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T10: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.82 -> pending (evidence not yet strong enough)"
+    },
+    "218:T10:overtaking_zone": {
+      "id": "218:T10:overtaking_zone",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T10",
+      "corner_name": "L'Epingle",
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "635 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T10: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T12:important_exit": {
+      "id": "218:T12:important_exit",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T12",
+      "corner_name": "T12",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m to the next corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T12: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T13:heavy_braking": {
+      "id": "218:T13:heavy_braking",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.818,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.818
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "2jvokP0JGAg",
+              "result": "confirm",
+              "time": "7:23",
+              "note": "braking: brake at two marker, 100%; line: trail off to first curb; exit: get back on gas, 100%; mistakes: lift to avoid wall of champions",
+              "transcript_snippet": "trail it off down to that first curb. Uh I get back on the gas, back up to 100%, and then I wanted to make sure",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2jvokP0JGAg"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T13: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.82 -> pending (evidence not yet strong enough)"
+    },
+    "218:T13:overtaking_zone": {
+      "id": "218:T13:overtaking_zone",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "711 m from the previous corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T13: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T14:important_exit": {
+      "id": "218:T14:important_exit",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T14",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "618 m to the next corner",
+          "at": "2026-10-28T09:30:52+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "55m distance from previous corner suggests a tight corner leading to a long straight, making exit speed important.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:01+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.789
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T14: research 0.75 from 2 source(s); consensus 0.79 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T2:slow_corner": {
+      "id": "218:T2:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "131m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "2:21",
+              "note": "line: hug the inside as much as you can; exit: start getting on power at about the three-quarter mark; mistakes: be careful for cars exiting pit lane",
+              "transcript_snippet": "power at about this three-quarter mark and then get your way get your way down this sort of kinked small straight",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+    },
+    "218:T3:slow_corner": {
+      "id": "218:T3:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "59m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T4:fast_corner": {
+      "id": "218:T4:fast_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "236m distance from previous corner suggests a longer corner that can be taken at higher speeds.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T5:fast_corner": {
+      "id": "218:T5:fast_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T5",
+      "corner_name": "T5",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "231m distance from previous corner suggests a longer corner that can be taken at higher speeds.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.964,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.964
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "b452FSk3g2M",
+              "result": "confirm",
+              "time": "3:07",
+              "note": "line: go flat through turn five",
+              "transcript_snippet": "We're going to go flat through turn five. Now for turn six, we're going to get on the brakes once we're alongside",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=b452FSk3g2M"
+            },
+            {
+              "video_id": "RVKquin4rB8",
+              "result": "confirm",
+              "time": "3:17",
+              "note": "gear: flat; line: flat",
+              "transcript_snippet": "Go flat as we go through turn five. Now for turn six, we're going to get on the brakes once we're alongside this orange",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=RVKquin4rB8"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T5: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)"
+    },
+    "218:T6:slow_corner": {
+      "id": "218:T6:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "109m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "2jvokP0JGAg",
+              "result": "contradict",
+              "time": "5:08",
+              "note": "braking: End of white wall section, 90-95% braking, trail off; gear: 3rd; line: Attack left-hand side; exit: 100% throttle, slight understeer, lift and get back on gas; mistakes: Brake slightly early to take second corner flat out",
+              "transcript_snippet": "take that second corner flat out, but they do cancel each other out. Right, coming into the turn 8-9 chicane,",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2jvokP0JGAg"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "218:T7:flat_out": {
+      "id": "218:T7:flat_out",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "648m distance from previous corner suggests a long straight, allowing cars to reach high speeds.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T8:slow_corner": {
+      "id": "218:T8:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "34m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "2jvokP0JGAg",
+              "result": "contradict",
+              "time": "5:29",
+              "note": "braking: two marker on left, 80-85% to second gear; gear: second; line: avoid no-cut curve, left tires left of no-cut curve; exit: flat out",
+              "transcript_snippet": "down to second gear. We want to start picking back up on the gas just at",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2jvokP0JGAg"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T8: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "218:T9:slow_corner": {
+      "id": "218:T9:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "635m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "4:55",
+              "note": "braking: Brake at 4 board; line: Tight hairpin, similar to Sonoma final corner; exit: Square off kinked braking zone",
+              "transcript_snippet": "then square this kinked breaking zone off and break at the four board and uh and and if you're good at sonoma",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T9: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+    },
+    "218:T10:hairpin": {
+      "id": "218:T10:hairpin",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T10",
+      "corner_name": "L'Epingle",
+      "claim": "hairpin",
+      "statement": "Hairpin",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "L'Epingle is known as a hairpin turn.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "5:20",
+              "note": "braking: break at the four board; line: turn-in early, apex tight; exit: start getting the power back down long straight",
+              "transcript_snippet": "be able to start getting the power back down long straight best passing opportunity",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Hairpin at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+    },
+    "218:T10:important_exit": {
+      "id": "218:T10:important_exit",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T10",
+      "corner_name": "L'Epingle",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Hairpin turns often lead to long straights where exit speed is crucial.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "5:20",
+              "note": "braking: break at the four board; line: turn-in early, apex tight; exit: start getting the power back down long straight",
+              "transcript_snippet": "be able to start getting the power back down long straight best passing opportunity",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+    },
+    "218:T13:slow_corner": {
+      "id": "218:T13:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "711m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T13: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T11:slow_corner": {
+      "id": "218:T11:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T11",
+      "corner_name": "T11",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "126m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:21:17+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "218:T12:fast_corner": {
+      "id": "218:T12:fast_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T12",
+      "corner_name": "T12",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "371m distance from previous corner suggests a longer corner that can be taken at higher speeds.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T01:21:17+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T12: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

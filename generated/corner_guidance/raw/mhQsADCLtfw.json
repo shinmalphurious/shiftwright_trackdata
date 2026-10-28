@@ -1,0 +1,149 @@
+{
+  "video_id": "mhQsADCLtfw",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing BMW M2 Racing Oulton Park International Guide 1:50.0 BMW Racing G87 Oulton Park Track Guide",
+  "car_hint": "bmw_m2",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:52:14.795715+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "Old Hall Corner",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T1",
+      "braking": "Brake to 45%, trail off, back on to 100% in fourth gear before apex.",
+      "gear": "Fourth",
+      "line": "Wide exit without ending up in the grass."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T2",
+      "braking": "Briefly brake to 45-50%, down to fourth gear.",
+      "gear": "Fourth",
+      "exit": "Back on the gas to 100% before apex, exit wide."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Trail off to almost nothing, then increase to 100% on the gas.",
+      "mistakes": "Braking too hard causes understeer."
+    },
+    {
+      "label": null,
+      "spoken_as": "first chicane",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "braking to about 55%",
+      "gear": "down to third",
+      "line": "head slowly over to the right-hand side"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T7",
+      "braking": "braking as hard as I brake in the entire track guide",
+      "gear": "down to third",
+      "line": "head over to the left-hand side"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T8",
+      "braking": "on the brakes to about 35-40%",
+      "gear": "down to fourth",
+      "line": "trail it off, right hand tires just kissing that apex",
+      "exit": "exiting wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "final bit of braking",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T9",
+      "braking": "only to about 60%",
+      "gear": "down to third",
+      "exit": "back on the gas",
+      "mistakes": "never want to be braking harder than 60-65%"
+    },
+    {
+      "label": null,
+      "spoken_as": "the breakdown lap",
+      "start_time": "2:34",
+      "sequence": 2,
+      "label_guess": "T17",
+      "braking": "Brakes now, 45%, trail to 4th gear",
+      "gear": "4th",
+      "line": "Turn-in at gap between rumble strip and grassy hillock, apex at 100%",
+      "exit": "Exit wide"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "Brakes up to 45-50%, drop to 4th gear, up to 80-85% at exit",
+      "gear": "4th",
+      "line": "Turn-in at dip, apex at 100%",
+      "exit": "Exit wide"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "Instant lift to 4%, pick up gas at apex",
+      "line": "Turn-in at cones, apex at 4%"
+    },
+    {
+      "label": null,
+      "spoken_as": "Shell Oils Corner",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T5",
+      "braking": "Brake early to 55%, trail off to 3rd gear.",
+      "gear": "3rd",
+      "line": "Turn in early, apex next to tire barrier.",
+      "exit": "Get up to 100%, stay within track limits."
+    },
+    {
+      "label": "T15",
+      "spoken_as": "turn 15",
+      "start_time": "5:13",
+      "sequence": 4,
+      "braking": "brake to 35-40%, trail off, pick up gas after first curbs",
+      "line": "turn in after left curbing, apex on second curbs",
+      "exit": "back to 100% by second curb, right tires over edge"
+    },
+    {
+      "label": null,
+      "spoken_as": "Lodge Corner",
+      "start_time": "6:32",
+      "sequence": 5,
+      "label_guess": "T16",
+      "gear": "3",
+      "line": "Right-hand tires over the edge of this rumble strip",
+      "exit": "Hold at around 70% until we unwind on exit"
+    }
+  ],
+  "general_tips": [
+    "If the car understeers, you are braking too hard.",
+    "Straighten the car out and use engine braking to slow down.",
+    "get right tires over edge of second curb"
+  ],
+  "dropped_ungrounded": 1
+}

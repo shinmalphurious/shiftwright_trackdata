@@ -1,0 +1,84 @@
+{
+  "video_id": "_dgifPnf5cA",
+  "track_id": 128,
+  "track_name": "Road Atlanta - Short",
+  "title": "Track Guide Road Atlanta Short Toyota GR86 iRacing",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:12:26.226465+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at the white line, 15% initially, easing to 5-10%",
+      "line": "Cut grass, aim for inside curb",
+      "exit": "Throttle on the uphill"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake just before the white line, 50% initially, easing off",
+      "line": "Take inside curb, use throttle to stabilize",
+      "exit": "Full throttle, use outside curb"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "one",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "lift off throttle when losing billboard, brake before white line, 95% brake pressure",
+      "line": "left side of track, cut first curb, exit mid track",
+      "exit": "full throttle, mid track",
+      "mistakes": "don't scrub off too much speed"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "next part",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "right side of track",
+      "exit": "full throttle, mid track",
+      "mistakes": "don't scrub off too much speed"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "next part",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "inside curb, full throttle",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "don't scrub off too much speed"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "next part",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "mid track",
+      "exit": "full throttle, mid track",
+      "mistakes": "don't scrub off too much speed"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "here",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "smooth steering, mid track",
+      "exit": "full throttle",
+      "mistakes": "don't scrub off too much speed"
+    }
+  ],
+  "general_tips": [
+    "Stay on the left side of the track to open up turn two",
+    "be smooth with steering inputs",
+    "don't scrub off too much speed"
+  ],
+  "dropped_ungrounded": 1
+}

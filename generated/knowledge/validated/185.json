@@ -1,0 +1,385 @@
+{
+  "track_id": 185,
+  "track": "Oulton Park Circuit - Intl w/no Chicanes",
+  "records": {
+    "185:T1:heavy_braking": {
+      "id": "185:T1:heavy_braking",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a braking zone before a turn.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.98,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:58+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.941,
+        "consensus": 0.98
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Fosters",
+            "source_track_id": 181,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Island",
+            "source_track_id": 182,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+            "source_track_id": 186,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 4
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 4 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "185:T5:slow_corner": {
+      "id": "185:T5:slow_corner",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner and moderate distance from previous corner suggest a tight corner.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:58+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T5",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "185:T4:fast_corner": {
+      "id": "185:T4:fast_corner",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Moderate distance to next corner and distance from previous corner suggest a fast corner.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:16:13+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "1hkyDq_ujHs",
+              "result": "confirm",
+              "time": "9:04",
+              "note": "gear: Flat out",
+              "transcript_snippet": "Turn four is easily flat out. The main thing to note here is that we want to take a later apex to allow us to stay to",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=1hkyDq_ujHs"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T4",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "185:T11:fast_corner": {
+      "id": "185:T11:fast_corner",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Moderate distance to next corner and distance from previous corner suggest a fast corner.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:16:13+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "7M5b30isBXA",
+              "result": "confirm",
+              "time": "3:02",
+              "note": "braking: Break just before the dip, 90% brake pressure, trail off to emergency road; line: Flat out, use exit curve; exit: Pick up throttle, use exit curve; mistakes: Do not hit curb, do not take too much curb",
+              "transcript_snippet": "90% brake pressure and I'm trailing it off all the way to the emergency road on the inside. Once we get to the emergency",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=7M5b30isBXA"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T11: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "185:T5:heavy_braking": {
+      "id": "185:T5:heavy_braking",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.993
+      },
+      "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+      "source_track_id": 184,
+      "source_corner": "T5",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "184:T5:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T5: inherited from Oulton Park Circuit - Intl w/out Brittens T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 2 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "185:T11:heavy_braking": {
+      "id": "185:T11:heavy_braking",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.993
+      },
+      "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+      "source_track_id": 184,
+      "source_corner": "T13",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "184:T13:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T11: inherited from Oulton Park Circuit - Intl w/out Brittens T13 (same corner, same approach, inheritance 1.00); Heavy braking zone at T13: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "185:T10:heavy_braking": {
+      "id": "185:T10:heavy_braking",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.969
+      },
+      "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+      "source_track_id": 186,
+      "source_corner": "T10",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "186:T10:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T10: inherited from Oulton Park Circuit - Fosters w/Hislop T10 (same corner, same approach, inheritance 1.00); Heavy braking zone at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

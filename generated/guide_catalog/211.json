@@ -1,59 +1,147 @@
 {
   "track_id": 211,
   "layout": "211-oran-moto",
+  "name": "Oran Park Raceway - Moto",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:23:05.628942+00:00",
+  "candidates_seen": 23,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 23,
+    "new_candidates": 13,
+    "accepted": 17,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 6,
+    "rejection_reasons": {
+      "no guide words in title": 4,
+      "too short": 2
+    }
+  },
   "selected_guides": {
     "vee": [
       {
         "video_id": "JScxbVppdFE",
         "title": "iRacing Formula Vee Oran Park Moto Track Guide - 1:19.699 - Sim Racing Tips - Week 3 Season 1 2024",
-        "description": "We're back for a track guide for the new season in iRacing in theFormula Vee at Oran Park Moto. Each week I shall be producing\u00a0...",
+        "description": "We're back for a track guide for the new season in iRacing in theFormula Vee at Oran Park Moto. Each week I shall be producing ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "vee",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "LWqRoFUPt_M",
+        "title": "iRacing 2023 S3W10 | Formula Vee | Oran Park Raceway - South Course | 48.044 | Lap Guide",
+        "description": "Lap guide for the Formula Vee at Oran Park Raceway - South Course. I show a full speed lap as well as a more detailed second ...",
+        "channel": "Love Racing",
+        "duration": 196,
+        "video_type": "lap_walkthrough",
+        "car": "vee",
+        "quality_score": 230,
+        "venue_confidence": 1.0
       }
     ],
     "ff1600": [
       {
         "video_id": "w40pgYtObiU",
         "title": "iRacing FF1600 Oran Park Moto Track Guide - 1:11.351 - Week 3 iRacing Guide Sim Racing Tips & Tricks",
-        "description": "We're back for a track guide for the new season in iRacing in the Ray Racing FF1600 at Oran Park Moto. It's a tricky little track with\u00a0...",
+        "description": "We're back for a track guide for the new season in iRacing in the Ray Racing FF1600 at Oran Park Moto. It's a tricky little track with ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "ff1600",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "uAGqHROZiUM",
         "title": "Track Guide Oran Park - Moto FF1600 Fixed iRacing",
-        "description": "With this guide I hope to help you improve and get quicker at Oran Park - Moto in the Ray FF1600/ Formula Ford. It s a really good\u00a0...",
+        "description": "With this guide I hope to help you improve and get quicker at Oran Park - Moto in the Ray FF1600/ Formula Ford. It s a really good ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "ff1600",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "QxYgoEpOSkI",
+        "title": "iRacing  Skip Barber Oran Park Moto Track Guide 1.14.5",
+        "description": "SPO 5, ARB 8, Brakes 55%",
+        "channel": "edward buchanan",
+        "duration": 1088,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "KbouJLz842c",
+        "title": "iRacing Skip Barber  Oran Park Moto  Track Guide",
+        "description": "2020 S1 Week 7 オランパークレースウエイ モトレイアウト トラックガイド.",
+        "channel": "Sim Racing Toshi",
+        "duration": 425,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "hxxAzr-QnrI",
+        "title": "iRacing - Johnny Guindi Skip Barber Track Guide @ Oran Park",
+        "description": "Johnny Guindi joins us for our Skippy Racing Group practice and gives us a track walkthrough. A lot of good information and ...",
+        "channel": "MeTwoFive",
+        "duration": 1212,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ],
     "mx5": [
       {
         "video_id": "IunalMgCwV0",
         "title": "iRacing MX5 Oran Park Guide 1:14.0 Mazda MX5 Oran Park Track Guide",
-        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from\u00a0...",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 374,
         "video_type": "lap_walkthrough",
         "car": "mx5",
-        "quality_score": 220
-      },
-      {
-        "video_id": "cjynwkqMM98",
-        "title": "iRacing Oran Park MX-5 - Guide Lap + Hot Lap + Setup + blap file - 1:15,325",
-        "description": "Learn how to drive the Global Mazda MX-5 on Oran Park in iRacing! In the guide we will take a look at every turn, I will showcase\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "mx5",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "KLCdV-ZtVaI",
         "title": "iRacing Mazda MX5 - Oran Park Grand Prix Guide - 1:14.603 - Oran Park GP Track Guide MX5",
-        "description": "We're at Oran Park Grand Prix layout for another track guide in the MX5. I used the fixed set up and it's late in a stint with warm\u00a0...",
+        "description": "We're at Oran Park Grand Prix layout for another track guide in the MX5. I used the fixed set up and it's late in a stint with warm ...",
+        "channel": "Sambo iRacing",
+        "duration": 356,
         "video_type": "lap_walkthrough",
         "car": "mx5",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "bmw_m2": [
+      {
+        "video_id": "XdU5zjI9HRU",
+        "title": "iRacing NEW BMW M2 Oran Park Guide 1:12.2 BMW M2 Racing G87 Oran Park Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 346,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ]
   }

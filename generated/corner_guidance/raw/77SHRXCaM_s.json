@@ -1,0 +1,201 @@
+{
+  "video_id": "77SHRXCaM_s",
+  "track_id": 559,
+  "track_name": "Iowa Speedway - Oval",
+  "title": "Iowa Speedway I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+  "car_hint": "nascar",
+  "car": "B car",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:53:36.804590+00:00",
+  "passages": 17,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:56",
+      "sequence": 1,
+      "braking": "judge distance to new pavement, feel of car during braking",
+      "line": "approach to new pavement",
+      "mistakes": "not having markers or cones to judge turn radius"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "3:15",
+      "sequence": 2,
+      "braking": "brake gently to stabilize entry, use limited brake pressure",
+      "line": "turn-in to new pavement, aim for tighter option to reduce splitter contact",
+      "mistakes": "using too much brake pressure, being too abrupt away from the wall"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:34",
+      "sequence": 3,
+      "braking": "Brake to Iowa turn one signage, light above red paint.",
+      "line": "Turn-in to start apex, limited brake pressure.",
+      "mistakes": "Too much braking or wheel shaping can cause a free trend."
+    },
+    {
+      "label": "T1",
+      "spoken_as": "T1",
+      "start_time": "5:53",
+      "sequence": 4,
+      "braking": "Off brake at signage on inside wall.",
+      "exit": "Maintain angle of apex, ramp up to 100% throttle.",
+      "mistakes": "Overcommitting, too shallow entry, destabilized entry."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "7:12",
+      "sequence": 5,
+      "line": "Stay on painted line to apex, then center of track",
+      "exit": "Maintain throttle to hold apex, ramp up to 100% throttle",
+      "mistakes": "Pushing tight with the nose, opening the wheel too early"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "8:30",
+      "sequence": 6,
+      "exit": "Keep left side tires just below this point on exit.",
+      "mistakes": "Adding too much wheel angle too early on exit can cost speed and lap time."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "9:47",
+      "sequence": 7,
+      "braking": "brake straighter, limited pressure",
+      "line": "turn before I in Iowa, set up for lift point",
+      "mistakes": "don't get to painted line too early"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "11:04",
+      "sequence": 8,
+      "braking": "Limited brake pressure, do not get to painted line too early.",
+      "line": "Get to painted line lower exit.",
+      "exit": "Power straight off.",
+      "mistakes": "Slipping the right rear when crossing to old pavement near restart zone."
+    },
+    {
+      "label": null,
+      "spoken_as": "the exit",
+      "start_time": "12:23",
+      "sequence": 9,
+      "line": "cross into the banking with right side tires",
+      "exit": "throttle 100%, counter steer, then steer left to guide into banking",
+      "mistakes": "pushing tight, crossing seam too early, adding more wheel shape with older tires"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "Turn one",
+      "start_time": "13:41",
+      "sequence": 10,
+      "line": "Run higher in the second groove on restart",
+      "mistakes": "Slip the right rear tire"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "15:00",
+      "sequence": 11,
+      "label_guess": "T2",
+      "braking": "braking point, get off the brake",
+      "exit": "partial throttle, ramp up later",
+      "mistakes": "exit is a little hairy"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "this compression point",
+      "start_time": "16:18",
+      "sequence": 12,
+      "braking": "limited brake pressure, trail off closer to compression point",
+      "mistakes": "more brake pressure leads to front end pushing and going off line"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "17:37",
+      "sequence": 13,
+      "label_guess": "T2",
+      "line": "keep the radius of the apex",
+      "exit": "ramp up to 100% throttle when I know I can open the exit up",
+      "mistakes": "crossing the seam too early, exiting the wall too high"
+    },
+    {
+      "label": null,
+      "spoken_as": "three",
+      "start_time": "17:37",
+      "sequence": 13,
+      "label_guess": "T3",
+      "exit": "lower ramp up the throttle and steady increase the throttle",
+      "mistakes": "crossing it too early"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "20:13",
+      "sequence": 15,
+      "label_guess": "T2",
+      "braking": "Brake about a car length and a half to two before braking marker",
+      "gear": "Downshift to third, second while on the racetrack",
+      "line": "Cut early, keep trajectory, avoid carrying too much speed",
+      "exit": "Approach smoothly, get closer to the wall",
+      "mistakes": "Carrying too much speed, causing a slide near the pit barrels"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "pit entry",
+      "start_time": "21:35",
+      "sequence": 16,
+      "braking": "higher entry, straighten approach, more braking pressure",
+      "gear": "1st gear, 40 mph",
+      "mistakes": "too much braking pressure, getting loose on entry"
+    }
+  ],
+  "general_tips": [
+    "Consider going to a looser setup to combat traffic.",
+    "Consider a tighter setup if the track gets hotter.",
+    "manage balance",
+    "use feel of car during braking",
+    "use brake as a tool to balance and stabilize entry",
+    "Manage entry speed and stability under braking.",
+    "Get left front tire on painted line for grip, stay on line to apex",
+    "Maintain throttle to help point down into apex",
+    "Initiate throttle at pit exit wall",
+    "Maintain rear grip by avoiding excessive rear slip, especially when crossing banking.",
+    "Maintain grip max potential of grip.",
+    "Sustain quality of grip for longer exit to help drive off of turn four.",
+    "Lower exit to avoid stressing right rear tire.",
+    "Be committed when crossing into the banking near the seam.",
+    "create lap time by being in throttle",
+    "be precise on steering angle to open wheel up to the wall",
+    "use more wheel angle crossing seam because it needs it",
+    "start opening up once left rear crosses seam into banking",
+    "Avoid getting to the restart zone too early",
+    "Maintain grip closer to the wall",
+    "don't match speed of car ahead when in fourth or fifth line",
+    "middle of 1 and 2 not advantageous this week",
+    "middle of 3 and 4 not advantageous this week",
+    "use middle to defend and keep guys pinched on the bottom",
+    "wider approach at the wall",
+    "turn smoother",
+    "use more brake pressure leading into compression point",
+    "time when to start trailing off brake",
+    "factor in rear tires getting hotter after 20 laps",
+    "keep the radius of the apex",
+    "ramp up to 100% throttle when I know I can open the exit up",
+    "lower ramp up the throttle and steady increase the throttle",
+    "Focus on rear grip to avoid overheating rear tires.",
+    "Maintain a smoother approach to the braking zone",
+    "Avoid braking too late and causing a slide near the pit barrels",
+    "straight line approach to pit entry",
+    "avoid destabilizing corner entry"
+  ],
+  "dropped_ungrounded": 1
+}

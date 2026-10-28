@@ -61,5 +61,101 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "wide entry, trail brake",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "get car guided close to white line",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get back on gas, hold on for dear life",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake wide, trail brake, get close to white line, accelerate hard on exit."
+    },
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "exit": [
+        {
+          "text": "round off exit, try not to get too close to outside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Round off exit to avoid outside wall."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "lift off gas, trail brake down at bottom",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "let car roll slightly longer before getting back on gas",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, trail braking at the bottom. Roll out slightly longer before accelerating."
+    }
+  },
+  "corner_facts": {}
 }

@@ -1,0 +1,79 @@
+{
+  "video_id": "ItIRPdjDGgU",
+  "track_id": 8,
+  "track_name": "Summit Point Raceway - Jefferson Circuit",
+  "title": "Track Guide Summit Point - Jefferson 53.3 Mazda MX5 iRacing",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:24:27.197657+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "Turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Break at the tree on the right, 90% brake pressure, trail to curb.",
+      "line": "Turn-in at curb, let car roll, exit mid-track.",
+      "exit": "Get on throttle as exit, aim mid-track.",
+      "mistakes": "People will try to overtake in race."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Cut inside curb, lift throttle, repeat for second part.",
+      "exit": "End up mid-track for turn three."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Start braking where inside curb changes color, 80% brake pressure.",
+      "exit": "Accelerate gently to avoid spinning, aim mid-track."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Cut in on curb.",
+      "mistakes": "Car wants to go sideways, be careful."
+    },
+    {
+      "label": "T5",
+      "spoken_as": "Turn five",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at last three on left, 65% brake pressure, trail to inside curb.",
+      "mistakes": "Do not overtake into turn five."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Brake at the inside curb, 60% pressure.",
+      "line": "Take a tighter line close to the inside curb.",
+      "exit": "Accelerate as you get to the top of the hill."
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "Out to mid track before turning in, then close to inside curb.",
+      "exit": "Accelerate, use right side of track, even pit entry.",
+      "mistakes": "Going onto the grass too early will spin the car."
+    }
+  ],
+  "general_tips": [
+    "Stay on left side of track for turn one in qualifying.",
+    "Stay on right side of track for turn five in qualifying."
+  ],
+  "dropped_ungrounded": 1
+}

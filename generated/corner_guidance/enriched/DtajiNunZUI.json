@@ -1,0 +1,186 @@
+{
+  "video_id": "DtajiNunZUI",
+  "track_id": 8,
+  "track_name": "Summit Point Raceway - Jefferson Circuit",
+  "title": "Track Guide Summit Point - Jefferson BMW M2 CSR 51.1 iRacing",
+  "car": "BMW M2 CSR",
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at the left wall, 90% pressure, trail brake to the top of the corner.",
+      "gear": "2nd",
+      "line": "Turn-in to the inside curb, apex close to the inside curb.",
+      "exit": "Accelerate smoothly, cut the first inside curb of turn two.",
+      "mistakes": "Overbraking and losing the inside curb.",
+      "note_id": "DtajiNunZUI:0",
+      "text": "braking: Brake at the left wall, 90% pressure, trail brake to the top of the corner.; gear: 2nd; line: Turn-in to the inside curb, apex close to the inside curb.; exit: Accelerate smoothly, cut the first inside curb of turn two.; mistakes: Overbraking and losing the inside curb.",
+      "spoken_as": "Turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "0:36",
+      "snippet": "to cut the first inside curb of turn two. And as we cross the middle of the track, we want to break a little bit, no",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at the middle of the track, no more than 10% pressure.",
+      "gear": "3rd",
+      "line": "Cut the second curb, apex in the middle of the track.",
+      "exit": "Accelerate smoothly, stay close to the inside curb.",
+      "mistakes": "Going wider than the middle of the track.",
+      "note_id": "DtajiNunZUI:1",
+      "text": "braking: Brake at the middle of the track, no more than 10% pressure.; gear: 3rd; line: Cut the second curb, apex in the middle of the track.; exit: Accelerate smoothly, stay close to the inside curb.; mistakes: Going wider than the middle of the track.",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:40",
+      "snippet": "more than 10%, cutting the second curb as well, ending up in the middle of the track for turn three. I don't have a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake just before the corner, 50% pressure, trail brake to the top of the corner.",
+      "gear": "3rd",
+      "line": "Stay close to the inside curb.",
+      "exit": "Accelerate smoothly, short shift into 3rd.",
+      "mistakes": "Going wider than the middle of the track.",
+      "note_id": "DtajiNunZUI:2",
+      "text": "braking: Brake just before the corner, 50% pressure, trail brake to the top of the corner.; gear: 3rd; line: Stay close to the inside curb.; exit: Accelerate smoothly, short shift into 3rd.; mistakes: Going wider than the middle of the track.",
+      "spoken_as": "Turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:03",
+      "snippet": "wider than the middle of the track. Then it's all about balance and making sure you stay close to the inside curb. Turn",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake once losing the tree on the left, 80% pressure, trail brake to the inside curb.",
+      "line": "Stay as far to the right side of the track as possible.",
+      "mistakes": "Hitting the curb.",
+      "note_id": "DtajiNunZUI:3",
+      "text": "braking: Brake once losing the tree on the left, 80% pressure, trail brake to the inside curb.; line: Stay as far to the right side of the track as possible.; mistakes: Hitting the curb.",
+      "spoken_as": "Turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:08",
+      "snippet": "four as well. Stay as far to the right side of the track as you dare. I break once I lose the tree here on the left. I",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break once you lose the tree on the left, 80% brake pressure, trail off to the inside curb.",
+      "line": "Stay close to the inside curb.",
+      "exit": "Slowly apply throttle, avoid grass to prevent spinning.",
+      "mistakes": "Hitting the traction control, going onto the grass.",
+      "note_id": "DtajiNunZUI:4",
+      "text": "braking: Break once you lose the tree on the left, 80% brake pressure, trail off to the inside curb.; line: Stay close to the inside curb.; exit: Slowly apply throttle, avoid grass to prevent spinning.; mistakes: Hitting the traction control, going onto the grass.",
+      "spoken_as": "turn five",
+      "passage_time": "1:18",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.75,
+          "mistakes": 0.75
+        }
+      },
+      "time": "1:45",
+      "snippet": "getting close into the inside curb of turn six. And then I aim for just about mid track before turn seven. As we get",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at the end of the curb on the right, 70% brake pressure, trail off to the top of the hill.",
+      "line": "Take a tighter line, get close to the inside curb.",
+      "exit": "Accelerate smoothly, aim for mid-track before turn seven.",
+      "mistakes": "Spinning the car, hitting the traction control.",
+      "note_id": "DtajiNunZUI:5",
+      "text": "braking: Brake at the end of the curb on the right, 70% brake pressure, trail off to the top of the hill.; line: Take a tighter line, get close to the inside curb.; exit: Accelerate smoothly, aim for mid-track before turn seven.; mistakes: Spinning the car, hitting the traction control.",
+      "spoken_as": "turn six",
+      "passage_time": "1:18",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:42",
+      "snippet": "the top of the little hill before turn. I prefer to take a tighter line here getting close into the inside curb of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Aim for mid-track before turn seven.",
+      "exit": "Use all the room on the outside, accelerate smoothly.",
+      "mistakes": "Spinning the car.",
+      "note_id": "DtajiNunZUI:6",
+      "text": "line: Aim for mid-track before turn seven.; exit: Use all the room on the outside, accelerate smoothly.; mistakes: Spinning the car.",
+      "spoken_as": "turn seven",
+      "passage_time": "1:18",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:49",
+      "snippet": "mid track before turn seven. As we get to the top of the hill, we want to have the car turn and we want to start to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

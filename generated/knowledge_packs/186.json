@@ -162,5 +162,431 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake before the black banner on the left, peak at 60%.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Third gear",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Get back to power before you strike the curb.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the black banner on the left to 60% (ff1600), shift to 3rd gear (ff1600), and accelerate off the curb."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at the beginning of the inverted hump, 55% pressure.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Third gear",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Get back to full throttle once you feel the car squat down.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the start of the inverted hump with 55% pressure, shift to 3rd gear, and accelerate fully once the car squats down."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Use a small amount brake pressure to accomplish faster rotation.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Don't lift off the throttle, use brake pressure to gain traction.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Apply light brake pressure to maintain speed and rotate smoothly. Avoid lifting off throttle; use brake to gain traction."
+    },
+    "T5": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at the dirt patch on the left, use threshold braking.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Second gear",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Back to full throttle once the front tires grip.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the dirt patch using threshold braking, shift to 2nd gear, then accelerate hard as the front tires grip."
+    },
+    "T6": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake before the marshal stand, 60% pressure.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Second gear",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the marshal stand with 60% pressure, shift to second gear."
+    },
+    "T10": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at the 100 meter board, 70% pressure.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Second",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Use as much curb as possible for both corners.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the 100m board with 70% pressure, shift to second gear. Use maximum curb for both corners."
+    },
+    "T11": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Don't track out too wide.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay closer to the inside curb to avoid running wide."
+    },
+    "T12": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "gear": [
+        {
+          "text": "Second",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Hit the inside curb, but don't be greedy.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Keep the car to the left to shorten track distance.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Don't run too wide on exit to the point that you bottom out.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on the inside curb, shift to second gear, keep left on exit to shorten distance, avoid running wide to prevent bottoming out."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.994,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 3
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T11": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.96,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 4
+        },
+        "explanation": "Heavy braking zone at T11: research 0.60 from 1 source(s); confirmed at 4 identical corner(s) of other layouts; consensus 0.96 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.9,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Fast corner at T11: inherited from Oulton Park Circuit - Intl w/no Chicanes T11 (same corner, inheritance 1.00); Fast corner at T11: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/no Chicanes",
+        "source_corner": "T11",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T10": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.969,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

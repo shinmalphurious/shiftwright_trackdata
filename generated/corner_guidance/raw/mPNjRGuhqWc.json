@@ -1,0 +1,103 @@
+{
+  "video_id": "mPNjRGuhqWc",
+  "track_id": 179,
+  "track_name": "Long Beach Street Circuit",
+  "title": "iRacing Mustang GT3 Long Beach Guide 1:17.5 Ford Mustang GT3 Long Beach Track Guide",
+  "car_hint": "general",
+  "car": "Mustang GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:52:34.329922+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:55",
+      "sequence": 1,
+      "braking": "Brake at 500 marker, 55-60% pressure, trail off",
+      "line": "Turn left, tight to the wall"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "1:55",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "Brake after Bob's Burgers, 35-45% pressure, trail off to 1st gear",
+      "gear": "1st",
+      "line": "Inside roundabout, tight to the wall"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "1:55",
+      "sequence": 1,
+      "label_guess": "T3",
+      "braking": "Brake at fence post, 3 car lengths before signs, 25% pressure, trail off",
+      "line": "Curve right"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "1:55",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "Brake at lighter color, 100% pressure"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "3:12",
+      "sequence": 2,
+      "label_guess": "T5",
+      "braking": "35% braking, trail off",
+      "line": "attack this curve"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:12",
+      "sequence": 2,
+      "braking": "50-55% braking, trail off, second gear",
+      "gear": "2",
+      "line": "head over to the right side",
+      "exit": "exit nice and wide"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:12",
+      "sequence": 2,
+      "braking": "50% braking, trail off, second gear",
+      "gear": "2",
+      "line": "head over to the left-hand side",
+      "exit": "exit nice and wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn now",
+      "start_time": "3:12",
+      "sequence": 2,
+      "label_guess": "T10",
+      "braking": "60% braking, trail off, second gear",
+      "gear": "2"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn now",
+      "start_time": "4:30",
+      "sequence": 3,
+      "label_guess": "T7",
+      "braking": "brake to 60% at end of curbing, trail off to first gear",
+      "gear": "first gear",
+      "line": "use left curbing, keep left tires on curb",
+      "exit": "roll onto brakes, build power to avoid traction control, smash to line",
+      "mistakes": "do not go further right than shown, ensure telemetry saves"
+    }
+  ],
+  "general_tips": [
+    "attack the curbing, keep left tires on curb"
+  ],
+  "dropped_ungrounded": 3
+}

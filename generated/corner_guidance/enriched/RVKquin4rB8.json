@@ -1,0 +1,184 @@
+{
+  "video_id": "RVKquin4rB8",
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "title": "iRacing McLaren GT3 Montreal Guide 1339 McLaren 720S GT3 Circuit Gilles Villeneuve Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "get on brakes alongside right marker, 60%",
+      "gear": "2",
+      "line": "attack left curb",
+      "exit": "back on gas, blip, roll on to 30%, light apex, back on gas",
+      "note_id": "RVKquin4rB8:0",
+      "text": "braking: get on brakes alongside right marker, 60%; gear: 2; line: attack left curb; exit: back on gas, blip, roll on to 30%, light apex, back on gas",
+      "spoken_as": "little bend",
+      "passage_time": "1:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:28",
+      "snippet": "attack this curb here on the left hand side. There we go. Back on the gas. Little blip. And then as soon as we"
+    },
+    {
+      "braking": "midway between two markers, 45-50%",
+      "line": "tread off to apex, attack",
+      "exit": "back on gas, avoid wall, tight on exit",
+      "mistakes": "avoid wall on exit",
+      "note_id": "RVKquin4rB8:1",
+      "text": "braking: midway between two markers, 45-50%; line: tread off to apex, attack; exit: back on gas, avoid wall, tight on exit; mistakes: avoid wall on exit",
+      "spoken_as": "next corner",
+      "passage_time": "1:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:46",
+      "snippet": "the brakes. Midway between the two coming up here and the one marker. And as you can see again on the brakes up to"
+    },
+    {
+      "gear": "flat",
+      "line": "flat",
+      "note_id": "RVKquin4rB8:2",
+      "text": "gear: flat; line: flat",
+      "spoken_as": "turn five",
+      "passage_time": "3:17",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:17",
+      "snippet": "Go flat as we go through turn five. Now for turn six, we're going to get on the brakes once we're alongside this orange",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "beside orange marshals inlet, 60%",
+      "gear": "down to 2nd",
+      "line": "attack right curb, left tires over rumble strip",
+      "exit": "100% throttle",
+      "note_id": "RVKquin4rB8:3",
+      "text": "braking: beside orange marshals inlet, 60%; gear: down to 2nd; line: attack right curb, left tires over rumble strip; exit: 100% throttle",
+      "spoken_as": "turn six",
+      "passage_time": "3:17",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:28",
+      "snippet": "60% down through the gears to second. really attack this curb here. Keeping our right hand tires still on the track,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "2/3 beyond 3 marker, 60-65%",
+      "gear": "down to 2nd",
+      "line": "attack right curb, right tires over white",
+      "exit": "95% throttle",
+      "note_id": "RVKquin4rB8:4",
+      "text": "braking: 2/3 beyond 3 marker, 60-65%; gear: down to 2nd; line: attack right curb, right tires over white; exit: 95% throttle",
+      "spoken_as": "turns number eight and nine",
+      "passage_time": "3:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:30",
+      "snippet": "really attack this curb here. Keeping our right hand tires still on the track, left hand tires completely over the",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.275,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T10",
+        "estimated_pct": 0.3053,
+        "corner_pct": 0.3145,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T10",
+        "corners_between": [
+          "T7",
+          "T8",
+          "T9"
+        ]
+      }
+    },
+    {
+      "braking": "beside asphalt, 60-65%",
+      "note_id": "RVKquin4rB8:5",
+      "text": "braking: beside asphalt, 60-65%",
+      "spoken_as": "turn 10 hair pin",
+      "passage_time": "3:17",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:28",
+      "snippet": "asphalt here as we come into the turn 10 hair pin. And again on the brakes to 60 65%. If you don't know why Johnny breaks",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "second gear",
+      "line": "really attack this curb on entry",
+      "exit": "hold the gas at about 2/3, attack the second curb",
+      "note_id": "RVKquin4rB8:6",
+      "text": "gear: second gear; line: really attack this curb on entry; exit: hold the gas at about 2/3, attack the second curb",
+      "spoken_as": "turn number 13",
+      "passage_time": "4:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:10",
+      "snippet": "second gear. really attack this curb on entry. Hold the gas at about 2/3. Attack the second curb."
+    }
+  ]
+}

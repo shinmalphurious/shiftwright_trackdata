@@ -1,43 +1,114 @@
 {
   "track_id": 190,
   "layout": "190-newsmyrna",
+  "name": "New Smyrna Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:15:10.663453+00:00",
+  "candidates_seen": 62,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 62,
+    "new_candidates": 55,
+    "accepted": 6,
+    "selected": 7,
+    "kept_previous": 7,
+    "kept_despite_rejection": [
+      "SaPZF_7NDp4"
+    ],
+    "new_selected": 0,
+    "rejected": 55,
+    "rejection_reasons": {
+      "no guide words in title": 38,
+      "too short": 8,
+      "venue not in title": 5,
+      "too long": 4
+    }
+  },
   "selected_guides": {
     "late_model": [
+      {
+        "video_id": "sFV0o2BOgeA",
+        "title": "iRacing Super Late Model: Learn to Drive New Smyrna for iRacing 2025 Season 1 Lap Guide",
+        "description": "Learn to drive New Smyrna Speedway in an iRacing Super Late Model for the iRacing 2025 S1 Week 7 of official races!",
+        "channel": "Team53",
+        "duration": 405,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "weuGI9h0fLY",
+        "title": "Learn to Drive New Smyrna in a Late Model Stock for 2025 Season 3 Week 3 Lap Guide & Tutorial",
+        "description": "Learn to drive New Smyrna in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S3 Week 3 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 510,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "ixXdC3p7A04",
+        "title": "iRacing Super Late Model: Learn to Drive New Smyrna for 2025 Season 3 Week 4 Lap Guide & Tutorial",
+        "description": "Learn to drive New Smyrna in an iRacing Super Late Model (SLM) for the iRacing official races! The owner of Team53 provides a ...",
+        "channel": "Team53",
+        "duration": 439,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
       {
         "video_id": "SaPZF_7NDp4",
         "title": "Lap Guide: Super Late Model at New Smyrna",
         "description": "Join Brian Yaczik in the Super Late Model as he takes a few laps around New Smyrna Speedway.",
+        "channel": "Global SimRacing Channel",
+        "duration": 60,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 120
-      },
-      {
-        "video_id": "cfP9AO2o68k",
-        "title": "Late Model - New Smyrna Speedway - iRacing",
-        "description": "iRacing Referral Code and Equipment listed in description. iRacing Referral code\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
+        "quality_score": null,
+        "venue_confidence": 0.9
       }
     ],
     "modified": [
       {
-        "video_id": "9Aa-K0dSfeo",
-        "title": "iRacing: SK Modified @ New Smyrna",
-        "description": "Get This EXACT Same Setup Pack Here(Lap Time Shown): https://bit.ly/3otvelg \u25bb What Is Premier Racing Setups? Premier\u00a0...",
-        "video_type": "other",
+        "video_id": "C_9apz7YMuQ",
+        "title": "iRacing SK Modified: Learn to Drive New Smyrna for iRacing 2025 Season 1 Week 8 Lap Guide",
+        "description": "Learn to drive New Smyrna Speedway in an iRacing SK Modified for the iRacing 2025 S1 Week 8 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 440,
+        "video_type": "lap_walkthrough",
         "car": "modified",
-        "quality_score": 120
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "HR6TjOsDEPw",
+        "title": "iRacing Tour Modified: Learn to Drive New Smryna for 2025 S1 Week 8 Lap Guide",
+        "description": "Learn to drive New Smyrna Speedway in an iRacing Tour Modified for the iRacing 2025 S1 Week 8 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 356,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 218,
+        "venue_confidence": 0.7
       }
     ],
-    "nascar": [
+    "general": [
       {
-        "video_id": "f9TFCSi0ryE",
-        "title": "New Smyrna to Daytona 500 with Ryan Preece",
-        "description": "4-8-20 NASCAR grassroots racer Ryan Preece competes in his Whelen Modified at New Smyrna Speedway and tries to avoid the\u00a0...",
-        "video_type": "other",
-        "car": "nascar",
-        "quality_score": 20
+        "video_id": "Batj9eahK9Q",
+        "title": "iRacing Track Guides - New Hampshire 2015",
+        "description": "Hey guys here is the guide for New Hampshire Motor Speedway. Not the best track for me but its ok. Best i could get was a 30.2.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 317,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 198,
+        "venue_confidence": 0.7
       }
     ]
   }

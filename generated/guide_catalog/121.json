@@ -1,41 +1,91 @@
 {
   "track_id": 121,
   "layout": "121-texas-oval",
+  "name": "[Legacy] Texas Motor Speedway - 2009 - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:11:20.578268+00:00",
+  "candidates_seen": 40,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 40,
+    "new_candidates": 35,
+    "accepted": 5,
+    "selected": 5,
+    "kept_previous": 5,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 35,
+    "rejection_reasons": {
+      "too long": 16,
+      "no guide words in title": 12,
+      "venue not in title": 4,
+      "live stream": 2,
+      "too short": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
         "video_id": "DbxPxoZKBYM",
         "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Texas",
-        "description": "Driven by: Michael Conti 2025, S2 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp Our 'Summer\u00a0...",
+        "description": "Driven by: Michael Conti 2025, S2 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp Our 'Summer ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "general": [
+      {
+        "video_id": "I0GyXLlkTzg",
+        "title": "iRacing Track Guide: A Fixed at Legacy Texas",
+        "description": "Let me know how you race week is going! Intro Song: Cam Cole - Mama.",
+        "channel": "PDResh",
+        "duration": 559,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
       },
       {
-        "video_id": "HuCc_yYze6c",
-        "title": "Ty Dillon explains a lap around Texas on iRacing | NASCAR",
-        "description": "Germain Racing driver Ty Dillon talks through a lap around Texas Motor Speedway on an iRacing simulator. ---------- Subscribe to\u00a0...",
-        "video_type": "other",
-        "car": "nascar",
-        "quality_score": 120
+        "video_id": "RLtwl9r6_fA",
+        "title": "iRacing Track Guide: Pickup Cup at Legacy Pocono",
+        "description": "If you're out, can you pick me up a Giant #56 on white from Jersey Mike's?",
+        "channel": "PDResh",
+        "duration": 594,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 225,
+        "venue_confidence": 0.63
       }
     ],
     "arca": [
       {
-        "video_id": "SilzSqFIi60",
-        "title": "S2 W3 IRACING FIXED SETUP OVAL RACING GUIDE",
-        "description": "iRacing fixed setup oval racing guide for Mar 29 - Apr 5 Timestamps 00:00 - Intro 02:04 - Disclaimers 03:20 - ARCA 04:59 - C\u00a0...",
+        "video_id": "DjhUea8pjw4",
+        "title": "*Iracing Changed It!* Arca Updated Guide to Texas Qualifying and Race",
+        "description": "Ya that old setup was bad huh? Well this one is good as long as you approach it correctly. Join the Discord!",
+        "channel": "DJ Yee-J",
+        "duration": 613,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 222,
+        "venue_confidence": 0.8
       },
       {
-        "video_id": "hB31tjgclys",
-        "title": "ARCA Oval Primer: Texas",
-        "description": "Quick track guide for Texas Motor Speedway in the ARCA Menards Car.",
+        "video_id": "uY6hW2uFJZU",
+        "title": "Iracing Arca *NEW* Texas Guide to Qualifying and Race",
+        "description": "https://trophytracks.com The setup used in this video is the correct one for now. It may change later.",
+        "channel": "DJ Yee-J",
+        "duration": 1210,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 120
+        "quality_score": 222,
+        "venue_confidence": 0.8
       }
     ]
   }

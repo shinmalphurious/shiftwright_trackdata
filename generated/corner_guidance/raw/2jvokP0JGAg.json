@@ -1,0 +1,89 @@
+{
+  "video_id": "2jvokP0JGAg",
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "title": "iRacing MX5 Montreal Guide 1:55.0 Mazda MX5 Circuit Gilles Villeneuve Track Guide",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:35:37.371872+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:35",
+      "sequence": 1,
+      "braking": "Brake at end of concrete section before grass, 65%",
+      "gear": "Drop to first, trail brake",
+      "line": "Turn left, attack left side of corner",
+      "exit": "Get back on gas at apex, exit wide at 100%"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three-four chicane",
+      "start_time": "2:35",
+      "sequence": 1,
+      "braking": "Brake 70-75% at one marker from two marker",
+      "gear": "Drop to second",
+      "line": "Get car turned in, attack curve"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "this first apex",
+      "start_time": "3:53",
+      "sequence": 2,
+      "gear": "3rd",
+      "line": "Left tires on track, right tires attacking curve",
+      "exit": "Flat, left tires touching grass, attack last part to avoid right wall",
+      "mistakes": "End up in right-hand wall"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn 6-7 chicane",
+      "start_time": "3:53",
+      "sequence": 2,
+      "braking": "End of white wall section, 90-95% braking, trail off",
+      "gear": "3rd",
+      "line": "Attack left-hand side",
+      "exit": "100% throttle, slight understeer, lift and get back on gas",
+      "mistakes": "Brake slightly early to take second corner flat out"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn 8-9 chicane",
+      "start_time": "5:10",
+      "sequence": 3,
+      "braking": "two marker on left, 80-85% to second gear",
+      "gear": "second",
+      "line": "avoid no-cut curve, left tires left of no-cut curve",
+      "exit": "flat out"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 10 hairpin",
+      "start_time": "5:10",
+      "sequence": 3,
+      "label_guess": "T9",
+      "braking": "two marker on left, 90-100% to first gear",
+      "gear": "first",
+      "exit": "trail brake, 75% throttle"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "turn 13 and 14",
+      "start_time": "6:30",
+      "sequence": 4,
+      "braking": "brake at two marker, 100%",
+      "line": "trail off to first curb",
+      "exit": "get back on gas, 100%",
+      "mistakes": "lift to avoid wall of champions"
+    }
+  ],
+  "general_tips": [
+    "Quarter tank of fuel left, could go faster with more fuel.",
+    "Could gain time in final chicane and turns six, seven with better commitment."
+  ],
+  "dropped_ungrounded": 1
+}

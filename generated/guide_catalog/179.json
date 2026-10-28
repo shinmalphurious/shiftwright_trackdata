@@ -1,25 +1,144 @@
 {
   "track_id": 179,
   "layout": "179-longbeach",
+  "name": "Long Beach Street Circuit",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:21:37.716075+00:00",
+  "candidates_seen": 21,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 21,
+    "new_candidates": 11,
+    "accepted": 20,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 1,
+    "rejection_reasons": {
+      "duplicate title": 1
+    }
+  },
   "selected_guides": {
     "ff1600": [
       {
         "video_id": "my8R7IrqitM",
         "title": "Indy NXT Road Series Track Guide Long Beach",
-        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around Long Beach in the FF1600, FIA F4 and\u00a0...",
+        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around Long Beach in the FF1600, FIA F4 and ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "ff1600",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
-    "legends": [
+    "bmw_m2": [
       {
-        "video_id": "TEvRorkiYkw",
-        "title": "IndyCar - My Long Beach Track Guide",
-        "description": "My last 2021 IndyCar race is coming this weekend! So follow me on the sim around the legendary Californian track! See you this\u00a0...",
+        "video_id": "akdVrxnmeqE",
+        "title": "iRacing BMW M2 Racing Long Beach Guide 1:31.4 BMW G87 Long Beach Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 425,
         "video_type": "lap_walkthrough",
-        "car": "legends",
-        "quality_score": 120
+        "car": "bmw_m2",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "mx5": [
+      {
+        "video_id": "veIK43WEQec",
+        "title": "iRacing MX5 Long Beach Guide 1:33.3 Mazda MX5 Long Beach Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 559,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "_m_PCNEC1bs",
+        "title": "Track Guide Long Beach Street Circuit Toyota GR86 iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Long Beach Street Circuit in the Toyota GR86. It s a really good ...",
+        "channel": "Erilla",
+        "duration": 462,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "GR81VCwQdoo",
+        "title": "HOW TO DO LONG BEACH IN iRacing | GT3 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Long Beach in iRacing GT3. Perfect for improving your lap times ...",
+        "channel": "HYMO Academy",
+        "duration": 161,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "rVI4lpt_p-Q",
+        "title": "HOW TO DO LONG BEACH IN iRacing | Porsche Cup Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Long Beach in iRacing Porsche Cup. Perfect for improving your lap ...",
+        "channel": "HYMO Academy",
+        "duration": 170,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "mPNjRGuhqWc",
+        "title": "iRacing Mustang GT3 Long Beach Guide 1:17.5 Ford Mustang GT3 Long Beach Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 423,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "tr_7aapUIhg",
+        "title": "iRacing Porsche GT3 Long Beach Guide 1:17.6 Porsche 992 R GT3 Long Beach Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 442,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "bXinJmgulNU",
+        "title": "iRacing Mercedes GT3 Long Beach Guide 1:17.5 Mercedes AMG GT3 Long Beach Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 375,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "pMUAr2Gl_08",
+        "title": "iRacing BMW GT3 Long Beach Guide 1:17.5 BMW M4 GT3 Long Beach Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 432,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

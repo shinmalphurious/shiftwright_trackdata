@@ -1,0 +1,407 @@
+{
+  "videos_processed": 146,
+  "notes": 1606,
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02,
+    "alias_requires_spoken_reference": true,
+    "method_confidence": {
+      "explicit": 1.0,
+      "alias_match": 0.9,
+      "telemetry_match": 0.95,
+      "sequence_match": 0.903,
+      "lap_position": 0.431
+    }
+  },
+  "calibration": {
+    "sequence_match": {
+      "configured": 0.93,
+      "measured_accuracy": 0.903,
+      "placed": 101,
+      "correct": 92,
+      "used": 0.903
+    },
+    "lap_position": {
+      "configured": 0.9,
+      "measured_accuracy": 0.431,
+      "placed": 114,
+      "correct": 49,
+      "used": 0.431
+    },
+    "alias_match": {
+      "configured": 0.98,
+      "measured_accuracy": 0.9,
+      "placed": 8,
+      "correct": 8,
+      "used": 0.9
+    }
+  },
+  "before": {
+    "assigned": 814,
+    "unassigned": 792,
+    "coverage_pct": 50.7
+  },
+  "after": {
+    "assigned": 833,
+    "unassigned": 773,
+    "coverage_pct": 51.9
+  },
+  "recovered": 19,
+  "recovered_pct_of_unassigned": 2.4,
+  "by_method": {
+    "explicit": 814,
+    "alias_match": 7,
+    "telemetry_match": 1,
+    "sequence_match": 11,
+    "lap_position": 0,
+    "unassigned": 773
+  },
+  "by_pass": [
+    {
+      "pass": 1,
+      "placed": 19,
+      "assigned_total": 833,
+      "coverage_pct": 51.9
+    }
+  ],
+  "confidence_distribution": {
+    "0.95-1.00": 1,
+    "0.90-0.95": 18
+  },
+  "provenance_issues": {
+    "multi_field_spread": 227,
+    "spelling_variant": 72,
+    "summarised_across_passage": 15,
+    "context_window": 2
+  },
+  "by_track": {
+    "101 Bristol Motor Speedway - Dual Pit Roads": {
+      "unassigned": 5,
+      "explicit": 4
+    },
+    "103 Las Vegas Motor Speedway - Oval": {
+      "explicit": 17,
+      "unassigned": 13
+    },
+    "105 [Legacy] Phoenix Raceway - 2008 - Road Course": {
+      "unassigned": 3,
+      "explicit": 6
+    },
+    "110 Las Vegas Motor Speedway - Legends Oval": {
+      "explicit": 9,
+      "unassigned": 2
+    },
+    "115 Darlington Raceway": {
+      "explicit": 16,
+      "unassigned": 6
+    },
+    "118 [Legacy] Texas Motor Speedway - 2009 - Road Course Short A": {
+      "explicit": 4,
+      "unassigned": 5
+    },
+    "123 Chicagoland Speedway": {
+      "unassigned": 23,
+      "explicit": 17
+    },
+    "127 Road Atlanta - Full Course": {
+      "explicit": 15,
+      "unassigned": 8
+    },
+    "128 Road Atlanta - Short": {
+      "explicit": 14,
+      "unassigned": 5
+    },
+    "129 New Hampshire Motor Speedway - Road Course": {
+      "explicit": 10,
+      "unassigned": 43
+    },
+    "131 New Hampshire Motor Speedway - Oval": {
+      "explicit": 2,
+      "unassigned": 1
+    },
+    "142 Summit Point Raceway - Jefferson Reverse": {
+      "explicit": 9,
+      "unassigned": 12
+    },
+    "145 Brands Hatch Circuit - Grand Prix": {
+      "alias_match": 1,
+      "unassigned": 47,
+      "explicit": 10,
+      "sequence_match": 1
+    },
+    "15 Concord Speedway": {
+      "explicit": 10,
+      "sequence_match": 1,
+      "unassigned": 2
+    },
+    "152 Phillip Island Circuit": {
+      "explicit": 19,
+      "unassigned": 7
+    },
+    "153 Mid-Ohio Sports Car Course - Full Course": {
+      "unassigned": 37
+    },
+    "154 Mid-Ohio Sports Car Course - Chicane": {
+      "explicit": 5,
+      "unassigned": 3
+    },
+    "155 Mid-Ohio Sports Car Course - Short": {
+      "explicit": 2,
+      "unassigned": 2
+    },
+    "156 Mid-Ohio Sports Car Course - Oval": {
+      "explicit": 4,
+      "unassigned": 9
+    },
+    "159 Summit Point Raceway - School": {
+      "explicit": 3,
+      "sequence_match": 1,
+      "unassigned": 2
+    },
+    "161 Thompson Speedway Motorsports Park": {
+      "explicit": 2,
+      "unassigned": 1
+    },
+    "162 Dover Motor Speedway": {
+      "explicit": 5,
+      "unassigned": 4
+    },
+    "166 Okayama International Circuit - Full Course": {
+      "unassigned": 9,
+      "explicit": 36,
+      "sequence_match": 1
+    },
+    "167 Okayama International Circuit - Short": {
+      "unassigned": 26,
+      "explicit": 14
+    },
+    "168 Suzuka International Racing Course - Grand Prix": {
+      "unassigned": 7,
+      "explicit": 4
+    },
+    "173 Suzuka International Racing Course - Moto": {
+      "explicit": 15,
+      "unassigned": 26
+    },
+    "175 Suzuka International Racing Course - West": {
+      "unassigned": 10,
+      "explicit": 4
+    },
+    "179 Long Beach Street Circuit": {
+      "explicit": 17,
+      "unassigned": 11,
+      "sequence_match": 1
+    },
+    "18 Road America - Full Course": {
+      "unassigned": 21,
+      "explicit": 15
+    },
+    "180 Oulton Park Circuit - International": {
+      "explicit": 35,
+      "sequence_match": 1,
+      "unassigned": 64,
+      "alias_match": 1
+    },
+    "181 Oulton Park Circuit - Fosters": {
+      "unassigned": 24,
+      "explicit": 17
+    },
+    "182 Oulton Park Circuit - Island": {
+      "explicit": 8,
+      "unassigned": 5
+    },
+    "184 Oulton Park Circuit - Intl w/out Brittens": {
+      "explicit": 9
+    },
+    "185 Oulton Park Circuit - Intl w/no Chicanes": {
+      "explicit": 27,
+      "unassigned": 8
+    },
+    "186 Oulton Park Circuit - Fosters w/Hislop": {
+      "explicit": 8,
+      "unassigned": 2
+    },
+    "187 Oulton Park Circuit - Island Historic": {
+      "explicit": 7,
+      "unassigned": 3
+    },
+    "190 New Smyrna Speedway": {
+      "explicit": 2
+    },
+    "192 Daytona International Speedway - Road Course": {
+      "explicit": 7
+    },
+    "194 Daytona International Speedway - Short": {
+      "explicit": 2,
+      "unassigned": 7
+    },
+    "195 Mobility Resort Motegi - Grand Prix": {
+      "unassigned": 12,
+      "explicit": 22
+    },
+    "197 Mobility Resort Motegi - West": {
+      "unassigned": 10,
+      "alias_match": 1,
+      "explicit": 2
+    },
+    "198 Mobility Resort Motegi - Oval": {
+      "explicit": 6
+    },
+    "199 Circuit Zolder - Grand Prix": {
+      "explicit": 20,
+      "unassigned": 7
+    },
+    "20 Homestead Miami Speedway - Oval": {
+      "explicit": 3
+    },
+    "200 Circuit Zolder - Alternate": {
+      "unassigned": 12,
+      "explicit": 14
+    },
+    "202 Oran Park Raceway - Grand Prix": {
+      "explicit": 12,
+      "unassigned": 18
+    },
+    "207 Oran Park Raceway - North": {
+      "explicit": 5,
+      "unassigned": 10,
+      "alias_match": 1
+    },
+    "208 Oran Park Raceway - South": {
+      "explicit": 24,
+      "unassigned": 7
+    },
+    "211 Oran Park Raceway - Moto": {
+      "explicit": 6,
+      "unassigned": 4
+    },
+    "212 Autódromo José Carlos Pace - Grand Prix": {
+      "explicit": 16,
+      "unassigned": 9,
+      "sequence_match": 1
+    },
+    "213 Autódromo José Carlos Pace - Moto": {
+      "explicit": 11,
+      "unassigned": 1
+    },
+    "218 Circuit Gilles Villeneuve": {
+      "explicit": 27,
+      "unassigned": 17
+    },
+    "220 New Jersey Motorsports Park - Thunderbolt": {
+      "unassigned": 1,
+      "explicit": 4
+    },
+    "225 Auto Club Speedway - Oval": {
+      "unassigned": 5,
+      "explicit": 7
+    },
+    "229 Circuit of the Americas - Grand Prix": {
+      "explicit": 14,
+      "unassigned": 14
+    },
+    "230 Circuit of the Americas - East": {
+      "unassigned": 20,
+      "explicit": 5
+    },
+    "231 Circuit of the Americas - West": {
+      "explicit": 22,
+      "unassigned": 22
+    },
+    "233 Donington Park Racing Circuit - Grand Prix": {
+      "explicit": 9,
+      "unassigned": 5
+    },
+    "238 World Wide Technology Raceway (Gateway) - Road Course": {
+      "unassigned": 5,
+      "explicit": 6
+    },
+    "24 Summit Point Raceway - Short": {
+      "explicit": 5
+    },
+    "448 Indianapolis Motor Speedway - Road Course": {
+      "unassigned": 11,
+      "explicit": 14
+    },
+    "47 WeatherTech Raceway at Laguna Seca - Full Course": {
+      "explicit": 12,
+      "unassigned": 7
+    },
+    "485 Circuit Zandvoort - Grand Prix": {
+      "unassigned": 34,
+      "explicit": 28,
+      "alias_match": 2,
+      "sequence_match": 1
+    },
+    "50 Road America - Bend": {
+      "explicit": 12,
+      "unassigned": 2
+    },
+    "523 Circuit de Spa-Francorchamps - Grand Prix Pits": {
+      "telemetry_match": 1,
+      "explicit": 14,
+      "unassigned": 7
+    },
+    "525 Circuit de Spa-Francorchamps - Endurance": {
+      "unassigned": 4,
+      "explicit": 7,
+      "alias_match": 1
+    },
+    "559 Iowa Speedway - Oval": {
+      "explicit": 12,
+      "unassigned": 9
+    },
+    "8 Summit Point Raceway - Jefferson Circuit": {
+      "explicit": 17,
+      "unassigned": 18
+    },
+    "9 Summit Point Raceway - Summit Point Raceway": {
+      "explicit": 34,
+      "unassigned": 33,
+      "sequence_match": 3
+    },
+    "95 Sebring International Raceway - International": {
+      "unassigned": 6,
+      "explicit": 14
+    }
+  },
+  "turn_markers_dropped": {
+    "485": [
+      [
+        "T1",
+        0.7344
+      ],
+      [
+        "T1",
+        0.7197
+      ]
+    ],
+    "18": [
+      [
+        "T1",
+        0.7109
+      ]
+    ],
+    "231": [
+      [
+        "T1",
+        0.5195
+      ],
+      [
+        "T1",
+        0.5205
+      ]
+    ],
+    "229": [
+      [
+        "T1",
+        0.4023
+      ],
+      [
+        "T1",
+        0.4326
+      ]
+    ]
+  }
+}

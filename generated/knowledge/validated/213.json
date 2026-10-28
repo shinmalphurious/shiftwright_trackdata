@@ -1,0 +1,242 @@
+{
+  "track_id": 213,
+  "track": "Autódromo José Carlos Pace - Moto",
+  "records": {
+    "213:T1:heavy_braking": {
+      "id": "213:T1:heavy_braking",
+      "track_id": 213,
+      "track": "Autódromo José Carlos Pace - Moto",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically the first corner after a long straight requires heavy braking.",
+          "at": "2026-10-28T09:30:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:16:37+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "7OgeevoR7Js",
+              "result": "confirm",
+              "time": "0:35",
+              "note": "braking: use end of wall on right as braking marker, brake to 95% pressure, ease off to first curb; line: cut curb quite a lot, full throttle on curb; mistakes: don't take too much curb as it is raised",
+              "transcript_snippet": "Throttle again don't take too much of the curb as it is raised so it will unsettle the car quite a lot then cut",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=7OgeevoR7Js"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Autódromo José Carlos Pace - Grand Prix",
+            "source_track_id": 212,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "213:T6:fast_corner": {
+      "id": "213:T6:fast_corner",
+      "track_id": 213,
+      "track": "Autódromo José Carlos Pace - Moto",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Sixth corner is often a fast corner leading into a long straight.",
+          "at": "2026-10-28T09:30:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:16:37+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Autódromo José Carlos Pace - Grand Prix",
+            "source_track_id": 212,
+            "corner": "T6",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T6: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "213:T10:fast_corner": {
+      "id": "213:T10:fast_corner",
+      "track_id": 213,
+      "track": "Autódromo José Carlos Pace - Moto",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Tenth corner is often a fast corner leading into a long straight.",
+          "at": "2026-10-28T09:30:10+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:16:37+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Autódromo José Carlos Pace - Grand Prix",
+            "source_track_id": 212,
+            "corner": "T10",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T10: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "213:T2:heavy_braking": {
+      "id": "213:T2:heavy_braking",
+      "track_id": 213,
+      "track": "Autódromo José Carlos Pace - Moto",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.964
+      },
+      "source_track": "Autódromo José Carlos Pace - Grand Prix",
+      "source_track_id": 212,
+      "source_corner": "T2",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "212:T2:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T2: inherited from Autódromo José Carlos Pace - Grand Prix T2 (same corner, same approach, inheritance 1.00); Heavy braking zone at T2: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

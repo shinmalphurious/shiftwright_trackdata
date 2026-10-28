@@ -1,0 +1,95 @@
+{
+  "track_id": 485,
+  "track": "Circuit Zandvoort - Grand Prix",
+  "records": {
+    "485:T1:heavy_braking": {
+      "id": "485:T1:heavy_braking",
+      "track_id": 485,
+      "track": "Circuit Zandvoort - Grand Prix",
+      "corner": "T1",
+      "corner_name": "Tarzanbocht",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "830 m from the previous corner",
+          "at": "2026-10-28T10:00:34+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to previous corner, likely high speed entry.",
+          "at": "2026-10-28T10:00:34+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-27T19:25:30+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.971,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:40+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.971
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "hvAgZVxo-MM",
+              "result": "confirm",
+              "time": "2:47",
+              "note": "braking: 100 board, 85-90% to apex; gear: 2",
+              "transcript_snippet": "is going to be this 100 board and we are going to get on the brakes, you can see it's still just in front of me, just",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=hvAgZVxo-MM"
+            },
+            {
+              "video_id": "vpzxUjVOlr8",
+              "result": "confirm",
+              "time": "2:28",
+              "note": "braking: lamp post on left, 60%; gear: down to second; line: late apex; exit: 100% exiting wide, back left, front tires alongside yellow ADAC",
+              "transcript_snippet": "background. Up to 100% exiting wide. Going to get back over to the left hand side. Left hand tires on this curb.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=vpzxUjVOlr8"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 2 video(s) confirm, 0 contradict; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

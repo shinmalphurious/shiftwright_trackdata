@@ -1,0 +1,383 @@
+{
+  "video_id": "rmUi70Lbwxk",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing GR86 Oulton Park International Guide 1:48.4 Fixed Toyota GR86 Oulton Park Int Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "break into about 40% trailing off",
+      "gear": "drop down to third",
+      "line": "cut the corner back on the gas exit wide",
+      "exit": "keep the right hand tires on the track",
+      "note_id": "rmUi70Lbwxk:0",
+      "text": "braking: break into about 40% trailing off; gear: drop down to third; line: cut the corner back on the gas exit wide; exit: keep the right hand tires on the track",
+      "spoken_as": "start finish line",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.72,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:49",
+      "snippet": "exit wide going to keep the right hand tires on the track these days. Going to head over to the right hand side we're",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.306,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T5",
+        "estimated_pct": 0.0442,
+        "corner_pct": 0.0654,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T5",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "braking": "on the brakes to about 55%",
+      "gear": "drop it down to third",
+      "exit": "back on the gas",
+      "mistakes": "left hand tires would have been over that rumble strip",
+      "note_id": "rmUi70Lbwxk:1",
+      "text": "braking: on the brakes to about 55%; gear: drop it down to third; exit: back on the gas; mistakes: left hand tires would have been over that rumble strip",
+      "spoken_as": "little dip in the road",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:02",
+      "snippet": "left hand tires would have been over that rumble strip but I did just miss them and it didn't cost me too much in",
+      "best_candidate": {
+        "corner_id": "T2",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T5",
+        "estimated_pct": 0.1163,
+        "corner_pct": 0.1387,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T5",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "braking": "lift down to about 55%",
+      "line": "turn in",
+      "exit": "back on the gas soon as we can straighten our wheel",
+      "note_id": "rmUi70Lbwxk:2",
+      "text": "braking: lift down to about 55%; line: turn in; exit: back on the gas soon as we can straighten our wheel",
+      "spoken_as": "little entrance road",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.89,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:13",
+      "snippet": "55% and then back on the gas soon as we can straighten our wheel we are on the brakes to about 8% down to second gear.",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.331,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T5",
+        "estimated_pct": 0.1832,
+        "corner_pct": 0.1748,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T5",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "braking": "brakes to about 8% down to second gear",
+      "gear": "second",
+      "line": "get nice and tight to that set of walls",
+      "exit": "back on the gas lightly on the brakes back on the gas in second give yourself room on the left hand side little lift back on the gas and then change it to third as we exit",
+      "mistakes": "don't over brake",
+      "note_id": "rmUi70Lbwxk:3",
+      "text": "braking: brakes to about 8% down to second gear; gear: second; line: get nice and tight to that set of walls; exit: back on the gas lightly on the brakes back on the gas in second give yourself room on the left hand side little lift back on the gas and then change it to third as we exit; mistakes: don't over brake",
+      "spoken_as": "Shell Oils corner turn five",
+      "passage_time": "1:17",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:49",
+      "snippet": "second give yourself room on the left hand side little lift back on the gas and then change it to third as we exit.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes to about 45% down to third gear",
+      "gear": "third",
+      "line": "try and get your right-hand tires over that rumble strip",
+      "exit": "exit wide",
+      "mistakes": "don't over brake",
+      "note_id": "rmUi70Lbwxk:4",
+      "text": "braking: brakes to about 45% down to third gear; gear: third; line: try and get your right-hand tires over that rumble strip; exit: exit wide; mistakes: don't over brake",
+      "spoken_as": "turn 15",
+      "passage_time": "1:17",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:21",
+      "snippet": "tires over that rumble strip. Exit wide. And then we go up the hill keeping it nice and tight over to the left-hand",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "really quite hard",
+      "gear": "second",
+      "exit": "exit wide",
+      "note_id": "rmUi70Lbwxk:5",
+      "text": "braking: really quite hard; gear: second; exit: exit wide",
+      "spoken_as": "this last big tree",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:19",
+      "snippet": "brakes really quite hard. Drop it down to second. Try and get your right-hand tires over that rumble strip. Exit wide.",
+      "best_candidate": {
+        "corner_id": "T14",
+        "confidence": 0.343,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "T15",
+        "estimated_pct": 0.7658,
+        "corner_pct": 0.7568,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "T15",
+        "corners_between": [
+          "T6",
+          "T7",
+          "T8",
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    },
+    {
+      "braking": "brake up to 45%, trailing off",
+      "gear": "drop to 3rd",
+      "line": "cut the corner without hitting the hilly bit",
+      "exit": "exit wide, can touch grass on off track",
+      "note_id": "rmUi70Lbwxk:6",
+      "text": "braking: brake up to 45%, trailing off; gear: drop to 3rd; line: cut the corner without hitting the hilly bit; exit: exit wide, can touch grass on off track",
+      "spoken_as": "this turn",
+      "passage_time": "2:35",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "gear": 0.67,
+          "line": 1.0
+        }
+      },
+      "time": "2:59",
+      "snippet": "brake up to a maximum of about 45% and going to start trailing off. Drop it down to third and then back on the gas"
+    },
+    {
+      "braking": "brake in a straight line towards the outside of turn five",
+      "gear": "2",
+      "line": "start picking on the gas where I am now",
+      "note_id": "rmUi70Lbwxk:7",
+      "text": "braking: brake in a straight line towards the outside of turn five; gear: 2; line: start picking on the gas where I am now",
+      "spoken_as": "turn five",
+      "passage_time": "3:54",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:15",
+      "snippet": "line towards the outside of turn five. I'm going to trail off down to second gear and then you want to start picking",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "get on the brakes at the apex, roll on to about 75%",
+      "line": "start my turn in at the furthest left part of that white line",
+      "exit": "back on the gas once I'm right alongside this tire wall",
+      "mistakes": "to go fast around here, you do have to get nice and tight",
+      "note_id": "rmUi70Lbwxk:8",
+      "text": "braking: get on the brakes at the apex, roll on to about 75%; line: start my turn in at the furthest left part of that white line; exit: back on the gas once I'm right alongside this tire wall; mistakes: to go fast around here, you do have to get nice and tight",
+      "spoken_as": "Britain chicane",
+      "passage_time": "3:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:51",
+      "snippet": "I'm right alongside this tire wall. I did have a quick look on the chase camera and it is very, very tight. Um"
+    },
+    {
+      "braking": "Midway between 100 and 50, full brake, trail off at apex",
+      "line": "Turn left to give room for Knickerbrook",
+      "exit": "Back on gas at apex",
+      "note_id": "rmUi70Lbwxk:9",
+      "text": "braking: Midway between 100 and 50, full brake, trail off at apex; line: Turn left to give room for Knickerbrook; exit: Back on gas at apex",
+      "spoken_as": "Hislop's",
+      "passage_time": "5:12",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:12",
+      "snippet": "So, midway between this 100 and the 50, you can see we get on the brakes. I give it full blurt and then I start getting"
+    },
+    {
+      "braking": "At green hatched part, 45% trail off",
+      "gear": "3rd",
+      "exit": "Keep car from understeering too far out",
+      "note_id": "rmUi70Lbwxk:10",
+      "text": "braking: At green hatched part, 45% trail off; gear: 3rd; exit: Keep car from understeering too far out",
+      "spoken_as": "Druids",
+      "passage_time": "5:12",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:11",
+      "snippet": "understeering too far out. Final bit of braking for turn 16, and we're going to go halfway between this"
+    },
+    {
+      "braking": "Halfway between right side and marshal's hut (22)",
+      "note_id": "rmUi70Lbwxk:11",
+      "text": "braking: Halfway between right side and marshal's hut (22)",
+      "spoken_as": "final bit of braking",
+      "passage_time": "5:12",
+      "corner_id": "T16",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:18",
+      "snippet": "turn right side and the uh marshal's hut just coming up ahead there with the number 22 on it. So, you can see this is",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Second gear",
+      "line": "Get right-hand tires over the rumble strip onto the grassy bit",
+      "exit": "Up to 100% exit wide",
+      "note_id": "rmUi70Lbwxk:12",
+      "text": "gear: Second gear; line: Get right-hand tires over the rumble strip onto the grassy bit; exit: Up to 100% exit wide",
+      "spoken_as": "next corner",
+      "passage_time": "6:30",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:30",
+      "snippet": "and then trail it off down second gear. We want to get our right-hand tires over the rumble strip onto the grassy bit."
+    }
+  ]
+}

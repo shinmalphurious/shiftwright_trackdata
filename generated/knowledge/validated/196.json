@@ -1,0 +1,107 @@
+{
+  "track_id": 196,
+  "track": "Mobility Resort Motegi - East",
+  "records": {
+    "196:T7:fast_corner": {
+      "id": "196:T7:fast_corner",
+      "track_id": 196,
+      "track": "Mobility Resort Motegi - East",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:27:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:01+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.903,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:13:45+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.903
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Mobility Resort Motegi - Grand Prix",
+            "source_track_id": 195,
+            "corner": "T6",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T7: research 0.70 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "196:T6:heavy_braking": {
+      "id": "196:T6:heavy_braking",
+      "track_id": 196,
+      "track": "Mobility Resort Motegi - East",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.931
+      },
+      "source_track": "Mobility Resort Motegi - Grand Prix",
+      "source_track_id": 195,
+      "source_corner": "T5",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "195:T5:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T6: inherited from Mobility Resort Motegi - Grand Prix T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.60 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.93 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

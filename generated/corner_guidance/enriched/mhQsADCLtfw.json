@@ -1,0 +1,323 @@
+{
+  "video_id": "mhQsADCLtfw",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing BMW M2 Racing Oulton Park International Guide 1:50.0 BMW Racing G87 Oulton Park Track Guide",
+  "car": null,
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake to 45%, trail off, back on to 100% in fourth gear before apex.",
+      "gear": "Fourth",
+      "line": "Wide exit without ending up in the grass.",
+      "note_id": "mhQsADCLtfw:0",
+      "text": "braking: Brake to 45%, trail off, back on to 100% in fourth gear before apex.; gear: Fourth; line: Wide exit without ending up in the grass.",
+      "spoken_as": "Old Hall Corner",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:46",
+      "snippet": "100% before the apex. Exit wide without ending up in the grass, and you won't get an off-track.",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.2085,
+        "corner_pct": 0.1748,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "Briefly brake to 45-50%, down to fourth gear.",
+      "gear": "Fourth",
+      "exit": "Back on the gas to 100% before apex, exit wide.",
+      "note_id": "mhQsADCLtfw:1",
+      "text": "braking: Briefly brake to 45-50%, down to fourth gear.; gear: Fourth; exit: Back on the gas to 100% before apex, exit wide.",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.93,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:45",
+      "snippet": "Down to fourth gear, back on the gas to 100% before the apex. Exit wide without ending up in the grass, and you won't",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.225,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.1921,
+        "corner_pct": 0.1748,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "Trail off to almost nothing, then increase to 100% on the gas.",
+      "mistakes": "Braking too hard causes understeer.",
+      "note_id": "mhQsADCLtfw:2",
+      "text": "braking: Trail off to almost nothing, then increase to 100% on the gas.; mistakes: Braking too hard causes understeer.",
+      "spoken_as": "Turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:57",
+      "snippet": "cones, we're going to trail off almost down to nothing. And now I'm holding it about 30% before increasing it to 100%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking to about 55%",
+      "gear": "down to third",
+      "line": "head slowly over to the right-hand side",
+      "note_id": "mhQsADCLtfw:3",
+      "text": "braking: braking to about 55%; gear: down to third; line: head slowly over to the right-hand side",
+      "spoken_as": "first chicane",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.9,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:21",
+      "snippet": "left-hand side there. Head slowly over to the right-hand side. We're going to brake at the 100 marker. That's the 200."
+    },
+    {
+      "braking": "braking as hard as I brake in the entire track guide",
+      "gear": "down to third",
+      "line": "head over to the left-hand side",
+      "note_id": "mhQsADCLtfw:4",
+      "text": "braking: braking as hard as I brake in the entire track guide; gear: down to third; line: head over to the left-hand side",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:21",
+      "snippet": "left-hand side there. Head slowly over to the right-hand side. We're going to brake at the 100 marker. That's the 200."
+    },
+    {
+      "braking": "on the brakes to about 35-40%",
+      "gear": "down to fourth",
+      "line": "trail it off, right hand tires just kissing that apex",
+      "exit": "exiting wide",
+      "note_id": "mhQsADCLtfw:5",
+      "text": "braking: on the brakes to about 35-40%; gear: down to fourth; line: trail it off, right hand tires just kissing that apex; exit: exiting wide",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:53",
+      "snippet": "brakes to about 35-40%. Trail it off, down to fourth, back on the gas, right hand tires just kissing that apex and"
+    },
+    {
+      "braking": "only to about 60%",
+      "gear": "down to third",
+      "exit": "back on the gas",
+      "mistakes": "never want to be braking harder than 60-65%",
+      "note_id": "mhQsADCLtfw:6",
+      "text": "braking: only to about 60%; gear: down to third; exit: back on the gas; mistakes: never want to be braking harder than 60-65%",
+      "spoken_as": "final bit of braking",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:08",
+      "snippet": "third, back on the gas. You never want to be braking harder than sort of 60-65% in this car. Doesn't matter what the"
+    },
+    {
+      "braking": "Brakes now, 45%, trail to 4th gear",
+      "gear": "4th",
+      "line": "Turn-in at gap between rumble strip and grassy hillock, apex at 100%",
+      "exit": "Exit wide",
+      "note_id": "mhQsADCLtfw:7",
+      "text": "braking: Brakes now, 45%, trail to 4th gear; gear: 4th; line: Turn-in at gap between rumble strip and grassy hillock, apex at 100%; exit: Exit wide",
+      "spoken_as": "the breakdown lap",
+      "passage_time": "2:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:49",
+      "snippet": "little gap between the rumble strip and the grassy hillock, I'm already back up to 100%. Now, if you get that right,"
+    },
+    {
+      "braking": "Brakes up to 45-50%, drop to 4th gear, up to 80-85% at exit",
+      "gear": "4th",
+      "line": "Turn-in at dip, apex at 100%",
+      "exit": "Exit wide",
+      "note_id": "mhQsADCLtfw:8",
+      "text": "braking: Brakes up to 45-50%, drop to 4th gear, up to 80-85% at exit; gear: 4th; line: Turn-in at dip, apex at 100%; exit: Exit wide",
+      "spoken_as": "turn three",
+      "passage_time": "2:34",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.33,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.87
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Instant lift to 4%, pick up gas at apex",
+      "line": "Turn-in at cones, apex at 4%",
+      "note_id": "mhQsADCLtfw:9",
+      "text": "braking: Instant lift to 4%, pick up gas at apex; line: Turn-in at cones, apex at 4%",
+      "spoken_as": "turn four",
+      "passage_time": "2:34",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:45",
+      "snippet": "these cones and we're doing an instant lift down to almost nothing. So, I'll go down to sort of 4% and then I start",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake early to 55%, trail off to 3rd gear.",
+      "gear": "3rd",
+      "line": "Turn in early, apex next to tire barrier.",
+      "exit": "Get up to 100%, stay within track limits.",
+      "note_id": "mhQsADCLtfw:10",
+      "text": "braking: Brake early to 55%, trail off to 3rd gear.; gear: 3rd; line: Turn in early, apex next to tire barrier.; exit: Get up to 100%, stay within track limits.",
+      "spoken_as": "Shell Oils Corner",
+      "passage_time": "3:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:43",
+      "snippet": "on the gas at the apex next to this tire barrier, which you want to get nice and close to."
+    },
+    {
+      "braking": "brake to 35-40%, trail off, pick up gas after first curbs",
+      "line": "turn in after left curbing, apex on second curbs",
+      "exit": "back to 100% by second curb, right tires over edge",
+      "note_id": "mhQsADCLtfw:11",
+      "text": "braking: brake to 35-40%, trail off, pick up gas after first curbs; line: turn in after left curbing, apex on second curbs; exit: back to 100% by second curb, right tires over edge",
+      "spoken_as": "turn 15",
+      "passage_time": "5:13",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:10",
+      "snippet": "the gas just after that first set of curbs. Back up to 100% by the time we hit the second curb, and we want to just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "3",
+      "line": "Right-hand tires over the edge of this rumble strip",
+      "exit": "Hold at around 70% until we unwind on exit",
+      "note_id": "mhQsADCLtfw:12",
+      "text": "gear: 3; line: Right-hand tires over the edge of this rumble strip; exit: Hold at around 70% until we unwind on exit",
+      "spoken_as": "Lodge Corner",
+      "passage_time": "6:32",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:36",
+      "snippet": "gear, get our right-hand tires right over the edge of this rumble strip, and we're going to hold it at around 70%"
+    }
+  ]
+}

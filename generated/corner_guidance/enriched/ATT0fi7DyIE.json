@@ -1,0 +1,512 @@
+{
+  "video_id": "ATT0fi7DyIE",
+  "track_id": 129,
+  "track_name": "New Hampshire Motor Speedway - Road Course",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at New Hampshire",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Early downshift to utilize engine braking",
+      "gear": "Third to fourth",
+      "line": "Put left front on the seam",
+      "exit": "Maintain speed off the corner",
+      "mistakes": "Overdrive entry, front end goes numb",
+      "note_id": "ATT0fi7DyIE:0",
+      "text": "braking: Early downshift to utilize engine braking; gear: Third to fourth; line: Put left front on the seam; exit: Maintain speed off the corner; mistakes: Overdrive entry, front end goes numb",
+      "spoken_as": "first seam",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:38",
+      "snippet": "Early downshift to utilize that engine braking to ensure you're bleeding off enough speed before corner entry."
+    },
+    {
+      "line": "turn-in to first seam, apex in center, exit on seam",
+      "exit": "throttle early, plateau, back off slightly past center, pick up on exit",
+      "mistakes": "shoving off the seam, snapping rear loose",
+      "note_id": "ATT0fi7DyIE:1",
+      "text": "line: turn-in to first seam, apex in center, exit on seam; exit: throttle early, plateau, back off slightly past center, pick up on exit; mistakes: shoving off the seam, snapping rear loose",
+      "spoken_as": "the corner",
+      "passage_time": "2:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "mistakes": 0.6
+        }
+      },
+      "time": "2:46",
+      "snippet": "snap the rear loose on exit. And it's it's it's almost like the Darlington technique that we have in one and two,"
+    },
+    {
+      "braking": "Brake later, lower on track, to carry more speed.",
+      "line": "Turn in lower, aim for center roll, use good front turn.",
+      "mistakes": "Avoid hitting the flatter part of the track early.",
+      "note_id": "ATT0fi7DyIE:2",
+      "text": "braking: Brake later, lower on track, to carry more speed.; line: Turn in lower, aim for center roll, use good front turn.; mistakes: Avoid hitting the flatter part of the track early.",
+      "spoken_as": "three",
+      "passage_time": "3:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.62
+        }
+      },
+      "time": "5:04",
+      "snippet": "keep center roll with some good front turn. So I get past lap 10 and then I'll start"
+    },
+    {
+      "line": "cut down to the second groove off the corner",
+      "exit": "use the power on exit",
+      "mistakes": "avoid the bottom",
+      "note_id": "ATT0fi7DyIE:3",
+      "text": "line: cut down to the second groove off the corner; exit: use the power on exit; mistakes: avoid the bottom",
+      "spoken_as": "next braking marker",
+      "passage_time": "6:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:46",
+      "snippet": "then cut down to the second off the corner. You would completely avoid that bottom. And as you can see right there,"
+    },
+    {
+      "gear": "overdrive entry",
+      "line": "use the apron on entry, slide up to the first groove in the center",
+      "exit": "exit in the preferred first groove",
+      "note_id": "ATT0fi7DyIE:4",
+      "text": "gear: overdrive entry; line: use the apron on entry, slide up to the first groove in the center; exit: exit in the preferred first groove",
+      "spoken_as": "three",
+      "passage_time": "6:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.91,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:40",
+      "snippet": "overdrive entry on the apron. Slide up to the preferred first groove in the center and then exit."
+    },
+    {
+      "braking": "slow center",
+      "line": "cut back down across",
+      "exit": "launch up off the corner",
+      "note_id": "ATT0fi7DyIE:5",
+      "text": "braking: slow center; line: cut back down across; exit: launch up off the corner",
+      "spoken_as": "turn down",
+      "passage_time": "7:54",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:53",
+      "snippet": "Over slow center. Cut back down across and launch up off the corner. There is a ton of grip",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "be a little bit more careful, a little more tentative on throttle",
+      "line": "try to enter in the first groove right here",
+      "exit": "hook that apron all the way through the exit",
+      "mistakes": "not having that big cut down moment",
+      "note_id": "ATT0fi7DyIE:6",
+      "text": "braking: be a little bit more careful, a little more tentative on throttle; line: try to enter in the first groove right here; exit: hook that apron all the way through the exit; mistakes: not having that big cut down moment",
+      "spoken_as": "here",
+      "passage_time": "9:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:21",
+      "snippet": "Try to enter in the first groove right here. So, not having that big cut down moment and then just hooking that apron"
+    },
+    {
+      "line": "enter on the paint, try to wrap that",
+      "mistakes": "sliding right rear up into that second groove, getting hung up and loose",
+      "note_id": "ATT0fi7DyIE:7",
+      "text": "line: enter on the paint, try to wrap that; mistakes: sliding right rear up into that second groove, getting hung up and loose",
+      "spoken_as": "here",
+      "passage_time": "9:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:40",
+      "snippet": "my right rear up into that second groove or else I'll kind of get hung up and loose. Got to be careful there. Not so"
+    },
+    {
+      "line": "enter on the darker asphalt, slide up in the center",
+      "exit": "power down, get the rears to hook up",
+      "mistakes": "being over aggressive on throttle and exit",
+      "note_id": "ATT0fi7DyIE:8",
+      "text": "line: enter on the darker asphalt, slide up in the center; exit: power down, get the rears to hook up; mistakes: being over aggressive on throttle and exit",
+      "spoken_as": "here",
+      "passage_time": "9:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:05",
+      "snippet": "Enter on the darker asphalt. slide up in the center and then just power down and try to get the rears to hook up a little"
+    },
+    {
+      "line": "go back up top, right sides in the gray",
+      "exit": "back down a bit on exit",
+      "note_id": "ATT0fi7DyIE:9",
+      "text": "line: go back up top, right sides in the gray; exit: back down a bit on exit",
+      "spoken_as": "here",
+      "passage_time": "9:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:54",
+      "snippet": "as well. Right sides in the gray and then back down a bit on exit. You can see really good exit speed right there."
+    },
+    {
+      "braking": "Big dive into three. Way up the track.",
+      "mistakes": "Don't cross the seams midcorner with throttle.",
+      "note_id": "ATT0fi7DyIE:10",
+      "text": "braking: Big dive into three. Way up the track.; mistakes: Don't cross the seams midcorner with throttle.",
+      "spoken_as": "three",
+      "passage_time": "11:50",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:03",
+      "snippet": "Big dive into three. Way up the track. There never used to be grip up here. And now there's a ton."
+    },
+    {
+      "line": "High line",
+      "exit": "Straighter drive off",
+      "note_id": "ATT0fi7DyIE:11",
+      "text": "line: High line; exit: Straighter drive off",
+      "spoken_as": "into three",
+      "passage_time": "13:09",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:58",
+      "snippet": "Straighter drive off. And you can see there almost two tents in the green into three."
+    },
+    {
+      "braking": "Give up some on entry. Should claw back in the center.",
+      "line": "First seam and third and a half groove right on top of each other.",
+      "exit": "Watch your throttle and exit.",
+      "mistakes": "Entering on the bottom. Slow it down. Straddling the seam with the right rear. Had to wait on the throttle.",
+      "note_id": "ATT0fi7DyIE:12",
+      "text": "braking: Give up some on entry. Should claw back in the center.; line: First seam and third and a half groove right on top of each other.; exit: Watch your throttle and exit.; mistakes: Entering on the bottom. Slow it down. Straddling the seam with the right rear. Had to wait on the throttle.",
+      "spoken_as": "three",
+      "passage_time": "14:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:46",
+      "snippet": "half groove right on top of each other. Do a little better job being disciplined and on that first seam. Good center"
+    },
+    {
+      "line": "Roll conventional line all the way through.",
+      "exit": "Pick up that throttle a little early to get it on the front and then plateau it.",
+      "mistakes": "Shortcut the entry just a bit. Straddling the seam with the right rear.",
+      "note_id": "ATT0fi7DyIE:13",
+      "text": "line: Roll conventional line all the way through.; exit: Pick up that throttle a little early to get it on the front and then plateau it.; mistakes: Shortcut the entry just a bit. Straddling the seam with the right rear.",
+      "spoken_as": "conventional three and four",
+      "passage_time": "14:28",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:19",
+      "snippet": "conventional line all the way through to picking up that throttle a little early to get it on the front and then plateau",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Positive into the corner",
+      "line": "Bury it into the corner",
+      "exit": "Big drive up off down the straightaway",
+      "note_id": "ATT0fi7DyIE:14",
+      "text": "braking: Positive into the corner; line: Bury it into the corner; exit: Big drive up off down the straightaway",
+      "spoken_as": "three",
+      "passage_time": "15:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:49",
+      "snippet": "on the throttle. Power down. Big drive up off down the straightaway. Going to be a little bit positive into three. I'm"
+    },
+    {
+      "line": "Wrap the grass as best as you can",
+      "exit": "Watch the wall right",
+      "mistakes": "Wrapping the apron through the exit",
+      "note_id": "ATT0fi7DyIE:15",
+      "text": "line: Wrap the grass as best as you can; exit: Watch the wall right; mistakes: Wrapping the apron through the exit",
+      "spoken_as": "four",
+      "passage_time": "15:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:05",
+      "snippet": "best as you can. Watch the wall right here. It kind of pokes out. Very easy to hit that narrow exit right there past"
+    },
+    {
+      "braking": "brake markers on the wall",
+      "gear": "tight to the wall to extend my angle",
+      "note_id": "ATT0fi7DyIE:16",
+      "text": "braking: brake markers on the wall; gear: tight to the wall to extend my angle",
+      "spoken_as": "turn one",
+      "passage_time": "17:06",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:23",
+      "snippet": "tight to the wall to extend my angle of attack. Quickly off the gas immediately progressing a break. That's going to be",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake markers on the wall, 40-50% initial, taper to 10-5% through corner.",
+      "line": "Turn down and wrap first seam, left front on seam.",
+      "exit": "Increase throttle, get back to seam on exit.",
+      "mistakes": "Left front above seam: no front turn; straddling seam: high-side loose.",
+      "note_id": "ATT0fi7DyIE:17",
+      "text": "braking: Brake markers on the wall, 40-50% initial, taper to 10-5% through corner.; line: Turn down and wrap first seam, left front on seam.; exit: Increase throttle, get back to seam on exit.; mistakes: Left front above seam: no front turn; straddling seam: high-side loose.",
+      "spoken_as": "turn one",
+      "passage_time": "18:25",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.86,
+          "mistakes": 0.78
+        }
+      },
+      "time": "18:49",
+      "snippet": "can turn down and wrap this first seam with good neutral front handling. And I'm still tapering off. I'm still",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Get back down to the seam and cover the left front with the hash mark.",
+      "exit": "Use partial throttle to avoid rear slip, increase throttle off the corner.",
+      "mistakes": "Overdrive the center to get it stable, back off throttle to reset turn, then finish with more throttle.",
+      "note_id": "ATT0fi7DyIE:18",
+      "text": "line: Get back down to the seam and cover the left front with the hash mark.; exit: Use partial throttle to avoid rear slip, increase throttle off the corner.; mistakes: Overdrive the center to get it stable, back off throttle to reset turn, then finish with more throttle.",
+      "spoken_as": "T1",
+      "passage_time": "19:43",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.71,
+          "exit": 0.62
+        }
+      },
+      "time": "19:48",
+      "snippet": "spark of the corner, left front is pretty much touching that that hash mark. It's covering it and I'm utilizing",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake between the three and two brake markers, slightly less early.",
+      "gear": "Downshift as you approach.",
+      "line": "Run below the seam on entry to shortcut the corner.",
+      "note_id": "ATT0fi7DyIE:19",
+      "text": "braking: Brake between the three and two brake markers, slightly less early.; gear: Downshift as you approach.; line: Run below the seam on entry to shortcut the corner.",
+      "spoken_as": "three",
+      "passage_time": "21:01",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "21:16",
+      "snippet": "three and the two brake pressures maybe slightly less early downshift as you can see right there"
+    },
+    {
+      "braking": "up the track a bit",
+      "line": "diamond similar to one and two",
+      "exit": "lots of throttle and go to drive it back down the track before getting a nice straight exit and driving out to the wall",
+      "mistakes": "don't throttle up too much too soon on exit and spin the rear",
+      "note_id": "ATT0fi7DyIE:20",
+      "text": "braking: up the track a bit; line: diamond similar to one and two; exit: lots of throttle and go to drive it back down the track before getting a nice straight exit and driving out to the wall; mistakes: don't throttle up too much too soon on exit and spin the rear",
+      "spoken_as": "turn four",
+      "passage_time": "22:19",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "22:29",
+      "snippet": "similar to one and two. And then lots of throttle and go to drive it back down the track before getting a nice straight",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake early to avoid right rear getting hung up on transition",
+      "line": "enter on apron, keep on apron",
+      "exit": "exit on bottom",
+      "mistakes": "right rear too high, car will be loose",
+      "note_id": "ATT0fi7DyIE:21",
+      "text": "braking: brake early to avoid right rear getting hung up on transition; line: enter on apron, keep on apron; exit: exit on bottom; mistakes: right rear too high, car will be loose",
+      "spoken_as": "down into three",
+      "passage_time": "23:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "24:08",
+      "snippet": "See right there, the right rear got hung up on the transition and I was loose. So, I had to correct and it cost me a"
+    },
+    {
+      "braking": "Brake late, staying above the second set of hash marks",
+      "line": "Turn in wide, apexing on the top, exit in the second groove",
+      "exit": "Maximize exit speed, use grip for forward drive",
+      "mistakes": "Running too close to the darker asphalt, entering pit road from the middle of the track",
+      "note_id": "ATT0fi7DyIE:22",
+      "text": "braking: Brake late, staying above the second set of hash marks; line: Turn in wide, apexing on the top, exit in the second groove; exit: Maximize exit speed, use grip for forward drive; mistakes: Running too close to the darker asphalt, entering pit road from the middle of the track",
+      "spoken_as": "down into three",
+      "passage_time": "24:58",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "25:10",
+      "snippet": "the top, staying above that second set of hash marks, going completely out of the darker asphalt, and then exiting"
+    },
+    {
+      "braking": "Big brake at the bump, watch the commitment line",
+      "line": "Cut sharply down to the third groove",
+      "exit": "Maintain pit road speed, drive straight to commitment line",
+      "mistakes": "Watch out for the bump, avoid the grass, stay below the paint, be careful with the wall",
+      "note_id": "ATT0fi7DyIE:23",
+      "text": "braking: Big brake at the bump, watch the commitment line; line: Cut sharply down to the third groove; exit: Maintain pit road speed, drive straight to commitment line; mistakes: Watch out for the bump, avoid the grass, stay below the paint, be careful with the wall",
+      "spoken_as": "pit road entry",
+      "passage_time": "26:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "26:50",
+      "snippet": "sharply cutting down. Big break. Watch this bump right here. Bang. Look out. And you get to pit road speed. So"
+    }
+  ]
+}

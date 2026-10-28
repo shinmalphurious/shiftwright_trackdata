@@ -1,0 +1,364 @@
+{
+  "video_id": "cH9rx0dLgn8",
+  "track_id": 166,
+  "track_name": "Okayama International Circuit - Full Course",
+  "title": "iRacing MX5 Okayama Guide 1:43.2 Mazda MX5 Okayama Production Car Track Guide",
+  "car": "Mazda MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake right at 50%, trail off",
+      "gear": "second gear",
+      "line": "turn-in to apex, back on gas",
+      "exit": "head over to the right side",
+      "note_id": "cH9rx0dLgn8:0",
+      "text": "braking: brake right at 50%, trail off; gear: second gear; line: turn-in to apex, back on gas; exit: head over to the right side",
+      "spoken_as": "blue cone on the right side and a white line painted alongside it",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.77,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:39",
+      "snippet": "back on the gas in second gear, head over to the right side. Once we get to this brightly colored asphalt on the"
+    },
+    {
+      "braking": "little dab on the brakes and a lift",
+      "gear": "third gear",
+      "line": "cut corners very slightly",
+      "exit": "slowly increase back up to full power",
+      "note_id": "cH9rx0dLgn8:1",
+      "text": "braking: little dab on the brakes and a lift; gear: third gear; line: cut corners very slightly; exit: slowly increase back up to full power",
+      "spoken_as": "brightly colored asphalt on the right",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.79,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:48",
+      "snippet": "just slowly increase back up to full power in third gear. Let's cut these corners very slightly."
+    },
+    {
+      "braking": "brake quite sharply, almost to 20%",
+      "gear": "second gear",
+      "exit": "carry all that momentum going up the hill",
+      "note_id": "cH9rx0dLgn8:2",
+      "text": "braking: brake quite sharply, almost to 20%; gear: second gear; exit: carry all that momentum going up the hill",
+      "spoken_as": "turn number five",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:04",
+      "snippet": "in second gear. Carry all that momentum going up the hill. It's beautiful day at Okayama."
+    },
+    {
+      "braking": "brake ahead of marshal's hut, full brake",
+      "gear": "first gear",
+      "line": "trail brake to apex, left side",
+      "exit": "wide exit, second gear",
+      "note_id": "cH9rx0dLgn8:3",
+      "text": "braking: brake ahead of marshal's hut, full brake; gear: first gear; line: trail brake to apex, left side; exit: wide exit, second gear",
+      "spoken_as": "turn number five",
+      "passage_time": "1:18",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {
+        "after": "T8",
+        "before": "T10",
+        "corners_between": [
+          "T9"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:45",
+      "snippet": "And again, down to first gear, hug it close to the apex on the left-hand side. Leave it in first gear here.",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "brake after 50, before marshal's hut",
+      "gear": "first gear",
+      "line": "hug left side",
+      "exit": "lift, back on gas ahead of apex",
+      "note_id": "cH9rx0dLgn8:4",
+      "text": "braking: brake after 50, before marshal's hut; gear: first gear; line: hug left side; exit: lift, back on gas ahead of apex",
+      "spoken_as": "red man cone",
+      "passage_time": "1:18",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.65,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:42",
+      "snippet": "the 50, but before that marshal's hut. And again, down to first gear, hug it close to the apex on the left-hand side.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "sharply on brakes at dark patch",
+      "gear": "second gear",
+      "note_id": "cH9rx0dLgn8:5",
+      "text": "braking: sharply on brakes at dark patch; gear: second gear",
+      "spoken_as": "turn 10",
+      "passage_time": "1:18",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:08",
+      "snippet": "through the corner in second gear. And over and across the line we go in a parked up safely",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "80% at blue cone, trail off to 2nd gear",
+      "gear": "3rd at apex",
+      "exit": "throttle up exit",
+      "note_id": "cH9rx0dLgn8:6",
+      "text": "braking: 80% at blue cone, trail off to 2nd gear; gear: 3rd at apex; exit: throttle up exit",
+      "spoken_as": "here",
+      "passage_time": "2:35",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 0.67
+        }
+      },
+      "time": "3:00",
+      "snippet": "at the apex in third. Now, a lot of you will prefer to have come down to second gear before this, um but this is just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "10% at end of grass, brightly colored asphalt",
+      "gear": "3rd",
+      "note_id": "cH9rx0dLgn8:7",
+      "text": "braking: 10% at end of grass, brightly colored asphalt; gear: 3rd",
+      "spoken_as": "turn two",
+      "passage_time": "2:35",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:29",
+      "snippet": "um sort of brightly colored asphalt on the right-hand side. We get on the brakes only up to about 10%. Leave it in"
+    },
+    {
+      "braking": "Break late and hard at 50 board, 90% pressure, trail off",
+      "gear": "Drop to second at apex",
+      "line": "Early apex, run wide on exit",
+      "exit": "Carry momentum, pick up throttle",
+      "note_id": "cH9rx0dLgn8:8",
+      "text": "braking: Break late and hard at 50 board, 90% pressure, trail off; gear: Drop to second at apex; line: Early apex, run wide on exit; exit: Carry momentum, pick up throttle",
+      "spoken_as": "turn four",
+      "passage_time": "3:54",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "gear": 1.0,
+          "line": 0.8
+        }
+      },
+      "time": "3:54",
+      "snippet": "break late and hard. So, just as we get to this 50 board on the left-hand side, you can see it's still there. Getting on",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break midway between 50 and 100, max pressure, no ABS",
+      "gear": "Down through gears, use engine braking",
+      "exit": "Pick up throttle in first gear, straighten wheel",
+      "mistakes": "Avoid locking up tires",
+      "note_id": "cH9rx0dLgn8:9",
+      "text": "braking: Break midway between 50 and 100, max pressure, no ABS; gear: Down through gears, use engine braking; exit: Pick up throttle in first gear, straighten wheel; mistakes: Avoid locking up tires",
+      "spoken_as": "turn five",
+      "passage_time": "3:54",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "gear": 0.8,
+          "exit": 0.71,
+          "mistakes": 0.67
+        }
+      },
+      "time": "4:37",
+      "snippet": "that. So, midway between the 50 and the 100. And we do reach maximum brake pressure, but we're not actually running",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "dab on brakes, 15%",
+      "gear": "second",
+      "line": "trail off brakes, pick up gas at apex",
+      "exit": "50% throttle on exit",
+      "note_id": "cH9rx0dLgn8:10",
+      "text": "braking: dab on brakes, 15%; gear: second; line: trail off brakes, pick up gas at apex; exit: 50% throttle on exit",
+      "spoken_as": "turn number seven",
+      "passage_time": "5:10",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:15",
+      "snippet": "then pick back up on the gas in second gear. You are controlling the amount of turning that your car is doing with your",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.428,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "T8",
+        "estimated_pct": 0.6434,
+        "corner_pct": 0.6436,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "T8",
+        "corners_between": [
+          "T6",
+          "T7"
+        ]
+      }
+    },
+    {
+      "braking": "brakes to 80%, third of way between 50 marker and marshal",
+      "gear": "first",
+      "line": "trail off brakes, pick up gas at apex",
+      "exit": "3/4 throttle on exit",
+      "note_id": "cH9rx0dLgn8:11",
+      "text": "braking: brakes to 80%, third of way between 50 marker and marshal; gear: first; line: trail off brakes, pick up gas at apex; exit: 3/4 throttle on exit",
+      "spoken_as": "Redman corner",
+      "passage_time": "5:10",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:56",
+      "snippet": "a third of the way between the 50 marker and this marshal so on the right-hand side. And we get on the brakes to about",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "note_id": "cH9rx0dLgn8:12",
+      "text": "line: flat",
+      "spoken_as": "turn 10",
+      "passage_time": "5:10",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:32",
+      "snippet": "We're absolutely flat through turn 10. We can go completely to the right-hand side of this rumble strip, but we cannot",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake sharply at end of green asphalt to 80%",
+      "gear": "2nd",
+      "line": "Right-hand side of rumble strip, do not cross yellow line",
+      "exit": "Exit without entering gravel trap",
+      "mistakes": "Cutting corner feels risky but is not",
+      "note_id": "cH9rx0dLgn8:13",
+      "text": "braking: Brake sharply at end of green asphalt to 80%; gear: 2nd; line: Right-hand side of rumble strip, do not cross yellow line; exit: Exit without entering gravel trap; mistakes: Cutting corner feels risky but is not",
+      "spoken_as": "Last Corner",
+      "passage_time": "6:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 1.0,
+          "exit": 0.8,
+          "mistakes": 0.75
+        }
+      },
+      "time": "6:43",
+      "snippet": "we are at the end of this sort of green asphalt on the left-hand side and you've got the darker gravel here."
+    }
+  ]
+}

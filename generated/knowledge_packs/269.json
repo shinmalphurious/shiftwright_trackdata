@@ -477,5 +477,288 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.938,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T13": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.938,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T13: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T2": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T3": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T8": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T9": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T9: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "flat_out",
+        "statement": "Taken flat, no braking",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Taken flat, no braking at T9: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T9 (same corner, same approach, inheritance 1.00); Taken flat, no braking at T9: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+        "source_corner": "T9",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T12": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T12: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T12: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T14 (same corner, same approach, inheritance 1.00); Heavy braking zone at T14: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+        "source_corner": "T14",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T16": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T16: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T16: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T18 (same corner, same approach, inheritance 1.00); Heavy braking zone at T18: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+        "source_corner": "T18",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T29": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T29: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T30": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T30: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T18": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T18: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T18: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T20 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T20: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+        "source_corner": "T20",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T28": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T28: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T15": [
+      {
+        "claim": "flat_out",
+        "statement": "Taken flat, no braking",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Taken flat, no braking at T15: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T17 (same corner, same approach, inheritance 1.00); Taken flat, no braking at T17: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+        "source_corner": "T17",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T17": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T17: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T19 (same corner, inheritance 1.00); Slow corner at T19: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+        "source_corner": "T19",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

@@ -1,71 +1,117 @@
 {
   "track_id": 23,
   "layout": "23-irwindale-outer",
+  "name": "Irwindale Speedway - Outer",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:14:23.788722+00:00",
+  "candidates_seen": 62,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 62,
+    "new_candidates": 55,
+    "accepted": 7,
+    "selected": 7,
+    "kept_previous": 7,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 55,
+    "rejection_reasons": {
+      "no guide words in title": 35,
+      "live stream": 6,
+      "too short": 6,
+      "too long": 4,
+      "venue not in title": 4
+    }
+  },
   "selected_guides": {
+    "late_model": [
+      {
+        "video_id": "xaWUT8u1YtI",
+        "title": "iRacing Super Late Model: Learn to Drive Irwindale Outer for 2025 Season 1 Week 7 Lap Guide",
+        "description": "Learn to drive Irwindale Speedway in an iRacing Super Late Model for the iRacing 2025 S1 Week 7 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 431,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "modified": [
+      {
+        "video_id": "qCRBPzQDzRs",
+        "title": "iRacing Tour Modified: Learn to Drive Irwindale Outer for 2025 Season 1 Week 10 Lap Guide",
+        "description": "Learn to drive Irwindale Outer in an iRacing Tour Modified for the iRacing 2025 S1 Week 10 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 478,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "r7TuqHpIejg",
+        "title": "iRacing SK Modified: Learn to Drive Irwindale Inner for 2025 Season 1 Week 10 Lap Guide",
+        "description": "Learn to drive Irwindale Inner in an iRacing SK Modified for the iRacing 2025 S1 Week 10 of official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 423,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
     "arca": [
       {
         "video_id": "Y4Siwe5K4j4",
         "title": "Iracing Arca CHAMPION'S guide to Irwindale Figure 8 Jump Qualifying",
         "description": "The real April fool is me because I spent 20 minutes getting this lap...",
+        "channel": "DJ Yee-J",
+        "duration": 208,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
     "nascar": [
       {
         "video_id": "rkqhgI-I8Bc",
         "title": "iRacing - Irwindale Outer Legends Car - Elite Performance Breakdown by Nascar Champ David Polenz",
-        "description": "iRacing - Irwindale Outer Legends Car - Elite Performance Industries Breakdown by Nascar Champ David Polenz For more racing\u00a0...",
-        "video_type": "other",
+        "description": "iRacing - Irwindale Outer Legends Car - Elite Performance Industries Breakdown by Nascar Champ David Polenz For more racing ...",
+        "channel": "David Polenz",
+        "duration": 889,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
-      }
-    ],
-    "late_model": [
-      {
-        "video_id": "arGIhHZF78k",
-        "title": "112 Degrees, Sheesh! (SET UP)- Late Models @ Irwindale INNER OUTER - iRacing",
-        "description": "HADES HIMSELF SEEKS SHADE IN THIS ONE! And Nick Lachey gets himself a special shoutout. Come hang out with the gang\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "C7oE-ruQrOc",
-        "title": "Super Late Models - Irwindale Speedway Inner - iRacing",
-        "description": "iRacing Referral code : https://www.iracing.com/membership/?refid=16613 Contact Email - kneebon5YT@gmail.com Racelabs\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
-      },
-      {
-        "video_id": "wzTNbcR388E",
-        "title": "iRacing Week 1 Super late models Irwindale Speedway Fixed setup",
-        "description": "Let me know what you think guys!",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
+        "video_id": "dwCymYw4wb0",
+        "title": "*Weird Line!* Iracing Arca Irwindale Guide to Qual and Race",
+        "description": "It's a fun drive, might be single lane dodgecar though #nascar #simracing.",
+        "channel": "DJ Yee-J",
+        "duration": 1398,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
-    "legends": [
+    "truck": [
       {
-        "video_id": "Jz0HvqpkNbw",
-        "title": "iRacing Adv. Legends || 23S1 || Irwindale",
-        "description": "Advertise on PitStop TV! Email andrew@pitstoptv.com to ask about pricing and other details. Our Twitch channel\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
-      }
-    ],
-    "modified": [
-      {
-        "video_id": "yErJiDAoZws",
-        "title": "SK Modifieds at Toyota Irwindale Inner",
-        "description": "Test.",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 20
+        "video_id": "mMjkNzCDu8M",
+        "title": "IRacing Track Guide | Irwindale Speedway in Trucks | W/Telemetry",
+        "description": "Check out the Facebook https://www.facebook.com/WTFeteam https://www.instagram.com/kabe05racer... If you enjoyed leave a ...",
+        "channel": "K05",
+        "duration": 440,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 190,
+        "venue_confidence": 1.0
       }
     ]
   }

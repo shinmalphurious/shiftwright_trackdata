@@ -1,51 +1,148 @@
 {
   "track_id": 374,
   "layout": "374-nashville-oval",
+  "name": "Nashville Fairgrounds Speedway - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:27:07.333353+00:00",
+  "candidates_seen": 25,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 25,
+    "new_candidates": 15,
+    "accepted": 11,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 14,
+    "rejection_reasons": {
+      "no guide words in title": 11,
+      "too short": 2,
+      "too long": 1
+    }
+  },
   "selected_guides": {
     "usf2000": [
       {
         "video_id": "dRzMs7JSauA",
         "title": "Indy NXT Oval Series Track Guide Nashville Superspeedway",
-        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around the Nashville Superspeedway in the\u00a0...",
+        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around the Nashville Superspeedway in the ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "usf2000",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
       }
     ],
     "nascar": [
       {
         "video_id": "t2wNoYnXK7s",
         "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Nashville",
-        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S2 Visit\u00a0...",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S2 Visit ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "ux9m28qAopg",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR O'Reilly Series at Nashville",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Nick Ottinger 2026, S2 Visit ...",
+        "channel": "Team Conti",
+        "duration": 1055,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "iXNgoorBIWU",
+        "title": "iRacing | NASCAR Legends Fixed | Nashville Fairgrounds | Track Guide",
+        "description": "This video is made for inexperienced drivers to iRacing, the track, or the car to help you successfully make your way around the ...",
+        "channel": "Jon Honaker",
+        "duration": 367,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "9twf1s1teHA",
         "title": "iRacing: 3 Tips For Nashville Superspeedway! (NASCAR Guide)",
-        "description": "The NASCAR Truck, Xfinity, and Cup series are all racing at Nashville Superspeedway this week, here's a guide with tips and\u00a0...",
+        "description": "The NASCAR Truck, Xfinity, and Cup series are all racing at Nashville Superspeedway this week, here's a guide with tips and ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
-      },
-      {
-        "video_id": "1L7j7b_yuMg",
-        "title": "NASCAR O'Reilly at Nashville Superspeedway | iRacing Oval",
-        "description": "Find More Info! - https://www.gavinropchan.com/ \u2728 Support the Channel - Become a Member!",
-        "video_type": "other",
-        "car": "nascar",
-        "quality_score": 120
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
-    "arca": [
+    "street_stock": [
       {
-        "video_id": "n8pwA8prN2s",
-        "title": "ARCA Menards at Nashville Super Speedway | iRacing Oval",
-        "description": "ARCA Menards at Nashville Super Speedway Find More Info! - https://www.gavinropchan.com/ \u2728 Support the Channel - Become\u00a0...",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 120
+        "video_id": "73RRukJwSzs",
+        "title": "iRacing Track Guides - Street Stock at Nashville Fairgrounds Mini",
+        "description": "",
+        "channel": "Jonathan Schwartz",
+        "duration": 237,
+        "video_type": "lap_walkthrough",
+        "car": "street_stock",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "late_model": [
+      {
+        "video_id": "CAWgOLkP4NQ",
+        "title": "Learn to Drive Nashville Fairgrounds in an iRacing Late Model Stock for iRacing 2025 S3 Week 11",
+        "description": "Learn to Drive Nashville Fairgrounds in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S3 Week 11 of official races!",
+        "channel": "Team53",
+        "duration": 557,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "OqjPnMxRsDw",
+        "title": "Track guide for Nashville Fairgrounds Time Trial 16.141//Jr open wheel//Iracing//2026S4//Oval",
+        "description": "If there are any questions or something else you would like to know leave a comment and I'll address it. Just remember that every ...",
+        "channel": "Stephen Hart",
+        "duration": 458,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "1CYcvdS-iGs",
+        "title": "iRacing Nashville Fairgrounds Track Guide (O’Reilly B Car) | Survive the Bumps & Save Your Tires",
+        "description": "Nashville Fairgrounds is rough, bumpy, and easy to overdrive — especially in the O'Reilly B Car. In this iRacing Nashville ...",
+        "channel": "Finding Speed Now",
+        "duration": 924,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "rXOY2SvZrHA",
+        "title": "2023 iRacing Track Guides - NIS Fixed at Nashville",
+        "description": "An ok track.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 317,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

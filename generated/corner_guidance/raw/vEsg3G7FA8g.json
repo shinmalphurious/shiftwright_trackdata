@@ -1,0 +1,219 @@
+{
+  "video_id": "vEsg3G7FA8g",
+  "track_id": 103,
+  "track_name": "Las Vegas Motor Speedway - Oval",
+  "title": "Las Vegas Motor Speedway I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+  "car_hint": "nascar",
+  "car": "null",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:28:13.920051+00:00",
+  "passages": 19,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:24",
+      "sequence": 1,
+      "braking": "look at the three markers"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:41",
+      "sequence": 2,
+      "line": "Smoothly load right front wheel and transition to the wall.",
+      "mistakes": "Getting to the wall too early and having to correct the wheel back straight."
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:00",
+      "sequence": 3,
+      "line": "turn away from the wall, use the middle or lowest seam",
+      "exit": "throttle smoothly, avoid overloading right front tire",
+      "mistakes": "opening the wheel up straight, getting to the wall too early"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "5:17",
+      "sequence": 4,
+      "braking": "Manage decel rate through bumps, lift early",
+      "line": "Shape down to white line",
+      "exit": "Maintain partial throttle",
+      "mistakes": "Over-speeding into full compression point"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "6:35",
+      "sequence": 5,
+      "line": "Shape down to the apex, clip the inside of the dash mark with left front.",
+      "exit": "Hold the white line through the center, avoid pushing tight off the corner.",
+      "mistakes": "Instantly pushing off the white line, losing grip."
+    },
+    {
+      "label": null,
+      "spoken_as": "right before the Leona logo",
+      "start_time": "7:52",
+      "sequence": 6,
+      "label_guess": "T3",
+      "line": "keep left front on painted line",
+      "exit": "continue partial throttle",
+      "mistakes": "hitting bump wrong, left front splitter on banking transition"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "9:11",
+      "sequence": 7,
+      "line": "Keep left, avoid pushing up too early",
+      "mistakes": "Pushing up too early, losing exit momentum"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "10:29",
+      "sequence": 8,
+      "braking": "Brake before the three cone, align with the white line",
+      "line": "Turn in at the three cone, align with the white line",
+      "exit": "Straighten entry approach, lift before the two cone"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "10:29",
+      "sequence": 8,
+      "braking": "Brake before hashed marks",
+      "exit": "Use the fence, straighten entry approach"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "11:49",
+      "sequence": 9,
+      "braking": "get out of the throttle a little earlier to help settle down into the corner",
+      "line": "drive in further",
+      "exit": "find your full throttle timing",
+      "mistakes": "overcommit entry, push tight, delay center momentum"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "13:07",
+      "sequence": 10,
+      "label_guess": "T4",
+      "line": "Stay on the white line longer, avoid crossing the seam early",
+      "exit": "Full throttle for a lower exit, avoid pushing tight or loose",
+      "mistakes": "Pushing into the seam, sliding front tires, opening the wheel too early"
+    },
+    {
+      "label": null,
+      "spoken_as": "next",
+      "start_time": "14:25",
+      "sequence": 11,
+      "label_guess": "T4",
+      "exit": "push towards the light on exit",
+      "mistakes": "crossing the seam too early"
+    },
+    {
+      "label": null,
+      "spoken_as": "four",
+      "start_time": "15:42",
+      "sequence": 12,
+      "label_guess": "T4",
+      "exit": "100% throttle",
+      "mistakes": "mashing 100% throttle too early, losing grip"
+    },
+    {
+      "label": null,
+      "spoken_as": "Turn 4",
+      "start_time": "17:00",
+      "sequence": 13,
+      "label_guess": "T4",
+      "braking": "Full lift, partial throttle",
+      "line": "Turn a little bit earlier, straighter approach",
+      "exit": "Right rear crosses the seam, left rear crosses it and banking falls away",
+      "mistakes": "Pushing a loose condition, getting off the bottom"
+    },
+    {
+      "label": null,
+      "spoken_as": "one",
+      "start_time": "18:18",
+      "sequence": 14,
+      "label_guess": "T1",
+      "line": "Shift approach to the wall for better exit.",
+      "exit": "Use throttle carefully to avoid car skewing out.",
+      "mistakes": "Too much throttle caused car to skew out."
+    },
+    {
+      "label": null,
+      "spoken_as": "two",
+      "start_time": "18:18",
+      "sequence": 14,
+      "label_guess": "T2",
+      "line": "Use lower seam for better control and less throttle.",
+      "exit": "100% throttle on exit."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "four",
+      "start_time": "19:35",
+      "sequence": 15,
+      "line": "turn it down and just using all that ability",
+      "exit": "waiting on this car to grip, lower exit",
+      "mistakes": "carrying too much throttle, jumping the cushion"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "20:52",
+      "sequence": 16,
+      "line": "manage entry to avoid fence",
+      "exit": "use top side for exit",
+      "mistakes": "overrun can damage right front"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "22:09",
+      "sequence": 17,
+      "braking": "lift and brake at Zima's logo, green logo",
+      "gear": "3rd gear downshift, 2nd gear downshift",
+      "exit": "off brake, 50 mph in 2nd gear"
+    }
+  ],
+  "general_tips": [
+    "Aerodynamic sound car",
+    "Suspension that absorbs bumps",
+    "Navigate through bumps in turn one",
+    "manage pace early on",
+    "take a wide approach in turn three",
+    "delay turn-in in the center of three and four",
+    "avoid using too much wheel input early on",
+    "Refine how you're loading the front wheels to the wall and not getting to it too early.",
+    "navigate loading into the compression zone, keep front tires loading evenly",
+    "Look for the Las Vegas turn one logo",
+    "Watch dash marks for bottom line reference",
+    "Maintain left front grip activated",
+    "Keep wheel input to the left",
+    "Love this side of the track for speed and artwork",
+    "Hold the bottom longer or run the fence",
+    "Maintain throttle to full throttle early, refine approach to avoid pushing tight or loose",
+    "push towards the white logo for lap time",
+    "navigate different lines to see what works",
+    "Work through the bumps, keep platform control, increase throttle gradually",
+    "Stay on the bottom painted line, get the left front to almost stay on this line",
+    "Anticipate car behavior for better control.",
+    "Able to cut it down, get all the grip a little earlier",
+    "Take a little entry speed away to gain more exit forward momentum",
+    "A lower exit off of four is pretty big benefit if we can manage it",
+    "take less entry speed to manage corner easier",
+    "throttle out sooner, delayed same",
+    "get off wall earlier in T3 and T4",
+    "conservative pit entry, stabilize braking zone",
+    "smooth transition from track to pit entry"
+  ],
+  "dropped_ungrounded": 5
+}

@@ -1,0 +1,181 @@
+{
+  "video_id": "v_AetU1f3z8",
+  "track_id": 127,
+  "track_name": "Road Atlanta - Full Course",
+  "title": "iRacing GT3 Track Guide | Road Atlanta | 2025 Season 3 Week 9",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:27:41.384823+00:00",
+  "passages": 15,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "100 meter board, cut over to the outside run off",
+      "line": "cut over to the outside run off",
+      "exit": "carry more speed, use less brake",
+      "mistakes": "leaning on the front left too much"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "Break 20-30% on tarmac, not in runoff.",
+      "gear": "Downshift once at white line.",
+      "line": "Turn in at white line, arc in.",
+      "exit": "Throttle at curb or marshall hood.",
+      "mistakes": "Avoid braking in runoff, dip left wheels over grass."
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "lift off at the Marshall hut",
+      "line": "run wide, avoid the outside curb",
+      "mistakes": "dipping a wheel, risking spinning off the track"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "lift off at the Marshall hut"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "3:52",
+      "sequence": 3,
+      "braking": "tiny bit of brake, build brake pressure just before end of curve",
+      "line": "turn in coming off curb at end of curve, aim central, left wheels on track",
+      "exit": "slowly bleed off brake, patient on throttle, bounce 60-70%, get on power once steering lock off",
+      "mistakes": "chase cut over curb, commit to throttle too early on grass/dirt"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:10",
+      "sequence": 4,
+      "label_guess": "T4",
+      "line": "Turn-in on the curb, apex on the top of the dirt, exit on the left side of the track",
+      "exit": "75-80% throttle through the curb, 100% throttle off the curb, avoid full throttle on grass",
+      "mistakes": "Committing to throttle too early, spinning on exit if on grass"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "6:27",
+      "sequence": 5,
+      "braking": "Commit in deep, brake before curb",
+      "line": "Turn in deep, aim for blue part of curb",
+      "exit": "Come off curb towards end",
+      "mistakes": "Overworking entry or underdoing entry, bouncing on outside curb"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "7:45",
+      "sequence": 6,
+      "braking": "lift off past orange line, brake softly at 50%",
+      "line": "angle to hook curb, aim for flat part of curb",
+      "exit": "come off curb before end, car rotates and bounces",
+      "mistakes": "commit to curb, hit curb causing bounce into track"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "9:04",
+      "sequence": 7,
+      "braking": "brake to the orange line",
+      "line": "use curb for apex, otherwise stay wide",
+      "exit": "100% throttle on exit, aim for outside run off",
+      "mistakes": "bouncing off curb costs exit position"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "10:21",
+      "sequence": 8,
+      "braking": "200 board, brake 70%, 60%",
+      "gear": "late downshift between second and third set of lines",
+      "line": "get nice and close to inside curb, touch orange line",
+      "exit": "power and commit to exit",
+      "mistakes": "overwork braking, over-push entry, go wide onto grass"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "11:40",
+      "sequence": 9,
+      "braking": "break a nice straight line, 65 70% brake",
+      "line": "follow the curb, turn-in towards the end of the curb",
+      "exit": "slow release the brakes, trail brake 40 50% to 20%",
+      "mistakes": "overshoot the entry to the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "12:59",
+      "sequence": 10,
+      "label_guess": "T8",
+      "braking": "Left wheels on curb, brake early, 40-50% to 20%",
+      "line": "Cut over the curb, mid-corner throttle 60-70%",
+      "exit": "100% throttle, let car run wide, avoid fighting the car",
+      "mistakes": "Too aggressive on initial power, fighting the car"
+    },
+    {
+      "label": null,
+      "spoken_as": "10 AA",
+      "start_time": "14:17",
+      "sequence": 11,
+      "braking": "Brake just before 100 board",
+      "line": "Keep car right, use outside curb as reference",
+      "exit": "100% throttle down crest",
+      "mistakes": "Drifting left, lifting off too early in traffic"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "15:35",
+      "sequence": 12,
+      "label_guess": "T8",
+      "braking": "Build up to 100% brake just before the outside curb",
+      "line": "Turn-in at curb, apex at curb, cut inside on exit",
+      "exit": "Release brakes over crest, use right wheels on white line",
+      "mistakes": "Don't smash the brake, build up gradually"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "16:53",
+      "sequence": 13,
+      "line": "Cut inside curb, aim for left part of curb, half car over line.",
+      "exit": "100% throttle after settling from curb bounce.",
+      "mistakes": "Wiggling here loses time to line, aggressive throttle can cause car to snap around."
+    }
+  ],
+  "general_tips": [
+    "be wary of dirt on the way in with people going over the grass",
+    "stay over the white line in the race",
+    "cut over the outside run off on a hotlap",
+    "avoid sending the car too hard into turn one",
+    "two lines here and then a third line here",
+    "braking line, turning in line, downshift line",
+    "do your downshift pretty late",
+    "releasing the brake quite early",
+    "on throttle very very early here",
+    "follow this curb around",
+    "aggressive on throttle up to 100%",
+    "wait on the throttle a little bit in the long run",
+    "get off the throttle on the brakes as soon as you get on the curb",
+    "Be patient on throttle application",
+    "Be patient on throttle after the wiggle to avoid slipping and sliding."
+  ],
+  "dropped_ungrounded": 1
+}

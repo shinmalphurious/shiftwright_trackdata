@@ -1,0 +1,298 @@
+{
+  "video_id": "PuPH6wEVUDo",
+  "track_id": 200,
+  "track_name": "Circuit Zolder - Alternate",
+  "title": "Zolder (Alternate & Grand Prix) | In Depth Track Guide | iRacing",
+  "car": "ferrari gt3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake after the orange strip on the wall.",
+      "line": "Turn in close to the wall on the right.",
+      "mistakes": "Don't be afraid to get close to the wall.",
+      "note_id": "PuPH6wEVUDo:0",
+      "text": "braking: Brake after the orange strip on the wall.; line: Turn in close to the wall on the right.; mistakes: Don't be afraid to get close to the wall.",
+      "spoken_as": "turn one",
+      "passage_time": "1:45",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:25",
+      "snippet": "strip of paint on the wall there we're just gonna be breaking after that so breaking right around here so it's",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Peak at 16, downshift on braking",
+      "line": "Turn in close to inside curb, late apex",
+      "exit": "Use all track on left, swing back to right",
+      "mistakes": "Taking too much inside curb destabilizes car",
+      "note_id": "PuPH6wEVUDo:1",
+      "text": "gear: Peak at 16, downshift on braking; line: Turn in close to inside curb, late apex; exit: Use all track on left, swing back to right; mistakes: Taking too much inside curb destabilizes car",
+      "spoken_as": "turn one",
+      "passage_time": "3:03",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.32,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.91
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break right there at that little grass spot",
+      "gear": "third gear",
+      "line": "turn in immediately after braking",
+      "exit": "throttle up, use a bit of gravel on the left",
+      "mistakes": "be very careful past the white line",
+      "note_id": "PuPH6wEVUDo:2",
+      "text": "braking: break right there at that little grass spot; gear: third gear; line: turn in immediately after braking; exit: throttle up, use a bit of gravel on the left; mistakes: be very careful past the white line",
+      "spoken_as": "turn four",
+      "passage_time": "4:23",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:40",
+      "snippet": "third gear and just a nice straight throttle up and you can use a bit of the gravel there on the left um you have to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break after the 100 meter board",
+      "line": "take flat part of curb on first apex",
+      "mistakes": "take too much curb on first apex",
+      "note_id": "PuPH6wEVUDo:3",
+      "text": "braking: break after the 100 meter board; line: take flat part of curb on first apex; mistakes: take too much curb on first apex",
+      "spoken_as": "the chicanes",
+      "passage_time": "5:41",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:51",
+      "snippet": "curb on the first apex i try to hit that you don't really want to take too much curb on the first apex but the second",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking quite after the 100 meter board",
+      "line": "flat part of the curb doesn't unsettle the car",
+      "exit": "aim for the end of this white sausage curb",
+      "mistakes": "more than halfway on any of the white sausage curbs is off track",
+      "note_id": "PuPH6wEVUDo:4",
+      "text": "braking: braking quite after the 100 meter board; line: flat part of the curb doesn't unsettle the car; exit: aim for the end of this white sausage curb; mistakes: more than halfway on any of the white sausage curbs is off track",
+      "spoken_as": "this corner",
+      "passage_time": "6:59",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:16",
+      "snippet": "motion breaking quite after the 100 meter board as close as you can to the right turn in flat part of the curb"
+    },
+    {
+      "braking": "Brake hard once car is straight after brake marker.",
+      "line": "Keep straight, use half of the inside curb.",
+      "mistakes": "Using too much curb leads to off track.",
+      "note_id": "PuPH6wEVUDo:5",
+      "text": "braking: Brake hard once car is straight after brake marker.; line: Keep straight, use half of the inside curb.; mistakes: Using too much curb leads to off track.",
+      "spoken_as": "the chicane here",
+      "passage_time": "8:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "line": 0.83,
+          "mistakes": 0.67
+        }
+      },
+      "time": "8:53",
+      "snippet": "good break marker is once the car is completely straight boom cars completely straight that's what i'm going on the"
+    },
+    {
+      "braking": "Dab brakes, release slowly",
+      "gear": "2",
+      "line": "Use curb on right, curve on left",
+      "exit": "Full throttle at end",
+      "mistakes": "Go full throttle too soon, wash out wide",
+      "note_id": "PuPH6wEVUDo:6",
+      "text": "braking: Dab brakes, release slowly; gear: 2; line: Use curb on right, curve on left; exit: Full throttle at end; mistakes: Go full throttle too soon, wash out wide",
+      "spoken_as": "Butte",
+      "passage_time": "9:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:02",
+      "snippet": "slowly slowly use curb on the right curve on the left and then that's pretty much it for the"
+    },
+    {
+      "line": "Straight line, use as much kerb as possible",
+      "exit": "Patience, then full throttle",
+      "note_id": "PuPH6wEVUDo:7",
+      "text": "line: Straight line, use as much kerb as possible; exit: Patience, then full throttle",
+      "spoken_as": "turn seven",
+      "passage_time": "9:34",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.67
+        }
+      },
+      "time": "10:36",
+      "snippet": "second gear i'm not going full throttle until the end of the curve because if you go full throttle any sooner you're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at 100 meter board",
+      "line": "Take tight line, mid apex",
+      "exit": "Use track dip to pull through corner",
+      "mistakes": "Braking later than 100 meter board",
+      "note_id": "PuPH6wEVUDo:8",
+      "text": "braking: Brake at 100 meter board; line: Take tight line, mid apex; exit: Use track dip to pull through corner; mistakes: Braking later than 100 meter board",
+      "spoken_as": "next corner",
+      "passage_time": "10:51",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:35",
+      "snippet": "we're gonna be braking at the 100 meter board any later than that and you'll be quite far out from where",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift slightly after 100 meter board",
+      "line": "aim for orange painted wall at end",
+      "exit": "use curb on right, take more track with white line",
+      "mistakes": "don't get too close to wall",
+      "note_id": "PuPH6wEVUDo:9",
+      "text": "braking: lift slightly after 100 meter board; line: aim for orange painted wall at end; exit: use curb on right, take more track with white line; mistakes: don't get too close to wall",
+      "spoken_as": "turn nine",
+      "passage_time": "12:08",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.8
+        }
+      },
+      "time": "12:52",
+      "snippet": "we're just lifting slightly right after the 100 meter board is when i'm lifting and one thing that i found that really"
+    },
+    {
+      "braking": "keep eye on orange paint for turn-in",
+      "line": "turn in a little bit of track on the inside",
+      "exit": "lift fully then slowly lift less and less until you can find the point",
+      "mistakes": "car will be all over the place if you don't have confidence, use the dirt on the right to oversteer the car",
+      "note_id": "PuPH6wEVUDo:10",
+      "text": "braking: keep eye on orange paint for turn-in; line: turn in a little bit of track on the inside; exit: lift fully then slowly lift less and less until you can find the point; mistakes: car will be all over the place if you don't have confidence, use the dirt on the right to oversteer the car",
+      "spoken_as": "next corner",
+      "passage_time": "13:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8,
+          "line": 1.0,
+          "exit": 0.83
+        }
+      },
+      "time": "13:25",
+      "snippet": "there but definitely keep your eye on that orange paint there and that's a really good reference because when you"
+    },
+    {
+      "braking": "Brake slightly after 100m board, between 100m and bio racer sponsorship",
+      "line": "Turn in using inside curve, apex using more inside curve",
+      "exit": "Open throttle, use track on left",
+      "mistakes": "Careful with wall on left and grass",
+      "note_id": "PuPH6wEVUDo:11",
+      "text": "braking: Brake slightly after 100m board, between 100m and bio racer sponsorship; line: Turn in using inside curve, apex using more inside curve; exit: Open throttle, use track on left; mistakes: Careful with wall on left and grass",
+      "spoken_as": "last turn 10",
+      "passage_time": "14:43",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.8,
+          "exit": 1.0
+        }
+      },
+      "time": "15:32",
+      "snippet": "using curve on the inside you can definitely use a little bit more curve on the inside and then we're gonna be",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

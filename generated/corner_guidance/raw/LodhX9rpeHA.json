@@ -1,0 +1,82 @@
+{
+  "video_id": "LodhX9rpeHA",
+  "track_id": 230,
+  "track_name": "Circuit of the Americas - East",
+  "title": "iRacing Corvette GT3 COTA Guide 2:05.0 Corvette GT3 Circuit Of The Americas Track Guide",
+  "car_hint": "general",
+  "car": "Corvette GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:50:46.814202+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:45",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "65% to first gear",
+      "gear": "1st",
+      "line": "turn in, apex, flat",
+      "exit": "slowly back on gas, left side"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:45",
+      "sequence": 1,
+      "line": "flat, left curb",
+      "exit": "straighten steering, 40% brakes"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "left-hander of turn five",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "8-10% to first apex",
+      "gear": "4th",
+      "line": "trail off, flat",
+      "exit": "lightly brake, curb, back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 12",
+      "start_time": "4:03",
+      "sequence": 2,
+      "braking": "100 to 150m, 65%, 1st gear",
+      "gear": "1st",
+      "exit": "back on gas at apex, increase throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 15",
+      "start_time": "5:21",
+      "sequence": 3,
+      "braking": "brake to 35%, drop to first gear",
+      "gear": "first gear",
+      "line": "get alongside focused health, head left at apex",
+      "exit": "flat to Jora Bridge, trail off to 40%, reach 100% by turn end"
+    },
+    {
+      "label": null,
+      "spoken_as": "final bit of braking",
+      "start_time": "5:21",
+      "sequence": 3,
+      "braking": "brake to 60% alongside little road",
+      "gear": "second gear",
+      "line": "get tight to sausage curb ahead of apex",
+      "exit": "back on gas ahead of apex",
+      "mistakes": "do not hit sausage curb"
+    }
+  ],
+  "general_tips": [
+    "remain flat through turn three",
+    "straighten steering wheel on brakes",
+    "trail off brakes",
+    "pick up gas smoothly",
+    "look for end of grass",
+    "throttle and brake control in this car around here is needed"
+  ],
+  "dropped_ungrounded": 0
+}

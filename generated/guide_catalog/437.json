@@ -1,51 +1,65 @@
 {
   "track_id": 437,
   "layout": "437-lacoliseum",
+  "name": "LA Coliseum Raceway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:10:15.691601+00:00",
+  "candidates_seen": 57,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 57,
+    "new_candidates": 54,
+    "accepted": 3,
+    "selected": 3,
+    "kept_previous": 3,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 54,
+    "rejection_reasons": {
+      "no guide words in title": 31,
+      "venue not in title": 14,
+      "too short": 5,
+      "too long": 3,
+      "score below 60": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
-        "video_id": "Qhg8KZeslFs",
-        "title": "A Track Guide To the LA Coliseum: NASCAR\u2019s Newest Experiment",
-        "description": "Hello all! I'm back.",
+        "video_id": "ez5Wbb_3tWk",
+        "title": "iRacing Fixed NASCAR Series Tutorial: C Fixed Trucks at LA Coliseum 23S1. Maconi Setup Shop",
+        "description": "iRacing NASCAR Fixed Series Tutorial by Justin Yee for Maconi Setup Shop LLC.",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 739,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 196,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "2p9FY50fHwY",
-        "title": "Whelen Tour Mods - LA Coliseum - iRacing NASCAR",
-        "description": "iRacing Referral Code and Equipment listed in description. iRacing Referral code\u00a0...",
-        "video_type": "other",
+        "video_id": "Qhg8KZeslFs",
+        "title": "A Track Guide To the LA Coliseum: NASCAR’s Newest Experiment",
+        "description": "Hello all! I'm back.",
+        "channel": "Ethan Snyder",
+        "duration": 892,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 146,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "Yh0TZJ73LOg",
-        "title": "Testing Out the iRacing LA Coliseum!",
-        "description": "Making laps at the new LA Coliseum in the ARCA car, the 87 Monte Carlo, and the Next Gen.",
-        "video_type": "other",
+        "video_id": "ugtgvo0SfHk",
+        "title": "A Traveler's Guide to NASCAR's Busch Clash at the LA Coliseum!",
+        "description": "Make the most of race weekend with this travel guide! If you're visiting Los Angeles, California for the Busch Clash at the LA ...",
+        "channel": "TrackHopper",
+        "duration": 958,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
-      }
-    ],
-    "modified": [
-      {
-        "video_id": "IOfLC2laieA",
-        "title": "title defense - iRacing SK Modifieds Fixed at the LA Coliseum",
-        "description": "Last time we were at this track I won, so hoping to do more of that My Discord: https://discord.gg/fdhQFXuSrJ Team Discord:\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
-      }
-    ],
-    "late_model": [
-      {
-        "video_id": "oU64nR-m_ro",
-        "title": "iRacing - Late Models at the LA Coliseum",
-        "description": "0:00 - Racing 19:47 - Wrecks and Results.",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
+        "quality_score": 116,
+        "venue_confidence": 0.9
       }
     ]
   }

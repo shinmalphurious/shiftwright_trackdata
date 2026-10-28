@@ -1,0 +1,495 @@
+{
+  "video_id": "-Gme0-yplr0",
+  "track_id": 195,
+  "track_name": "Mobility Resort Motegi - Grand Prix",
+  "title": "iRacing F4 Mobility Resort Motegi Guide - 1:51.4 (Using Fixed Setup) - Track Guide F4 Motegi",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "50-m board, brake at 80%",
+      "gear": "trail off to 3rd gear",
+      "line": "flat",
+      "exit": "gently back on power",
+      "mistakes": "quick trail off",
+      "note_id": "-Gme0-yplr0:0",
+      "text": "braking: 50-m board, brake at 80%; gear: trail off to 3rd gear; line: flat; exit: gently back on power; mistakes: quick trail off",
+      "spoken_as": "main straight",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:05",
+      "snippet": "gear. Gently back on with the power. Absolutely flat through turn four. As we move uh slowly back up to the",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.343,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T6",
+        "estimated_pct": 0.2099,
+        "corner_pct": 0.2051,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T6",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5"
+        ]
+      }
+    },
+    {
+      "braking": "70-m board, brake at 70%",
+      "gear": "3rd gear",
+      "line": "flat",
+      "exit": "gently back on power",
+      "note_id": "-Gme0-yplr0:1",
+      "text": "braking: 70-m board, brake at 70%; gear: 3rd gear; line: flat; exit: gently back on power",
+      "spoken_as": "70-m board",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:05",
+      "snippet": "gear. Gently back on with the power. Absolutely flat through turn four. As we move uh slowly back up to the",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.343,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T6",
+        "estimated_pct": 0.2099,
+        "corner_pct": 0.2051,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T6",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5"
+        ]
+      }
+    },
+    {
+      "braking": "flat",
+      "gear": "flat",
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "-Gme0-yplr0:2",
+      "text": "braking: flat; gear: flat; line: flat; exit: flat",
+      "spoken_as": "turn six",
+      "passage_time": "1:18",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:26",
+      "snippet": "We're flat through turn six. And we're looking more or less at the 50 board",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 board",
+      "mistakes": "braking too hard",
+      "note_id": "-Gme0-yplr0:3",
+      "text": "braking: 50 board; mistakes: braking too hard",
+      "spoken_as": "turn seven",
+      "passage_time": "1:18",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:34",
+      "snippet": "for turn seven. I'm braking too hard. Smoothly back on in fourth, little dab on the brakes. And again, gently back",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 board",
+      "gear": "down to third gear",
+      "line": "cutting the corner",
+      "exit": "getting on the gas",
+      "mistakes": "slippy on exit",
+      "note_id": "-Gme0-yplr0:4",
+      "text": "braking: 50 board; gear: down to third gear; line: cutting the corner; exit: getting on the gas; mistakes: slippy on exit",
+      "spoken_as": "turn nine",
+      "passage_time": "1:18",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.91,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:45",
+      "snippet": "Down to third gear, cutting the corner, getting on the gas. A bit slippy on exit, just watch yourself there.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50-m board, braking hard",
+      "gear": "down to second gear",
+      "exit": "gradually easing on with the gas pedal",
+      "note_id": "-Gme0-yplr0:5",
+      "text": "braking: 50-m board, braking hard; gear: down to second gear; exit: gradually easing on with the gas pedal",
+      "spoken_as": "turn 10 hairpin",
+      "passage_time": "1:18",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.91,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:54",
+      "snippet": "50-m board, braking hard. Trail it off, down to second gear, and again, just gradually easing on with the gas",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "100 braking, almost up to about what, 95%",
+      "gear": "down to third gear, up to fourth",
+      "line": "flat",
+      "exit": "exit wide",
+      "mistakes": "don't lose too much time",
+      "note_id": "-Gme0-yplr0:6",
+      "text": "braking: 100 braking, almost up to about what, 95%; gear: down to third gear, up to fourth; line: flat; exit: exit wide; mistakes: don't lose too much time",
+      "spoken_as": "turn 11",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:18",
+      "snippet": "to third gear, up to fourth. We're going to go flat. Now, we're going to trail off on the brake, down to third gear,",
+      "best_candidate": {
+        "corner_id": "T12",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T10",
+        "before": "start/finish",
+        "estimated_pct": 0.8817,
+        "corner_pct": 0.8896,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T10",
+        "before": "start/finish",
+        "corners_between": [
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    },
+    {
+      "braking": "braking briefly up to 80%, trail off before apex",
+      "gear": "down to third gear",
+      "line": "cut the corner",
+      "exit": "exit wide, get back on gas at apex",
+      "note_id": "-Gme0-yplr0:7",
+      "text": "braking: braking briefly up to 80%, trail off before apex; gear: down to third gear; line: cut the corner; exit: exit wide, get back on gas at apex",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:40",
+      "snippet": "trail off in third, getting back on the gas, or starting to at the apex. And then, getting up to full power, and"
+    },
+    {
+      "braking": "braking briefly up to 70%",
+      "gear": "third gear",
+      "line": "cut the corner",
+      "exit": "get up to full power",
+      "note_id": "-Gme0-yplr0:8",
+      "text": "braking: braking briefly up to 70%; gear: third gear; line: cut the corner; exit: get up to full power",
+      "spoken_as": "second braking marker",
+      "passage_time": "2:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:38",
+      "snippet": "again briefly up to about 70%. Standard trail off in third, getting back on the gas, or starting to at the apex."
+    },
+    {
+      "braking": "50 m board, nearly 90%",
+      "gear": "3rd",
+      "line": "wide entry, cut corner slightly",
+      "exit": "full power",
+      "note_id": "-Gme0-yplr0:9",
+      "text": "braking: 50 m board, nearly 90%; gear: 3rd; line: wide entry, cut corner slightly; exit: full power",
+      "spoken_as": "turn five",
+      "passage_time": "3:59",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:23",
+      "snippet": "Cut the corner very slightly. 50 m board is going to be our braking marker for turn seven. And it's not as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "note_id": "-Gme0-yplr0:10",
+      "text": "line: flat",
+      "spoken_as": "turn six",
+      "passage_time": "3:59",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:20",
+      "snippet": "Going to be flat through six, a nice wide entry. Cut the corner very slightly."
+    },
+    {
+      "braking": "50 m board, 55%",
+      "gear": "4th",
+      "exit": "2/3 power, straighten wheel, full power, dab on brakes",
+      "note_id": "-Gme0-yplr0:11",
+      "text": "braking: 50 m board, 55%; gear: 4th; exit: 2/3 power, straighten wheel, full power, dab on brakes",
+      "spoken_as": "turn seven",
+      "passage_time": "3:59",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:44",
+      "snippet": "straighten my wheel and go up to full power, and then just a little dab on the brakes.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 m board, 75%",
+      "gear": "3rd",
+      "exit": "full power",
+      "mistakes": "getting back on gas early",
+      "note_id": "-Gme0-yplr0:12",
+      "text": "braking: 50 m board, 75%; gear: 3rd; exit: full power; mistakes: getting back on gas early",
+      "spoken_as": "turn eight",
+      "passage_time": "3:59",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:15",
+      "snippet": "get back on the gas nice and early. So, I was getting on the gas really late uh cuz it's quite slippery. But, you've got",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 m board, brake to 80%, trail off to apex",
+      "gear": "drop to 2nd, build power at apex",
+      "line": "cut the corner",
+      "exit": "get up to 100% on exit",
+      "mistakes": "getting on the gas late",
+      "note_id": "-Gme0-yplr0:13",
+      "text": "braking: 50 m board, brake to 80%, trail off to apex; gear: drop to 2nd, build power at apex; line: cut the corner; exit: get up to 100% on exit; mistakes: getting on the gas late",
+      "spoken_as": "the hairpin",
+      "passage_time": "5:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "gear": 0.67,
+          "mistakes": 1.0
+        }
+      },
+      "time": "5:34",
+      "snippet": "50 m board for the hairpin or just before it. And again, we're braking quite hard, only up to about 80% there.",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.234,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "T11",
+        "estimated_pct": 0.6143,
+        "corner_pct": 0.583,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "T11",
+        "corners_between": [
+          "T9",
+          "T10"
+        ]
+      }
+    },
+    {
+      "braking": "brake to 90%",
+      "gear": "change to 3rd",
+      "exit": "2/3 pressure at apex, up to 100% on exit",
+      "note_id": "-Gme0-yplr0:14",
+      "text": "braking: brake to 90%; gear: change to 3rd; exit: 2/3 pressure at apex, up to 100% on exit",
+      "spoken_as": "just before the 100 m",
+      "passage_time": "5:17",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:18",
+      "snippet": "Change down to third gear starting to get back on the gas only about 2/3 pressure at the apex and again",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "up to 4th",
+      "line": "flat through",
+      "exit": "straighten the wheel out",
+      "note_id": "-Gme0-yplr0:15",
+      "text": "gear: up to 4th; line: flat through; exit: straighten the wheel out",
+      "spoken_as": "turn 12",
+      "passage_time": "5:17",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:30",
+      "snippet": "gear we're going to go flat through turn 12 and we're going to straighten the wheel out here and then more or less as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "dab on brakes after second apex, down to third gear",
+      "line": "cut corner as much as possible without getting the X",
+      "exit": "up to 100%",
+      "mistakes": "getting the X",
+      "note_id": "-Gme0-yplr0:16",
+      "text": "braking: dab on brakes after second apex, down to third gear; line: cut corner as much as possible without getting the X; exit: up to 100%; mistakes: getting the X",
+      "spoken_as": "this corner",
+      "passage_time": "6:35",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:45",
+      "snippet": "Um after the second apex here I actually dab the brakes again dropped it down to third gear. You",
+      "best_candidate": {
+        "corner_id": "T14",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T12",
+        "before": "start/finish",
+        "estimated_pct": 0.9437,
+        "corner_pct": 0.9297,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T12",
+        "before": "start/finish",
+        "corners_between": [
+          "T13",
+          "T14"
+        ]
+      }
+    }
+  ]
+}

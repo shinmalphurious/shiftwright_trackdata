@@ -1,0 +1,85 @@
+{
+  "video_id": "7M5b30isBXA",
+  "track_id": 185,
+  "track_name": "Oulton Park Circuit - Intl w/no Chicanes",
+  "title": "Track Guide Oulton Park INT W/O Chicanes Toyota GR86 iRacing",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:37:34.834100+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at the banner with yellow text, 70% pressure, ease off to mid track.",
+      "line": "Roll into the corner, cut the inside curb, accelerate before the dip.",
+      "exit": "Accelerate using the outside curb, avoid the grass.",
+      "mistakes": "Cut too much inside curb, touch grass to spin the car."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Go out wide for turn two."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "70% brake pressure, trail brake to inside curb.",
+      "line": "Apex about a car length before no-cut zone, use outside curb on exit.",
+      "exit": "Pick up throttle at apex, use outside curb, avoid grass.",
+      "mistakes": "Cut too much inside curb, touch grass to spin the car."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Lift off at curb, 50% throttle.",
+      "line": "Aim for end of inside curb as apex.",
+      "mistakes": "Stay on right side of track to avoid overtaking."
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "break once at the end of the tire wall, 80% pressure, trail brake to top",
+      "line": "aim for end of inside curb as apex",
+      "exit": "pick up throttle at top, use outside curb for speed",
+      "mistakes": "stay close to inside curb, avoid outside curb too early"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn 7",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "brake at first curb on left, 80% pressure, trail brake to inside grass",
+      "exit": "pick up throttle past inside grass, avoid bump",
+      "mistakes": "don't cut grass too aggressively, avoid going wide"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "Turn 11",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "Break just before the dip, 90% brake pressure, trail off to emergency road",
+      "line": "Flat out, use exit curve",
+      "exit": "Pick up throttle, use exit curve",
+      "mistakes": "Do not hit curb, do not take too much curb"
+    }
+  ],
+  "general_tips": [
+    "In the race, stay on the right side of the track for turn four.",
+    "be on the left side of the track for turn 10 in qualifying",
+    "In qualifying, be on the left side of the track for turn 11"
+  ],
+  "dropped_ungrounded": 0
+}

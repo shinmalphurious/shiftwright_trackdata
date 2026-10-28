@@ -1,0 +1,93 @@
+{
+  "track_id": 199,
+  "track": "Circuit Zolder - Grand Prix",
+  "records": {
+    "199:T3:slow_corner": {
+      "id": "199:T3:slow_corner",
+      "track_id": 199,
+      "track": "Circuit Zolder - Grand Prix",
+      "corner": "T3",
+      "corner_name": "Kanaalbocht",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner (290m) and likely a tight corner.",
+          "at": "2026-10-28T09:27:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.097,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:11+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.035,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.097
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "6lZk1WLA3Qc",
+              "result": "contradict",
+              "time": "1:39",
+              "note": "line: flat out",
+              "transcript_snippet": "turn three is flat out turn four a quick lift and back on the thrt a short straight before the turn five chicane",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=6lZk1WLA3Qc"
+            },
+            {
+              "video_id": "sYVt_IKnzdc",
+              "result": "contradict",
+              "time": "2:55",
+              "note": "braking: remain flat",
+              "transcript_snippet": "We're going to remain flat as we go through [music] turn three. Now coming into turn four. What we're looking for",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=sYVt_IKnzdc"
+            },
+            {
+              "video_id": "tKssNSBcX6U",
+              "result": "contradict",
+              "time": "3:14",
+              "note": "line: flat",
+              "transcript_snippet": "We're going to go flat through turn three. For turn four, we're looking on the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=tKssNSBcX6U"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 3,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); 0 video(s) confirm, 3 contradict; consensus 0.10 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

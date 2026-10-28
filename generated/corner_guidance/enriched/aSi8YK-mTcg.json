@@ -1,0 +1,237 @@
+{
+  "video_id": "aSi8YK-mTcg",
+  "track_id": 167,
+  "track_name": "Okayama International Circuit - Short",
+  "title": "iRacing Formula Vee Okayama International Full Circuit - Track Guide & Tips - Rookie Fixed Setup",
+  "car": null,
+  "car_hint": "vee",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "gear": "3rd",
+      "line": "Turn-in to right, apex at muddy patch, lift off, exit wide left",
+      "exit": "4th gear, keep straight through Kink",
+      "note_id": "aSi8YK-mTcg:0",
+      "text": "gear: 3rd; line: Turn-in to right, apex at muddy patch, lift off, exit wide left; exit: 4th gear, keep straight through Kink",
+      "spoken_as": "the cone on the right hand side",
+      "passage_time": "0:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:54",
+      "snippet": "Fourth keep it straight through the Kink trying to spot the 50 meter marker on the left here for turn"
+    },
+    {
+      "braking": "braking marker, up to 80%, trailing",
+      "line": "turn-in to right, apex right",
+      "exit": "lift, back on gas",
+      "note_id": "aSi8YK-mTcg:1",
+      "text": "braking: braking marker, up to 80%, trailing; line: turn-in to right, apex right; exit: lift, back on gas",
+      "spoken_as": "Into The Hairpin",
+      "passage_time": "1:23",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:29",
+      "snippet": "trailing at off down to the Apex dropping it down to third over to the right hand side just a lift through"
+    },
+    {
+      "braking": "don't overbrake, brake up to 55%",
+      "gear": "fourth gear",
+      "line": "turn towards Apex, trail brake",
+      "exit": "downshift to third gear at Apex, go 100% gas",
+      "mistakes": "over slowing, locking up wheels",
+      "note_id": "aSi8YK-mTcg:2",
+      "text": "braking: don't overbrake, brake up to 55%; gear: fourth gear; line: turn towards Apex, trail brake; exit: downshift to third gear at Apex, go 100% gas; mistakes: over slowing, locking up wheels",
+      "spoken_as": "turn one",
+      "passage_time": "2:41",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:08",
+      "snippet": "don't drop it down to third gear until I hit the Apex and as you can see I'm already on 100% gas once I hit that uh",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift to 28%",
+      "line": "turn in at end of grass, over mud patch",
+      "exit": "get back on gas very early, exit wide, up to fourth gear, straighten car out through kink",
+      "note_id": "aSi8YK-mTcg:3",
+      "text": "braking: lift to 28%; line: turn in at end of grass, over mud patch; exit: get back on gas very early, exit wide, up to fourth gear, straighten car out through kink",
+      "spoken_as": "turn two",
+      "passage_time": "2:41",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:53",
+      "snippet": "turn exit wide go up to Fourth straighten the car out through the kink and now for turn four so outward curve",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 meter marker, 65% pressure",
+      "gear": "4, then 3",
+      "line": "trail braking, turn in late, exit wide",
+      "exit": "100% throttle early",
+      "note_id": "aSi8YK-mTcg:4",
+      "text": "braking: 50 meter marker, 65% pressure; gear: 4, then 3; line: trail braking, turn in late, exit wide; exit: 100% throttle early",
+      "spoken_as": "outward curve",
+      "passage_time": "4:05",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:18",
+      "snippet": "we have the 50 meter marker that is going to be our breaking marker going to break up to what's at 65% so about 2/3",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Marshall's Hut, 80% pressure",
+      "note_id": "aSi8YK-mTcg:5",
+      "text": "braking: Marshall's Hut, 80% pressure",
+      "spoken_as": "the hairpin",
+      "passage_time": "4:05",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:07",
+      "snippet": "Hut so as we get to the Marshall's Hut on the left here with the big number 10 on it I'm going to break quite hard I'm",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking marker halfway between 50 and Marshall's Hut, brake up to 80%",
+      "gear": "third",
+      "line": "turn-in at white line, lift to 5%, build back up",
+      "exit": "wide exit, avoid grass",
+      "mistakes": "stay out of grass",
+      "note_id": "aSi8YK-mTcg:6",
+      "text": "braking: braking marker halfway between 50 and Marshall's Hut, brake up to 80%; gear: third; line: turn-in at white line, lift to 5%, build back up; exit: wide exit, avoid grass; mistakes: stay out of grass",
+      "spoken_as": "six",
+      "passage_time": "5:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62
+        }
+      },
+      "time": "6:29",
+      "snippet": "between the 50 marker on the right hand side and the Marshall's hook up ahead and there we're going to break up to"
+    },
+    {
+      "braking": "braking marker halfway between 50 and Marshall's Hut, brake up to 80%",
+      "gear": "third",
+      "line": "turn-in at white line, lift to 9%",
+      "exit": "wide exit, avoid grass",
+      "mistakes": "stay out of grass",
+      "note_id": "aSi8YK-mTcg:7",
+      "text": "braking: braking marker halfway between 50 and Marshall's Hut, brake up to 80%; gear: third; line: turn-in at white line, lift to 9%; exit: wide exit, avoid grass; mistakes: stay out of grass",
+      "spoken_as": "seven",
+      "passage_time": "5:22",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "line": 0.6
+        }
+      },
+      "time": "6:29",
+      "snippet": "between the 50 marker on the right hand side and the Marshall's hook up ahead and there we're going to break up to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "flat",
+      "line": "wide",
+      "exit": "100% gas early exit",
+      "note_id": "aSi8YK-mTcg:8",
+      "text": "gear: flat; line: wide; exit: 100% gas early exit",
+      "spoken_as": "turn 10",
+      "passage_time": "6:40",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:10",
+      "snippet": "back on with the gas and I'm on 100% nice and early exit"
+    },
+    {
+      "braking": "25% on muddy bit",
+      "line": "turn in early and hard",
+      "exit": "get back on gas early exit",
+      "note_id": "aSi8YK-mTcg:9",
+      "text": "braking: 25% on muddy bit; line: turn in early and hard; exit: get back on gas early exit",
+      "spoken_as": "turn 11",
+      "passage_time": "6:40",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:10",
+      "snippet": "back on with the gas and I'm on 100% nice and early exit"
+    }
+  ]
+}

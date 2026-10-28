@@ -1,23 +1,90 @@
 {
   "track_id": 256,
   "layout": "256-southernnational",
+  "name": "Southern National Motorsports Park",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:24:23.743363+00:00",
+  "candidates_seen": 45,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 45,
+    "new_candidates": 35,
+    "accepted": 9,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [
+      "v_QgwXbDlcI"
+    ],
+    "new_selected": 0,
+    "rejected": 35,
+    "rejection_reasons": {
+      "no guide words in title": 24,
+      "too short": 5,
+      "venue not in title": 4,
+      "too long": 2
+    }
+  },
   "selected_guides": {
+    "arca": [
+      {
+        "video_id": "9YfnkqI-wJY",
+        "title": "How to drive ARCA at Southern National Motorsports Park | Week 8 iRacing Guide",
+        "description": "ARCA gets its toughest test yet as it goes to the high-banked short track that is sure to tear up racecars and ruin safety ratings ...",
+        "channel": "Schildhouse",
+        "duration": 894,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "ymoP1WarEpE",
+        "title": "iRacing Track Guide: ARCA at Southern National",
+        "description": "Wow, I need to work on a thank you video for 50 subscribers!",
+        "channel": "PDResh",
+        "duration": 654,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
     "late_model": [
       {
         "video_id": "QtjPm09X8VM",
         "title": "Learn to Drive Southern National in a Late Model Stock for 2025 S3 Week 10 Lap Guide & Tutorial",
         "description": "Learn to Drive Southern National in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S3 Week 10 of official races!",
+        "channel": "Team53",
+        "duration": 694,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "BMz3b_6Esvs",
+        "title": "iRacing Super Late Model: Learn to Drive Southern National for 2025 S2 Week 6 Lap Guide & Tutorial",
+        "description": "Learn to drive Southern National in an iRacing Super Late Model (SLM) for the iRacing official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 510,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "v_QgwXbDlcI",
         "title": "Lap Guide: Super Late Model at Southern National",
         "description": "Join Brian Yaczik in the Super Late Model as he takes a few laps around Southern National Motorsports Park.",
+        "channel": "Global SimRacing Channel",
+        "duration": 52,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 120
+        "quality_score": null,
+        "venue_confidence": 0.9
       }
     ],
     "street_stock": [
@@ -25,55 +92,60 @@
         "video_id": "LiuNj1YmK3s",
         "title": "iRacing Track Guide: Street Stocks at Southern National",
         "description": "Music by Karl Casey at White Bat Audio.",
+        "channel": "PDResh",
+        "duration": 669,
         "video_type": "lap_walkthrough",
         "car": "street_stock",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "oaqfgcLlqX0",
+        "title": "iRacing Rookie Street Stock: Learn to Drive Southern National for 2025 Season 2 Week 4 Lap Guide",
+        "description": "Learn to drive Southern National in a Rookie Street Stock for the iRacing 2025 S2 Week 4 of official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 517,
+        "video_type": "lap_walkthrough",
+        "car": "street_stock",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "U5nbnRPe44s",
         "title": "Southern National Street Stock Basic Track Guide",
-        "description": "A simple track guide to help you survive Southern National and improve your laptimes in the rookie Street Stocks series on\u00a0...",
+        "description": "A simple track guide to help you survive Southern National and improve your laptimes in the rookie Street Stocks series on ...",
+        "channel": "Mattie Sinclair",
+        "duration": 734,
         "video_type": "lap_walkthrough",
         "car": "street_stock",
-        "quality_score": 120
-      }
-    ],
-    "arca": [
-      {
-        "video_id": "ymoP1WarEpE",
-        "title": "iRacing Track Guide: ARCA at Southern National",
-        "description": "Wow, I need to work on a thank you video for 50 subscribers!",
-        "video_type": "lap_walkthrough",
-        "car": "arca",
-        "quality_score": 220
-      },
-      {
-        "video_id": "Epb5Lc5KOp0",
-        "title": "\"Get your cars off the track!\" | ARCA Brake Weekly from Southern National 21S3",
-        "description": "\"A strange game. The only winning move is not to play.\" Team I5G can be found on: Twitter: https://twitter.com/TeamI5G Discord:\u00a0...",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 20
+        "quality_score": 146,
+        "venue_confidence": 0.9
       }
     ],
     "modified": [
       {
-        "video_id": "q_7pl2Wf4f8",
-        "title": "iRacing Setups - Southern National - Tour Modified.",
-        "description": "Hey Everyone If you are interested in joining feel free to message me or come over to https://www.kiwisimracing.net.nz and join us\u00a0...",
-        "video_type": "other",
+        "video_id": "T3gO2e79CJs",
+        "title": "iRacing SK Modified: Learn to Drive Southern National for 2025 Season 2 Week 10 Lap Guide & Tutorial",
+        "description": "Learn to drive Southern National in an SK Modified for the iRacing 2025 S2! The owner of Team53 provides a lap guide, walking ...",
+        "channel": "Team53",
+        "duration": 530,
+        "video_type": "lap_walkthrough",
         "car": "modified",
-        "quality_score": 120
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
-    "legends": [
+    "general": [
       {
-        "video_id": "MlJb06rAXOo",
-        "title": "How to Find the Fast Groove in Legends Cars at Southern National Motorsports Park",
-        "description": "This video shows the line I take at Southern National Motorsports Park. I show my turn in points, where I try to get back into the\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 20
+        "video_id": "VQsDZL2nm3M",
+        "title": "iRacing Mini Stock: Learn to Drive Southern National for 2025 Season 2 Week 4 Lap Guide & Tutorial",
+        "description": "Learn to drive Southern National in an iRacing Mini Stock for the iRacing 2025 S2 Week 4 of official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 384,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

@@ -1,0 +1,28 @@
+{
+  "_about": "Consensus scoring for src/pipelines/validate_knowledge_candidates.py. Evidence is combined as odds: the research confidence (capped) is the starting point and each piece of evidence multiplies the odds by its likelihood ratio. Telemetry > transcript > variant (existing validated knowledge at an identical corner of another layout) > research. Research alone can never promote a claim.",
+  "research_prior_cap": 0.75,
+  "prior_without_research": 0.5,
+  "likelihood_ratios": {
+    "extra_research_source": 1.25,
+    "transcript_confirm": 3.0,
+    "transcript_contradict": 0.33,
+    "max_transcript_videos": 5,
+    "telemetry_confirm": 20.0,
+    "telemetry_confirm_single_lap": 6.0,
+    "telemetry_contradict": 0.02,
+    "telemetry_contradict_single_lap": 0.1,
+    "variant_confirm": 4.0,
+    "variant_contradict": 0.25,
+    "max_variant_sources": 2
+  },
+  "promote": {"min_confidence": 0.9, "min_evidence": 1},
+  "reject": {"max_confidence": 0.3},
+  "bands": {"high": 0.9, "medium": 0.7},
+  "inheritance": {
+    "same_corner_px": 8,
+    "near_corner_px": 20,
+    "near_confidence": 0.9,
+    "legacy_confidence": 0.9,
+    "min_confidence": 0.9
+  }
+}

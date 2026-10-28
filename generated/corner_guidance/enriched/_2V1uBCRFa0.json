@@ -1,0 +1,152 @@
+{
+  "video_id": "_2V1uBCRFa0",
+  "track_id": 220,
+  "track_name": "New Jersey Motorsports Park - Thunderbolt",
+  "title": "Lap Guide SimRaceSA 2022.1 Audi TT Cup - New Jersey Motorsport Park",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "braking just at the two marker",
+      "gear": "fifth gear",
+      "line": "using all of the torque that fifth gear provides",
+      "exit": "get an excellent exit",
+      "mistakes": "cut the grass on the right hand side",
+      "note_id": "_2V1uBCRFa0:0",
+      "text": "braking: braking just at the two marker; gear: fifth gear; line: using all of the torque that fifth gear provides; exit: get an excellent exit; mistakes: cut the grass on the right hand side",
+      "spoken_as": "start finish line",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:28",
+      "snippet": "torque that fifth gear provides to get an excellent exit turning in just before the cone there riding as far wide as you",
+      "best_candidate": {
+        "corner_id": "T2",
+        "confidence": 0.428,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.1585,
+        "corner_pct": 0.1582,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "gear": "gearing down to fourth gear",
+      "line": "turning in just before the cone there riding as far wide as you possibly can",
+      "exit": "flicking the car through turn four",
+      "mistakes": "cut the grass on the right hand side",
+      "note_id": "_2V1uBCRFa0:1",
+      "text": "gear: gearing down to fourth gear; line: turning in just before the cone there riding as far wide as you possibly can; exit: flicking the car through turn four; mistakes: cut the grass on the right hand side",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:38",
+      "snippet": "and flicking the car through turn four and ensuring you don't cut the grass on the right hand side it slows you down up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "breaking just before the red and white curbing starts",
+      "line": "flicking the car in",
+      "exit": "get a good exit there",
+      "mistakes": "only a small amount of tail out",
+      "note_id": "_2V1uBCRFa0:2",
+      "text": "braking: breaking just before the red and white curbing starts; line: flicking the car in; exit: get a good exit there; mistakes: only a small amount of tail out",
+      "spoken_as": "turn seven",
+      "passage_time": "0:00",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:56",
+      "snippet": "before the red and white curbing starts getting a little bit of tail out action and back on the power through turn seven",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "tuck the car in nice and tight",
+      "exit": "get an excellent exit",
+      "mistakes": "critical easily the most critical corner on the whole track",
+      "note_id": "_2V1uBCRFa0:3",
+      "text": "line: tuck the car in nice and tight; exit: get an excellent exit; mistakes: critical easily the most critical corner on the whole track",
+      "spoken_as": "turn nine",
+      "passage_time": "0:00",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:12",
+      "snippet": "easily the most critical corner on the whole track get an excellent exit see how i tuck the car in nice and tight",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "keeping the car nice and narrow",
+      "line": "center of the track",
+      "mistakes": "running all way wide",
+      "note_id": "_2V1uBCRFa0:4",
+      "text": "braking: keeping the car nice and narrow; line: center of the track; mistakes: running all way wide",
+      "spoken_as": "turn 10",
+      "passage_time": "1:18",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:22",
+      "snippet": "nice and narrow center of the track and will cross the line for a 1 minute 5.218",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

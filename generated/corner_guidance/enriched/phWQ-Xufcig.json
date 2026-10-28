@@ -1,0 +1,313 @@
+{
+  "video_id": "phWQ-Xufcig",
+  "track_id": 197,
+  "track_name": "Mobility Resort Motegi - West",
+  "title": "IRPAS Season 11 Mobility Resort Motegi iRacing Lap Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "mistakes": "Carrying extra speed into the corner",
+      "note_id": "phWQ-Xufcig:0",
+      "text": "mistakes: Carrying extra speed into the corner",
+      "spoken_as": "Turns one and two",
+      "passage_time": "2:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:15",
+      "snippet": "carry that extra little bit of speed into the corner because nine times out of 10, MGI is going to make you pay for"
+    },
+    {
+      "exit": "Exit matters more than entry",
+      "mistakes": "Overdriving the entry",
+      "note_id": "phWQ-Xufcig:1",
+      "text": "exit: Exit matters more than entry; mistakes: Overdriving the entry",
+      "spoken_as": "three and four",
+      "passage_time": "2:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:08",
+      "snippet": "the exit matters far more than how brave you were on the way in. And that becomes a recurring theme around here. You're"
+    },
+    {
+      "braking": "between 100 and 50 board",
+      "mistakes": "compromising exit",
+      "note_id": "phWQ-Xufcig:2",
+      "text": "braking: between 100 and 50 board; mistakes: compromising exit",
+      "spoken_as": "final corner",
+      "passage_time": "6:48",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {
+        "alias": "final corner"
+      },
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:52",
+      "snippet": "100 and the 50 board. Um, it kind of varies depending on what kind of an exit you're getting out of that final corner",
+      "confidence": 0.9,
+      "assignment_method": "alias_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "Before 50 board, hard",
+      "line": "Float to middle, loop around final apex",
+      "exit": "Maximize acceleration",
+      "mistakes": "Picking up an off track on exit",
+      "note_id": "phWQ-Xufcig:3",
+      "text": "braking: Before 50 board, hard; line: Float to middle, loop around final apex; exit: Maximize acceleration; mistakes: Picking up an off track on exit",
+      "spoken_as": "turns one and two",
+      "passage_time": "8:06",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0
+        }
+      },
+      "time": "8:09",
+      "snippet": "brakes here just before the 50 board. Hard on the brakes. You see ABS kicks in. And the goal for turns one and two",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake past 100m board, hard on brakes down right side of road",
+      "gear": "3rd",
+      "line": "Run wide without touching grass, hit first apex, run wide mid-corner",
+      "exit": "Get on throttle early to maximize run to turn five",
+      "mistakes": "Too greedy on entry, hitting grass negates grip, compromises exit",
+      "note_id": "phWQ-Xufcig:4",
+      "text": "braking: Brake past 100m board, hard on brakes down right side of road; gear: 3rd; line: Run wide without touching grass, hit first apex, run wide mid-corner; exit: Get on throttle early to maximize run to turn five; mistakes: Too greedy on entry, hitting grass negates grip, compromises exit",
+      "spoken_as": "next braking marker",
+      "passage_time": "9:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "line": 0.64,
+          "exit": 1.0
+        }
+      },
+      "time": "9:40",
+      "snippet": "hand side of the road. We're looking for the 100 meter board. I usually aim to get on the brakes just past the 100. Um,"
+    },
+    {
+      "line": "tuck it into line",
+      "exit": "hard on the throttle on the way out",
+      "note_id": "phWQ-Xufcig:5",
+      "text": "line: tuck it into line; exit: hard on the throttle on the way out",
+      "spoken_as": "next corner",
+      "passage_time": "10:43",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:58",
+      "snippet": "hard on the throttle on the way out. This is another area where you can pick up an off track if you run too far wide."
+    },
+    {
+      "braking": "past the 100 meter board, hard",
+      "gear": "2nd",
+      "line": "late apex",
+      "exit": "hard on throttle, wait for traction",
+      "mistakes": "running wide, inducing wheel spin",
+      "note_id": "phWQ-Xufcig:6",
+      "text": "braking: past the 100 meter board, hard; gear: 2nd; line: late apex; exit: hard on throttle, wait for traction; mistakes: running wide, inducing wheel spin",
+      "spoken_as": "turn five",
+      "passage_time": "12:00",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:30",
+      "snippet": "past the 100 meter board. Hard on the brakes. We're going down into second. This is one of those patience kind of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake gradually before the 50.",
+      "line": "Keep tight without touching grass.",
+      "exit": "Throttle briefly, then downshift to third.",
+      "mistakes": "Braking too hard or too fast.",
+      "note_id": "phWQ-Xufcig:7",
+      "text": "braking: Brake gradually before the 50.; line: Keep tight without touching grass.; exit: Throttle briefly, then downshift to third.; mistakes: Braking too hard or too fast.",
+      "spoken_as": "just before the 50",
+      "passage_time": "13:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 1.0,
+          "exit": 0.8,
+          "mistakes": 1.0
+        }
+      },
+      "time": "13:38",
+      "snippet": "We're breaking just before the 50. Um, I also just kind of use the beginning of this curbing as a reference point for"
+    },
+    {
+      "braking": "Little bit of braking to keep car tucked in line.",
+      "gear": "Third",
+      "exit": "Hard on throttle before exit.",
+      "mistakes": "Over rotation, especially with gravel.",
+      "note_id": "phWQ-Xufcig:8",
+      "text": "braking: Little bit of braking to keep car tucked in line.; gear: Third; exit: Hard on throttle before exit.; mistakes: Over rotation, especially with gravel.",
+      "spoken_as": "first left",
+      "passage_time": "13:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:15",
+      "snippet": "car tucked in line there and then hard on throttle before exit. You want to make sure that you can just keep that"
+    },
+    {
+      "braking": "before 50 m board, hard",
+      "gear": "2",
+      "line": "middle of road, tighten in",
+      "exit": "maximize run onto straight",
+      "note_id": "phWQ-Xufcig:9",
+      "text": "braking: before 50 m board, hard; gear: 2; line: middle of road, tighten in; exit: maximize run onto straight",
+      "spoken_as": "next little hairpin",
+      "passage_time": "14:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:49",
+      "snippet": "road before we tighten it in. The goal is to just maximize the run onto this straight. This is actually the longest"
+    },
+    {
+      "braking": "Brake just before the 100 m board, downhill zone.",
+      "gear": "Downshift to appropriate gear before braking.",
+      "line": "Aggressively left, almost on grass, avoid curb.",
+      "exit": "Hop car down apex, road falls away here.",
+      "mistakes": "Dipping off curb ruins entry, car comes undone.",
+      "note_id": "phWQ-Xufcig:10",
+      "text": "braking: Brake just before the 100 m board, downhill zone.; gear: Downshift to appropriate gear before braking.; line: Aggressively left, almost on grass, avoid curb.; exit: Hop car down apex, road falls away here.; mistakes: Dipping off curb ruins entry, car comes undone.",
+      "spoken_as": "turn 11",
+      "passage_time": "15:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.83,
+          "exit": 1.0,
+          "mistakes": 0.71
+        }
+      },
+      "time": "16:28",
+      "snippet": "downhill braking zone. You'll see I worked the car really aggressively far to the left. We've got our wheels almost"
+    },
+    {
+      "gear": "3rd, 4th",
+      "line": "line up with curbing",
+      "exit": "hard on throttle",
+      "mistakes": "take more than half car over apex, get off track or slowdown",
+      "note_id": "phWQ-Xufcig:11",
+      "text": "gear: 3rd, 4th; line: line up with curbing; exit: hard on throttle; mistakes: take more than half car over apex, get off track or slowdown",
+      "spoken_as": "turn 1",
+      "passage_time": "17:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "mistakes": 0.71
+        }
+      },
+      "time": "17:57",
+      "snippet": "more than like half the car over this apex point, you you're fine. You're not going to get an off track or slow down"
+    },
+    {
+      "braking": "slow down in a straight line",
+      "line": "commit to full throttle past apex",
+      "exit": "throttle application, run out to left",
+      "mistakes": "induce over steer, compromise exit",
+      "note_id": "phWQ-Xufcig:12",
+      "text": "braking: slow down in a straight line; line: commit to full throttle past apex; exit: throttle application, run out to left; mistakes: induce over steer, compromise exit",
+      "spoken_as": "turn 14",
+      "passage_time": "18:30",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.8,
+          "exit": 0.75
+        }
+      },
+      "time": "19:08",
+      "snippet": "slowed down in a straight line. Um, and then just maximize your throttle application. You'll see we're just at or"
+    }
+  ]
+}

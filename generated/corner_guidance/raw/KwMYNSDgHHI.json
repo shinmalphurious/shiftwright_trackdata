@@ -1,0 +1,110 @@
+{
+  "video_id": "KwMYNSDgHHI",
+  "track_id": 229,
+  "track_name": "Circuit of the Americas - Grand Prix",
+  "title": "iRacing Ferrari GT3 COTA Guide 2:04.6 Ferrari 296 GT3 Circuit Of The Americas Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:50:29.537576+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "midway between the 150 and the 100 mark, 55%",
+      "gear": "first",
+      "line": "turn in, trail braking",
+      "exit": "pick back up on the gas"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:45",
+      "sequence": 1,
+      "line": "sweep through flat out"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "full lift on the brakes to about 30%, trail off to the right apex, then left",
+      "line": "flat until left curb, apex right, then left",
+      "exit": "get back on the gas, briefly up to 90%, lift for turn six"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 11",
+      "start_time": "4:05",
+      "sequence": 2,
+      "label_guess": "T10",
+      "braking": "on brakes once alongside orange marshals inlet, 60%",
+      "gear": "first using engine braking",
+      "line": "turn in and apex left",
+      "exit": "pick back up on gas smoothly"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "5:38",
+      "sequence": 3,
+      "braking": "brakes just after 150 marker, 60%, trail off",
+      "gear": "1",
+      "line": "turn in, apex at end of grass patch, white line",
+      "exit": "slowly pick up throttle",
+      "mistakes": "avoid traction control"
+    },
+    {
+      "label": "T15",
+      "spoken_as": "turn 15",
+      "start_time": "5:38",
+      "sequence": 3,
+      "braking": "brakes at start of Focused Health ad, 30%, trail off",
+      "line": "trail off to apex",
+      "exit": "slowly pick up throttle",
+      "mistakes": "careful brake and throttle application"
+    },
+    {
+      "label": "T16",
+      "spoken_as": "turn 16",
+      "start_time": "5:38",
+      "sequence": 3,
+      "braking": "brakes at start of Focused Health ad, 30%, trail off",
+      "line": "trail off to apex",
+      "exit": "slowly pick up throttle",
+      "mistakes": "careful brake and throttle application"
+    },
+    {
+      "label": null,
+      "spoken_as": "white line that bisects the track",
+      "start_time": "6:56",
+      "sequence": 4,
+      "label_guess": "T17",
+      "braking": "brakes to about 35% long trail off",
+      "gear": "second gear",
+      "exit": "pick back up on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "little roadway on the right-hand side",
+      "start_time": "6:56",
+      "sequence": 4,
+      "label_guess": "T18",
+      "braking": "brakes to about 50-55%",
+      "gear": "first gear",
+      "exit": "pick back up on the gas"
+    }
+  ],
+  "general_tips": [
+    "get on the brakes at about 55%, change to first gear before turning in",
+    "trail braking into turn three",
+    "lift to ensure weight is over the front tires for turn six",
+    "very careful application of brake and throttle around here",
+    "don't leave any passes until the earlier start-finish line"
+  ],
+  "dropped_ungrounded": 0
+}

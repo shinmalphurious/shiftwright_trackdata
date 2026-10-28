@@ -1,0 +1,800 @@
+{
+  "track_id": 208,
+  "track_name": "Oran Park Raceway - South",
+  "videos": 4,
+  "corners": {
+    "T1": {
+      "name": null,
+      "videos": 4,
+      "cars": [
+        "ff1600",
+        "mx5",
+        "vee"
+      ],
+      "notes_by_method": {
+        "explicit": 8
+      },
+      "braking": [
+        {
+          "text": "Brake hard two car lengths before the wall turns green.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "lift off at concrete barrier, brake before turn-in",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "just before white to green wall marker, brake hard",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Green wall on right, brake hard to first gear",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "up to second",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "First gear",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "1st gear",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn in at the green wall, apex at the curb, exit on the left.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn in and lift up to third, take a big chunk of the kerb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "point car, turn-in at bumpers, off brakes before turn-in",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn in, tight line or double apex",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Go on throttle after passing the middle of the track.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Accelerate to second gear, use runoff to cut turn six",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "clip apex at fresh white line, stay tight on exit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get on the accelerator, use the runoff on exit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "if you go in too hot, cut back for a second apex, slower but still on the left side",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Passing the middle of the track too early on exit.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Going wide, not getting back for second apex",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake too late, lose traction on left curb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard at the green wall, turn in, use first gear, aim for curb, accelerate to second gear, avoid cutting turn six early."
+    },
+    "T2": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "ff1600",
+        "mx5",
+        "vee"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Lift when getting to the curb on the left.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take as much curb as possible, exit full throttle.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn in at red and yellow bumpers, aim for apex",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn-in at striped curb on left",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "compromising situation for turn two",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Going too fast on the exit.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to striped curb, lift, take as much curb as possible, exit full throttle. Avoid going too fast on exit."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "straddle the kerb and white concrete infill",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get back onto full power",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't attack turn three hard to compensate for a slightly botched turn two",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Straddle the kerb and white concrete infill. Get back onto full power on exit. Avoid attacking turn three hard to compensate for a botched turn two."
+    },
+    "T4": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "ff1600",
+        "mx5",
+        "vee"
+      ],
+      "notes_by_method": {
+        "explicit": 4
+      },
+      "braking": [
+        {
+          "text": "Brake to 40% at the curb on the right.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "lift at red and yellow curbing",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "use the end of the strike kerb as a marker for turning in",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn in, take only the colored curb on the left.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "skim the concrete infill with inside tires",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get the throttle down after hitting the target",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "maintain throttle, track out to mid-track",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Full throttle after getting to the curb.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "make sure you do the majority of changing direction before you go over the top of it",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "don't look at the curb, eyes need to be ahead",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 40% at the curb, lift at red and yellow curbing. Turn in at the strike kerb, take only the left curb. Skim the concrete infill, full throttle after the curb. Eyes ahead, change direction before the top."
+    },
+    "T5": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Brake just before the bottom of the hill.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "change from slight right to slight left before hill",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Take both curbs.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Go full throttle after the rubbered-in part of the curb.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't straighten up after turn 4, swoop left",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Carry too much speed and hit the wall.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake before the hill, turn left, take both curbs, go full throttle after the rubbered-in part. Avoid straightening up after turn 4 and hitting the wall."
+    },
+    "T6": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "use trail braking",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "aim for the curb after coming over the hill",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Take all of the curb and the white stuff.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "curve into the turn",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "resist getting on the power until you have comfortably reached the corner apex",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "resist the temptation to add more steering if you think you're heading for the wall",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake early, use trail braking. Aim for curb after the hill, take all curb and white stuff. Curve into the turn, resist adding power until apex. Avoid oversteering if near the wall."
+    },
+    "T7": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "ff1600",
+        "mx5",
+        "vee"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake just before the bottom of the hill.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "third gear",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Late apex just after the rubbered-in part of the curb.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "stay in bumper on the inside",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get right back on throttle, fast line next to concrete barrier",
+          "videos": 1,
+          "cars": [
+            "vee"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Ease the car out towards the wall.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't put power down until you know you won't have to lift",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Carry too much speed and hit the wall.",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake before the hill, use 3rd gear. Stay tight to the inside, late apex after curb. Accelerate hard near the barrier. Avoid early power application and hitting the wall."
+    }
+  },
+  "unplaced_notes": 7
+}

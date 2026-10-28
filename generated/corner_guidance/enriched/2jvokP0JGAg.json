@@ -1,0 +1,181 @@
+{
+  "video_id": "2jvokP0JGAg",
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "title": "iRacing MX5 Montreal Guide 1:55.0 Mazda MX5 Circuit Gilles Villeneuve Track Guide",
+  "car": null,
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at end of concrete section before grass, 65%",
+      "gear": "Drop to first, trail brake",
+      "line": "Turn left, attack left side of corner",
+      "exit": "Get back on gas at apex, exit wide at 100%",
+      "note_id": "2jvokP0JGAg:0",
+      "text": "braking: Brake at end of concrete section before grass, 65%; gear: Drop to first, trail brake; line: Turn left, attack left side of corner; exit: Get back on gas at apex, exit wide at 100%",
+      "spoken_as": "turn one",
+      "passage_time": "2:35",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "line": 0.6
+        }
+      },
+      "time": "2:45",
+      "snippet": "braking just at the end of this concrete section here before we get to this last grassy section. So, as you can see, this",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake 70-75% at one marker from two marker",
+      "gear": "Drop to second",
+      "line": "Get car turned in, attack curve",
+      "note_id": "2jvokP0JGAg:1",
+      "text": "braking: Brake 70-75% at one marker from two marker; gear: Drop to second; line: Get car turned in, attack curve",
+      "spoken_as": "turn three-four chicane",
+      "passage_time": "2:35",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:41",
+      "snippet": "to the one marker from the two marker and we get on the brakes again to about 70-75%. We drop it down into second in a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "3rd",
+      "line": "Left tires on track, right tires attacking curve",
+      "exit": "Flat, left tires touching grass, attack last part to avoid right wall",
+      "mistakes": "End up in right-hand wall",
+      "note_id": "2jvokP0JGAg:2",
+      "text": "gear: 3rd; line: Left tires on track, right tires attacking curve; exit: Flat, left tires touching grass, attack last part to avoid right wall; mistakes: End up in right-hand wall",
+      "spoken_as": "this first apex",
+      "passage_time": "3:53",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:01",
+      "snippet": "tires on the track, right-hand tires absolutely attacking that curve. And we get straight up to 100% and now we're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "End of white wall section, 90-95% braking, trail off",
+      "gear": "3rd",
+      "line": "Attack left-hand side",
+      "exit": "100% throttle, slight understeer, lift and get back on gas",
+      "mistakes": "Brake slightly early to take second corner flat out",
+      "note_id": "2jvokP0JGAg:3",
+      "text": "braking: End of white wall section, 90-95% braking, trail off; gear: 3rd; line: Attack left-hand side; exit: 100% throttle, slight understeer, lift and get back on gas; mistakes: Brake slightly early to take second corner flat out",
+      "spoken_as": "turn 6-7 chicane",
+      "passage_time": "3:53",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "5:08",
+      "snippet": "take that second corner flat out, but they do cancel each other out. Right, coming into the turn 8-9 chicane,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "two marker on left, 80-85% to second gear",
+      "gear": "second",
+      "line": "avoid no-cut curve, left tires left of no-cut curve",
+      "exit": "flat out",
+      "note_id": "2jvokP0JGAg:4",
+      "text": "braking: two marker on left, 80-85% to second gear; gear: second; line: avoid no-cut curve, left tires left of no-cut curve; exit: flat out",
+      "spoken_as": "turn 8-9 chicane",
+      "passage_time": "5:10",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:29",
+      "snippet": "down to second gear. We want to start picking back up on the gas just at",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "two marker on left, 90-100% to first gear",
+      "gear": "first",
+      "exit": "trail brake, 75% throttle",
+      "note_id": "2jvokP0JGAg:5",
+      "text": "braking: two marker on left, 90-100% to first gear; gear: first; exit: trail brake, 75% throttle",
+      "spoken_as": "turn 10 hairpin",
+      "passage_time": "5:10",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "6:00",
+      "snippet": "on the brakes just ahead of this two marker coming up on the left-hand side. So, you can see it's just there. It's"
+    },
+    {
+      "braking": "brake at two marker, 100%",
+      "line": "trail off to first curb",
+      "exit": "get back on gas, 100%",
+      "mistakes": "lift to avoid wall of champions",
+      "note_id": "2jvokP0JGAg:6",
+      "text": "braking: brake at two marker, 100%; line: trail off to first curb; exit: get back on gas, 100%; mistakes: lift to avoid wall of champions",
+      "spoken_as": "turn 13 and 14",
+      "passage_time": "6:30",
+      "corner_id": "T13",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:23",
+      "snippet": "trail it off down to that first curb. Uh I get back on the gas, back up to 100%, and then I wanted to make sure",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

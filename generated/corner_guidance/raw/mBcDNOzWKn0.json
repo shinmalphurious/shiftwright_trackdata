@@ -1,0 +1,94 @@
+{
+  "video_id": "mBcDNOzWKn0",
+  "track_id": 192,
+  "track_name": "Daytona International Speedway - Road Course",
+  "title": "Track Guide Daytona Road Course Toyota GR86 Fixed iRacing",
+  "car_hint": "general",
+  "car": "Toyota GR86",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:51:41.241838+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "Turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at last white line, 65% pressure to inside wall",
+      "line": "Turn in close to wall, past tires",
+      "exit": "Accelerate on exit, use curbing but not too much",
+      "mistakes": "Going over curbing too much will slow you down"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Flat out, shortest route"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Flat out, shortest route",
+      "exit": "End up on left side of track for turn four"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake halfway between poles, 85% pressure",
+      "gear": "2nd",
+      "line": "Up on inside curbing, be careful not to go too far",
+      "exit": "Accelerate on exit, stand on throttle",
+      "mistakes": "Going on curbing too much will unsettle the car"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Darkening part, 80% brake pressure, easing off until top of corner",
+      "line": "Use inside curb",
+      "exit": "Accelerate, stand on throttle",
+      "mistakes": "Going on throttle too early, going into grass"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Middle of asphalt path, 60% brake pressure, easing off until yellow curb",
+      "line": "Cut all inside curb",
+      "exit": "Accelerate, be smooth"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "break halfway between the LED banner and the one sign, 60% brake pressure",
+      "line": "cut the first curb on the left, barely touch the first right side curb",
+      "exit": "accelerate, hit the second right side curb, full throttle, hit only blue and white curbing on last curb",
+      "mistakes": "too much of the last curve, get a slowdown, hit the wall"
+    }
+  ],
+  "general_tips": [
+    "Turn one is a place where people will try and overtake you, be as close to the wall as you dare before we turn in.",
+    "Turn four is also going to be a place where people will try and overtake you, so keep that in mind when racing.",
+    "Get over to the right side of the track for turn six.",
+    "Keep in mind that people might try and overtake you into turn six.",
+    "Get a good exit out of turn seven because we're going onto a long straight with full throttle.",
+    "Stay close to the yellow line on the banking part without hitting it.",
+    "Drafting and bump drafting will play a big role.",
+    "In qualifying, get as close as you can to the outside wall without hitting it.",
+    "stay close to the yellow line on the banking section",
+    "use the top section of the banking to reduce a slowdown",
+    "battle all the way up to the start finish line",
+    "Heat. Heat. Heat up here."
+  ],
+  "dropped_ungrounded": 0
+}

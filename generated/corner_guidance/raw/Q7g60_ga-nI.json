@@ -1,0 +1,149 @@
+{
+  "video_id": "Q7g60_ga-nI",
+  "track_id": 202,
+  "track_name": "Oran Park Raceway - Grand Prix",
+  "title": "iRacing FF1600 Oran Park Grand Prix Guide - 1:08.863 - Oran Park GP FF1600 Track Guide",
+  "car_hint": "ff1600",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:57:24.886585+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "the end of this green wall",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake at the end of the green wall",
+      "gear": "4 to 1",
+      "line": "turn in at the end of the green wall, lift on brakes through the first apex, out wide",
+      "exit": "accelerate early, up to third gear",
+      "mistakes": "don't hit the inside curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "marshals",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake at the marshals",
+      "gear": "1",
+      "line": "brake hard, turn left, exit wide",
+      "exit": "accelerate early",
+      "mistakes": "don't hit the inside curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "over to left-hand side, braking at the marshals",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T3",
+      "braking": "brake at the marshals",
+      "gear": "1",
+      "line": "brake hard, turn left, exit wide",
+      "exit": "accelerate early",
+      "mistakes": "don't hit the inside curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "looking for the end of the drop-off",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T4",
+      "braking": "little brake once we enter this dip",
+      "gear": "3 to 2",
+      "line": "cut the corner",
+      "exit": "up to third gear"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn-in marker is the end of this wall",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "braking hard, dropping down to second",
+      "gear": "first",
+      "line": "cutting the corner quite severely",
+      "exit": "get on the gas nice and early",
+      "mistakes": "don't hit the wall on exit"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next braking marker",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "braking almost up to about 90%",
+      "gear": "first",
+      "line": "trail it off down to the apex",
+      "exit": "up through the gears again"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:38",
+      "sequence": 2,
+      "label_guess": "T10",
+      "braking": "brake up to 90%",
+      "gear": "drop to 1st",
+      "line": "trail off to apex",
+      "exit": "get on 100% gas on apex, exit wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:38",
+      "sequence": 2,
+      "label_guess": "T11",
+      "braking": "brake up to 60%",
+      "line": "trail off to apex",
+      "exit": "get on 100% gas on apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:38",
+      "sequence": 2,
+      "label_guess": "T12",
+      "braking": "little dab on",
+      "line": "turn in at end of white curbing"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "3:56",
+      "sequence": 3,
+      "label_guess": "T7",
+      "braking": "Brake to 30%, trail off",
+      "gear": "Second gear",
+      "line": "Cut corner, right tires on mud",
+      "exit": "Flat out, change to third gear",
+      "mistakes": "Hit grass for difficult recovery"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "3:56",
+      "sequence": 3,
+      "label_guess": "T8",
+      "braking": "Brake to 55%, trail off",
+      "gear": "Second gear",
+      "line": "Cut corner, right tires on mud",
+      "exit": "Flat out, leave in third gear",
+      "mistakes": "Hit grass for difficult recovery"
+    },
+    {
+      "label": null,
+      "spoken_as": "next version",
+      "start_time": "5:14",
+      "sequence": 4,
+      "label_guess": "T7",
+      "gear": "drop to 2nd",
+      "exit": "get on gas early, 100% throttle at apex",
+      "mistakes": "don't hit the wall on exit"
+    }
+  ],
+  "general_tips": [
+    "avoid curbing on left due to bump",
+    "Braking just before the dip, 90%, trail off"
+  ],
+  "dropped_ungrounded": 2
+}

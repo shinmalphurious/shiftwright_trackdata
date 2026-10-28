@@ -1,0 +1,179 @@
+{
+  "video_id": "Sy_9qR-qN1Q",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "iRacing Ferrari GT3 Indy Road Guide 1:22.8 Ferrari 296 GT3 Indianapolis Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at midway between 500 and 400, straight on brakes to 65%, then to 0% before 1 marker, down to 1st gear",
+      "gear": "1st gear",
+      "line": "Turn-in at marker, apex at marker, cut right side",
+      "exit": "Lift to 15-20%, then smoothly back on gas, flat out",
+      "mistakes": "Never reach 100%, stay on right side",
+      "note_id": "Sy_9qR-qN1Q:0",
+      "text": "braking: Brake at midway between 500 and 400, straight on brakes to 65%, then to 0% before 1 marker, down to 1st gear; gear: 1st gear; line: Turn-in at marker, apex at marker, cut right side; exit: Lift to 15-20%, then smoothly back on gas, flat out; mistakes: Never reach 100%, stay on right side",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 0.67,
+          "exit": 1.0,
+          "mistakes": 0.83
+        }
+      },
+      "time": "2:20",
+      "snippet": "first gear and then we're going to start picking back up on the gas at the apex. We're going to head over to the"
+    },
+    {
+      "braking": "Brake at car's width from exit of turn three, up to 35%",
+      "line": "Wide entry, trail braking",
+      "exit": "Back on gas at apex, nearly full throttle",
+      "note_id": "Sy_9qR-qN1Q:1",
+      "text": "braking: Brake at car's width from exit of turn three, up to 35%; line: Wide entry, trail braking; exit: Back on gas at apex, nearly full throttle",
+      "spoken_as": "turn four",
+      "passage_time": "2:02",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "2:43",
+      "snippet": "exit of turn three. Once we get about a car's width away from it, that is when we're likely going to go on the brakes",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 65% at grass inlet, trail off",
+      "gear": "2nd",
+      "line": "cut grass, lift over curb, turn in at end of curve",
+      "exit": "accelerate at apex, 30% brake to 10-15% at turn 8, trail off",
+      "mistakes": "do not miss the braking marker, cut the corner",
+      "note_id": "Sy_9qR-qN1Q:2",
+      "text": "braking: brake to 65% at grass inlet, trail off; gear: 2nd; line: cut grass, lift over curb, turn in at end of curve; exit: accelerate at apex, 30% brake to 10-15% at turn 8, trail off; mistakes: do not miss the braking marker, cut the corner",
+      "spoken_as": "turn seven",
+      "passage_time": "3:24",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "mistakes": 0.6
+        }
+      },
+      "time": "3:31",
+      "snippet": "grass. That is going to be our braking marker. So, as you see, as we get alongside it, on the brakes to about 65%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 10-15%",
+      "gear": "2nd",
+      "note_id": "Sy_9qR-qN1Q:3",
+      "text": "braking: brake to 10-15%; gear: 2nd",
+      "spoken_as": "turn number eight",
+      "passage_time": "3:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:04",
+      "snippet": "on the brakes to about 10-15% trail that off and then back on the gas in second.",
+      "best_candidate": {
+        "corner_id": "T11",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "T12",
+        "estimated_pct": 0.6721,
+        "corner_pct": 0.7178,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "T12",
+        "corners_between": [
+          "T8",
+          "T9",
+          "T10",
+          "T11"
+        ]
+      }
+    },
+    {
+      "braking": "brake at 1 200 marker",
+      "note_id": "Sy_9qR-qN1Q:4",
+      "text": "braking: brake at 1 200 marker",
+      "spoken_as": "turn 12",
+      "passage_time": "3:24",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:38",
+      "snippet": "only 1 200 and 300 markers. However, we want to be braking here at the where the 400 marker would be. That is going to be",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at 400 marker, 60% pressure to 100 marker, trail off at apex.",
+      "gear": "2nd",
+      "line": "Avoid local curb, lift in darker patch, brake at 40%, trail off, point nose in.",
+      "exit": "Flat exit to line.",
+      "note_id": "Sy_9qR-qN1Q:5",
+      "text": "braking: Brake at 400 marker, 60% pressure to 100 marker, trail off at apex.; gear: 2nd; line: Avoid local curb, lift in darker patch, brake at 40%, trail off, point nose in.; exit: Flat exit to line.",
+      "spoken_as": "turn 13",
+      "passage_time": "4:44",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.67
+        }
+      },
+      "time": "5:15",
+      "snippet": "And then we're just flat now all the way to the line. And over and across we go in a 122.8."
+    }
+  ]
+}

@@ -1,15 +1,91 @@
 {
   "track_id": 497,
   "layout": "497-kern-dirtmini",
+  "name": "Kevin Harvick's Kern Raceway - Dirt Mini Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:12:43.362275+00:00",
+  "candidates_seen": 48,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 48,
+    "new_candidates": 43,
+    "accepted": 5,
+    "selected": 5,
+    "kept_previous": 5,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 43,
+    "rejection_reasons": {
+      "no guide words in title": 26,
+      "venue not in title": 9,
+      "too long": 5,
+      "too short": 2,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
-    "legends": [
+    "late_model": [
       {
-        "video_id": "HD05EIIU9zg",
-        "title": "iRacing New Content - Kern County Raceway Park",
-        "description": "New for iRacing's 2023 Season 4 build, Kern County comes with four layouts: Asphalt Oval, Legends Oval, Dirt Oval, and Dirt Mini\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
+        "video_id": "qF9KgdMdToc",
+        "title": "Learn to Drive: Kern County Raceway in a Late Model Stock for 2025 S4 Week 3 Lap Guide & Tutorial",
+        "description": "Learn to drive Kern County in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S4 Week 3 of official races! We originally ...",
+        "channel": "Team53",
+        "duration": 505,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "m2xUzumOYI4",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Kern County Raceway",
+        "description": "Driven by: Nick Ottinger 2025, S1 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp 00:00 ...",
+        "channel": "Team Conti",
+        "duration": 1464,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "ZvBKnvpjQSs",
+        "title": "iRacing Maconi ARCA Kern Guide to Qualifying and Race 26S3",
+        "description": "iRacing NASCAR Series Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the Open ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 410,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 192,
+        "venue_confidence": 0.8
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "-GlpzwV-phU",
+        "title": "ARCA Qualifying Guide Kern Raceway | iRacing",
+        "description": "",
+        "channel": "Jon M Racing",
+        "duration": 393,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 192,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "Hr30BARWgkE",
+        "title": "iRacing ARCA Kern County Raceway Guide to Qualifying and Race 24S1",
+        "description": "iRacing ARCA Qualifying and Race Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 532,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 192,
+        "venue_confidence": 0.8
       }
     ]
   }

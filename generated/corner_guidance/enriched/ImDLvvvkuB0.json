@@ -1,0 +1,486 @@
+{
+  "video_id": "ImDLvvvkuB0",
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "title": "Lap Guide - Circuit Gilles Villeneuve - iRacing NASCAR NextGen Cup Car - Outsider Racing League",
+  "car": "NASCAR NextGen Cup Car",
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Hop first curb, avoid second curb",
+      "mistakes": "Avoid second curb",
+      "note_id": "ImDLvvvkuB0:0",
+      "text": "braking: Hop first curb, avoid second curb; mistakes: Avoid second curb",
+      "spoken_as": "chicane",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:12",
+      "snippet": "the first curb but try to avoid the second now you want to get all the way out to"
+    },
+    {
+      "braking": "get outside as much as you can without hitting the wall",
+      "line": "ride the left hand side all the way down the front straight",
+      "exit": "diamond off this exit to where your braking zone is straight",
+      "mistakes": "don't turn and brake at the same time going into turn one",
+      "note_id": "ImDLvvvkuB0:1",
+      "text": "braking: get outside as much as you can without hitting the wall; line: ride the left hand side all the way down the front straight; exit: diamond off this exit to where your braking zone is straight; mistakes: don't turn and brake at the same time going into turn one",
+      "spoken_as": "the wall of champions",
+      "passage_time": "1:19",
+      "corner_id": "T13",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:26",
+      "snippet": "then ride the left hand side all the way down the front straight diamonding off this exit to where your braking zone is",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "float the left wheels over the red curbing at the apex",
+      "exit": "get the car aimed at this aggressive entry into the turn 2 hairpin",
+      "mistakes": "don't wash out wide",
+      "note_id": "ImDLvvvkuB0:2",
+      "text": "line: float the left wheels over the red curbing at the apex; exit: get the car aimed at this aggressive entry into the turn 2 hairpin; mistakes: don't wash out wide",
+      "spoken_as": "turn one",
+      "passage_time": "1:19",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:41",
+      "snippet": "you want to float the left wheels over that red curving as much as you can and get the car aimed at this little",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "hug the inside as much as you can",
+      "exit": "start getting on power at about the three-quarter mark",
+      "mistakes": "be careful for cars exiting pit lane",
+      "note_id": "ImDLvvvkuB0:3",
+      "text": "line: hug the inside as much as you can; exit: start getting on power at about the three-quarter mark; mistakes: be careful for cars exiting pit lane",
+      "spoken_as": "the turn two hairpin",
+      "passage_time": "1:19",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:21",
+      "snippet": "power at about this three-quarter mark and then get your way get your way down this sort of kinked small straight",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "right left chicane",
+      "note_id": "ImDLvvvkuB0:4",
+      "text": "line: right left chicane",
+      "spoken_as": "turn three four chicane",
+      "passage_time": "1:19",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:30",
+      "snippet": "it's another uh right left chicane um kind of like the wall of champions chicane",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the red curve, tight entry",
+      "line": "roll it, use grass on exit",
+      "exit": "be careful of the wall",
+      "note_id": "ImDLvvvkuB0:5",
+      "text": "braking: brake at the red curve, tight entry; line: roll it, use grass on exit; exit: be careful of the wall",
+      "spoken_as": "turn three",
+      "passage_time": "2:36",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:49",
+      "snippet": "sort of roll it and then abuse the grass a little bit on exit being careful to not hit this wall here a lot of races",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "abuse the left kink",
+      "exit": "square off the corner",
+      "note_id": "ImDLvvvkuB0:6",
+      "text": "line: abuse the left kink; exit: square off the corner",
+      "spoken_as": "turn four",
+      "passage_time": "2:36",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:03",
+      "snippet": "there's a little kink here to the left that you're gonna you're gonna abuse and then get turned over and just like turn",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "start wide, come in straight",
+      "note_id": "ImDLvvvkuB0:7",
+      "text": "line: start wide, come in straight",
+      "spoken_as": "turn five",
+      "passage_time": "2:36",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:17",
+      "snippet": "five and then come in straight for the turn six exit there's a little bit of gray concrete over here that you can use",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "aim at apex of turn seven",
+      "note_id": "ImDLvvvkuB0:8",
+      "text": "exit: aim at apex of turn seven",
+      "spoken_as": "turn six",
+      "passage_time": "2:36",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:43",
+      "snippet": "turn seven using this curving to get you know get the car spun around then you've got kind of a a long bent",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "use curving to spin car around",
+      "exit": "get a straight line",
+      "mistakes": "screwing up leaves time on the table",
+      "note_id": "ImDLvvvkuB0:9",
+      "text": "line: use curving to spin car around; exit: get a straight line; mistakes: screwing up leaves time on the table",
+      "spoken_as": "turn seven",
+      "passage_time": "2:36",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:34",
+      "snippet": "straight line at this turn seven you'll see in my fast lap that i screw this up a bit there's time being left on the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at light post before 3 board",
+      "line": "Turn in tight, apex early, exit wide",
+      "exit": "Stay right, set up for turn nine",
+      "mistakes": "Overdrive turn eight, side by side here",
+      "note_id": "ImDLvvvkuB0:10",
+      "text": "braking: Brake at light post before 3 board; line: Turn in tight, apex early, exit wide; exit: Stay right, set up for turn nine; mistakes: Overdrive turn eight, side by side here",
+      "spoken_as": "turn eight",
+      "passage_time": "3:56",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:18",
+      "snippet": "right don't overdrive turn eight so that you're set up for turn nine also don't be side by side right here",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at 4 board",
+      "line": "Tight hairpin, similar to Sonoma final corner",
+      "exit": "Square off kinked braking zone",
+      "note_id": "ImDLvvvkuB0:11",
+      "text": "braking: Brake at 4 board; line: Tight hairpin, similar to Sonoma final corner; exit: Square off kinked braking zone",
+      "spoken_as": "turn nine",
+      "passage_time": "3:56",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:55",
+      "snippet": "then square this kinked breaking zone off and break at the four board and uh and and if you're good at sonoma",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break at the four board",
+      "line": "turn-in early, apex tight",
+      "exit": "start getting the power back down long straight",
+      "note_id": "ImDLvvvkuB0:12",
+      "text": "braking: break at the four board; line: turn-in early, apex tight; exit: start getting the power back down long straight",
+      "spoken_as": "the hairpin",
+      "passage_time": "5:12",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:20",
+      "snippet": "be able to start getting the power back down long straight best passing opportunity",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break at the five board",
+      "line": "hop the first curb, miss the second",
+      "note_id": "ImDLvvvkuB0:13",
+      "text": "braking: break at the five board; line: hop the first curb, miss the second",
+      "spoken_as": "turn 12",
+      "passage_time": "5:12",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:33",
+      "snippet": "hop the first curb miss the second and then do it all over again right the best passing opportunities turn 12",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the five four board",
+      "line": "aim to hit the first curb, miss the second curb",
+      "mistakes": "hitting the second curb upsets the car",
+      "note_id": "ImDLvvvkuB0:14",
+      "text": "braking: brake at the five four board; line: aim to hit the first curb, miss the second curb; mistakes: hitting the second curb upsets the car",
+      "spoken_as": "the wall of champions chicane",
+      "passage_time": "8:23",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "8:53",
+      "snippet": "four the five board back there is where i start to break um it's for the wall of champions chicane here notice"
+    },
+    {
+      "braking": "start braking at the first driveway",
+      "gear": "first gear",
+      "line": "turn in at the start finish line, aim for the end of the NAPA boards",
+      "exit": "modulate throttle, aim for the beginning of the red and white curbing",
+      "mistakes": "don't get too far up onto the curbing, don't spin out",
+      "note_id": "ImDLvvvkuB0:15",
+      "text": "braking: start braking at the first driveway; gear: first gear; line: turn in at the start finish line, aim for the end of the NAPA boards; exit: modulate throttle, aim for the beginning of the red and white curbing; mistakes: don't get too far up onto the curbing, don't spin out",
+      "spoken_as": "turn one",
+      "passage_time": "9:42",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:30",
+      "snippet": "modulate your throttle don't spin out and aim for the beginning of this red and white curving as your track out",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break here at the two board",
+      "line": "drift out",
+      "note_id": "ImDLvvvkuB0:16",
+      "text": "braking: break here at the two board; line: drift out",
+      "spoken_as": "next braking marker",
+      "passage_time": "9:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:56",
+      "snippet": "break here at the two board break in a straight line drift out toward the white line"
+    },
+    {
+      "line": "turn-in at curbing, apex at curbing, use grass on exit",
+      "exit": "throttle out, use runoff area",
+      "mistakes": "don't dip into grass, avoid full curbing",
+      "note_id": "ImDLvvvkuB0:17",
+      "text": "line: turn-in at curbing, apex at curbing, use grass on exit; exit: throttle out, use runoff area; mistakes: don't dip into grass, avoid full curbing",
+      "spoken_as": "next corner",
+      "passage_time": "11:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.67
+        }
+      },
+      "time": "11:30",
+      "snippet": "get over this curbing run over the grass on exit start turning in feel free to"
+    },
+    {
+      "braking": "Brake at the lighting post before the white sign",
+      "line": "Miss the second curb, track out",
+      "exit": "Use the rumble strip, go straight",
+      "mistakes": "Don't wait for the white sign, don't go up to the white curbing",
+      "note_id": "ImDLvvvkuB0:18",
+      "text": "braking: Brake at the lighting post before the white sign; line: Miss the second curb, track out; exit: Use the rumble strip, go straight; mistakes: Don't wait for the white sign, don't go up to the white curbing",
+      "spoken_as": "next braking marker",
+      "passage_time": "12:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:26",
+      "snippet": "second curb track out as much as you can use the rumble strip and then go straight"
+    },
+    {
+      "braking": "brake just after 4 board, not drifting right",
+      "gear": "first gear",
+      "line": "late apex",
+      "exit": "full throttle",
+      "mistakes": "hugging left side, not getting to right side",
+      "note_id": "ImDLvvvkuB0:19",
+      "text": "braking: brake just after 4 board, not drifting right; gear: first gear; line: late apex; exit: full throttle; mistakes: hugging left side, not getting to right side",
+      "spoken_as": "hairpin",
+      "passage_time": "13:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "13:55",
+      "snippet": "barely after the four board maybe right out the four board and not drift out to the right hence the"
+    },
+    {
+      "braking": "Brake at the five board, dodge bridge",
+      "gear": "Delayed downshifts, downshift when needle gets to nine o'clock position",
+      "line": "Turn in late, aim at end of red and white wall",
+      "exit": "Use green runoff, lots of grip",
+      "mistakes": "Drifting in prematurely, missing the corner",
+      "note_id": "ImDLvvvkuB0:20",
+      "text": "braking: Brake at the five board, dodge bridge; gear: Delayed downshifts, downshift when needle gets to nine o'clock position; line: Turn in late, aim at end of red and white wall; exit: Use green runoff, lots of grip; mistakes: Drifting in prematurely, missing the corner",
+      "spoken_as": "the five board",
+      "passage_time": "14:51",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0
+        }
+      },
+      "time": "14:57",
+      "snippet": "is my breaking marker the five board itself so if you're at the dodge bridge and you haven't started breaking yet"
+    },
+    {
+      "braking": "braking marker before the dodge bridge at the five marker, hard",
+      "line": "hit the first curb, miss the second curb, keep it to the right",
+      "exit": "hard on the gas",
+      "mistakes": "braking too late, hitting the second curb",
+      "note_id": "ImDLvvvkuB0:21",
+      "text": "braking: braking marker before the dodge bridge at the five marker, hard; line: hit the first curb, miss the second curb, keep it to the right; exit: hard on the gas; mistakes: braking too late, hitting the second curb",
+      "spoken_as": "the three board",
+      "passage_time": "16:09",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.52,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:40",
+      "snippet": "hit the first curb miss the second curb and keep it to the right here i just tapped that second curve there and i had"
+    }
+  ]
+}

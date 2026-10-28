@@ -1,0 +1,237 @@
+{
+  "track_id": 180,
+  "track": "Oulton Park Circuit - International",
+  "records": {
+    "180:T2:heavy_braking": {
+      "id": "180:T2:heavy_braking",
+      "track_id": 180,
+      "track": "Oulton Park Circuit - International",
+      "corner": "T2",
+      "corner_name": "Denton's",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner but significant distance from previous corner suggests a braking zone.",
+          "at": "2026-10-28T09:24:46+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:10:56+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "f3BzbyhkWks",
+              "result": "contradict",
+              "time": "0:37",
+              "note": "line: flat out",
+              "transcript_snippet": "flat out just make sure to be on the right side of the track for turn three for turn three there is a clear marker",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=f3BzbyhkWks"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - Fosters",
+            "source_track_id": 181,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.20 -> rejected (evidence contradicts the claim)"
+    },
+    "180:T2:slow_corner": {
+      "id": "180:T2:slow_corner",
+      "track_id": 180,
+      "track": "Oulton Park Circuit - International",
+      "corner": "T2",
+      "corner_name": "Denton's",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner and low lap position suggest a slower corner.",
+          "at": "2026-10-28T09:24:46+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:10:56+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "f3BzbyhkWks",
+              "result": "contradict",
+              "time": "0:37",
+              "note": "line: flat out",
+              "transcript_snippet": "flat out just make sure to be on the right side of the track for turn three for turn three there is a clear marker",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=f3BzbyhkWks"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - Fosters",
+            "source_track_id": 181,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.20 -> rejected (evidence contradicts the claim)"
+    },
+    "180:T6:slow_corner": {
+      "id": "180:T6:slow_corner",
+      "track_id": 180,
+      "track": "Oulton Park Circuit - International",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner and lap position suggest a slower corner.",
+          "at": "2026-10-28T09:24:46+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:10:56+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "N6MVizMeP4E",
+              "result": "contradict",
+              "time": "1:47",
+              "note": "braking: breaking really high into second gear; gear: second; line: cutting it nice and close; exit: absolutely flat out",
+              "transcript_snippet": "breaking really high into second gear cutting it nice and close little lift again back on the gas absolutely flat",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=N6MVizMeP4E"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - Intl w/no Chicanes",
+            "source_track_id": 185,
+            "corner": "T6",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.20 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

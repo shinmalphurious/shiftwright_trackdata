@@ -1,0 +1,647 @@
+{
+  "track_id": 181,
+  "track": "Oulton Park Circuit - Fosters",
+  "records": {
+    "181:T1:heavy_braking": {
+      "id": "181:T1:heavy_braking",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.993,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.941,
+        "consensus": 0.993
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "UqWNXaGUsw0",
+              "result": "confirm",
+              "time": "0:11",
+              "note": "braking: brake close to left banner, 75% pressure, trail brake; line: cut curb, use grass before car bounces; exit: throttle close to curb, ease in; mistakes: wide exit if over-throttle",
+              "transcript_snippet": "start to break once I get close to the beginning of the banner here on the left once I get to that I go to about 75%",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=UqWNXaGUsw0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Island",
+            "source_track_id": 182,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+            "source_track_id": 186,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 3
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)"
+    },
+    "181:T2:slow_corner": {
+      "id": "181:T2:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.026,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.035,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.026
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "0cGougubTm0",
+              "result": "contradict",
+              "time": "0:29",
+              "note": "line: Flat out",
+              "transcript_snippet": "bit. Turn two is going to be flat out. Just make sure to end up on the right side of the track for turn three",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=0cGougubTm0"
+            },
+            {
+              "video_id": "UqWNXaGUsw0",
+              "result": "contradict",
+              "time": "0:37",
+              "note": "line: flat out",
+              "transcript_snippet": "ends turn two is flat out but we want to be on the right side of the track for turn three we don't have to break for",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=UqWNXaGUsw0"
+            },
+            {
+              "video_id": "XiEpHB8rLwY",
+              "result": "contradict",
+              "time": "0:31",
+              "note": "line: Flat out",
+              "transcript_snippet": "line. Turn two is going to be flat out. Just make sure to end up on the right side of the track for turn three. You",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=XiEpHB8rLwY"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 3,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); 0 video(s) confirm, 3 contradict; consensus 0.03 -> rejected (evidence contradicts the claim)"
+    },
+    "181:T3:slow_corner": {
+      "id": "181:T3:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "181:T4:slow_corner": {
+      "id": "181:T4:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "181:T5:slow_corner": {
+      "id": "181:T5:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.798,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.798
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "UqWNXaGUsw0",
+              "result": "contradict",
+              "time": "1:26",
+              "note": "line: flat out; exit: flat out",
+              "transcript_snippet": "turn five is flat out just make sure to be smooth we are flat out all the way way up to turn 8 and turn 8 is a place",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=UqWNXaGUsw0"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - Island Historic",
+            "source_track_id": 187,
+            "corner": "T5",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.80 -> pending (evidence not yet strong enough)"
+    },
+    "181:T6:slow_corner": {
+      "id": "181:T6:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "181:T7:slow_corner": {
+      "id": "181:T7:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T7: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "181:T8:important_exit": {
+      "id": "181:T8:important_exit",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight after corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "181:T9:slow_corner": {
+      "id": "181:T9:slow_corner",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "short distance to next corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.463,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.223,
+        "consensus": 0.463
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - Intl w/no Chicanes",
+            "source_track_id": 185,
+            "corner": "T11",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T9: research 0.75 from 1 source(s); consensus 0.46 -> pending (evidence not yet strong enough)"
+    },
+    "181:T10:heavy_braking": {
+      "id": "181:T10:heavy_braking",
+      "track_id": 181,
+      "track": "Oulton Park Circuit - Fosters",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner",
+          "at": "2026-10-28T09:24:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:05+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T10: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

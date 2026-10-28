@@ -1,0 +1,236 @@
+{
+  "track_id": 195,
+  "track": "Mobility Resort Motegi - Grand Prix",
+  "records": {
+    "195:T3:heavy_braking": {
+      "id": "195:T3:heavy_braking",
+      "track_id": 195,
+      "track": "Mobility Resort Motegi - Grand Prix",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "600 m from the previous corner",
+          "at": "2026-10-28T09:27:19+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "tighter radius requiring downshift(s)",
+          "at": "2026-10-28T09:27:19+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:13:35+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.918
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "woT5Nigt3L0",
+              "result": "confirm",
+              "time": "3:08",
+              "note": "braking: 100 board, ahead of 70 board, 60% brake pressure; gear: 2nd gear; exit: hold 95% throttle until second apex, clear to 100%",
+              "transcript_snippet": "going to hold it at about 95% until we get through the second apex and then clear up to 100%.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=woT5Nigt3L0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T3: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "195:T5:heavy_braking": {
+      "id": "195:T5:heavy_braking",
+      "track_id": 195,
+      "track": "Mobility Resort Motegi - Grand Prix",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "609 m from the previous corner",
+          "at": "2026-10-28T09:27:19+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.931,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:13:35+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.931
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "-Gme0-yplr0",
+              "result": "confirm",
+              "time": "4:23",
+              "note": "braking: 50 m board, nearly 90%; gear: 3rd; line: wide entry, cut corner slightly; exit: full power",
+              "transcript_snippet": "Cut the corner very slightly. 50 m board is going to be our braking marker for turn seven. And it's not as",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=-Gme0-yplr0"
+            },
+            {
+              "video_id": "woT5Nigt3L0",
+              "result": "confirm",
+              "time": "3:28",
+              "note": "braking: Brake ahead of 100 board, 60-65%; gear: 2nd; line: Right tires over grass, curb; exit: Increase to 100%, exit wide",
+              "transcript_snippet": "right hand tires really over the grass attacking that curb. So, to show you it from there, middle of the car is just",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=woT5Nigt3L0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T5: research 0.60 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.93 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "195:T11:heavy_braking": {
+      "id": "195:T11:heavy_braking",
+      "track_id": 195,
+      "track": "Mobility Resort Motegi - Grand Prix",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "876 m from the previous corner",
+          "at": "2026-10-28T09:27:19+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.931,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:13:35+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.931
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "-Gme0-yplr0",
+              "result": "confirm",
+              "time": "6:18",
+              "note": "braking: brake to 90%; gear: change to 3rd; exit: 2/3 pressure at apex, up to 100% on exit",
+              "transcript_snippet": "Change down to third gear starting to get back on the gas only about 2/3 pressure at the apex and again",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=-Gme0-yplr0"
+            },
+            {
+              "video_id": "woT5Nigt3L0",
+              "result": "confirm",
+              "time": "5:27",
+              "note": "braking: brakes at 150 board, 60% to apex; gear: second gear; line: break early on left side; exit: exit wide, right side, cut back in; mistakes: inside line is slower",
+              "transcript_snippet": "corner back on the gas in second gear. Exit wide, we want to be driving all the way out to the right hand side with the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=woT5Nigt3L0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T11: research 0.60 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.93 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

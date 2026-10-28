@@ -1,0 +1,67 @@
+{
+  "track_id": 524,
+  "track": "Circuit de Spa-Francorchamps - Classic Pits",
+  "records": {
+    "524:T16:heavy_braking": {
+      "id": "524:T16:heavy_braking",
+      "track_id": 524,
+      "track": "Circuit de Spa-Francorchamps - Classic Pits",
+      "corner": "T16",
+      "corner_name": "Courbe Paul Frere",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "710 m from the previous corner",
+          "at": "2026-10-28T10:06:25+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.273,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:54:40+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.273
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T16",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T16: research 0.60 from 1 source(s); consensus 0.27 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

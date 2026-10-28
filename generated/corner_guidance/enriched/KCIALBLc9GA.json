@@ -1,0 +1,264 @@
+{
+  "video_id": "KCIALBLc9GA",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "Track Guide Summit Point BMW M2 G87 Rookie Fixed iRacing",
+  "car": "BMW M2 G87",
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Break halfway between the four cones and the three cones, 75% pressure",
+      "line": "Follow the repaved part, turn-in at inside curb",
+      "exit": "Accelerate following repave, end up middle of track",
+      "mistakes": "Don't hit the inside curb, avoid gravel",
+      "note_id": "KCIALBLc9GA:0",
+      "text": "braking: Break halfway between the four cones and the three cones, 75% pressure; line: Follow the repaved part, turn-in at inside curb; exit: Accelerate following repave, end up middle of track; mistakes: Don't hit the inside curb, avoid gravel",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:17",
+      "snippet": "track. We break halfway between the four cones and the three cones here on the left, aiming for 75% brake pressure,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break at the end of the road, 35% pressure",
+      "line": "Get close to inside curb without hitting it",
+      "exit": "Accelerate, use outside curbing to maximize exit speed",
+      "mistakes": "Avoid gravel",
+      "note_id": "KCIALBLc9GA:1",
+      "text": "braking: Break at the end of the road, 35% pressure; line: Get close to inside curb without hitting it; exit: Accelerate, use outside curbing to maximize exit speed; mistakes: Avoid gravel",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:03",
+      "snippet": "speed. If you can avoid the gravel, it will be even better. Get over to the left side of the track. For turn four,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Lift off",
+      "exit": "End up just about mid track",
+      "note_id": "KCIALBLc9GA:2",
+      "text": "braking: Lift off; exit: End up just about mid track",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:11",
+      "snippet": "end up just about mid track. Pretty much when we get to the middle of the track, we want to start to break or when we get",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "start to break when mid track, get back to left side",
+      "note_id": "KCIALBLc9GA:3",
+      "text": "exit: start to break when mid track, get back to left side",
+      "spoken_as": "turn four",
+      "passage_time": "1:16",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:30",
+      "snippet": "quickly get back to the left side of the track. For turn six, we break once we get to a little bit of debris here just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50% brake pressure, break away from corner to right side",
+      "line": "follow repaved part of track",
+      "exit": "pick up throttle once leaving curb, follow to mid track",
+      "note_id": "KCIALBLc9GA:4",
+      "text": "braking: 50% brake pressure, break away from corner to right side; line: follow repaved part of track; exit: pick up throttle once leaving curb, follow to mid track",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:16",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {
+        "after": "T4",
+        "before": "T6",
+        "corners_between": [
+          "T5"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:20",
+      "snippet": "away from the corner over to the right side of the track. Easing off the pressure until we leave the inside curb.",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "40% brake pressure, break at debris, ease off until top of corner",
+      "line": "follow repaved part of track",
+      "exit": "start to accelerate at top of corner, follow to mid track",
+      "note_id": "KCIALBLc9GA:5",
+      "text": "braking: 40% brake pressure, break at debris, ease off until top of corner; line: follow repaved part of track; exit: start to accelerate at top of corner, follow to mid track",
+      "spoken_as": "turn six",
+      "passage_time": "1:16",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:26",
+      "snippet": "track around this corner. Once we start to leave the curb, we want to pick up the throttle again. And then we want to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "get close to inside curb",
+      "exit": "full throttle, lift if needed to not miss corner",
+      "note_id": "KCIALBLc9GA:6",
+      "text": "line: get close to inside curb; exit: full throttle, lift if needed to not miss corner",
+      "spoken_as": "turn eight",
+      "passage_time": "1:16",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:00",
+      "snippet": "do most of it full throttle. But if you need to lift, make sure to lift so you don't miss the corner. Turn nine, we",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "take a little bit of inside curb",
+      "exit": "get all the way to left side for turn nine",
+      "note_id": "KCIALBLc9GA:7",
+      "text": "line: take a little bit of inside curb; exit: get all the way to left side for turn nine",
+      "spoken_as": "turn seven",
+      "passage_time": "1:16",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.9,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:57",
+      "snippet": "left side of the track for turn nine. Getting this right, we should be able to do most of it full throttle. But if you",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "get close to inside curb",
+      "exit": "use outside curbing for exit speed",
+      "mistakes": "hitting curb too hard can spit you out to left side",
+      "note_id": "KCIALBLc9GA:8",
+      "text": "line: get close to inside curb; exit: use outside curbing for exit speed; mistakes: hitting curb too hard can spit you out to left side",
+      "spoken_as": "turn nine",
+      "passage_time": "1:16",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:06",
+      "snippet": "inside curb. If you hit it too hard, it can spit you out to the left side of the track and into the grass. And of course,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "65% brake pressure, break just before gray bar",
+      "line": "don't hit inside curb of 1010",
+      "mistakes": "hitting curb will unil car and speed out into gravel",
+      "note_id": "KCIALBLc9GA:9",
+      "text": "braking: 65% brake pressure, break just before gray bar; line: don't hit inside curb of 1010; mistakes: hitting curb will unil car and speed out into gravel",
+      "spoken_as": "turn 10",
+      "passage_time": "1:16",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:26",
+      "snippet": "get to the inside curb of 1010. We don't want to hit the curb, it will unil the car and speed you out into the gravel.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "use the wide runoff area",
+      "exit": "pick up throttle, avoid gravel",
+      "mistakes": "dropping a wheel into gravel slows the car",
+      "note_id": "KCIALBLc9GA:10",
+      "text": "line: use the wide runoff area; exit: pick up throttle, avoid gravel; mistakes: dropping a wheel into gravel slows the car",
+      "spoken_as": "next corner",
+      "passage_time": "2:33",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:34",
+      "snippet": "nice wide runoff area we can use to maximize our exit speed. Just make sure not to drop a wheel into the gravel. It"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "track_id": 448,
+  "track": "Indianapolis Motor Speedway - Road Course",
+  "records": {
+    "448:T7:heavy_braking": {
+      "id": "448:T7:heavy_braking",
+      "track_id": 448,
+      "track": "Indianapolis Motor Speedway - Road Course",
+      "corner": "T7",
+      "corner_name": "Turn 7",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "801 m from the previous corner",
+          "at": "2026-10-28T09:55:04+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.931,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:42:50+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.931
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "Sy_9qR-qN1Q",
+              "result": "confirm",
+              "time": "3:31",
+              "note": "braking: brake to 65% at grass inlet, trail off; gear: 2nd; line: cut grass, lift over curb, turn in at end of curve; exit: accelerate at apex, 30% brake to 10-15% at turn 8, trail off; mistakes: do not miss the braking marker, cut the corner",
+              "transcript_snippet": "grass. That is going to be our braking marker. So, as you see, as we get alongside it, on the brakes to about 65%",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Sy_9qR-qN1Q"
+            },
+            {
+              "video_id": "UvR7yjL7eYo",
+              "result": "confirm",
+              "time": "3:37",
+              "note": "braking: Brakes to 60% at cut in the grass, second gear; gear: 2; line: Turn left, trail braking, lift off at apex; exit: Blip of gas, straighten steering wheel",
+              "transcript_snippet": "the way down second gear, going to trail off and then start picking back up on the gas at the apex.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=UvR7yjL7eYo"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T7: research 0.60 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.93 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

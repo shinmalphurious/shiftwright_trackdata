@@ -223,5 +223,720 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "braking hard, dropping down to second",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake on white crosshatch line, 55%",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn in when the green wall ends",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "first",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cutting the corner quite severely",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "trail brake to apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get on the gas nice and early",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get back on gas at apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't hit the wall on exit",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard to 55% at white crosshatch, turn in at green wall end, use 3rd gear, trail brake to apex, accelerate early."
+    },
+    "T2": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "hit the curb on the inside, brake hard to turn-in",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake on concrete curbing, 55-60%",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "braking almost up to about 90%",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "first",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail it off down to the apex",
+          "videos": 2,
+          "cars": [
+            "bmw_m2",
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "stick close to the curb on the inside, go wide on exit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "throttle on exit, stay close to the curb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "up through the gears again",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get back on gas at apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "go too far and drop a wheel, end up in the wall",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard to curb, use 55-60% brake pressure. Take 1st gear for MX-5 and FF1600, 3rd for BMW M2. Trail off to apex, then accelerate and stay close to curb on exit."
+    },
+    "T3": {
+      "name": "Yokohama Bridge",
+      "videos": 1,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake before tire wall, 60%",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail brake to apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get back on gas at apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 60% before tire wall, shift to 3rd. Trail brake to apex, then accelerate hard."
+    },
+    "T4": {
+      "name": "Foster's Dip",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "here on the left, short hit to 80% brake pressure, quickly off brake",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "get close to the curb, but not too much",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "apply throttle again, Full Throttle instantly",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 80% at the left marker, quickly release. Use 1st gear. Hug the curb without touching it. Accelerate to full throttle on exit."
+    },
+    "T10": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "bmw_m2",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take shortest route, use some curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Apply throttle on darkened part, keep full throttle.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Taking too much curb causes spin, use 2nd gear to avoid spin.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard to 95-100% before the hill, trail brake to curb. Use 1st gear, take the shortest line using some curb. Apply full throttle on the darkened part of the exit. Avoid taking too much curb to prevent spin."
+    },
+    "T11": {
+      "name": "Coca-Cola Corner",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take shortest route, use all curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Apply throttle on darkened part, keep full throttle.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Taking too much curb causes spin, use 2nd gear to avoid spin.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard to 95-100% before the hill, trail brake to inside curb. Use 1st gear, take the shortest line using all curb but avoid taking too much to prevent spin. Exit on the darkened part with full throttle."
+    },
+    "T12": {
+      "name": "The Sweeper",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take shortest route, use all curb.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Apply throttle on darkened part, keep full throttle.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Taking too much curb causes spin, use 2nd gear to avoid spin.",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard to 95-100% before the hill, trail brake to inside curb. Use 1st gear, take the shortest line using all curb but avoid taking too much to prevent spin. Apply full throttle on the darkened part of the exit."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.918,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T2": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.976,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 3,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T2: research 0.60 from 1 source(s); 3 video(s) confirm, 0 contradict; consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T12": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.947,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T12: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.95 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

@@ -1,0 +1,686 @@
+{
+  "track_id": 181,
+  "track_name": "Oulton Park Circuit - Fosters",
+  "videos": 4,
+  "corners": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake close to left banner, 75% pressure, trail brake",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cut curb, use grass before car bounces",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "throttle close to curb, ease in",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "wide exit if over-throttle",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at left banner with 75% pressure, trail brake. Cut curb, use grass before bounce. Throttle close to curb, ease in. Avoid over-throttling and going wide."
+    },
+    "T2": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "line": [
+        {
+          "text": "Flat out",
+          "videos": 3,
+          "cars": [
+            "bmw_m2",
+            "ff1600",
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Take the flat-out line. Shift to 4th gear (bmw_m2, ff1600, mx5)."
+    },
+    "T3": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Lift off at dip, hold a few% brake pressure",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Lift off throttle at dip",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take all of the inside curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Cut all inside curbing",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Come out at most at the middle of the track",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "throw car over curbing, avoid going too far",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Mid-track exit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "1x if go too far",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Lift off at the dip, take the inside line, exit mid-track to avoid going too far."
+    },
+    "T4": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "70% brake pressure, trail brake to inside curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "80% pressure at fastest layout entrance",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at left white line, 90% pressure",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn in at inside curb, anti-cut curb",
+          "videos": 2,
+          "cars": [
+            "bmw_m2",
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "ease off brake to inside curb, take lower part",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Ease in throttle, avoid outside curb",
+          "videos": 2,
+          "cars": [
+            "bmw_m2",
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "full throttle after curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Hitting anti-cut can un-silt the car, touching outside curb causes wheel spin",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Avoid going further than mid-track",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake twice if miss first time",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 90% to left white line, turn in at inside curb. Use 1st gear. Ease off brake to curb, avoid outside curb and hitting anti-cut. Full throttle after curb."
+    },
+    "T5": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "flat out",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "flat out",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay flat through and out of T5, accelerating hard."
+    },
+    "T8": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "break once I get to this kink in the road here, 65% brake pressure",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake at the tree, 50% pressure, ease off until first curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake once over dust, 50%, ease off until first curve",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "ease off brake to first curb, stay close to second curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Get close to both curbs, double apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "use inside curbing to help exit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Slowly accelerate after first curb, full throttle on hitting second curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "full throttle before second curb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "throttle after first curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "overtaking attempts, going on throttle too early",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Steer off second curb if accelerating too hard",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "use outside curbing",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the tree or over dust to 50%, ease off to first curb. Use inside curbing, double apex. Accelerate slowly after first curb, full throttle before second curb. Avoid overtaking and steering off second curb."
+    },
+    "T9": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "bmw_m2",
+        "ff1600",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Break after track dip, 70% pressure, ease off until emergency road",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break just before third part of road, 90% brake pressure",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at hill top, 80%, ease off until emergency road",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "aim for emergency road on right",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "close to inside curb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Ease in throttle after emergency road, use curbing for exit speed",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "full throttle after emergency road",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "accelerate, ease in throttle",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Run off road if accelerating too hard, avoid grass",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "going off into grass, going on throttle too early",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "go on inside curb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at hill top, 80% pressure, ease off to emergency road. Aim right, use curbing for exit speed. Avoid grass, ease into throttle."
+    }
+  },
+  "unplaced_notes": 24
+}

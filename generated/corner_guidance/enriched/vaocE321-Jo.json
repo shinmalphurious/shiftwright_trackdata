@@ -1,0 +1,256 @@
+{
+  "video_id": "vaocE321-Jo",
+  "track_id": 127,
+  "track_name": "Road Atlanta - Full Course",
+  "title": "iRacing Mustang GT3 Road Atlanta 1:16.8 Ford Mustang GT3 Petit Le Mans Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "End of grass patch, 25% brake, trail off in 4th gear",
+      "gear": "4th",
+      "line": "Wide entry, left side over white line",
+      "exit": "Full throttle by apex",
+      "note_id": "vaocE321-Jo:0",
+      "text": "braking: End of grass patch, 25% brake, trail off in 4th gear; gear: 4th; line: Wide entry, left side over white line; exit: Full throttle by apex",
+      "spoken_as": "turn one",
+      "passage_time": "1:58",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 1.0,
+          "exit": 0.67
+        }
+      },
+      "time": "2:05",
+      "snippet": "get there, we want the left-hand side of our car to be over the white line. Give ourselves a nice wide entry, as you can",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Pagoda appears, 40% brake, trail off",
+      "line": "Left tires on curb, keep left tires on track",
+      "note_id": "vaocE321-Jo:1",
+      "text": "braking: Pagoda appears, 40% brake, trail off; line: Left tires on curb, keep left tires on track",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:58",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:45",
+      "snippet": "to keep our left-hand tires just on the track, which they are doing there, the yellow line obviously being part of the",
+      "best_candidate": {
+        "corner_id": "T4",
+        "confidence": 0.354,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T5",
+        "estimated_pct": 0.2296,
+        "corner_pct": 0.2354,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T5",
+        "corners_between": [
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "braking": "Little lift",
+      "line": "Left tires on rumble strip",
+      "note_id": "vaocE321-Jo:2",
+      "text": "braking: Little lift; line: Left tires on rumble strip",
+      "spoken_as": "turn number four",
+      "passage_time": "1:58",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:57",
+      "snippet": "left-hand tires onto the rumble strip. Now, Johnny takes this flat, but I keep saying these guides, I do another little",
+      "best_candidate": {
+        "corner_id": "T4",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T5",
+        "estimated_pct": 0.2602,
+        "corner_pct": 0.2354,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T5",
+        "corners_between": [
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "braking": "Brake at halfway between curbs, 30% pressure",
+      "line": "Turn-in at rumble strip, apex at rumble strip, wide exit",
+      "exit": "Back on gas at apex, exit wide",
+      "note_id": "vaocE321-Jo:3",
+      "text": "braking: Brake at halfway between curbs, 30% pressure; line: Turn-in at rumble strip, apex at rumble strip, wide exit; exit: Back on gas at apex, exit wide",
+      "spoken_as": "turn five",
+      "passage_time": "3:15",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:35",
+      "snippet": "the next one, and again, back on the gas at the apex. And we want to exit really wide just so",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake a couple car lengths before 200 ft mark",
+      "gear": "Down to third gear",
+      "exit": "Back on gas at apex",
+      "note_id": "vaocE321-Jo:4",
+      "text": "braking: Brake a couple car lengths before 200 ft mark; gear: Down to third gear; exit: Back on gas at apex",
+      "spoken_as": "turn six",
+      "passage_time": "3:15",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:01",
+      "snippet": "of car lengths before this dotted white line which indicates the 200 ft mark. So, as you can see, getting on the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake just before left-hand curbing",
+      "gear": "Down to second gear",
+      "line": "Aggressive on curbing",
+      "note_id": "vaocE321-Jo:5",
+      "text": "braking: Brake just before left-hand curbing; gear: Down to second gear; line: Aggressive on curbing",
+      "spoken_as": "turn number seven",
+      "passage_time": "3:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:29",
+      "snippet": "Down second gear and again really aggressive on this curbing here. So, as you can see, and we're back on the gas",
+      "best_candidate": {
+        "corner_id": "T8",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T11",
+        "estimated_pct": 0.6698,
+        "corner_pct": 0.5928,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T11",
+        "corners_between": [
+          "T7",
+          "T8",
+          "T9"
+        ]
+      }
+    },
+    {
+      "braking": "Midway between 200 and 100, 55% brake pressure",
+      "gear": "2nd gear",
+      "line": "Aggressive on curb, right tires on track, left tires over curb",
+      "exit": "80% throttle, lift slightly, exit wide",
+      "mistakes": "Off-track if left tires don't go over curb",
+      "note_id": "vaocE321-Jo:6",
+      "text": "braking: Midway between 200 and 100, 55% brake pressure; gear: 2nd gear; line: Aggressive on curb, right tires on track, left tires over curb; exit: 80% throttle, lift slightly, exit wide; mistakes: Off-track if left tires don't go over curb",
+      "spoken_as": "turn 11",
+      "passage_time": "4:34",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "gear": 0.67,
+          "line": 0.67,
+          "mistakes": 0.83
+        }
+      },
+      "time": "5:06",
+      "snippet": "you can see it midway between this 200 and the 100. I'm going to get on the brakes, not as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "flat out",
+      "note_id": "vaocE321-Jo:7",
+      "text": "gear: flat out",
+      "spoken_as": "the finish line",
+      "passage_time": "5:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:53",
+      "snippet": "And then we're just flat out to the finish line. If you have found this useful, can I ask, I don't normally, but"
+    }
+  ]
+}

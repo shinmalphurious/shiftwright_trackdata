@@ -1,0 +1,93 @@
+{
+  "video_id": "hnZJEpeNKQM",
+  "track_id": 200,
+  "track_name": "Circuit Zolder - Alternate",
+  "title": "iRacing Track Guide Zolder Alternate | Skip Barber | 1:41.220",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:45:51.657571+00:00",
+  "passages": 8,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "Earste",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Second to last logo, brake hard to third gear",
+      "gear": "3",
+      "line": "Take apex curb, extend track limits",
+      "exit": "Focus on corner, exit wide on green concrete",
+      "mistakes": "Late turn-in, miss apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "White line at pit exit, brake hard to third gear",
+      "gear": "3",
+      "line": "Late turn-in, aim for late apex"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "stand on brakes at end of service road, brake to third gear",
+      "gear": "third",
+      "line": "take more curve than shown, late apex",
+      "exit": "full throttle exit",
+      "mistakes": "hit blue curbs, lift mid corner"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "chicane",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "stand on brakes before red and white wall",
+      "mistakes": "overtake before chicane"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:53",
+      "sequence": 3,
+      "braking": "blue sign on left, brake for first gear",
+      "gear": "1st",
+      "line": "use all entry curve, avoid blue and gray curbs",
+      "exit": "stay left, full throttle, nip bit of blue curb",
+      "mistakes": "don't drift wide, avoid off track"
+    },
+    {
+      "label": null,
+      "spoken_as": "final chicane",
+      "start_time": "5:10",
+      "sequence": 4,
+      "label_guess": "T9",
+      "braking": "brake at 100 meter board, lift off",
+      "line": "minimize steering angle, maximize speed",
+      "mistakes": "don't go wide, slow down on left side"
+    },
+    {
+      "label": null,
+      "spoken_as": "Jochen Rindtbocht",
+      "start_time": "6:27",
+      "sequence": 5,
+      "label_guess": "T9",
+      "braking": "Lift at 100 meter board, 1.4 second slowdown",
+      "exit": "Dash to the line, full throttle",
+      "mistakes": "Don't run wide, wall on left-hand side"
+    }
+  ],
+  "general_tips": [
+    "maximize speed coming into turn four",
+    "good overtaking opportunity before chicane",
+    "hunt for braking zone, minimize steering angle, maximize speed",
+    "Be mindful of the slowdown, it will hurt your lap time and race"
+  ],
+  "dropped_ungrounded": 1
+}

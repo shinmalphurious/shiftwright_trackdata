@@ -1,0 +1,150 @@
+{
+  "started": "2026-10-28T08:33:12",
+  "minutes": 114.2,
+  "interrupted": false,
+  "passed": 10,
+  "failed": 0,
+  "not_run": 0,
+  "steps": [
+    {
+      "key": "verify",
+      "name": "Verify lap-guide transcripts",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.verify_lap_guide_transcripts"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.0,
+      "log": "logs/01_verify.log",
+      "tail": []
+    },
+    {
+      "key": "extract",
+      "name": "Extract corner guidance (Ollama)",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.extract_corner_guidance"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2039.0,
+      "log": "logs/02_extract.log",
+      "tail": []
+    },
+    {
+      "key": "enrich",
+      "name": "Assign notes to corners",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.enrich_corner_assignments"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 76.2,
+      "log": "logs/03_enrich.log",
+      "tail": []
+    },
+    {
+      "key": "coverage",
+      "name": "Telemetry coverage",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.build_telemetry_coverage"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.1,
+      "log": "logs/04_coverage.log",
+      "tail": []
+    },
+    {
+      "key": "validate",
+      "name": "Validate track knowledge",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.validate_track_knowledge"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.2,
+      "log": "logs/05_validate.log",
+      "tail": []
+    },
+    {
+      "key": "research",
+      "name": "Research corner facts",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.research_track_candidates",
+        "--all"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4121.9,
+      "log": "logs/06_research.log",
+      "tail": []
+    },
+    {
+      "key": "validate_facts",
+      "name": "Validate corner facts",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.validate_knowledge_candidates"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 3.2,
+      "log": "logs/07_validate_facts.log",
+      "tail": []
+    },
+    {
+      "key": "corner_guidance",
+      "name": "Build corner guidance",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.build_corner_guidance"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 606.3,
+      "log": "logs/08_corner_guidance.log",
+      "tail": []
+    },
+    {
+      "key": "knowledge_pack",
+      "name": "Build track knowledge packs",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.build_track_knowledge_pack"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.6,
+      "log": "logs/09_knowledge_pack.log",
+      "tail": []
+    },
+    {
+      "key": "import",
+      "name": "Import packs into Shiftwright",
+      "command": [
+        "E:\\Project_Shiftwright\\.venv\\Scripts\\python.exe",
+        "scripts/import_knowledge_packs.py"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.0,
+      "log": "logs/10_import.log",
+      "tail": []
+    }
+  ]
+}

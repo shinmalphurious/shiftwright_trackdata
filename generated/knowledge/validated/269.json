@@ -1,0 +1,906 @@
+{
+  "track_id": 269,
+  "track": "Circuit des 24 Heures du Mans - Historic",
+  "records": {
+    "269:T1:heavy_braking": {
+      "id": "269:T1:heavy_braking",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T1",
+      "corner_name": "Courbe Dunlop",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "752 m from the previous corner",
+          "at": "2026-10-28T09:38:15+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after long straight, likely requires heavy braking.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.938,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.938
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T13:important_exit": {
+      "id": "269:T13:important_exit",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "791 m to the next corner",
+          "at": "2026-10-28T09:38:15+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a long straight after this corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.938,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.938
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T15",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T13: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T2:slow_corner": {
+      "id": "269:T2:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T3:slow_corner": {
+      "id": "269:T3:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T3",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T8:important_exit": {
+      "id": "269:T8:important_exit",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a long straight after this corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T8",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T9:important_exit": {
+      "id": "269:T9:important_exit",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a long straight after this corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T9",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T9: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T12:slow_corner": {
+      "id": "269:T12:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T14",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T12: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T16:slow_corner": {
+      "id": "269:T16:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T18",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T16: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T29:slow_corner": {
+      "id": "269:T29:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T29",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T31",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T29: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T30:slow_corner": {
+      "id": "269:T30:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T30",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:25:08+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T32",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T30: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T18:slow_corner": {
+      "id": "269:T18:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T18",
+      "corner_name": "Virage d'Arnage",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a significant corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:28:37+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T20",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T18: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T28:slow_corner": {
+      "id": "269:T28:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T28",
+      "corner_name": "Virage Ford",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests a tight corner.",
+          "at": "2026-10-28T09:38:15+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:28:37+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+            "source_track_id": 268,
+            "corner": "T30",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T28: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "269:T12:heavy_braking": {
+      "id": "269:T12:heavy_braking",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.968
+      },
+      "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "source_track_id": 268,
+      "source_corner": "T14",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "268:T14:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T12: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T14 (same corner, same approach, inheritance 1.00); Heavy braking zone at T14: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "269:T16:heavy_braking": {
+      "id": "269:T16:heavy_braking",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.968
+      },
+      "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "source_track_id": 268,
+      "source_corner": "T18",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "268:T18:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T16: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T18 (same corner, same approach, inheritance 1.00); Heavy braking zone at T18: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "269:T15:flat_out": {
+      "id": "269:T15:flat_out",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T15",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "source_track_id": 268,
+      "source_corner": "T17",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "268:T17:flat_out"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Taken flat, no braking at T15: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T17 (same corner, same approach, inheritance 1.00); Taken flat, no braking at T17: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "269:T9:flat_out": {
+      "id": "269:T9:flat_out",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "source_track_id": 268,
+      "source_corner": "T9",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "268:T9:flat_out"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Taken flat, no braking at T9: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T9 (same corner, same approach, inheritance 1.00); Taken flat, no braking at T9: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "269:T17:slow_corner": {
+      "id": "269:T17:slow_corner",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T17",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "source_track_id": 268,
+      "source_corner": "T19",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "268:T19:slow_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Slow corner at T17: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T19 (same corner, inheritance 1.00); Slow corner at T19: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "269:T18:important_exit": {
+      "id": "269:T18:important_exit",
+      "track_id": 269,
+      "track": "Circuit des 24 Heures du Mans - Historic",
+      "corner": "T18",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "source_track_id": 268,
+      "source_corner": "T20",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "268:T20:important_exit"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T18: inherited from Circuit des 24 Heures du Mans - 24 Heures du Mans T20 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T20: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

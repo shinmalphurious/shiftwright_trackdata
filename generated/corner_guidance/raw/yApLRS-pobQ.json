@@ -1,0 +1,246 @@
+{
+  "video_id": "yApLRS-pobQ",
+  "track_id": 231,
+  "track_name": "Circuit of the Americas - West",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at COTA (NASCAR West)",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:05:01.704468+00:00",
+  "passages": 20,
+  "corners": [
+    {
+      "label": "T16",
+      "spoken_as": "turn 16",
+      "start_time": "1:25",
+      "sequence": 1,
+      "braking": "brake as far right as possible, use runoff area",
+      "gear": "2nd",
+      "line": "use outside line, cross curb to apex",
+      "exit": "use runoff to apex, accelerate out"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:25",
+      "sequence": 1,
+      "braking": "spot dark patches of asphalt for braking point"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:44",
+      "sequence": 2,
+      "braking": "past end of pit wall, use dark patches as reference",
+      "mistakes": "using break markers on fence, no 200 marker"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "this deceleration zone",
+      "start_time": "4:02",
+      "sequence": 3,
+      "braking": "Brake at least four or five car lengths before the 150 marker, use 100% brake pressure",
+      "gear": "Fourth gear, downshift to third, then second",
+      "line": "Stay tight to the curb, start turning off the curb at the white line",
+      "mistakes": "Easy to undershoot or overshoot corner speed"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "this turn",
+      "start_time": "5:21",
+      "sequence": 4,
+      "braking": "100% brake pressure, white line",
+      "gear": "2nd gear turning in, 1st gear at apex",
+      "line": "turn-in at white line, tight to curb at apex",
+      "exit": "throttle up, careful with rear tires",
+      "mistakes": "blow apex, use runoff"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "one",
+      "start_time": "6:40",
+      "sequence": 5,
+      "braking": "Over this curb, keep it on the track",
+      "gear": "First gear",
+      "line": "Get the car straightened out",
+      "exit": "Partial throttle quickly into second gear"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "9:14",
+      "sequence": 7,
+      "gear": "second gear",
+      "line": "get to the inside of this red and white curb",
+      "exit": "use a lot of this red paint",
+      "mistakes": "no slowdown, no 1x"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "10:32",
+      "sequence": 8,
+      "gear": "fourth gear",
+      "line": "left of the curb",
+      "exit": "use aggressively",
+      "mistakes": "whole car left of curb paint transition gets 1x"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "11:50",
+      "sequence": 9,
+      "label_guess": "T3",
+      "gear": "downshift to third",
+      "line": "swing it back to the left",
+      "mistakes": "cutting too much, could trigger a 1x"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "13:10",
+      "sequence": 10,
+      "label_guess": "T6",
+      "braking": "Brake at curb, easy to lock up front tire",
+      "gear": "Second",
+      "line": "Run wide, wrap curb, turn-in to right",
+      "exit": "Partial throttle, straight line braking into next corner",
+      "mistakes": "Drive off curb to left, lose angle into next corner"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "14:28",
+      "sequence": 11,
+      "braking": "Brake way to the left, cut the tire pack close",
+      "gear": "Third",
+      "line": "Cut tire pack close",
+      "exit": "Use all runoff curbing, exit on next white line",
+      "mistakes": "Not getting into third gear"
+    },
+    {
+      "label": null,
+      "spoken_as": "this",
+      "start_time": "15:48",
+      "sequence": 12,
+      "label_guess": "T10",
+      "gear": "Second",
+      "line": "Run off the track at the apex.",
+      "exit": "Partial throttle over the curb.",
+      "mistakes": "Lock up the inside rear tire, especially in low RPM."
+    },
+    {
+      "label": null,
+      "spoken_as": "12",
+      "start_time": "17:06",
+      "sequence": 13,
+      "label_guess": "T12",
+      "braking": "Straight line break from the inside of the track down to first gear.",
+      "gear": "First gear.",
+      "line": "Take it out on the approach to 12 and then into the apex.",
+      "exit": "Even before I get to the apex, I'm just going to start throttling up a little bit."
+    },
+    {
+      "label": null,
+      "spoken_as": "1314 sequence",
+      "start_time": "17:06",
+      "sequence": 13,
+      "label_guess": "T13",
+      "braking": "Heavy heavy break.",
+      "gear": "Third gear.",
+      "line": "Roll this 1314 sequence in third gear.",
+      "exit": "Lots of partial throttle.",
+      "mistakes": "Fighting the nose a bit. Just trying not to shove the front or slip the rear."
+    },
+    {
+      "label": null,
+      "spoken_as": "16",
+      "start_time": "18:24",
+      "sequence": 14,
+      "label_guess": "T16",
+      "braking": "Heavy heavy break. Just clipping that grass a little bit and breaking as I get there.",
+      "gear": "Second gear",
+      "line": "Cut it decisively across the the outside curbing into the apex curbing",
+      "exit": "Third gear. Fourth gear. Full throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "seven",
+      "start_time": "19:42",
+      "sequence": 15,
+      "label_guess": "T7",
+      "braking": "Get your nose pointed in. Two. 1 2 3 4 5 six gear down to second",
+      "gear": "Second",
+      "line": "Watch for that bounce right there",
+      "exit": "Up to third on the exit",
+      "mistakes": "Easy to lock up and nail this wall"
+    },
+    {
+      "label": null,
+      "spoken_as": "10",
+      "start_time": "19:42",
+      "sequence": 15,
+      "label_guess": "T10",
+      "braking": "Heavy heavy braking. 100% brake pressure into the apex",
+      "gear": "Second",
+      "line": "Go nine. Now we're going to go 10 11 12",
+      "exit": "Very important to set up this exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "13",
+      "start_time": "19:42",
+      "sequence": 15,
+      "label_guess": "T13",
+      "braking": "Heavy brake",
+      "gear": "Third",
+      "line": "Lug in third gear through 13",
+      "exit": "Straight out over the exit curve"
+    },
+    {
+      "label": "T15",
+      "spoken_as": "15",
+      "start_time": "19:42",
+      "sequence": 15,
+      "braking": "Heavy brake. and just cut as much 15 as possible",
+      "line": "Drive it back to the right hand side of the track"
+    },
+    {
+      "label": null,
+      "spoken_as": "16",
+      "start_time": "19:42",
+      "sequence": 15,
+      "label_guess": "T16",
+      "line": "Do the apex of 16 and 134 134"
+    },
+    {
+      "label": null,
+      "spoken_as": "next set",
+      "start_time": "21:04",
+      "sequence": 16,
+      "line": "Big big wheel. I'm always looking at getting set up for the next set.",
+      "exit": "caring out. You can almost hear the engine."
+    }
+  ],
+  "general_tips": [
+    "Review lap from outside car, focusing on lift points, brake points, brake pressure, turn-in points.",
+    "extend angle of attack into T16 as much as possible",
+    "be decisive with track limits, use runoff area",
+    "Pay attention to the left rear wheel in high-speed entry to low-speed apexes",
+    "Inside rear tire has a tendency to lock up in second gear at low RPM",
+    "Be careful with inside rear tire locking up",
+    "Roll off brake or introduce throttle to prevent rear tire lockup",
+    "Increase speed or introduce throttle to free up inside rear wheel",
+    "Lots of short shifting just to get it into fourth gear.",
+    "use as much of the inside curb as you'd like",
+    "first lap tricky with low pressures, be easy with curbing",
+    "stay far left for first S to carry speed into second S",
+    "fourth gear, fourth gear, lift, brake, use left of curb",
+    "Use all of the runoff curbing on the backstretch",
+    "Car is light on the rear, easy to lock up the inside rear tire.",
+    "Cut it back to the right through 11.",
+    "Cut this corner as much as I can. Get as tight to that grass as I can completely over this this orange curb."
+  ],
+  "dropped_ungrounded": 5
+}

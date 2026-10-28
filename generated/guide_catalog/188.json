@@ -1,43 +1,77 @@
 {
   "track_id": 188,
   "layout": "188-kentucky-oval",
+  "name": "[Legacy] Kentucky Speedway - 2011 - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:10:36.505569+00:00",
+  "candidates_seen": 52,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 52,
+    "new_candidates": 48,
+    "accepted": 4,
+    "selected": 4,
+    "kept_previous": 4,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 48,
+    "rejection_reasons": {
+      "venue not in title": 22,
+      "no guide words in title": 17,
+      "too long": 7,
+      "too short": 2
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
         "video_id": "nP2laf7BrOo",
         "title": "iRacing Maconi C-Fixed Trucks Kentucky Guide to Qualifying and Race 26S3",
-        "description": "iRacing NASCAR Series Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the Open\u00a0...",
+        "description": "iRacing NASCAR Series Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the Open ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 222,
+        "venue_confidence": 0.8
       },
       {
-        "video_id": "T60u9hLO438",
-        "title": "Sim Race Like a Pro w/ Marcos Ambrose Oval iRacing Tips and Tricks NASCAR Kentucky",
-        "description": "Marcos Ambrose returns to discuss oval racing general concepts and tips and tricks to help out all Sim Racers. If you find this\u00a0...",
-        "video_type": "other",
+        "video_id": "5AYw-yGUVg8",
+        "title": "NASCAR 1987 Qualify/Practice Guide at Kentucky 2011 - iRacing",
+        "description": "Nearing the end of season 3! This time we're at Kentucky 2011, a much bumpier version of the track that will eat your RR!",
+        "channel": "CR2 Racing",
+        "duration": 2037,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 222,
+        "venue_confidence": 0.8
       }
     ],
-    "street_stock": [
+    "general": [
       {
-        "video_id": "ME3ipcrmlO8",
-        "title": "iRacing - Rookie Tips for Oval Racing",
-        "description": "iRacing member Dave Cameron walks us through his approach for tackling a rookie street stock race at USA International.",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      }
-    ],
-    "arca": [
+        "video_id": "jSZUAWJRM6A",
+        "title": "iRacing Maconi B-Fixed Kentucky (Legacy 2011) Guide to Qualifying and Race 26S1",
+        "description": "iRacing Xfinity Qualifying and Race Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 500,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
       {
-        "video_id": "rGhmO5krDTo",
-        "title": "ORRL Oswald Racing 100 @ Kentucky Speedway - ARCA Series",
-        "description": "ORRL All-Star Open.",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 20
+        "video_id": "aWg6ezcbq-4",
+        "title": "Cup Car - Kentucky (new) - Track Guide",
+        "description": "... here that's kind of what uh ryan blaney hit the actual cup race when he uh flew up the track into harvick that's what he actually hit ...",
+        "channel": "Jon Honaker",
+        "duration": 471,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 152,
+        "venue_confidence": 0.8
       }
     ]
   }

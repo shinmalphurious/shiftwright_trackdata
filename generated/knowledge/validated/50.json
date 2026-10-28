@@ -1,0 +1,138 @@
+{
+  "track_id": 50,
+  "track": "Road America - Bend",
+  "records": {
+    "50:T1:heavy_braking": {
+      "id": "50:T1:heavy_braking",
+      "track_id": 50,
+      "track": "Road America - Bend",
+      "corner": "T1",
+      "corner_name": "Turn 1",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1291 m from the previous corner",
+          "at": "2026-10-28T09:12:28+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "1291 m straight before corner, suggesting high speed build-up",
+          "at": "2026-10-28T09:12:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:57+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.918
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "eGeY0y72Cds",
+              "result": "confirm",
+              "time": "0:49",
+              "note": "braking: brake up to 60% trailer off at one cone; gear: 3rd; line: slide it through; exit: keep on the gas from apex onwards",
+              "transcript_snippet": "through, keep on the gas in third gear from the apex onwards. Now, as we come into turn three, weirdly",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=eGeY0y72Cds"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "50:T5:heavy_braking": {
+      "id": "50:T5:heavy_braking",
+      "track_id": 50,
+      "track": "Road America - Bend",
+      "corner": "T5",
+      "corner_name": "Turn 5",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "354 m straight before corner, likely high speed entry",
+          "at": "2026-10-28T09:12:28+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:57+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "eGeY0y72Cds",
+              "result": "confirm",
+              "time": "1:21",
+              "note": "braking: just before the one, 100%; gear: second; line: right-hand side, wide, cut back in; exit: decent exit; mistakes: missed apex",
+              "transcript_snippet": "on the brakes just before the one again. We're going to get right over to the right-hand side, on the brakes all the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=eGeY0y72Cds"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

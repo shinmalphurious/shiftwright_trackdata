@@ -85,5 +85,229 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake into the yellow line, focus on commitment to the apex.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "under braking, find point, partial braking, smooth",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Transition off in the brake.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Get into second gear.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Stay straddled on the yellow line, partial throttle to full throttle.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn in, work wheel into banking, apex at bottom of track",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Cut this as much as I can.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Use banking to advantage, rapid throttle application.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get off brake pedal as smooth as possible",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "adding too much wheel input, tipping into brake pressure too aggressively",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Deviate from the apex, lose grip, back off throttle.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to yellow line, smooth transition, turn in early, stay on yellow line, rapid throttle on exit, avoid aggressive braking."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "limit brake pressure, add more wheel input",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn in to get into load point",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "off brake, rolling phase",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "too much wheel angle, too much brake pressure",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, turn in early to load point, avoid excessive wheel angle and brake pressure, roll out of corner."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "banked",
+        "statement": "Banked corner",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Banked corner at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

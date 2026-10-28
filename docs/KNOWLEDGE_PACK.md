@@ -37,7 +37,9 @@ Spa 6.6 m, Red Bull Ring 4.5 m, Le Mans 11.7 m median (the previous axes: 169 m,
 | `centreline_check` | `{method, off_track_share, coverage, ok}` from `generated/axes/axis_quality.json`; `ok: false` means the centreline is approximate for this layout |
 | `named_corners[]` | `{name, start_pct, end_pct, labels[], ...}`; `labels` = turns inside the range (empty if direction unknown) |
 | `generated_corner_regions[]` | Curvature-detected `{start_pct, apex_pct, end_pct, strength}` |
-| `youtube_summary`, `turn_consensus` | YouTube enrichment (sparse) |
+| `youtube_summary`, `turn_consensus` | Old keyword counts from YouTube (3 tracks; superseded by `corner_guidance`) |
+| `corner_facts` | `{"T1": [{claim, statement, confidence, basis, evidence: {research, transcript, telemetry_laps, variants}, explanation, source_track?, source_corner?, inheritance_confidence?}]}`: consensus-approved facts only, from `generated/knowledge/validated/` (`basis` is `consensus` or `inherited`). Research candidates never appear here. The platform maps claims to `corner_type` / `brake_type` / `importance` (`HEAVY_BRAKING`, `FLAT_OUT`, `HAIRPIN`, `CHICANE`, `SLOW`, `FAST`, importance `HIGH`) on rows it owns and reports disagreements with hand-written rows as `curated_conflicts`. |
+| `corner_guidance` | `{"T3": {name, videos, cars[], notes_by_method, tip, braking\|gear\|line\|exit\|mistakes: [{text, videos, cars[], confidence, methods[]}]}}`; `confidence` 1.0 = the speaker named the corner, lower = placed by `enrich_corner_assignments` (alias, telemetry, sequence or lap position) per-turn driving instructions from lap-guide videos (`build_corner_guidance`); statements ordered by how many videos agree. The platform writes `tip` to `coaching_tip` and the statements to `description`. |
 
 ## Rebuild order
 
@@ -45,5 +47,14 @@ Spa 6.6 m, Red Bull Ring 4.5 m, Le Mans 11.7 m median (the previous axes: 169 m,
 build_track_catalog → build_axis_library → normalize_axis_library → build_centreline_library
   → (corner pipeline, see DATA_FLOW_DIAGRAM.md) → build_track_knowledge_pack
 ```
+
+Corner guidance (needs a local Ollama, default model `qwen2.5:14b`, override with `OLLAMA_MODEL`):
+
+```text
+verify_lap_guide_transcripts → extract_corner_guidance → enrich_corner_assignments
+  → build_corner_guidance → build_track_knowledge_pack (runs validate_track_knowledge first)
+```
+
+The platform import withdraws guidance it wrote earlier for corners the pack no longer has guidance for.
 
 Then in the platform: `python scripts/import_knowledge_packs.py`.

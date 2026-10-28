@@ -67,5 +67,351 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 8
+      },
+      "braking": [
+        {
+          "text": "limited brake pressure, trail off closer to compression point",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake gently to stabilize entry, use limited brake pressure",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "judge distance to new pavement, feel of car during braking",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "higher entry, straighten approach, more braking pressure",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st gear, 40 mph",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn-in to new pavement, aim for tighter option to reduce splitter contact",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn-in to start apex, limited brake pressure.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Run higher in the second groove on restart",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "stay below dotted white line",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Maintain angle of apex, ramp up to 100% throttle.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "avoid overdriving, back up entries",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "using too much brake pressure, being too abrupt away from the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "more brake pressure leads to front end pushing and going off line",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Too much braking or wheel shaping can cause a free trend.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Overcommitting, too shallow entry, destabilized entry.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, trail off before compression, use limited brake pressure. Aim for tighter option to reduce splitter contact. Maintain 1st gear, 40 mph. Avoid overcommitting and excessive braking."
+    },
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "line": [
+        {
+          "text": "Stay on painted line to apex, then center of track",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Maintain throttle to hold apex, ramp up to 100% throttle",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Keep left side tires just below this point on exit.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Adding too much wheel angle too early on exit can cost speed and lap time.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Pushing tight with the nose, opening the wheel too early",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on painted line to apex, then center of track. Maintain throttle to hold apex, ramp up to 100% throttle. Keep left side tires just below exit point. Avoid adding too much wheel angle early or opening the wheel too early."
+    },
+    "T3": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brake straighter, limited pressure",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn before I in Iowa, set up for lift point",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "roll center of corners",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "every lane fair game, use outside line sparingly",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "overdriving corners, failing to back up entries",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "don't get to painted line too early",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake straighter with limited pressure, turn before the I in Iowa, roll through the center, use outside line sparingly on exit, avoid overdriving and getting to the painted line too early."
+    }
+  },
+  "corner_facts": {}
 }

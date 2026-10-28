@@ -107,5 +107,287 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at second and third seams, 50%, trail brake to third gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate to 100%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at second and third seams, 50%, trail brake to 3rd gear. Accelerate to 100% on exit."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake briefly to 10% before entrance road",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Cut corner, left tires on curb, right tires on track",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake briefly to 10% before entrance, cut corner with left tires on curb, right tires on track, accelerate flat."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Nick curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Accelerate flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Nick the curb, accelerate flat out."
+    },
+    "T5": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "50-55% before curbing, 25-30% at black tires, 14-15% near right curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "20% briefly, then 15% to apex",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Shallow angle, left tires in grass, right tires on track",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "trail brake to apex curb",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Blip of gas, back on brakes, pick up in third",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "hold 60% throttle until apex, then 100%",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Giving too much room on right side",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake 50-55% before curbing, 25-30% at black tires, 14-15% near right curb. Trail brake to apex curb. Shallow angle, left tires in grass, right tires on track. Hold 60% throttle until apex, then 100%. Exit in 3rd gear."
+    },
+    "T7": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "bmw_m2"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brakes to 45%, wide entry",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "down to third",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail off to cones",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "slowly pick back up on gas",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "wash out and end up in wall",
+          "videos": 1,
+          "cars": [
+            "bmw_m2"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 45%, take a wide entry, downshift to 3rd. Trail off to cones, slowly pick up throttle on exit. Avoid washing out to stay clear of the wall."
+    }
+  },
+  "corner_facts": {}
 }

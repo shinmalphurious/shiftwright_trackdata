@@ -1,0 +1,159 @@
+{
+  "video_id": "cH9rx0dLgn8",
+  "track_id": 166,
+  "track_name": "Okayama International Circuit - Full Course",
+  "title": "iRacing MX5 Okayama Guide 1:43.2 Mazda MX5 Okayama Production Car Track Guide",
+  "car_hint": "mx5",
+  "car": "Mazda MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:55:41.418632+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "blue cone on the right side and a white line painted alongside it",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake right at 50%, trail off",
+      "gear": "second gear",
+      "line": "turn-in to apex, back on gas",
+      "exit": "head over to the right side"
+    },
+    {
+      "label": null,
+      "spoken_as": "brightly colored asphalt on the right",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "little dab on the brakes and a lift",
+      "gear": "third gear",
+      "line": "cut corners very slightly",
+      "exit": "slowly increase back up to full power"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T5",
+      "braking": "brake quite sharply, almost to 20%",
+      "gear": "second gear",
+      "exit": "carry all that momentum going up the hill"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "brake ahead of marshal's hut, full brake",
+      "gear": "first gear",
+      "line": "trail brake to apex, left side",
+      "exit": "wide exit, second gear"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "red man cone",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "brake after 50, before marshal's hut",
+      "gear": "first gear",
+      "line": "hug left side",
+      "exit": "lift, back on gas ahead of apex"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "sharply on brakes at dark patch",
+      "gear": "second gear"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "here",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "80% at blue cone, trail off to 2nd gear",
+      "gear": "3rd at apex",
+      "exit": "throttle up exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn two",
+      "start_time": "2:35",
+      "sequence": 2,
+      "label_guess": "T11",
+      "braking": "10% at end of grass, brightly colored asphalt",
+      "gear": "3rd"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "3:54",
+      "sequence": 3,
+      "braking": "Break late and hard at 50 board, 90% pressure, trail off",
+      "gear": "Drop to second at apex",
+      "line": "Early apex, run wide on exit",
+      "exit": "Carry momentum, pick up throttle"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:54",
+      "sequence": 3,
+      "braking": "Break midway between 50 and 100, max pressure, no ABS",
+      "gear": "Down through gears, use engine braking",
+      "exit": "Pick up throttle in first gear, straighten wheel",
+      "mistakes": "Avoid locking up tires"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "5:10",
+      "sequence": 4,
+      "label_guess": "T7",
+      "braking": "dab on brakes, 15%",
+      "gear": "second",
+      "line": "trail off brakes, pick up gas at apex",
+      "exit": "50% throttle on exit"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "Redman corner",
+      "start_time": "5:10",
+      "sequence": 4,
+      "braking": "brakes to 80%, third of way between 50 marker and marshal",
+      "gear": "first",
+      "line": "trail off brakes, pick up gas at apex",
+      "exit": "3/4 throttle on exit"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "5:10",
+      "sequence": 4,
+      "line": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "Last Corner",
+      "start_time": "6:34",
+      "sequence": 5,
+      "label_guess": "T11",
+      "braking": "Brake sharply at end of green asphalt to 80%",
+      "gear": "2nd",
+      "line": "Right-hand side of rumble strip, do not cross yellow line",
+      "exit": "Exit without entering gravel trap",
+      "mistakes": "Cutting corner feels risky but is not"
+    }
+  ],
+  "general_tips": [
+    "Let's cut these corners very slightly.",
+    "flat through turn 10",
+    "Look for blue cone on right side for braking reference",
+    "Trail braking from 10% to 2/3 by apex",
+    "control turning with brakes and throttle"
+  ],
+  "dropped_ungrounded": 0
+}

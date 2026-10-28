@@ -1,0 +1,150 @@
+{
+  "video_id": "o677D5G_sKU",
+  "track_id": 233,
+  "track_name": "Donington Park Racing Circuit - Grand Prix",
+  "title": "iRacing F4 Donington Full - 1:27.5 (Fixed) - F4 Donington Full Track Guide eSports Series",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:54:07.963895+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking up to about 60% drop it down to third long trail off very slightly on exit",
+      "gear": "third",
+      "line": "absolutely flat",
+      "exit": "absolutely flat"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Craner Curves turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "just before the turn right sign, that's when we're going to go on the brakes which are about 30%",
+      "exit": "back on the gas nice and early"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "absolutely flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn six",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T6",
+      "line": "absolutely flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "McLarens",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T7",
+      "braking": "braking up to about 40% quick trail off down to fourth gear again",
+      "gear": "fourth",
+      "line": "get to the grass",
+      "exit": "exit wide, but not too wide"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight Coppice",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking up to about 40% back on the gas"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "Melbourne Hairpin",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "Braking hard to second gear.",
+      "gear": "Second gear",
+      "line": "Miss bollards, brake hard.",
+      "exit": "Gentle throttle on exit."
+    },
+    {
+      "label": "T12",
+      "spoken_as": "Goddards",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "Braking up to 80%, second gear.",
+      "gear": "Second gear",
+      "exit": "Gentle throttle on exit."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:36",
+      "sequence": 2,
+      "label_guess": "T12",
+      "braking": "braking marker is just as it starts moving off to the right-hand side, 30%",
+      "gear": "fifth",
+      "line": "do the first curb and then left-hand tires as it moves back round",
+      "exit": "exit nice and wide, keep center of car over rumble strip, flat through five and six"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "braking marker for turn seven",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "end of curbing on left-hand side, 55%",
+      "gear": "fourth",
+      "mistakes": "blip before dropping to fourth to avoid back end doing anything silly"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:54",
+      "sequence": 3,
+      "braking": "Brake at top of hill, 3 car lengths before, 50% then trail off",
+      "gear": "Fourth",
+      "line": "Take curbing at first apex",
+      "exit": "Get back on throttle immediately",
+      "mistakes": "Lose time by not taking enough speed in"
+    },
+    {
+      "label": null,
+      "spoken_as": "Copse",
+      "start_time": "3:54",
+      "sequence": 3,
+      "label_guess": "T9",
+      "braking": "Brake as soon as dropping down hill, 70%",
+      "gear": "Fourth",
+      "mistakes": "Miss bollards"
+    },
+    {
+      "label": null,
+      "spoken_as": "the second one",
+      "start_time": "5:12",
+      "sequence": 4,
+      "label_guess": "T9",
+      "braking": "brake at marshal saw left, 85%",
+      "gear": "drop to 2nd",
+      "line": "trail brakes to apex, wide exit",
+      "exit": "get up to 100%"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "5:12",
+      "sequence": 4,
+      "braking": "brake at white line bend, 80-83%",
+      "gear": "drop to 2nd",
+      "line": "trail brakes to apex"
+    }
+  ],
+  "general_tips": [
+    "So much time can be found there through turn eight Coppice.",
+    "Don't over brake for the esses."
+  ],
+  "dropped_ungrounded": 6
+}

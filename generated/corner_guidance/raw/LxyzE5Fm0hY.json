@@ -1,0 +1,76 @@
+{
+  "video_id": "LxyzE5Fm0hY",
+  "track_id": 238,
+  "track_name": "World Wide Technology Raceway (Gateway) - Road Course",
+  "title": "iRacing BMW M2 World Wide Technology Raceway Guide 1:05.2 M2 Racing G7 Gateway Track Guide",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:51:17.813561+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn number two",
+      "start_time": "1:46",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "between first and second seam, 45-50%",
+      "gear": "4th",
+      "line": "wide entry, drop through gears",
+      "exit": "wide exit, 60% throttle to apex, 100% throttle after apex",
+      "mistakes": "attack curbs too much"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:46",
+      "sequence": 1,
+      "braking": "20% briefly, then 15% to apex",
+      "line": "trail brake to apex curb",
+      "exit": "hold 60% throttle until apex, then 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "1:46",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "15% to apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "3:02",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "get on brakes to 25%, trail off",
+      "gear": "drop to fourth",
+      "line": "long trail off",
+      "exit": "blip of gas, back on gas"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "next braking marker",
+      "start_time": "3:02",
+      "sequence": 2,
+      "braking": "brakes to 45%, wide entry",
+      "gear": "down to third",
+      "line": "trail off to cones",
+      "exit": "slowly pick back up on gas",
+      "mistakes": "wash out and end up in wall"
+    }
+  ],
+  "general_tips": [
+    "Welcome to Samba iRacing BMW M2 World Wide Technology Raceway guide.",
+    "Join us for a setup series, visit sambasetups.com for exact setup.",
+    "Hot lap breakdown followed by driving line lap.",
+    "Questions in comments, best of luck this week.",
+    "start turning early",
+    "give yourself a bit of room on the right",
+    "don't attack the curbs too much",
+    "flat until halfway, lift to 60-65%, increase back to 100%"
+  ],
+  "dropped_ungrounded": 2
+}

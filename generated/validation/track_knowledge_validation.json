@@ -1,0 +1,1278 @@
+{
+  "summary": {
+    "duplicate_turn_id": 25,
+    "missing_turn_number": 32,
+    "alias_collision": 4,
+    "non_sequential_order": 34,
+    "named_corner_repeats_label": 7
+  },
+  "layouts_with_issues": 59,
+  "layouts": {
+    "18": {
+      "track": "Road America - Full Course",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 2,
+          "lap_pct": [
+            0.1016,
+            0.7109
+          ]
+        }
+      ]
+    },
+    "21": {
+      "track": "Homestead Miami Speedway - Road Course A",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.8955,
+            0.8916,
+            0.0703
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "95": {
+      "track": "Sebring International Raceway - International",
+      "issues": [
+        {
+          "issue": "alias_collision",
+          "alias": "fangio chicane",
+          "turn_ids": [
+            "T8",
+            "T9"
+          ]
+        }
+      ]
+    },
+    "127": {
+      "track": "Road Atlanta - Full Course",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T10"
+          ]
+        }
+      ]
+    },
+    "147": {
+      "track": "Circuit Park Zandvoort - Chicane - 2009",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.7354,
+            0.7207,
+            0.0859
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "149": {
+      "track": "Circuit Park Zandvoort - Grand Prix - 2009",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.7344,
+            0.7197,
+            0.0859
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "168": {
+      "track": "Suzuka International Racing Course - Grand Prix",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T10",
+            "T11"
+          ],
+          "lap_pct": [
+            0.8174,
+            0.5254
+          ]
+        }
+      ]
+    },
+    "173": {
+      "track": "Suzuka International Racing Course - Moto",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T10",
+            "T11"
+          ],
+          "lap_pct": [
+            0.8174,
+            0.5254
+          ]
+        }
+      ]
+    },
+    "175": {
+      "track": "Suzuka International Racing Course - West",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T5",
+            "T6"
+          ],
+          "lap_pct": [
+            0.4902,
+            0.1289
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T6",
+            "T7"
+          ],
+          "lap_pct": [
+            0.1289,
+            0.1123
+          ]
+        }
+      ]
+    },
+    "176": {
+      "track": "Suzuka International Racing Course - West w/chicane",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T5",
+            "T6"
+          ],
+          "lap_pct": [
+            0.4902,
+            0.1299
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T6",
+            "T7"
+          ],
+          "lap_pct": [
+            0.1299,
+            0.1133
+          ]
+        }
+      ]
+    },
+    "179": {
+      "track": "Long Beach Street Circuit",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T1",
+            "T2"
+          ],
+          "lap_pct": [
+            0.4453,
+            0.2783
+          ]
+        }
+      ]
+    },
+    "202": {
+      "track": "Oran Park Raceway - Grand Prix",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "detail": "most turns run backwards: lap direction or numbering is reversed",
+          "turns_backwards": 9,
+          "steps": 11
+        }
+      ]
+    },
+    "207": {
+      "track": "Oran Park Raceway - North",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "detail": "most turns run backwards: lap direction or numbering is reversed",
+          "turns_backwards": 3,
+          "steps": 5
+        }
+      ]
+    },
+    "211": {
+      "track": "Oran Park Raceway - Moto",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "detail": "most turns run backwards: lap direction or numbering is reversed",
+          "turns_backwards": 9,
+          "steps": 11
+        }
+      ]
+    },
+    "219": {
+      "track": "Mount Panorama Circuit",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.5078,
+            0.5078,
+            0.0459
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "229": {
+      "track": "Circuit of the Americas - Grand Prix",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.4023,
+            0.4326,
+            0.0781
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T13",
+            "T14"
+          ],
+          "lap_pct": [
+            0.6729,
+            0.6602
+          ]
+        }
+      ]
+    },
+    "231": {
+      "track": "Circuit of the Americas - West",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.5195,
+            0.5205,
+            0.1152
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "240": {
+      "track": "Autodromo Nazionale Monza - Combined without chicanes",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T2",
+            "T3"
+          ],
+          "lap_pct": [
+            0.8652,
+            0.2373
+          ]
+        }
+      ]
+    },
+    "246": {
+      "track": "Autodromo Nazionale Monza - Combined without first chicane",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T2",
+            "T3"
+          ],
+          "lap_pct": [
+            0.8652,
+            0.2363
+          ]
+        }
+      ]
+    },
+    "249": {
+      "track": "Nürburgring Nordschleife - Industriefahrten",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "252": {
+      "track": "Nürburgring Combined - Gesamtstrecke 24h",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "253": {
+      "track": "Nürburgring Nordschleife - Touristenfahrten",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "261": {
+      "track": "Nürburgring Grand-Prix-Strecke - Müllenbachschleife",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T5",
+            "T6"
+          ],
+          "lap_pct": [
+            0.8965,
+            0.8584
+          ]
+        }
+      ]
+    },
+    "262": {
+      "track": "Nürburgring Combined - Gesamtstrecke VLN",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "263": {
+      "track": "Nürburgring Combined - Gesamtstrecke Short w/out Arena",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "264": {
+      "track": "Nürburgring Combined - Gesamtstrecke Long",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "266": {
+      "track": "Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix",
+      "issues": [
+        {
+          "issue": "alias_collision",
+          "alias": "variante villeneuve",
+          "turn_ids": [
+            "T5",
+            "T6"
+          ]
+        },
+        {
+          "issue": "alias_collision",
+          "alias": "acque minerali",
+          "turn_ids": [
+            "T10",
+            "T9"
+          ]
+        },
+        {
+          "issue": "alias_collision",
+          "alias": "gresini",
+          "turn_ids": [
+            "T11",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "295": {
+      "track": "Iowa Speedway - Rallycross - 2017",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T3",
+            "T4"
+          ],
+          "lap_pct": [
+            0.415,
+            0.3604
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T5",
+            "T6"
+          ],
+          "lap_pct": [
+            0.4883,
+            0.4531
+          ]
+        }
+      ]
+    },
+    "319": {
+      "track": "Detroit Grand Prix at Belle Isle",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.7578,
+            0.7559,
+            0.04
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "345": {
+      "track": "Circuit de Barcelona Catalunya - Grand Prix",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.1543,
+            0.7529,
+            0.7461
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "La Caixa",
+          "turn_ids": [
+            "T1",
+            "T1",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "346": {
+      "track": "Circuit de Barcelona Catalunya - National",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T9",
+            "T10"
+          ],
+          "lap_pct": [
+            0.79,
+            0.7842
+          ]
+        }
+      ]
+    },
+    "386": {
+      "track": "Circuit de Barcelona Catalunya - Rallycross",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T1",
+            "T2"
+          ],
+          "lap_pct": [
+            0.8271,
+            0.6201
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T2",
+            "T3"
+          ],
+          "lap_pct": [
+            0.6201,
+            0.5586
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T3",
+            "T4"
+          ],
+          "lap_pct": [
+            0.5586,
+            0.2461
+          ]
+        }
+      ]
+    },
+    "431": {
+      "track": "Hockenheimring Baden-Württemberg - Porsche Experience Center - Handling",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T11",
+          "markers": 2,
+          "lap_pct": [
+            0.4863,
+            0.5312
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T10"
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T3",
+            "T4"
+          ],
+          "lap_pct": [
+            0.2441,
+            0.168
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T4",
+            "T5"
+          ],
+          "lap_pct": [
+            0.168,
+            0.1289
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T6",
+            "T7"
+          ],
+          "lap_pct": [
+            0.915,
+            0.8936
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T7",
+            "T8"
+          ],
+          "lap_pct": [
+            0.8936,
+            0.8809
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T8",
+            "T9"
+          ],
+          "lap_pct": [
+            0.8809,
+            0.4561
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T17",
+            "T18"
+          ],
+          "lap_pct": [
+            0.8174,
+            0.4434
+          ]
+        }
+      ]
+    },
+    "465": {
+      "track": "Virginia International Raceway - Full Course",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T13"
+          ]
+        }
+      ]
+    },
+    "466": {
+      "track": "Virginia International Raceway - Grand Course",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T4",
+            "T5",
+            "T6",
+            "T8",
+            "T15",
+            "T17",
+            "T18",
+            "T19",
+            "T22"
+          ]
+        }
+      ]
+    },
+    "467": {
+      "track": "Virginia International Raceway - North Course",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T13"
+          ]
+        }
+      ]
+    },
+    "473": {
+      "track": "Circuito de Jerez - Ángel Nieto - Grand Prix",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T13",
+            "T14"
+          ],
+          "lap_pct": [
+            0.793,
+            0.5977
+          ]
+        }
+      ]
+    },
+    "474": {
+      "track": "Circuito de Jerez - Ángel Nieto - Moto",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T11",
+            "T12"
+          ],
+          "lap_pct": [
+            0.7812,
+            0.5977
+          ]
+        }
+      ]
+    },
+    "485": {
+      "track": "Circuit Zandvoort - Grand Prix",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.7344,
+            0.7197,
+            0.0859
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "Hans Ernst Bocht",
+          "turn_ids": [
+            "T1",
+            "T1",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "486": {
+      "track": "Circuit Zandvoort - Grand Prix w/chicane",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.7354,
+            0.7207,
+            0.0859
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "Hans Ernst Bocht",
+          "turn_ids": [
+            "T1",
+            "T1",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "501": {
+      "track": "Misano World Circuit Marco Simoncelli - Grand Prix",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.0811,
+            0.6797,
+            0.6816
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "Curvone",
+          "turn_ids": [
+            "T1",
+            "T1",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "502": {
+      "track": "Misano World Circuit Marco Simoncelli - Grand Prix - 2007",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.082,
+            0.6787,
+            0.6807
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "503": {
+      "track": "Misano World Circuit Marco Simoncelli - Grand Prix - Historic Reverse",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.0967,
+            0.9316,
+            0.9277
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "Curva Misano",
+          "turn_ids": [
+            "T1",
+            "T1"
+          ]
+        }
+      ]
+    },
+    "505": {
+      "track": "Misano World Circuit Marco Simoncelli - Truck",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.085,
+            0.7119,
+            0.7139
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "506": {
+      "track": "Slinger Speedway - Figure 8",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "detail": "most turns run backwards: lap direction or numbering is reversed",
+          "turns_backwards": 2,
+          "steps": 3
+        }
+      ]
+    },
+    "509": {
+      "track": "Algarve International Circuit - Grand Prix",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.6553,
+            0.6543,
+            0.1465
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "Portimao",
+          "turn_ids": [
+            "T1",
+            "T1",
+            "T10"
+          ]
+        }
+      ]
+    },
+    "510": {
+      "track": "Algarve International Circuit - Grand Prix - Chicanes",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.6367,
+            0.6348,
+            0.1445
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        },
+        {
+          "issue": "named_corner_repeats_label",
+          "corner": "Portimao",
+          "turn_ids": [
+            "T1",
+            "T1",
+            "T12"
+          ]
+        }
+      ]
+    },
+    "511": {
+      "track": "Algarve International Circuit - Moto",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.6445,
+            0.6436,
+            0.1504
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "512": {
+      "track": "Algarve International Circuit - Moto - Chicanes",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.626,
+            0.624,
+            0.1494
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11"
+          ]
+        }
+      ]
+    },
+    "527": {
+      "track": "Cadwell Park Circuit - Full",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T3",
+            "T4"
+          ],
+          "lap_pct": [
+            0.7969,
+            0.0107
+          ]
+        }
+      ]
+    },
+    "528": {
+      "track": "Cadwell Park Circuit - Club",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T4",
+            "T5"
+          ],
+          "lap_pct": [
+            0.7031,
+            0.0176
+          ]
+        }
+      ]
+    },
+    "529": {
+      "track": "Cadwell Park Circuit - Moto",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 2,
+          "lap_pct": [
+            0.6953,
+            0.6328
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T3",
+            "T4"
+          ],
+          "lap_pct": [
+            0.7969,
+            0.0107
+          ]
+        }
+      ]
+    },
+    "550": {
+      "track": "Charlotte Motor Speedway  - Legends Road Course 2025",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T9",
+          "markers": 2,
+          "lap_pct": [
+            0.9473,
+            0.6387
+          ]
+        }
+      ]
+    },
+    "551": {
+      "track": "Charlotte Motor Speedway  - Infield Road Course Long",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T2",
+          "markers": 2,
+          "lap_pct": [
+            0.0645,
+            0.7002
+          ]
+        }
+      ]
+    },
+    "553": {
+      "track": "Charlotte Motor Speedway  - Roval 2019",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ]
+        }
+      ]
+    },
+    "555": {
+      "track": "Charlotte Motor Speedway  - Roval No Chicanes",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ]
+        }
+      ]
+    },
+    "579": {
+      "track": "Circuit of the Americas - NASCAR West",
+      "issues": [
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5"
+          ]
+        },
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T10",
+            "T11"
+          ],
+          "lap_pct": [
+            0.5264,
+            0.5078
+          ]
+        }
+      ]
+    },
+    "582": {
+      "track": "Winton Motor Raceway - Rallycross",
+      "issues": [
+        {
+          "issue": "non_sequential_order",
+          "turn_ids": [
+            "T5",
+            "T6"
+          ],
+          "lap_pct": [
+            0.8369,
+            0.6035
+          ]
+        }
+      ]
+    },
+    "585": {
+      "track": "Barber Motorsports Park",
+      "issues": [
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T1",
+          "markers": 3,
+          "lap_pct": [
+            0.0527,
+            0.6074,
+            0.6113
+          ]
+        },
+        {
+          "issue": "duplicate_turn_id",
+          "turn_id": "T6",
+          "markers": 2,
+          "lap_pct": [
+            0.3525,
+            0.3525
+          ]
+        },
+        {
+          "issue": "missing_turn_number",
+          "turn_ids": [
+            "T11",
+            "T13"
+          ]
+        }
+      ]
+    }
+  }
+}

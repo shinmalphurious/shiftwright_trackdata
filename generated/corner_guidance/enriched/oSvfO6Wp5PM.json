@@ -1,0 +1,209 @@
+{
+  "video_id": "oSvfO6Wp5PM",
+  "track_id": 101,
+  "track_name": "Bristol Motor Speedway - Dual Pit Roads",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I 2026 NASCAR O'Reilly at Bristol",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Turn away from the wall at the Coca-Cola sign",
+      "line": "Run the bottom line, left front close to the painted yellow line",
+      "mistakes": "Lift off the throttle too much, inefficient entry",
+      "note_id": "oSvfO6Wp5PM:0",
+      "text": "braking: Turn away from the wall at the Coca-Cola sign; line: Run the bottom line, left front close to the painted yellow line; mistakes: Lift off the throttle too much, inefficient entry",
+      "spoken_as": "Coca-Cola sign on the wall",
+      "passage_time": "2:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:28",
+      "snippet": "left front as close to this painted yellow line as possible. So turning on way setting up for my lift point in the"
+    },
+    {
+      "braking": "under braking, find point, partial braking, smooth",
+      "line": "turn in, work wheel into banking, apex at bottom of track",
+      "exit": "get off brake pedal as smooth as possible",
+      "mistakes": "adding too much wheel input, tipping into brake pressure too aggressively",
+      "note_id": "oSvfO6Wp5PM:1",
+      "text": "braking: under braking, find point, partial braking, smooth; line: turn in, work wheel into banking, apex at bottom of track; exit: get off brake pedal as smooth as possible; mistakes: adding too much wheel input, tipping into brake pressure too aggressively",
+      "spoken_as": "turn one",
+      "passage_time": "3:34",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67
+        }
+      },
+      "time": "3:39",
+      "snippet": "turning in finding this point where I'm under braking not adding a lot of will input right this is very difficult",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake into the yellow line, focus on commitment to the apex.",
+      "line": "Stay straddled on the yellow line, partial throttle to full throttle.",
+      "exit": "Use banking to advantage, rapid throttle application.",
+      "mistakes": "Deviate from the apex, lose grip, back off throttle.",
+      "note_id": "oSvfO6Wp5PM:2",
+      "text": "braking: Brake into the yellow line, focus on commitment to the apex.; line: Stay straddled on the yellow line, partial throttle to full throttle.; exit: Use banking to advantage, rapid throttle application.; mistakes: Deviate from the apex, lose grip, back off throttle.",
+      "spoken_as": "turn 1",
+      "passage_time": "4:52",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:30",
+      "snippet": "straddled on the yellow line. Working some partial throttle stage all the way back to full throttle. I can open the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "limit brake pressure, add more wheel input",
+      "line": "turn in to get into load point",
+      "exit": "off brake, rolling phase",
+      "mistakes": "too much wheel angle, too much brake pressure",
+      "note_id": "oSvfO6Wp5PM:3",
+      "text": "braking: limit brake pressure, add more wheel input; line: turn in to get into load point; exit: off brake, rolling phase; mistakes: too much wheel angle, too much brake pressure",
+      "spoken_as": "turn three",
+      "passage_time": "6:10",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:58",
+      "snippet": "wheel angle, too much brake pressure, we can break it free really easy. That's why we want to do as much as we can",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "wrap the corner exit efficiently",
+      "exit": "100% throttle just before opening the wheel",
+      "mistakes": "throttle heavy off the throttle",
+      "note_id": "oSvfO6Wp5PM:4",
+      "text": "line: wrap the corner exit efficiently; exit: 100% throttle just before opening the wheel; mistakes: throttle heavy off the throttle",
+      "spoken_as": "next corner",
+      "passage_time": "7:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:45",
+      "snippet": "recognize I'm trying to wrap that corner exit as efficient as possible, right? And this is not quite 100% before that"
+    },
+    {
+      "braking": "brake late, use too much brake pressure and wheel angle",
+      "line": "overshoot entry, drive too far into the corner",
+      "exit": "get back to the throttle before restart zone",
+      "mistakes": "slide in before getting all the way into the bank, recatch the car",
+      "note_id": "oSvfO6Wp5PM:5",
+      "text": "braking: brake late, use too much brake pressure and wheel angle; line: overshoot entry, drive too far into the corner; exit: get back to the throttle before restart zone; mistakes: slide in before getting all the way into the bank, recatch the car",
+      "spoken_as": "next braking marker",
+      "passage_time": "8:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:57",
+      "snippet": "use too much brake pressure and too much wheel angle, turn it down to this bottom, and then they'll just slide in"
+    },
+    {
+      "line": "smooth entry",
+      "mistakes": "being on and off, on and off",
+      "note_id": "oSvfO6Wp5PM:6",
+      "text": "line: smooth entry; mistakes: being on and off, on and off",
+      "spoken_as": "pit entry",
+      "passage_time": "10:05",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:10",
+      "snippet": "your inputs and not just being on and off, on and off, right? So let's go to a pit entry here. This will be an"
+    },
+    {
+      "braking": "Transition off in the brake.",
+      "gear": "Get into second gear.",
+      "line": "Cut this as much as I can.",
+      "note_id": "oSvfO6Wp5PM:7",
+      "text": "braking: Transition off in the brake.; gear: Get into second gear.; line: Cut this as much as I can.",
+      "spoken_as": "turn one",
+      "passage_time": "11:22",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:45",
+      "snippet": "Get into second gear. Now, we can be about 3,900 RPMs in second gear, you know, to not get a speed pen. We're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "manage balance, partial braking to stabilize entry",
+      "line": "turn-in to corner entry, consistent approach",
+      "mistakes": "overshoot entry, lose balance, turn into the wall",
+      "note_id": "oSvfO6Wp5PM:8",
+      "text": "braking: manage balance, partial braking to stabilize entry; line: turn-in to corner entry, consistent approach; mistakes: overshoot entry, lose balance, turn into the wall",
+      "spoken_as": "pit entry",
+      "passage_time": "12:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:05",
+      "snippet": "use partial breaking to stabilize entry. Stabilize our consistent approach and corner entry, right? With some"
+    }
+  ]
+}

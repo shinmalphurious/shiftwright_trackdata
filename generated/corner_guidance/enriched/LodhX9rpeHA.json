@@ -1,0 +1,144 @@
+{
+  "video_id": "LodhX9rpeHA",
+  "track_id": 230,
+  "track_name": "Circuit of the Americas - East",
+  "title": "iRacing Corvette GT3 COTA Guide 2:05.0 Corvette GT3 Circuit Of The Americas Track Guide",
+  "car": "Corvette GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "65% to first gear",
+      "gear": "1st",
+      "line": "turn in, apex, flat",
+      "exit": "slowly back on gas, left side",
+      "note_id": "LodhX9rpeHA:0",
+      "text": "braking: 65% to first gear; gear: 1st; line: turn in, apex, flat; exit: slowly back on gas, left side",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:45",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:56",
+      "snippet": "about 65% down to first gear, get it turned in, back on the gas just ahead of the apex. Slowly back on the gas, head"
+    },
+    {
+      "line": "flat, left curb",
+      "exit": "straighten steering, 40% brakes",
+      "note_id": "LodhX9rpeHA:1",
+      "text": "line: flat, left curb; exit: straighten steering, 40% brakes",
+      "spoken_as": "turn three",
+      "passage_time": "2:45",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:13",
+      "snippet": "this curb here on the left-hand side. As we do that, we straighten our steering wheel on the brakes to about 40%. We're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "8-10% to first apex",
+      "gear": "4th",
+      "line": "trail off, flat",
+      "exit": "lightly brake, curb, back on gas",
+      "note_id": "LodhX9rpeHA:2",
+      "text": "braking: 8-10% to first apex; gear: 4th; line: trail off, flat; exit: lightly brake, curb, back on gas",
+      "spoken_as": "left-hander of turn five",
+      "passage_time": "2:45",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:29",
+      "snippet": "back on the gas in fourth. We're going to go flat until we get over to this curb here, then we're going to lightly",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "100 to 150m, 65%, 1st gear",
+      "gear": "1st",
+      "exit": "back on gas at apex, increase throttle",
+      "note_id": "LodhX9rpeHA:3",
+      "text": "braking: 100 to 150m, 65%, 1st gear; gear: 1st; exit: back on gas at apex, increase throttle",
+      "spoken_as": "turn 12",
+      "passage_time": "4:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:03",
+      "snippet": "first gear. Back on the gas at the apex. Head over to the left-hand side. What we're [music] looking for is this"
+    },
+    {
+      "braking": "brake to 35%, drop to first gear",
+      "gear": "first gear",
+      "line": "get alongside focused health, head left at apex",
+      "exit": "flat to Jora Bridge, trail off to 40%, reach 100% by turn end",
+      "note_id": "LodhX9rpeHA:4",
+      "text": "braking: brake to 35%, drop to first gear; gear: first gear; line: get alongside focused health, head left at apex; exit: flat to Jora Bridge, trail off to 40%, reach 100% by turn end",
+      "spoken_as": "turn 15",
+      "passage_time": "5:21",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:35",
+      "snippet": "first gear. Back on the gas once we get to the apex. Head over to the left-hand side giving ourselves some room. We're"
+    },
+    {
+      "braking": "brake to 60% alongside little road",
+      "gear": "second gear",
+      "line": "get tight to sausage curb ahead of apex",
+      "exit": "back on gas ahead of apex",
+      "mistakes": "do not hit sausage curb",
+      "note_id": "LodhX9rpeHA:5",
+      "text": "braking: brake to 60% alongside little road; gear: second gear; line: get tight to sausage curb ahead of apex; exit: back on gas ahead of apex; mistakes: do not hit sausage curb",
+      "spoken_as": "final bit of braking",
+      "passage_time": "5:21",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:15",
+      "snippet": "Back on the gas ahead of the apex, not hitting that sausage curb but getting nice and tight to it."
+    }
+  ]
+}

@@ -1,16 +1,30 @@
 {
   "track_id": 360,
   "layout": "360-lankebanen-rallyshort",
-  "selected_guides": {
-    "rallycross_beetle": [
-      {
-        "video_id": "NoAvO14nG1E",
-        "title": "iRacing Rallycross World Championship presented by Yokohama | Phoenix",
-        "description": "Subscribe to this channel to catch the newest upcoming events, behind-the-scenes development info, and new features/content\u00a0...",
-        "video_type": "other",
-        "car": "rallycross_beetle",
-        "quality_score": 120
-      }
-    ]
-  }
+  "name": "Lånkebanen (Hell RX) - Rallycross Short",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:00:26.028018+00:00",
+  "candidates_seen": 53,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 53,
+    "new_candidates": 53,
+    "accepted": 0,
+    "selected": 0,
+    "kept_previous": 0,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 53,
+    "rejection_reasons": {
+      "no guide words in title": 23,
+      "venue not in title": 18,
+      "too short": 8,
+      "too long": 3,
+      "live stream": 1
+    }
+  },
+  "selected_guides": {}
 }

@@ -1,0 +1,217 @@
+{
+  "video_id": "eOa0jyihzRE",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "Track Guide Summit Point Raceway BMW M2 CS iRacing",
+  "car": "BMW M2 CS",
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "braking marker is the four cones here on the left, 90% brake pressure",
+      "line": "follow the inner side of the repaved part",
+      "exit": "start to apply throttle where the repaved part and the curb meet, ease in",
+      "mistakes": "don't make the rear slide",
+      "note_id": "eOa0jyihzRE:0",
+      "text": "braking: braking marker is the four cones here on the left, 90% brake pressure; line: follow the inner side of the repaved part; exit: start to apply throttle where the repaved part and the curb meet, ease in; mistakes: don't make the rear slide",
+      "spoken_as": "race turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "0:13",
+      "snippet": "breaking marker is the four cones here on the left once we get to them we go to about 90% break pressure easing that off",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking marker is the cones here on the right, 50% brake pressure",
+      "line": "cut the curb on the inside",
+      "exit": "use all of the curb on the right side, don't go into the gravel",
+      "mistakes": "don't hit the curb too hard",
+      "note_id": "eOa0jyihzRE:1",
+      "text": "braking: braking marker is the cones here on the right, 50% brake pressure; line: cut the curb on the inside; exit: use all of the curb on the right side, don't go into the gravel; mistakes: don't hit the curb too hard",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:02",
+      "snippet": "to use all of the curb here on the right side but don't go into the gravel as that will slow down the car now get over",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break when on dirt, 50% easing off",
+      "line": "follow repave part out to outside curb",
+      "exit": "apply throttle, ease in",
+      "mistakes": "using too much throttle",
+      "note_id": "eOa0jyihzRE:2",
+      "text": "braking: break when on dirt, 50% easing off; line: follow repave part out to outside curb; exit: apply throttle, ease in; mistakes: using too much throttle",
+      "spoken_as": "turn six",
+      "passage_time": "1:17",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:51",
+      "snippet": "in and we want to follow the repave part out to the outside curb and now it's all about balance through 7 8 and 9 and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "touch inside curb",
+      "exit": "slowly increase throttle to 100%",
+      "mistakes": "hitting curb too hard",
+      "note_id": "eOa0jyihzRE:3",
+      "text": "line: touch inside curb; exit: slowly increase throttle to 100%; mistakes: hitting curb too hard",
+      "spoken_as": "number seven",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:19",
+      "snippet": "can to the inside curb without hitting it after this if you're not sliding too much we can slowly increase the throttle",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.268,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T9",
+        "estimated_pct": 0.6782,
+        "corner_pct": 0.6934,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T9",
+        "corners_between": [
+          "T7",
+          "T8"
+        ]
+      }
+    },
+    {
+      "line": "touch inside curb",
+      "exit": "slowly increase throttle to 100%",
+      "mistakes": "car sliding too much",
+      "note_id": "eOa0jyihzRE:4",
+      "text": "line: touch inside curb; exit: slowly increase throttle to 100%; mistakes: car sliding too much",
+      "spoken_as": "T it",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:22",
+      "snippet": "much we can slowly increase the throttle to 100% now and of course use all of the curve on the outside be on the left side",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.379,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T9",
+        "estimated_pct": 0.6885,
+        "corner_pct": 0.6934,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T9",
+        "corners_between": [
+          "T7",
+          "T8"
+        ]
+      }
+    },
+    {
+      "line": "get close to inside curb",
+      "exit": "use all of the curve on the outside",
+      "note_id": "eOa0jyihzRE:5",
+      "text": "line: get close to inside curb; exit: use all of the curve on the outside",
+      "spoken_as": "turn nine",
+      "passage_time": "1:17",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:24",
+      "snippet": "to 100% now and of course use all of the curve on the outside be on the left side here on the straight and some people",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the two Marshal markers, 70% brake pressure",
+      "exit": "use all of the track outside the red and white curb, jam the throttle down",
+      "note_id": "eOa0jyihzRE:6",
+      "text": "braking: brake at the two Marshal markers, 70% brake pressure; exit: use all of the track outside the red and white curb, jam the throttle down",
+      "spoken_as": "last turn",
+      "passage_time": "2:34",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {
+        "after": "T9",
+        "before": "start/finish",
+        "corners_between": [
+          "T10"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:47",
+      "snippet": "the TAC outside the red and white curb so we should use it just to make sure we have as high and excess speed as",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "video_id": "KgNaLfTdIbU",
+  "track_id": 161,
+  "track_name": "Thompson Speedway Motorsports Park",
+  "title": "iRacing Legends Rookie at Thompson Speedway Tutorial",
+  "car": null,
+  "car_hint": "legends",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "slowly off the gas, little bit of brake",
+      "line": "high line, follow the wall, keep left tires on the Groove",
+      "exit": "slowly getting into the gas, drive the car out",
+      "mistakes": "low line ruins exit speed",
+      "note_id": "KgNaLfTdIbU:0",
+      "text": "braking: slowly off the gas, little bit of brake; line: high line, follow the wall, keep left tires on the Groove; exit: slowly getting into the gas, drive the car out; mistakes: low line ruins exit speed",
+      "spoken_as": "this back uh turn three",
+      "passage_time": "2:11",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:11",
+      "snippet": "gas and trying to drive that car out you could try the low line you could try The High Line the low line doesn't",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking markers, let off gas, brake before turn-in",
+      "mistakes": "turning wheel while braking, hitting the wall",
+      "note_id": "KgNaLfTdIbU:1",
+      "text": "braking: braking markers, let off gas, brake before turn-in; mistakes: turning wheel while braking, hitting the wall",
+      "spoken_as": "turn four",
+      "passage_time": "3:29",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:13",
+      "snippet": "turn I'm not turning my wheel and hitting the break yes that is going to make your car rotate just a little bit",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "modulate the throttle to avoid the wall",
+      "line": "turn-in on the crease, apex near the wall",
+      "exit": "throttle gradually, track use near the wall",
+      "note_id": "KgNaLfTdIbU:2",
+      "text": "braking: modulate the throttle to avoid the wall; line: turn-in on the crease, apex near the wall; exit: throttle gradually, track use near the wall",
+      "spoken_as": "this turn",
+      "passage_time": "4:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.27,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.55
+      }
+    }
+  ]
+}

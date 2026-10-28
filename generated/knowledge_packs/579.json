@@ -164,5 +164,26 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T11": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.9,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T11: inherited from Circuit of the Americas - West T12 (same corner, inheritance 1.00); Slow corner at T12: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+        "source_track": "Circuit of the Americas - West",
+        "source_corner": "T12",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

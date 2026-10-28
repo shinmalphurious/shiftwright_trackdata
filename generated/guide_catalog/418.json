@@ -1,49 +1,144 @@
 {
   "track_id": 418,
   "layout": "418-phoenix-2021-oval",
+  "name": "Phoenix Raceway - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:27:33.192715+00:00",
+  "candidates_seen": 20,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 20,
+    "new_candidates": 10,
+    "accepted": 17,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 3,
+    "rejection_reasons": {
+      "duplicate title": 1,
+      "no guide words in title": 1,
+      "setup or hardware video": 1
+    }
+  },
   "selected_guides": {
-    "arca": [
-      {
-        "video_id": "SilzSqFIi60",
-        "title": "S2 W3 IRACING FIXED SETUP OVAL RACING GUIDE",
-        "description": "iRacing fixed setup oval racing guide for Mar 29 - Apr 5 Timestamps 00:00 - Intro 02:04 - Disclaimers 03:20 - ARCA 04:59 - C\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "arca",
-        "quality_score": 220
-      },
-      {
-        "video_id": "4WKV5E8ZuBQ",
-        "title": "IRACING FIXED SETUP OVAL RACING GUIDE: SEASON 1 2021 | WEEK 6",
-        "description": "ARCA, C-Fixed, B-Fixed and A-Fixed for January 18th - Jan 25th Timestamps 00:00 - Intro 01:06 - Disclaimers 02:07 - ARCA\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "arca",
-        "quality_score": 220
-      }
-    ],
     "nascar": [
       {
-        "video_id": "Fu4TTbEuaiM",
-        "title": "iRacing || HOW TO WIN AT PHOENIX! (NASCAR iRacing Series Guide)",
-        "description": "After getting a top 5 finish in Wednesday's NASCAR iRacing Series race, I've learned 4 tips that can help you out! Check out the\u00a0...",
+        "video_id": "PzNTuswhLPk",
+        "title": "Phoenix Raceway I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+        "description": "We're here to help you get up to speed! Get out of the garage and into victory lane with Team Conti Sim Performance! Driven by: ...",
+        "channel": "Team Conti",
+        "duration": 1766,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 260,
+        "venue_confidence": 1.0
       },
       {
-        "video_id": "QumfTwP_6lk",
-        "title": "iRacing: Michael Conti Qualifying Trim (NASCAR Truck @ Phoenix)",
-        "description": "Get This EXACT Same Setup Pack Here: https://bit.ly/3BDMg51 \u25bb What Is Rocket Racing Setups? Rocket Racing Setups is a\u00a0...",
-        "video_type": "other",
+        "video_id": "lN3ghlmsrxU",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Phoenix Raceway",
+        "description": "Driven by: Nick Ottinger 2024, S4 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp Thanks for ...",
+        "channel": "Team Conti",
+        "duration": 1215,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 260,
+        "venue_confidence": 1.0
       },
       {
-        "video_id": "msIMmJ8k2Uw",
-        "title": "iRacing Open NASCAR Series Tutorial: C Open Trucks at Phoenix 23S1. FREE SETUP! Maconi Setup Shop",
-        "description": "iRacing NASCAR Open Series Tutorial by Justin Yee for Maconi Setup Shop LLC. GRAB THE SETUP FOR FREE AT\u00a0...",
-        "video_type": "other",
+        "video_id": "fY4UspcNVFY",
+        "title": "iRacing Track Guides - NASCAR Next Gen at Phoenix Raceway",
+        "description": "",
+        "channel": "Jonathan Schwartz",
+        "duration": 295,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "aLfGmP24awc",
+        "title": "Phoenix Track Guide I iRacing NASCAR NextGen I Team Conti Sim Performance",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S4 Visit ...",
+        "channel": "Team Conti",
+        "duration": 1540,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "YkxU-pIiugE",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR O'Reilly at Phoenix",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Nick Ottinger 2026, S1 Visit ...",
+        "channel": "Team Conti",
+        "duration": 1095,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "oe_GhOZcDZw",
+        "title": "Phoenix Track Guide I iRacing NASCAR Truck Series I Team Conti Sim Performance",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Dustin Hall 2026, S4 Visit our ...",
+        "channel": "Team Conti",
+        "duration": 1350,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "87QHbEkj950",
+        "title": "2025 iRacing Nascar Track Guide - NIS / A Fixed at Phoenix",
+        "description": "Can't wait to go back to Homestead. Lot of restart carnage.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 339,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "l6a_XIHluvs",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Phoenix",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S1 Visit ...",
+        "channel": "Team Conti",
+        "duration": 1338,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "truck": [
+      {
+        "video_id": "7vzPtX9VYig",
+        "title": "iRacing | Trucks At Phoenix Raceway Track Guide 27.061",
+        "description": "iracing #truckseries #phoenixraceway #trackguide #simracing #videogames iRacing brings the truck series to Phoenix Raceway ...",
+        "channel": "TheGuitarGamer33",
+        "duration": 620,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      }
+    ],
+    "general": [
+      {
+        "video_id": "Mm7QTyMYYxw",
+        "title": "2022 iRacing Track Guides - NIS Fixed at Phoenix",
+        "description": "Dogleg. That is all.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 295,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

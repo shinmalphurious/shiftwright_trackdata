@@ -1,0 +1,105 @@
+{
+  "video_id": "UvR7yjL7eYo",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "iRacing McLaren GT3 Indy Road Guide 1:23.0 McLaren 720S GT3 Indianapolis Track Guide",
+  "car_hint": "general",
+  "car": "McLaren 720S GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:26:29.976126+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:02",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at 60% to 200 marker, trail off to apex",
+      "gear": "2nd",
+      "line": "Turn-in to left, apex at left, exit to right",
+      "exit": "Throttle early, flat exit"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "curb here",
+      "start_time": "2:02",
+      "sequence": 1,
+      "braking": "Brake to 30% before curb",
+      "gear": "3rd",
+      "line": "Apex at left rumble strip",
+      "exit": "Throttle early"
+    },
+    {
+      "label": null,
+      "spoken_as": "5 6 chicane",
+      "start_time": "2:02",
+      "sequence": 1,
+      "label_guess": "T5",
+      "line": "Left edge of rumble strip"
+    },
+    {
+      "label": null,
+      "spoken_as": "second chicane",
+      "start_time": "2:02",
+      "sequence": 1,
+      "label_guess": "T6",
+      "line": "Attack the curbing"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "Turn seven",
+      "start_time": "3:19",
+      "sequence": 2,
+      "braking": "Brakes to 60% at cut in the grass, second gear",
+      "gear": "2",
+      "line": "Turn left, trail braking, lift off at apex",
+      "exit": "Blip of gas, straighten steering wheel"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number nine",
+      "start_time": "3:19",
+      "sequence": 2,
+      "label_guess": "T9",
+      "braking": "Brakes to 10%, trail off",
+      "exit": "Get back on gas at apex"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "right hander of turn 10",
+      "start_time": "3:19",
+      "sequence": 2,
+      "braking": "Lightly on brakes to 10%, trail off",
+      "line": "Attack curb, left tire on track, right tire on asphalt",
+      "exit": "Get back up to 100% halfway across track"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 12",
+      "start_time": "4:38",
+      "sequence": 3,
+      "label_guess": "T12",
+      "braking": "break at roughly the 400 ft mark, 55% down to second gear",
+      "gear": "2",
+      "line": "wide entry, back on the gas at the apex",
+      "exit": "smooth transition up to 100% power"
+    },
+    {
+      "label": null,
+      "spoken_as": "14",
+      "start_time": "4:38",
+      "sequence": 3,
+      "label_guess": "T14",
+      "braking": "get on the brakes to about 30%",
+      "line": "trail it off back on the gas just ahead of the apex",
+      "exit": "go flat through 14, avoid that wall on exit"
+    }
+  ],
+  "general_tips": [
+    "Attack curb in turn 10, left tire on track, right tire on asphalt",
+    "dark patch on the asphalt"
+  ],
+  "dropped_ungrounded": 0
+}

@@ -1,41 +1,149 @@
 {
   "track_id": 304,
   "layout": "304-irp-rallycross",
+  "name": "Lucas Oil Indianapolis Raceway Park - Rallycross",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:25:25.635451+00:00",
+  "candidates_seen": 26,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 26,
+    "new_candidates": 16,
+    "accepted": 10,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 16,
+    "rejection_reasons": {
+      "no guide words in title": 10,
+      "too long": 3,
+      "venue not in title": 2,
+      "too short": 1
+    }
+  },
   "selected_guides": {
     "rallycross_beetle": [
       {
         "video_id": "xzp5mZBMPXQ",
         "title": "iRacing RALLYCROSS TRACK GUIDE @ Lucas Oil - VW Beetle [VR]",
-        "description": "Here is my latest track guide episode featuring the VW Beetle Rallycross car in iRacing at the Lucas Oil(IRP) circuit. This was\u00a0...",
+        "description": "Here is my latest track guide episode featuring the VW Beetle Rallycross car in iRacing at the Lucas Oil(IRP) circuit. This was ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "rallycross_beetle",
-        "quality_score": 220
+        "quality_score": 251,
+        "venue_confidence": 0.77
       },
       {
-        "video_id": "Phbivp0MT2U",
-        "title": "IRacing \ud83c\udfa5 IRX - VW Beetle Lite - Daytona Rallycross Long - S0322W09 (\ud83d\ude00\ud83c\udf5f\ud83c\udf7f\ud83e\udd64\ud83c\udfc6\ud83d\udee0) Christian242Racing@386",
-        "description": "IRacing IRX - VW Beetle Lite - Daytona Rallycross Long - S0322W09 (            ) Christian242Racing@386 #simracing\u00a0...",
-        "video_type": "other",
+        "video_id": "XUCLBI0K3eA",
+        "title": "iRacing Rallycross Indianapolis Raceway Park Track Guide | NASA Rallycross",
+        "description": "Guided laps around Lucas Oil Raceway Park in the VW Beetle Lite on iRacing.",
+        "channel": "embrace",
+        "duration": 221,
+        "video_type": "lap_walkthrough",
         "car": "rallycross_beetle",
-        "quality_score": 120
+        "quality_score": 245,
+        "venue_confidence": 0.63
       },
       {
-        "video_id": "WsAsiFmFN90",
-        "title": "Here's why I think you should try rallycross on Iracing",
-        "description": "Hi again everyone! Just a short video being uploaded today in a Iracing Rallycross event. In this video I explain why I think you\u00a0...",
-        "video_type": "other",
+        "video_id": "eXuYFs4X_pY",
+        "title": "iRacing Rallycross Track Tutorial | Lucas Oil",
+        "description": "Welcome to a Kinda Fast IRX Group Lap Tutorial! We are at Lucas Oil this week, a tough and technical circuit with a tricky joker.",
+        "channel": "Kinda Fast iRX Group",
+        "duration": 1916,
+        "video_type": "lap_walkthrough",
         "car": "rallycross_beetle",
-        "quality_score": 120
+        "quality_score": 221,
+        "venue_confidence": 0.77
+      },
+      {
+        "video_id": "BBxnG2f91uY",
+        "title": "iRacing Lap Tutorial: Lucas Oil Off Road Pro 2 Lite @ Daytona International Speedway Rallycross Long",
+        "description": "It's been a long time since iRacing has been on this channel! Since I made my return to the service due to the pandemic, I decided ...",
+        "channel": "Kyle Young",
+        "duration": 972,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 221,
+        "venue_confidence": 0.77
       }
     ],
-    "mx5": [
+    "nascar": [
       {
-        "video_id": "xZMEODTr3iQ",
-        "title": "Absolute Hacks In This One | Mazda MX5 | Charlotte Rallycross | iRacing",
-        "description": "The first alf of round 3 of Silly Season sees us taking to the dirt, most notably in a Mazda MX5 and a Pontiac Solstice. Who will best\u00a0...",
-        "video_type": "other",
-        "car": "mx5",
-        "quality_score": 120
+        "video_id": "1_r26sn3Pfc",
+        "title": "Lucas Oil Indianapolis Raceway Park I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+        "description": "We're here to help you get up to speed! Get out of the garage and into victory lane with Team Conti Sim Performance! Driven by: ...",
+        "channel": "Team Conti",
+        "duration": 1136,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "wuOfL0IjEKA",
+        "title": "Team Conti Sim Performance I iRacing Track Guide I NASCAR Truck at IRP (Lucas Oil IRP)",
+        "description": "How's it going everybody this is Dustin with Team Ky Performance with the track tutorial for Indianapolis Raceway Park this is 26 ...",
+        "channel": "Team Conti",
+        "duration": 1228,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "vOUJeonI-_E",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Lucas Oil Raceway Park",
+        "description": "We're here to help you get up to speed! Get out of the garage and into victory lane with Team Conti Sim Performance! Driven by: ...",
+        "channel": "Team Conti",
+        "duration": 1119,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 221,
+        "venue_confidence": 0.77
+      }
+    ],
+    "usf2000": [
+      {
+        "video_id": "ol22gf-bFoU",
+        "title": "Indy NXT Road Series Track Guide Indianapolis Motor Speedway Road Course",
+        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around Indianapolis Motor Speedway Road ...",
+        "channel": "P1 Broadcasting",
+        "duration": 1669,
+        "video_type": "lap_walkthrough",
+        "car": "usf2000",
+        "quality_score": 215,
+        "venue_confidence": 0.63
+      }
+    ],
+    "general": [
+      {
+        "video_id": "pQWhg_OVZf0",
+        "title": "iRacing - Bumps N Bends - Track Guide - Lucas Oil Raceway",
+        "description": "iRacing I don't like to show cheats in iRacing, but this is the biggest anomoly I have seen within the simulator and needs to be ...",
+        "channel": "GleNRG",
+        "duration": 894,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 201,
+        "venue_confidence": 0.77
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "6wDukXatKi8",
+        "title": "ARCA IRP Qualifying Guide | iRacing",
+        "description": "I was surprised to hit this good of a lap live on the first try. I think the only small mistakes I needed to correct to hit a low 6 was: 1.",
+        "channel": "Jon M Racing",
+        "duration": 310,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 192,
+        "venue_confidence": 0.8
       }
     ]
   }

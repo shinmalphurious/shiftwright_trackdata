@@ -1,0 +1,174 @@
+{
+  "started": "2026-10-27T23:30:06",
+  "minutes": 79.9,
+  "interrupted": false,
+  "passed": 9,
+  "failed": 1,
+  "not_run": 0,
+  "steps": [
+    {
+      "key": "verify",
+      "name": "Verify lap-guide transcripts",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.verify_lap_guide_transcripts"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.5,
+      "log": "logs/01_verify.log",
+      "tail": []
+    },
+    {
+      "key": "extract",
+      "name": "Extract corner guidance (Ollama)",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.extract_corner_guidance"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 329.2,
+      "log": "logs/02_extract.log",
+      "tail": []
+    },
+    {
+      "key": "enrich",
+      "name": "Assign notes to corners",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.enrich_corner_assignments"
+      ],
+      "status": "failed",
+      "exit_code": 1,
+      "seconds": 0.2,
+      "log": "logs/03_enrich.log",
+      "tail": [
+        "Traceback (most recent call last):",
+        "  File \"<frozen runpy>\", line 203, in _run_module_as_main",
+        "  File \"<frozen runpy>\", line 88, in _run_code",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 801, in <module>",
+        "    main()",
+        "    ~~~~^^",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 677, in main",
+        "    settings, applied = calibrate(raws, config, uncalibrated)",
+        "                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 581, in calibrate",
+        "    measured = calibration(raws, config, settings)[\"by_method\"]",
+        "               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 566, in calibration",
+        "    result = enrich(hidden, config, s)",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 421, in enrich",
+        "    aliases = alias_table(raw[\"track_id\"], pack, config, [l for l, _ in turns])",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 201, in alias_table",
+        "    for phrase, (labels, conf, _) in alias_claims(track_id, pack, config, turn_labels).items()",
+        "                                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "  File \"E:\\track-knowledge\\src\\pipelines\\enrich_corner_assignments.py\", line 177, in alias_claims",
+        "    name = corner[\"name\"].lower()",
+        "           ^^^^^^^^^^^^^^^^^^^^",
+        "AttributeError: 'NoneType' object has no attribute 'lower'"
+      ]
+    },
+    {
+      "key": "coverage",
+      "name": "Telemetry coverage",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.build_telemetry_coverage"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.1,
+      "log": "logs/04_coverage.log",
+      "tail": []
+    },
+    {
+      "key": "validate",
+      "name": "Validate track knowledge",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.validate_track_knowledge"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.2,
+      "log": "logs/05_validate.log",
+      "tail": []
+    },
+    {
+      "key": "research",
+      "name": "Research corner facts",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.research_track_candidates",
+        "--all"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4104.4,
+      "log": "logs/06_research.log",
+      "tail": []
+    },
+    {
+      "key": "validate_facts",
+      "name": "Validate corner facts",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.validate_knowledge_candidates"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 3.8,
+      "log": "logs/07_validate_facts.log",
+      "tail": []
+    },
+    {
+      "key": "corner_guidance",
+      "name": "Build corner guidance",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.build_corner_guidance"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 352.6,
+      "log": "logs/08_corner_guidance.log",
+      "tail": []
+    },
+    {
+      "key": "knowledge_pack",
+      "name": "Build track knowledge packs",
+      "command": [
+        "E:\\track-knowledge\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.pipelines.build_track_knowledge_pack"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.7,
+      "log": "logs/09_knowledge_pack.log",
+      "tail": []
+    },
+    {
+      "key": "import",
+      "name": "Import packs into Shiftwright",
+      "command": [
+        "E:\\Project_Shiftwright\\.venv\\Scripts\\python.exe",
+        "scripts/import_knowledge_packs.py"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.9,
+      "log": "logs/10_import.log",
+      "tail": []
+    }
+  ]
+}

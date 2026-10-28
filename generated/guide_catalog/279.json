@@ -1,35 +1,44 @@
 {
   "track_id": 279,
   "layout": "279-volusia",
+  "name": "Volusia Speedway Park",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:05:38.878128+00:00",
+  "candidates_seen": 68,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 68,
+    "new_candidates": 67,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 67,
+    "rejection_reasons": {
+      "no guide words in title": 42,
+      "too long": 9,
+      "venue not in title": 8,
+      "too short": 6,
+      "setup or hardware video": 1,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
-    "street_stock": [
+    "general": [
       {
-        "video_id": "JkwnDdxyfr4",
-        "title": "iRacing - Street Stock Setup Guide - Season 3 Week 7 - Volusia Speedway Park",
-        "description": "iRacing - Street Stock Setup Guide - Season 3 Week 7 - Volusia Speedway Park Facebook - www.facebook.com/brittosgaming\u00a0...",
+        "video_id": "Tvyt0Ga95oM",
+        "title": "iRacing DIRT Volusia Super Latemodel Guide/Intro",
+        "description": "Guide/Intro to Volusia in the Super Latemodel with a Setup www.Twitch.tv/Garrett19N www.facebook.com/Garrett19N ...",
+        "channel": "Garrett19N",
+        "duration": 412,
         "video_type": "lap_walkthrough",
-        "car": "street_stock",
-        "quality_score": 220
-      }
-    ],
-    "late_model": [
-      {
-        "video_id": "jOxEr7z1pu0",
-        "title": "iRacing dirt track cars setup @ Volusia",
-        "description": "just to get a consistent time with the limited late model Volusia Guys feel free to leave some tips.",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
-      }
-    ],
-    "modified": [
-      {
-        "video_id": "GYEvsVdUAUg",
-        "title": "Big Block Modified: Free Setup for Volusia",
-        "description": "Thanks For Watching! Get my FREE Volusia Big-Block Modified Setups by clicking the Discord Link Below. Please help to\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 20
+        "car": "general",
+        "quality_score": 176,
+        "venue_confidence": 0.9
       }
     ]
   }

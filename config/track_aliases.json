@@ -1,0 +1,13 @@
+{
+  "_about": "Other names YouTube titles use for a venue, for run_guide_discovery. Keys are iRacing venue names (compared after normalising case, accents and spacing). 'aliases' identify the venue on their own: each is also searched for and counts as a full venue match in a title. 'weak_aliases' are too broad to search for or to identify the venue alone ('Mexico'), and only give partial venue confidence.",
+  "venues": {
+    "Autódromo Hermanos Rodríguez": {
+      "aliases": ["Mexico City", "Mexico GP", "Mexico Grand Prix", "Hermanos Rodriguez", "Autodromo Hermanos Rodriguez"],
+      "weak_aliases": ["Mexico"]
+    },
+    "Autódromo José Carlos Pace": {
+      "aliases": ["Interlagos", "Jose Carlos Pace", "Brazil GP", "Brazilian Grand Prix", "Sao Paulo GP"],
+      "weak_aliases": ["Brazil", "Sao Paulo"]
+    }
+  }
+}

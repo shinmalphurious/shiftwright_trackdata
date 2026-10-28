@@ -1,0 +1,142 @@
+{
+  "video_id": "F45AqcDtLYs",
+  "track_id": 24,
+  "track_name": "Summit Point Raceway - Short",
+  "title": "Track guide Summit Point Raceway Formula Vee iRacing",
+  "car": null,
+  "car_hint": "vee",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake really hard, trail brake to apex",
+      "line": "use the repaved part of the track",
+      "exit": "full throttle, follow repave out",
+      "note_id": "F45AqcDtLYs:0",
+      "text": "braking: brake really hard, trail brake to apex; line: use the repaved part of the track; exit: full throttle, follow repave out",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:31",
+      "snippet": "I use the repaved part of the track as my line. I apex where the curb and the repave gets closest to each other. As",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "turn in at leaves on tree, apex middle of corner",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "don't touch inside curb, be smooth",
+      "note_id": "F45AqcDtLYs:1",
+      "text": "line: turn in at leaves on tree, apex middle of corner; exit: full throttle, use outside curb; mistakes: don't touch inside curb, be smooth",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.67,
+          "exit": 0.8,
+          "mistakes": 0.8
+        }
+      },
+      "time": "0:58",
+      "snippet": "on the tree on the left, and my apex point is around the middle of the corner. When I take this corner, I touch",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "tree on right, hard braking, trail brake into corner",
+      "line": "use repaved part, curb and repave meet at apex",
+      "exit": "accelerate, get close to left",
+      "mistakes": "locking up, scrubbing speed",
+      "note_id": "F45AqcDtLYs:2",
+      "text": "braking: tree on right, hard braking, trail brake into corner; line: use repaved part, curb and repave meet at apex; exit: accelerate, get close to left; mistakes: locking up, scrubbing speed",
+      "spoken_as": "turn five",
+      "passage_time": "1:18",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 0.86,
+          "exit": 1.0
+        }
+      },
+      "time": "1:38",
+      "snippet": "braking zone, and you want to trail the brake a little bit into the corner. Just like turn one, you have a bit of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "dirt patch, quick hit to 50%",
+      "line": "follow repaved part",
+      "exit": "get on throttle before apex",
+      "note_id": "F45AqcDtLYs:3",
+      "text": "braking: dirt patch, quick hit to 50%; line: follow repaved part; exit: get on throttle before apex",
+      "spoken_as": "turn six",
+      "passage_time": "1:18",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:15",
+      "snippet": "apex when you follow the repaved part around, and that's because it will carry over all the way up to turn 10. You will",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift throttle to 50-60%",
+      "gear": "4th",
+      "line": "turn-in at dirt by left wheel, apex middle",
+      "exit": "full throttle, use all track",
+      "note_id": "F45AqcDtLYs:4",
+      "text": "braking: lift throttle to 50-60%; gear: 4th; line: turn-in at dirt by left wheel, apex middle; exit: full throttle, use all track",
+      "spoken_as": "the last corner",
+      "passage_time": "2:37",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:00",
+      "snippet": "to about 50 to 60% throttle. You want to apex in the middle of the corner. As soon as you can see you'll get close to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

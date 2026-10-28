@@ -1,0 +1,93 @@
+{
+  "video_id": "vaocE321-Jo",
+  "track_id": 127,
+  "track_name": "Road Atlanta - Full Course",
+  "title": "iRacing Mustang GT3 Road Atlanta 1:16.8 Ford Mustang GT3 Petit Le Mans Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:28:02.969966+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:58",
+      "sequence": 1,
+      "braking": "End of grass patch, 25% brake, trail off in 4th gear",
+      "gear": "4th",
+      "line": "Wide entry, left side over white line",
+      "exit": "Full throttle by apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:58",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "Pagoda appears, 40% brake, trail off",
+      "line": "Left tires on curb, keep left tires on track"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number four",
+      "start_time": "1:58",
+      "sequence": 1,
+      "label_guess": "T4",
+      "braking": "Little lift",
+      "line": "Left tires on rumble strip"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:15",
+      "sequence": 2,
+      "braking": "Brake at halfway between curbs, 30% pressure",
+      "line": "Turn-in at rumble strip, apex at rumble strip, wide exit",
+      "exit": "Back on gas at apex, exit wide"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:15",
+      "sequence": 2,
+      "braking": "Brake a couple car lengths before 200 ft mark",
+      "gear": "Down to third gear",
+      "exit": "Back on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "3:15",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "Brake just before left-hand curbing",
+      "gear": "Down to second gear",
+      "line": "Aggressive on curbing"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "4:34",
+      "sequence": 3,
+      "braking": "Midway between 200 and 100, 55% brake pressure",
+      "gear": "2nd gear",
+      "line": "Aggressive on curb, right tires on track, left tires over curb",
+      "exit": "80% throttle, lift slightly, exit wide",
+      "mistakes": "Off-track if left tires don't go over curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "the finish line",
+      "start_time": "5:53",
+      "sequence": 4,
+      "gear": "flat out"
+    }
+  ],
+  "general_tips": [
+    "Aggressive use of curbing",
+    "Like and comment to help with the algorithm."
+  ],
+  "dropped_ungrounded": 1
+}

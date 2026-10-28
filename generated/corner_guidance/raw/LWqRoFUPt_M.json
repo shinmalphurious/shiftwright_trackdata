@@ -1,0 +1,69 @@
+{
+  "video_id": "LWqRoFUPt_M",
+  "track_id": 208,
+  "track_name": "Oran Park Raceway - South",
+  "title": "iRacing 2023 S3W10 | Formula Vee | Oran Park Raceway - South Course | 48.044 | Lap Guide",
+  "car_hint": "vee",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:51:00.836456+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "use change in color on concrete barrier"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "lift off at concrete barrier, brake before turn-in",
+      "gear": "3rd",
+      "line": "point car, turn-in at bumpers, off brakes before turn-in",
+      "exit": "patient on throttle, flat out to turn two",
+      "mistakes": "lock up front tires, rotate rear end"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "1:21",
+      "sequence": 1,
+      "line": "turn in at red and yellow bumpers, aim for apex",
+      "mistakes": "compromising situation for turn two"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "lift at red and yellow curbing",
+      "exit": "maintain throttle, track out to mid-track"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "2:40",
+      "sequence": 2,
+      "gear": "third gear",
+      "line": "stay in bumper on the inside",
+      "exit": "get right back on throttle, fast line next to concrete barrier"
+    }
+  ],
+  "general_tips": [
+    "try to do most of your braking in a straight line",
+    "use green concrete siding on right as reference",
+    "use all concrete bumpers on each corner",
+    "lift to maintenance throttle at turn four",
+    "hug the inside and get back on throttle early",
+    "take the track on the right all the way",
+    "use all the concrete bumpers on the inside",
+    "pick reference points for turn five and six",
+    "flat out for turn five and six"
+  ],
+  "dropped_ungrounded": 1
+}

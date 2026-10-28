@@ -1,0 +1,48 @@
+{
+  "video_id": "KgNaLfTdIbU",
+  "track_id": 161,
+  "track_name": "Thompson Speedway Motorsports Park",
+  "title": "iRacing Legends Rookie at Thompson Speedway Tutorial",
+  "car_hint": "legends",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:35:14.126900+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T3",
+      "spoken_as": "this back uh turn three",
+      "start_time": "2:11",
+      "sequence": 1,
+      "braking": "slowly off the gas, little bit of brake",
+      "line": "high line, follow the wall, keep left tires on the Groove",
+      "exit": "slowly getting into the gas, drive the car out",
+      "mistakes": "low line ruins exit speed"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "3:29",
+      "sequence": 2,
+      "braking": "braking markers, let off gas, brake before turn-in",
+      "mistakes": "turning wheel while braking, hitting the wall"
+    },
+    {
+      "label": null,
+      "spoken_as": "this turn",
+      "start_time": "4:46",
+      "sequence": 3,
+      "braking": "modulate the throttle to avoid the wall",
+      "line": "turn-in on the crease, apex near the wall",
+      "exit": "throttle gradually, track use near the wall"
+    }
+  ],
+  "general_tips": [
+    "Stay in third gear until lap 20",
+    "Downshift around laps 28 for turns one and two",
+    "be patient, let off gas, brake before turn-in, keep wheel straight while braking",
+    "use brake to rotate car, let off gas to rotate car, downshift to rotate car"
+  ],
+  "dropped_ungrounded": 1
+}

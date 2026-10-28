@@ -1,15 +1,146 @@
 {
   "track_id": 51,
   "layout": "51-atlanta-roadcourse",
+  "name": "EchoPark Speedway (Atlanta) - Road - 2008",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:18:24.757863+00:00",
+  "candidates_seen": 29,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 29,
+    "new_candidates": 19,
+    "accepted": 13,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 16,
+    "rejection_reasons": {
+      "no guide words in title": 8,
+      "too long": 4,
+      "venue not in title": 2,
+      "duplicate title": 1,
+      "too short": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
-        "video_id": "B8Bnhe8rCa0",
-        "title": "Brad Keselowski turns an iRacing lap at Atlanta Motor Speedway | NASCAR",
-        "description": "Brad Keselowski used an iRacing simulator to talk through a lap around Atlanta Motor Speedway before Sunday's race at the\u00a0...",
-        "video_type": "other",
+        "video_id": "CkguY90QiAs",
+        "title": "Atlanta EchoPark Speedway Track Guide iRacing Fixed A NASCAR Next Gen Stock Car",
+        "description": "Join Zach Panzarella of VRN and Jordan Fisher of Fishspeed Brakes for a Fixed A Track Guide at Chicagoland Speedway!",
+        "channel": "Vortex Racing Network",
+        "duration": 841,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "sc5PSAXTjiM",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Atlanta 2008",
+        "description": "Get out of the garage and into victory lane at World Wide Technology Raceway on iRacing with Team Conti Sim Performance!",
+        "channel": "Team Conti",
+        "duration": 1781,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "gqWUyyiYbeY",
+        "title": "Nascar iRacing Series Track Guides 2017 - Atlanta",
+        "description": "sorry for the delay. we will be hopefully in a rhythm from now on. Music: http://www.bensound.com.",
+        "channel": "NASCAR iRacing Series",
+        "duration": 192,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "HeXJYmzSogI",
+        "title": "NASCAR Legends - Atlanta Track Guide - iRacing",
+        "description": "This week track guide takes us to Atlanta. Check out my recommendations for getting around Atlanta in the 87s. Join this channel ...",
+        "channel": "Stevens Motorsports",
+        "duration": 505,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "OWDySgTYO4k",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Atlanta",
+        "description": "Driven by: Michael Conti 2024, S3 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp 00:00 ...",
+        "channel": "Team Conti",
+        "duration": 293,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "JtNwCSqZ-hM",
+        "title": "iRacing Track Guide - ARCA - Atlanta SS [Echo Park] (Fixed)",
+        "description": "0:00 Intro 1:50 Qualifying 3:12 Session & Car Setup 5:15 Detailed Qualifying Walkthrough 10:19 Overall Guidance & Tips Lap ...",
+        "channel": "Mile High Motorsports Academy",
+        "duration": 1025,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "xdzODXQt8TQ",
+        "title": "iRacing Track Guide: B Fixed at Atlanta",
+        "description": "",
+        "channel": "PDResh",
+        "duration": 947,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "7Ka7IDh3SFU",
+        "title": "iRacing Track Guides 2020 - Atlanta",
+        "description": "slick and fast. also eats tires. Atlanta.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 381,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "mEj2fcnEEy0",
+        "title": "iRacing Weekly Track Guide - Season 3 Week 13 Atlanta Motor Speedway",
+        "description": "Use promo code 'ALFREDOPRO' to save on Logitech G products: https://logi.gg/alfredopro Check out all my links here: ...",
+        "channel": "Anthony Alfredo",
+        "duration": 264,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "7b61pfuYaj0",
+        "title": "2021 iRacing Track Guides - Atlanta",
+        "description": "End of video says what i will do in the future guides. Also here is Atlanta.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 382,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
       }
     ]
   }

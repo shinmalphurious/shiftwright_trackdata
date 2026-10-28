@@ -1,0 +1,148 @@
+{
+  "video_id": "YM2CEw8Wo5w",
+  "track_id": 238,
+  "track_name": "World Wide Technology Raceway (Gateway) - Road Course",
+  "title": "iRacing GR86 World Wide Technology Raceway Guide 1:04.6 Toyota GR86 Gateway Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at second and third seams, 50%, trail brake to third gear",
+      "gear": "3",
+      "exit": "Accelerate to 100%",
+      "note_id": "YM2CEw8Wo5w:0",
+      "text": "braking: Brake at second and third seams, 50%, trail brake to third gear; gear: 3; exit: Accelerate to 100%",
+      "spoken_as": "turn one",
+      "passage_time": "1:46",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:57",
+      "snippet": "between the second and the third seams, exactly where we are now, you can see the seams a little bit easier. We get on",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake briefly to 10% before entrance road",
+      "line": "Cut corner, left tires on curb, right tires on track",
+      "exit": "Accelerate flat",
+      "note_id": "YM2CEw8Wo5w:1",
+      "text": "braking: Brake briefly to 10% before entrance road; line: Cut corner, left tires on curb, right tires on track; exit: Accelerate flat",
+      "spoken_as": "turn three",
+      "passage_time": "1:46",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:52",
+      "snippet": "to cut this corner, jump the curb with our left hand tires, right hand tires just remaining on the track and then we",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Nick curb",
+      "exit": "Accelerate flat",
+      "note_id": "YM2CEw8Wo5w:2",
+      "text": "line: Nick curb; exit: Accelerate flat",
+      "spoken_as": "turn four",
+      "passage_time": "1:46",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:58",
+      "snippet": "go absolutely flat through turn four again, just nicking the curb there. Now for turn number five, we're not going to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50-55% before curbing, 25-30% at black tires, 14-15% near right curb",
+      "line": "Shallow angle, left tires in grass, right tires on track",
+      "exit": "Blip of gas, back on brakes, pick up in third",
+      "mistakes": "Giving too much room on right side",
+      "note_id": "YM2CEw8Wo5w:3",
+      "text": "braking: 50-55% before curbing, 25-30% at black tires, 14-15% near right curb; line: Shallow angle, left tires in grass, right tires on track; exit: Blip of gas, back on brakes, pick up in third; mistakes: Giving too much room on right side",
+      "spoken_as": "turn number five",
+      "passage_time": "3:05",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.71,
+          "mistakes": 0.83
+        }
+      },
+      "time": "3:18",
+      "snippet": "on the track. Left hand tires completely in the grass here. And then as we come back down, we're going to get on the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "40% at tire wall, trail off to cones",
+      "exit": "Slowly back on gas to 100%",
+      "note_id": "YM2CEw8Wo5w:4",
+      "text": "braking: 40% at tire wall, trail off to cones; exit: Slowly back on gas to 100%",
+      "spoken_as": "turn number seven",
+      "passage_time": "3:05",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:19",
+      "snippet": "the gas slowly up to 100%. And that is all the technical aspects of this track. We're now just going to keep"
+    },
+    {
+      "line": "keep belted down, run load line",
+      "exit": "car comes up by itself, over across the line",
+      "note_id": "YM2CEw8Wo5w:5",
+      "text": "line: keep belted down, run load line; exit: car comes up by itself, over across the line",
+      "spoken_as": "next final turn",
+      "passage_time": "4:27",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:35",
+      "snippet": "load line there. Then let the car just come up by itself. And over across the line we go in a"
+    }
+  ]
+}

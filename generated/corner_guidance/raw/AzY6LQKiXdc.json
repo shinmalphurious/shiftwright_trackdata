@@ -1,0 +1,106 @@
+{
+  "video_id": "AzY6LQKiXdc",
+  "track_id": 186,
+  "track_name": "Oulton Park Circuit - Fosters w/Hislop",
+  "title": "FF1600 Rookie Series Fixed Oulton Park Intl Track Guide 2026 S3",
+  "car_hint": "ff1600",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:39:45.101690+00:00",
+  "passages": 2,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "Brake before the black banner on the left, peak at 60%.",
+      "gear": "Third gear",
+      "exit": "Get back to power before you strike the curb."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "Brake at the beginning of the inverted hump, 55% pressure.",
+      "gear": "Third gear",
+      "exit": "Get back to full throttle once you feel the car squat down."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "Use a small amount brake pressure to accomplish faster rotation.",
+      "mistakes": "Don't lift off the throttle, use brake pressure to gain traction."
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "Brake at the dirt patch on the left, use threshold braking.",
+      "gear": "Second gear",
+      "exit": "Back to full throttle once the front tires grip."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "Brake before the marshal stand, 60% pressure.",
+      "gear": "Second gear"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "1:24",
+      "sequence": 1,
+      "braking": "Brake at the 100 meter board, 70% pressure.",
+      "gear": "Second",
+      "line": "Use as much curb as possible for both corners."
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "1:24",
+      "sequence": 1,
+      "line": "Don't track out too wide."
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "1:24",
+      "sequence": 1,
+      "gear": "Second",
+      "line": "Hit the inside curb, but don't be greedy.",
+      "exit": "Keep the car to the left to shorten track distance.",
+      "mistakes": "Don't run too wide on exit to the point that you bottom out."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 15",
+      "start_time": "1:24",
+      "sequence": 1,
+      "braking": "Brake at the green and white stripes after the tire barrier, downshift into third.",
+      "gear": "Third",
+      "line": "Get as close as possible to the curbs to make a double apex.",
+      "mistakes": "Another exit that can catch you well if you run too wide."
+    },
+    {
+      "label": null,
+      "spoken_as": "the last corner",
+      "start_time": "1:24",
+      "sequence": 1,
+      "braking": "Brake after crest, 85% pressure.",
+      "gear": "Second",
+      "exit": "Back the power as soon as your car is alongside the curb."
+    }
+  ],
+  "general_tips": [
+    "Nibble the apex curb, but don't be greedy."
+  ],
+  "dropped_ungrounded": 0
+}

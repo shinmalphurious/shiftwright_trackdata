@@ -1,0 +1,113 @@
+{
+  "video_id": "DzT19kEkZJE",
+  "track_id": 166,
+  "track_name": "Okayama International Circuit - Full Course",
+  "title": "Track Guide Okayama - Full Mazda MX5 iRacing",
+  "car_hint": "mx5",
+  "car": "MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:33:50.610555+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "Turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at tire marks or lose cone from FOV, 90-95% pressure",
+      "line": "Turn-in at marker, apex at top of corner, on curb",
+      "exit": "Go on throttle as soon as on curb, use as much track as needed"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "gear": "2nd or 3rd",
+      "line": "Go on throttle to steer, use curb on outside",
+      "exit": "Full throttle once curb visible, use curb to carry speed"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Brake hard at first tower, 90-95% before easing into trail brake to curb.",
+      "gear": "1st",
+      "line": "Later apex, aim for middle of track.",
+      "exit": "Full throttle, get car to right for turn six."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Quick hit to 25%, aim for inside curb.",
+      "line": "Cut inside curb."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "next braking marker",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Quick hit to 25%, aim for inside curb",
+      "line": "Cut inside curb",
+      "exit": "On throttle after curb",
+      "mistakes": "Cutting curb too much"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake on curb, 25%",
+      "line": "Apex after midway, take inside curb",
+      "exit": "Full throttle after curb",
+      "mistakes": "Spinning due to gravel on outside"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Fence on left, 90-95% brake pressure, trail brake to curb",
+      "line": "Apex top of corner, exit middle of track",
+      "exit": "Full throttle after curb"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "No clear marker, 30-35% brake pressure",
+      "line": "Apex later part of corner",
+      "exit": "Full throttle after curb"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "2:36",
+      "sequence": 2,
+      "line": "Cut inside curb",
+      "exit": "Full throttle",
+      "mistakes": "Cutting curb too much"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T11",
+      "braking": "brake to 75% at gravel change",
+      "line": "turn-in to curb, apex on curb",
+      "exit": "full throttle, use left side",
+      "mistakes": "touching gravel slows car"
+    }
+  ],
+  "general_tips": [
+    "For turn one, use left side of track for overtaking in race.",
+    "For turn four, use dirt patch for qualifying."
+  ],
+  "dropped_ungrounded": 0
+}

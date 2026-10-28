@@ -1,33 +1,141 @@
 {
   "track_id": 357,
   "layout": "357-texas-2020-oval",
+  "name": "Texas Motor Speedway - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:26:52.442921+00:00",
+  "candidates_seen": 21,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 21,
+    "new_candidates": 11,
+    "accepted": 15,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 6,
+    "rejection_reasons": {
+      "no guide words in title": 3,
+      "venue not in title": 3
+    }
+  },
   "selected_guides": {
-    "arca": [
-      {
-        "video_id": "SilzSqFIi60",
-        "title": "S2 W3 IRACING FIXED SETUP OVAL RACING GUIDE",
-        "description": "iRacing fixed setup oval racing guide for Mar 29 - Apr 5 Timestamps 00:00 - Intro 02:04 - Disclaimers 03:20 - ARCA 04:59 - C\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "arca",
-        "quality_score": 220
-      },
-      {
-        "video_id": "4WKV5E8ZuBQ",
-        "title": "IRACING FIXED SETUP OVAL RACING GUIDE: SEASON 1 2021 | WEEK 6",
-        "description": "ARCA, C-Fixed, B-Fixed and A-Fixed for January 18th - Jan 25th Timestamps 00:00 - Intro 01:06 - Disclaimers 02:07 - ARCA\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "arca",
-        "quality_score": 220
-      }
-    ],
     "nascar": [
       {
-        "video_id": "HuCc_yYze6c",
-        "title": "Ty Dillon explains a lap around Texas on iRacing | NASCAR",
-        "description": "Germain Racing driver Ty Dillon talks through a lap around Texas Motor Speedway on an iRacing simulator. ---------- Subscribe to\u00a0...",
-        "video_type": "other",
+        "video_id": "YcWspn2zIr8",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Texas Motor Speedway",
+        "description": "Driven by: Nick Ottinger 2025, S2 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp 00:00 ...",
+        "channel": "Team Conti",
+        "duration": 1649,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "0-qVwQdbtro",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Legacy Texas Motor Speedway",
+        "description": "Driven by: Nick Ottinger 2025, S1 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp 00:00 ...",
+        "channel": "Team Conti",
+        "duration": 1868,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "DbxPxoZKBYM",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Texas",
+        "description": "Driven by: Michael Conti 2025, S2 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp Our 'Summer ...",
+        "channel": "Team Conti",
+        "duration": 1768,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "JcZRWArl8Co",
+        "title": "IRacing | Track Guide | Texas Motor Speedway | Step By Step Guide",
+        "description": "Check out the Discord and Facebook If interested In the league! https://discord.gg/eaTAqjUS ...",
+        "channel": "K05",
+        "duration": 535,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "k27bWvZITCs",
+        "title": "iRacing Track Guides - Texas Motor Speedway",
+        "description": "Hey guys here is this weeks track guide. Remember i am not always fast these videos are just to help people who are not familiar ...",
+        "channel": "Sim Racing Chewyside",
+        "duration": 365,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "C1_EyMsBOt0",
+        "title": "iRacing Indycar Texas Motor Speedway Track Guide | Team I5G",
+        "description": "A basic track guide with quick tips for Texas in the IR18 on iRacing. Weekly Forum Thread: ...",
+        "channel": "Team I5G",
+        "duration": 228,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "p2chzE56fbg",
+        "title": "iRacing Track Guides - WFNIS Texas Motor Speedway",
+        "description": "hey guys i ran a 28.2 with the weather that was given. best i could with a setup that is too tight for my liking.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 359,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "uXwYwcjdqP8",
+        "title": "iRacing A Fixed Texas Track Guide",
+        "description": "The first A fixed guide on the channel!",
+        "channel": "PDResh",
+        "duration": 722,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "n9YyhP9lKI0",
+        "title": "iRacing Track Guides 2020 - Texas",
+        "description": "new config and new pavement. what could go wrong?",
+        "channel": "Sim Racing Chewyside",
+        "duration": 316,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "I0GyXLlkTzg",
+        "title": "iRacing Track Guide: A Fixed at Legacy Texas",
+        "description": "Let me know how you race week is going! Intro Song: Cam Cole - Mama.",
+        "channel": "PDResh",
+        "duration": 559,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

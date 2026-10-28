@@ -1,0 +1,127 @@
+{
+  "video_id": "Qf8jUHJCj4Y",
+  "track_id": 168,
+  "track_name": "Suzuka International Racing Course - Grand Prix",
+  "title": "iRacing NEW BMW M2 Racing Suzuka Guide 2:21.5 BMW M2 G87 Suzuka Grand Prix Track Guide",
+  "car_hint": "bmw_m2",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:57:44.052480+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "this braking marker",
+      "start_time": "3:04",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at marker after 100, 45% pressure, trail brake",
+      "gear": "4th",
+      "line": "Turn left, trail brake, get car turned in",
+      "exit": "Start accelerating left side, 100% throttle exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "S's",
+      "start_time": "3:04",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "Brake, lift, brake, lift",
+      "line": "Turn in after concrete boulders, lift brakes at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "4:22",
+      "sequence": 2,
+      "label_guess": "T5",
+      "braking": "lift to 25%",
+      "exit": "smoothly back on the gas"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "4:22",
+      "sequence": 2,
+      "braking": "lift once more"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "4:22",
+      "sequence": 2,
+      "braking": "40% to apex",
+      "line": "cut the corner",
+      "exit": "back on the gas"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "5:39",
+      "sequence": 3,
+      "braking": "brake to 45-50%, trail off to fourth gear",
+      "gear": "fourth gear",
+      "line": "cut the corner",
+      "exit": "back on gas at apex"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "5:39",
+      "sequence": 3,
+      "braking": "brake to 55%, trail off to third gear",
+      "gear": "third gear",
+      "line": "flat through turn 12, cut the corner",
+      "exit": "start picking back up on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 13",
+      "start_time": "6:56",
+      "sequence": 4,
+      "label_guess": "T13",
+      "braking": "three car lengths before the road on the right, 50%",
+      "line": "trail braking to apex",
+      "exit": "start picking back up on the gas, 80%",
+      "mistakes": "going early can cause washout on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 14",
+      "start_time": "6:56",
+      "sequence": 4,
+      "label_guess": "T14",
+      "braking": "on the curb rumble strip, 25%",
+      "line": "trail braking to apex",
+      "exit": "back on the gas in force, 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "8:15",
+      "sequence": 5,
+      "label_guess": "T13",
+      "braking": "50 board, 25%, trail off",
+      "gear": "up to 100%",
+      "line": "left-hand side of the track",
+      "exit": "back on the gas, straight up to 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "roughly halfway between the 150 and the 100",
+      "start_time": "8:15",
+      "sequence": 5,
+      "label_guess": "T14",
+      "braking": "55-60%",
+      "gear": "down to third",
+      "line": "left-hand tires just on the track",
+      "exit": "blip of gas up to 70%, lift, back on the gas, cut final corner"
+    }
+  ],
+  "general_tips": [
+    "attack the curve",
+    "pin rears back to the line, over and across"
+  ],
+  "dropped_ungrounded": 0
+}

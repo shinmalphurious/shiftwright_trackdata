@@ -1,0 +1,83 @@
+{
+  "track_id": 212,
+  "track": "Autódromo José Carlos Pace - Grand Prix",
+  "records": {
+    "212:T2:slow_corner": {
+      "id": "212:T2:slow_corner",
+      "track_id": 212,
+      "track": "Autódromo José Carlos Pace - Grand Prix",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Short distance to next corner suggests a slower corner.",
+          "at": "2026-10-28T09:29:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.203,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:16:21+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.7,
+        "transcript": 0.098,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.203
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "jySb4J0mIJg",
+              "result": "contradict",
+              "time": "0:48",
+              "note": "braking: 50 board, flat; gear: flat; line: flat; exit: flat",
+              "transcript_snippet": "for turn one, which [music] is this 50 board. Just after that, we break briefly up to about 70%, but then we hold it,",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jySb4J0mIJg"
+            },
+            {
+              "video_id": "zCm3azyHWSs",
+              "result": "contradict",
+              "time": "3:01",
+              "note": "braking: Brake after 50 board, 80-85% pressure; gear: 2nd; line: Turn left, use left kerb; exit: Flat out, cut turn two",
+              "transcript_snippet": "And we want to really cut turn two. So, we're just keeping our left-hand tires on the track, right-hand tires almost in",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=zCm3azyHWSs"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 2,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.70 from 1 source(s); 0 video(s) confirm, 2 contradict; consensus 0.20 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

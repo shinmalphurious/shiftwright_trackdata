@@ -1,0 +1,126 @@
+{
+  "video_id": "KRnKtDz7ENs",
+  "track_id": 167,
+  "track_name": "Okayama International Circuit - Short",
+  "title": "Track guide Okayama Short Ray FF1600 - Fixed iRacing",
+  "car": null,
+  "car_hint": "ff1600",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake hard at tire marks, trail brake to apex",
+      "line": "turn-in left, apex at brown patch, track out",
+      "exit": "full throttle, use all track, take curb",
+      "mistakes": "don't go off track with curb",
+      "note_id": "KRnKtDz7ENs:0",
+      "text": "braking: brake hard at tire marks, trail brake to apex; line: turn-in left, apex at brown patch, track out; exit: full throttle, use all track, take curb; mistakes: don't go off track with curb",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "mistakes": 0.67
+        }
+      },
+      "time": "0:14",
+      "snippet": "tire marks here on the ground once I get to him I break hard and then I drill the brick all the way to the apex of the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 50% at white line, trail brake to middle",
+      "line": "wider entry, turn-in towards curb, apex on curb",
+      "exit": "full throttle, take all curb, steer into next curve",
+      "mistakes": "don't go too close to first curb, avoid spinning off curb",
+      "note_id": "KRnKtDz7ENs:1",
+      "text": "braking: brake to 50% at white line, trail brake to middle; line: wider entry, turn-in towards curb, apex on curb; exit: full throttle, take all curb, steer into next curve; mistakes: don't go too close to first curb, avoid spinning off curb",
+      "spoken_as": "turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.88,
+          "mistakes": 0.62
+        }
+      },
+      "time": "1:07",
+      "snippet": "should steer into the next curve and take all of that and then I take all of the curb on the outside as well just be",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break just before the fins on the outside, quick tap to 25%",
+      "line": "Apex in the second half of the curb",
+      "exit": "Go on throttle, open steering, use outside curb",
+      "mistakes": "Taking too much curb can cause a spin",
+      "note_id": "KRnKtDz7ENs:2",
+      "text": "braking: Break just before the fins on the outside, quick tap to 25%; line: Apex in the second half of the curb; exit: Go on throttle, open steering, use outside curb; mistakes: Taking too much curb can cause a spin",
+      "spoken_as": "next turn",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86,
+          "line": 1.0,
+          "exit": 0.83,
+          "mistakes": 0.67
+        }
+      },
+      "time": "1:41",
+      "snippet": "marker for you but a break just before the fins on the outside becomes the line fence but it is only a quick tap of the"
+    },
+    {
+      "braking": "Brake on green astro turf, peak 60%",
+      "line": "Apex in the middle of the turn, on the curb",
+      "exit": "Full throttle, use all of the curb",
+      "mistakes": "Cutting curb too much will unsettle the car",
+      "note_id": "KRnKtDz7ENs:3",
+      "text": "braking: Brake on green astro turf, peak 60%; line: Apex in the middle of the turn, on the curb; exit: Full throttle, use all of the curb; mistakes: Cutting curb too much will unsettle the car",
+      "spoken_as": "six",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "line": 1.0,
+          "exit": 1.0,
+          "mistakes": 0.67
+        }
+      },
+      "time": "2:17",
+      "snippet": "green astro turf here on the left front tire as my braking marker once I get past that I'll start to break my Peak"
+    }
+  ]
+}

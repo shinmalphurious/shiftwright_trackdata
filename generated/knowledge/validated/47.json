@@ -1,0 +1,74 @@
+{
+  "track_id": 47,
+  "track": "WeatherTech Raceway at Laguna Seca - Full Course",
+  "records": {
+    "47:T2:hairpin": {
+      "id": "47:T2:hairpin",
+      "track_id": 47,
+      "track": "WeatherTech Raceway at Laguna Seca - Full Course",
+      "corner": "T2",
+      "corner_name": "Andretti Hairpin",
+      "claim": "hairpin",
+      "statement": "Hairpin",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Andretti Hairpin is a well-known hairpin turn.",
+          "at": "2026-10-28T09:12:17+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T21:57:41+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "C5XlVgwIjl4",
+              "result": "confirm",
+              "time": "0:53",
+              "note": "braking: brake very hard, trail brake; gear: 2; line: point towards inside curve; exit: apply power, shift up to 3rd",
+              "transcript_snippet": "towards the inside curve we begin to ease off the brakes as you get close to the care of your fully trail braking",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=C5XlVgwIjl4"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Hairpin at T2: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

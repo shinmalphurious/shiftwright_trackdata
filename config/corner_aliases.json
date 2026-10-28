@@ -1,0 +1,17 @@
+{
+  "_about": "Corner aliases for enrich_corner_assignments. Keys under 'layouts' are iRacing track ids. Each alias is matched as a whole phrase, case-insensitive, and only counts when it appears in the transcript text around the note. An alias listed for more than one corner of a layout is ignored there (ambiguous). Named corners in the knowledge packs are added automatically (with 'bocht', 'corner', 'bend', 'curve' removed and Dutch ij/y spellings), so list only what speakers say that the packs do not. 'global' aliases apply to every layout; 'first' and 'last' mean the layout's first and last turn.",
+  "default_confidence": 0.98,
+  "global": {
+    "first": {"aliases": ["first corner of the lap"], "confidence": 0.9},
+    "last": {"aliases": ["final corner", "final turn", "last corner of the lap"], "confidence": 0.9}
+  },
+  "layouts": {
+    "485": {
+      "_name": "Circuit Zandvoort - Grand Prix. 'banking' is deliberately not an alias: speakers use it for both Hugenholtz (T3) and Arie Luyendyk (T14).",
+      "T1": ["tarzan", "tarzanbocht"],
+      "T3": ["hugenholtz", "hugenholtzbocht"],
+      "T7": ["scheivlak"],
+      "T14": ["arie luyendyk", "luyendyk"]
+    }
+  }
+}

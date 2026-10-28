@@ -111,5 +111,192 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "high arcing entry, bottom of the track",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake high and arc wide at the entry, then cut to the bottom of the track."
+    },
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "hold the white line, drift up out of the corner",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Hold the white line, drift up out of the corner."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "break just past the hundred meter board",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake just past the 100 meter board.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "downshift to third gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Hold the line, steer smoothly.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Roll off throttle on exit if behind another car.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get on the throttle as soon as possible",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Steer too much or too little, hit the wall.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake just past the 100 meter board, downshift to 3rd gear. Hold the line, steer smoothly. Roll off throttle if behind another car, get on throttle as soon as possible. Avoid over or under steering."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "stay on brakes, let car glide on apron towards cones",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Run a higher lane, sleep down low on exit.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Get slipstream on corner exit.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't overdrive turn three and four",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Pinned throttle, hit the wall.",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, stay high, glide to cones, then drop low on exit. Avoid overdriving and hitting the wall."
+    }
+  },
+  "corner_facts": {}
 }

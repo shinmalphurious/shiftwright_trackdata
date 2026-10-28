@@ -1,31 +1,143 @@
 {
   "track_id": 386,
   "layout": "386-barcelona-rallycross",
+  "name": "Circuit de Barcelona Catalunya - Rallycross",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:27:16.882346+00:00",
+  "candidates_seen": 27,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 27,
+    "new_candidates": 17,
+    "accepted": 10,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 17,
+    "rejection_reasons": {
+      "no guide words in title": 7,
+      "venue not in title": 7,
+      "too short": 2,
+      "too long": 1
+    }
+  },
   "selected_guides": {
     "rallycross_beetle": [
       {
         "video_id": "0MruGLCfa08",
         "title": "iRacing Rallycross Track Guide | Subaru WRX STI @ Barcelona RX",
-        "description": "Track guide for iRacing Barcelona RX in Subaru WRX STI Laptime 42.042 | Track temp 22\u00b0C | Moderate low track usage If you\u00a0...",
+        "description": "Track guide for iRacing Barcelona RX in Subaru WRX STI Laptime 42.042 | Track temp 22°C | Moderate low track usage If you ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "rallycross_beetle",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "general": [
+      {
+        "video_id": "1WIy0ZdqvAg",
+        "title": "iRacing Track Guide Circuit de Barcelona-Catalunya | Radical SR8 | 1:38.609",
+        "description": "Join at www.iracing.com Discord- https://discord.gg/SUUFG9yNuJ Skippy playlist ...",
+        "channel": "Tdi99",
+        "duration": 566,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
       },
       {
-        "video_id": "nRne4jiSmZ0",
-        "title": "Gran Turismo 7 | Barcelona-Catalunya Rallycross Track Guide (engine sound JAN '26) | Lancer Evo Gr.B",
-        "description": "",
+        "video_id": "Mdjg7h_hyrw",
+        "title": "iRacing Skip Barber Circuit de Barcelona Catalunya National Layout Track Guide with Setup 2020",
+        "description": "iRacing Skip Barber Circuit de Barcelona Catalunya Track Guide with Setup 2020 Become a Member: ...",
+        "channel": "Kinduci",
+        "duration": 444,
         "video_type": "lap_walkthrough",
-        "car": "rallycross_beetle",
-        "quality_score": 120
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
       },
       {
-        "video_id": "ZweUK2CJj8E",
-        "title": "Montalegre Track Guide with Robin Larsson | Montalegre RX 2018",
-        "description": "Website: https://www.fiaworldrallycross.com/ Facebook: https://www.facebook.com/fiaworldrallycross Twitter:\u00a0...",
+        "video_id": "4gDuLNYCwpE",
+        "title": "Barcelona-Catalunya Circuit Track Guide for iRacing - Porsche 911 RSR GTE",
+        "description": "Join us as Daniel Morad (Formula BMW Champion and 2017 Rolex 24 Hour at Daytona Winner) guides you through the track at ...",
+        "channel": "Racing Edge",
+        "duration": 143,
         "video_type": "lap_walkthrough",
-        "car": "rallycross_beetle",
-        "quality_score": 120
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "DP5KP6QGcQ0",
+        "title": "iRacing Porsche GT3 Circuit De Catalunya Guide 1:44.3 Porsche 911 GT3 Barcelona Track Guide",
+        "description": "Buy me a beer (if you want): https://www.buymeacoffee.com/samboiracing For coaching from Gianni Lutzu (10.3k iRating), one of ...",
+        "channel": "Sambo iRacing",
+        "duration": 464,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "EjZCbjka-TE",
+        "title": "iRacing Porsche Cup Barcelona Guide 1:46.9 Porsche Cup 992.2 Circuit de Catalunya Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 521,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "a1Gca37-Lbk",
+        "title": "Very Detailed Barcelona Track Guide | iRacing NEW Porsche Cup (992.2) @ Circuit Barcelona Catalunya",
+        "description": "https://www.aleshasimracing.com My Discord: https://discord.gg/p2DGrxQ8xb Book a coaching session with me: ...",
+        "channel": "Alesha Sim Racing",
+        "duration": 1547,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "j5TTviso_3M",
+        "title": "iRacing Super Formula Barcelona Guide 1:20.6 Super Formula Catalunya Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 205,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "t8ZHoFKR6lM",
+        "title": "iRacing Ferrari GT3 Circuit De Catalunya Guide 1:44.3 Ferrari 296 GT3 Barcelona Track Guide",
+        "description": "Buy me a beer (if you want): https://www.buymeacoffee.com/samboiracing For coaching from Gianni Lutzu (10.3k iRating), one of ...",
+        "channel": "Sambo iRacing",
+        "duration": 459,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "XWMQFmGxBug",
+        "title": "iRacing Track Guide Barcelona | Formula F4 | W5 S1 2023",
+        "description": "Join at www.iracing.com Right then! In this video I try and explain my racing line and braking points to help you improve your lap ...",
+        "channel": "Tdi99",
+        "duration": 430,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
       }
     ]
   }

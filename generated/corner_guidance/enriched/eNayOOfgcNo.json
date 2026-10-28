@@ -1,0 +1,455 @@
+{
+  "video_id": "eNayOOfgcNo",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRACING GT3 Oulton Park International TRACK GUIDE - 2022 Season 2 Week 8",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake 15 to 20 meters after turn right sign",
+      "line": "late apex",
+      "mistakes": "apexing too early",
+      "note_id": "eNayOOfgcNo:0",
+      "text": "braking: brake 15 to 20 meters after turn right sign; line: late apex; mistakes: apexing too early",
+      "spoken_as": "turn one",
+      "passage_time": "2:09",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:12",
+      "snippet": "after that sign the turn right sign for um for turn one you'll see the brake lights come on now",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Late apex to avoid left wall.",
+      "mistakes": "Avoid early apex, use astro turf carefully.",
+      "note_id": "eNayOOfgcNo:1",
+      "text": "line: Late apex to avoid left wall.; mistakes: Avoid early apex, use astro turf carefully.",
+      "spoken_as": "turn one",
+      "passage_time": "3:27",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.3,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.6
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at the little divot in the road.",
+      "line": "Late apex to avoid right runoff.",
+      "mistakes": "Avoid early apex, avoid right runoff.",
+      "note_id": "eNayOOfgcNo:2",
+      "text": "braking: Brake at the little divot in the road.; line: Late apex to avoid right runoff.; mistakes: Avoid early apex, avoid right runoff.",
+      "spoken_as": "turn three",
+      "passage_time": "3:27",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:15",
+      "snippet": "as uh as one don't wanna apex too early the off uh sort of the runoff on turn three on the right hand side is again",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "not braking, rolling off the throttle",
+      "gear": "flat",
+      "line": "fast through the corner",
+      "exit": "straight back onto the throttle",
+      "note_id": "eNayOOfgcNo:3",
+      "text": "braking: not braking, rolling off the throttle; gear: flat; line: fast through the corner; exit: straight back onto the throttle",
+      "spoken_as": "four",
+      "passage_time": "4:44",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {
+        "after": "T3",
+        "before": "T5",
+        "corners_between": [
+          "T4"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.78,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:59",
+      "snippet": "fast through four so i'm not braking just uh rolling off the throttle and then straight back onto the throttle you",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "braking hard just before the tyre walls ends on the left",
+      "exit": "getting off the brakes, picking up the throttle early",
+      "mistakes": "careful with throttle pickup, turning as well",
+      "note_id": "eNayOOfgcNo:4",
+      "text": "braking: braking hard just before the tyre walls ends on the left; exit: getting off the brakes, picking up the throttle early; mistakes: careful with throttle pickup, turning as well",
+      "spoken_as": "the hairpin",
+      "passage_time": "4:44",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "5:21",
+      "snippet": "tyre walls ends on the left hand side i find that that that works pretty well for actually getting the car pulled up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "hard braking to the apex",
+      "line": "take the first left curb",
+      "exit": "feed power back on exit",
+      "mistakes": "bouncing the car, inducing locking",
+      "note_id": "eNayOOfgcNo:5",
+      "text": "braking: hard braking to the apex; line: take the first left curb; exit: feed power back on exit; mistakes: bouncing the car, inducing locking",
+      "spoken_as": "seven",
+      "passage_time": "6:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "6:19",
+      "snippet": "taking a lot of that first left curb really really bounces the car a lot and then also can induce a little bit of",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.349,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "T8",
+        "estimated_pct": 0.4524,
+        "corner_pct": 0.4463,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "T8",
+        "corners_between": [
+          "T6",
+          "T7"
+        ]
+      }
+    },
+    {
+      "braking": "running brakes to apex",
+      "exit": "get off brakes, feed power back on",
+      "note_id": "eNayOOfgcNo:6",
+      "text": "braking: running brakes to apex; exit: get off brakes, feed power back on",
+      "spoken_as": "eight",
+      "passage_time": "6:06",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:50",
+      "snippet": "feed the power back on as quick as possible on the exit of nine",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "feed power back on exit",
+      "note_id": "eNayOOfgcNo:7",
+      "text": "exit: feed power back on exit",
+      "spoken_as": "nine",
+      "passage_time": "6:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:50",
+      "snippet": "feed the power back on as quick as possible on the exit of nine"
+    },
+    {
+      "braking": "hard stop on 100 meter board",
+      "gear": "second gear",
+      "line": "not wanting to push out too wide",
+      "note_id": "eNayOOfgcNo:8",
+      "text": "braking: hard stop on 100 meter board; gear: second gear; line: not wanting to push out too wide",
+      "spoken_as": "100 meter board",
+      "passage_time": "6:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:18",
+      "snippet": "not wanting to push out too wide when we're turning into um turning it to 11 because it's going to make the run out",
+      "best_candidate": {
+        "corner_id": "T10",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "T15",
+        "estimated_pct": 0.5826,
+        "corner_pct": 0.6104,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "T15",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    },
+    {
+      "braking": "Easy on the throttle pickup here",
+      "exit": "Getting hard on throttle driving out",
+      "mistakes": "Not pushing out too wide",
+      "note_id": "eNayOOfgcNo:9",
+      "text": "braking: Easy on the throttle pickup here; exit: Getting hard on throttle driving out; mistakes: Not pushing out too wide",
+      "spoken_as": "of 12",
+      "passage_time": "7:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:40",
+      "snippet": "easy on the throttle pickup here and then getting hard on the throttle driving out of 12.",
+      "best_candidate": {
+        "corner_id": "T12",
+        "confidence": 0.301,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "T15",
+        "estimated_pct": 0.6551,
+        "corner_pct": 0.6475,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "T15",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    },
+    {
+      "exit": "Flat",
+      "note_id": "eNayOOfgcNo:10",
+      "text": "exit: Flat",
+      "spoken_as": "13",
+      "passage_time": "7:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:47",
+      "snippet": "13 and 14 that are coming up are flat 15 for druids corner so just",
+      "best_candidate": {
+        "corner_id": "T13",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "T15",
+        "estimated_pct": 0.6809,
+        "corner_pct": 0.707,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "T15",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    },
+    {
+      "exit": "Flat",
+      "note_id": "eNayOOfgcNo:11",
+      "text": "exit: Flat",
+      "spoken_as": "14",
+      "passage_time": "7:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:47",
+      "snippet": "13 and 14 that are coming up are flat 15 for druids corner so just",
+      "best_candidate": {
+        "corner_id": "T13",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "T15",
+        "estimated_pct": 0.6809,
+        "corner_pct": 0.707,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "T15",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    },
+    {
+      "braking": "A little bit before the change of color in the asphalt, trail braking",
+      "line": "Double apex",
+      "exit": "Hard on throttle all the way",
+      "mistakes": "Breaking too late, off the track on the left hand side",
+      "note_id": "eNayOOfgcNo:12",
+      "text": "braking: A little bit before the change of color in the asphalt, trail braking; line: Double apex; exit: Hard on throttle all the way; mistakes: Breaking too late, off the track on the left hand side",
+      "spoken_as": "turn 15 for druids",
+      "passage_time": "7:25",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:23",
+      "snippet": "hand side exiting 15 if you're breaking too too late for this so what i found in in my testing is that actually obviously",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the sign for the last corner",
+      "gear": "5 to 2",
+      "line": "turn in late, avoid grass on left",
+      "exit": "patient with throttle, track cambered, light rear tires",
+      "mistakes": "turn in too early, lose time and drive up the hill",
+      "note_id": "eNayOOfgcNo:13",
+      "text": "braking: brake at the sign for the last corner; gear: 5 to 2; line: turn in late, avoid grass on left; exit: patient with throttle, track cambered, light rear tires; mistakes: turn in too early, lose time and drive up the hill",
+      "spoken_as": "turn 16",
+      "passage_time": "8:42",
+      "corner_id": "T16",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.6
+        }
+      },
+      "time": "9:06",
+      "snippet": "the sign pointing right for the last corner you'll see the brake lights come on",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "late apex, use all available track on the left",
+      "exit": "keep close to the left-hand side of the track",
+      "note_id": "eNayOOfgcNo:14",
+      "text": "line: late apex, use all available track on the left; exit: keep close to the left-hand side of the track",
+      "spoken_as": "turn 17",
+      "passage_time": "10:00",
+      "corner_id": "T17",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:04",
+      "snippet": "using all that available track on the left hand side to open up that corner in the apex now starting to put that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

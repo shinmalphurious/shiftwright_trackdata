@@ -1,0 +1,282 @@
+{
+  "video_id": "B_Koltr4Rtk",
+  "track_id": 525,
+  "track_name": "Circuit de Spa-Francorchamps - Endurance",
+  "title": "iRacing Porsche GT3 Spa GP Pits Guide 2:15.9 Porsche 911 GT3 Spa 24 Endurance Track Guide",
+  "car": "Porsche 911 GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at 100 sign, initially 55%, trail off to apex.",
+      "gear": "1",
+      "line": "Turn-in to left, apex wide, exit wide.",
+      "exit": "Throttle up to apex, lift for turn six, back on gas for turn seven.",
+      "mistakes": "Don't hit the wall, give yourself room.",
+      "note_id": "B_Koltr4Rtk:0",
+      "text": "braking: Brake at 100 sign, initially 55%, trail off to apex.; gear: 1; line: Turn-in to left, apex wide, exit wide.; exit: Throttle up to apex, lift for turn six, back on gas for turn seven.; mistakes: Don't hit the wall, give yourself room.",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:13",
+      "snippet": "wall, so give yourself a bit of room. Exit [music] nice and wide. Lots of people ask why Johnny brakes a"
+    },
+    {
+      "braking": "Brake four or five car lengths before left-hand curb start.",
+      "line": "Brake, hold 50%, trail off to apex.",
+      "exit": "Pick up gas at 40%, lift for turn six, back on gas for turn seven.",
+      "note_id": "B_Koltr4Rtk:1",
+      "text": "braking: Brake four or five car lengths before left-hand curb start.; line: Brake, hold 50%, trail off to apex.; exit: Pick up gas at 40%, lift for turn six, back on gas for turn seven.",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:45",
+      "snippet": "four or five car lengths before the start of the curb on the left-hand side. So, here we go. This is where we get on"
+    },
+    {
+      "braking": "brakes three or four car lengths ahead of the curb on the left, 45% long trail off",
+      "gear": "2",
+      "line": "trail off the brake all the way through until pointing at the pits",
+      "exit": "very gingerly back on the gas, reach 100% when rear won't kick out",
+      "mistakes": "don't reach 100% too early",
+      "note_id": "B_Koltr4Rtk:2",
+      "text": "braking: brakes three or four car lengths ahead of the curb on the left, 45% long trail off; gear: 2; line: trail off the brake all the way through until pointing at the pits; exit: very gingerly back on the gas, reach 100% when rear won't kick out; mistakes: don't reach 100% too early",
+      "spoken_as": "turn eight little hairpin thing",
+      "passage_time": "4:14",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.77,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.77,
+          "line": 1.0,
+          "exit": 0.62,
+          "mistakes": 0.6
+        }
+      },
+      "time": "4:19",
+      "snippet": "or four car lengths ahead of the curb on the left-hand side. [music] There we go. Maybe two car lengths in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes to about 15% trail it off",
+      "line": "get all the way to the outside",
+      "exit": "pick back up on the gas at the apex",
+      "mistakes": "lose left-hand tires off the track",
+      "note_id": "B_Koltr4Rtk:3",
+      "text": "braking: brakes to about 15% trail it off; line: get all the way to the outside; exit: pick back up on the gas at the apex; mistakes: lose left-hand tires off the track",
+      "spoken_as": "turn nine",
+      "passage_time": "4:14",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:50",
+      "snippet": "get on the brakes to about 15% trail it off and then we're going to pick back up on the gas at the apex of nine.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes just ahead of the 50 board on the left, 35-40%",
+      "gear": "4",
+      "line": "use 50 board on the left as marker",
+      "exit": "back on the gas at the apex, straight up to 100%",
+      "note_id": "B_Koltr4Rtk:4",
+      "text": "braking: brakes just ahead of the 50 board on the left, 35-40%; gear: 4; line: use 50 board on the left as marker; exit: back on the gas at the apex, straight up to 100%",
+      "spoken_as": "turn 10, Pouhon",
+      "passage_time": "4:14",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:13",
+      "snippet": "about 40% 35-40% trail it off, back on the gas at the apex in fourth gear. We get straight up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50% at halfway between 100 and 50 board",
+      "gear": "3rd",
+      "line": "trail off to 3rd gear, apex, start picking up gas",
+      "exit": "wide exit",
+      "note_id": "B_Koltr4Rtk:5",
+      "text": "braking: 50% at halfway between 100 and 50 board; gear: 3rd; line: trail off to 3rd gear, apex, start picking up gas; exit: wide exit",
+      "spoken_as": "turn 12",
+      "passage_time": "5:31",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:04",
+      "snippet": "trail it off, leave it in third gear, back on the gas at the apex. Exit nice and wide and now we can take",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "45% at curb ahead of left-hand side curb",
+      "gear": "3rd",
+      "line": "trail off, leave in 3rd gear, back on gas at apex",
+      "exit": "wide exit",
+      "note_id": "B_Koltr4Rtk:6",
+      "text": "braking: 45% at curb ahead of left-hand side curb; gear: 3rd; line: trail off, leave in 3rd gear, back on gas at apex; exit: wide exit",
+      "spoken_as": "turn 14",
+      "passage_time": "5:31",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:04",
+      "snippet": "trail it off, leave it in third gear, back on the gas at the apex. Exit nice and wide and now we can take",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "note_id": "B_Koltr4Rtk:7",
+      "text": "line: flat",
+      "spoken_as": "turn 15",
+      "passage_time": "5:31",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:11",
+      "snippet": "turn 15 absolutely flat. And the same with 16 and 17. Got one final braking zone to come.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "note_id": "B_Koltr4Rtk:8",
+      "text": "line: flat",
+      "spoken_as": "turn 16",
+      "passage_time": "5:31",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:11",
+      "snippet": "turn 15 absolutely flat. And the same with 16 and 17. Got one final braking zone to come."
+    },
+    {
+      "line": "flat",
+      "note_id": "B_Koltr4Rtk:9",
+      "text": "line: flat",
+      "spoken_as": "turn 17",
+      "passage_time": "5:31",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:11",
+      "snippet": "turn 15 absolutely flat. And the same with 16 and 17. Got one final braking zone to come."
+    },
+    {
+      "braking": "before white line after CrowdStrike banner",
+      "line": "braking in straight line towards outside",
+      "note_id": "B_Koltr4Rtk:10",
+      "text": "braking: before white line after CrowdStrike banner; line: braking in straight line towards outside",
+      "spoken_as": "bus stop chicane",
+      "passage_time": "5:31",
+      "corner_id": "T18",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:40",
+      "snippet": "and just before this white line that's painted on the road. You can see it there in front of me. As we get onto",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Wipe all that speed off",
+      "gear": "second gear",
+      "line": "Little blip of gas, lift again",
+      "exit": "Exit nice and wide",
+      "note_id": "B_Koltr4Rtk:11",
+      "text": "braking: Wipe all that speed off; gear: second gear; line: Little blip of gas, lift again; exit: Exit nice and wide",
+      "spoken_as": "chicane here",
+      "passage_time": "6:51",
+      "corner_id": "T18",
+      "status": "assigned",
+      "evidence": {
+        "alias": "chicane"
+      },
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:52",
+      "snippet": "Wipe all that speed off and now we're going to roll back off in second gear. We're going to do a little blip of gas",
+      "confidence": 0.9,
+      "assignment_method": "alias_match",
+      "enrichment_pass": 1
+    }
+  ]
+}

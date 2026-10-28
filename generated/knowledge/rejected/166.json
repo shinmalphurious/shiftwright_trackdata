@@ -1,0 +1,83 @@
+{
+  "track_id": 166,
+  "track": "Okayama International Circuit - Full Course",
+  "records": {
+    "166:T10:slow_corner": {
+      "id": "166:T10:slow_corner",
+      "track_id": 166,
+      "track": "Okayama International Circuit - Full Course",
+      "corner": "T10",
+      "corner_name": "Mike Knight Corner",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "203m distance from previous corner suggests lower speed corner",
+          "at": "2026-10-28T09:22:43+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.246,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:08:44+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.098,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.246
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "bJO6Ls49kQE",
+              "result": "contradict",
+              "time": "5:36",
+              "note": "braking: Brake just before the end of dark gray gravel, 60%; gear: Second gear; line: Flat left-hand corner; exit: Exit wide and flat",
+              "transcript_snippet": "end of the dark gray gravel, we get on the brakes and again I'm going to go up to about 60%. Quick trail off down to",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=bJO6Ls49kQE"
+            },
+            {
+              "video_id": "cH9rx0dLgn8",
+              "result": "contradict",
+              "time": "6:32",
+              "note": "line: flat",
+              "transcript_snippet": "We're absolutely flat through turn 10. We can go completely to the right-hand side of this rumble strip, but we cannot",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=cH9rx0dLgn8"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 2,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); 0 video(s) confirm, 2 contradict; consensus 0.25 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

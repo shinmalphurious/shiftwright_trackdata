@@ -1,0 +1,82 @@
+{
+  "video_id": "UqWNXaGUsw0",
+  "track_id": 181,
+  "track_name": "Oulton Park Circuit - Fosters",
+  "title": "Track Guide Oulton Park Fosters FF1600 iRacing",
+  "car_hint": "ff1600",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:01:47.223650+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake close to left banner, 75% pressure, trail brake",
+      "line": "cut curb, use grass before car bounces",
+      "exit": "throttle close to curb, ease in",
+      "mistakes": "wide exit if over-throttle"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "flat out"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "exit": "throw car over curbing, avoid going too far",
+      "mistakes": "1x if go too far"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake at left white line, 90% pressure",
+      "line": "ease off brake to inside curb, take lower part",
+      "exit": "full throttle after curb",
+      "mistakes": "brake twice if miss first time"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "flat out",
+      "exit": "flat out"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn 8",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "break once I get to this kink in the road here, 65% brake pressure",
+      "line": "ease off brake to first curb, stay close to second curb",
+      "exit": "throttle after first curb",
+      "mistakes": "overtaking attempts, going on throttle too early"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn 9",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "break just before third part of road, 90% brake pressure",
+      "line": "aim for emergency road on right",
+      "exit": "full throttle after emergency road",
+      "mistakes": "going off into grass, going on throttle too early"
+    }
+  ],
+  "general_tips": [
+    "stay close to the left side of the track for turn 9",
+    "use the outside curb to maximize exit speed"
+  ],
+  "dropped_ungrounded": 2
+}

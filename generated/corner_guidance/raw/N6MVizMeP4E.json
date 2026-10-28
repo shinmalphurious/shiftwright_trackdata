@@ -1,0 +1,182 @@
+{
+  "video_id": "N6MVizMeP4E",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing Toyota GR86 - Oulton Park International without Brittens - 1:47.264 - Track Guide",
+  "car_hint": "legends",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:53:08.757293+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "the left hand side",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "little break up to about 60%",
+      "gear": "nice and early exit",
+      "line": "nice and wide",
+      "exit": "keep right tires on rumble strip",
+      "mistakes": "don't go on grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "this dip",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "little break",
+      "gear": "down to third gear",
+      "line": "hook tires on inside corner",
+      "exit": "exit wide",
+      "mistakes": "don't go on grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "Shell Oil corner",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "all the way down to second gear on the gas",
+      "gear": "second",
+      "line": "nice and early",
+      "exit": "exit nice and wide"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:20",
+      "sequence": 1,
+      "braking": "breaking really high into second gear",
+      "gear": "second",
+      "line": "cutting it nice and close",
+      "exit": "absolutely flat out"
+    },
+    {
+      "label": null,
+      "spoken_as": "next chicane",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T7",
+      "braking": "don't over break here drop it down to third",
+      "gear": "third",
+      "line": "clipping both of these curbs",
+      "exit": "exit nice and wide",
+      "mistakes": "don't go on the grass"
+    },
+    {
+      "label": "T14",
+      "spoken_as": "Water Tower",
+      "start_time": "1:20",
+      "sequence": 1,
+      "gear": "fourth"
+    },
+    {
+      "label": null,
+      "spoken_as": "Druids",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T15",
+      "braking": "don't over break here drop it down to third",
+      "gear": "third",
+      "line": "nice and early",
+      "exit": "exit nice and wide",
+      "mistakes": "don't go on the grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "Lodge Corner",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T16",
+      "braking": "down to second gear on the gas",
+      "gear": "second",
+      "line": "making it as tight as possible",
+      "exit": "over across the line",
+      "mistakes": "don't go on the grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "this Two Brothers Racing sign",
+      "start_time": "2:44",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "Break at Two Brothers Racing sign, 60%, trail off to 3rd gear",
+      "gear": "3rd",
+      "line": "Cut the corner, exit wide",
+      "exit": "Get on gas early, not full gas at apex",
+      "mistakes": "Don't hit the mud patch"
+    },
+    {
+      "label": null,
+      "spoken_as": "little dip",
+      "start_time": "2:44",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "Break at little dip, 65%, trail off to 3rd gear",
+      "gear": "3rd",
+      "exit": "Get on gas early, exit wide",
+      "mistakes": "Don't hit astro turf patch"
+    },
+    {
+      "label": null,
+      "spoken_as": "this road",
+      "start_time": "4:02",
+      "sequence": 3,
+      "label_guess": "T7",
+      "braking": "lift at entrance, brake hard to 100%, drop to 2nd gear",
+      "gear": "2nd",
+      "line": "cut the corner, go over rumble strip",
+      "exit": "get on gas early, wide exit",
+      "mistakes": "don't go over grass, avoid X marker"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking Zone",
+      "start_time": "4:02",
+      "sequence": 3,
+      "label_guess": "T8",
+      "braking": "brake hard to 100%, drop to 2nd gear",
+      "gear": "2nd",
+      "line": "cut close to inside apex",
+      "exit": "get on gas early"
+    },
+    {
+      "label": null,
+      "spoken_as": "Druids",
+      "start_time": "5:20",
+      "sequence": 4,
+      "label_guess": "T15",
+      "braking": "Break at green marker, 50%, trail brake, drop to 3rd gear",
+      "gear": "3rd",
+      "line": "Cut the corner",
+      "exit": "Flat out, exit wide, keep middle of car over track"
+    },
+    {
+      "label": null,
+      "spoken_as": "Lodge",
+      "start_time": "5:20",
+      "sequence": 4,
+      "label_guess": "T16",
+      "braking": "Break hard, drop to gear",
+      "line": "Cut the corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "Lodge Corner",
+      "start_time": "6:39",
+      "sequence": 5,
+      "label_guess": "T16",
+      "line": "Cut the corner slightly, exit wide using left tires on rumble strip",
+      "exit": "Get on 100% throttle as early as possible",
+      "mistakes": "Looks tighter in a sports car"
+    }
+  ],
+  "general_tips": [
+    "no traction control",
+    "abs mode set to two",
+    "Keep 100% throttle from Druids to Lodge"
+  ],
+  "dropped_ungrounded": 3
+}

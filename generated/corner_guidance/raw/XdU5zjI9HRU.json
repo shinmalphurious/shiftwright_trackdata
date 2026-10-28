@@ -1,0 +1,105 @@
+{
+  "video_id": "XdU5zjI9HRU",
+  "track_id": 202,
+  "track_name": "Oran Park Raceway - Grand Prix",
+  "title": "iRacing NEW BMW M2 Oran Park Guide 1:12.2 BMW M2 Racing G87 Oran Park Track Guide",
+  "car_hint": "bmw_m2",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:03:24.595141+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:51",
+      "sequence": 1,
+      "braking": "brake on white crosshatch line, 55%",
+      "gear": "3rd",
+      "line": "trail brake to apex",
+      "exit": "get back on gas at apex"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "1:51",
+      "sequence": 1,
+      "braking": "brake on concrete curbing, 55-60%",
+      "gear": "3rd",
+      "line": "trail brake to apex",
+      "exit": "get back on gas at apex"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:51",
+      "sequence": 1,
+      "braking": "brake before tire wall, 60%",
+      "gear": "3rd",
+      "line": "trail brake to apex",
+      "exit": "get back on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "bridge",
+      "start_time": "1:51",
+      "sequence": 1,
+      "braking": "big lift on crest",
+      "gear": "4th",
+      "exit": "off gas, 5% brake, get back on gas ahead of cones"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "3:10",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "off gas, 35-40% trail braking",
+      "gear": "4th",
+      "line": "cut the corner",
+      "exit": "get back on gas ahead of apex",
+      "mistakes": "don't reach 100% till exit apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "as we come down the hill",
+      "start_time": "3:10",
+      "sequence": 2,
+      "braking": "35%",
+      "gear": "4th",
+      "line": "cut the corner",
+      "exit": "get back on gas ahead of apex",
+      "mistakes": "don't wash out"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "3:10",
+      "sequence": 2,
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "3:10",
+      "sequence": 2,
+      "label_guess": "T11",
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "final bit of braking",
+      "start_time": "3:10",
+      "sequence": 2,
+      "braking": "55%",
+      "gear": "3rd",
+      "exit": "slowly pick back up to 100%",
+      "mistakes": "don't wash out"
+    }
+  ],
+  "general_tips": [],
+  "dropped_ungrounded": 0
+}

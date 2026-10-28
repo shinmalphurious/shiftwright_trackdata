@@ -1,0 +1,525 @@
+{
+  "video_id": "kgCVhxgdYyw",
+  "track_id": 95,
+  "track_name": "Sebring International Raceway - International",
+  "title": "iRacing Mazda MX5 Sebring Guide 2:25.1 MX5 Sebring Track Guide",
+  "car": "Mazda MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake up to about 20% trail it off",
+      "gear": "3rd",
+      "line": "exit nice and wide",
+      "exit": "without going in the mud",
+      "note_id": "kgCVhxgdYyw:0",
+      "text": "braking: brake up to about 20% trail it off; gear: 3rd; line: exit nice and wide; exit: without going in the mud",
+      "spoken_as": "little indent in the barrier",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.82,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:47",
+      "snippet": "nice and wide without going in the mud. Now, we're looking for these three cones on the right-hand side. When we get",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.367,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T7",
+        "estimated_pct": 0.0764,
+        "corner_pct": 0.084,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T7",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "braking up to about 70% trail it off",
+      "gear": "2nd",
+      "line": "avoid the curb on the left but finishing up on the outside one",
+      "mistakes": "avoid the curb on the left",
+      "note_id": "kgCVhxgdYyw:1",
+      "text": "braking: braking up to about 70% trail it off; gear: 2nd; line: avoid the curb on the left but finishing up on the outside one; mistakes: avoid the curb on the left",
+      "spoken_as": "three cones on the right-hand side",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:52",
+      "snippet": "there, braking up to about 70% trail it off back on the gas in second. I hate that curb on the left-hand side. Love",
+      "best_candidate": {
+        "corner_id": "T2",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T7",
+        "estimated_pct": 0.1231,
+        "corner_pct": 0.1348,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T7",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "just after the four cone for the GT3",
+      "note_id": "kgCVhxgdYyw:2",
+      "text": "braking: just after the four cone for the GT3",
+      "spoken_as": "turn seven hairpin",
+      "passage_time": "0:00",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:14",
+      "snippet": "you'll know it's the four cone for the GT3. But for the Mazda, we go just after the three cone braking briefly up to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after the three cone briefly, 80% trail braking",
+      "gear": "1st",
+      "exit": "wide, flat",
+      "mistakes": "don't spin",
+      "note_id": "kgCVhxgdYyw:3",
+      "text": "braking: after the three cone briefly, 80% trail braking; gear: 1st; exit: wide, flat; mistakes: don't spin",
+      "spoken_as": "turn seven hairpin",
+      "passage_time": "1:20",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:20",
+      "snippet": "the three cone braking briefly up to about 80% trail it off back on the gas in first gear trying catch it",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after the three cone briefly",
+      "gear": "2nd",
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "kgCVhxgdYyw:4",
+      "text": "braking: after the three cone briefly; gear: 2nd; line: flat; exit: flat",
+      "spoken_as": "turn nine",
+      "passage_time": "1:20",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:40",
+      "snippet": "braking just after the three cone briefly almost up to full back on the gas in second gear. Don't bog down too",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after the three cone briefly, 80% trail braking",
+      "gear": "2nd",
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "kgCVhxgdYyw:5",
+      "text": "braking: after the three cone briefly, 80% trail braking; gear: 2nd; line: flat; exit: flat",
+      "spoken_as": "turn 10 Cunningham",
+      "passage_time": "1:20",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:20",
+      "snippet": "the three cone braking briefly up to about 80% trail it off back on the gas in first gear trying catch it",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after the three cone briefly",
+      "gear": "2nd",
+      "line": "flat",
+      "exit": "flat",
+      "mistakes": "don't bog down",
+      "note_id": "kgCVhxgdYyw:6",
+      "text": "braking: after the three cone briefly; gear: 2nd; line: flat; exit: flat; mistakes: don't bog down",
+      "spoken_as": "turn 11",
+      "passage_time": "1:20",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:40",
+      "snippet": "braking just after the three cone briefly almost up to full back on the gas in second gear. Don't bog down too",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "at the two cone briefly, 80%",
+      "gear": "2nd",
+      "line": "kiss apex",
+      "exit": "wide",
+      "note_id": "kgCVhxgdYyw:7",
+      "text": "braking: at the two cone briefly, 80%; gear: 2nd; line: kiss apex; exit: wide",
+      "spoken_as": "turn 12",
+      "passage_time": "1:20",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.89,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:55",
+      "snippet": "two cone on the brakes briefly to about 80% down second gear just give that apex a kiss. Exit nice and wide carry as much",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "at the three cone briefly",
+      "gear": "2nd",
+      "line": "wide entry, left",
+      "exit": "wide",
+      "note_id": "kgCVhxgdYyw:8",
+      "text": "braking: at the three cone briefly; gear: 2nd; line: wide entry, left; exit: wide",
+      "spoken_as": "Bishop turn 14",
+      "passage_time": "1:20",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:13",
+      "snippet": "once again, at the three cone on the brakes down second gear really cut that corner.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "at the three cone briefly, 40%",
+      "gear": "2nd",
+      "line": "cut corner",
+      "exit": "cut corner",
+      "mistakes": "don't spin",
+      "note_id": "kgCVhxgdYyw:9",
+      "text": "braking: at the three cone briefly, 40%; gear: 2nd; line: cut corner; exit: cut corner; mistakes: don't spin",
+      "spoken_as": "turn 16 Le Mans",
+      "passage_time": "1:20",
+      "corner_id": "T16",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:40",
+      "snippet": "braking just after the three cone briefly almost up to full back on the gas in second gear. Don't bog down too",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes only up to 30-odd percent, trail it off",
+      "gear": "leave in third until now drop it down second",
+      "exit": "back on gas",
+      "mistakes": "hesitated when going back on gas, should have used room on left-hand side",
+      "note_id": "kgCVhxgdYyw:10",
+      "text": "braking: brakes only up to 30-odd percent, trail it off; gear: leave in third until now drop it down second; exit: back on gas; mistakes: hesitated when going back on gas, should have used room on left-hand side",
+      "spoken_as": "two cone turn",
+      "passage_time": "2:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:46",
+      "snippet": "off. Leave it in third until now drop it down second back on the gas. And if you see I hesitated uh when I went back on",
+      "best_candidate": {
+        "corner_id": "T17",
+        "confidence": 0.368,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T14",
+        "before": "start/finish",
+        "estimated_pct": 0.8969,
+        "corner_pct": 0.9238,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T14",
+        "before": "start/finish",
+        "corners_between": [
+          "T15",
+          "T16",
+          "T17"
+        ]
+      }
+    },
+    {
+      "braking": "brakes only to about 20%, trail it off",
+      "note_id": "kgCVhxgdYyw:11",
+      "text": "braking: brakes only to about 20%, trail it off",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:32",
+      "snippet": "get on the brakes only to about 20% we're going to trail it off and we're just feathering that steering wheel"
+    },
+    {
+      "braking": "brakes just after three cones on right, 70%, trail off, 30%",
+      "gear": "2nd",
+      "line": "close to left curb without hitting it",
+      "exit": "100%, use exit curbing",
+      "mistakes": "hitting left curb",
+      "note_id": "kgCVhxgdYyw:12",
+      "text": "braking: brakes just after three cones on right, 70%, trail off, 30%; gear: 2nd; line: close to left curb without hitting it; exit: 100%, use exit curbing; mistakes: hitting left curb",
+      "spoken_as": "next corner",
+      "passage_time": "4:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 0.6,
+          "mistakes": 0.67
+        }
+      },
+      "time": "4:02",
+      "snippet": "three cones on the right-hand side. So, we've gone past them. We get on the brakes almost just before the two cone"
+    },
+    {
+      "braking": "brake at three cone on left, 80%",
+      "note_id": "kgCVhxgdYyw:13",
+      "text": "braking: brake at three cone on left, 80%",
+      "spoken_as": "turn seven",
+      "passage_time": "4:00",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:06",
+      "snippet": "we're going to be braking at the three cone here on the left-hand side. So, we get there briefly hit up to sort of 96%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake after the three cone, before the two cone",
+      "exit": "smoothly back on the gas",
+      "mistakes": "hesitation on throttle",
+      "note_id": "kgCVhxgdYyw:14",
+      "text": "braking: brake after the three cone, before the two cone; exit: smoothly back on the gas; mistakes: hesitation on throttle",
+      "spoken_as": "turn 10",
+      "passage_time": "5:18",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:44",
+      "snippet": "the three cone and just before the two cone here. So, as you can see halfway in between the two, I get up to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the two cone on the left",
+      "gear": "second gear",
+      "exit": "back on 100% nice and early",
+      "note_id": "kgCVhxgdYyw:15",
+      "text": "braking: brake at the two cone on the left; gear: second gear; exit: back on 100% nice and early",
+      "spoken_as": "turn 13",
+      "passage_time": "5:18",
+      "corner_id": "T13",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:21",
+      "snippet": "second gear and now we're back on 100% nice and early and well ahead of the curve.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "note_id": "kgCVhxgdYyw:16",
+      "text": "line: flat",
+      "spoken_as": "turn 14",
+      "passage_time": "5:18",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:35",
+      "snippet": "We're flat here through turn 14, but I like to give myself a nice wide entry so I can line up turn",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake after three cones, 65%",
+      "gear": "2nd",
+      "line": "wide entry, trail off, get on gas",
+      "exit": "wide exit",
+      "note_id": "kgCVhxgdYyw:17",
+      "text": "braking: brake after three cones, 65%; gear: 2nd; line: wide entry, trail off, get on gas; exit: wide exit",
+      "spoken_as": "turn 15",
+      "passage_time": "6:36",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:46",
+      "snippet": "once again just after the three cones as you can see. Get briefly up to about 65% trail it off drop it down second and as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 30-35%",
+      "gear": "2nd",
+      "line": "left side of white line",
+      "exit": "wide exit, left tires on track, right tires off track",
+      "note_id": "kgCVhxgdYyw:18",
+      "text": "braking: brake to 30-35%; gear: 2nd; line: left side of white line; exit: wide exit, left tires on track, right tires off track",
+      "spoken_as": "turn 16",
+      "passage_time": "6:36",
+      "corner_id": "T16",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:23",
+      "snippet": "left-hand side of this um white line and as soon as I do that, I go on the brakes to about 30-35% trail it off and then",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake just before the one cone, 35-40%",
+      "gear": "drop to third, then second",
+      "line": "turn in at the two cone",
+      "exit": "start picking up on the gas",
+      "note_id": "kgCVhxgdYyw:19",
+      "text": "braking: brake just before the one cone, 35-40%; gear: drop to third, then second; line: turn in at the two cone; exit: start picking up on the gas",
+      "spoken_as": "turn 17",
+      "passage_time": "7:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:57",
+      "snippet": "on the brakes just before the one cone. And again, I only brake to about 35-40% and I'm just looking to try and trail it"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "track_id": 97,
+  "track": "Sebring International Raceway - Club",
+  "records": {
+    "97:T2:heavy_braking": {
+      "id": "97:T2:heavy_braking",
+      "track_id": 97,
+      "track": "Sebring International Raceway - Club",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a braking zone.",
+          "at": "2026-10-28T09:13:48+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T21:59:16+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Sebring International Raceway - International",
+            "source_track_id": 95,
+            "corner": "T10",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

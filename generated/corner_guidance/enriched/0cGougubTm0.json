@@ -1,0 +1,176 @@
+{
+  "video_id": "0cGougubTm0",
+  "track_id": 181,
+  "track_name": "Oulton Park Circuit - Fosters",
+  "title": "Track Guide Oulton Park Fosters BMW M2 Rookie Fixed iRacing",
+  "car": "BMW M2",
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at the banner, 50% pressure, trail brake to inside curb",
+      "line": "Take all of the inside curb",
+      "exit": "Accelerate naturally to outside curbing",
+      "mistakes": "Going over outside curb can slow the car",
+      "note_id": "0cGougubTm0:0",
+      "text": "braking: Brake at the banner, 50% pressure, trail brake to inside curb; line: Take all of the inside curb; exit: Accelerate naturally to outside curbing; mistakes: Going over outside curb can slow the car",
+      "spoken_as": "the banner here on the left",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:19",
+      "snippet": "the inside curb. I do take all of the inside curb as well. Once we're off the brake, we want to start to accelerate"
+    },
+    {
+      "line": "Flat out",
+      "note_id": "0cGougubTm0:1",
+      "text": "line: Flat out",
+      "spoken_as": "Turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:29",
+      "snippet": "bit. Turn two is going to be flat out. Just make sure to end up on the right side of the track for turn three",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Lift off at dip, hold a few% brake pressure",
+      "line": "Take all of the inside curb",
+      "exit": "Come out at most at the middle of the track",
+      "note_id": "0cGougubTm0:2",
+      "text": "braking: Lift off at dip, hold a few% brake pressure; line: Take all of the inside curb; exit: Come out at most at the middle of the track",
+      "spoken_as": "Turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:40",
+      "snippet": "all the way in over the inside curb. We want to come out at most at the middle of the track after turn three. That will",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "70% brake pressure, trail brake to inside curb",
+      "line": "Take inside curb, avoid anti-cut",
+      "exit": "Ease in throttle, avoid outside curb",
+      "mistakes": "Hitting anti-cut can un-silt the car, touching outside curb causes wheel spin",
+      "note_id": "0cGougubTm0:3",
+      "text": "braking: 70% brake pressure, trail brake to inside curb; line: Take inside curb, avoid anti-cut; exit: Ease in throttle, avoid outside curb; mistakes: Hitting anti-cut can un-silt the car, touching outside curb causes wheel spin",
+      "spoken_as": "Turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.67,
+          "exit": 0.8
+        }
+      },
+      "time": "0:54",
+      "snippet": "layout. I aim for about 70% brake pressure and we're trailing that off until the inside curb. There's a cruel",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at the tree, 50% pressure, ease off until first curb",
+      "line": "Get close to both curbs, double apex",
+      "exit": "Slowly accelerate after first curb, full throttle on hitting second curb",
+      "mistakes": "Steer off second curb if accelerating too hard",
+      "note_id": "0cGougubTm0:4",
+      "text": "braking: Brake at the tree, 50% pressure, ease off until first curb; line: Get close to both curbs, double apex; exit: Slowly accelerate after first curb, full throttle on hitting second curb; mistakes: Steer off second curb if accelerating too hard",
+      "spoken_as": "turn eight",
+      "passage_time": "1:17",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:37",
+      "snippet": "apex. Just after the first curb, we want to slowly start to accelerate again. If we stand on it too hard, we will steer",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break after track dip, 70% pressure, ease off until emergency road",
+      "exit": "Ease in throttle after emergency road, use curbing for exit speed",
+      "mistakes": "Run off road if accelerating too hard, avoid grass",
+      "note_id": "0cGougubTm0:5",
+      "text": "braking: Break after track dip, 70% pressure, ease off until emergency road; exit: Ease in throttle after emergency road, use curbing for exit speed; mistakes: Run off road if accelerating too hard, avoid grass",
+      "spoken_as": "turn 9",
+      "passage_time": "1:17",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6
+        }
+      },
+      "time": "2:00",
+      "snippet": "until we get to an emergency road on the right. Once we get to that emergency road, we also want to start to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Get close to inside wall",
+      "exit": "Race to start finish line",
+      "note_id": "0cGougubTm0:6",
+      "text": "line: Get close to inside wall; exit: Race to start finish line",
+      "spoken_as": "10",
+      "passage_time": "1:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:16",
+      "snippet": "it's just this race to the start finish line. And that's my lap around Alton Park, the Fusters layout in the BMW M2."
+    }
+  ]
+}

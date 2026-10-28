@@ -1,0 +1,82 @@
+{
+  "video_id": "XiEpHB8rLwY",
+  "track_id": 181,
+  "track_name": "Oulton Park Circuit - Fosters",
+  "title": "Track Guide Oulton Park Fosters Mazda MX5 Rookie iRacing",
+  "car_hint": "mx5",
+  "car": "MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:03:42.026361+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first corner",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T1",
+      "braking": "Brake at banner, 55% pressure, off brake to middle of track",
+      "line": "Cut inside curb, roll into corner",
+      "exit": "Accelerate on exit, stay within white line",
+      "mistakes": "Avoid grass, car will bounce"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Flat out"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Lift off throttle at dip",
+      "line": "Cut all inside curbing",
+      "exit": "Mid-track exit"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "80% pressure at fastest layout entrance",
+      "gear": "1st",
+      "line": "Turn in at inside curb, anti-cut curb",
+      "exit": "Ease in throttle to avoid understeer",
+      "mistakes": "Avoid going further than mid-track"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "1:16",
+      "sequence": 1,
+      "braking": "brake once over dust, 50%, ease off until first curve",
+      "line": "use inside curbing to help exit",
+      "exit": "full throttle before second curb",
+      "mistakes": "use outside curbing"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn 9",
+      "start_time": "1:16",
+      "sequence": 1,
+      "braking": "brake at hill top, 80%, ease off until emergency road",
+      "line": "close to inside curb",
+      "exit": "accelerate, ease in throttle",
+      "mistakes": "go on inside curb"
+    }
+  ],
+  "general_tips": [
+    "Stay on left side of track for T1",
+    "End up on right side of track for T2",
+    "Cut inside curbing for T3",
+    "Use anti-cut curb for T4",
+    "drive wide on entry, narrow on exit",
+    "use left side of track for turn eight",
+    "use left side of track for turn nine"
+  ],
+  "dropped_ungrounded": 0
+}

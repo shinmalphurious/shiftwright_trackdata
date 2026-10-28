@@ -1,15 +1,55 @@
 {
   "track_id": 273,
   "layout": "273-eldora",
+  "name": "Eldora Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:10:50.725784+00:00",
+  "candidates_seen": 68,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 68,
+    "new_candidates": 64,
+    "accepted": 4,
+    "selected": 4,
+    "kept_previous": 4,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 64,
+    "rejection_reasons": {
+      "no guide words in title": 39,
+      "too short": 11,
+      "venue not in title": 5,
+      "too long": 5,
+      "live stream": 3,
+      "setup or hardware video": 1
+    }
+  },
   "selected_guides": {
-    "street_stock": [
+    "general": [
       {
-        "video_id": "xfM9FtFtJ8A",
-        "title": "iRacing - Eldora Street Stock Setup Guide - Season 3 Week 5",
-        "description": "iRacing - Eldora Street Stock Setup Guide - Season 3 Week 5, quick setup guide for this week, hope this helps guys! Let me know\u00a0...",
+        "video_id": "oxTrgtJiXZ8",
+        "title": "iRacing SRX Track Guide - Eldora 25S3",
+        "description": "Join my Discord for SRX Community Races: https://discord.gg/8sRH3Z4dZw ▶️ Twitch: http://twitch.tv/reskakyoso ▶️ Bluesky: ...",
+        "channel": "Reska Kyoso【Racing VTuber】",
+        "duration": 280,
         "video_type": "lap_walkthrough",
-        "car": "street_stock",
-        "quality_score": 220
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "K55JSO_vLfM",
+        "title": "Learning How to Drive Eldora",
+        "description": "Practice Makes Perfect in iRacing.",
+        "channel": "Joshua K",
+        "duration": 301,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ],
     "nascar": [
@@ -17,19 +57,23 @@
         "video_id": "bGyO_44cMbk",
         "title": "iRacing Fixed NASCAR Series Tutorial: C Fixed Trucks at Eldora 23S1. Maconi Setup Shop",
         "description": "iRacing NASCAR Fixed Series Tutorial by Justin Yee for Maconi Setup Shop LLC.",
-        "video_type": "other",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 698,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
-      }
-    ],
-    "modified": [
+        "quality_score": 196,
+        "venue_confidence": 0.9
+      },
       {
-        "video_id": "x-aWYMUU7ik",
-        "title": "iRacing: Jacob D Schulz (Big Block Modified @ Eldora)",
-        "description": "Subscribe To Our Monthly Subscription Here:\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
+        "video_id": "xSSgePCvjA8",
+        "title": "NASCAR Class C Fixed Tutorial Demo | Eldora | Running the Cushion",
+        "description": "Bobby Zalenski, who competes in 4 different World Championships on iRacing, takes you through running the high side this week ...",
+        "channel": "VRS Sim Racing",
+        "duration": 120,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 196,
+        "venue_confidence": 0.9
       }
     ]
   }

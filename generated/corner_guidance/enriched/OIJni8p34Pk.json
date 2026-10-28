@@ -1,0 +1,185 @@
+{
+  "video_id": "OIJni8p34Pk",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Ferrari GT3 Zandvoort Guide 1:30.9 Ferrari 296 GT3 Zandvoort GP Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7344
+    ],
+    [
+      "T1",
+      0.7197
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "100 board, 60% to first gear",
+      "gear": "1st",
+      "line": "late apex",
+      "exit": "late throttle application, exit wide",
+      "note_id": "OIJni8p34Pk:0",
+      "text": "braking: 100 board, 60% to first gear; gear: 1st; line: late apex; exit: late throttle application, exit wide",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:11",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:22",
+      "snippet": "60% lovely clean trail off down to first gear and we're looking for a late apex. So, we're going to get on the gas really"
+    },
+    {
+      "braking": "yellow ADAC barrier, 25% to 35%",
+      "gear": "1st",
+      "line": "right tires on curb, straighten before dip",
+      "exit": "early throttle, high line",
+      "note_id": "OIJni8p34Pk:1",
+      "text": "braking: yellow ADAC barrier, 25% to 35%; gear: 1st; line: right tires on curb, straighten before dip; exit: early throttle, high line",
+      "spoken_as": "turn two",
+      "passage_time": "2:11",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "line": 0.67
+        }
+      },
+      "time": "2:50",
+      "snippet": "uh yellow um sort of ad barrier alongside that. It actually says ADAC on it. As we get",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes to about 30% alongside grass section, trail off to third gear",
+      "gear": "third gear",
+      "line": "left-hand tires on curb, apex at curve",
+      "exit": "wide exit",
+      "note_id": "OIJni8p34Pk:2",
+      "text": "braking: brakes to about 30% alongside grass section, trail off to third gear; gear: third gear; line: left-hand tires on curb, apex at curve; exit: wide exit",
+      "spoken_as": "next braking marker",
+      "passage_time": "3:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:53",
+      "snippet": "brakes to about 30% longest trail off again down to third gear picking up on the gas well ahead of the apex, which is"
+    },
+    {
+      "braking": "brakes to about 40% at end of curve",
+      "gear": "100%",
+      "line": "close to grass, avoid sausage curve",
+      "exit": "wide exit",
+      "mistakes": "don't hit sausage curve",
+      "note_id": "OIJni8p34Pk:3",
+      "text": "braking: brakes to about 40% at end of curve; gear: 100%; line: close to grass, avoid sausage curve; exit: wide exit; mistakes: don't hit sausage curve",
+      "spoken_as": "turn number eight",
+      "passage_time": "3:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:35",
+      "snippet": "the uh sausage curve bit. Shift to 100%. Going to have a really wide exit because that's going to give"
+    },
+    {
+      "braking": "brakes to about 25-30% at porta-potty",
+      "gear": "first gear",
+      "line": "get the nose pointed in, right-hand tires close to curve",
+      "exit": "wide exit",
+      "mistakes": "slippy sometimes on exit",
+      "note_id": "OIJni8p34Pk:4",
+      "text": "braking: brakes to about 25-30% at porta-potty; gear: first gear; line: get the nose pointed in, right-hand tires close to curve; exit: wide exit; mistakes: slippy sometimes on exit",
+      "spoken_as": "turn 10",
+      "passage_time": "4:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:54",
+      "snippet": "nose pointed in, get your right-hand tires nice and close to that curve. Up to 100%. Going to head over to the"
+    },
+    {
+      "braking": "brakes up to about 55-60% at 100 board",
+      "gear": "second gear",
+      "line": "right hand tires jumping over at left hand tires",
+      "exit": "little blip of gas, off the gas on brakes to 20%",
+      "note_id": "OIJni8p34Pk:5",
+      "text": "braking: brakes up to about 55-60% at 100 board; gear: second gear; line: right hand tires jumping over at left hand tires; exit: little blip of gas, off the gas on brakes to 20%",
+      "spoken_as": "chicane",
+      "passage_time": "4:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:52",
+      "snippet": "second gear and really attacking this curve. So, as you can see, right hand tires are always going to be jumping"
+    },
+    {
+      "braking": "Midway between 50 board and left curb, 45-50% trail braking",
+      "gear": "Second",
+      "line": "Get close to grass, attack curve",
+      "exit": "Steady gas to 100%, exit wide without off track",
+      "mistakes": "Watch right grass if slippy and wet",
+      "note_id": "OIJni8p34Pk:6",
+      "text": "braking: Midway between 50 board and left curb, 45-50% trail braking; gear: Second; line: Get close to grass, attack curve; exit: Steady gas to 100%, exit wide without off track; mistakes: Watch right grass if slippy and wet",
+      "spoken_as": "next braking marker",
+      "passage_time": "6:07",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.7,
+          "line": 1.0,
+          "exit": 0.71,
+          "mistakes": 1.0
+        }
+      },
+      "time": "6:25",
+      "snippet": "between this 50 board and the curb on the left hand side. So, where we are now on the brakes to"
+    }
+  ]
+}

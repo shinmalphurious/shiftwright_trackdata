@@ -1,0 +1,78 @@
+{
+  "video_id": "Sy_9qR-qN1Q",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "iRacing Ferrari GT3 Indy Road Guide 1:22.8 Ferrari 296 GT3 Indianapolis Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:25:33.404436+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:02",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at midway between 500 and 400, straight on brakes to 65%, then to 0% before 1 marker, down to 1st gear",
+      "gear": "1st gear",
+      "line": "Turn-in at marker, apex at marker, cut right side",
+      "exit": "Lift to 15-20%, then smoothly back on gas, flat out",
+      "mistakes": "Never reach 100%, stay on right side"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:02",
+      "sequence": 1,
+      "braking": "Brake at car's width from exit of turn three, up to 35%",
+      "line": "Wide entry, trail braking",
+      "exit": "Back on gas at apex, nearly full throttle"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:24",
+      "sequence": 2,
+      "braking": "brake to 65% at grass inlet, trail off",
+      "gear": "2nd",
+      "line": "cut grass, lift over curb, turn in at end of curve",
+      "exit": "accelerate at apex, 30% brake to 10-15% at turn 8, trail off",
+      "mistakes": "do not miss the braking marker, cut the corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:24",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "brake to 10-15%",
+      "gear": "2nd"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "3:24",
+      "sequence": 2,
+      "braking": "brake at 1 200 marker"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 13",
+      "start_time": "4:44",
+      "sequence": 3,
+      "label_guess": "T13",
+      "braking": "Brake at 400 marker, 60% pressure to 100 marker, trail off at apex.",
+      "gear": "2nd",
+      "line": "Avoid local curb, lift in darker patch, brake at 40%, trail off, point nose in.",
+      "exit": "Flat exit to line."
+    }
+  ],
+  "general_tips": [
+    "Enjoy additional speed all the way down the back straight",
+    "cut the corner to use the inside of the track"
+  ],
+  "dropped_ungrounded": 0
+}

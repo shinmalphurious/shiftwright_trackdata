@@ -1,0 +1,279 @@
+{
+  "video_id": "i7N7ylDPLYI",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Caterham 420R Zandvoort Guide 1:41.1 Caterham Zandvoort Grand Prix Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7344
+    ],
+    [
+      "T1",
+      0.7197
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at 100 board, 55% pressure, trail to 3rd gear",
+      "gear": "3rd",
+      "line": "Turn-in to curb, apex close to curb, exit wide",
+      "exit": "Accelerate to 100%",
+      "note_id": "i7N7ylDPLYI:0",
+      "text": "braking: Brake at 100 board, 55% pressure, trail to 3rd gear; gear: 3rd; line: Turn-in to curb, apex close to curb, exit wide; exit: Accelerate to 100%",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:20",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.29,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.76
+      }
+    },
+    {
+      "braking": "Brake at yellow holding board, 15% pressure",
+      "line": "Trail brake, remain on road, exit wide",
+      "exit": "Accelerate as soon as possible",
+      "note_id": "i7N7ylDPLYI:1",
+      "text": "braking: Brake at yellow holding board, 15% pressure; line: Trail brake, remain on road, exit wide; exit: Accelerate as soon as possible",
+      "spoken_as": "start of this uh 88C um yellow holding on the left-hand side",
+      "passage_time": "2:20",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "exit": 0.67
+        }
+      },
+      "time": "2:55",
+      "snippet": "um yellow holding on the left-hand side. That's going to be our marker to get on the brakes to about 15%. We're going to"
+    },
+    {
+      "braking": "Brake at dip, 30% pressure",
+      "line": "High line, exit wide onto rumble strip",
+      "exit": "Accelerate as soon as possible",
+      "note_id": "i7N7ylDPLYI:2",
+      "text": "braking: Brake at dip, 30% pressure; line: High line, exit wide onto rumble strip; exit: Accelerate as soon as possible",
+      "spoken_as": "dip",
+      "passage_time": "2:20",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:20",
+      "snippet": "high line, and then we're back on the gas as soon as possible. So, we want to be exiting with our right-hand tires"
+    },
+    {
+      "braking": "flat",
+      "gear": "flat",
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "i7N7ylDPLYI:3",
+      "text": "braking: flat; gear: flat; line: flat; exit: flat",
+      "spoken_as": "turn five",
+      "passage_time": "3:38",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:52",
+      "snippet": "Now, we're going to go flat as we go through the esses here. Flat through turn five.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "flat",
+      "gear": "flat",
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "i7N7ylDPLYI:4",
+      "text": "braking: flat; gear: flat; line: flat; exit: flat",
+      "spoken_as": "turn number six",
+      "passage_time": "3:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:52",
+      "snippet": "Now, we're going to go flat as we go through the esses here. Flat through turn five."
+    },
+    {
+      "braking": "brakes to about 40%",
+      "line": "all the way over to the left-hand side",
+      "mistakes": "hitting the sausage curb",
+      "note_id": "i7N7ylDPLYI:5",
+      "text": "braking: brakes to about 40%; line: all the way over to the left-hand side; mistakes: hitting the sausage curb",
+      "spoken_as": "turn number eight",
+      "passage_time": "3:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:25",
+      "snippet": "to the left-hand side. As soon as that curb disappears from our sight, again on the brakes to about 40%. Again, a nice",
+      "best_candidate": {
+        "corner_id": "T8",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "T9",
+        "estimated_pct": 0.4418,
+        "corner_pct": 0.4795,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "T9",
+        "corners_between": [
+          "T6",
+          "T7",
+          "T8"
+        ]
+      }
+    },
+    {
+      "braking": "brake lightly",
+      "exit": "carry as much speed",
+      "note_id": "i7N7ylDPLYI:6",
+      "text": "braking: brake lightly; exit: carry as much speed",
+      "spoken_as": "turn nine",
+      "passage_time": "3:38",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:49",
+      "snippet": "lightly. And carry as much speed as possible through turn nine. So, this is what it should look like. On the brakes",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "as close to porta potty, 30%",
+      "line": "trail off until pointing at cm.coms",
+      "exit": "slowly increase back on gas",
+      "mistakes": "could need correction on exit",
+      "note_id": "i7N7ylDPLYI:7",
+      "text": "braking: as close to porta potty, 30%; line: trail off until pointing at cm.coms; exit: slowly increase back on gas; mistakes: could need correction on exit",
+      "spoken_as": "turn 10",
+      "passage_time": "4:55",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:47",
+      "snippet": "slowly increase back on the gas. And even with that, and you can see the graph there, even with that you could",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "100 board, early",
+      "note_id": "i7N7ylDPLYI:8",
+      "text": "braking: 100 board, early",
+      "spoken_as": "11-12 chicane",
+      "passage_time": "4:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:09",
+      "snippet": "100 board here on the left-hand side. So, you can just see the 100 board, there it is. And this is just as we're"
+    },
+    {
+      "braking": "Brake at 100 board, 55% trail off, then 10-15% trail off at Caterham cone curb.",
+      "line": "Use full camber without hitting gravel trap.",
+      "exit": "Slowly pick up gas.",
+      "mistakes": "Avoid hitting gravel trap.",
+      "note_id": "i7N7ylDPLYI:9",
+      "text": "braking: Brake at 100 board, 55% trail off, then 10-15% trail off at Caterham cone curb.; line: Use full camber without hitting gravel trap.; exit: Slowly pick up gas.; mistakes: Avoid hitting gravel trap.",
+      "spoken_as": "this first cone",
+      "passage_time": "6:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "line": 0.71,
+          "exit": 1.0,
+          "mistakes": 0.75
+        }
+      },
+      "time": "6:17",
+      "snippet": "again, on the brakes to about 55% trail off. We can really attack this first cone, the Caterham cone curb. This"
+    },
+    {
+      "braking": "Brake halfway between 50 board and left curb, 30% quick trail off.",
+      "gear": "Fourth",
+      "exit": "Get on gas early.",
+      "note_id": "i7N7ylDPLYI:10",
+      "text": "braking: Brake halfway between 50 board and left curb, 30% quick trail off.; gear: Fourth; exit: Get on gas early.",
+      "spoken_as": "final bit of braking",
+      "passage_time": "6:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:03",
+      "snippet": "quick trail off and then back on the gas nice and early in fourth. We want to get on [snorts] the gas as early as possible"
+    }
+  ]
+}

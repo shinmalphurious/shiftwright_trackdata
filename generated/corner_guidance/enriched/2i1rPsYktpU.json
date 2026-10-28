@@ -1,0 +1,246 @@
+{
+  "video_id": "2i1rPsYktpU",
+  "track_id": 152,
+  "track_name": "Phillip Island Circuit",
+  "title": "iRacing MX5 Phillip Island Guide 1:45.8 Mazda MX5 Phillip Island Track Guide USE THIS",
+  "car": "Mazda MX5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "midway across the track, full lift 100%",
+      "line": "turn in, apex near left curb",
+      "exit": "slow progressive increase on throttle well ahead of curb",
+      "note_id": "2i1rPsYktpU:0",
+      "text": "braking: midway across the track, full lift 100%; line: turn in, apex near left curb; exit: slow progressive increase on throttle well ahead of curb",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:39",
+      "snippet": "get midway across the track. We're going to do a full lift 100%. Okay, we're going to leave it there just for a"
+    },
+    {
+      "braking": "get on brakes to 45%, trail off, drop to third",
+      "gear": "third",
+      "line": "counter steer, rally cross",
+      "exit": "pick up on gas",
+      "mistakes": "avoid going on and off the gas",
+      "note_id": "2i1rPsYktpU:1",
+      "text": "braking: get on brakes to 45%, trail off, drop to third; gear: third; line: counter steer, rally cross; exit: pick up on gas; mistakes: avoid going on and off the gas",
+      "spoken_as": "turn two",
+      "passage_time": "3:11",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:27",
+      "snippet": "45%. I trail it off. I drop it down to third. Get a bit of engine braking. I'm now doing a little bit counter steering."
+    },
+    {
+      "braking": "get on brakes midway between 150 and 100 markers, 95%, first gear",
+      "gear": "first",
+      "line": "get all the way over to the left, run over rumble strips",
+      "note_id": "2i1rPsYktpU:2",
+      "text": "braking: get on brakes midway between 150 and 100 markers, 95%, first gear; gear: first; line: get all the way over to the left, run over rumble strips",
+      "spoken_as": "the hairpin of turn four",
+      "passage_time": "3:11",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:18",
+      "snippet": "midway between the 150 marker, which is just in front of us, and the 100. So, we get on the brakes. I get all the way up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Get on brakes at crossway road, trail off.",
+      "gear": "Flap",
+      "line": "Run over rumble strips.",
+      "note_id": "2i1rPsYktpU:3",
+      "text": "braking: Get on brakes at crossway road, trail off.; gear: Flap; line: Run over rumble strips.",
+      "spoken_as": "Turn eight",
+      "passage_time": "4:30",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:36",
+      "snippet": "Rolling over the rumble strips. And for turn nine. Don't break too much. So the braking marker is going to be",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Don't break too much at crossway road.",
+      "mistakes": "Don't brake too much.",
+      "note_id": "2i1rPsYktpU:4",
+      "text": "braking: Don't break too much at crossway road.; mistakes: Don't brake too much.",
+      "spoken_as": "Turn nine",
+      "passage_time": "4:30",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:39",
+      "snippet": "And for turn nine. Don't break too much. So the braking marker is going to be this little crossway road or path or",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake just before the crossway road, 20-25%, trail off.",
+      "gear": "Drop to 3rd",
+      "line": "Inside line",
+      "exit": "Gas to 70%, straighten steering wheel",
+      "note_id": "2i1rPsYktpU:5",
+      "text": "braking: Brake just before the crossway road, 20-25%, trail off.; gear: Drop to 3rd; line: Inside line; exit: Gas to 70%, straighten steering wheel",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:58",
+      "snippet": "third. I get on the gas to about 70% holding it around there until I can straighten the steering wheel. And",
+      "best_candidate": {
+        "corner_id": "T10",
+        "confidence": 0.327,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T9",
+        "before": "start/finish",
+        "estimated_pct": 0.7695,
+        "corner_pct": 0.7627,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T9",
+        "before": "start/finish",
+        "corners_between": [
+          "T10",
+          "T11",
+          "T12"
+        ]
+      }
+    },
+    {
+      "braking": "Brake just ahead of 50 board, straight to 1st, trail off.",
+      "gear": "Straight to 1st",
+      "exit": "Get back on gas as soon as possible",
+      "note_id": "2i1rPsYktpU:6",
+      "text": "braking: Brake just ahead of 50 board, straight to 1st, trail off.; gear: Straight to 1st; exit: Get back on gas as soon as possible",
+      "spoken_as": "50 board",
+      "passage_time": "5:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:05",
+      "snippet": "breaking just ahead of this 50 board here. And again, straight down to first whilst we're in a straight line. Trail",
+      "best_candidate": {
+        "corner_id": "T11",
+        "confidence": 0.285,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T9",
+        "before": "start/finish",
+        "estimated_pct": 0.8006,
+        "corner_pct": 0.791,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T9",
+        "before": "start/finish",
+        "corners_between": [
+          "T10",
+          "T11",
+          "T12"
+        ]
+      }
+    },
+    {
+      "line": "Run right tires over rumble strip",
+      "exit": "Hold 80-85%, go right, flat left-hander",
+      "mistakes": "Don't go straight up to 100%",
+      "note_id": "2i1rPsYktpU:7",
+      "text": "line: Run right tires over rumble strip; exit: Hold 80-85%, go right, flat left-hander; mistakes: Don't go straight up to 100%",
+      "spoken_as": "rumble strip",
+      "passage_time": "5:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:16",
+      "snippet": "right hand tires to run over this rumble strip. I could have been a foot and a half maybe over to the right of where I",
+      "best_candidate": {
+        "corner_id": "T12",
+        "confidence": 0.278,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T9",
+        "before": "start/finish",
+        "estimated_pct": 0.8502,
+        "corner_pct": 0.8828,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T9",
+        "before": "start/finish",
+        "corners_between": [
+          "T10",
+          "T11",
+          "T12"
+        ]
+      }
+    }
+  ]
+}

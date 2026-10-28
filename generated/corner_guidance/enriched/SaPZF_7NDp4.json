@@ -1,0 +1,64 @@
+{
+  "video_id": "SaPZF_7NDp4",
+  "track_id": 190,
+  "track_name": "New Smyrna Speedway",
+  "title": "Lap Guide: Super Late Model at New Smyrna",
+  "car": null,
+  "car_hint": "late_model",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "hard onto the binders",
+      "line": "let it float through the middle",
+      "exit": "pick up the gas a little bit and then full throttle on exit",
+      "note_id": "SaPZF_7NDp4:0",
+      "text": "braking: hard onto the binders; line: let it float through the middle; exit: pick up the gas a little bit and then full throttle on exit",
+      "spoken_as": "turn one",
+      "passage_time": "0:02",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.91,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:16",
+      "snippet": "onto the binders let it float through the middle pick up the gas a little bit and then full throttle on exit watch the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "back onto the binders",
+      "line": "roll through the middle",
+      "exit": "back off of the gas",
+      "note_id": "SaPZF_7NDp4:1",
+      "text": "braking: back onto the binders; line: roll through the middle; exit: back off of the gas",
+      "spoken_as": "turn three",
+      "passage_time": "0:02",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:26",
+      "snippet": "binders roll through the middle back off of the gas New Smyrna is a short little half-mile Speedway but it drives very",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

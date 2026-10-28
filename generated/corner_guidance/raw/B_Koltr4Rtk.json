@@ -1,0 +1,131 @@
+{
+  "video_id": "B_Koltr4Rtk",
+  "track_id": 525,
+  "track_name": "Circuit de Spa-Francorchamps - Endurance",
+  "title": "iRacing Porsche GT3 Spa GP Pits Guide 2:15.9 Porsche 911 GT3 Spa 24 Endurance Track Guide",
+  "car_hint": "general",
+  "car": "Porsche 911 GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:31:27.822807+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:54",
+      "sequence": 1,
+      "braking": "Brake at 100 sign, initially 55%, trail off to apex.",
+      "gear": "1",
+      "line": "Turn-in to left, apex wide, exit wide.",
+      "exit": "Throttle up to apex, lift for turn six, back on gas for turn seven.",
+      "mistakes": "Don't hit the wall, give yourself room."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:54",
+      "sequence": 1,
+      "braking": "Brake four or five car lengths before left-hand curb start.",
+      "line": "Brake, hold 50%, trail off to apex.",
+      "exit": "Pick up gas at 40%, lift for turn six, back on gas for turn seven."
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight little hairpin thing",
+      "start_time": "4:14",
+      "sequence": 2,
+      "braking": "brakes three or four car lengths ahead of the curb on the left, 45% long trail off",
+      "gear": "2",
+      "line": "trail off the brake all the way through until pointing at the pits",
+      "exit": "very gingerly back on the gas, reach 100% when rear won't kick out",
+      "mistakes": "don't reach 100% too early"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "4:14",
+      "sequence": 2,
+      "braking": "brakes to about 15% trail it off",
+      "line": "get all the way to the outside",
+      "exit": "pick back up on the gas at the apex",
+      "mistakes": "lose left-hand tires off the track"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10, Pouhon",
+      "start_time": "4:14",
+      "sequence": 2,
+      "braking": "brakes just ahead of the 50 board on the left, 35-40%",
+      "gear": "4",
+      "line": "use 50 board on the left as marker",
+      "exit": "back on the gas at the apex, straight up to 100%"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "5:31",
+      "sequence": 3,
+      "braking": "50% at halfway between 100 and 50 board",
+      "gear": "3rd",
+      "line": "trail off to 3rd gear, apex, start picking up gas",
+      "exit": "wide exit"
+    },
+    {
+      "label": "T14",
+      "spoken_as": "turn 14",
+      "start_time": "5:31",
+      "sequence": 3,
+      "braking": "45% at curb ahead of left-hand side curb",
+      "gear": "3rd",
+      "line": "trail off, leave in 3rd gear, back on gas at apex",
+      "exit": "wide exit"
+    },
+    {
+      "label": "T15",
+      "spoken_as": "turn 15",
+      "start_time": "5:31",
+      "sequence": 3,
+      "line": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 16",
+      "start_time": "5:31",
+      "sequence": 3,
+      "label_guess": "T16",
+      "line": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 17",
+      "start_time": "5:31",
+      "sequence": 3,
+      "label_guess": "T17",
+      "line": "flat"
+    },
+    {
+      "label": "T18",
+      "spoken_as": "bus stop chicane",
+      "start_time": "5:31",
+      "sequence": 3,
+      "braking": "before white line after CrowdStrike banner",
+      "line": "braking in straight line towards outside"
+    },
+    {
+      "label": null,
+      "spoken_as": "chicane here",
+      "start_time": "6:51",
+      "sequence": 4,
+      "label_guess": "T19",
+      "braking": "Wipe all that speed off",
+      "gear": "second gear",
+      "line": "Little blip of gas, lift again",
+      "exit": "Exit nice and wide"
+    }
+  ],
+  "general_tips": [
+    "Don't overdrive the car, maintain high apex speeds for fresher tires."
+  ],
+  "dropped_ungrounded": 0
+}

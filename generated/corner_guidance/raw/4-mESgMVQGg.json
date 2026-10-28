@@ -1,0 +1,68 @@
+{
+  "video_id": "4-mESgMVQGg",
+  "track_id": 128,
+  "track_name": "Road Atlanta - Short",
+  "title": "Track Guide Road Atlanta Short UPDATED Toytoa GR86 iRacing",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:10:07.986402+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "End of left wall, 35% brake pressure, trail to inside curb",
+      "line": "Track out over white line, turn-in to inside curb",
+      "exit": "Accelerate, car should walk out to left side of track",
+      "mistakes": "Going into grass means early throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T2",
+      "braking": "Before white line, 70% brake pressure, trail to inside curb",
+      "line": "Take a lot of inside curb",
+      "exit": "Accelerate, car should walk out to left side of track",
+      "mistakes": "Getting 1x on inside means cutting too much"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "break at the first white line, 90% brake pressure, trail brake to inside curb",
+      "line": "cut the inside curb",
+      "exit": "accelerate, flat out to start finish line",
+      "mistakes": "lifting for turn eight costs time, underdriving turn eight costs time"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "cut the inside curb",
+      "exit": "use the outside for exit speed",
+      "mistakes": "lifting for turn eight costs time, underdriving turn eight costs time"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "1:17",
+      "sequence": 1,
+      "exit": "flat out"
+    }
+  ],
+  "general_tips": [
+    "Stay left side of track after T2, take every curb up to T5",
+    "Before T5, be left side of track, turn-in to inside curb",
+    "keep right side of track to turn 7 for shortest route in qualifying",
+    "turn seven is a good place for overtaking"
+  ],
+  "dropped_ungrounded": 0
+}

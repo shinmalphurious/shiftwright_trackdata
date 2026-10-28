@@ -1,23 +1,148 @@
 {
   "track_id": 104,
   "layout": "104-phoenix-oval",
+  "name": "[Legacy] Phoenix Raceway - 2008 - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:18:47.636077+00:00",
+  "candidates_seen": 24,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 24,
+    "new_candidates": 14,
+    "accepted": 11,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 13,
+    "rejection_reasons": {
+      "no guide words in title": 8,
+      "too short": 2,
+      "setup or hardware video": 1,
+      "live stream": 1,
+      "venue not in title": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
         "video_id": "87QHbEkj950",
         "title": "2025 iRacing Nascar Track Guide - NIS / A Fixed at Phoenix",
         "description": "Can't wait to go back to Homestead. Lot of restart carnage.",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
       },
       {
-        "video_id": "Fu4TTbEuaiM",
-        "title": "iRacing || HOW TO WIN AT PHOENIX! (NASCAR iRacing Series Guide)",
-        "description": "After getting a top 5 finish in Wednesday's NASCAR iRacing Series race, I've learned 4 tips that can help you out! Check out the\u00a0...",
+        "video_id": "fY4UspcNVFY",
+        "title": "iRacing Track Guides - NASCAR Next Gen at Phoenix Raceway",
+        "description": "",
+        "channel": "Jonathan Schwartz",
+        "duration": 295,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "msIMmJ8k2Uw",
+        "title": "iRacing Open NASCAR Series Tutorial: C Open Trucks at Phoenix 23S1. FREE SETUP! Maconi Setup Shop",
+        "description": "iRacing NASCAR Open Series Tutorial by Justin Yee for Maconi Setup Shop LLC. GRAB THE SETUP FOR FREE AT ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 716,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "_bHbsw3woZU",
+        "title": "*FREE SETUP INSIDE* Iracing Nascar C Open Trucks Phoenix Qualifying Guide Week 13",
+        "description": "Free competitive setup for this week (no email/account/etc required it's just a google drive link): ...",
+        "channel": "DJ Yee-J",
+        "duration": 462,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      }
+    ],
+    "truck": [
+      {
+        "video_id": "7vzPtX9VYig",
+        "title": "iRacing | Trucks At Phoenix Raceway Track Guide 27.061",
+        "description": "iracing #truckseries #phoenixraceway #trackguide #simracing #videogames iRacing brings the truck series to Phoenix Raceway ...",
+        "channel": "TheGuitarGamer33",
+        "duration": 620,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "rallycross_beetle": [
+      {
+        "video_id": "8ur64EHY3oM",
+        "title": "iRacing Rallycross Track Guide | Phoenix RX | Volkswagen Beetle Lite",
+        "description": "Looking to dominate Phoenix RX in iRacing Rallycross? This guide breaks down everything you need to know to maximize ...",
+        "channel": "Kieran Liflander",
+        "duration": 304,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      }
+    ],
+    "general": [
+      {
+        "video_id": "_Z7pMSGQkBo",
+        "title": "2021 iRacing Track Guides - Phoenix Finale",
+        "description": "bonus points to who knows the history of the word Phenwa. Finally the end of a long season and what better place than a ...",
+        "channel": "Sim Racing Chewyside",
+        "duration": 431,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "oZ8rDesTDsY",
+        "title": "iRacing Track Guide | Phoenix Raceway| Xfinity Car",
+        "description": "Welcome to another exciting tutorial from Slingshot Racing League! In this video, we take you to the iconic Phoenix Raceway in ...",
+        "channel": "Slingshot Racing Media",
+        "duration": 173,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "sCtSjevfpgs",
+        "title": "iRacing Skip Barber Phoenix International Raceway 2008 Road Course Track Guide (S4 2019)",
+        "description": "Welcome to my track guide for week 7 of the season at Phoenix International Raceway 2008 Road Course in the iRacing Skip ...",
+        "channel": "Kinduci",
+        "duration": 403,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "VYiHqr8doQg",
+        "title": "iRacing Track Guide Phoenix Raceway | Skip Barber | 1:06.146",
+        "description": "Join at www.iracing.com Join this channel: https://www.youtube.com/channel/UC12PJZcJYY3UDsRn56IDp2w/join Right then!",
+        "channel": "Tdi99",
+        "duration": 439,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
       }
     ]
   }

@@ -1,0 +1,282 @@
+{
+  "video_id": "G8EexzYLksw",
+  "track_id": 154,
+  "track_name": "Mid-Ohio Sports Car Course - Chicane",
+  "title": "iRacing Track Guide: SRF at Mid-Ohio Chicane",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake just before the 150 marker, roll on and off about half brake pedal",
+      "gear": "fourth gear",
+      "line": "turn in about the 100 marker, take the dip, apex slightly banking",
+      "exit": "full power as quickly as possible, be ready for understeer on exit dip",
+      "mistakes": "don't lift too much on the track rise, avoid cutting course by hitting the yellow curb too much",
+      "note_id": "G8EexzYLksw:0",
+      "text": "braking: brake just before the 150 marker, roll on and off about half brake pedal; gear: fourth gear; line: turn in about the 100 marker, take the dip, apex slightly banking; exit: full power as quickly as possible, be ready for understeer on exit dip; mistakes: don't lift too much on the track rise, avoid cutting course by hitting the yellow curb too much",
+      "spoken_as": "turn one",
+      "passage_time": "0:03",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "gear": 1.0
+        }
+      },
+      "time": "0:05",
+      "snippet": "before the 150 marker and roll on and off about half brake pedal and turn in about the 100 marker there's a dip in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "third gear brake hard about 250 and turn in at about the 100 mark trailing in some",
+      "gear": "third gear",
+      "line": "turn in at about the 100 mark trailing in some",
+      "exit": "look for the honda billboard if you can't see it you're probably too early here",
+      "mistakes": "i'm a tad too early with my apexing and power and it cost me at least a tenth down the straightaway",
+      "note_id": "G8EexzYLksw:1",
+      "text": "braking: third gear brake hard about 250 and turn in at about the 100 mark trailing in some; gear: third gear; line: turn in at about the 100 mark trailing in some; exit: look for the honda billboard if you can't see it you're probably too early here; mistakes: i'm a tad too early with my apexing and power and it cost me at least a tenth down the straightaway",
+      "spoken_as": "turn two",
+      "passage_time": "1:21",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:59",
+      "snippet": "can't see it you're probably too early here i'm a tad too early with my apexing and power and it cost me at least a",
+      "best_candidate": {
+        "corner_id": "T4",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T5",
+        "estimated_pct": 0.3114,
+        "corner_pct": 0.2705,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T5",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "third gear brake just as you center out the steering",
+      "gear": "third gear",
+      "line": "aim for the medium grey patch that you can just barely see the start of",
+      "exit": "roll on to full power when the tires will let you",
+      "mistakes": "if you stay tight to the curbing you'll be forced into a longer wider radius that will prevent you from getting to power as quickly",
+      "note_id": "G8EexzYLksw:2",
+      "text": "braking: third gear brake just as you center out the steering; gear: third gear; line: aim for the medium grey patch that you can just barely see the start of; exit: roll on to full power when the tires will let you; mistakes: if you stay tight to the curbing you'll be forced into a longer wider radius that will prevent you from getting to power as quickly",
+      "spoken_as": "turn four",
+      "passage_time": "1:21",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "gear": 1.0,
+          "line": 1.0,
+          "exit": 1.0,
+          "mistakes": 0.77
+        }
+      },
+      "time": "1:31",
+      "snippet": "third gear brake just as you center out the steering and downshift a third",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "small squeeze on brakes",
+      "gear": "3",
+      "line": "turn in and get almost all of your steering done before the crest of the hill",
+      "exit": "balance the car with throttle if needed",
+      "mistakes": "too early with a little bit too much steering input",
+      "note_id": "G8EexzYLksw:3",
+      "text": "braking: small squeeze on brakes; gear: 3; line: turn in and get almost all of your steering done before the crest of the hill; exit: balance the car with throttle if needed; mistakes: too early with a little bit too much steering input",
+      "spoken_as": "turn five",
+      "passage_time": "2:39",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:04",
+      "snippet": "balance the car with throttle if needed again i'm a little bit too early with a little bit too much steering input",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "about half brake pedal",
+      "gear": "3",
+      "line": "turn in",
+      "mistakes": "a fraction too early",
+      "note_id": "G8EexzYLksw:4",
+      "text": "braking: about half brake pedal; gear: 3; line: turn in; mistakes: a fraction too early",
+      "spoken_as": "turn six",
+      "passage_time": "2:39",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:18",
+      "snippet": "turn in and again about half brake pedal the car is heavily loaded on the left side so it will rotate with proper brake",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "smoothly come onto brakes",
+      "gear": "3",
+      "line": "unwind the steering before",
+      "note_id": "G8EexzYLksw:5",
+      "text": "braking: smoothly come onto brakes; gear: 3; line: unwind the steering before",
+      "spoken_as": "turn seven",
+      "passage_time": "2:39",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:54",
+      "snippet": "unwind the steering before smoothly coming onto brakes a longer smoother brake pedal will work better than a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake pedal will work better than a faster shorter stab as it won't affect your balance as much",
+      "gear": "fourth gear",
+      "line": "hug the right side wall as close as you can",
+      "exit": "roll on about half break at about 200 and turn in at the grass verge apex right at the beginning of the curbing but be careful for the easy one x that's right there the car will understeer badly after apex",
+      "mistakes": "tapping the wall can often break your car so don't do that",
+      "note_id": "G8EexzYLksw:6",
+      "text": "braking: brake pedal will work better than a faster shorter stab as it won't affect your balance as much; gear: fourth gear; line: hug the right side wall as close as you can; exit: roll on about half break at about 200 and turn in at the grass verge apex right at the beginning of the curbing but be careful for the easy one x that's right there the car will understeer badly after apex; mistakes: tapping the wall can often break your car so don't do that",
+      "spoken_as": "turn six",
+      "passage_time": "3:58",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0
+        }
+      },
+      "time": "3:58",
+      "snippet": "brake pedal will work better than a faster shorter stab as it won't affect your balance as much",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "start/finish",
+        "estimated_pct": 0.6036,
+        "corner_pct": 0.5811,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "start/finish",
+        "corners_between": [
+          "T8",
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15"
+        ]
+      }
+    },
+    {
+      "braking": "heavy braking before the crest",
+      "gear": "third gear",
+      "line": "stay to the right at the approach",
+      "exit": "use the car's oversteer to help you turn in get to full power by the time you can see the start finish tower and center out your steering for the final",
+      "note_id": "G8EexzYLksw:7",
+      "text": "braking: heavy braking before the crest; gear: third gear; line: stay to the right at the approach; exit: use the car's oversteer to help you turn in get to full power by the time you can see the start finish tower and center out your steering for the final",
+      "spoken_as": "turn seven",
+      "passage_time": "3:58",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.52,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:08",
+      "snippet": "use the car's oversteer to help you turn in get to full power by the time you can see the start finish tower and center",
+      "best_candidate": {
+        "corner_id": "T15",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "start/finish",
+        "estimated_pct": 0.9775,
+        "corner_pct": 0.9639,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "start/finish",
+        "corners_between": [
+          "T8",
+          "T9",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "video_id": "B6Y3klTmsfE",
+  "track_id": 18,
+  "track_name": "Road America - Full Course",
+  "title": "iRacing Porsche Cup Road America Guide 2:03.7 Porsche 992.2 Road America Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:40:35.180471+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first breaking marker",
+      "start_time": "2:49",
+      "sequence": 2,
+      "braking": "Brake at grass alongside left, 45-55%.",
+      "gear": "4th",
+      "line": "Turn right, run over yellow and red curbing.",
+      "exit": "Exit wide, 100% throttle."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:49",
+      "sequence": 2,
+      "braking": "Brake after orange Marshall's inlet, 50-55%.",
+      "gear": "3rd",
+      "line": "Turn right, tickle inside curb.",
+      "exit": "Exit wide, return to track before grass."
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "2:49",
+      "sequence": 2,
+      "braking": "Brake at 400 meter board, 55%."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "4:09",
+      "sequence": 3,
+      "braking": "Past porta potty, 40% braking, trail braking",
+      "gear": "3rd",
+      "line": "Left tires on white concrete",
+      "exit": "Wide exit, left side",
+      "mistakes": "Go over corrugator"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "4:09",
+      "sequence": 3,
+      "label_guess": "T8",
+      "braking": "300 board, 55% braking",
+      "gear": "3rd",
+      "line": "Inside curb",
+      "exit": "Wide exit, left side"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "Turn 11",
+      "start_time": "5:26",
+      "sequence": 4,
+      "braking": "100 board, 35%",
+      "gear": "lift, back on gas",
+      "line": "attack curb, grass",
+      "exit": "wide"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "Turn 12",
+      "start_time": "5:26",
+      "sequence": 4,
+      "braking": "400, 55%",
+      "gear": "3rd",
+      "line": "right side, attack curb",
+      "exit": "wide, right side"
+    },
+    {
+      "label": null,
+      "spoken_as": "Bill Mitchell Bend",
+      "start_time": "6:47",
+      "sequence": 5,
+      "label_guess": "T13",
+      "braking": "Get on the brakes to about 35%",
+      "gear": "Third",
+      "line": "Head over to the left hand side",
+      "exit": "Exit wide and easy"
+    }
+  ],
+  "general_tips": [],
+  "dropped_ungrounded": 1
+}

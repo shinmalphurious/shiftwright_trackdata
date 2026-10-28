@@ -1,0 +1,67 @@
+{
+  "video_id": "F45AqcDtLYs",
+  "track_id": 24,
+  "track_name": "Summit Point Raceway - Short",
+  "title": "Track guide Summit Point Raceway Formula Vee iRacing",
+  "car_hint": "vee",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:21:58.944545+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake really hard, trail brake to apex",
+      "line": "use the repaved part of the track",
+      "exit": "full throttle, follow repave out"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "turn in at leaves on tree, apex middle of corner",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "don't touch inside curb, be smooth"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "tree on right, hard braking, trail brake into corner",
+      "line": "use repaved part, curb and repave meet at apex",
+      "exit": "accelerate, get close to left",
+      "mistakes": "locking up, scrubbing speed"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "dirt patch, quick hit to 50%",
+      "line": "follow repaved part",
+      "exit": "get on throttle before apex"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "the last corner",
+      "start_time": "2:37",
+      "sequence": 2,
+      "braking": "lift throttle to 50-60%",
+      "gear": "4th",
+      "line": "turn-in at dirt by left wheel, apex middle",
+      "exit": "full throttle, use all track"
+    }
+  ],
+  "general_tips": [
+    "use left side of track for braking marker at turn one",
+    "use all of the track, outside curb out, full throttle to turn five, open turn four up",
+    "keep in mind people can draft nearly up past you before the finish line"
+  ],
+  "dropped_ungrounded": 1
+}

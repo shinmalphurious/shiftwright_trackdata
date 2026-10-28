@@ -401,5 +401,645 @@
     "turn_15 ": {
       "flat_corner": 1
     }
+  },
+  "corner_guidance": {
+    "T8": {
+      "name": "Bruxelles",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brakes three or four car lengths ahead of the curb on the left, 45% long trail off",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail off the brake all the way through until pointing at the pits",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "very gingerly back on the gas, reach 100% when rear won't kick out",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't reach 100% too early",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 45% long trail off, three or four car lengths before the curb, in 2nd gear. Trail off the brake through the corner, gently apply throttle when rear won't kick out."
+    },
+    "T9": {
+      "name": "Speaker's Corner",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brakes to about 15% trail it off",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "get all the way to the outside",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "pick back up on the gas at the apex",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "lose left-hand tires off the track",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 15%, trail off, go wide left, apex hard, accelerate out. Avoid losing left tires."
+    },
+    "T10": {
+      "name": "Double Gauche",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brakes just ahead of the 50 board on the left, 35-40%",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "use 50 board on the left as marker",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "back on the gas at the apex, straight up to 100%",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 50% board, 35-40% pressure, gear 4. Use 50 board as marker. Apex hard, accelerate to 100%."
+    },
+    "T12": {
+      "name": "Les Fagnes",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "50% at halfway between 100 and 50 board",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail off to 3rd gear, apex, start picking up gas",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "wide exit",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50% at halfway between 100 and 50 board, shift to 3rd gear, trail off to apex, then accelerate wide on exit."
+    },
+    "T14": {
+      "name": "Campus",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "45% at curb ahead of left-hand side curb",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail off, leave in 3rd gear, back on gas at apex",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "wide exit",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 45% at curb, shift to 3rd, trail off, leave in 3rd, apex, accelerate wide exit."
+    },
+    "T15": {
+      "name": "Stavelot",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Take the flat line for maximum exit speed."
+    },
+    "T18": {
+      "name": "Chicane",
+      "videos": 1,
+      "cars": [
+        "Porsche 911 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1,
+        "alias_match": 1
+      },
+      "braking": [
+        {
+          "text": "before white line after CrowdStrike banner",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Wipe all that speed off",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "second gear",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "braking in straight line towards outside",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Little blip of gas, lift again",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Exit nice and wide",
+          "videos": 1,
+          "cars": [
+            "Porsche 911 GT3"
+          ],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "tip": "Brake before white line after CrowdStrike banner, wipe off all speed, use second gear, brake in a straight line towards the outside, blip the gas, lift, exit wide."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T2": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T3": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T7": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T7: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T15": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.973,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T15: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T15: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T15 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T15: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T15",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T16": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T16: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T18": [
+      {
+        "claim": "chicane",
+        "statement": "Chicane",
+        "confidence": 0.973,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Chicane at T18: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T4": [
+      {
+        "claim": "flat_out",
+        "statement": "Taken flat, no braking",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Taken flat, no braking at T4: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T4 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T4",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T19": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Slow corner at T19: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T5": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.989,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T5: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T5",
+        "inheritance_confidence": 1.0
+      }
+    ]
   }
 }

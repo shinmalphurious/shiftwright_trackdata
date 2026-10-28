@@ -1,0 +1,280 @@
+{
+  "video_id": "g19XPWj4BUs",
+  "track_id": 156,
+  "track_name": "Mid-Ohio Sports Car Course - Oval",
+  "title": "Conquer Mid Ohio: Ultimate Track Guide for Racing Enthusiasts",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "high-speed braking point",
+      "note_id": "g19XPWj4BUs:0",
+      "text": "braking: high-speed braking point",
+      "spoken_as": "turn one",
+      "passage_time": "0:05",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:45",
+      "snippet": "as we approach turn one a high-speed sweeping left-hander drivers must apply moderate braking at the 150 M Mark to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "moderate braking at the 150 M mark",
+      "line": "run inside wheels up on the yellow pit exit curb",
+      "mistakes": "take too much curb, risk locking front tires or running wide entering turn two",
+      "note_id": "g19XPWj4BUs:1",
+      "text": "braking: moderate braking at the 150 M mark; line: run inside wheels up on the yellow pit exit curb; mistakes: take too much curb, risk locking front tires or running wide entering turn two",
+      "spoken_as": "turn one",
+      "passage_time": "1:46",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:57",
+      "snippet": "yellow pit exit curb just because ious not to take too much as it will unsettle the car and compromise the run down to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "heavily around the 200 m marker",
+      "line": "double Apex, precise and controlled approach",
+      "exit": "smooth transition to Full Throttle on exit",
+      "mistakes": "overcommit on Entry, risk under steer or losing traction on exit",
+      "note_id": "g19XPWj4BUs:2",
+      "text": "braking: heavily around the 200 m marker; line: double Apex, precise and controlled approach; exit: smooth transition to Full Throttle on exit; mistakes: overcommit on Entry, risk under steer or losing traction on exit",
+      "spoken_as": "turn two",
+      "passage_time": "1:46",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 1.0,
+          "exit": 1.0,
+          "mistakes": 0.88
+        }
+      },
+      "time": "2:28",
+      "snippet": "heavily around the 200 m marker this slow tight right hand hairpin features a double Apex requiring a precise and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break very heavily just before the 300 M marker",
+      "exit": "Late and smooth throttle application",
+      "mistakes": "Outbreak leading to gravel trap or running wide on exit",
+      "note_id": "g19XPWj4BUs:3",
+      "text": "braking: Break very heavily just before the 300 M marker; exit: Late and smooth throttle application; mistakes: Outbreak leading to gravel trap or running wide on exit",
+      "spoken_as": "Turn 4 or China Beach",
+      "passage_time": "3:03",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:25",
+      "snippet": "before the 300 M marker this sharp right hander has a late and smooth throttle application is",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Light breaking just after the Apex of turn four",
+      "line": "Early Apex uphill and off camber",
+      "mistakes": "Over steer due to off camber nature",
+      "note_id": "g19XPWj4BUs:4",
+      "text": "braking: Light breaking just after the Apex of turn four; line: Early Apex uphill and off camber; mistakes: Over steer due to off camber nature",
+      "spoken_as": "next Corner",
+      "passage_time": "3:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.77,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:53",
+      "snippet": "just after the Apex of turn four this early Apex uphill and off camber term requires careful throttle control to"
+    },
+    {
+      "braking": "Light breaking just before entry",
+      "line": "Late Apex to maintain momentum",
+      "exit": "Smooth and steady throttle application",
+      "note_id": "g19XPWj4BUs:5",
+      "text": "braking: Light breaking just before entry; line: Late Apex to maintain momentum; exit: Smooth and steady throttle application",
+      "spoken_as": "turn six",
+      "passage_time": "3:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:12",
+      "snippet": "just before entry drivers aim for a late Apex to maintain momentum as they head uphill smooth and steady throttle"
+    },
+    {
+      "line": "sweeping left-hander",
+      "exit": "gentle throttle and smooth steering",
+      "mistakes": "over steer due to off-camber nature",
+      "note_id": "g19XPWj4BUs:6",
+      "text": "line: sweeping left-hander; exit: gentle throttle and smooth steering; mistakes: over steer due to off-camber nature",
+      "spoken_as": "turn seven",
+      "passage_time": "4:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:35",
+      "snippet": "gentle throttle and smooth steering inputs to navigate safely the off-camber nature of the term makes it challenging"
+    },
+    {
+      "exit": "Full Throttle, use exit curb",
+      "mistakes": "drop a wheel on the dirt",
+      "note_id": "g19XPWj4BUs:7",
+      "text": "exit: Full Throttle, use exit curb; mistakes: drop a wheel on the dirt",
+      "spoken_as": "turn eight",
+      "passage_time": "4:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:57",
+      "snippet": "drop a wheel on the dirt as this will lose you significant time as you enter Thunder Valley this section is tricky"
+    },
+    {
+      "braking": "Light breaking",
+      "exit": "use all of the exit curb",
+      "mistakes": "sliding due to off camber",
+      "note_id": "g19XPWj4BUs:8",
+      "text": "braking: Light breaking; exit: use all of the exit curb; mistakes: sliding due to off camber",
+      "spoken_as": "turn nine",
+      "passage_time": "4:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:24",
+      "snippet": "that you use all of the exit curb to maximize your speed through the next section turn 10 is a Full Throttle"
+    },
+    {
+      "line": "slight Kink to the right",
+      "exit": "Full Throttle",
+      "note_id": "g19XPWj4BUs:9",
+      "text": "line: slight Kink to the right; exit: Full Throttle",
+      "spoken_as": "turn 10",
+      "passage_time": "4:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:28",
+      "snippet": "section turn 10 is a Full Throttle section featuring a slight Kink to the right it has limited overtaking"
+    },
+    {
+      "braking": "moderate braking about 200 M before the turn",
+      "exit": "smooth throttle application on exit",
+      "mistakes": "over steer on entry and under steer on exit",
+      "note_id": "g19XPWj4BUs:10",
+      "text": "braking: moderate braking about 200 M before the turn; exit: smooth throttle application on exit; mistakes: over steer on entry and under steer on exit",
+      "spoken_as": "Carousel turn 11",
+      "passage_time": "5:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.85,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:42",
+      "snippet": "braking about 200 M before the turn this left hander requires smooth throttle application on exit over steer on entry"
+    },
+    {
+      "braking": "moderate braking on the approach and then Trail braking",
+      "exit": "steady throttle application and careful exit management",
+      "mistakes": "losing traction",
+      "note_id": "g19XPWj4BUs:11",
+      "text": "braking: moderate braking on the approach and then Trail braking; exit: steady throttle application and careful exit management; mistakes: losing traction",
+      "spoken_as": "the main part of the carousel",
+      "passage_time": "5:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:07",
+      "snippet": "steady throttle application and careful exit management to avoid losing traction the final turn is a left-hander"
+    },
+    {
+      "exit": "Full Throttle early",
+      "note_id": "g19XPWj4BUs:12",
+      "text": "exit: Full Throttle early",
+      "spoken_as": "final turn",
+      "passage_time": "5:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:29",
+      "snippet": "this turn applying Full Throttle early getting a good run out of the final corner is critical to set up for a"
+    }
+  ]
+}

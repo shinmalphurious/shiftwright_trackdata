@@ -1,0 +1,1119 @@
+{
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "videos": 4,
+  "corners": {
+    "T1": {
+      "name": "Virage Senna",
+      "videos": 2,
+      "cars": [
+        "mx5",
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 4
+      },
+      "braking": [
+        {
+          "text": "Brake at end of concrete section before grass, 65%",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "start braking at the first driveway",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Drop to first, trail brake",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "first gear",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn in at the start finish line, aim for the end of the NAPA boards",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "float the left wheels over the red curbing at the apex",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Left tires on track, right tires attacking curve",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn left, attack left side of corner",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Flat, left tires touching grass, attack last part to avoid right wall",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "modulate throttle, aim for the beginning of the red and white curbing",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get the car aimed at this aggressive entry into the turn 2 hairpin",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Get back on gas at apex, exit wide at 100%",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't get too far up onto the curbing, don't spin out",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "End up in right-hand wall",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "don't wash out wide",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at first driveway or end of concrete, drop to 1st gear, trail brake. Aim for NAPA boards, keep left tires on track, attack left side. Exit wide, flat, modulate throttle to red and white curbing, aim for turn 2."
+    },
+    "T2": {
+      "name": "Virage Senna",
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "hug the inside as much as you can",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "start getting on power at about the three-quarter mark",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "be careful for cars exiting pit lane",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Hug the inside, watch for cars exiting pit lane, start accelerating at the three-quarter mark."
+    },
+    "T3": {
+      "name": "T3/T4",
+      "videos": 3,
+      "cars": [
+        "BMW M4 GT3",
+        "mx5",
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 4
+      },
+      "braking": [
+        {
+          "text": "get on the brakes midway between this two marker and the one marker",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake 70-75% at one marker from two marker",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at the red curve, tight entry",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "leave it in third gear",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Drop to second",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail it off, leaving it in third gear",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Get car turned in, attack curve",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "roll it, use grass on exit",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "right left chicane",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get back on the gas to about 80%",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "be careful of the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake 70-75% at one marker from two marker, drop to second gear, trail off into the tight entry, get car turned, attack the curve, roll it, use grass on exit, get back on gas to 80%, be careful of the wall."
+    },
+    "T4": {
+      "name": "T3/T4",
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "abuse the left kink",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "square off the corner",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay wide through the left kink, then square off the corner for a better exit."
+    },
+    "T5": {
+      "name": "T5",
+      "videos": 3,
+      "cars": [
+        "BMW M4 GT3",
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "gear": [
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "start wide, come in straight",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "go flat through turn five",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Enter wide, cut in straight, go flat through the corner."
+    },
+    "T6": {
+      "name": "T6/T7",
+      "videos": 4,
+      "cars": [
+        "BMW M4 GT3",
+        "mx5",
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 4
+      },
+      "braking": [
+        {
+          "text": "get on the brakes once we're alongside this orange Marshall's hut",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "End of white wall section, 90-95% braking, trail off",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "beside orange marshals inlet, 60%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "come down through to second gear",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "down to 2nd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "attack right curb, left tires over rumble strip",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Attack left-hand side",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get the car turned in",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "100% throttle, slight understeer, lift and get back on gas",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get on the gas up to about 90 95%",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "aim at apex of turn seven",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "100% throttle",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Brake slightly early to take second corner flat out",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake 60% beside orange marshals inlet, down to 2nd gear. Attack left side, over rumble strip. 100% throttle, slight understeer, lift and get back on gas. Aim at apex of turn seven."
+    },
+    "T7": {
+      "name": "T6/T7",
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "use curving to spin car around",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get a straight line",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "screwing up leaves time on the table",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Use curving line to spin car around, aim for straight exit. Avoid mistakes to save time."
+    },
+    "T8": {
+      "name": "T8/T9",
+      "videos": 3,
+      "cars": [
+        "BMW M4 GT3",
+        "mx5",
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "get on the brakes about midway between the three marker and the two marker",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "two marker on left, 80-85% to second gear",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake at light post before 3 board",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "come down through to second gear",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "second",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "avoid no-cut curve, left tires left of no-cut curve",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn in tight, apex early, exit wide",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "really attacking this curb",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Stay right, set up for turn nine",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get back on the gas to 100%",
+          "videos": 1,
+          "cars": [
+            "BMW M4 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat out",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Overdrive turn eight, side by side here",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the light post before 3 board to 80-85% at two marker, downshift to second gear, turn in tight, apex early, attack curb, exit wide and flat out, stay right for T9."
+    },
+    "T9": {
+      "name": "T8/T9",
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at 4 board",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Tight hairpin, similar to Sonoma final corner",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Square off kinked braking zone",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 4 board, take a tight line through the hairpin, then square off the exit to open up the kinked braking zone."
+    },
+    "T10": {
+      "name": "L'Epingle",
+      "videos": 2,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "break at the four board",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "beside asphalt, 60-65%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn-in early, apex tight",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "start getting the power back down long straight",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the four board, use 60-65% brake pressure. Turn in early, apex tight. Start accelerating down the long straight after the corner."
+    },
+    "T12": {
+      "name": "T12",
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "break at the five board",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "hop the first curb, miss the second",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the five board, hop the first curb and miss the second."
+    },
+    "T13": {
+      "name": "T14 - Wall of Champions",
+      "videos": 2,
+      "cars": [
+        "mx5",
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "get outside as much as you can without hitting the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at two marker, 100%",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "ride the left hand side all the way down the front straight",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "trail off to first curb",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "diamond off this exit to where your braking zone is straight",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get back on gas, 100%",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't turn and brake at the same time going into turn one",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "lift to avoid wall of champions",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at two marker, 100%. Trail off to first curb. Get back on gas, 100%. Avoid turning and braking simultaneously, lift to avoid the wall."
+    }
+  },
+  "unplaced_notes": 17
+}

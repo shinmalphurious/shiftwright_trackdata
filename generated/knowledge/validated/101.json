@@ -1,0 +1,69 @@
+{
+  "track_id": 101,
+  "track": "Bristol Motor Speedway - Dual Pit Roads",
+  "records": {
+    "101:T1:banked": {
+      "id": "101:T1:banked",
+      "track_id": 101,
+      "track": "Bristol Motor Speedway - Dual Pit Roads",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "banked",
+      "statement": "Banked corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Variable banking up to 30 degrees mentioned in the description.",
+          "at": "2026-10-28T09:13:55+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:28:29+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "oSvfO6Wp5PM",
+              "result": "confirm",
+              "time": "3:39",
+              "note": "braking: under braking, find point, partial braking, smooth; line: turn in, work wheel into banking, apex at bottom of track; exit: get off brake pedal as smooth as possible; mistakes: adding too much wheel input, tipping into brake pressure too aggressively",
+              "transcript_snippet": "turning in finding this point where I'm under braking not adding a lot of will input right this is very difficult",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=oSvfO6Wp5PM"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Banked corner at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

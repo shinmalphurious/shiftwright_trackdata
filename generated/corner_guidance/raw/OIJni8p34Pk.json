@@ -1,0 +1,94 @@
+{
+  "video_id": "OIJni8p34Pk",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Ferrari GT3 Zandvoort Guide 1:30.9 Ferrari 296 GT3 Zandvoort GP Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:26:07.216554+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:11",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "100 board, 60% to first gear",
+      "gear": "1st",
+      "line": "late apex",
+      "exit": "late throttle application, exit wide"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:11",
+      "sequence": 1,
+      "braking": "yellow ADAC barrier, 25% to 35%",
+      "gear": "1st",
+      "line": "right tires on curb, straighten before dip",
+      "exit": "early throttle, high line"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "3:28",
+      "sequence": 2,
+      "label_guess": "T3",
+      "braking": "brakes to about 30% alongside grass section, trail off to third gear",
+      "gear": "third gear",
+      "line": "left-hand tires on curb, apex at curve",
+      "exit": "wide exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:28",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "brakes to about 40% at end of curve",
+      "gear": "100%",
+      "line": "close to grass, avoid sausage curve",
+      "exit": "wide exit",
+      "mistakes": "don't hit sausage curve"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 10",
+      "start_time": "4:47",
+      "sequence": 3,
+      "label_guess": "T10",
+      "braking": "brakes to about 25-30% at porta-potty",
+      "gear": "first gear",
+      "line": "get the nose pointed in, right-hand tires close to curve",
+      "exit": "wide exit",
+      "mistakes": "slippy sometimes on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "chicane",
+      "start_time": "4:47",
+      "sequence": 3,
+      "braking": "brakes up to about 55-60% at 100 board",
+      "gear": "second gear",
+      "line": "right hand tires jumping over at left hand tires",
+      "exit": "little blip of gas, off the gas on brakes to 20%"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "6:07",
+      "sequence": 4,
+      "label_guess": "T3",
+      "braking": "Midway between 50 board and left curb, 45-50% trail braking",
+      "gear": "Second",
+      "line": "Get close to grass, attack curve",
+      "exit": "Steady gas to 100%, exit wide without off track",
+      "mistakes": "Watch right grass if slippy and wet"
+    }
+  ],
+  "general_tips": [],
+  "dropped_ungrounded": 0
+}

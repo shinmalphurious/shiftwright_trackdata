@@ -1,0 +1,365 @@
+{
+  "video_id": "77SHRXCaM_s",
+  "track_id": 559,
+  "track_name": "Iowa Speedway - Oval",
+  "title": "Iowa Speedway I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+  "car": "B car",
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "judge distance to new pavement, feel of car during braking",
+      "line": "approach to new pavement",
+      "mistakes": "not having markers or cones to judge turn radius",
+      "note_id": "77SHRXCaM_s:0",
+      "text": "braking: judge distance to new pavement, feel of car during braking; line: approach to new pavement; mistakes: not having markers or cones to judge turn radius",
+      "spoken_as": "turn one",
+      "passage_time": "1:56",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:05",
+      "snippet": "balance-wise, the feel of the car during braking, but also the distance you're going to this new pavement, right? So,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake gently to stabilize entry, use limited brake pressure",
+      "line": "turn-in to new pavement, aim for tighter option to reduce splitter contact",
+      "mistakes": "using too much brake pressure, being too abrupt away from the wall",
+      "note_id": "77SHRXCaM_s:1",
+      "text": "braking: brake gently to stabilize entry, use limited brake pressure; line: turn-in to new pavement, aim for tighter option to reduce splitter contact; mistakes: using too much brake pressure, being too abrupt away from the wall",
+      "spoken_as": "turn one",
+      "passage_time": "3:15",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.26,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.78
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake to Iowa turn one signage, light above red paint.",
+      "line": "Turn-in to start apex, limited brake pressure.",
+      "mistakes": "Too much braking or wheel shaping can cause a free trend.",
+      "note_id": "77SHRXCaM_s:2",
+      "text": "braking: Brake to Iowa turn one signage, light above red paint.; line: Turn-in to start apex, limited brake pressure.; mistakes: Too much braking or wheel shaping can cause a free trend.",
+      "spoken_as": "turn one",
+      "passage_time": "4:34",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:24",
+      "snippet": "see we have the Iowa turn one signage on the wall, a light right above it at the start of that red paint. So, this is a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Off brake at signage on inside wall.",
+      "exit": "Maintain angle of apex, ramp up to 100% throttle.",
+      "mistakes": "Overcommitting, too shallow entry, destabilized entry.",
+      "note_id": "77SHRXCaM_s:3",
+      "text": "braking: Off brake at signage on inside wall.; exit: Maintain angle of apex, ramp up to 100% throttle.; mistakes: Overcommitting, too shallow entry, destabilized entry.",
+      "spoken_as": "T1",
+      "passage_time": "5:53",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "exit": 0.83,
+          "mistakes": 0.6
+        }
+      },
+      "time": "6:38",
+      "snippet": "signage on inside wall, okay? Let's look at this again. Here's the signage.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Stay on painted line to apex, then center of track",
+      "exit": "Maintain throttle to hold apex, ramp up to 100% throttle",
+      "mistakes": "Pushing tight with the nose, opening the wheel too early",
+      "note_id": "77SHRXCaM_s:4",
+      "text": "line: Stay on painted line to apex, then center of track; exit: Maintain throttle to hold apex, ramp up to 100% throttle; mistakes: Pushing tight with the nose, opening the wheel too early",
+      "spoken_as": "turn two",
+      "passage_time": "7:12",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:21",
+      "snippet": "You can open the wheel up too early. When you tipping 100% throttle, the thing is making sure we're not",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "Keep left side tires just below this point on exit.",
+      "mistakes": "Adding too much wheel angle too early on exit can cost speed and lap time.",
+      "note_id": "77SHRXCaM_s:5",
+      "text": "exit: Keep left side tires just below this point on exit.; mistakes: Adding too much wheel angle too early on exit can cost speed and lap time.",
+      "spoken_as": "turn two",
+      "passage_time": "8:30",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "9:17",
+      "snippet": "left side tires just below this point when you're actually using the bottom line. You can",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake straighter, limited pressure",
+      "line": "turn before I in Iowa, set up for lift point",
+      "mistakes": "don't get to painted line too early",
+      "note_id": "77SHRXCaM_s:6",
+      "text": "braking: brake straighter, limited pressure; line: turn before I in Iowa, set up for lift point; mistakes: don't get to painted line too early",
+      "spoken_as": "turn three",
+      "passage_time": "9:47",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:50",
+      "snippet": "limited brake pressure. I'm not going to get to this on a quick time. I'm not going to get to this painted line too",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Limited brake pressure, do not get to painted line too early.",
+      "line": "Get to painted line lower exit.",
+      "exit": "Power straight off.",
+      "mistakes": "Slipping the right rear when crossing to old pavement near restart zone.",
+      "note_id": "77SHRXCaM_s:7",
+      "text": "braking: Limited brake pressure, do not get to painted line too early.; line: Get to painted line lower exit.; exit: Power straight off.; mistakes: Slipping the right rear when crossing to old pavement near restart zone.",
+      "spoken_as": "turn one",
+      "passage_time": "11:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:48",
+      "snippet": "slipping the right rear when you're crossing to the old pavement, especially near the restart zone. But, here's a"
+    },
+    {
+      "line": "cross into the banking with right side tires",
+      "exit": "throttle 100%, counter steer, then steer left to guide into banking",
+      "mistakes": "pushing tight, crossing seam too early, adding more wheel shape with older tires",
+      "note_id": "77SHRXCaM_s:8",
+      "text": "line: cross into the banking with right side tires; exit: throttle 100%, counter steer, then steer left to guide into banking; mistakes: pushing tight, crossing seam too early, adding more wheel shape with older tires",
+      "spoken_as": "the exit",
+      "passage_time": "12:23",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.8,
+          "exit": 0.71
+        }
+      },
+      "time": "12:39",
+      "snippet": "right side tires, I know I have better pivot point, a better angle to finish the exit. The problem is"
+    },
+    {
+      "line": "Run higher in the second groove on restart",
+      "mistakes": "Slip the right rear tire",
+      "note_id": "77SHRXCaM_s:9",
+      "text": "line: Run higher in the second groove on restart; mistakes: Slip the right rear tire",
+      "spoken_as": "Turn one",
+      "passage_time": "13:41",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:47",
+      "snippet": "little higher in the second groove. Normally, second, third, fourth, fifth line,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking point, get off the brake",
+      "exit": "partial throttle, ramp up later",
+      "mistakes": "exit is a little hairy",
+      "note_id": "77SHRXCaM_s:10",
+      "text": "braking: braking point, get off the brake; exit: partial throttle, ramp up later; mistakes: exit is a little hairy",
+      "spoken_as": "next braking marker",
+      "passage_time": "15:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:15",
+      "snippet": "brake, partial throttle, ramp up's going to be a little later to 100%."
+    },
+    {
+      "braking": "limited brake pressure, trail off closer to compression point",
+      "mistakes": "more brake pressure leads to front end pushing and going off line",
+      "note_id": "77SHRXCaM_s:11",
+      "text": "braking: limited brake pressure, trail off closer to compression point; mistakes: more brake pressure leads to front end pushing and going off line",
+      "spoken_as": "this compression point",
+      "passage_time": "16:18",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:30",
+      "snippet": "I trend to trail off once I get closer to this compression point. Use some to slow me down to make sure I",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "keep the radius of the apex",
+      "exit": "ramp up to 100% throttle when I know I can open the exit up",
+      "mistakes": "crossing the seam too early, exiting the wall too high",
+      "note_id": "77SHRXCaM_s:12",
+      "text": "line: keep the radius of the apex; exit: ramp up to 100% throttle when I know I can open the exit up; mistakes: crossing the seam too early, exiting the wall too high",
+      "spoken_as": "next corner",
+      "passage_time": "17:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:57",
+      "snippet": "Got to keep the radius of the apex. Going to ramp up to 100% throttle when I know I can open the exit up. I crossed"
+    },
+    {
+      "exit": "lower ramp up the throttle and steady increase the throttle",
+      "mistakes": "crossing it too early",
+      "note_id": "77SHRXCaM_s:13",
+      "text": "exit: lower ramp up the throttle and steady increase the throttle; mistakes: crossing it too early",
+      "spoken_as": "three",
+      "passage_time": "17:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:31",
+      "snippet": "a lower ramp up the throttle and steady increase the throttle. I'm not crossing this too early like I did on new tires."
+    },
+    {
+      "braking": "Brake about a car length and a half to two before braking marker",
+      "gear": "Downshift to third, second while on the racetrack",
+      "line": "Cut early, keep trajectory, avoid carrying too much speed",
+      "exit": "Approach smoothly, get closer to the wall",
+      "mistakes": "Carrying too much speed, causing a slide near the pit barrels",
+      "note_id": "77SHRXCaM_s:14",
+      "text": "braking: Brake about a car length and a half to two before braking marker; gear: Downshift to third, second while on the racetrack; line: Cut early, keep trajectory, avoid carrying too much speed; exit: Approach smoothly, get closer to the wall; mistakes: Carrying too much speed, causing a slide near the pit barrels",
+      "spoken_as": "next braking marker",
+      "passage_time": "20:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.89,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.89,
+          "gear": 1.0
+        }
+      },
+      "time": "20:43",
+      "snippet": "braking about a car length and a half, technically two, before I get to that. So, look at here."
+    },
+    {
+      "braking": "higher entry, straighten approach, more braking pressure",
+      "gear": "1st gear, 40 mph",
+      "mistakes": "too much braking pressure, getting loose on entry",
+      "note_id": "77SHRXCaM_s:15",
+      "text": "braking: higher entry, straighten approach, more braking pressure; gear: 1st gear, 40 mph; mistakes: too much braking pressure, getting loose on entry",
+      "spoken_as": "pit entry",
+      "passage_time": "21:35",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "22:16",
+      "snippet": "pressure too much here, break it free, get loose on entry. And those are the things we just want to avoid here at",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

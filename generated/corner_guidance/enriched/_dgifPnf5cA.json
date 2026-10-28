@@ -1,0 +1,177 @@
+{
+  "video_id": "_dgifPnf5cA",
+  "track_id": 128,
+  "track_name": "Road Atlanta - Short",
+  "title": "Track Guide Road Atlanta Short Toyota GR86 iRacing",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at the white line, 15% initially, easing to 5-10%",
+      "line": "Cut grass, aim for inside curb",
+      "exit": "Throttle on the uphill",
+      "note_id": "_dgifPnf5cA:0",
+      "text": "braking: Brake at the white line, 15% initially, easing to 5-10%; line: Cut grass, aim for inside curb; exit: Throttle on the uphill",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "0:47",
+      "snippet": "curb for turn two I break just before I get to the white line here in front of us and here I aim for around 50% break"
+    },
+    {
+      "braking": "Brake just before the white line, 50% initially, easing off",
+      "line": "Take inside curb, use throttle to stabilize",
+      "exit": "Full throttle, use outside curb",
+      "note_id": "_dgifPnf5cA:1",
+      "text": "braking: Brake just before the white line, 50% initially, easing off; line: Take inside curb, use throttle to stabilize; exit: Full throttle, use outside curb",
+      "spoken_as": "turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:06",
+      "snippet": "use all of the curb on the outside next part is flat out just be smooth with the steering inputs so we don't scrub off",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift off throttle when losing billboard, brake before white line, 95% brake pressure",
+      "line": "left side of track, cut first curb, exit mid track",
+      "exit": "full throttle, mid track",
+      "mistakes": "don't scrub off too much speed",
+      "note_id": "_dgifPnf5cA:2",
+      "text": "braking: lift off throttle when losing billboard, brake before white line, 95% brake pressure; line: left side of track, cut first curb, exit mid track; exit: full throttle, mid track; mistakes: don't scrub off too much speed",
+      "spoken_as": "one",
+      "passage_time": "1:17",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "exit": 0.75,
+          "mistakes": 1.0
+        }
+      },
+      "time": "1:48",
+      "snippet": "break just before I get to the white line here in front of us and I aim for about 95% break pressure easing that off",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "right side of track",
+      "exit": "full throttle, mid track",
+      "mistakes": "don't scrub off too much speed",
+      "note_id": "_dgifPnf5cA:3",
+      "text": "line: right side of track; exit: full throttle, mid track; mistakes: don't scrub off too much speed",
+      "spoken_as": "next part",
+      "passage_time": "1:17",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:16",
+      "snippet": "so we don't scrub off too much speed and that's a la around Atlanta short of a 1 minute 4.2 I have more track guys for",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "inside curb, full throttle",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "don't scrub off too much speed",
+      "note_id": "_dgifPnf5cA:4",
+      "text": "line: inside curb, full throttle; exit: full throttle, use outside curb; mistakes: don't scrub off too much speed",
+      "spoken_as": "next part",
+      "passage_time": "1:17",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:30",
+      "snippet": "the track don't try and put too much steering input just let the car do the work the track is coming to you one one",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "mid track",
+      "exit": "full throttle, mid track",
+      "mistakes": "don't scrub off too much speed",
+      "note_id": "_dgifPnf5cA:5",
+      "text": "line: mid track; exit: full throttle, mid track; mistakes: don't scrub off too much speed",
+      "spoken_as": "next part",
+      "passage_time": "1:17",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.78,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:16",
+      "snippet": "so we don't scrub off too much speed and that's a la around Atlanta short of a 1 minute 4.2 I have more track guys for",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "smooth steering, mid track",
+      "exit": "full throttle",
+      "mistakes": "don't scrub off too much speed",
+      "note_id": "_dgifPnf5cA:6",
+      "text": "line: smooth steering, mid track; exit: full throttle; mistakes: don't scrub off too much speed",
+      "spoken_as": "here",
+      "passage_time": "1:17",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:16",
+      "snippet": "so we don't scrub off too much speed and that's a la around Atlanta short of a 1 minute 4.2 I have more track guys for",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

@@ -67,5 +67,523 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 6
+      },
+      "braking": [
+        {
+          "text": "lift and drag brakes where the track dips",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "lift at third red before Cookout logo",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Full lift right before turn-in",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn-in on seam, apex on seam, line through corner maintaining balance",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "apex right where the flat meets the banking",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Stay on throttle through compression zone",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "pivot away from the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "throttle ramp up through compression zone, aim for center of turn one and two",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "ease back onto the gas as soon as you feel the car set through the center",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Ramp up throttle on exit",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't hit splitter edge, avoid pushing fronts to wall too early",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Sliding up the track and into the closest obstacle.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "overdrive compression zone, lift at Cookout logo",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "stressing the tire out, carrying too much speed",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake fully before turn-in, lift at third red. Turn in on seam, apex at flat-to-banking transition. Stay on throttle through compression, ramp up on exit. Avoid overdriving and hitting splitter."
+    },
+    "T2": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 4
+      },
+      "line": [
+        {
+          "text": "Turn down the hill, straddle the seam splitter.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "pivot away from the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Maintain exit velocity, use micro adjustments of counter steering.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Modulating throttle too much, not crossing seams smoothly.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Sliding up the track and into the closest obstacle.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "end of laps due to early apex or late turn",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "being at the wall at full throttle",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on the seam splitter, pivot away from the wall, maintain exit velocity with micro adjustments. Avoid sliding up track, modulating throttle, and being at the wall at full throttle."
+    },
+    "T3": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 5
+      },
+      "braking": [
+        {
+          "text": "trail braking as the car rolls up the track",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake at the point where the wall opens up",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "between the painted portions of the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Smooth braking, get left front on seam.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Use references, turn in early, roll through.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "point the car toward the bottom lines",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "use extra radius to widen entry",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "enter around the second lane",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "pitch the car back down towards the dotted white lines",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Off brake early, back to throttle before Cookout logo.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get on the throttle and exit turn four",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "throttle early, maintain speed",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Too much initial throttle can cause drift, lose control.",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "overshooting the corners and getting into the wall",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "overshooting entry speed",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "dive in too much",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake smoothly as you roll up the track, align left front with wall seam, turn in early, use second lane, maintain speed, pitch car down early, throttle before Cookout logo."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "ride the right rear onto the backstretch",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get on the throttle and exit turn four",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on the right rear as you exit T4, then accelerate onto the backstretch."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "banked",
+        "statement": "Banked corner",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Banked corner at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

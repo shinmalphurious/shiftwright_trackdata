@@ -1,0 +1,313 @@
+{
+  "video_id": "a6Dz_di8qI0",
+  "track_id": 523,
+  "track_name": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+  "title": "iRacing F4 Spa Grand Prix - 2:21.735 (Fixed Setup) - Spa Grand Prix F4 Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 6,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Max braking before 100m board",
+      "line": "Straight line",
+      "exit": "Smooth exit",
+      "mistakes": "Too much curbing",
+      "note_id": "a6Dz_di8qI0:0",
+      "text": "braking: Max braking before 100m board; line: Straight line; exit: Smooth exit; mistakes: Too much curbing",
+      "spoken_as": "La Source",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {
+        "after": "start/finish",
+        "before": "T2",
+        "corners_between": [
+          "T1"
+        ],
+        "anchor_confidence": 1.0,
+        "braking_corners_between": [
+          "T1"
+        ],
+        "telemetry_laps": 6
+      },
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "mistakes": 1.0
+        }
+      },
+      "time": "0:49",
+      "snippet": "onto max braking straight away. Now, obviously we're going to go flat here all the way through Eau Rouge and",
+      "confidence": 0.95,
+      "assignment_method": "telemetry_match",
+      "enrichment_pass": 1
+    },
+    {
+      "line": "Flat out",
+      "exit": "Smooth exit",
+      "mistakes": "Too much curbing",
+      "note_id": "a6Dz_di8qI0:1",
+      "text": "line: Flat out; exit: Smooth exit; mistakes: Too much curbing",
+      "spoken_as": "Eau Rouge",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:06",
+      "snippet": "but not too much of the old curbing. As we head up the Kemmel Straight. We're in sixth gear. Gianni is using 55%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Flat out",
+      "exit": "Smooth exit",
+      "mistakes": "Too much curbing",
+      "note_id": "a6Dz_di8qI0:2",
+      "text": "line: Flat out; exit: Smooth exit; mistakes: Too much curbing",
+      "spoken_as": "Raidillon",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:06",
+      "snippet": "but not too much of the old curbing. As we head up the Kemmel Straight. We're in sixth gear. Gianni is using 55%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Before 50 board, brake, trail brake, leave in 4th gear",
+      "gear": "4th",
+      "line": "Flat",
+      "exit": "Exit wide, look for 50 meter, down to 3rd gear",
+      "note_id": "a6Dz_di8qI0:3",
+      "text": "braking: Before 50 board, brake, trail brake, leave in 4th gear; gear: 4th; line: Flat; exit: Exit wide, look for 50 meter, down to 3rd gear",
+      "spoken_as": "turn seven",
+      "passage_time": "1:18",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:36",
+      "snippet": "And again, down to third gear. Look at that trail brake, people. Look at that trail brake.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "4th",
+      "line": "Flat",
+      "exit": "Flat to bus stop chicane",
+      "note_id": "a6Dz_di8qI0:4",
+      "text": "gear: 4th; line: Flat; exit: Flat to bus stop chicane",
+      "spoken_as": "curve Paul Frere",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:31",
+      "snippet": "the way to the bus stop chicane. Now, the new tire model is slower by a good second, probably a second and a"
+    },
+    {
+      "braking": "Brake at the marshal's position on left, 90% pressure.",
+      "gear": "2nd",
+      "exit": "Take some curb on exit, same on right.",
+      "note_id": "a6Dz_di8qI0:5",
+      "text": "braking: Brake at the marshal's position on left, 90% pressure.; gear: 2nd; exit: Take some curb on exit, same on right.",
+      "spoken_as": "T1",
+      "passage_time": "2:40",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.67
+        }
+      },
+      "time": "3:48",
+      "snippet": "So, he's just taking some curb on the on the And then the same on the right.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at 50 marker, 70% pressure, trail off in third gear.",
+      "gear": "3",
+      "line": "Turn-in on left curb, apex mid-corner, long trail off.",
+      "exit": "Build power gradually to 100% at exit.",
+      "note_id": "a6Dz_di8qI0:6",
+      "text": "braking: Brake at 50 marker, 70% pressure, trail off in third gear.; gear: 3; line: Turn-in on left curb, apex mid-corner, long trail off.; exit: Build power gradually to 100% at exit.",
+      "spoken_as": "turn 2",
+      "passage_time": "4:01",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "5:02",
+      "snippet": "third gear. Starts building up on the power, but he's only where where halfway through the corner here, he's only on"
+    },
+    {
+      "line": "Flat corner.",
+      "exit": "Flat exit.",
+      "note_id": "a6Dz_di8qI0:7",
+      "text": "line: Flat corner.; exit: Flat exit.",
+      "spoken_as": "turn 7",
+      "passage_time": "4:01",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.33,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.67
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 m marker board, 35% brake, drop to fifth",
+      "gear": "fourth",
+      "line": "curbing, lift to 10-15%, build to 50-60% at apex",
+      "exit": "wide exit, sixth gear",
+      "mistakes": "everyone gets wrong",
+      "note_id": "a6Dz_di8qI0:8",
+      "text": "braking: 50 m marker board, 35% brake, drop to fifth; gear: fourth; line: curbing, lift to 10-15%, build to 50-60% at apex; exit: wide exit, sixth gear; mistakes: everyone gets wrong",
+      "spoken_as": "the big one",
+      "passage_time": "5:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:39",
+      "snippet": "He's up to sixth gear. So, this is the the big one that everyone gets wrong. And we've got the 50 m marker board"
+    },
+    {
+      "braking": "curbing starts, 70%",
+      "gear": "fourth",
+      "note_id": "a6Dz_di8qI0:9",
+      "text": "braking: curbing starts, 70%; gear: fourth",
+      "spoken_as": "turn 12",
+      "passage_time": "5:19",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:12",
+      "snippet": "off in fourth gear. Starts building back up on the gas slowly, slowly, slowly. Back up to 100%.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "tiny lift",
+      "exit": "smoothly back on",
+      "note_id": "a6Dz_di8qI0:10",
+      "text": "braking: tiny lift; exit: smoothly back on",
+      "spoken_as": "turn 13",
+      "passage_time": "5:19",
+      "corner_id": "T13",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:20",
+      "snippet": "Tiny little lift as we go through turn 13. And then again, smoothly back on.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "before curb, brake onto curb",
+      "line": "curb to open corner",
+      "exit": "100% at apex",
+      "note_id": "a6Dz_di8qI0:11",
+      "text": "braking: before curb, brake onto curb; line: curb to open corner; exit: 100% at apex",
+      "spoken_as": "turn 14",
+      "passage_time": "5:19",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:33",
+      "snippet": "curb to open up the corner. And now he's back on 100% once again at the apex. And now he's flat all the way through to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "flat",
+      "line": "flat",
+      "note_id": "a6Dz_di8qI0:12",
+      "text": "gear: flat; line: flat",
+      "spoken_as": "that Mhm",
+      "passage_time": "6:40",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:40",
+      "snippet": "And now he's flat all the way through to that Mhm."
+    }
+  ]
+}

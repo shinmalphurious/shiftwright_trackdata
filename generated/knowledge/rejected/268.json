@@ -1,0 +1,378 @@
+{
+  "track_id": 268,
+  "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+  "records": {
+    "268:T16:heavy_braking": {
+      "id": "268:T16:heavy_braking",
+      "track_id": 268,
+      "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "corner": "T16",
+      "corner_name": "Courbe du Golf",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "780 m from the previous corner",
+          "at": "2026-10-28T09:37:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:49+00:00",
+          "consensus": 0.029,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T19:29:45+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.029
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 9,
+          "metrics": {
+            "peak_brake": 0.007,
+            "speed_drop": 0.093,
+            "min_speed_share": 0.79,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.079,
+            "laps": 9
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 9,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T16: research 0.60 from 1 source(s); telemetry contradicts over 9 lap(s); consensus 0.03 -> rejected (telemetry contradicts the claim)"
+    },
+    "268:T21:slow_corner": {
+      "id": "268:T21:slow_corner",
+      "track_id": 268,
+      "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "corner": "T21",
+      "corner_name": "Courbe du Buisson",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner suggests a tight turn.",
+          "at": "2026-10-28T09:37:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:24:44+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 9,
+          "metrics": {
+            "peak_brake": 0.012,
+            "speed_drop": 0.14,
+            "min_speed_share": 0.715,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.046,
+            "laps": 9
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 9,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T21: research 0.75 from 1 source(s); telemetry contradicts over 9 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "268:T22:slow_corner": {
+      "id": "268:T22:slow_corner",
+      "track_id": 268,
+      "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "corner": "T22",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner suggests a tight turn.",
+          "at": "2026-10-28T09:37:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:24:44+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 9,
+          "metrics": {
+            "peak_brake": 0.0,
+            "speed_drop": 0.211,
+            "min_speed_share": 0.732,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.012,
+            "laps": 9
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 9,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T22: research 0.75 from 1 source(s); telemetry contradicts over 9 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "268:T24:slow_corner": {
+      "id": "268:T24:slow_corner",
+      "track_id": 268,
+      "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "corner": "T24",
+      "corner_name": "Virage du Pont",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner suggests a tight turn.",
+          "at": "2026-10-28T09:37:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:24:44+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 9,
+          "metrics": {
+            "peak_brake": 0.029,
+            "speed_drop": 0.1,
+            "min_speed_share": 0.709,
+            "min_throttle": 0.415,
+            "flat_after_pct": 0.009,
+            "laps": 9
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 9,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T24: research 0.75 from 1 source(s); telemetry contradicts over 9 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "268:T15:flat_out": {
+      "id": "268:T15:flat_out",
+      "track_id": 268,
+      "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "corner": "T15",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a straight or fast section.",
+          "at": "2026-10-28T09:37:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:28:14+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 9,
+          "metrics": {
+            "peak_brake": 0.848,
+            "speed_drop": 0.594,
+            "min_speed_share": 0.306,
+            "min_throttle": 0.0,
+            "flat_after_pct": 0.132,
+            "laps": 9
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 9,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T15: research 0.75 from 1 source(s); telemetry contradicts over 9 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "268:T23:important_exit": {
+      "id": "268:T23:important_exit",
+      "track_id": 268,
+      "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+      "corner": "T23",
+      "corner_name": "Virage Porsche",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a long straight after the corner.",
+          "at": "2026-10-28T09:37:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:28:14+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 9,
+          "metrics": {
+            "peak_brake": 0.559,
+            "speed_drop": 0.249,
+            "min_speed_share": 0.708,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.009,
+            "laps": 9
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 9,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T23: research 0.75 from 1 source(s); telemetry contradicts over 9 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    }
+  }
+}

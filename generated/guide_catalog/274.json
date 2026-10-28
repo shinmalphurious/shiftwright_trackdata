@@ -1,49 +1,43 @@
 {
   "track_id": 274,
   "layout": "274-williamsgrove",
+  "name": "Williams Grove Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:05:24.371111+00:00",
+  "candidates_seen": 61,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 61,
+    "new_candidates": 60,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 60,
+    "rejection_reasons": {
+      "no guide words in title": 39,
+      "venue not in title": 7,
+      "too long": 7,
+      "too short": 5,
+      "live stream": 2
+    }
+  },
   "selected_guides": {
     "late_model": [
       {
-        "video_id": "MrY7p6swxEA",
-        "title": "Stacked 6246 SOF Super Late Model Official - iRacing Dirt - Williams Grove",
-        "description": "Stacked 6246 SOF Super Late Model Official - iRacing Dirt - Williams Grove - First Super Official Of The Week * Check out the live\u00a0...",
-        "video_type": "other",
+        "video_id": "qzvlmC7ftsA",
+        "title": "Fixed Super Late Model Qualifying Guide- Williams Grove",
+        "description": "Qualifying at Williams Grove in the fixed SLM. Weekly updates will follow in a more timely manner! Thanks for watching!",
+        "channel": "Justin Norwood Simsports",
+        "duration": 431,
+        "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 120
-      },
-      {
-        "video_id": "vVdwiTsCacA",
-        "title": "World Of Outlaws Pro Qualifier Race 5 - iRacing Dirt - Super Late Model - Top Split - Williams Grove",
-        "description": "World Of Outlaws Pro Qualifier Race 5 - iRacing Dirt - Super Late Model - Top Split - Williams Grove * Check out the live stream on\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
-      },
-      {
-        "video_id": "QfC_eG9SSWc",
-        "title": "Improve Your Lap Times At Williams Grove In The Super Late Models With This Setup",
-        "description": "Download the setup: https://bit.ly/3iEs8pf School of Sim Racing Discord: https://discord.gg/7J7MPVR Twitch Live Stream:\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 20
-      }
-    ],
-    "modified": [
-      {
-        "video_id": "GoCdJ8gcnog",
-        "title": "358 Modifieds - Williams Grove Speedway - iRacing Dirt",
-        "description": "iRacing Referral Code and Equipment listed in description. iRacing Referral code\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
-      },
-      {
-        "video_id": "Y2Rrxyw4FqQ",
-        "title": "New Series! - Williams Grove - Big Block Modified - iRacing",
-        "description": "iRacing referral code if you are wanting to try iRacing - https://www.iracing.com/membership/?refid=187474 Discord\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
+        "quality_score": 116,
+        "venue_confidence": 0.9
       }
     ]
   }

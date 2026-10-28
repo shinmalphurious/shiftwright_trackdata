@@ -1,0 +1,132 @@
+{
+  "track_id": 24,
+  "track": "Summit Point Raceway - Short",
+  "records": {
+    "24:T1:heavy_braking": {
+      "id": "24:T1:heavy_braking",
+      "track_id": 24,
+      "track": "Summit Point Raceway - Short",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner",
+          "at": "2026-10-28T09:10:26+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:41+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "F45AqcDtLYs",
+              "result": "confirm",
+              "time": "0:31",
+              "note": "braking: brake really hard, trail brake to apex; line: use the repaved part of the track; exit: full throttle, follow repave out",
+              "transcript_snippet": "I use the repaved part of the track as my line. I apex where the curb and the repave gets closest to each other. As",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=F45AqcDtLYs"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "24:T9:heavy_braking": {
+      "id": "24:T9:heavy_braking",
+      "track_id": 24,
+      "track": "Summit Point Raceway - Short",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner",
+          "at": "2026-10-28T09:10:26+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T21:55:47+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "F45AqcDtLYs",
+              "result": "confirm",
+              "time": "3:00",
+              "note": "braking: lift throttle to 50-60%; gear: 4th; line: turn-in at dirt by left wheel, apex middle; exit: full throttle, use all track",
+              "transcript_snippet": "to about 50 to 60% throttle. You want to apex in the middle of the corner. As soon as you can see you'll get close to",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=F45AqcDtLYs"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T9: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

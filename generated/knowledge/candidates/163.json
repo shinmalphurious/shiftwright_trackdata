@@ -1,0 +1,1814 @@
+{
+  "track_id": 163,
+  "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+  "records": {
+    "163:T4:important_exit": {
+      "id": "163:T4:important_exit",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1096 m to the next corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.839,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.839
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T4",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.60 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.84 -> pending (evidence not yet strong enough)"
+    },
+    "163:T5:heavy_braking": {
+      "id": "163:T5:heavy_braking",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1096 m from the previous corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.839,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.839
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T5",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T5: research 0.60 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.84 -> pending (evidence not yet strong enough)"
+    },
+    "163:T5:overtaking_zone": {
+      "id": "163:T5:overtaking_zone",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "1096 m from the previous corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T5: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T9:important_exit": {
+      "id": "163:T9:important_exit",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T9",
+      "corner_name": "Speaker's Corner",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "616 m to the next corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T9: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T10:heavy_braking": {
+      "id": "163:T10:heavy_braking",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "616 m from the previous corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.6
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T10: research 0.60 from 1 source(s); consensus 0.60 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T10:overtaking_zone": {
+      "id": "163:T10:overtaking_zone",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "616 m from the previous corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T10: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T15:important_exit": {
+      "id": "163:T15:important_exit",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T15",
+      "corner_name": "Stavelot",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m to the next corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.839,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.839
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T15",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T15: research 0.60 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.84 -> pending (evidence not yet strong enough)"
+    },
+    "163:T16:heavy_braking": {
+      "id": "163:T16:heavy_braking",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m from the previous corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.301,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.223,
+        "consensus": 0.301
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T16",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T16: research 0.60 from 1 source(s); consensus 0.30 -> pending (evidence not yet strong enough)"
+    },
+    "163:T16:overtaking_zone": {
+      "id": "163:T16:overtaking_zone",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "711 m from the previous corner",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T16: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T1:heavy_braking": {
+      "id": "163:T1:heavy_braking",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T1",
+      "corner_name": "La Source",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Starting corner, long straight before, drivers typically brake hard.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T1",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    },
+    "163:T1:important_exit": {
+      "id": "163:T1:important_exit",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T1",
+      "corner_name": "La Source",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight ahead, exit speed is crucial.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T1",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    },
+    "163:T2:fast_corner": {
+      "id": "163:T2:fast_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T2",
+      "corner_name": "Eau Rouge",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Drivers take this corner flat out, known for high speeds.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T2",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    },
+    "163:T2:elevation_change": {
+      "id": "163:T2:elevation_change",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T2",
+      "corner_name": "Eau Rouge",
+      "claim": "elevation_change",
+      "statement": "Elevation change (crest, compression, uphill or downhill)",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Significant drop into the corner, then climb out.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Elevation change (crest, compression, uphill or downhill) at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T3:fast_corner": {
+      "id": "163:T3:fast_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it flat out.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T3",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    },
+    "163:T4:slow_corner": {
+      "id": "163:T4:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.463,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.223,
+        "consensus": 0.463
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T4",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T4: research 0.75 from 1 source(s); consensus 0.46 -> pending (evidence not yet strong enough)"
+    },
+    "163:T5:slow_corner": {
+      "id": "163:T5:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T6:slow_corner": {
+      "id": "163:T6:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T6: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T7:fast_corner": {
+      "id": "163:T7:fast_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T7",
+      "corner_name": "Malmedy",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Drivers take it flat out.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T7",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 2,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T7: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    },
+    "163:T8:fast_corner": {
+      "id": "163:T8:fast_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T8",
+      "corner_name": "Bruxelles",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Drivers take it flat out.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.463,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.076,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T8",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 1,
+            "telemetry": "contradict"
+          },
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T8",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T8: research 0.75 from 1 source(s); consensus 0.20 -> rejected (evidence contradicts the claim)"
+    },
+    "163:T9:slow_corner": {
+      "id": "163:T9:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T9",
+      "corner_name": "Speaker's Corner",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T9: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T10:slow_corner": {
+      "id": "163:T10:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.463,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.223,
+        "consensus": 0.463
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T10",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); consensus 0.46 -> pending (evidence not yet strong enough)"
+    },
+    "163:T11:slow_corner": {
+      "id": "163:T11:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.463,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.223,
+        "consensus": 0.463
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T11",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); consensus 0.46 -> pending (evidence not yet strong enough)"
+    },
+    "163:T12:slow_corner": {
+      "id": "163:T12:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T12: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T13:slow_corner": {
+      "id": "163:T13:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T13",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T13: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T14:slow_corner": {
+      "id": "163:T14:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T14",
+      "corner_name": "Campus",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T14: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T15:fast_corner": {
+      "id": "163:T15:fast_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T15",
+      "corner_name": "Stavelot",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Drivers take it flat out.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.924,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T15",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T15",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 2
+      },
+      "explanation": "Fast corner at T15: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+    },
+    "163:T16:slow_corner": {
+      "id": "163:T16:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.463,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.223,
+        "consensus": 0.463
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T16",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T16: research 0.75 from 1 source(s); consensus 0.46 -> pending (evidence not yet strong enough)"
+    },
+    "163:T17:fast_corner": {
+      "id": "163:T17:fast_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T17",
+      "corner_name": "Blanchimont",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Drivers take it flat out, crucial for finishing position.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T17",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T17: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    },
+    "163:T17:important_exit": {
+      "id": "163:T17:important_exit",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T17",
+      "corner_name": "Blanchimont",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight ahead, exit speed is crucial.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T17: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "163:T18:chicane": {
+      "id": "163:T18:chicane",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T18",
+      "corner_name": "Chicane",
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known as a chicane, multiple turns in a row.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.924,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T18",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T18",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 2
+      },
+      "explanation": "Chicane at T18: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+    },
+    "163:T19:slow_corner": {
+      "id": "163:T19:slow_corner",
+      "track_id": 163,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+      "corner": "T19",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "validated",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance, drivers take it slow.",
+          "at": "2026-10-28T09:21:58+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:56+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T19",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Slow corner at T19: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+    }
+  }
+}

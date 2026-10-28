@@ -1,0 +1,36 @@
+{
+  "video_id": "SaPZF_7NDp4",
+  "track_id": 190,
+  "track_name": "New Smyrna Speedway",
+  "title": "Lap Guide: Super Late Model at New Smyrna",
+  "car_hint": "late_model",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:58:41.960914+00:00",
+  "passages": 1,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:02",
+      "sequence": 0,
+      "braking": "hard onto the binders",
+      "line": "let it float through the middle",
+      "exit": "pick up the gas a little bit and then full throttle on exit"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:02",
+      "sequence": 0,
+      "braking": "back onto the binders",
+      "line": "roll through the middle",
+      "exit": "back off of the gas"
+    }
+  ],
+  "general_tips": [
+    "watch the wheel spin off of the corner"
+  ],
+  "dropped_ungrounded": 0
+}

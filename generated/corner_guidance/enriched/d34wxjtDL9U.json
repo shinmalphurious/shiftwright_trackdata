@@ -1,0 +1,291 @@
+{
+  "video_id": "d34wxjtDL9U",
+  "track_id": 47,
+  "track_name": "WeatherTech Raceway at Laguna Seca - Full Course",
+  "title": "iRacing Track Guide Laguna Seca | Formula Vee | 1:43.061",
+  "car": null,
+  "car_hint": "vee",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "line": "turn-in then hit both apexes",
+      "exit": "get on power early",
+      "mistakes": "don't run wide",
+      "note_id": "d34wxjtDL9U:0",
+      "text": "line: turn-in then hit both apexes; exit: get on power early; mistakes: don't run wide",
+      "spoken_as": "turn one",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.78,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:32",
+      "snippet": "both don't run wide it's not worth it and get on that power nice and early this car is all about",
+      "best_candidate": {
+        "corner_id": "T2",
+        "confidence": 0.273,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T2",
+        "before": "T3",
+        "estimated_pct": 0.1632,
+        "corner_pct": 0.1367,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T2",
+        "before": "T3",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "brake on two board, straight line to apex",
+      "line": "double apex",
+      "mistakes": "don't run wide",
+      "note_id": "d34wxjtDL9U:1",
+      "text": "braking: brake on two board, straight line to apex; line: double apex; mistakes: don't run wide",
+      "spoken_as": "turn two",
+      "passage_time": "1:18",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:24",
+      "snippet": "but looking for the two board we are hitting it and we are breaking in a straight line all the way down to the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "dab of brakes between the one and two board, 150 mark",
+      "line": "turn in at the two board, use all of the curb",
+      "exit": "smooth exit, get on full power as soon as possible",
+      "mistakes": "running wide, missing the apex, hitting the red kerb",
+      "note_id": "d34wxjtDL9U:2",
+      "text": "braking: dab of brakes between the one and two board, 150 mark; line: turn in at the two board, use all of the curb; exit: smooth exit, get on full power as soon as possible; mistakes: running wide, missing the apex, hitting the red kerb",
+      "spoken_as": "turn three",
+      "passage_time": "2:36",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8,
+          "exit": 0.67
+        }
+      },
+      "time": "2:48",
+      "snippet": "now between the one and two so probably about the 150 mark you want to start turning in you see you",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "use all of the curb, follow as the curb tapers back onto the track",
+      "exit": "smooth exit, get on throttle nice and early",
+      "mistakes": "missing the red kerb, using all of the exit curve",
+      "note_id": "d34wxjtDL9U:3",
+      "text": "line: use all of the curb, follow as the curb tapers back onto the track; exit: smooth exit, get on throttle nice and early; mistakes: missing the red kerb, using all of the exit curve",
+      "spoken_as": "turn four",
+      "passage_time": "2:36",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:06",
+      "snippet": "beautiful corner use all of the curb and as the curb tapers back onto the track that's the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "breaking down to third",
+      "exit": "get on throttle nice and early",
+      "mistakes": "using all of the exit",
+      "note_id": "d34wxjtDL9U:4",
+      "text": "braking: breaking down to third; exit: get on throttle nice and early; mistakes: using all of the exit",
+      "spoken_as": "turn five",
+      "passage_time": "2:36",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:37",
+      "snippet": "get on throttle nice and early again don't use all of the exit you can if you wish but again not really",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake in a straight line along the curbing",
+      "gear": "3rd or 2nd (prefer 3rd)",
+      "line": "straight line",
+      "mistakes": "awkward because there is an off track and a slow down on the second part",
+      "note_id": "d34wxjtDL9U:5",
+      "text": "braking: brake in a straight line along the curbing; gear: 3rd or 2nd (prefer 3rd); line: straight line; mistakes: awkward because there is an off track and a slow down on the second part",
+      "spoken_as": "the corkscrew",
+      "passage_time": "3:54",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:14",
+      "snippet": "third myself really awkward because there is an off track and a slow down on the second part of that but just try and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "3rd",
+      "line": "miss the red thing on the inside",
+      "note_id": "d34wxjtDL9U:6",
+      "text": "gear: 3rd; line: miss the red thing on the inside",
+      "spoken_as": "turn nine",
+      "passage_time": "3:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:25",
+      "snippet": "miss that red thing on the inside and you should be golden through there second last corner two board we are",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.408,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "start/finish",
+        "estimated_pct": 0.7621,
+        "corner_pct": 0.7588,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "start/finish",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11"
+        ]
+      }
+    },
+    {
+      "braking": "break i don't change down the gear",
+      "gear": "3rd",
+      "mistakes": "be very cautious turning in with brakes here the rear end of the car will let go quite easily",
+      "note_id": "d34wxjtDL9U:7",
+      "text": "braking: break i don't change down the gear; gear: 3rd; mistakes: be very cautious turning in with brakes here the rear end of the car will let go quite easily",
+      "spoken_as": "second last corner",
+      "passage_time": "3:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:52",
+      "snippet": "here the rear end of the car will let go quite easily you can hit the red kerb because we're going a lot slower and you",
+      "best_candidate": {
+        "corner_id": "T11",
+        "confidence": 0.379,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "start/finish",
+        "estimated_pct": 0.9223,
+        "corner_pct": 0.9121,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "start/finish",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11"
+        ]
+      }
+    },
+    {
+      "braking": "stand on the brakes just down one gear",
+      "line": "hit the red kerb because we're going a lot slower",
+      "exit": "full power there and did get a little bit of a slide going on keep it in a straight line to the apex just under the bridge there",
+      "note_id": "d34wxjtDL9U:8",
+      "text": "braking: stand on the brakes just down one gear; line: hit the red kerb because we're going a lot slower; exit: full power there and did get a little bit of a slide going on keep it in a straight line to the apex just under the bridge there",
+      "spoken_as": "final corner",
+      "passage_time": "3:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:02",
+      "snippet": "keep it in a straight line to the apex just under the bridge there and uh yeah that is us across the line",
+      "best_candidate": {
+        "corner_id": "T11",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T8",
+        "before": "start/finish",
+        "estimated_pct": 0.982,
+        "corner_pct": 0.9121,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T8",
+        "before": "start/finish",
+        "corners_between": [
+          "T9",
+          "T10",
+          "T11"
+        ]
+      }
+    }
+  ]
+}

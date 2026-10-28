@@ -1,0 +1,120 @@
+{
+  "video_id": "KCIALBLc9GA",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "Track Guide Summit Point BMW M2 G87 Rookie Fixed iRacing",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2 G87",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:24:56.509905+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Break halfway between the four cones and the three cones, 75% pressure",
+      "line": "Follow the repaved part, turn-in at inside curb",
+      "exit": "Accelerate following repave, end up middle of track",
+      "mistakes": "Don't hit the inside curb, avoid gravel"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Break at the end of the road, 35% pressure",
+      "line": "Get close to inside curb without hitting it",
+      "exit": "Accelerate, use outside curbing to maximize exit speed",
+      "mistakes": "Avoid gravel"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Lift off",
+      "exit": "End up just about mid track"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:16",
+      "sequence": 1,
+      "exit": "start to break when mid track, get back to left side"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:16",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "50% brake pressure, break away from corner to right side",
+      "line": "follow repaved part of track",
+      "exit": "pick up throttle once leaving curb, follow to mid track"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:16",
+      "sequence": 1,
+      "braking": "40% brake pressure, break at debris, ease off until top of corner",
+      "line": "follow repaved part of track",
+      "exit": "start to accelerate at top of corner, follow to mid track"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn eight",
+      "start_time": "1:16",
+      "sequence": 1,
+      "line": "get close to inside curb",
+      "exit": "full throttle, lift if needed to not miss corner"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn seven",
+      "start_time": "1:16",
+      "sequence": 1,
+      "line": "take a little bit of inside curb",
+      "exit": "get all the way to left side for turn nine"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "1:16",
+      "sequence": 1,
+      "line": "get close to inside curb",
+      "exit": "use outside curbing for exit speed",
+      "mistakes": "hitting curb too hard can spit you out to left side"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "1:16",
+      "sequence": 1,
+      "braking": "65% brake pressure, break just before gray bar",
+      "line": "don't hit inside curb of 1010",
+      "mistakes": "hitting curb will unil car and speed out into gravel"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "2:33",
+      "sequence": 2,
+      "line": "use the wide runoff area",
+      "exit": "pick up throttle, avoid gravel",
+      "mistakes": "dropping a wheel into gravel slows the car"
+    }
+  ],
+  "general_tips": [
+    "Stay on the left side of the track in qualifying",
+    "Take the shortest route possible before ending up on the right side of the track for turn three",
+    "If you get a bad exit out of turn one, some people might try and overtake you into turn three",
+    "balance car with throttle",
+    "stay on left side of track while qualifying",
+    "maximize exit speed"
+  ],
+  "dropped_ungrounded": 1
+}

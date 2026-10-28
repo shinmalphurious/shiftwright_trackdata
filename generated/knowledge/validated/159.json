@@ -1,0 +1,90 @@
+{
+  "track_id": 159,
+  "track": "Summit Point Raceway - School",
+  "records": {
+    "159:T1:heavy_braking": {
+      "id": "159:T1:heavy_braking",
+      "track_id": 159,
+      "track": "Summit Point Raceway - School",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "972 m from the previous corner",
+          "at": "2026-10-28T09:21:27+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long straight before corner, significant distance to next corner.",
+          "at": "2026-10-28T09:21:27+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.938,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.978,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:07:22+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.978
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "Kge714qDxbc",
+              "result": "confirm",
+              "time": "0:42",
+              "note": "braking: brake hard at the cones on your left, down to second gear; gear: second gear; line: aim to apex relatively early, on the inside of the patch of concrete; exit: back on the power early on, watch for the kids who litter on the exit; mistakes: too much throttle on the exit can lead to spinning",
+              "transcript_snippet": "to second gear and aim to apex relatively early smoothly back on the power and the best line through this",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Kge714qDxbc"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Summit Point Raceway - Summit Point Raceway",
+            "source_track_id": 9,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 4,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

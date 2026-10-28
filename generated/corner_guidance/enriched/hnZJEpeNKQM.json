@@ -1,0 +1,217 @@
+{
+  "video_id": "hnZJEpeNKQM",
+  "track_id": 200,
+  "track_name": "Circuit Zolder - Alternate",
+  "title": "iRacing Track Guide Zolder Alternate | Skip Barber | 1:41.220",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Second to last logo, brake hard to third gear",
+      "gear": "3",
+      "line": "Take apex curb, extend track limits",
+      "exit": "Focus on corner, exit wide on green concrete",
+      "mistakes": "Late turn-in, miss apex",
+      "note_id": "hnZJEpeNKQM:0",
+      "text": "braking: Second to last logo, brake hard to third gear; gear: 3; line: Take apex curb, extend track limits; exit: Focus on corner, exit wide on green concrete; mistakes: Late turn-in, miss apex",
+      "spoken_as": "Earste",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.67,
+          "mistakes": 0.75
+        }
+      },
+      "time": "2:02",
+      "snippet": "and uh yeah focus on the corner and get a relatively decent exit without using going too wide you can go all the way on",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.283,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.1046,
+        "corner_pct": 0.0752,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "White line at pit exit, brake hard to third gear",
+      "gear": "3",
+      "line": "Late turn-in, aim for late apex",
+      "note_id": "hnZJEpeNKQM:1",
+      "text": "braking: White line at pit exit, brake hard to third gear; gear: 3; line: Late turn-in, aim for late apex",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:24",
+      "snippet": "down into third and really late late turn in here we want a nice late apex as best we can",
+      "best_candidate": {
+        "corner_id": "T2",
+        "confidence": 0.355,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.1708,
+        "corner_pct": 0.1611,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "stand on brakes at end of service road, brake to third gear",
+      "gear": "third",
+      "line": "take more curve than shown, late apex",
+      "exit": "full throttle exit",
+      "mistakes": "hit blue curbs, lift mid corner",
+      "note_id": "hnZJEpeNKQM:2",
+      "text": "braking: stand on brakes at end of service road, brake to third gear; gear: third; line: take more curve than shown, late apex; exit: full throttle exit; mistakes: hit blue curbs, lift mid corner",
+      "spoken_as": "turn four",
+      "passage_time": "2:35",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "exit": 0.67
+        }
+      },
+      "time": "3:01",
+      "snippet": "bit i would say going on to third gear couple of first laps uh when tires are cold it is a little bit tricky",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "stand on brakes before red and white wall",
+      "mistakes": "overtake before chicane",
+      "note_id": "hnZJEpeNKQM:3",
+      "text": "braking: stand on brakes before red and white wall; mistakes: overtake before chicane",
+      "spoken_as": "chicane",
+      "passage_time": "2:35",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:36",
+      "snippet": "marking the red and white uh wall there and just before we approach it we're standing on the brakes",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "blue sign on left, brake for first gear",
+      "gear": "1st",
+      "line": "use all entry curve, avoid blue and gray curbs",
+      "exit": "stay left, full throttle, nip bit of blue curb",
+      "mistakes": "don't drift wide, avoid off track",
+      "note_id": "hnZJEpeNKQM:4",
+      "text": "braking: blue sign on left, brake for first gear; gear: 1st; line: use all entry curve, avoid blue and gray curbs; exit: stay left, full throttle, nip bit of blue curb; mistakes: don't drift wide, avoid off track",
+      "spoken_as": "turn seven",
+      "passage_time": "3:53",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:20",
+      "snippet": "uh break down into first gear use all of the entry curve that we can and we can take a good chunk",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at 100 meter board, lift off",
+      "line": "minimize steering angle, maximize speed",
+      "mistakes": "don't go wide, slow down on left side",
+      "note_id": "hnZJEpeNKQM:5",
+      "text": "braking: brake at 100 meter board, lift off; line: minimize steering angle, maximize speed; mistakes: don't go wide, slow down on left side",
+      "spoken_as": "final chicane",
+      "passage_time": "5:10",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:18",
+      "snippet": "slow down right on the left hand side on the inside here about 100 meter board we are deciding to"
+    },
+    {
+      "braking": "Lift at 100 meter board, 1.4 second slowdown",
+      "exit": "Dash to the line, full throttle",
+      "mistakes": "Don't run wide, wall on left-hand side",
+      "note_id": "hnZJEpeNKQM:6",
+      "text": "braking: Lift at 100 meter board, 1.4 second slowdown; exit: Dash to the line, full throttle; mistakes: Don't run wide, wall on left-hand side",
+      "spoken_as": "Jochen Rindtbocht",
+      "passage_time": "6:27",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:51",
+      "snippet": "don't run wide because that wall on the left-hand side does pop out quite quite quickly"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "video_id": "zUz2ka9aV6A",
+  "track_id": 118,
+  "track_name": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short A",
+  "title": "Texas Motor Speedway Track Guide iRacing Fixed A NASCAR Next Gen Stock Car",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:29:53.118328+00:00",
+  "passages": 12,
+  "corners": [
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:54",
+      "sequence": 1,
+      "braking": "lift early, 35%",
+      "exit": "full throttle by white line",
+      "mistakes": "going full throttle, pushing, turning the wheel too much"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn four",
+      "start_time": "1:54",
+      "sequence": 1,
+      "label_guess": "T4",
+      "mistakes": "going full throttle, pushing, turning the wheel too much"
+    },
+    {
+      "label": null,
+      "spoken_as": "right here",
+      "start_time": "3:12",
+      "sequence": 2,
+      "gear": "4th"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:29",
+      "sequence": 3,
+      "braking": "brake at white sign, trail braking at low percentage",
+      "gear": "fifth to fourth",
+      "line": "carry speed in fifth, brake to fourth, late apex",
+      "exit": "get back on throttle aggressively",
+      "mistakes": "turn off throttle too soon"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "5:47",
+      "sequence": 4,
+      "braking": "look at the white sign",
+      "gear": "fifth to fourth",
+      "line": "carry speed into the corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "three and four",
+      "start_time": "7:05",
+      "sequence": 5,
+      "label_guess": "T2",
+      "braking": "one marker, full throttle",
+      "gear": "full throttle",
+      "line": "turn into bottom lane",
+      "exit": "white line, important for run out",
+      "mistakes": "entering higher lane makes it harder to get down to white line"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn three",
+      "start_time": "8:24",
+      "sequence": 6,
+      "label_guess": "T4",
+      "line": "turn in on the white line, apex on white line",
+      "exit": "maintain speed, use throttle to catch oversteer",
+      "mistakes": "being higher than the white line"
+    },
+    {
+      "label": null,
+      "spoken_as": "one and two",
+      "start_time": "9:44",
+      "sequence": 7,
+      "label_guess": "T4",
+      "line": "late apex",
+      "exit": "throttle control",
+      "mistakes": "full throttle on exit"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "12:18",
+      "sequence": 9,
+      "braking": "brake aggressively on track before cone at 45 mph",
+      "gear": "2",
+      "line": "straight wheel to pit road",
+      "mistakes": "not braking late enough, may snap"
+    }
+  ],
+  "general_tips": [
+    "Get all the way down to the white line on exit of turn 2.",
+    "Roll along the white line through turns 3 and 4.",
+    "Important to balance the car on the banking through turns 1 and 2.",
+    "pay attention to lanes",
+    "shift going into one",
+    "use brake in three and four in later runs",
+    "consider rubber laydown affecting throttle control",
+    "lift off throttle very slowly to keep front end settled",
+    "use second lane for better grip, late apex for good run to start finish line",
+    "use the white line in the apron to your advantage if you feel like you're pushing through the corner",
+    "use engine brake to get down to speed, get back on throttle at 75, straighten wheel for easier exit",
+    "stay on throttle late into turn three",
+    "throttle control is faster than full throttle as rubber gets laid down",
+    "Roll the car to the white line for the apex.",
+    "Maintain a straight line on exit for momentum and tire comfort.",
+    "Slow down approaching the cone on pit road entrance.",
+    "focus on placing car down to white line for entry",
+    "get on brakes before cone, stay on track",
+    "use engine braking to slow down and turn"
+  ],
+  "dropped_ungrounded": 1
+}

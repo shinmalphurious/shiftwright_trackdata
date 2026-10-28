@@ -67,5 +67,108 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "late_model"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "hard onto the binders",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "let it float through the middle",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "pick up the gas a little bit and then full throttle on exit",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard, float through the middle, and accelerate fully on exit."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "late_model"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "back onto the binders",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "roll through the middle",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "back off of the gas",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, roll through the middle, and ease off the gas on exit."
+    }
+  },
+  "corner_facts": {}
 }

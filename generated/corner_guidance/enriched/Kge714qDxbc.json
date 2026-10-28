@@ -1,0 +1,208 @@
+{
+  "video_id": "Kge714qDxbc",
+  "track_id": 159,
+  "track_name": "Summit Point Raceway - School",
+  "title": "Track Guide - MX5 - Summit Point Raceway - 1:23.01x",
+  "car": "MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake hard at the cones on your left, down to second gear",
+      "gear": "second gear",
+      "line": "aim to apex relatively early, on the inside of the patch of concrete",
+      "exit": "back on the power early on, watch for the kids who litter on the exit",
+      "mistakes": "too much throttle on the exit can lead to spinning",
+      "note_id": "Kge714qDxbc:0",
+      "text": "braking: brake hard at the cones on your left, down to second gear; gear: second gear; line: aim to apex relatively early, on the inside of the patch of concrete; exit: back on the power early on, watch for the kids who litter on the exit; mistakes: too much throttle on the exit can lead to spinning",
+      "spoken_as": "turn one",
+      "passage_time": "0:01",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:42",
+      "snippet": "to second gear and aim to apex relatively early smoothly back on the power and the best line through this",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "slight lift",
+      "exit": "keep the car to the left and keep it in second gear",
+      "mistakes": "too much throttle on exit",
+      "note_id": "Kge714qDxbc:1",
+      "text": "braking: slight lift; exit: keep the car to the left and keep it in second gear; mistakes: too much throttle on exit",
+      "spoken_as": "turn three",
+      "passage_time": "1:18",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:39",
+      "snippet": "exit keep the car to the left and keep it in second gear line up for turn five bounce off the limiter then Trailbreaker",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "hard braking zone",
+      "gear": "down into second gear",
+      "line": "keep it tight here",
+      "exit": "smooth on the throttle on exit",
+      "mistakes": "not being smooth",
+      "note_id": "Kge714qDxbc:2",
+      "text": "braking: hard braking zone; gear: down into second gear; line: keep it tight here; exit: smooth on the throttle on exit; mistakes: not being smooth",
+      "spoken_as": "for is a hard braking zone",
+      "passage_time": "1:18",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {
+        "after": "T3",
+        "before": "T5",
+        "corners_between": [
+          "T4"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:42",
+      "snippet": "it in second gear line up for turn five bounce off the limiter then Trailbreaker dive into this air again",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "bouncing off the limiter",
+      "gear": "up shift to third gear",
+      "line": "position your car in the middle of the track and turn into the right-hander",
+      "exit": "keep the car to the right-hand side of the track",
+      "mistakes": "not lifting if necessary",
+      "note_id": "Kge714qDxbc:3",
+      "text": "braking: bouncing off the limiter; gear: up shift to third gear; line: position your car in the middle of the track and turn into the right-hander; exit: keep the car to the right-hand side of the track; mistakes: not lifting if necessary",
+      "spoken_as": "line up for turn five",
+      "passage_time": "1:18",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:04",
+      "snippet": "the right-hander lifting if necessary and keeping the car to the right-hand side of the track as we start to look",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "shift up to four",
+      "line": "turn into this corner in third gear",
+      "exit": "lift off the throttle to try and stop the car breaking loose",
+      "mistakes": "keeping your foot on the floor",
+      "note_id": "Kge714qDxbc:4",
+      "text": "gear: shift up to four; line: turn into this corner in third gear; exit: lift off the throttle to try and stop the car breaking loose; mistakes: keeping your foot on the floor",
+      "spoken_as": "approaching in fourth gear",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:18",
+      "snippet": "this corner in third gear shifting up to four that red line I was normal when we shift we lift off the throttle to try",
+      "best_candidate": {
+        "corner_id": "T8",
+        "confidence": 0.216,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "start/finish",
+        "estimated_pct": 0.6698,
+        "corner_pct": 0.6533,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "start/finish",
+        "corners_between": [
+          "T6",
+          "T7",
+          "T8",
+          "T9",
+          "T10"
+        ]
+      }
+    },
+    {
+      "braking": "braking slightly before the dirt on the edge of the track, brake gently",
+      "gear": "4th gear",
+      "line": "point the car to the inside of the track, apex earlier",
+      "exit": "power down and hook, hold in 4th gear across the line",
+      "note_id": "Kge714qDxbc:5",
+      "text": "braking: braking slightly before the dirt on the edge of the track, brake gently; gear: 4th gear; line: point the car to the inside of the track, apex earlier; exit: power down and hook, hold in 4th gear across the line",
+      "spoken_as": "approaching in fourth gear",
+      "passage_time": "2:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "2:37",
+      "snippet": "braking slightly before it we brake quite gently scrubbing speed and pointing the car to the inside of the",
+      "best_candidate": {
+        "corner_id": "T10",
+        "confidence": 0.398,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "start/finish",
+        "estimated_pct": 0.8493,
+        "corner_pct": 0.8623,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "start/finish",
+        "corners_between": [
+          "T6",
+          "T7",
+          "T8",
+          "T9",
+          "T10"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "video_id": "YTcSTO6gNIY",
+  "track_id": 182,
+  "track_name": "Oulton Park Circuit - Island",
+  "title": "Track guide Oulton Park - Island Ray FF1600 - Fixed iRacing",
+  "car_hint": "ff1600",
+  "car": "Ray FF1600",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:06:42.245278+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Banner on fence, peak 85%",
+      "gear": "4th",
+      "line": "Turn-in left, apex last quarter curb",
+      "exit": "Full throttle, use outside astro turf",
+      "mistakes": "Avoid hitting the little hill on the inside"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T2",
+      "braking": "Before little hill, 70%",
+      "gear": "4th",
+      "line": "Trail brake to curb",
+      "exit": "Full throttle",
+      "mistakes": "Avoid outside curb incident point"
+    },
+    {
+      "label": null,
+      "spoken_as": "this corner",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "Break hard when car tops the hill, trail brake to apex",
+      "line": "Overshoot the corner, get close to the curb at the top",
+      "exit": "Full throttle, open steering on exit",
+      "mistakes": "Lock up tires easily, miss the curb"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "Turn 5",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Midway between 100 and 50 boards, break hard, trail brake to first tire barrier",
+      "mistakes": "Going into Turn 5 too fast compromises the rest of the section"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn 7",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "brake marker is discolored spot, brake to 50% pressure, trail brake to first curb",
+      "line": "take inside curb, use outside curb for overtaking",
+      "exit": "full throttle from first curb",
+      "mistakes": "don't heat inside curbs, easy to slide out"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:34",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "brake marker is discolored part of track, brake hard to apex",
+      "line": "apex is emergency road, late third of corner",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "easy to overshoot apex, rear can go around"
+    }
+  ],
+  "general_tips": [
+    "Approach T2 lookout for people",
+    "Turn 5 is a good overtaking opportunity",
+    "Defend by being on the inside",
+    "10-10 is a good overtaking opportunity"
+  ],
+  "dropped_ungrounded": 0
+}

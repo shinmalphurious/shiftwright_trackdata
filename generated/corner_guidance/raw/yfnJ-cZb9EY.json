@@ -1,0 +1,115 @@
+{
+  "video_id": "yfnJ-cZb9EY",
+  "track_id": 145,
+  "track_name": "Brands Hatch Circuit - Grand Prix",
+  "title": "iRacing Caterham 420R Brands Hatch Guide 1:30.5 Caterham 420R Brands Hatch GP Track Guide",
+  "car_hint": "general",
+  "car": "Caterham 420R",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:28:53.342696+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:10",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "brake to 30% at first braking marker, trail off",
+      "gear": "4th",
+      "exit": "get back on gas early, exit wide"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:10",
+      "sequence": 1,
+      "braking": "brake to 45% at end of gravel trap",
+      "gear": "2nd",
+      "exit": "trail off, get slowly back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number three",
+      "start_time": "3:32",
+      "sequence": 2,
+      "label_guess": "T3",
+      "braking": "50 marker, 25%, trail off",
+      "gear": "3rd",
+      "line": "left tires over rumble strip",
+      "exit": "100%, go wide"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "3:32",
+      "sequence": 2,
+      "braking": "50 board, 35-40%, trail off",
+      "gear": "3rd",
+      "line": "point at cairns, light apex",
+      "exit": "100%, wide but off grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "3:32",
+      "sequence": 2,
+      "label_guess": "T5",
+      "braking": "midway between 50 and 100, straight on"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "4:50",
+      "sequence": 3,
+      "label_guess": "T5",
+      "braking": "between 100 and 50, 30% trail off",
+      "line": "run along the asphalt, do not cut",
+      "mistakes": "cutting the corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "4:50",
+      "sequence": 3,
+      "label_guess": "T6",
+      "braking": "between 100 and 50, 25% trail off",
+      "line": "cut the corner, left front tire on track, right front tire on grass"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "final corner in this little section",
+      "start_time": "4:50",
+      "sequence": 3,
+      "braking": "close to 50, 25% trail off",
+      "line": "trail off long, left front tire on track, right front tire on grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "4:50",
+      "sequence": 3,
+      "label_guess": "T8",
+      "braking": "between 100 and 50, 35% trail off",
+      "exit": "back on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "6:08",
+      "sequence": 4,
+      "label_guess": "T8",
+      "braking": "braking midway between the 100 and the 50, 45% trail braking",
+      "gear": "fourth gear",
+      "exit": "back on the gas well ahead of the apex"
+    }
+  ],
+  "general_tips": [
+    "get back on the gas early to maintain high minimum speed",
+    "exit wide but avoid gravel trap",
+    "be lenient on the off tracks with right-hand tires",
+    "wait for grip after crest"
+  ],
+  "dropped_ungrounded": 7
+}

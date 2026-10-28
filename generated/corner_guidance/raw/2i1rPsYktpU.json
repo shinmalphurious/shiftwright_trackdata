@@ -1,0 +1,98 @@
+{
+  "video_id": "2i1rPsYktpU",
+  "track_id": 152,
+  "track_name": "Phillip Island Circuit",
+  "title": "iRacing MX5 Phillip Island Guide 1:45.8 Mazda MX5 Phillip Island Track Guide USE THIS",
+  "car_hint": "mx5",
+  "car": "Mazda MX5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:09:53.496382+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:54",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "midway across the track, full lift 100%",
+      "line": "turn in, apex near left curb",
+      "exit": "slow progressive increase on throttle well ahead of curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn two",
+      "start_time": "3:11",
+      "sequence": 2,
+      "braking": "get on brakes to 45%, trail off, drop to third",
+      "gear": "third",
+      "line": "counter steer, rally cross",
+      "exit": "pick up on gas",
+      "mistakes": "avoid going on and off the gas"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "the hairpin of turn four",
+      "start_time": "3:11",
+      "sequence": 2,
+      "braking": "get on brakes midway between 150 and 100 markers, 95%, first gear",
+      "gear": "first",
+      "line": "get all the way over to the left, run over rumble strips"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "Turn eight",
+      "start_time": "4:30",
+      "sequence": 3,
+      "braking": "Get on brakes at crossway road, trail off.",
+      "gear": "Flap",
+      "line": "Run over rumble strips."
+    },
+    {
+      "label": "T9",
+      "spoken_as": "Turn nine",
+      "start_time": "4:30",
+      "sequence": 3,
+      "braking": "Don't break too much at crossway road.",
+      "mistakes": "Don't brake too much."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:47",
+      "sequence": 4,
+      "label_guess": "T10",
+      "braking": "Brake just before the crossway road, 20-25%, trail off.",
+      "gear": "Drop to 3rd",
+      "line": "Inside line",
+      "exit": "Gas to 70%, straighten steering wheel"
+    },
+    {
+      "label": null,
+      "spoken_as": "50 board",
+      "start_time": "5:47",
+      "sequence": 4,
+      "label_guess": "T11",
+      "braking": "Brake just ahead of 50 board, straight to 1st, trail off.",
+      "gear": "Straight to 1st",
+      "exit": "Get back on gas as soon as possible"
+    },
+    {
+      "label": null,
+      "spoken_as": "rumble strip",
+      "start_time": "5:47",
+      "sequence": 4,
+      "label_guess": "T12",
+      "line": "Run right tires over rumble strip",
+      "exit": "Hold 80-85%, go right, flat left-hander",
+      "mistakes": "Don't go straight up to 100%"
+    }
+  ],
+  "general_tips": [
+    "Feel the rumble strip on the left side of the track.",
+    "Taking T12 flat gains nearly 2/10 into T1.",
+    "Heat."
+  ],
+  "dropped_ungrounded": 1
+}

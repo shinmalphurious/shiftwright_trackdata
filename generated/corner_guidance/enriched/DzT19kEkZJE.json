@@ -1,0 +1,245 @@
+{
+  "video_id": "DzT19kEkZJE",
+  "track_id": 166,
+  "track_name": "Okayama International Circuit - Full Course",
+  "title": "Track Guide Okayama - Full Mazda MX5 iRacing",
+  "car": "MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at tire marks or lose cone from FOV, 90-95% pressure",
+      "line": "Turn-in at marker, apex at top of corner, on curb",
+      "exit": "Go on throttle as soon as on curb, use as much track as needed",
+      "note_id": "DzT19kEkZJE:0",
+      "text": "braking: Brake at tire marks or lose cone from FOV, 90-95% pressure; line: Turn-in at marker, apex at top of corner, on curb; exit: Go on throttle as soon as on curb, use as much track as needed",
+      "spoken_as": "Turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 0.67,
+          "exit": 0.86
+        }
+      },
+      "time": "0:20",
+      "snippet": "I get to the tire marks, or when I lose the cone from my FOV. Whatever works best for you. You want to brake hard for",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "2nd or 3rd",
+      "line": "Go on throttle to steer, use curb on outside",
+      "exit": "Full throttle once curb visible, use curb to carry speed",
+      "note_id": "DzT19kEkZJE:1",
+      "text": "gear: 2nd or 3rd; line: Go on throttle to steer, use curb on outside; exit: Full throttle once curb visible, use curb to carry speed",
+      "spoken_as": "Turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:04",
+      "snippet": "of course, use the curb on the outside to carry as much speed as you can. Now you take the shortest route possible,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake hard at first tower, 90-95% before easing into trail brake to curb.",
+      "gear": "1st",
+      "line": "Later apex, aim for middle of track.",
+      "exit": "Full throttle, get car to right for turn six.",
+      "note_id": "DzT19kEkZJE:2",
+      "text": "braking: Brake hard at first tower, 90-95% before easing into trail brake to curb.; gear: 1st; line: Later apex, aim for middle of track.; exit: Full throttle, get car to right for turn six.",
+      "spoken_as": "turn five",
+      "passage_time": "1:17",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:21",
+      "snippet": "Again, 90 to 95% before easing into a trail brake to the curb. Once I'm on the curb, I'll go full throttle again. You",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Quick hit to 25%, aim for inside curb.",
+      "line": "Cut inside curb.",
+      "note_id": "DzT19kEkZJE:3",
+      "text": "braking: Quick hit to 25%, aim for inside curb.; line: Cut inside curb.",
+      "spoken_as": "turn six",
+      "passage_time": "1:17",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:28",
+      "snippet": "want to give it a quick hit to about 25% and aim it so you can go over the curb on the inside. You can even cut it a lot",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Quick hit to 25%, aim for inside curb",
+      "line": "Cut inside curb",
+      "exit": "On throttle after curb",
+      "mistakes": "Cutting curb too much",
+      "note_id": "DzT19kEkZJE:4",
+      "text": "braking: Quick hit to 25%, aim for inside curb; line: Cut inside curb; exit: On throttle after curb; mistakes: Cutting curb too much",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:36",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:46",
+      "snippet": "full throttle, and you can cut the curb here on the inside, but if you cut it too much, you'll get a slow down, and a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake on curb, 25%",
+      "line": "Apex after midway, take inside curb",
+      "exit": "Full throttle after curb",
+      "mistakes": "Spinning due to gravel on outside",
+      "note_id": "DzT19kEkZJE:5",
+      "text": "braking: Brake on curb, 25%; line: Apex after midway, take inside curb; exit: Full throttle after curb; mistakes: Spinning due to gravel on outside",
+      "spoken_as": "turn seven",
+      "passage_time": "2:36",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:44",
+      "snippet": "25%. I apex after midway in the corner, and I take a lot of the curb. Once I get onto that curb, I'll go full throttle.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Fence on left, 90-95% brake pressure, trail brake to curb",
+      "line": "Apex top of corner, exit middle of track",
+      "exit": "Full throttle after curb",
+      "note_id": "DzT19kEkZJE:6",
+      "text": "braking: Fence on left, 90-95% brake pressure, trail brake to curb; line: Apex top of corner, exit middle of track; exit: Full throttle after curb",
+      "spoken_as": "turn eight",
+      "passage_time": "2:36",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:08",
+      "snippet": "sight, I'll hit the brake for 90 to 95% brake pressure and trail the brake all the way to the curb. I apex in the top",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "No clear marker, 30-35% brake pressure",
+      "line": "Apex later part of corner",
+      "exit": "Full throttle after curb",
+      "note_id": "DzT19kEkZJE:7",
+      "text": "braking: No clear marker, 30-35% brake pressure; line: Apex later part of corner; exit: Full throttle after curb",
+      "spoken_as": "turn nine",
+      "passage_time": "2:36",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:36",
+      "snippet": "curb, I'll go full throttle again, and I'll of course use all of the curb on the outside. This one here is going to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Cut inside curb",
+      "exit": "Full throttle",
+      "mistakes": "Cutting curb too much",
+      "note_id": "DzT19kEkZJE:8",
+      "text": "line: Cut inside curb; exit: Full throttle; mistakes: Cutting curb too much",
+      "spoken_as": "turn 10",
+      "passage_time": "2:36",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:46",
+      "snippet": "full throttle, and you can cut the curb here on the inside, but if you cut it too much, you'll get a slow down, and a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 75% at gravel change",
+      "line": "turn-in to curb, apex on curb",
+      "exit": "full throttle, use left side",
+      "mistakes": "touching gravel slows car",
+      "note_id": "DzT19kEkZJE:9",
+      "text": "braking: brake to 75% at gravel change; line: turn-in to curb, apex on curb; exit: full throttle, use left side; mistakes: touching gravel slows car",
+      "spoken_as": "turn",
+      "passage_time": "3:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:53",
+      "snippet": "turn, I use this change in the gravel here on the left as my braking marker. Once we get to that, I'll hit the brake"
+    }
+  ]
+}

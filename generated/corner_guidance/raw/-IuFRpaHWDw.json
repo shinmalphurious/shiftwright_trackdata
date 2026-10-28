@@ -1,0 +1,140 @@
+{
+  "video_id": "-IuFRpaHWDw",
+  "track_id": 103,
+  "track_name": "Las Vegas Motor Speedway - Oval",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Las Vegas",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:19:38.075163+00:00",
+  "passages": 13,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:48",
+      "sequence": 2,
+      "braking": "use Las Vegas logo on the wall as reference",
+      "line": "load into the bank"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:07",
+      "sequence": 3,
+      "braking": "lift at the last number one on the wall",
+      "line": "track out from the wall, use wheel to turn away from it",
+      "exit": "wide open throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:28",
+      "sequence": 4,
+      "label_guess": "T2",
+      "braking": "decelerate but not fully out of throttle",
+      "line": "bring more than half car below seam",
+      "exit": "carry max potential, may get slightly offline",
+      "mistakes": "scrubbing speed off"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn three",
+      "start_time": "5:28",
+      "sequence": 4,
+      "label_guess": "T3",
+      "line": "find marker to turn in, front clip at second to last logo before fence"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "6:49",
+      "sequence": 5,
+      "label_guess": "T2",
+      "braking": "Brake near the logo before the fence, lift off the throttle.",
+      "exit": "Maintain part throttle, keep radius consistent."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "8:07",
+      "sequence": 6,
+      "line": "wrap as long as you can in the center",
+      "exit": "crossing the seam, keep stability, exit low",
+      "mistakes": "not wrapping the weight line long enough"
+    },
+    {
+      "label": null,
+      "spoken_as": "the bottom Lane",
+      "start_time": "9:27",
+      "sequence": 7,
+      "line": "Dive into the bottom lane",
+      "exit": "Get through the bumps, get offline aggressively, get back to optimal line by mid exit",
+      "mistakes": "Driving through the bumps, crossing dash line too late, being too aggressive with throttle"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "12:06",
+      "sequence": 9,
+      "line": "land and then momentum gain",
+      "exit": "lower exit put the right sides on the seam"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "12:06",
+      "sequence": 9,
+      "line": "bottom pretty good angle"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn one and two",
+      "start_time": "13:26",
+      "sequence": 10,
+      "line": "clip left front on Dash, off throttle, then build throttle",
+      "exit": "manage Center speed, keep angle",
+      "mistakes": "limiting potential by running middle, risking slider"
+    },
+    {
+      "label": null,
+      "spoken_as": "three",
+      "start_time": "14:45",
+      "sequence": 11,
+      "label_guess": "T3",
+      "line": "turn-in to center port, apex at 5/8 portion, use track to turn away from center",
+      "exit": "keep momentum, use wall grip, stay on throttle",
+      "mistakes": "running top side early, risk of contact, longer lap time, more off-throttle time"
+    }
+  ],
+  "general_tips": [
+    "Track will be fast-paced, temperatures mid 80s to mid 90s or higher.",
+    "Focus on fuel strategy, lane variation, and tire cooling.",
+    "Focus on keeping the right front and right rear tires cool.",
+    "Track is fast for corner entry and center speed.",
+    "focus on entry phase",
+    "keep car balanced",
+    "run above the metal seam for neutral balance",
+    "run below the metal seam for efficient lap time",
+    "keep front and rear tires working together",
+    "maximize drive through center point",
+    "use weight line as a tool",
+    "maximize grip to keep stability",
+    "wrap weight line longer later in the run",
+    "Use the marker to help straighten up the exit",
+    "Try to get into the entry without an imbalance",
+    "Be efficient and cross the dash line earlier for a lower point of entry",
+    "Minimize high speed loss and momentum.",
+    "Pinpoint where to have minimum speed.",
+    "Try to use less throttle or keep momentum consistent.",
+    "not using as much throttle",
+    "running the top",
+    "find it for you",
+    "search for clean air, consider bottom line for better Avenue",
+    "stay on throttle, maintain momentum, balance car, use wall grip, maximize on-throttle phase",
+    "Understand racing side by side, harder to clear someone on the bottom due to momentum Lane being in the middle",
+    "Minimizing high-speed loss is a focal point this week"
+  ],
+  "dropped_ungrounded": 2
+}

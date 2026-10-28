@@ -371,5 +371,245 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T1: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T1 (same corner, inheritance 1.00); Slow corner at T1: research 0.75 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T1",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T2": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T3": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T4": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T4: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T4 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T4",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T18": [
+      {
+        "claim": "chicane",
+        "statement": "Chicane",
+        "confidence": 0.973,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 2
+        },
+        "explanation": "Chicane at T18: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T10": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.913,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T10: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T11": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T11: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T15": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.98,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 2
+        },
+        "explanation": "Fast corner at T15: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T15: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T15 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T15: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T15",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T16": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T16: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T5": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.989,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T5: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T5",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T7": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.964,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Fast corner at T7: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T7 (same corner, inheritance 1.00); Fast corner at T7: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T7",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T19": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T19: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T19 (same corner, inheritance 1.00); Slow corner at T19: research 0.75 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "source_corner": "T19",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

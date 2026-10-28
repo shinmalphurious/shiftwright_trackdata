@@ -1,0 +1,74 @@
+{
+  "track_id": 142,
+  "track": "Summit Point Raceway - Jefferson Reverse",
+  "records": {
+    "142:T1:heavy_braking": {
+      "id": "142:T1:heavy_braking",
+      "track_id": 142,
+      "track": "Summit Point Raceway - Jefferson Reverse",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance from previous corner suggests high speed approach, and short distance to next corner suggests heavy braking.",
+          "at": "2026-10-28T09:18:54+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:04:39+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "OPf6n_VGh1E",
+              "result": "confirm",
+              "time": "0:17",
+              "note": "braking: brake hard at two cones, trail brake to curb; line: follow repaved part around, touch curb; exit: full throttle, get to right when repaved part stops; mistakes: hitting curb too much unsettles car",
+              "transcript_snippet": "car length before the two cones here on the left and for this one you want to break really hard all you can get and I",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=OPf6n_VGh1E"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

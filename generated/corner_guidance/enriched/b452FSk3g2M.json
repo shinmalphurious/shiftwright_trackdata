@@ -1,0 +1,188 @@
+{
+  "video_id": "b452FSk3g2M",
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "title": "iRacing BMW GT3 Montreal Guide 1:33.8 BMW M4 GT3 Circuit Gilles Villeneuve Track Guide",
+  "car": "BMW M4 GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at end of patch on right, 60%",
+      "gear": "Roll on up to 60%",
+      "line": "Trail brake to apex",
+      "exit": "Get back on gas",
+      "note_id": "b452FSk3g2M:0",
+      "text": "braking: Brake at end of patch on right, 60%; gear: Roll on up to 60%; line: Trail brake to apex; exit: Get back on gas",
+      "spoken_as": "first breaking marker",
+      "passage_time": "1:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:21",
+      "snippet": "60%. Trail it off down to the apex and then we're going to get back on the gas to show you whereabouts our wheels are."
+    },
+    {
+      "braking": "Brake at 30%",
+      "line": "Late apex",
+      "exit": "Blip of gas, then off gas, back on brakes",
+      "note_id": "b452FSk3g2M:1",
+      "text": "braking: Brake at 30%; line: Late apex; exit: Blip of gas, then off gas, back on brakes",
+      "spoken_as": "turn number two",
+      "passage_time": "1:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:35",
+      "snippet": "gas back on the brakes up to about 30% and then trail it off looking for a late apex of turn number two."
+    },
+    {
+      "braking": "get on the brakes midway between this two marker and the one marker",
+      "gear": "leave it in third gear",
+      "line": "trail it off, leaving it in third gear",
+      "exit": "get back on the gas to about 80%",
+      "note_id": "b452FSk3g2M:2",
+      "text": "braking: get on the brakes midway between this two marker and the one marker; gear: leave it in third gear; line: trail it off, leaving it in third gear; exit: get back on the gas to about 80%",
+      "spoken_as": "turn three",
+      "passage_time": "2:46",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:48",
+      "snippet": "two marker and the one marker. And again, rolling onto the brakes up to about 45%. Trail it off, leaving it in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "go flat through turn five",
+      "note_id": "b452FSk3g2M:3",
+      "text": "line: go flat through turn five",
+      "spoken_as": "turn five",
+      "passage_time": "2:46",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:07",
+      "snippet": "We're going to go flat through turn five. Now for turn six, we're going to get on the brakes once we're alongside",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "get on the brakes once we're alongside this orange Marshall's hut",
+      "gear": "come down through to second gear",
+      "line": "get the car turned in",
+      "exit": "get on the gas up to about 90 95%",
+      "note_id": "b452FSk3g2M:4",
+      "text": "braking: get on the brakes once we're alongside this orange Marshall's hut; gear: come down through to second gear; line: get the car turned in; exit: get on the gas up to about 90 95%",
+      "spoken_as": "turn six",
+      "passage_time": "2:46",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:21",
+      "snippet": "to about 60% down through to second gear. Get the car turned in. Back on the gas once we get to I don't know why I",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "get on the brakes about midway between the three marker and the two marker",
+      "gear": "come down through to second gear",
+      "line": "really attacking this curb",
+      "exit": "get back on the gas to 100%",
+      "note_id": "b452FSk3g2M:5",
+      "text": "braking: get on the brakes about midway between the three marker and the two marker; gear: come down through to second gear; line: really attacking this curb; exit: get back on the gas to 100%",
+      "spoken_as": "turns eight and nine",
+      "passage_time": "2:46",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:47",
+      "snippet": "between the three marker and the two marker. Exactly where we are now. And again on the brakes to about 60% maybe",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes once we get to the end of this assault here in the start of the grass",
+      "gear": "first gear",
+      "line": "come over to the left hand side",
+      "exit": "back on the gas to 100%",
+      "note_id": "b452FSk3g2M:6",
+      "text": "braking: brakes once we get to the end of this assault here in the start of the grass; gear: first gear; line: come over to the left hand side; exit: back on the gas to 100%",
+      "spoken_as": "the hairpin",
+      "passage_time": "4:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:13",
+      "snippet": "Come over to the left hand side as we're coming into the hairpin. We're going to get on the brakes once we get to the end"
+    },
+    {
+      "braking": "get on the brakes a final time",
+      "gear": "down through the gears",
+      "line": "really attack this final set of curbs",
+      "exit": "back on the guest to 100% and then back off a tiny bit to get through the second and then close it off",
+      "note_id": "b452FSk3g2M:7",
+      "text": "braking: get on the brakes a final time; gear: down through the gears; line: really attack this final set of curbs; exit: back on the guest to 100% and then back off a tiny bit to get through the second and then close it off",
+      "spoken_as": "just before the three marker here",
+      "passage_time": "4:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:04",
+      "snippet": "attack this final set of curbs. back on the guest to 100% and then back off a tiny bit to get through the second"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "video_id": "ZpUEkSCJRZs",
+  "track_id": 175,
+  "track_name": "Suzuka International Racing Course - West",
+  "title": "iRacing Ferrari GT3 Suzuka Guide 1:56.1 Ferrari 296 GT3 Suzuka GP Track Guide 1",
+  "car_hint": "general",
+  "car": "Ferrari 296 GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:58:11.023292+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:32",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "50 board, 40% brake, trail off to apex",
+      "gear": "2nd gear",
+      "line": "clip first apex, left side of track",
+      "exit": "wide exit, right side, 100% throttle",
+      "mistakes": "over braking"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:32",
+      "sequence": 1,
+      "braking": "full lift, 5% brake",
+      "exit": "back on gas at apex",
+      "mistakes": "over braking"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "3:50",
+      "sequence": 2,
+      "label_guess": "T4",
+      "braking": "lightly on the brakes to about 15% trailer off",
+      "gear": "third",
+      "line": "full lift",
+      "exit": "back on the gas in third"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "3:50",
+      "sequence": 2,
+      "label_guess": "T5",
+      "braking": "lightly on the brakes to about 5 6 7% trailer off",
+      "gear": "third",
+      "line": "full lift",
+      "exit": "back on the gas in third"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "3:50",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "brake slightly harder for this corner up to about 15 20%",
+      "gear": "second",
+      "line": "full lift",
+      "exit": "back on the gas in second gear at the apex"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "next braking marker",
+      "start_time": "3:50",
+      "sequence": 2,
+      "braking": "down to about 35 40%",
+      "gear": "third",
+      "line": "no lift",
+      "exit": "back on nice and smooth"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:50",
+      "sequence": 2,
+      "braking": "get on the brakes midway between the 100 and the 50 board to about 45%",
+      "line": "trailer it off to the apex",
+      "exit": "back on the gas"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "next braking marker",
+      "start_time": "3:50",
+      "sequence": 2,
+      "braking": "brake halfway along this rumble strip on the left hand side to about 45 50%",
+      "gear": "second",
+      "line": "trailer it off"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11 hairpin",
+      "start_time": "5:06",
+      "sequence": 3,
+      "braking": "brake at second to last lamp post on right, 55-60%",
+      "gear": "first",
+      "exit": "slowly build throttle to 800%"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 12",
+      "start_time": "5:06",
+      "sequence": 3,
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 13 and 14 Spoon",
+      "start_time": "5:06",
+      "sequence": 3,
+      "braking": "brake before entrance road on right, 45%",
+      "gear": "third",
+      "exit": "build throttle after rumble strip",
+      "mistakes": "don't go early, stay within track limits"
+    },
+    {
+      "label": null,
+      "spoken_as": "the 50",
+      "start_time": "6:29",
+      "sequence": 4,
+      "braking": "light lift to 80%",
+      "gear": "fifth",
+      "exit": "back on gas in fifth"
+    },
+    {
+      "label": null,
+      "spoken_as": "final bit of braking",
+      "start_time": "6:29",
+      "sequence": 4,
+      "braking": "midway between 150 and 100, 60-65%",
+      "line": "pointing to the outside",
+      "exit": "through white line, trail off to first"
+    },
+    {
+      "label": null,
+      "spoken_as": "final corner",
+      "start_time": "6:29",
+      "sequence": 4,
+      "braking": "lift",
+      "exit": "back on gas"
+    }
+  ],
+  "general_tips": [
+    "don't over brake through esses",
+    "stay out on the right-hand side with left-hand tires on track",
+    "pin ears back to the line"
+  ],
+  "dropped_ungrounded": 1
+}

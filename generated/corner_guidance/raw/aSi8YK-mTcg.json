@@ -1,0 +1,119 @@
+{
+  "video_id": "aSi8YK-mTcg",
+  "track_id": 167,
+  "track_name": "Okayama International Circuit - Short",
+  "title": "iRacing Formula Vee Okayama International Full Circuit - Track Guide & Tips - Rookie Fixed Setup",
+  "car_hint": "vee",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:54:20.249668+00:00",
+  "passages": 8,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "the cone on the right hand side",
+      "start_time": "0:02",
+      "sequence": 0,
+      "gear": "3rd",
+      "line": "Turn-in to right, apex at muddy patch, lift off, exit wide left",
+      "exit": "4th gear, keep straight through Kink"
+    },
+    {
+      "label": null,
+      "spoken_as": "Into The Hairpin",
+      "start_time": "1:23",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "braking marker, up to 80%, trailing",
+      "line": "turn-in to right, apex right",
+      "exit": "lift, back on gas"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:41",
+      "sequence": 2,
+      "braking": "don't overbrake, brake up to 55%",
+      "gear": "fourth gear",
+      "line": "turn towards Apex, trail brake",
+      "exit": "downshift to third gear at Apex, go 100% gas",
+      "mistakes": "over slowing, locking up wheels"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:41",
+      "sequence": 2,
+      "braking": "lift to 28%",
+      "line": "turn in at end of grass, over mud patch",
+      "exit": "get back on gas very early, exit wide, up to fourth gear, straighten car out through kink"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "outward curve",
+      "start_time": "4:05",
+      "sequence": 3,
+      "braking": "50 meter marker, 65% pressure",
+      "gear": "4, then 3",
+      "line": "trail braking, turn in late, exit wide",
+      "exit": "100% throttle early"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "the hairpin",
+      "start_time": "4:05",
+      "sequence": 3,
+      "braking": "Marshall's Hut, 80% pressure"
+    },
+    {
+      "label": null,
+      "spoken_as": "six",
+      "start_time": "5:22",
+      "sequence": 4,
+      "label_guess": "T6",
+      "braking": "braking marker halfway between 50 and Marshall's Hut, brake up to 80%",
+      "gear": "third",
+      "line": "turn-in at white line, lift to 5%, build back up",
+      "exit": "wide exit, avoid grass",
+      "mistakes": "stay out of grass"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "seven",
+      "start_time": "5:22",
+      "sequence": 4,
+      "braking": "braking marker halfway between 50 and Marshall's Hut, brake up to 80%",
+      "gear": "third",
+      "line": "turn-in at white line, lift to 9%",
+      "exit": "wide exit, avoid grass",
+      "mistakes": "stay out of grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 10",
+      "start_time": "6:40",
+      "sequence": 5,
+      "gear": "flat",
+      "line": "wide",
+      "exit": "100% gas early exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "6:40",
+      "sequence": 5,
+      "braking": "25% on muddy bit",
+      "line": "turn in early and hard",
+      "exit": "get back on gas early exit"
+    }
+  ],
+  "general_tips": [
+    "Watch yourself getting into the hairpin at turn five",
+    "look for 25M board on right, muddy patch on left",
+    "Get this corner right for the big straight afterwards.",
+    "trail braking, lift through corners, build back up on exit",
+    "barest touch on brake to balance front wheels"
+  ],
+  "dropped_ungrounded": 3
+}

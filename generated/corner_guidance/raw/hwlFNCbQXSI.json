@@ -1,0 +1,152 @@
+{
+  "video_id": "hwlFNCbQXSI",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing MX5 Oulton Park International Guide 1:50.8 Mazda MX5 Fixed Oulton Park Track Guide",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:46:26.259125+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake to about 45% trail off",
+      "gear": "back on the gas before the apex",
+      "line": "exit wide",
+      "exit": "can't exit any wider than that"
+    },
+    {
+      "label": null,
+      "spoken_as": "little dip in the road",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "briefly, sharply on the brakes to about 60%",
+      "gear": "drop it down to third",
+      "line": "control the rear with the gas",
+      "exit": "go up to 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "cones on the right-hand side",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "lift down to about 45%",
+      "gear": "roll up to about 85%",
+      "line": "turn in, get right-hand tires just on those curbs",
+      "exit": "exit nice and wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 15",
+      "start_time": "1:21",
+      "sequence": 1,
+      "label_guess": "T15",
+      "braking": "midway between 100 and 50, brake to 100%, down to second, lift to first",
+      "gear": "second, lift to first",
+      "line": "left-hand side, up to second, lift, back on gas, cut corner, exit wide",
+      "exit": "exit wide onto rumble strip",
+      "mistakes": "do not miss the curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "final bit of braking",
+      "start_time": "1:21",
+      "sequence": 1,
+      "braking": "2/3 way between turn right sign and marshals, brake to drop to second",
+      "gear": "second",
+      "line": "right hand tires over curb, exit wide",
+      "exit": "hug left, across the line"
+    },
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:40",
+      "sequence": 2,
+      "label_guess": "T1",
+      "gear": "3rd",
+      "line": "turn-in to curb, apex just on rumble strip, exit wide",
+      "exit": "throttle up to 100%",
+      "mistakes": "can go off track if not careful"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:40",
+      "sequence": 2,
+      "label_guess": "T2",
+      "braking": "little dip in road, 55-60%, trail brake to 3rd gear",
+      "gear": "3rd",
+      "exit": "throttle up to 65%",
+      "mistakes": "can catch people out"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five Shell Oils corner",
+      "start_time": "3:58",
+      "sequence": 3,
+      "braking": "brake to 70% at end of tire wall, straight line to left",
+      "gear": "drop to 2nd",
+      "line": "turn-in left, apex left, right edge on exit",
+      "exit": "trail off, get left tires on curb edge, right tires on right edge"
+    },
+    {
+      "label": null,
+      "spoken_as": "next bit of braking",
+      "start_time": "5:16",
+      "sequence": 4,
+      "label_guess": "T6",
+      "braking": "Midway between 100 and 50, 100%",
+      "gear": "2nd",
+      "exit": "Get straight up to 100%, stay within track",
+      "mistakes": "Avoid ABS, brake early"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn number 12",
+      "start_time": "5:16",
+      "sequence": 4,
+      "gear": "1st, then 2nd",
+      "exit": "60%, lift down"
+    },
+    {
+      "label": null,
+      "spoken_as": "The Druids",
+      "start_time": "6:34",
+      "sequence": 5,
+      "label_guess": "T15",
+      "braking": "Brake briefly to 45%, drop to 3rd gear, trail off",
+      "gear": "3rd",
+      "line": "Turn-in at white line, apex at first curve, run right tires over curbing on second curve",
+      "exit": "Throttle 100%, right tires over curbing"
+    },
+    {
+      "label": "T16",
+      "spoken_as": "Final bit of braking",
+      "start_time": "6:34",
+      "sequence": 5,
+      "braking": "Brake briefly to 90-95%, drop to 2nd gear",
+      "gear": "2nd",
+      "exit": "Throttle at apex, right tires over curbing"
+    },
+    {
+      "label": null,
+      "spoken_as": "Deer Leap",
+      "start_time": "7:52",
+      "sequence": 6,
+      "braking": "Get up to 100% without ending up in the field on the left.",
+      "mistakes": "ending up in the field on the left"
+    }
+  ],
+  "general_tips": [
+    "control the rear with the gas",
+    "be careful of the tire barriers",
+    "tires are beautifully worn at end of stint",
+    "Keep right-hand tires on the right edge"
+  ],
+  "dropped_ungrounded": 2
+}

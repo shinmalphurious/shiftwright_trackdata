@@ -1,0 +1,148 @@
+{
+  "track_id": 179,
+  "track": "Long Beach Street Circuit",
+  "records": {
+    "179:T1:heavy_braking": {
+      "id": "179:T1:heavy_braking",
+      "track_id": 179,
+      "track": "Long Beach Street Circuit",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1781 m from the previous corner",
+          "at": "2026-10-28T09:24:29+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "The corner is positioned early in the lap and has a long straight leading up to it, indicating a need for heavy braking.",
+          "at": "2026-10-28T09:24:29+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:10:38+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.918
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "mPNjRGuhqWc",
+              "result": "confirm",
+              "time": "2:06",
+              "note": "braking: Brake at 500 marker, 55-60% pressure, trail off; line: Turn left, tight to the wall",
+              "transcript_snippet": "brakes and hold it around 55-60%. When the GT3 is, this is the best way to brake. We're going to trail it off and",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=mPNjRGuhqWc"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "179:T11:heavy_braking": {
+      "id": "179:T11:heavy_braking",
+      "track_id": 179,
+      "track": "Long Beach Street Circuit",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "The corner is positioned late in the lap and has a long straight leading up to it, indicating a need for heavy braking.",
+          "at": "2026-10-28T09:24:29+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:10:38+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "_m_PCNEC1bs",
+              "result": "confirm",
+              "time": "4:00",
+              "note": "braking: when the curb straightens, 90% brake pressure, easing off; line: turn in early, follow red and white curb; exit: full throttle as early as possible; mistakes: getting too far off the curb, bad exit",
+              "transcript_snippet": "brake pressure with quickly easing that off to the wall on the inside. You want to have the car turned as much as early",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=_m_PCNEC1bs"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T11: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

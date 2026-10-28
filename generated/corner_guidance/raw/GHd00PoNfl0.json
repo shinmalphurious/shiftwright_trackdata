@@ -1,0 +1,112 @@
+{
+  "video_id": "GHd00PoNfl0",
+  "track_id": 230,
+  "track_name": "Circuit of the Americas - East",
+  "title": "iRacing Aston Martin GT3 COTA Guide 2:04.9 Aston Martin GT3 Circuit Of The Americas Track Guide",
+  "car_hint": "general",
+  "car": "Aston Martin Vantage",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:44:53.871287+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "Brake at 150-100 board, 55-60% to first gear, trail off to apex, then 15%",
+      "gear": "3rd",
+      "line": "Turn-in at triangle, apex left, flat exit",
+      "exit": "Full lift, light braking to middle of roadway"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "20-25% to first gear, trail off to apex",
+      "gear": "3rd",
+      "line": "Turn-in at rumble strip, apex left, flat exit",
+      "exit": "Back on gas in 3rd gear"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "4:03",
+      "sequence": 2,
+      "label_guess": "T3",
+      "braking": "brakes just to about 5 10% trail it off",
+      "gear": "second",
+      "line": "head over to left-hand side",
+      "exit": "back on the gas at this apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "the start of this little roadway here on the left",
+      "start_time": "4:03",
+      "sequence": 2,
+      "label_guess": "T4",
+      "braking": "on the brakes again, only to about 5 10% trail it off",
+      "line": "head down to the right-hand side",
+      "exit": "back on the gas by the time we're on the left-hander",
+      "mistakes": "avoid the off-track"
+    },
+    {
+      "label": null,
+      "spoken_as": "right-hand tires on that rumble strip",
+      "start_time": "4:03",
+      "sequence": 2,
+      "label_guess": "T5",
+      "line": "left-hand tires running right over the edge of that rumble strip",
+      "exit": "keeping our left-hand tires just on the track"
+    },
+    {
+      "label": null,
+      "spoken_as": "orange sidings on um on the left and the 100 board",
+      "start_time": "4:03",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "on the brakes to about 60% down to first gear",
+      "gear": "first",
+      "line": "get that nose pointed in",
+      "exit": "back on the gas once we get there"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 15",
+      "start_time": "5:33",
+      "sequence": 3,
+      "braking": "brakes to 35-40% after Focused Health, trail off to apex",
+      "gear": "down to first",
+      "line": "turn-in at Focused Health, apex at the right side",
+      "exit": "back on gas ahead of apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "Jurid Bridge",
+      "start_time": "5:33",
+      "sequence": 3,
+      "gear": "flat",
+      "line": "go flat",
+      "exit": "lift to 40%, pick up gas over curves"
+    },
+    {
+      "label": null,
+      "spoken_as": "Turn 19",
+      "start_time": "6:51",
+      "sequence": 4,
+      "label_guess": "T3",
+      "braking": "Brake after clearing white line, 40% to second gear.",
+      "gear": "Second",
+      "line": "Turn in, apex, run tight to sausage curve.",
+      "exit": "Back on gas over rumble strip.",
+      "mistakes": "Avoid hitting the sausage curve."
+    }
+  ],
+  "general_tips": [
+    "Stay flat through turn two until wheels are off rumble strip and back on track",
+    "Check SimRacing Setup subscription for additional features."
+  ],
+  "dropped_ungrounded": 2
+}

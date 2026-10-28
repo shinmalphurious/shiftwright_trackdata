@@ -1,0 +1,54 @@
+{
+  "track_id": 407,
+  "track": "Red Bull Ring - North",
+  "records": {
+    "407:T2:heavy_braking": {
+      "id": "407:T2:heavy_braking",
+      "track_id": 407,
+      "track": "Red Bull Ring - North",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.968
+      },
+      "source_track": "Red Bull Ring - Grand Prix",
+      "source_track_id": 403,
+      "source_corner": "T4",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "403:T4:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T2: inherited from Red Bull Ring - Grand Prix T4 (same corner, same approach, inheritance 1.00); Heavy braking zone at T4: research 0.60 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "407:T2:important_exit": {
+      "id": "407:T2:important_exit",
+      "track_id": 407,
+      "track": "Red Bull Ring - North",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Red Bull Ring - Grand Prix",
+      "source_track_id": 403,
+      "source_corner": "T4",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "403:T4:important_exit"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T2: inherited from Red Bull Ring - Grand Prix T4 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

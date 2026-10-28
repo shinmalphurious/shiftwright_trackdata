@@ -1,0 +1,76 @@
+{
+  "research_generated": {
+    "tracks_researched": 420,
+    "candidate_facts": 5348,
+    "by_source": {
+      "ai": 4837,
+      "geometry": 687
+    }
+  },
+  "validation_results": {
+    "validated": 239,
+    "rejected": 48,
+    "pending": 5061,
+    "inherited": 47
+  },
+  "consensus_results": {
+    "high_confidence": 239,
+    "medium_confidence": 4442,
+    "low_confidence": 619
+  },
+  "knowledge_growth": {
+    "before": 195,
+    "after": 286,
+    "new_validated_entries": 91
+  },
+  "by_claim": {
+    "banked": {
+      "pending": 456,
+      "validated": 8
+    },
+    "chicane": {
+      "pending": 58,
+      "validated": 7
+    },
+    "elevation_change": {
+      "pending": 65
+    },
+    "fast_corner": {
+      "pending": 857,
+      "validated": 66,
+      "rejected": 4
+    },
+    "flat_out": {
+      "rejected": 11,
+      "pending": 384,
+      "validated": 7
+    },
+    "hairpin": {
+      "validated": 5,
+      "pending": 56
+    },
+    "heavy_braking": {
+      "validated": 81,
+      "pending": 641,
+      "rejected": 10
+    },
+    "important_exit": {
+      "pending": 743,
+      "validated": 21,
+      "rejected": 1
+    },
+    "overtaking_zone": {
+      "pending": 237
+    },
+    "slow_corner": {
+      "pending": 1564,
+      "rejected": 22,
+      "validated": 44
+    }
+  },
+  "evidence_used": {
+    "transcript": 104,
+    "telemetry": 37,
+    "variants": 197
+  }
+}

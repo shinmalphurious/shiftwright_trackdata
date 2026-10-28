@@ -1,41 +1,76 @@
 {
   "track_id": 332,
   "layout": "332-wildwest-full",
+  "name": "Wild West Motorsports Park",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:11:05.151728+00:00",
+  "candidates_seen": 49,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 49,
+    "new_candidates": 45,
+    "accepted": 4,
+    "selected": 4,
+    "kept_previous": 4,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 45,
+    "rejection_reasons": {
+      "no guide words in title": 26,
+      "too short": 12,
+      "venue not in title": 4,
+      "too long": 2,
+      "setup or hardware video": 1
+    }
+  },
   "selected_guides": {
     "truck": [
       {
         "video_id": "HTH-D_HOYN0",
         "title": "PRO2 Track Guide | Wild West Motorsports Park",
         "description": "Walkthrough of #WildWestMotorsportsPark in #iRacing's #PRO2 Short Course truck. Recorded with the 2020S1 build.",
+        "channel": "Mike “The Missile” Budzien",
+        "duration": 127,
         "video_type": "lap_walkthrough",
         "car": "truck",
-        "quality_score": 220
+        "quality_score": 230,
+        "venue_confidence": 1.0
       },
       {
         "video_id": "WMCdYqHk6O4",
         "title": "PRO2 Track Guide | Wild Horse Pass",
         "description": "Walkthrough of #WildHorsePass in #iRacing's #PRO2 Short Course truck. Recorded with the 2020S1 build.",
+        "channel": "Mike “The Missile” Budzien",
+        "duration": 93,
         "video_type": "lap_walkthrough",
         "car": "truck",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "JXZpMgICUkI",
+        "title": "Pro4 Tutorial - How To Get Fast - Wild West",
+        "description": "iRacing Lucas Oil Off-Road Truck Series Pro4 Tutorial - How To Get Fast - Wild West Please join our Discord ...",
+        "channel": "Britto",
+        "duration": 1118,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 196,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "y8dirMv-z44",
         "title": "Pro 4 Truck - Wild West Track Guide",
         "description": "FRA: New Track Guide video for Pro 4 Truck Fixed with the Wild West circuit!\n\nIn this video, you'll find the complete lap with ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "truck",
-        "quality_score": 120
-      }
-    ],
-    "nascar": [
-      {
-        "video_id": "CpFREG-vzZw",
-        "title": "iRacing Track Guides 2020 B Fixed - Daytona Road Nascar",
-        "description": "not a real track but good enough.",
-        "video_type": "lap_walkthrough",
-        "car": "nascar",
-        "quality_score": 220
+        "quality_score": 146,
+        "venue_confidence": 0.9
       }
     ]
   }

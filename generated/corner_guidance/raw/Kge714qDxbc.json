@@ -1,0 +1,84 @@
+{
+  "video_id": "Kge714qDxbc",
+  "track_id": 159,
+  "track_name": "Summit Point Raceway - School",
+  "title": "Track Guide - MX5 - Summit Point Raceway - 1:23.01x",
+  "car_hint": "mx5",
+  "car": "MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:34:59.047102+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "brake hard at the cones on your left, down to second gear",
+      "gear": "second gear",
+      "line": "aim to apex relatively early, on the inside of the patch of concrete",
+      "exit": "back on the power early on, watch for the kids who litter on the exit",
+      "mistakes": "too much throttle on the exit can lead to spinning"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "slight lift",
+      "exit": "keep the car to the left and keep it in second gear",
+      "mistakes": "too much throttle on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "for is a hard braking zone",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T4",
+      "braking": "hard braking zone",
+      "gear": "down into second gear",
+      "line": "keep it tight here",
+      "exit": "smooth on the throttle on exit",
+      "mistakes": "not being smooth"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "line up for turn five",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "bouncing off the limiter",
+      "gear": "up shift to third gear",
+      "line": "position your car in the middle of the track and turn into the right-hander",
+      "exit": "keep the car to the right-hand side of the track",
+      "mistakes": "not lifting if necessary"
+    },
+    {
+      "label": null,
+      "spoken_as": "approaching in fourth gear",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T6",
+      "gear": "shift up to four",
+      "line": "turn into this corner in third gear",
+      "exit": "lift off the throttle to try and stop the car breaking loose",
+      "mistakes": "keeping your foot on the floor"
+    },
+    {
+      "label": null,
+      "spoken_as": "approaching in fourth gear",
+      "start_time": "2:36",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "braking slightly before the dirt on the edge of the track, brake gently",
+      "gear": "4th gear",
+      "line": "point the car to the inside of the track, apex earlier",
+      "exit": "power down and hook, hold in 4th gear across the line"
+    }
+  ],
+  "general_tips": [
+    "take the inside line around most turns due to the MX-5's low horsepower and low weight",
+    "being smooth through this section is key to your lap time"
+  ],
+  "dropped_ungrounded": 0
+}

@@ -1,0 +1,267 @@
+{
+  "video_id": "UvR7yjL7eYo",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "iRacing McLaren GT3 Indy Road Guide 1:23.0 McLaren 720S GT3 Indianapolis Track Guide",
+  "car": "McLaren 720S GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at 60% to 200 marker, trail off to apex",
+      "gear": "2nd",
+      "line": "Turn-in to left, apex at left, exit to right",
+      "exit": "Throttle early, flat exit",
+      "note_id": "UvR7yjL7eYo:0",
+      "text": "braking: Brake at 60% to 200 marker, trail off to apex; gear: 2nd; line: Turn-in to left, apex at left, exit to right; exit: Throttle early, flat exit",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 0.6
+        }
+      },
+      "time": "2:12",
+      "snippet": "down past the two marker, 200. Now, we're going to trail it off down to the apex. We're going to start picking back"
+    },
+    {
+      "braking": "Brake to 30% before curb",
+      "gear": "3rd",
+      "line": "Apex at left rumble strip",
+      "exit": "Throttle early",
+      "note_id": "UvR7yjL7eYo:1",
+      "text": "braking: Brake to 30% before curb; gear: 3rd; line: Apex at left rumble strip; exit: Throttle early",
+      "spoken_as": "curb here",
+      "passage_time": "2:02",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 0.75
+        }
+      },
+      "time": "2:41",
+      "snippet": "brakes about a car length or two before it, not overly hard, just up to about 30% and we're wanting it to allow us to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Left edge of rumble strip",
+      "note_id": "UvR7yjL7eYo:2",
+      "text": "line: Left edge of rumble strip",
+      "spoken_as": "5 6 chicane",
+      "passage_time": "2:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:08",
+      "snippet": "left edge of the rumble strip on the first. And then, for the second chicane or the second bit of curbing, we're just",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T7",
+        "estimated_pct": 0.4104,
+        "corner_pct": 0.3369,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T7",
+        "corners_between": [
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "line": "Attack the curbing",
+      "note_id": "UvR7yjL7eYo:3",
+      "text": "line: Attack the curbing",
+      "spoken_as": "second chicane",
+      "passage_time": "2:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:13",
+      "snippet": "or the second bit of curbing, we're just going to completely attack it. You're going to find a lot of time in there if",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T7",
+        "estimated_pct": 0.4319,
+        "corner_pct": 0.3369,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T7",
+        "corners_between": [
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "Brakes to 60% at cut in the grass, second gear",
+      "gear": "2",
+      "line": "Turn left, trail braking, lift off at apex",
+      "exit": "Blip of gas, straighten steering wheel",
+      "note_id": "UvR7yjL7eYo:4",
+      "text": "braking: Brakes to 60% at cut in the grass, second gear; gear: 2; line: Turn left, trail braking, lift off at apex; exit: Blip of gas, straighten steering wheel",
+      "spoken_as": "Turn seven",
+      "passage_time": "3:19",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:37",
+      "snippet": "the way down second gear, going to trail off and then start picking back up on the gas at the apex.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brakes to 10%, trail off",
+      "exit": "Get back on gas at apex",
+      "note_id": "UvR7yjL7eYo:5",
+      "text": "braking: Brakes to 10%, trail off; exit: Get back on gas at apex",
+      "spoken_as": "turn number nine",
+      "passage_time": "3:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:01",
+      "snippet": "about 10% and trail that off. Starting to get back on the gas once we're at the apex again.",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.428,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "T10",
+        "estimated_pct": 0.5966,
+        "corner_pct": 0.5967,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "T10",
+        "corners_between": [
+          "T8",
+          "T9"
+        ]
+      }
+    },
+    {
+      "braking": "Lightly on brakes to 10%, trail off",
+      "line": "Attack curb, left tire on track, right tire on asphalt",
+      "exit": "Get back up to 100% halfway across track",
+      "note_id": "UvR7yjL7eYo:6",
+      "text": "braking: Lightly on brakes to 10%, trail off; line: Attack curb, left tire on track, right tire on asphalt; exit: Get back up to 100% halfway across track",
+      "spoken_as": "right hander of turn 10",
+      "passage_time": "3:19",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:11",
+      "snippet": "brakes to about 10%, trail that off and we're going to really attack this curb here.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break at roughly the 400 ft mark, 55% down to second gear",
+      "gear": "2",
+      "line": "wide entry, back on the gas at the apex",
+      "exit": "smooth transition up to 100% power",
+      "note_id": "UvR7yjL7eYo:7",
+      "text": "braking: break at roughly the 400 ft mark, 55% down to second gear; gear: 2; line: wide entry, back on the gas at the apex; exit: smooth transition up to 100% power",
+      "spoken_as": "turn number 12",
+      "passage_time": "4:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:52",
+      "snippet": "down to second gear and back on the gas at the apex. Going to head over to the right hand side now. On my graphic"
+    },
+    {
+      "braking": "get on the brakes to about 30%",
+      "line": "trail it off back on the gas just ahead of the apex",
+      "exit": "go flat through 14, avoid that wall on exit",
+      "note_id": "UvR7yjL7eYo:8",
+      "text": "braking: get on the brakes to about 30%; line: trail it off back on the gas just ahead of the apex; exit: go flat through 14, avoid that wall on exit",
+      "spoken_as": "14",
+      "passage_time": "4:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:04",
+      "snippet": "to about 30% and then trail it off back on the gas just ahead of the apex and then it's a nice smooth transition up to"
+    }
+  ]
+}

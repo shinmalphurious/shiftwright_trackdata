@@ -1,0 +1,125 @@
+{
+  "video_id": "ClRPJMxG_vo",
+  "track_id": 110,
+  "track_name": "Las Vegas Motor Speedway - Legends Oval",
+  "title": "iRacing Track Guide: ARCA at Las Vegas",
+  "car_hint": "arca",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:20:19.419790+00:00",
+  "passages": 9,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "brake for the bumps",
+      "mistakes": "can throw you off, especially on race starts"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:18",
+      "sequence": 1,
+      "mistakes": "Avoid bottom lanes where car can snap due to bumps."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Entry is wide, track narrows quickly."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Entry is sharper than turn two."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Track widens on exit, allow car to track out towards the wall."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:37",
+      "sequence": 2,
+      "line": "Avoid early throttle over bumps; roll through if twitchy.",
+      "exit": "Let car track out towards the wall on exit.",
+      "mistakes": "Getting back to throttle too early over bumps."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:37",
+      "sequence": 2,
+      "line": "Take upper lane for momentum or bottom lane to shorten lap."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "next braking marker",
+      "start_time": "6:57",
+      "sequence": 5,
+      "braking": "between symbol and cup side, start turn-in",
+      "line": "cut track, take distance out of lap",
+      "exit": "full throttle after apex",
+      "mistakes": "fight with car on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "yellow sign on the right",
+      "start_time": "6:57",
+      "sequence": 5,
+      "braking": "start turn-in, keep some throttle briefly",
+      "line": "drive it down into corner",
+      "exit": "let off throttle, let car grip back up",
+      "mistakes": "be patient with throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn three",
+      "start_time": "9:33",
+      "sequence": 7,
+      "label_guess": "T4",
+      "line": "left out of throttle to let car hook in",
+      "exit": "gas it back up"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "9:33",
+      "sequence": 7,
+      "exit": "gas it back up",
+      "mistakes": "kiss the wall on the top side"
+    }
+  ],
+  "general_tips": [
+    "experiment with different grooves",
+    "race where you're comfortable",
+    "passing is challenging when next to somebody",
+    "car is on edge at the beginning and end of the race",
+    "car neutralizes in the middle of the race",
+    "be aware of bumps in the bottom of turn one",
+    "Standard mile and a half oval.",
+    "No progressive banking.",
+    "Switch lanes to evenly use tires throughout the race.",
+    "Race pace is about three tenths slower than qualifying pace.",
+    "Brake bias does not matter; do not use brakes to slow down.",
+    "Let the car roll through corners",
+    "Use steering ratio 14 to 1 for quick steering and slip angle control",
+    "hang around top side to carry momentum out of turn three and four",
+    "be patient with throttle to get car to hook up",
+    "Be prepared for the car to get loose.",
+    "Let out of the throttle to let the car grip back up.",
+    "Easing out of the throttle can save you in some cases.",
+    "ease out of throttle on hump to avoid loss of front end grip"
+  ],
+  "dropped_ungrounded": 1
+}

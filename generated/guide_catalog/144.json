@@ -1,25 +1,146 @@
 {
   "track_id": 144,
   "layout": "144-mosport",
+  "name": "Canadian Tire Motorsports Park",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:19:52.095984+00:00",
+  "candidates_seen": 63,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 63,
+    "new_candidates": 53,
+    "accepted": 47,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 16,
+    "rejection_reasons": {
+      "no guide words in title": 6,
+      "duplicate title": 5,
+      "too short": 5
+    }
+  },
   "selected_guides": {
     "ff1600": [
       {
         "video_id": "VLOo8G-_3FQ",
         "title": "Indy NXT Road Series Track Guide Canadian Tire Motorsports Park Mosport",
-        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around Mosport in the FF1600, FIA F4 and Dallara\u00a0...",
+        "description": "2-time iRacing USF 2000 series overall champion Jacob Collins guides drivers around Mosport in the FF1600, FIA F4 and Dallara ...",
+        "channel": "P1 Broadcasting",
+        "duration": 1725,
         "video_type": "lap_walkthrough",
         "car": "ff1600",
-        "quality_score": 220
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "8jWTlAF3ixU",
+        "title": "iRacing Canadian Tire Motorsport Park SETUP and Track Guide Ray FF1600 2026",
+        "description": "The Answer is 13. Setup is posted in the Ray FF1600 forum.",
+        "channel": "edward buchanan",
+        "duration": 691,
+        "video_type": "lap_walkthrough",
+        "car": "ff1600",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
-    "legends": [
+    "mx5": [
       {
-        "video_id": "2FF2kNnoN0Y",
-        "title": "CTMP Grand Prix (Mosport) Track Guide",
-        "description": "Our CTMP GP (Mosport) Track guide is finally up! Super fun track, enjoy it safely, and treat this legendary track with some respect!",
+        "video_id": "i3ZFOhPptPo",
+        "title": "iRacing MX5 Track Guide – Master Canadian Tire Motorsport Park FAST",
+        "description": "Want to master Canadian Tire Motorsport Park in the MX5? This track guide reveals the fastest racing line, braking points, and ...",
+        "channel": "Adnan Grozdanic",
+        "duration": 199,
         "video_type": "lap_walkthrough",
-        "car": "legends",
-        "quality_score": 120
+        "car": "mx5",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "zGENmEDKSq8",
+        "title": "iRacing Mazda MX5 Mosport Guide 1:32.2 - MX5 Canadian Tyre Motorsport Track Guide",
+        "description": "Race this setup: https://www.patreon.com/SamboiRacingSetups Buy me a beer (if you want): ...",
+        "channel": "Sambo iRacing",
+        "duration": 442,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      }
+    ],
+    "bmw_m2": [
+      {
+        "video_id": "dp__i_TztzA",
+        "title": "iRacing BMW M2 Mosport Guide 1:26.7 - M2 Canadian Tyre Motorsport Track Guide & Setup",
+        "description": "To race the setup (when not fixed): https://www.patreon.com/SamboiRacingSetups Buy me a beer (if you want): ...",
+        "channel": "Sambo iRacing",
+        "duration": 422,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      }
+    ],
+    "general": [
+      {
+        "video_id": "DebI4p4UjTE",
+        "title": "HOW TO DO CANADIAN TIRE MOTORSPORTS PARK IN iRacing | GT3 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Canadian Tire Motorsports Park in iRacing GT3. Perfect for ...",
+        "channel": "HYMO Academy",
+        "duration": 162,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "bZNilCZxywA",
+        "title": "iRacing F4 Canadian Tire Motorsport Guide - 1:17.451 (Fixed Setup) - Canadian Mosport F4 Track Guide",
+        "description": "... Sim Racing Tips, Tricks and beginners guides and track guides in 2025. iRacing Candian Tire Motorsport Park Fe Track Guide.",
+        "channel": "Sambo iRacing",
+        "duration": 376,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "nVlnu3_eCK8",
+        "title": "iRacing Porsche GT4 Canadian Tyre Motorsport Guide 1:22.7 Cayman GT4 Candian MoSport Track Guide",
+        "description": "Canadian Tire Motorsport Park, better known as Mosport, is a fast and committed circuit where confidence makes a huge ...",
+        "channel": "Sambo iRacing",
+        "duration": 401,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "jCHLcppB2qQ",
+        "title": "iRacing Toyota GR86 Mosport Guide 1:32.3 - GR86 Canadian Tyre Motorsport Track Guide & Setup",
+        "description": "To race the setup: https://www.patreon.com/SamboiRacingSetups For coaching from Gianni Lutzu (10.3k iRating), one of the ...",
+        "channel": "Sambo iRacing",
+        "duration": 535,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "1eIhYtiH-0w",
+        "title": "iRacing Canadian Tire GT3 IMSA Guide | HYMO Academy",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Canadian Tire Motorsport Park in iRacing GT3. Perfect for ...",
+        "channel": "HYMO Academy",
+        "duration": 153,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 176,
+        "venue_confidence": 0.9
       }
     ]
   }

@@ -1,0 +1,76 @@
+{
+  "track_id": 165,
+  "track": "Circuit de Spa-Francorchamps - Endurance - 2010",
+  "records": {
+    "165:T8:fast_corner": {
+      "id": "165:T8:fast_corner",
+      "track_id": 165,
+      "track": "Circuit de Spa-Francorchamps - Endurance - 2010",
+      "corner": "T8",
+      "corner_name": "Bruxelles",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known for high-speed entry and exit.",
+          "at": "2026-10-28T09:22:34+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:12:59+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.076,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T8",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 1,
+            "telemetry": "contradict"
+          },
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T8",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T8: research 0.75 from 1 source(s); consensus 0.20 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

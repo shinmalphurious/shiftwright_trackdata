@@ -1,0 +1,395 @@
+{
+  "video_id": "1hkyDq_ujHs",
+  "track_id": 185,
+  "track_name": "Oulton Park Circuit - Intl w/no Chicanes",
+  "title": "Oulton Park No Chicanes - FIA F4 Track Guide - 2023 Season 1 - 1:24.898 - Fixed Setup",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "line": "Turn in late, apex late",
+      "exit": "Throttle hard, stay on track",
+      "mistakes": "Early apex, losing momentum",
+      "note_id": "1hkyDq_ujHs:0",
+      "text": "line: Turn in late, apex late; exit: Throttle hard, stay on track; mistakes: Early apex, losing momentum",
+      "spoken_as": "Turn one",
+      "passage_time": "3:45",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.3,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.5
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at end of ad boards, quick dab",
+      "exit": "aggressive throttle on exit, keep right side tires on tarmac",
+      "mistakes": "early apex closes exit, risk off track",
+      "note_id": "1hkyDq_ujHs:1",
+      "text": "braking: brake at end of ad boards, quick dab; exit: aggressive throttle on exit, keep right side tires on tarmac; mistakes: early apex closes exit, risk off track",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67
+        }
+      },
+      "time": "5:11",
+      "snippet": "the end of the ad boards on the left side, and we don't need to break too much or for too long. I like giving a"
+    },
+    {
+      "braking": "stay right for turn three entry",
+      "note_id": "1hkyDq_ujHs:2",
+      "text": "braking: stay right for turn three entry",
+      "spoken_as": "turn two",
+      "passage_time": "6:23",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:40",
+      "snippet": "is to stay right for the turn three entry. Turn three is called Cascades, and I",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "start braking at the first major dip",
+      "line": "ease the car into the corner with steering",
+      "exit": "use the second dip to help with getting to the apex",
+      "mistakes": "be too aggressive with steering",
+      "note_id": "1hkyDq_ujHs:3",
+      "text": "braking: start braking at the first major dip; line: ease the car into the corner with steering; exit: use the second dip to help with getting to the apex; mistakes: be too aggressive with steering",
+      "spoken_as": "turn three",
+      "passage_time": "6:23",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:24",
+      "snippet": "going to use the second dip coming up to help us with getting to the apex. As the car comes over the second dip and begins",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Flat out",
+      "note_id": "1hkyDq_ujHs:4",
+      "text": "gear: Flat out",
+      "spoken_as": "Turn four",
+      "passage_time": "7:42",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:04",
+      "snippet": "Turn four is easily flat out. The main thing to note here is that we want to take a later apex to allow us to stay to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "later apex to stay left on exit",
+      "mistakes": "turning in too early, touching grass on exit",
+      "note_id": "1hkyDq_ujHs:5",
+      "text": "line: later apex to stay left on exit; mistakes: turning in too early, touching grass on exit",
+      "spoken_as": "turn four",
+      "passage_time": "9:06",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:08",
+      "snippet": "take a later apex to allow us to stay to the left on exit to help us set up for the turn five braking zone. Turning in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "tight line through camber",
+      "exit": "use banking on exit",
+      "note_id": "1hkyDq_ujHs:6",
+      "text": "line: tight line through camber; exit: use banking on exit",
+      "spoken_as": "turn five",
+      "passage_time": "9:06",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:55",
+      "snippet": "to stay as tight to the inside through the camber as we can. This tighter line will use the most",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at end of tire barrier on left, avoid locking tires",
+      "line": "turn in at green board on left, stay tight to curbing",
+      "exit": "get on throttle early, use banking to avoid running wide",
+      "mistakes": "locking up tires, peaking too high on brake pressure",
+      "note_id": "1hkyDq_ujHs:7",
+      "text": "braking: brake at end of tire barrier on left, avoid locking tires; line: turn in at green board on left, stay tight to curbing; exit: get on throttle early, use banking to avoid running wide; mistakes: locking up tires, peaking too high on brake pressure",
+      "spoken_as": "turn five",
+      "passage_time": "10:25",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86,
+          "mistakes": 0.86
+        }
+      },
+      "time": "10:40",
+      "snippet": "to avoid locking the tires or really inducing any sort of tire scrub at all, so you want to watch out from peaking",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Flat out",
+      "line": "Stay tight",
+      "exit": "Maintain momentum",
+      "note_id": "1hkyDq_ujHs:8",
+      "text": "gear: Flat out; line: Stay tight; exit: Maintain momentum",
+      "spoken_as": "Turn six",
+      "passage_time": "11:42",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:16",
+      "snippet": "want to stay as tight as possible to run the shortest distance possible. The story behind turn seven name is a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Maintain good momentum",
+      "exit": "Trust the car",
+      "mistakes": "Avoid touching the grass",
+      "note_id": "1hkyDq_ujHs:9",
+      "text": "line: Maintain good momentum; exit: Trust the car; mistakes: Avoid touching the grass",
+      "spoken_as": "Turn seven",
+      "passage_time": "11:42",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:44",
+      "snippet": "have a little bit of trust in the car here. We're also looking to maintain good momentum through the corner once",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake around gap in left curbs",
+      "line": "turn-in left, apex at end of right grass patch",
+      "exit": "follow turning arc, look up track to avoid running wide",
+      "mistakes": "avoid rear sliding at apex bump, manage understeer on bump",
+      "note_id": "1hkyDq_ujHs:10",
+      "text": "braking: brake around gap in left curbs; line: turn-in left, apex at end of right grass patch; exit: follow turning arc, look up track to avoid running wide; mistakes: avoid rear sliding at apex bump, manage understeer on bump",
+      "spoken_as": "next corner",
+      "passage_time": "13:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.86
+        }
+      },
+      "time": "13:12",
+      "snippet": "gap in the two curbs on the left-hand side, and we're aiming to apex right at the end of the grass patch on the right,"
+    },
+    {
+      "exit": "get back on throttle aggressively",
+      "mistakes": "left braking too late, turned in too late, too harsh on braking or steering inputs",
+      "note_id": "1hkyDq_ujHs:11",
+      "text": "exit: get back on throttle aggressively; mistakes: left braking too late, turned in too late, too harsh on braking or steering inputs",
+      "spoken_as": "this bump",
+      "passage_time": "14:18",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:35",
+      "snippet": "because you've left braking too late and turned in too late. On the opposite end, if you are over steering, you've",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "stay on red and white curbing",
+      "mistakes": "going beyond the curb into bumpy grass",
+      "note_id": "1hkyDq_ujHs:12",
+      "text": "line: stay on red and white curbing; mistakes: going beyond the curb into bumpy grass",
+      "spoken_as": "turn 10",
+      "passage_time": "14:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:54",
+      "snippet": "general, we want to stay on the red and white curbing, but there is a little bit of concrete in the grass that provides"
+    },
+    {
+      "braking": "Brake smoothly for the first apex, trail brake into it.",
+      "line": "Hit both apexes, prioritize the second apex.",
+      "exit": "Stay on throttle after first apex, keep eyes on second apex.",
+      "mistakes": "Running wide at second apex makes exit tricky.",
+      "note_id": "1hkyDq_ujHs:13",
+      "text": "braking: Brake smoothly for the first apex, trail brake into it.; line: Hit both apexes, prioritize the second apex.; exit: Stay on throttle after first apex, keep eyes on second apex.; mistakes: Running wide at second apex makes exit tricky.",
+      "spoken_as": "Druids",
+      "passage_time": "15:36",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:05",
+      "snippet": "we're running wide at that second apex, it makes it very tricky to stay out of the grass on exit. Druids is also a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Maintain turning arc towards second apex",
+      "exit": "Open hands on exit, trust track after crest",
+      "mistakes": "Avoid getting car loose after crest",
+      "note_id": "1hkyDq_ujHs:14",
+      "text": "line: Maintain turning arc towards second apex; exit: Open hands on exit, trust track after crest; mistakes: Avoid getting car loose after crest",
+      "spoken_as": "turn 11",
+      "passage_time": "16:52",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:12",
+      "snippet": "our turning arc in towards the second apex and as we get there, we can start to open up our hands on exit. We can't",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake after left turn-in board, trail off brakes",
+      "line": "late apex, place a tire or less on curb",
+      "exit": "get back on throttle late to stay in control",
+      "mistakes": "brake too late, run wide on exit, touch grass after curb",
+      "note_id": "1hkyDq_ujHs:15",
+      "text": "braking: brake after left turn-in board, trail off brakes; line: late apex, place a tire or less on curb; exit: get back on throttle late to stay in control; mistakes: brake too late, run wide on exit, touch grass after curb",
+      "spoken_as": "turn 11",
+      "passage_time": "18:11",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "line": 0.6
+        }
+      },
+      "time": "18:26",
+      "snippet": "the turn-in board on the left-hand side and we have a longer breaking zone here as we wait for turn-in and we really",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Stay tight to minimize distance",
+      "exit": "Use exit curbing to maximize track usage",
+      "note_id": "1hkyDq_ujHs:16",
+      "text": "line: Stay tight to minimize distance; exit: Use exit curbing to maximize track usage",
+      "spoken_as": "Turn 12",
+      "passage_time": "19:32",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "19:41",
+      "snippet": "Ideally, we want to use the exit curbing to maximize our track usage as we look to shoot back up the hill afterwards",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

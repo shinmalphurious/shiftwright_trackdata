@@ -1,25 +1,53 @@
 {
   "track_id": 446,
   "layout": "446-portroyal",
+  "name": "Port Royal Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:08:21.176360+00:00",
+  "candidates_seen": 56,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 56,
+    "new_candidates": 54,
+    "accepted": 2,
+    "selected": 2,
+    "kept_previous": 2,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 54,
+    "rejection_reasons": {
+      "no guide words in title": 35,
+      "venue not in title": 10,
+      "too long": 6,
+      "too short": 3
+    }
+  },
   "selected_guides": {
-    "modified": [
+    "general": [
       {
-        "video_id": "URrNY6hbq5o",
-        "title": "Big Block Modifieds - Port Royal - iRacing Dirt",
-        "description": "iRacing Referral Code and Equipment listed in description. Discord - https://discord.gg/BVP4Vvw7HT Twitter - @KNEEBON5\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
-      }
-    ],
-    "late_model": [
+        "video_id": "LL1B_EnpWDA",
+        "title": "PORT ROYAL The Speed Palace! iRacing Track Breakdown",
+        "description": "Thank you for watching! Be sure to LIKE, SHARE & SUBSCRIBE! -Follow and Watch Me Live on Facebook! https://bit.ly/35HjQvr ...",
+        "channel": "Seeber SimSports",
+        "duration": 392,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 176,
+        "venue_confidence": 0.9
+      },
       {
-        "video_id": "NjmhFc1GGiU",
-        "title": "Port Royal Speedway Race Preview | Morton Buildings Late Models",
-        "description": "A preview of tonight's racing action from \u201cThe Speed Palace\u201d Port Royal Speedway in Port Royal, Pennsylvania, where we'll be\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 20
+        "video_id": "LcRLfRO8NHs",
+        "title": "NFS U Port Royal Beginner's Guide",
+        "description": "A small tutorial, made for those that still drive around with Automatic gear box and Stability ON ;). Music : Razed in Black - I'll ...",
+        "channel": "speedphlux",
+        "duration": 156,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 96,
+        "venue_confidence": 0.9
       }
     ]
   }

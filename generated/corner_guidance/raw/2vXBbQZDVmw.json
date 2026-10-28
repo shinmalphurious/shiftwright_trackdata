@@ -1,0 +1,113 @@
+{
+  "video_id": "2vXBbQZDVmw",
+  "track_id": 202,
+  "track_name": "Oran Park Raceway - Grand Prix",
+  "title": "Track Guide Oran Park   Grand Prix MX5 Fixed iRacing",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:36:02.445747+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn in when the green wall ends",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "turn in when the green wall ends"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "hit the curb on the inside, brake hard to turn-in",
+      "gear": "1st",
+      "line": "stick close to the curb on the inside, go wide on exit",
+      "exit": "throttle on exit, stay close to the curb",
+      "mistakes": "go too far and drop a wheel, end up in the wall"
+    },
+    {
+      "label": null,
+      "spoken_as": "my breaking marker is this tire wall here on the left",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T3",
+      "braking": "brake hard to 95%, trail brake to curb",
+      "line": "later apex, just beyond midpoint",
+      "exit": "throttle on exit, stay within curb",
+      "mistakes": "touch the grass, slow down"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "here on the left, short hit to 80% brake pressure, quickly off brake",
+      "gear": "1st",
+      "line": "get close to the curb, but not too much",
+      "exit": "apply throttle again, Full Throttle instantly"
+    },
+    {
+      "label": null,
+      "spoken_as": "the bridge",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "no braking",
+      "exit": "lift off throttle completely or to 30% at tire barrier"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "a car length before the curb, quick hit to 50% brake pressure, quickly off brake",
+      "gear": "2nd",
+      "line": "go over the red and yellow curb on the inside, all the way onto the white curb",
+      "exit": "Full Throttle again",
+      "mistakes": "going on the white curb too early"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "for turn 10",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.",
+      "gear": "1st",
+      "line": "Take shortest route, use some curb.",
+      "exit": "Apply throttle on darkened part, keep full throttle.",
+      "mistakes": "Taking too much curb causes spin, use 2nd gear to avoid spin."
+    },
+    {
+      "label": "T11",
+      "spoken_as": "for turn 11",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.",
+      "gear": "1st",
+      "line": "Take shortest route, use all curb.",
+      "exit": "Apply throttle on darkened part, keep full throttle.",
+      "mistakes": "Taking too much curb causes spin, use 2nd gear to avoid spin."
+    },
+    {
+      "label": "T12",
+      "spoken_as": "the last Corner",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.",
+      "gear": "1st",
+      "line": "Take shortest route, use all curb.",
+      "exit": "Apply throttle on darkened part, keep full throttle.",
+      "mistakes": "Taking too much curb causes spin, use 2nd gear to avoid spin."
+    }
+  ],
+  "general_tips": [
+    "keep in mind that people will try and overtake you into turn one",
+    "use turn one as your breaking marker for turn two",
+    "use this tire wall here on the left as your breaking marker for turn three"
+  ],
+  "dropped_ungrounded": 1
+}

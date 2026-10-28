@@ -1,0 +1,128 @@
+{
+  "video_id": "4-mESgMVQGg",
+  "track_id": 128,
+  "track_name": "Road Atlanta - Short",
+  "title": "Track Guide Road Atlanta Short UPDATED Toytoa GR86 iRacing",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "End of left wall, 35% brake pressure, trail to inside curb",
+      "line": "Track out over white line, turn-in to inside curb",
+      "exit": "Accelerate, car should walk out to left side of track",
+      "mistakes": "Going into grass means early throttle",
+      "note_id": "4-mESgMVQGg:0",
+      "text": "braking: End of left wall, 35% brake pressure, trail to inside curb; line: Track out over white line, turn-in to inside curb; exit: Accelerate, car should walk out to left side of track; mistakes: Going into grass means early throttle",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:33",
+      "snippet": "left side of the track onto the curb. If you go into the grass, you went on the throttle too early. Stay here on the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Before white line, 70% brake pressure, trail to inside curb",
+      "line": "Take a lot of inside curb",
+      "exit": "Accelerate, car should walk out to left side of track",
+      "mistakes": "Getting 1x on inside means cutting too much",
+      "note_id": "4-mESgMVQGg:1",
+      "text": "braking: Before white line, 70% brake pressure, trail to inside curb; line: Take a lot of inside curb; exit: Accelerate, car should walk out to left side of track; mistakes: Getting 1x on inside means cutting too much",
+      "spoken_as": "next corner",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:33",
+      "snippet": "left side of the track onto the curb. If you go into the grass, you went on the throttle too early. Stay here on the"
+    },
+    {
+      "braking": "break at the first white line, 90% brake pressure, trail brake to inside curb",
+      "line": "cut the inside curb",
+      "exit": "accelerate, flat out to start finish line",
+      "mistakes": "lifting for turn eight costs time, underdriving turn eight costs time",
+      "note_id": "4-mESgMVQGg:2",
+      "text": "braking: break at the first white line, 90% brake pressure, trail brake to inside curb; line: cut the inside curb; exit: accelerate, flat out to start finish line; mistakes: lifting for turn eight costs time, underdriving turn eight costs time",
+      "spoken_as": "turn seven",
+      "passage_time": "1:17",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "1:42",
+      "snippet": "first white line we come to. And here, we want to hit just about 90% brake pressure and trailing that off until the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "cut the inside curb",
+      "exit": "use the outside for exit speed",
+      "mistakes": "lifting for turn eight costs time, underdriving turn eight costs time",
+      "note_id": "4-mESgMVQGg:3",
+      "text": "line: cut the inside curb; exit: use the outside for exit speed; mistakes: lifting for turn eight costs time, underdriving turn eight costs time",
+      "spoken_as": "turn eight",
+      "passage_time": "1:17",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:59",
+      "snippet": "also cut the inside curb of turn eight. We do have a fair bit of room on the outside to use to maximize our exit",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "flat out",
+      "note_id": "4-mESgMVQGg:4",
+      "text": "exit: flat out",
+      "spoken_as": "turn 10",
+      "passage_time": "1:17",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:48",
+      "snippet": "because it is flat on this one. And as we get to that inside curb, we want to start to accelerate again. And from now",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

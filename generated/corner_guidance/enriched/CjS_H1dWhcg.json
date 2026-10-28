@@ -1,0 +1,246 @@
+{
+  "video_id": "CjS_H1dWhcg",
+  "track_id": 184,
+  "track_name": "Oulton Park Circuit - Intl w/out Brittens",
+  "title": "Track Guide Oulton Park Int W/O brittens Toyota GR86 iRacing",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake at banner on left, 40% pressure, ease off before curb",
+      "line": "take a lot of curb, flat, exit to outside curb",
+      "exit": "throttle up before curb, keep one wheel within white line",
+      "mistakes": "touching grass causes car to bounce around, going outside white line gets 1x",
+      "note_id": "CjS_H1dWhcg:0",
+      "text": "braking: brake at banner on left, 40% pressure, ease off before curb; line: take a lot of curb, flat, exit to outside curb; exit: throttle up before curb, keep one wheel within white line; mistakes: touching grass causes car to bounce around, going outside white line gets 1x",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 0.67,
+          "exit": 0.7
+        }
+      },
+      "time": "0:14",
+      "snippet": "go to about 40% brake pressure, easing it off to just before the curb. We can take a lot of curb here as it is flat,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake after dip, 50% pressure, ease off before end of inside wall",
+      "line": "set up right, apex at end of wall, fully on curb",
+      "exit": "throttle up before curb, stay within white lines",
+      "mistakes": "going outside white line with half car gets 1x",
+      "note_id": "CjS_H1dWhcg:1",
+      "text": "braking: brake after dip, 50% pressure, ease off before end of inside wall; line: set up right, apex at end of wall, fully on curb; exit: throttle up before curb, stay within white lines; mistakes: going outside white line with half car gets 1x",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.7,
+          "exit": 0.86,
+          "mistakes": 0.86
+        }
+      },
+      "time": "0:40",
+      "snippet": "about 50% brake pressure, and I'm easing it off until just before the end of the inside wall. We want to apex at where",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at end of tire wall, 85% pressure, easing off to middle of corner.",
+      "line": "Get close to inside curb, pick up throttle in middle of corner.",
+      "exit": "Maintain left side of track, avoid outside curb.",
+      "mistakes": "Don't go over outside curb, grass hurts lap time.",
+      "note_id": "CjS_H1dWhcg:2",
+      "text": "braking: Brake at end of tire wall, 85% pressure, easing off to middle of corner.; line: Get close to inside curb, pick up throttle in middle of corner.; exit: Maintain left side of track, avoid outside curb.; mistakes: Don't go over outside curb, grass hurts lap time.",
+      "spoken_as": "turn five",
+      "passage_time": "1:18",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.78,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.78,
+          "line": 1.0,
+          "mistakes": 1.0
+        }
+      },
+      "time": "1:21",
+      "snippet": "once I get to the end of the tire wall here on the left, aiming for about 85% brake pressure, easing it off all the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at 100 board and 50 board, 95% pressure, easing off to first inside wall.",
+      "line": "Get close to inside wall.",
+      "exit": "Add throttle before curb, hit brake 20% to help turn.",
+      "note_id": "CjS_H1dWhcg:3",
+      "text": "braking: Brake at 100 board and 50 board, 95% pressure, easing off to first inside wall.; line: Get close to inside wall.; exit: Add throttle before curb, hit brake 20% to help turn.",
+      "spoken_as": "turn seven",
+      "passage_time": "1:18",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:04",
+      "snippet": "I aim for about 95% brake pressure, easing that off all the way to the first inside wall. And of course, we want to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Hit brake 20% to help turn.",
+      "line": "Past tire wall, add throttle.",
+      "exit": "Come out mid-track.",
+      "note_id": "CjS_H1dWhcg:4",
+      "text": "braking: Hit brake 20% to help turn.; line: Past tire wall, add throttle.; exit: Come out mid-track.",
+      "spoken_as": "turn eight",
+      "passage_time": "1:18",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:16",
+      "snippet": "we do a little hit of 20% to the brake just to help the car turn. Once I'm past the tire wall, I'll start to apply the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Lift just a little bit after turn in.",
+      "line": "Cut all curb on inside.",
+      "exit": "Full throttle, use every inch of room on outside.",
+      "note_id": "CjS_H1dWhcg:5",
+      "text": "braking: Lift just a little bit after turn in.; line: Cut all curb on inside.; exit: Full throttle, use every inch of room on outside.",
+      "spoken_as": "turn nine",
+      "passage_time": "1:18",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:32",
+      "snippet": "throttle again, using every inch of room on the outside to help carry speed all the way up to turn 12. Turn 12 is also a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at color change, 50% pressure, trail brake to first curb.",
+      "line": "Cut curb, use outside curb to carry speed.",
+      "exit": "Throttle on exit, use outside curb.",
+      "mistakes": "Bad exit allows overtaking.",
+      "note_id": "CjS_H1dWhcg:6",
+      "text": "braking: Brake at color change, 50% pressure, trail brake to first curb.; line: Cut curb, use outside curb to carry speed.; exit: Throttle on exit, use outside curb.; mistakes: Bad exit allows overtaking.",
+      "spoken_as": "turn 12",
+      "passage_time": "2:36",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.83,
+          "exit": 0.6
+        }
+      },
+      "time": "3:04",
+      "snippet": "outside curb as well to help carry excess speed. Turn 13 is also a place where people try and overtake you as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at color change, 95% pressure, ease off to emergency road.",
+      "line": "Use outside curb.",
+      "exit": "Throttle on exit, use outside curb.",
+      "mistakes": "Bad exit allows overtaking.",
+      "note_id": "CjS_H1dWhcg:7",
+      "text": "braking: Brake at color change, 95% pressure, ease off to emergency road.; line: Use outside curb.; exit: Throttle on exit, use outside curb.; mistakes: Bad exit allows overtaking.",
+      "spoken_as": "turn 13",
+      "passage_time": "2:36",
+      "corner_id": "T13",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "line": 1.0,
+          "exit": 0.6
+        }
+      },
+      "time": "3:19",
+      "snippet": "95% brake pressure, easing that off all the way to the emergency road on the right. Once I get to that road, I start",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Be close to wall.",
+      "exit": "Drag race to start/finish line.",
+      "note_id": "CjS_H1dWhcg:8",
+      "text": "line: Be close to wall.; exit: Drag race to start/finish line.",
+      "spoken_as": "turn 14",
+      "passage_time": "2:36",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:37",
+      "snippet": "start/finish line. That's my lap around Alton Park without Britain's in the Toyota GR86 of a time of 1 minute 46.6.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

@@ -1,15 +1,148 @@
 {
   "track_id": 159,
   "layout": "159-summit-summit-raceway-school",
+  "name": "Summit Point Raceway - School",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:20:41.526824+00:00",
+  "candidates_seen": 27,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 27,
+    "new_candidates": 17,
+    "accepted": 18,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 9,
+    "rejection_reasons": {
+      "no guide words in title": 5,
+      "venue not in title": 2,
+      "too long": 2
+    }
+  },
   "selected_guides": {
     "mx5": [
       {
-        "video_id": "d5lH_rQnoRc",
-        "title": "VRS Quick Tutorial Global MX-5 at Summit Point Raceway on iRacing. Lap time: 1:22.113",
-        "description": "VRS coach David Williams offers up some key advice at Summit Point Raceway in the Global Mazda MX-5 cup car on iRacing.",
-        "video_type": "other",
+        "video_id": "Kge714qDxbc",
+        "title": "Track Guide - MX5 - Summit Point Raceway - 1:23.01x",
+        "description": "A track guide for the official iRacing Global Mazda MX5 Series - 2020 Season 2 week 10 Blap: ...",
+        "channel": "David Kelly",
+        "duration": 375,
+        "video_type": "lap_walkthrough",
         "car": "mx5",
-        "quality_score": 120
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "5PNAIczzVV0",
+        "title": "iRacing Rookie Fixed Mazda MX5 - Summit Point - 1:20.389 - Track Guide - Sim Racing Tips",
+        "description": "We're at Summit Point Raceway in the Mazda MX5 on iRacing for another track guide. Buy me a beer (if you want): ...",
+        "channel": "Sambo iRacing",
+        "duration": 424,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "11eXzdFgZYU",
+        "title": "iRacing MX5 Summit Point Guide - 1:20.0 - Mazda MX-5 Summit Point Track Guide - Production Car",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 410,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "RbxxGUchyIA",
+        "title": "Summit Point | @Dave Cam iRacing Mazda MX-5 Track Guide",
+        "description": "Back again with Week 4 of iRacing 2022 Season 1, Dave Cam has once again put together another fantastic track guide.",
+        "channel": "TraxionGG",
+        "duration": 1105,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "bmw_m2": [
+      {
+        "video_id": "eOa0jyihzRE",
+        "title": "Track Guide Summit Point Raceway BMW M2 CS iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Summit Point Raceway in the BMW M2 CSR. It s a really good ...",
+        "channel": "Erilla",
+        "duration": 346,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "vnH1tu7KNqA",
+        "title": "iRacing New M2 Racing Summit Point Guide 1:20.4 BMW M2 Racing G87 Summit Point Track Guide Fixed",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 432,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "CsuwjQnwCmc",
+        "title": "iRacing BMW M2 Summit Point Guide 1:18.3 BMW M2 MPower G87 Summit Point Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 435,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "vee": [
+      {
+        "video_id": "f3UTUxNOOOI",
+        "title": "iRacing Track Guide Summit Point | Formula Vee | 1:27.488",
+        "description": "Join at www.iracing.com Jefferson Circuit Lap Guide - https://youtu.be/fTKgebUJpAo Right then! In this video i try and explain my ...",
+        "channel": "Tdi99",
+        "duration": 460,
+        "video_type": "lap_walkthrough",
+        "car": "vee",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "ff1600": [
+      {
+        "video_id": "-LSibJbkAN8",
+        "title": "iRacing FF1600 Summit Point Guide 1:14.8 Ray FF1600 Updated Summit Point Track Guide",
+        "description": "This is a complete track guide for the Ray FF1600 at the graphically refreshed Summit Point Raceway in iRacing. Summit Point is ...",
+        "channel": "Sambo iRacing",
+        "duration": 536,
+        "video_type": "lap_walkthrough",
+        "car": "ff1600",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "JzdAbLCzs3o",
+        "title": "iRacing GR86 Summit Point Guide - 1:18.0 - Toyota GR86 Summit Point Track Guide",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 355,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

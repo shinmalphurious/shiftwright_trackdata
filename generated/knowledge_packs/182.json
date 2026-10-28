@@ -159,5 +159,454 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brake to 60 at left banner, trail off",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Banner on fence, peak 85%",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4th",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn-in left, apex last quarter curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Apex late third, use curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Full throttle, use outside astro turf",
+          "videos": 2,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Avoid hitting the little hill on the inside",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "hit hill inside, right tires off track",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 60 at left banner, peak 85% brake pressure. Turn left, apex late third, use curb. Gear 4th. Full throttle, use outside astro turf. Avoid hitting the hill inside."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake to 50, trail brake",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "brake too much, rear will slide; avoid incident point on outside",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50, trail brake, avoid over-braking to prevent rear slide. Full throttle on exit. Stay clear of incident point on the outside."
+    },
+    "T5": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Midway between 100 and 50 boards, break hard, trail brake to first tire barrier",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "quick touch on the brake to about 40",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "fourth",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "aim for a little part of a curb on the inside",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle once the car gets grip again",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Going into Turn 5 too fast compromises the rest of the section",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "overdo this corner and you will end up in the wall",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard between 100 and 50 boards, trail brake to curb, use 4th gear, aim for inside curb, go full throttle on exit. Avoid going too fast to prevent mistakes."
+    },
+    "T7": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brake marker is discolored spot, brake to 50% pressure, trail brake to first curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break to about 60 and then a trail to break all the way to the first curve",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "take inside curb, use outside curb for overtaking",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle from first curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't heat inside curbs, easy to slide out",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50% at the discolored spot, trail brake to the first curb. Take the inside curb but be cautious not to overheat it. Full throttle from the first curb."
+    },
+    "T9": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Use all of the outside curb",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Full throttle",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Use all of the curve on the outside, hit the grass and you'll spin",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on the outside curb to maximize speed, hit the grass and you'll spin. Full throttle on exit."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 3
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T11": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.923,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T11: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.993,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T11: inherited from Oulton Park Circuit - Intl w/out Brittens T13 (same corner, same approach, inheritance 1.00); Heavy braking zone at T13: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 3 identical corner(s) of other layouts; consensus 0.99 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+        "source_corner": "T13",
+        "inheritance_confidence": 1.0
+      }
+    ],
+    "T10": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.969,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T10: inherited from Oulton Park Circuit - Fosters w/Hislop T10 (same corner, same approach, inheritance 1.00); Heavy braking zone at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+        "source_corner": "T10",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

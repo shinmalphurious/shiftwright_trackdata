@@ -1,0 +1,124 @@
+{
+  "video_id": "C5XlVgwIjl4",
+  "track_id": 47,
+  "track_name": "WeatherTech Raceway at Laguna Seca - Full Course",
+  "title": "Track Guide - MX5 - Laguna Seca - 1:38.93x",
+  "car_hint": "mx5",
+  "car": "MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:32:19.484036+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "brake at the end of the straight, white marking on the right",
+      "gear": "4 to 2",
+      "line": "drift to the outside on exit",
+      "exit": "shift up to 3rd, use all track"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Andretti hairpin",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "brake very hard, trail brake",
+      "gear": "2",
+      "line": "point towards inside curve",
+      "exit": "apply power, shift up to 3rd"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "brake at the dark mark on the curve",
+      "line": "aim to apex as late as possible"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "brake at the dark mark on the curve",
+      "gear": "3rd",
+      "line": "aim to apex as late as possible",
+      "exit": "use all the track on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "1:19",
+      "sequence": 1,
+      "label_guess": "T4",
+      "braking": "ease off the throttle and turn and bite him into apex just after the sausage cap",
+      "gear": "3rd",
+      "line": "get back on the power earlier and use all the track on exit",
+      "exit": "shift up to 4th"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "brake hard initially and downshift to 3rd gear",
+      "gear": "3rd",
+      "line": "walk to apex just after the sausage cap",
+      "exit": "use all the track on exit",
+      "mistakes": "avoid the care of unexist"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "braking gently before the two board",
+      "gear": "3rd",
+      "line": "turn in at the two board",
+      "exit": "shift up to 4th",
+      "mistakes": "hit the sausage curve on the inside"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "the corkscrew",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "brake hard just before the three words",
+      "gear": "2nd",
+      "line": "take as much care or dirt on the inside as you can",
+      "exit": "full power ready for the exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "the rainy cave",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "leave car in third gear, brake if understeering, full power on exit",
+      "gear": "shift up to fourth gear on exit",
+      "line": "keep far right, aim for inside curb",
+      "exit": "use all of the runoff on exit",
+      "mistakes": "be careful not to invalidate your life by taking too much care bond"
+    },
+    {
+      "label": null,
+      "spoken_as": "second last turn",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "use the two boards as a braking marker, brake hard to second gear",
+      "gear": "shift to second gear on braking",
+      "line": "brake late, trail brake, take some of the sausage curb",
+      "exit": "apply power smoothly on exit",
+      "mistakes": "be careful not to take too much curb"
+    }
+  ],
+  "general_tips": [
+    "keep a tight on entry",
+    "get over to the extreme left of the track"
+  ],
+  "dropped_ungrounded": 2
+}

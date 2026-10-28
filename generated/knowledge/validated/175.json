@@ -1,0 +1,30 @@
+{
+  "track_id": 175,
+  "track": "Suzuka International Racing Course - West",
+  "records": {
+    "175:T6:fast_corner": {
+      "id": "175:T6:fast_corner",
+      "track_id": 175,
+      "track": "Suzuka International Racing Course - West",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.9
+      },
+      "source_track": "Suzuka International Racing Course - Moto",
+      "source_track_id": 173,
+      "source_corner": "T10",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "173:T10:fast_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Fast corner at T6: inherited from Suzuka International Racing Course - Moto T10 (same corner, inheritance 1.00); Fast corner at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

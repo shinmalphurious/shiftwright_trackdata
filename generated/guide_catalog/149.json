@@ -1,15 +1,146 @@
 {
   "track_id": 149,
   "layout": "149-zandvoort-grandprix",
+  "name": "Circuit Park Zandvoort - Grand Prix - 2009",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:20:04.875043+00:00",
+  "candidates_seen": 29,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 29,
+    "new_candidates": 19,
+    "accepted": 17,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 12,
+    "rejection_reasons": {
+      "no guide words in title": 7,
+      "too short": 2,
+      "duplicate title": 1,
+      "too long": 1,
+      "venue not in title": 1
+    }
+  },
   "selected_guides": {
     "bmw_m2": [
       {
-        "video_id": "hqm8WtSWp5E",
-        "title": "iRacing BMW M2 Racing Zandvoort Guide 1:48.6 BMW M2 Racing G87 Zandvoort GP Track Guide",
-        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from\u00a0...",
+        "video_id": "kdYPBHSWAmE",
+        "title": "iRacing BMW M2 Zandvoort Guide 1:44.5 Circuit Zandvoort BMW M2 Track Guide",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 542,
         "video_type": "lap_walkthrough",
         "car": "bmw_m2",
-        "quality_score": 220
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "hqm8WtSWp5E",
+        "title": "iRacing BMW M2 Racing Zandvoort Guide 1:48.6 BMW M2 Racing G87 Zandvoort GP Track Guide",
+        "description": "... This is a complete track guide for the all-new BMW M2 Racing (G87) at Zandvoort Grand Prix in iRacing. Zandvoort is one of the ...",
+        "channel": "Sambo iRacing",
+        "duration": 509,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "mx5": [
+      {
+        "video_id": "u4Od2kyMBv0",
+        "title": "iRacing MX5 Zandvoort Guide - 1:51.4 - Circuit Zandvoort Mazda MX5 Track Guide 7 Setup",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 582,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      }
+    ],
+    "general": [
+      {
+        "video_id": "vpzxUjVOlr8",
+        "title": "iRacing Corvette GT3 Zandvoort Guide 1:30.9 Corvette Circuit Zandvoort GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 479,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "_bMZauc2hGI",
+        "title": "iRacing McLaren GT3 Zandvoort Guide 1:31.1 McLaren 720S GT3 Circuit Zandvoort GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 495,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "czWfcoSBX_s",
+        "title": "iRacing Aston Martin GT3 Zandvoort Guide 1:31.1 Aston Martin Vantage Circuit Zandvoort Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 473,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "J3w5NMXyxcI",
+        "title": "iRacing BMW GT3 Zandvoort Guide 1:31.0 BMW M4 GT3 Circuit Zandvoort Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 505,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "TDvZzTiaUoE",
+        "title": "iRacing Lambo GT3 Zandvoort Guide 1:31.3 Lamborghini GT3 Circuit Zandvoort GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 497,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "_4S6XG70cOU",
+        "title": "iRacing Porsche GT3 Zandvoort Guide 1:31.0 Porsche 992 R GT3 Zanvoort Grand Prix Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 590,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "OIJni8p34Pk",
+        "title": "iRacing Ferrari GT3 Zandvoort Guide 1:30.9 Ferrari 296 GT3 Zandvoort GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 533,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

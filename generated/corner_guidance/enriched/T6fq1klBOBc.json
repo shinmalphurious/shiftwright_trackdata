@@ -1,0 +1,222 @@
+{
+  "video_id": "T6fq1klBOBc",
+  "track_id": 230,
+  "track_name": "Circuit of the Americas - East",
+  "title": "iRacing Mustang GT3 COTA Guide 2:04.8 Ford Mustang GT3 Circuit Of The Americas Track Guide",
+  "car": "Mustang GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Midway between 150 and 100, brake late, 55% to second, then first",
+      "gear": "First",
+      "line": "Turn in, apex, flat",
+      "exit": "Back on gas at apex",
+      "note_id": "T6fq1klBOBc:0",
+      "text": "braking: Midway between 150 and 100, brake late, 55% to second, then first; gear: First; line: Turn in, apex, flat; exit: Back on gas at apex",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:04",
+      "snippet": "turn in, then down to first as we do that. Back on the gas once we get back to the apex. Up to 100% going to head"
+    },
+    {
+      "braking": "Flat, get on brakes at rumble strip, 25% trail off",
+      "line": "Flat left side, left front tires on track",
+      "exit": "Flat until left side, then get on gas 100%",
+      "note_id": "T6fq1klBOBc:1",
+      "text": "braking: Flat, get on brakes at rumble strip, 25% trail off; line: Flat left side, left front tires on track; exit: Flat until left side, then get on gas 100%",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:46",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:25",
+      "snippet": "left hand tires staying on the track. Up to 100% give ourselves room to the right. We're going to stay flat until",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Get on brakes at apex, 10-15% long trail off",
+      "line": "Left side, apex",
+      "exit": "Briefly 100% gas, then brake",
+      "note_id": "T6fq1klBOBc:2",
+      "text": "braking: Get on brakes at apex, 10-15% long trail off; line: Left side, apex; exit: Briefly 100% gas, then brake",
+      "spoken_as": "next corner",
+      "passage_time": "2:46",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:59",
+      "snippet": "brakes to about 10-15% long trail off, and then we're going to start picking back up on the gas once we get opposite",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes to about 10% before asphalt goes from dark to light",
+      "exit": "start picking back up on the gas",
+      "note_id": "T6fq1klBOBc:3",
+      "text": "braking: brakes to about 10% before asphalt goes from dark to light; exit: start picking back up on the gas",
+      "spoken_as": "turn seven",
+      "passage_time": "4:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:13",
+      "snippet": "and then just before the asphalt goes from dark to light, we're going to get on the brakes for turn seven. Again,"
+    },
+    {
+      "braking": "brakes to about 15% before the walkway",
+      "exit": "start picking back up on the gas",
+      "note_id": "T6fq1klBOBc:4",
+      "text": "braking: brakes to about 15% before the walkway; exit: start picking back up on the gas",
+      "spoken_as": "next braking marker",
+      "passage_time": "4:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:23",
+      "snippet": "picking back up. On the left-hand side, we're looking for the end of this grass bit before there's this little walkway"
+    },
+    {
+      "line": "cut the corner",
+      "note_id": "T6fq1klBOBc:5",
+      "text": "line: cut the corner",
+      "spoken_as": "turn 10",
+      "passage_time": "4:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:47",
+      "snippet": "kink of turn 10, making sure we cut the corner. And as we come into turn 11, we're going"
+    },
+    {
+      "braking": "brakes to about 60% alongside the orange marshal's inlet",
+      "gear": "first gear",
+      "exit": "back on the gas at the apex",
+      "note_id": "T6fq1klBOBc:6",
+      "text": "braking: brakes to about 60% alongside the orange marshal's inlet; gear: first gear; exit: back on the gas at the apex",
+      "spoken_as": "turn 11",
+      "passage_time": "4:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:00",
+      "snippet": "60% down through to first gear, trail it off, and then back on the gas at the apex. Maybe 100 m, I'm not sure we're in"
+    },
+    {
+      "braking": "Brake at 170 marker, 55-60% to first gear",
+      "gear": "1",
+      "line": "Trail off, turn in, apex on left side",
+      "exit": "Slowly increase throttle, cut corner",
+      "note_id": "T6fq1klBOBc:7",
+      "text": "braking: Brake at 170 marker, 55-60% to first gear; gear: 1; line: Trail off, turn in, apex on left side; exit: Slowly increase throttle, cut corner",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:32",
+      "snippet": "and again, down to first gear before we start the trail off and the turn in. We're going to start picking back up on"
+    },
+    {
+      "braking": "Brake at white line, 35-40% to first gear",
+      "gear": "1",
+      "line": "Trail off, turn in, apex on right side",
+      "exit": "Slowly increase throttle",
+      "note_id": "T6fq1klBOBc:8",
+      "text": "braking: Brake at white line, 35-40% to first gear; gear: 1; line: Trail off, turn in, apex on right side; exit: Slowly increase throttle",
+      "spoken_as": "next white line",
+      "passage_time": "5:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:51",
+      "snippet": "first gear, pick back up on the gas once we get to this curb here. And it's a slow increase. We get up to"
+    },
+    {
+      "braking": "Brake to 55-60%, trail off to 1st gear",
+      "gear": "1st gear",
+      "line": "Cut the corner, left tires on curb, right tires on track",
+      "exit": "Accelerate smoothly, exit wide",
+      "mistakes": "Do not use F1 start finish line",
+      "note_id": "T6fq1klBOBc:9",
+      "text": "braking: Brake to 55-60%, trail off to 1st gear; gear: 1st gear; line: Cut the corner, left tires on curb, right tires on track; exit: Accelerate smoothly, exit wide; mistakes: Do not use F1 start finish line",
+      "spoken_as": "next braking marker",
+      "passage_time": "6:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86,
+          "gear": 0.67,
+          "mistakes": 1.0
+        }
+      },
+      "time": "7:21",
+      "snippet": "about 55 60% trail it off down to first gear and then back on the gas nice and smooth."
+    }
+  ]
+}

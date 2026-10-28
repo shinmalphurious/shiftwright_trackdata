@@ -1,0 +1,290 @@
+{
+  "video_id": "hvAgZVxo-MM",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing GR86 Zandvoort National Guide 1:17.2 Toyota GR86 Zandvoort Track Guide",
+  "car": "Toyota GR86",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7344
+    ],
+    [
+      "T1",
+      0.7197
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake up to almost 90% at 100 board, down to second gear",
+      "gear": "second gear",
+      "line": "roll on to brakes, apex in second gear, exit wide",
+      "exit": "back on gas at apex, exit wide",
+      "note_id": "hvAgZVxo-MM:0",
+      "text": "braking: brake up to almost 90% at 100 board, down to second gear; gear: second gear; line: roll on to brakes, apex in second gear, exit wide; exit: back on gas at apex, exit wide",
+      "spoken_as": "start finish straight",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:39",
+      "snippet": "brakes up to almost 90% down to second gear back on the gas at the apex exiting nice and wide."
+    },
+    {
+      "braking": "brake to 25-30% at end of left curbing",
+      "gear": "third gear, drop to second gear",
+      "line": "brake early, apex in third gear, drop to second gear",
+      "exit": "hold 70% throttle till exit",
+      "note_id": "hvAgZVxo-MM:1",
+      "text": "braking: brake to 25-30% at end of left curbing; gear: third gear, drop to second gear; line: brake early, apex in third gear, drop to second gear; exit: hold 70% throttle till exit",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:55",
+      "snippet": "second gear holding it around 70% till we know we're going to make that exit and then just finishing it off."
+    },
+    {
+      "braking": "roll up to almost 100%, drop to first gear",
+      "gear": "first gear",
+      "line": "brake early, apex in first gear",
+      "exit": "feels horrible coming out",
+      "note_id": "hvAgZVxo-MM:2",
+      "text": "braking: roll up to almost 100%, drop to first gear; gear: first gear; line: brake early, apex in first gear; exit: feels horrible coming out",
+      "spoken_as": "trees on the left-hand side",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.77,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:09",
+      "snippet": "drop it down to first gear. Feels absolutely horrible coming out of there. Now, we're looking for the 50 board on"
+    },
+    {
+      "braking": "brakes briefly to about 8%",
+      "gear": "drop it down to first, short shift up to second",
+      "line": "get the right-hand tire up",
+      "exit": "exit nice and wide, use all camber",
+      "mistakes": "get your wheel over that curb",
+      "note_id": "hvAgZVxo-MM:3",
+      "text": "braking: brakes briefly to about 8%; gear: drop it down to first, short shift up to second; line: get the right-hand tire up; exit: exit nice and wide, use all camber; mistakes: get your wheel over that curb",
+      "spoken_as": "the 50 board",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:20",
+      "snippet": "the brakes briefly to about 8% get the right-hand tire up. As we get down there, I drop it down to first and then"
+    },
+    {
+      "braking": "100 board, 85-90% to apex",
+      "gear": "2",
+      "note_id": "hvAgZVxo-MM:4",
+      "text": "braking: 100 board, 85-90% to apex; gear: 2",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:36",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:47",
+      "snippet": "is going to be this 100 board and we are going to get on the brakes, you can see it's still just in front of me, just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "1 car length before curbing, 30% to apex",
+      "gear": "2",
+      "note_id": "hvAgZVxo-MM:5",
+      "text": "braking: 1 car length before curbing, 30% to apex; gear: 2",
+      "spoken_as": "end of this curbing",
+      "passage_time": "2:36",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:14",
+      "snippet": "brakes about a car length before the end of this curbing here on the left-hand side. I go up to about 30% and quick",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking marker where track drops, 35% to apex",
+      "gear": "2",
+      "line": "point car at end of green asphalt",
+      "note_id": "hvAgZVxo-MM:6",
+      "text": "braking: braking marker where track drops, 35% to apex; gear: 2; line: point car at end of green asphalt",
+      "spoken_as": "turn three carousel",
+      "passage_time": "2:36",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:38",
+      "snippet": "end or trying to point the car at the end of the green asphalt up ahead. So, that's where I'm pointing, so",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "before the set of trees, 100%",
+      "gear": "first",
+      "line": "turn-in to right-hand down, 200° of right-hand down",
+      "exit": "get back on briefly up to 100%",
+      "mistakes": "avoid traction control",
+      "note_id": "hvAgZVxo-MM:7",
+      "text": "braking: before the set of trees, 100%; gear: first; line: turn-in to right-hand down, 200° of right-hand down; exit: get back on briefly up to 100%; mistakes: avoid traction control",
+      "spoken_as": "this corner",
+      "passage_time": "3:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 1.0,
+          "mistakes": 1.0
+        }
+      },
+      "time": "4:18",
+      "snippet": "the brakes just before the set of trees or little shrubs on the left-hand side. So, as you can see, just before we get",
+      "best_candidate": {
+        "corner_id": "T5",
+        "confidence": 0.351,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T3",
+        "before": "T7",
+        "estimated_pct": 0.2927,
+        "corner_pct": 0.3008,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T3",
+        "before": "T7",
+        "corners_between": [
+          "T4",
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "50 marker, 80% trail braking",
+      "gear": "second",
+      "line": "right tires on curb or right of curb",
+      "note_id": "hvAgZVxo-MM:8",
+      "text": "braking: 50 marker, 80% trail braking; gear: second; line: right tires on curb or right of curb",
+      "spoken_as": "turn seven",
+      "passage_time": "3:55",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:00",
+      "snippet": "second gear and you want your right-hand tires to be right on this curb or to the right-hand side of the no curb curb.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 marker, back on brakes",
+      "line": "get car turned in",
+      "note_id": "hvAgZVxo-MM:9",
+      "text": "braking: 50 marker, back on brakes; line: get car turned in",
+      "spoken_as": "turn eight",
+      "passage_time": "3:55",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:09",
+      "snippet": "Then I'm back on the brakes getting the car turned in. What my left-hand tires down on this curb. I drop it down to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes briefly two car lengths before white line, 30% trail off",
+      "gear": "downshift to first, short shift up to second",
+      "line": "tight to the bottom",
+      "exit": "hold tight to the bottom",
+      "mistakes": "miss going in the strip gravel trap",
+      "note_id": "hvAgZVxo-MM:10",
+      "text": "braking: brakes briefly two car lengths before white line, 30% trail off; gear: downshift to first, short shift up to second; line: tight to the bottom; exit: hold tight to the bottom; mistakes: miss going in the strip gravel trap",
+      "spoken_as": "final corner",
+      "passage_time": "5:12",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {
+        "alias": "final corner"
+      },
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:28",
+      "snippet": "lengths before this white line, on the brakes briefly to about 30% trail it off and then back up to 100% ahead of the",
+      "confidence": 0.9,
+      "assignment_method": "alias_match",
+      "enrichment_pass": 1
+    }
+  ]
+}

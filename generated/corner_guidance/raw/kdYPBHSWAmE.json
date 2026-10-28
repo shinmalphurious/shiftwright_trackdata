@@ -1,0 +1,152 @@
+{
+  "video_id": "kdYPBHSWAmE",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing BMW M2 Zandvoort Guide 1:44.5 Circuit Zandvoort BMW M2 Track Guide",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2 CS Racing",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:17:54.799136+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker into turn one, quite a bit before the 100",
+      "gear": "3",
+      "line": "holding it around 50-60% trailing it off picking back up on the gas at the apex",
+      "exit": "power through"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "midway along that set of curbing",
+      "gear": "3",
+      "line": "using all that camber to power through",
+      "exit": "flat now through the kink"
+    },
+    {
+      "label": null,
+      "spoken_as": "this is where it gets a little bit tricky",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T2",
+      "braking": "up to about 40%",
+      "gear": "4",
+      "line": "countersteering"
+    },
+    {
+      "label": null,
+      "spoken_as": "nine",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T9",
+      "braking": "brakes at the end of the curbing on the left",
+      "gear": "fourth",
+      "line": "no cut curve",
+      "exit": "back on the gas at the no cut curve"
+    },
+    {
+      "label": null,
+      "spoken_as": "10",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T10",
+      "braking": "braking just before the chicane",
+      "gear": "third",
+      "line": "cut the corner right hand tire over the no cut curb",
+      "exit": "smoothly back on the gas in third",
+      "mistakes": "don't do too much with the brake for the second apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "for the chicane",
+      "start_time": "1:20",
+      "sequence": 1,
+      "label_guess": "T12",
+      "braking": "braking just after the 50 marker",
+      "gear": "third",
+      "line": "left hand side",
+      "exit": "back on the gas in third"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "first braking marker",
+      "start_time": "2:37",
+      "sequence": 2,
+      "braking": "50% at two car lengths before marker",
+      "gear": "3rd",
+      "line": "trail off brakes, turn in at curbs, apex at concrete panes",
+      "exit": "pick up gas to 100%",
+      "mistakes": "counting concrete panes in race"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn Is it two? Yeah.",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T2",
+      "braking": "35% at curbs, trail off",
+      "gear": "3rd",
+      "line": "turn in at curbs, apex at ADAC",
+      "exit": "progressive input to 100%"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "the top of the crest",
+      "start_time": "3:56",
+      "sequence": 3,
+      "braking": "get on the brakes with almost a straight wheel at about 3/4 of the way across the track just before the 50",
+      "line": "wide entry",
+      "exit": "up to 100%",
+      "mistakes": "don't brake too early, trail off the brakes"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "3:56",
+      "sequence": 3,
+      "braking": "braking just before the 50 on the left hand side"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "5:13",
+      "sequence": 4,
+      "braking": "50% hold and trail off before 50 marker",
+      "exit": "pick up gas smoothly after apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11 um chicane",
+      "start_time": "5:13",
+      "sequence": 4,
+      "braking": "60% hold and trail off before 100 board",
+      "line": "right-hand tires to right-hand side of no cut curb",
+      "exit": "blip of gas, straighten wheel, 10% brake pressure until settled, pick up gas at apex"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "turn 13",
+      "start_time": "6:34",
+      "sequence": 5,
+      "braking": "50 marker, 50% short trail off",
+      "line": "left-hand side",
+      "exit": "wide exit, tight to the line, let it come back up",
+      "mistakes": "scrubbing the tires"
+    }
+  ],
+  "general_tips": [
+    "hold it around 50-60% trailing it off picking back up on the gas at the apex",
+    "use all that camber to power through",
+    "see a lot of countersteering",
+    "keep it nice and tight down to the bottom of the track here",
+    "let yourself come back up"
+  ],
+  "dropped_ungrounded": 1
+}

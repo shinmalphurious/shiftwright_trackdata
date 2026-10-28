@@ -1,0 +1,291 @@
+{
+  "track_id": 185,
+  "track": "Oulton Park Circuit - Intl w/no Chicanes",
+  "records": {
+    "185:T2:slow_corner": {
+      "id": "185:T2:slow_corner",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner and relatively short distance from previous corner suggest a tight corner.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.158,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:58+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.059,
+        "consensus": 0.158
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Fosters",
+            "source_track_id": 181,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); consensus 0.16 -> rejected (evidence contradicts the claim)"
+    },
+    "185:T3:flat_out": {
+      "id": "185:T3:flat_out",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner suggests a straight or long corner that can be taken flat.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:01+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.046,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:58+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.7,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.059,
+        "consensus": 0.046
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "7M5b30isBXA",
+              "result": "contradict",
+              "time": "0:42",
+              "note": "braking: 70% brake pressure, trail brake to inside curb.; line: Apex about a car length before no-cut zone, use outside curb on exit.; exit: Pick up throttle at apex, use outside curb, avoid grass.; mistakes: Cut too much inside curb, touch grass to spin the car.",
+              "transcript_snippet": "for about 70% brake pressure. And we're pretty much trailing that off until we get to the inside curb. There's a little",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=7M5b30isBXA"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T3",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+            "source_track_id": 184,
+            "corner": "T3",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T3: research 0.70 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.05 -> rejected (evidence contradicts the claim)"
+    },
+    "185:T10:flat_out": {
+      "id": "185:T10:flat_out",
+      "track_id": 185,
+      "track": "Oulton Park Circuit - Intl w/no Chicanes",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner suggests a straight or long corner that can be taken flat.",
+          "at": "2026-10-28T09:25:47+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:01+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.046,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:11:58+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.7,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.059,
+        "consensus": 0.046
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "Nn01FQ2tWDw",
+              "result": "contradict",
+              "time": "5:48",
+              "note": "braking: 35-40% at white line bowing left; gear: third; line: left edge of track, over curb; exit: 100%",
+              "transcript_snippet": "on the left edge of the track here, you can see where the white line bows out to the left and then comes back in.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Nn01FQ2tWDw"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oulton Park Circuit - International",
+            "source_track_id": 180,
+            "corner": "T15",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Fosters",
+            "source_track_id": 181,
+            "corner": "T8",
+            "inheritance_confidence": 0.9,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Intl w/out Brittens",
+            "source_track_id": 184,
+            "corner": "T12",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          },
+          {
+            "source_track": "Oulton Park Circuit - Fosters w/Hislop",
+            "source_track_id": 186,
+            "corner": "T10",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T10: research 0.70 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.05 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

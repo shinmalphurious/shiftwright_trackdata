@@ -1,0 +1,121 @@
+{
+  "video_id": "VkSw4q_qd9A",
+  "track_id": 18,
+  "track_name": "Road America - Full Course",
+  "title": "iRacing Mustang GT3 Road America Guide 2:02.4 Ford Mustang GT3 Road America Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:02:09.817657+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:39",
+      "sequence": 1,
+      "braking": "Brake at three cone, 50%, trail to apex",
+      "exit": "Exit wide, right wheels on track"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:39",
+      "sequence": 1,
+      "braking": "Brake at two marker, 55%, trail to apex",
+      "line": "Cut corner slightly, right wheels on grass",
+      "exit": "Exit wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "2:39",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "Brake at three marker, straight line",
+      "gear": "1st",
+      "exit": "Back on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "2:39",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "Brake before hill crest, 45%",
+      "gear": "2nd",
+      "exit": "Back on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "3:56",
+      "sequence": 2,
+      "label_guess": "T6",
+      "gear": "2nd",
+      "line": "left hand side, full width on exit",
+      "exit": "back up to full throttle at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:56",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "brake between 2 and 3 marker, 55-60%",
+      "gear": "2nd"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number nine",
+      "start_time": "3:56",
+      "sequence": 2,
+      "label_guess": "T9",
+      "braking": "trail brake past muddy patch, grass patch, next muddy patch",
+      "exit": "100% throttle when seeing porta potty"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "3:56",
+      "sequence": 2,
+      "exit": "flat out"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 12",
+      "start_time": "5:15",
+      "sequence": 3,
+      "label_guess": "T12",
+      "braking": "brakes alongside the four marker",
+      "gear": "trailer off down to second gear",
+      "line": "pick back up on the gas at the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 13",
+      "start_time": "5:15",
+      "sequence": 3,
+      "label_guess": "T13",
+      "braking": "lift to go",
+      "exit": "get back on the gas exiting nice and wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 14",
+      "start_time": "5:15",
+      "sequence": 3,
+      "label_guess": "T14",
+      "braking": "get on the brakes once we're alongside this little airport sign",
+      "gear": "trailer off down to second gear",
+      "line": "point our car towards the outside",
+      "exit": "get on the gas coming out corner"
+    }
+  ],
+  "general_tips": [
+    "get on the brakes to about 45-50%",
+    "enjoy that extra speed and higher minimum apex speed all the way up the start-finish straight"
+  ],
+  "dropped_ungrounded": 3
+}

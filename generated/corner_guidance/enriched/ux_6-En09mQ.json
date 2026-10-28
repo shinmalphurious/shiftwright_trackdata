@@ -1,0 +1,83 @@
+{
+  "video_id": "ux_6-En09mQ",
+  "track_id": 131,
+  "track_name": "New Hampshire Motor Speedway - Oval",
+  "title": "Get FASTER ON iRacing OVALS! | iRacing Track Guide | New Hampshire NASCAR GEN 6",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "aim for the first row of dotted white lines, brake early",
+      "line": "hook the white line through the corner",
+      "exit": "give it a bit of gas to get the back end rotated, ease back onto throttle",
+      "mistakes": "aiming for the flat will shoot you up the track",
+      "note_id": "ux_6-En09mQ:0",
+      "text": "braking: aim for the first row of dotted white lines, brake early; line: hook the white line through the corner; exit: give it a bit of gas to get the back end rotated, ease back onto throttle; mistakes: aiming for the flat will shoot you up the track",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:00",
+      "snippet": "white line through the corner and let the car roll through the center give it a bit of gas to get the back end rotated",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break hard",
+      "mistakes": "sliding up the track a bit",
+      "note_id": "ux_6-En09mQ:1",
+      "text": "braking: break hard; mistakes: sliding up the track a bit",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:12",
+      "snippet": "backstretch break hard and enter turn three just as you did in turn one I slid up the track a bit here but you can",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "aim further down the track on exit",
+      "exit": "ease back on the throttle as you Arc out towards the wall",
+      "mistakes": "watch out for the bumps in the center of the corner",
+      "note_id": "ux_6-En09mQ:2",
+      "text": "line: aim further down the track on exit; exit: ease back on the throttle as you Arc out towards the wall; mistakes: watch out for the bumps in the center of the corner",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:23",
+      "snippet": "ease back on the throttle as you Arc out towards the wall to finish your lap we're back to having two sets of tires"
+    }
+  ]
+}

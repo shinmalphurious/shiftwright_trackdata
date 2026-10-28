@@ -1,0 +1,107 @@
+{
+  "video_id": "sYVt_IKnzdc",
+  "track_id": 199,
+  "track_name": "Circuit Zolder - Grand Prix",
+  "title": "iRacing LMP3 Zolder Guide 1:23.6 Ligier JS P320 LMP3 CIrcuit Zolder GP Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:59:33.248322+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "1:36",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at third to last Coca-Cola sign, 45% pressure, trail brake to 3rd gear.",
+      "gear": "3rd",
+      "exit": "Accelerate to 100% after clearing left curb."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:36",
+      "sequence": 1,
+      "braking": "Brake alongside marshall, 30% pressure, trail brake to curb.",
+      "line": "Apex right curb, exit right side."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:55",
+      "sequence": 2,
+      "braking": "remain flat"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:55",
+      "sequence": 2,
+      "braking": "brakes to 20-25%, trail off",
+      "gear": "4th",
+      "line": "curb on right, grass between roads",
+      "exit": "100% throttle well ahead of curb"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five chic",
+      "start_time": "2:55",
+      "sequence": 2,
+      "braking": "brakes around lamp post, 75%",
+      "gear": "3rd",
+      "exit": "attack second curb, jump over curbs",
+      "mistakes": "ignore first curb"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "4:13",
+      "sequence": 3,
+      "braking": "after 100 board, 75-80%",
+      "gear": "down to 2nd"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "4:13",
+      "sequence": 3,
+      "braking": "lift",
+      "exit": "increase"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "4:13",
+      "sequence": 3,
+      "braking": "before 100 board, 75-80%",
+      "gear": "down to 2nd",
+      "line": "trail to curb",
+      "exit": "back up to 100%"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "4:13",
+      "sequence": 3,
+      "braking": "after 100 board"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:34",
+      "sequence": 4,
+      "label_guess": "T1",
+      "braking": "brakes just after 100 board, 80%",
+      "gear": "second",
+      "line": "trail off, lift through righthander",
+      "exit": "back on gas in second"
+    }
+  ],
+  "general_tips": [
+    "flat out through turn six"
+  ],
+  "dropped_ungrounded": 4
+}

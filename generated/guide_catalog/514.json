@@ -1,15 +1,56 @@
 {
   "track_id": 514,
   "layout": "514-kokomo-tiresout",
+  "name": "Kokomo Speedway - Tires out",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:08:41.453901+00:00",
+  "candidates_seen": 70,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 70,
+    "new_candidates": 68,
+    "accepted": 2,
+    "selected": 2,
+    "kept_previous": 2,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 68,
+    "rejection_reasons": {
+      "no guide words in title": 38,
+      "venue not in title": 21,
+      "too long": 4,
+      "too short": 4,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
-    "legends": [
+    "modified": [
       {
-        "video_id": "caZygkdK2LQ",
-        "title": "iRacing: Chance Sizemore (Dirt Legend @ Kokomo Tires Out)",
-        "description": "Get This EXACT Same Setup Pack Here: https://www.premierracingsetups.com/product/dirt-legend-kokomo-25s3 \u25bb What Is\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
+        "video_id": "CLrKpdawFBw",
+        "title": "UMP Modified Fixed Qualifying Guide-Kokomo",
+        "description": "The first of our fixed dirt series qualifying guides. I will start updating these weekly, before the start of the week. #iRacing #Dirt.",
+        "channel": "Justin Norwood Simsports",
+        "duration": 364,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 196,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "uolbVaGKL54",
+        "title": "Best Track in the Game (How to Drive Kokomo)",
+        "description": "",
+        "channel": "Iamindy33",
+        "duration": 2039,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 126,
+        "venue_confidence": 0.9
       }
     ]
   }

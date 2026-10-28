@@ -1,0 +1,190 @@
+{
+  "video_id": "bXinJmgulNU",
+  "track_id": 179,
+  "track_name": "Long Beach Street Circuit",
+  "title": "iRacing Mercedes GT3 Long Beach Guide 1:17.5 Mercedes AMG GT3 Long Beach Track Guide",
+  "car": "Mercedes AMG",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "500 board, 55% braking, alongside board",
+      "gear": "2nd",
+      "line": "attack left-hand curve",
+      "exit": "get back on gas",
+      "note_id": "bXinJmgulNU:0",
+      "text": "braking: 500 board, 55% braking, alongside board; gear: 2nd; line: attack left-hand curve; exit: get back on gas",
+      "spoken_as": "first braking marker",
+      "passage_time": "1:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:07",
+      "snippet": "55%. We're going to come down to second gear, really attack this curve on the left-hand side. How much we're attacking"
+    },
+    {
+      "braking": "brake after Bubba's Burgers, 35-40%",
+      "gear": "1st",
+      "exit": "avoid wall, exit wide",
+      "mistakes": "avoid wall on exit",
+      "note_id": "bXinJmgulNU:1",
+      "text": "braking: brake after Bubba's Burgers, 35-40%; gear: 1st; exit: avoid wall, exit wide; mistakes: avoid wall on exit",
+      "spoken_as": "Bubba's Burgers",
+      "passage_time": "1:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "exit": 0.75,
+          "mistakes": 1.0
+        }
+      },
+      "time": "2:20",
+      "snippet": "after we've gone through this Bubba's Burgers thing. And we're getting on the brakes only up"
+    },
+    {
+      "braking": "post phasing through barrier, 30%",
+      "gear": "2nd",
+      "exit": "exit wide",
+      "note_id": "bXinJmgulNU:2",
+      "text": "braking: post phasing through barrier, 30%; gear: 2nd; exit: exit wide",
+      "spoken_as": "turn number four",
+      "passage_time": "1:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:39",
+      "snippet": "alongside this post that is phasing through the barrier. Another way of looking at it is a couple of car lengths"
+    },
+    {
+      "braking": "pale patch on left, 35%",
+      "line": "attack gas at apex",
+      "exit": "exit wide",
+      "note_id": "bXinJmgulNU:3",
+      "text": "braking: pale patch on left, 35%; line: attack gas at apex; exit: exit wide",
+      "spoken_as": "turn five",
+      "passage_time": "1:55",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:57",
+      "snippet": "sort of pale patch on the left-hand side. As we get alongside it, on the brakes to about 35%. Trail it back off",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes midway between 300 and 200, 55%",
+      "gear": "2nd",
+      "line": "trail off, attack apex",
+      "exit": "wide, left-hand side",
+      "note_id": "bXinJmgulNU:4",
+      "text": "braking: brakes midway between 300 and 200, 55%; gear: 2nd; line: trail off, attack apex; exit: wide, left-hand side",
+      "spoken_as": "turn six",
+      "passage_time": "3:11",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:28",
+      "snippet": "left-hand side midway between the 300 and the 200, we're going to get on the brakes up to about 40%. Trail it off",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes after 400 ft marker, 55%",
+      "gear": "2nd",
+      "line": "attack corner",
+      "note_id": "bXinJmgulNU:5",
+      "text": "braking: brakes after 400 ft marker, 55%; gear: 2nd; line: attack corner",
+      "spoken_as": "turn nine",
+      "passage_time": "3:11",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:54",
+      "snippet": "through that 400 ft uh marker you can just see on the top left-hand side of your screen. Then we get on the brakes",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes under bridge, 10%",
+      "line": "trail off, curve",
+      "exit": "55-60%",
+      "note_id": "bXinJmgulNU:6",
+      "text": "braking: brakes under bridge, 10%; line: trail off, curve; exit: 55-60%",
+      "spoken_as": "underneath this bridge",
+      "passage_time": "3:11",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:21",
+      "snippet": "10%. Going to trail it off until we get to this curve here. Then we're going to start picking back up on the gas up to"
+    },
+    {
+      "braking": "roll on to the brakes up to about 50%",
+      "gear": "first gear",
+      "line": "get the car turned in",
+      "exit": "plowing on to the line",
+      "note_id": "bXinJmgulNU:7",
+      "text": "braking: roll on to the brakes up to about 50%; gear: first gear; line: get the car turned in; exit: plowing on to the line",
+      "spoken_as": "this final little bit of painted corner",
+      "passage_time": "4:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:35",
+      "snippet": "to about 50% and then roll back off. We're already down to first gear. Get the car turned in. Uh it still is so"
+    }
+  ]
+}

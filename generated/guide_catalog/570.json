@@ -1,25 +1,145 @@
 {
   "track_id": 570,
   "layout": "570-sonoma-2025-sportscar",
+  "name": "Sonoma Raceway - Sportscar",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:32:55.650931+00:00",
+  "candidates_seen": 20,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 20,
+    "new_candidates": 10,
+    "accepted": 16,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 4,
+    "rejection_reasons": {
+      "too short": 2,
+      "no guide words in title": 2
+    }
+  },
   "selected_guides": {
     "bmw_m2": [
       {
         "video_id": "Nhk9uOF-4xM",
         "title": "iRacing M2 Sonoma Guide - 1:42.4 - BMW M2 Sonoma Sportscar Alt Track Guide",
-        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our\u00a0...",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 483,
         "video_type": "lap_walkthrough",
         "car": "bmw_m2",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
       }
     ],
     "mx5": [
       {
         "video_id": "7HGq1c367us",
         "title": "iRacing MX5 Sonoma Guide - 1:47.1 - MX5 Sonoma Sportscar Alt Track Guide",
-        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our\u00a0...",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 461,
         "video_type": "lap_walkthrough",
         "car": "mx5",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "pPqdvpBJa7o",
+        "title": "iRacing GR86 Sonoma Guide - 1:44.2 - Toyota GR86 Sonoma Sportscar Alt Track Guide & Setup",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 512,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "A81fJBvxAQI",
+        "title": "iRacing Ferrari 296 GT3 Challenge -  Sonoma Raceway Track Guide - 1:11.2 - 2024  S2",
+        "description": "GitGud Course: https://gitgudracing.com/simracingcourse/ Coaching Lessons: https://gitgudracing.com/ Join the discord!",
+        "channel": "GITGUD Racing",
+        "duration": 624,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "WtqrVK9xtpI",
+        "title": "iRacing Porsche GT4 Sonoma Guide 1:38.5 Porsche Cayman GT4 Sonoma Sports Car Alt Track Guide",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 528,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "PqHdJ4ZU0L4",
+        "title": "HOW TO DO SONOMA IN iRacing | GT4 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Sonoma in iRacing GT4. Perfect for improving your lap times and ...",
+        "channel": "HYMO Academy",
+        "duration": 196,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "zMZSW6tNDrw",
+        "title": "iRacing Mustang GT4 Sonoma Guide 1:38.6 Ford Mustang GT4 Sonoma Sports Car Alt Track Guide",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 488,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "u6p4Bb4uerI",
+        "title": "iRacing BMW GT4 Sonoma Guide 1:38.7 BMW M4 GT4 Sonoma Sports Car Alt Track Guide",
+        "description": "To race the setup there are two options, first is our own fully loaded website: https://www.SamboSetups.com or you can join our ...",
+        "channel": "Sambo iRacing",
+        "duration": 488,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "hqkH_fXtOpU",
+        "title": "iRacing Track Guide | Sonoma| NASCAR Truck",
+        "description": "Join Aaron Smith II for an intense track guide tutorial around Sonoma Raceway. Get ready for sharp turns, straightaways, and ...",
+        "channel": "Slingshot Racing Media",
+        "duration": 96,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "Aj_A3f4wezQ",
+        "title": "2019 iRacing Track Guides - Sonoma",
+        "description": "i return to one of the more fun tracks in these cars. Sonoma. Nascar returns to the original long version of the track. Much fun to be ...",
+        "channel": "Sim Racing Chewyside",
+        "duration": 551,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ]
   }

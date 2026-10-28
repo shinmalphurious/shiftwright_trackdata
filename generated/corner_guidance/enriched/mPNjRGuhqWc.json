@@ -1,0 +1,284 @@
+{
+  "video_id": "mPNjRGuhqWc",
+  "track_id": 179,
+  "track_name": "Long Beach Street Circuit",
+  "title": "iRacing Mustang GT3 Long Beach Guide 1:17.5 Ford Mustang GT3 Long Beach Track Guide",
+  "car": "Mustang GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at 500 marker, 55-60% pressure, trail off",
+      "line": "Turn left, tight to the wall",
+      "note_id": "mPNjRGuhqWc:0",
+      "text": "braking: Brake at 500 marker, 55-60% pressure, trail off; line: Turn left, tight to the wall",
+      "spoken_as": "turn one",
+      "passage_time": "1:55",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:06",
+      "snippet": "brakes and hold it around 55-60%. When the GT3 is, this is the best way to brake. We're going to trail it off and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake after Bob's Burgers, 35-45% pressure, trail off to 1st gear",
+      "gear": "1st",
+      "line": "Inside roundabout, tight to the wall",
+      "note_id": "mPNjRGuhqWc:1",
+      "text": "braking: Brake after Bob's Burgers, 35-45% pressure, trail off to 1st gear; gear: 1st; line: Inside roundabout, tight to the wall",
+      "spoken_as": "next corner",
+      "passage_time": "1:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.75
+        }
+      },
+      "time": "2:34",
+      "snippet": "inside roundabout. Slowly back on the gas as we go through this left-hander getting nice and tight",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.381,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T6",
+        "estimated_pct": 0.4646,
+        "corner_pct": 0.4453,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T6",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "Brake at fence post, 3 car lengths before signs, 25% pressure, trail off",
+      "line": "Curve right",
+      "note_id": "mPNjRGuhqWc:2",
+      "text": "braking: Brake at fence post, 3 car lengths before signs, 25% pressure, trail off; line: Curve right",
+      "spoken_as": "next corner",
+      "passage_time": "1:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:50",
+      "snippet": "um this fence post. But basically, it's going to be about three car lengths before we get to these signs on the",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.354,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T6",
+        "estimated_pct": 0.4752,
+        "corner_pct": 0.4453,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T6",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "Brake at lighter color, 100% pressure",
+      "note_id": "mPNjRGuhqWc:3",
+      "text": "braking: Brake at lighter color, 100% pressure",
+      "spoken_as": "turn number five",
+      "passage_time": "1:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:04",
+      "snippet": "Up to 100% and we're going to get on the brakes coming into turn number five. Just once we get alongside this lighter",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T6",
+        "estimated_pct": 0.4847,
+        "corner_pct": 0.5088,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T6",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "35% braking, trail off",
+      "line": "attack this curve",
+      "note_id": "mPNjRGuhqWc:4",
+      "text": "braking: 35% braking, trail off; line: attack this curve",
+      "spoken_as": "turn number five",
+      "passage_time": "3:12",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:20",
+      "snippet": "brakes to about 35%. Trail it off and again, really attacking this curve. Here, left-hand tire is still on the",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T6",
+        "estimated_pct": 0.4951,
+        "corner_pct": 0.5088,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T6",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "50-55% braking, trail off, second gear",
+      "gear": "2",
+      "line": "head over to the right side",
+      "exit": "exit nice and wide",
+      "note_id": "mPNjRGuhqWc:5",
+      "text": "braking: 50-55% braking, trail off, second gear; gear: 2; line: head over to the right side; exit: exit nice and wide",
+      "spoken_as": "turn six",
+      "passage_time": "3:12",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:40",
+      "snippet": "the brakes to about 50-55%. Trail it off down to second gear. And again, we're just giving ourselves a little bit of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50% braking, trail off, second gear",
+      "gear": "2",
+      "line": "head over to the left-hand side",
+      "exit": "exit nice and wide",
+      "note_id": "mPNjRGuhqWc:6",
+      "text": "braking: 50% braking, trail off, second gear; gear: 2; line: head over to the left-hand side; exit: exit nice and wide",
+      "spoken_as": "turn eight",
+      "passage_time": "3:12",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:28",
+      "snippet": "again trailer off down to second gear, and again we're really attacking this curbing. We need to keep our left-hand",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "60% braking, trail off, second gear",
+      "gear": "2",
+      "note_id": "mPNjRGuhqWc:7",
+      "text": "braking: 60% braking, trail off, second gear; gear: 2",
+      "spoken_as": "turn now",
+      "passage_time": "3:12",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {
+        "after": "T6",
+        "before": "T8",
+        "corners_between": [
+          "T7"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:43",
+      "snippet": "down to second gear. And again, we're just giving ourselves a little bit of space coming through there, maybe about",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "brake to 60% at end of curbing, trail off to first gear",
+      "gear": "first gear",
+      "line": "use left curbing, keep left tires on curb",
+      "exit": "roll onto brakes, build power to avoid traction control, smash to line",
+      "mistakes": "do not go further right than shown, ensure telemetry saves",
+      "note_id": "mPNjRGuhqWc:8",
+      "text": "braking: brake to 60% at end of curbing, trail off to first gear; gear: first gear; line: use left curbing, keep left tires on curb; exit: roll onto brakes, build power to avoid traction control, smash to line; mistakes: do not go further right than shown, ensure telemetry saves",
+      "spoken_as": "turn now",
+      "passage_time": "4:30",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "gear": 1.0
+        }
+      },
+      "time": "5:16",
+      "snippet": "brakes up to about 60% down to first gear before we start trailing off. And then we're just slowly building back"
+    }
+  ]
+}

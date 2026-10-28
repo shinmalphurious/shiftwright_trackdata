@@ -1,0 +1,306 @@
+{
+  "video_id": "vnH1tu7KNqA",
+  "track_id": 142,
+  "track_name": "Summit Point Raceway - Jefferson Reverse",
+  "title": "iRacing New M2 Racing Summit Point Guide 1:20.4 BMW M2 Racing G87 Summit Point Track Guide Fixed",
+  "car": "BMW M2 Racing G87",
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "braking marker into turn one, four cones on the left, 55% and trail off",
+      "gear": "3rd",
+      "line": "turn-in to braking marker, apex less important, get on gas early",
+      "exit": "full throttle exit, plenty of room",
+      "note_id": "vnH1tu7KNqA:0",
+      "text": "braking: braking marker into turn one, four cones on the left, 55% and trail off; gear: 3rd; line: turn-in to braking marker, apex less important, get on gas early; exit: full throttle exit, plenty of room",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:30",
+      "snippet": "braking marker into turn one, which I believe is the four cones on the left-hand side. We roll on the brakes",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "grass patch, lift and brake to 18-20%",
+      "gear": "5th",
+      "exit": "full throttle exit, touch gravel trap on right",
+      "note_id": "vnH1tu7KNqA:1",
+      "text": "braking: grass patch, lift and brake to 18-20%; gear: 5th; exit: full throttle exit, touch gravel trap on right",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:49",
+      "snippet": "a lift once we get to this grass patch and on the brakes to about 18-20%. Back on the gas in fifth. You can just touch",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.318,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T1",
+        "before": "T4",
+        "estimated_pct": 0.3762,
+        "corner_pct": 0.415,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T1",
+        "before": "T4",
+        "corners_between": [
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "full lift, brake to 60%",
+      "gear": "3rd",
+      "note_id": "vnH1tu7KNqA:2",
+      "text": "braking: full lift, brake to 60%; gear: 3rd",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "1:01",
+      "snippet": "do a full lift as we go through turn four. Back on the gas and then as we straighten our wheel, on the brakes to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 25%",
+      "gear": "3rd",
+      "exit": "back on gas in third",
+      "note_id": "vnH1tu7KNqA:3",
+      "text": "braking: brake to 25%; gear: 3rd; exit: back on gas in third",
+      "spoken_as": "little notch in the tire wall",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:14",
+      "snippet": "and back on the gas in third. Now, I am four laps in here on the fixed setup race fuel and it does allow me plenty of"
+    },
+    {
+      "braking": "brake at four cone on left, initially 50%, then 56%",
+      "note_id": "vnH1tu7KNqA:4",
+      "text": "braking: brake at four cone on left, initially 50%, then 56%",
+      "spoken_as": "first braking marker",
+      "passage_time": "1:20",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:29",
+      "snippet": "four cone on the left hand side, we get on the brakes. So, initially, I roll up to about 50% and then I just go slightly"
+    },
+    {
+      "braking": "brake to 18% at grass bit, trail off",
+      "gear": "hold 3rd gear",
+      "line": "miss left kerb, slight kiss to left curbing",
+      "exit": "get back on gas briefly, lift off, brake to 60% at apex",
+      "mistakes": "kissing curbing costs time",
+      "note_id": "vnH1tu7KNqA:5",
+      "text": "braking: brake to 18% at grass bit, trail off; gear: hold 3rd gear; line: miss left kerb, slight kiss to left curbing; exit: get back on gas briefly, lift off, brake to 60% at apex; mistakes: kissing curbing costs time",
+      "spoken_as": "turn number three",
+      "passage_time": "2:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 1.0
+        }
+      },
+      "time": "3:06",
+      "snippet": "get to this grass bit here, we're going to get off the gas, on the brakes to about 18% and I just hold it there and"
+    },
+    {
+      "braking": "drop it down to fourth and then to third",
+      "gear": "third",
+      "line": "trail it off and then pick back up on the gas at the apex",
+      "exit": "flat",
+      "note_id": "vnH1tu7KNqA:6",
+      "text": "braking: drop it down to fourth and then to third; gear: third; line: trail it off and then pick back up on the gas at the apex; exit: flat",
+      "spoken_as": "turn five",
+      "passage_time": "3:57",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.82,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:57",
+      "snippet": "going to drop it down to fourth and then to third. We're going to trail it off and then pick back up on the gas at the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "briefly on the brakes to about 25%",
+      "gear": "third",
+      "line": "get to the apex",
+      "exit": "pick back up on the gas",
+      "note_id": "vnH1tu7KNqA:7",
+      "text": "braking: briefly on the brakes to about 25%; gear: third; line: get to the apex; exit: pick back up on the gas",
+      "spoken_as": "turn six",
+      "passage_time": "3:57",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:00",
+      "snippet": "and then pick back up on the gas at the apex of turn five here in third gear. Now, on the left-hand side, we're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "vnH1tu7KNqA:8",
+      "text": "line: flat; exit: flat",
+      "spoken_as": "turn seven",
+      "passage_time": "3:57",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:26",
+      "snippet": "turn eight flat. Now, as I say, this is four laps in, so the tires are nicely warm. They're probably in the perfect",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat",
+      "exit": "flat",
+      "note_id": "vnH1tu7KNqA:9",
+      "text": "line: flat; exit: flat",
+      "spoken_as": "turn eight",
+      "passage_time": "3:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:26",
+      "snippet": "turn eight flat. Now, as I say, this is four laps in, so the tires are nicely warm. They're probably in the perfect"
+    },
+    {
+      "braking": "doing a little lift",
+      "line": "get all the way down to the inside",
+      "exit": "pick back up on the gas",
+      "note_id": "vnH1tu7KNqA:10",
+      "text": "braking: doing a little lift; line: get all the way down to the inside; exit: pick back up on the gas",
+      "spoken_as": "turn nine",
+      "passage_time": "3:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:40",
+      "snippet": "doing a little lift. We get all the way down to the inside and then pick back up on the gas."
+    },
+    {
+      "braking": "get on the brakes to about 40%",
+      "gear": "fifth",
+      "line": "right into the middle",
+      "exit": "pick back up on the gas just ahead of the apex",
+      "note_id": "vnH1tu7KNqA:11",
+      "text": "braking: get on the brakes to about 40%; gear: fifth; line: right into the middle; exit: pick back up on the gas just ahead of the apex",
+      "spoken_as": "pit lane entrance",
+      "passage_time": "3:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:03",
+      "snippet": "it down to fifth and then we pick back up on the gas just ahead of the apex. Holding it at around 40, 45% until I"
+    },
+    {
+      "exit": "full gas just ahead of apex",
+      "mistakes": "panicking, washing out in gravel",
+      "note_id": "vnH1tu7KNqA:12",
+      "text": "exit: full gas just ahead of apex; mistakes: panicking, washing out in gravel",
+      "spoken_as": "right-hand lock",
+      "passage_time": "5:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:17",
+      "snippet": "though I've come back up to full gas at this stage. I did think I was probably going to wash out in the gravel, but I"
+    }
+  ]
+}

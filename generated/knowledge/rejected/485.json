@@ -1,0 +1,78 @@
+{
+  "track_id": 485,
+  "track": "Circuit Zandvoort - Grand Prix",
+  "records": {
+    "485:T5:slow_corner": {
+      "id": "485:T5:slow_corner",
+      "track_id": 485,
+      "track": "Circuit Zandvoort - Grand Prix",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to previous corner, likely low speed.",
+          "at": "2026-10-28T10:00:34+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.246,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:48:32+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.098,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.246
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "-WHsJTUmNcU",
+              "result": "contradict",
+              "time": "1:12",
+              "note": "line: go absolutely flat; exit: back on the gas",
+              "transcript_snippet": "gas. Now, we're going to go absolutely flat here through turns four, five, and six. I'm not even going to try and",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=-WHsJTUmNcU"
+            },
+            {
+              "video_id": "i7N7ylDPLYI",
+              "result": "contradict",
+              "time": "3:52",
+              "note": "braking: flat; gear: flat; line: flat; exit: flat",
+              "transcript_snippet": "Now, we're going to go flat as we go through the esses here. Flat through turn five.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=i7N7ylDPLYI"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 2,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T5: research 0.75 from 1 source(s); 0 video(s) confirm, 2 contradict; consensus 0.25 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

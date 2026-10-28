@@ -1,0 +1,129 @@
+{
+  "video_id": "Yhivso3np6o",
+  "track_id": 229,
+  "track_name": "Circuit of the Americas - Grand Prix",
+  "title": "iRacing BMW GT3 COTA Guide 2:04.6 BMW M4 GT3 Circuit Of The Americas Track Guide",
+  "car_hint": "general",
+  "car": "BMW M4 GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:05:26.800802+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "midway between 150 and 100 board, 60%",
+      "gear": "2nd, then 1st",
+      "line": "wide on exit",
+      "exit": "back on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number two",
+      "start_time": "2:45",
+      "sequence": 1,
+      "label_guess": "T2",
+      "line": "left tires close to white line",
+      "exit": "flat exit"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "2:45",
+      "sequence": 1,
+      "braking": "40%",
+      "line": "apex",
+      "exit": "back on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn six",
+      "start_time": "2:45",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "15%"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 10",
+      "start_time": "4:04",
+      "sequence": 2,
+      "label_guess": "T10",
+      "braking": "cut the corner, come off the gas, on the brakes alongside the orange siding and 100 board, 55%",
+      "gear": "1",
+      "line": "trail off, back on gas well ahead of apex",
+      "exit": "keep it held as we get through the second apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "4:04",
+      "sequence": 2,
+      "braking": "alongside the orange siding and 100 board, 55%",
+      "gear": "1",
+      "line": "trail off, back on gas well ahead of apex",
+      "exit": "keep it held as we get through the second apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "Turn 12",
+      "start_time": "4:04",
+      "sequence": 2,
+      "label_guess": "T12",
+      "braking": "past the 150 board, 55%",
+      "gear": "1",
+      "line": "head over to left-hand side, end of grass patch, painted line",
+      "exit": "on the brakes to about 35-40%"
+    },
+    {
+      "label": null,
+      "spoken_as": "right-hand side",
+      "start_time": "5:21",
+      "sequence": 3,
+      "label_guess": "T6",
+      "braking": "get on the brakes to about 35%, trail it off down to first",
+      "gear": "first",
+      "line": "head over to the left",
+      "exit": "back on the gas once we get to the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "bridge",
+      "start_time": "5:21",
+      "sequence": 3,
+      "label_guess": "T7",
+      "braking": "lift down to about 40%",
+      "line": "go flat till we get to the bridge",
+      "exit": "start picking back up on the gas once we get to the first apex"
+    },
+    {
+      "label": "T19",
+      "spoken_as": "white line",
+      "start_time": "5:21",
+      "sequence": 3,
+      "braking": "get on the brakes to about 40%",
+      "gear": "third",
+      "line": "get nice and tight to the sausage curb",
+      "exit": "back on the gas once we get to the apex"
+    },
+    {
+      "label": "T20",
+      "spoken_as": "final bit of braking",
+      "start_time": "5:21",
+      "sequence": 3,
+      "braking": "get on the brakes to about 50-55%, roll it off down to second",
+      "gear": "second",
+      "exit": "back on the gas ahead of the apex"
+    }
+  ],
+  "general_tips": [
+    "get back on gas once you get to the apex of turn five",
+    "get on the brakes once you get to the end of the darker asphalt",
+    "Come down the hill cutting the corner as we come through turn 10.",
+    "Final bit of braking into turn 20."
+  ],
+  "dropped_ungrounded": 0
+}

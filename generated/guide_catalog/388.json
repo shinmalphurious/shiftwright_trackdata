@@ -1,53 +1,128 @@
 {
   "track_id": 388,
   "layout": "388-irwindale-figureeightjump",
+  "name": "Irwindale Speedway - Figure Eight Jump",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:16:07.078871+00:00",
+  "candidates_seen": 68,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 68,
+    "new_candidates": 60,
+    "accepted": 8,
+    "selected": 8,
+    "kept_previous": 8,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 60,
+    "rejection_reasons": {
+      "no guide words in title": 36,
+      "venue not in title": 12,
+      "too short": 6,
+      "too long": 3,
+      "live stream": 3
+    }
+  },
   "selected_guides": {
+    "late_model": [
+      {
+        "video_id": "xaWUT8u1YtI",
+        "title": "iRacing Super Late Model: Learn to Drive Irwindale Outer for 2025 Season 1 Week 7 Lap Guide",
+        "description": "Learn to drive Irwindale Speedway in an iRacing Super Late Model for the iRacing 2025 S1 Week 7 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 431,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "R2vy21f9yQw",
+        "title": "Learn to Drive Irwindale Inner in a LMSC for iRacing 2025 Season 4 Week 5 Lap Guide and Tutorial",
+        "description": "Learn to Drive Irwindale Inner in an iRacing Late Model Stock (LMSC) for the iRacing 2025 Season 4 Week 5 of official races!",
+        "channel": "Team53",
+        "duration": 489,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "modified": [
+      {
+        "video_id": "r7TuqHpIejg",
+        "title": "iRacing SK Modified: Learn to Drive Irwindale Inner for 2025 Season 1 Week 10 Lap Guide",
+        "description": "Learn to drive Irwindale Inner in an iRacing SK Modified for the iRacing 2025 S1 Week 10 of official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 423,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "qCRBPzQDzRs",
+        "title": "iRacing Tour Modified: Learn to Drive Irwindale Outer for 2025 Season 1 Week 10 Lap Guide",
+        "description": "Learn to drive Irwindale Outer in an iRacing Tour Modified for the iRacing 2025 S1 Week 10 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 478,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
     "arca": [
       {
         "video_id": "Y4Siwe5K4j4",
         "title": "Iracing Arca CHAMPION'S guide to Irwindale Figure 8 Jump Qualifying",
         "description": "The real April fool is me because I spent 20 minutes getting this lap...",
+        "channel": "DJ Yee-J",
+        "duration": 208,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 196,
+        "venue_confidence": 0.9
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "dwCymYw4wb0",
+        "title": "*Weird Line!* Iracing Arca Irwindale Guide to Qual and Race",
+        "description": "It's a fun drive, might be single lane dodgecar though #nascar #simracing.",
+        "channel": "DJ Yee-J",
+        "duration": 1398,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 196,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "UmRz6qnCDhY",
-        "title": "iRacing at Irwindale Speedway Figure 8 - ARCA Series - Sampsoid Oval League - 2021 Season 1",
-        "description": "CHRIS MCCLUNG | February 4, 2021 - Sampsoid Oval League hosted an unofficial, just-for-fun \"race\" on a figure 8 track -- with a\u00a0...",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 120
+        "video_id": "rkqhgI-I8Bc",
+        "title": "iRacing - Irwindale Outer Legends Car - Elite Performance Breakdown by Nascar Champ David Polenz",
+        "description": "iRacing - Irwindale Outer Legends Car - Elite Performance Industries Breakdown by Nascar Champ David Polenz For more racing ...",
+        "channel": "David Polenz",
+        "duration": 889,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 196,
+        "venue_confidence": 0.9
       }
     ],
-    "mx5": [
+    "truck": [
       {
-        "video_id": "ZHUaU2MUgFw",
-        "title": "iRacing - Figure 8 Miata (MX-5) @ Irwindale",
-        "description": "These figure 8 races are an absolute blast. No points to be gained or lost, just a chance to let loose and have some fun. Support\u00a0...",
-        "video_type": "other",
-        "car": "mx5",
-        "quality_score": 120
-      }
-    ],
-    "street_stock": [
-      {
-        "video_id": "3Isp4yPNCkc",
-        "title": "iRacing Street Stock Irwindale Figure 8 Week 13",
-        "description": "iRacing the Street Stocks at Irwindale Figure 8. Week 13 Mayhem.",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      }
-    ],
-    "rallycross_beetle": [
-      {
-        "video_id": "_1MddJk3jpg",
-        "title": "13th Week iRacing Figure GR8 WRX (Rallycross) at Irwindale Speedway - Figure Eight Jump",
-        "description": "Wild!",
-        "video_type": "other",
-        "car": "rallycross_beetle",
-        "quality_score": 120
+        "video_id": "mMjkNzCDu8M",
+        "title": "IRacing Track Guide | Irwindale Speedway in Trucks | W/Telemetry",
+        "description": "Check out the Facebook https://www.facebook.com/WTFeteam https://www.instagram.com/kabe05racer... If you enjoyed leave a ...",
+        "channel": "K05",
+        "duration": 440,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 160,
+        "venue_confidence": 1.0
       }
     ]
   }

@@ -1,41 +1,144 @@
 {
   "track_id": 245,
   "layout": "245-monza-ovalleft",
+  "name": "Autodromo Nazionale Monza - Oval - Left turning",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:24:04.954433+00:00",
+  "candidates_seen": 29,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 29,
+    "new_candidates": 19,
+    "accepted": 11,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 18,
+    "rejection_reasons": {
+      "no guide words in title": 10,
+      "too long": 5,
+      "too short": 3
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
         "video_id": "g0hwBYQuyho",
         "title": "Beginner Track Guide: iRacing Autodromo Nazionale Monza - Oval - Left turning NASCAR Cup Series ...",
         "description": "Sign up with the code AUTODROMO88 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 209,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
-      },
-      {
-        "video_id": "_0Wi3Nqd7lk",
-        "title": "iRacing Fixed NASCAR Series Tutorial: B Fixed Xfinity at Monza Oval 23S1. Maconi Setup Shop",
-        "description": "iRacing NASCAR Fixed Series Tutorial by Justin Yee for Maconi Setup Shop LLC.",
-        "video_type": "other",
-        "car": "nascar",
-        "quality_score": 120
-      },
-      {
-        "video_id": "FcQUVTbiCcA",
-        "title": "iRacing Autodromo Nazionale Monza - Oval - Left turning NASCAR Cup Series Chevrolet Camaro ZL1 (...",
-        "description": "Sign up with the code AUTODROMO535 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
-        "video_type": "other",
-        "car": "nascar",
-        "quality_score": 120
+        "quality_score": 260,
+        "venue_confidence": 1.0
       }
     ],
-    "truck": [
+    "mx5": [
       {
-        "video_id": "QXKODpmtJ2k",
-        "title": "Monza Oval Trucks",
-        "description": "These trucks sure are in the air a lot.",
-        "video_type": "other",
-        "car": "truck",
-        "quality_score": 20
+        "video_id": "JfpMz7fbJBA",
+        "title": "iRacing MX5 Monza Guide 2:12.9 Mazda MX5 Monza Full Track Guide Advanced",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 601,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 222,
+        "venue_confidence": 0.8
+      }
+    ],
+    "general": [
+      {
+        "video_id": "7rcnjbpvGgw",
+        "title": "Track Guide: iRacing Autodromo Nazionale Monza - Grand Prix Mercedes-AMG W13 E Performance (Dry)...",
+        "description": "Sign up with the code MONZA18 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=MONZA18 Delve ...",
+        "channel": "Track Titan",
+        "duration": 315,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "5_T2zjNh_gM",
+        "title": "Track Guide: iRacing Autodromo Nazionale Monza - Grand Prix Super Formula SF23 - Honda (Dry) (Ho...",
+        "description": "Sign up with the code MONZA9 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=MONZA9 Delve ...",
+        "channel": "Track Titan",
+        "duration": 319,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "TIQHjtb6KxE",
+        "title": "Track Guide: iRacing Autodromo Nazionale Monza - Grand Prix Chevrolet Corvette C8.R GTE (Dry) (H...",
+        "description": "Sign up with the code AUTODROMO5755 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 361,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "dMnmmQ7TcjI",
+        "title": "HOW TO DO MONZA IN iRacing | GT3 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Monza in iRacing GT3. Perfect for improving your lap times and ...",
+        "channel": "HYMO Academy",
+        "duration": 220,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "aJjNJItvF_w",
+        "title": "iRacing F4 Monza Guide 1:52.3 F4 Monza Grand Prix Track Guide",
+        "description": "This is a complete track guide for the FIA F4 at Monza in iRacing. Monza is a fast, high-speed and deceptively technical circuit ...",
+        "channel": "Sambo iRacing",
+        "duration": 555,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "2gbW2v0LwUY",
+        "title": "iRacing Super Formula Monza Guide 1:28.7 SUper Formula Monza GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 219,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "Ht7bVys9UT0",
+        "title": "iRacing Porsche Cup Monza Track Guide - 1:46.906",
+        "description": "ACADEMY: https://gitgudracingacademy.com SIMHUB 5% OFF: https://sim-lab.eu/?ref=GITGUD5 GO Setups 10% OFF: ...",
+        "channel": "GITGUD Racing",
+        "duration": 353,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "eZtezFe7Qlw",
+        "title": "HOW TO DO MONZA COMBINED IN iRacing | GT3 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Monza Combined in iRacing GT3. Perfect for improving your lap ...",
+        "channel": "HYMO Academy",
+        "duration": 328,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
       }
     ]
   }

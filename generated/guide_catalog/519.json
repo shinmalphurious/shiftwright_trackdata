@@ -1,15 +1,55 @@
 {
   "track_id": 519,
   "layout": "519-oswego-mini",
+  "name": "Oswego Speedway - Mini Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:09:06.296158+00:00",
+  "candidates_seen": 48,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 48,
+    "new_candidates": 46,
+    "accepted": 2,
+    "selected": 2,
+    "kept_previous": 2,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 46,
+    "rejection_reasons": {
+      "venue not in title": 24,
+      "no guide words in title": 17,
+      "too long": 4,
+      "too short": 1
+    }
+  },
   "selected_guides": {
-    "street_stock": [
+    "modified": [
       {
-        "video_id": "p2AQZlusjYw",
-        "title": "iRacing New Content - Oswego Speedway and Street Stocks",
-        "description": "Take a look at Oswego Speedway and the new Street Stock Options for the 2024 Season 3 iRacing Build. PC Specs: Ryzen 5700,\u00a0...",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
+        "video_id": "k4Se3hGNwZE",
+        "title": "iRacing SK Modified: Learn to Drive Oswego Speedway for iRacing 2025 Season 1 Week 3",
+        "description": "Learn to drive Oswego Speedway in an iRacing SK Modified for the iRacing 2025 S1 Week 3 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 385,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      }
+    ],
+    "late_model": [
+      {
+        "video_id": "6nfAb5XKDyM",
+        "title": "Learn to Drive Oswego in a Late Model Stock Car for iRacing 2025 S 3 Week 6 Lap Guide & Tutorial",
+        "description": "Learn to Drive Oswego in an iRacing Late Model Stock (LMSC) for the iRacing 2025 S3 Week 6 of official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 492,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ]
   }

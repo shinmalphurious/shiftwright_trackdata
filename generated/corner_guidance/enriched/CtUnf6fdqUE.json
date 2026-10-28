@@ -1,0 +1,215 @@
+{
+  "video_id": "CtUnf6fdqUE",
+  "track_id": 162,
+  "track_name": "Dover Motor Speedway",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Dover",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "turn away from the wall before the auto trader sign",
+      "line": "trajectory down into turn one",
+      "exit": "start lifting phase near A-post crossing auto trader sign",
+      "mistakes": "start lifting too late, miss the compression zone",
+      "note_id": "CtUnf6fdqUE:0",
+      "text": "braking: turn away from the wall before the auto trader sign; line: trajectory down into turn one; exit: start lifting phase near A-post crossing auto trader sign; mistakes: start lifting too late, miss the compression zone",
+      "spoken_as": "turn one",
+      "passage_time": "2:57",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:30",
+      "snippet": "my trajectory down into turn one, our compression zone here at the right point. So, let's start turning away from",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "left point is slow, stay rolling",
+      "line": "angle first part of apex, get close to apron",
+      "mistakes": "overspeed entry, add too much wheel, hit apron",
+      "note_id": "CtUnf6fdqUE:1",
+      "text": "braking: left point is slow, stay rolling; line: angle first part of apex, get close to apron; mistakes: overspeed entry, add too much wheel, hit apron",
+      "spoken_as": "turn one",
+      "passage_time": "4:17",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:47",
+      "snippet": "angle my first part of the apex of turn one. Okay. I'm going to find the point where I'm going to get as close to this",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Continue rolling, start opening up the line to create a sharper exit",
+      "exit": "Maintain partial throttle, avoid excessive throttle to prevent rear swing",
+      "mistakes": "Using too much throttle can cause rear end to break free",
+      "note_id": "CtUnf6fdqUE:2",
+      "text": "line: Continue rolling, start opening up the line to create a sharper exit; exit: Maintain partial throttle, avoid excessive throttle to prevent rear swing; mistakes: Using too much throttle can cause rear end to break free",
+      "spoken_as": "one and two",
+      "passage_time": "5:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "mistakes": 0.67
+        }
+      },
+      "time": "6:40",
+      "snippet": "here we may use too much throttle and just swing the rear of the car around and break it free. So, your objective is"
+    },
+    {
+      "line": "turn down the hill, shape exit fully",
+      "exit": "use bank, 100% throttle, open wheel",
+      "mistakes": "front end washes out early, delay full throttle",
+      "note_id": "CtUnf6fdqUE:3",
+      "text": "line: turn down the hill, shape exit fully; exit: use bank, 100% throttle, open wheel; mistakes: front end washes out early, delay full throttle",
+      "spoken_as": "turn two",
+      "passage_time": "6:54",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 1.0,
+          "exit": 0.67
+        }
+      },
+      "time": "6:58",
+      "snippet": "back down to shape my exit fully. I'm adding just a little bit more of an increased throttle. You can see how it's",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "straight entry, crosswalk reference",
+      "mistakes": "using too much wheel load",
+      "note_id": "CtUnf6fdqUE:4",
+      "text": "line: straight entry, crosswalk reference; mistakes: using too much wheel load",
+      "spoken_as": "turn three",
+      "passage_time": "6:54",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:09",
+      "snippet": "where I'm not using too much wheel load. again, just turning the wheel too much. So, I'm already turning away from it",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift throttle before getting under the crosswalk, about a car length and a half before",
+      "exit": "use partial throttle on entry, maintain partial throttle through the corner",
+      "mistakes": "turning the wheel too much, going wide on the diamond",
+      "note_id": "CtUnf6fdqUE:5",
+      "text": "braking: lift throttle before getting under the crosswalk, about a car length and a half before; exit: use partial throttle on entry, maintain partial throttle through the corner; mistakes: turning the wheel too much, going wide on the diamond",
+      "spoken_as": "turn three",
+      "passage_time": "8:11",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.7,
+          "mistakes": 0.67
+        }
+      },
+      "time": "8:36",
+      "snippet": "length, car length and a half before I get under it. Now, I'm still doing a slow lift, but I'm not completely out of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "keep left front pinned close to apron",
+      "exit": "100% throttle",
+      "mistakes": "pinching off",
+      "note_id": "CtUnf6fdqUE:6",
+      "text": "line: keep left front pinned close to apron; exit: 100% throttle; mistakes: pinching off",
+      "spoken_as": "pit entry",
+      "passage_time": "9:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.89,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:03",
+      "snippet": "keep the left front pinned close to this apron without pinching it off. Okay. And you can see how I work to that 100%"
+    },
+    {
+      "exit": "keep wheels narrow to avoid exit wall",
+      "mistakes": "getting into exit wall",
+      "note_id": "CtUnf6fdqUE:7",
+      "text": "exit: keep wheels narrow to avoid exit wall; mistakes: getting into exit wall",
+      "spoken_as": "turn four exit",
+      "passage_time": "9:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:36",
+      "snippet": "exit wall. And turn two is the same thing, but you you just you're really committed for exit speed at this track."
+    },
+    {
+      "line": "Keep it pinched down",
+      "exit": "Straight exit as much as I can",
+      "note_id": "CtUnf6fdqUE:8",
+      "text": "line: Keep it pinched down; exit: Straight exit as much as I can",
+      "spoken_as": "Four left",
+      "passage_time": "12:05",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:14",
+      "snippet": "Keep it pinched down. Straight exit as much as I can. Full left and out."
+    }
+  ]
+}

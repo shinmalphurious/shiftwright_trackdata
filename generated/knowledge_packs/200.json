@@ -271,5 +271,763 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": "Earste",
+      "videos": 2,
+      "cars": [
+        "ferrari gt3",
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake after the orange strip on the wall.",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Trail breaking through here",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Peak at 16, downshift on braking",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "gearing down to 2",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "sticking to the right hand side there little bit of a Turnin and we're Trail breaking through here",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn in close to the wall on the right.",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn in close to inside curb, late apex",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Use all track on left, swing back to right",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "utilizing the entire width of the track",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Taking too much inside curb destabilizes car",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Don't be afraid to get close to the wall.",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "probably could have carried a bit",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake after the orange strip, turn in close to the wall, downshift to 2, avoid inside curb, use full track width on exit."
+    },
+    "T2": {
+      "name": "Sterrenwachtbocht",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "braking at the right hand side, trail braking",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "gear down to 2",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "utilize entire width, turn-in on the left",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "throttle modulation, hit apex, back on throttle",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "hitting bumps, losing speed",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake on the right, trail brake, downshift to 2nd. Use full width, turn left. Hit apex, modulate throttle. Avoid bumps, maintain speed."
+    },
+    "T3": {
+      "name": "Kanaalbocht",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "big sweeping right-hander, carry speed",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Take the big sweeping right-hander, carry speed. (mx5)"
+    },
+    "T4": {
+      "name": "Lucien Bianchbocht",
+      "videos": 2,
+      "cars": [
+        "ferrari gt3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "stand on brakes at end of service road, brake to third gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break right there at that little grass spot",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "third gear",
+          "videos": 2,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "take more curve than shown, late apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "turn in immediately after braking",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "throttle up, use a bit of gravel on the left",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "full throttle exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "be very careful past the white line",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "hit blue curbs, lift mid corner",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to third gear at the grass spot, turn in immediately. Take a late apex, use gravel on exit for full throttle. Avoid blue curbs and white line."
+    },
+    "T5": {
+      "name": "Kleine Chicane",
+      "videos": 2,
+      "cars": [
+        "ferrari gt3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "stand on brakes before red and white wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break after the 100 meter board",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "take flat part of curb on first apex",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "take too much curb on first apex",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "overtake before chicane",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake after the 100m board, take flat part of curb at first apex, avoid taking too much curb."
+    },
+    "T6": {
+      "name": "Butte",
+      "videos": 1,
+      "cars": [
+        "mx5"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Trail braking, using engine braking",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Gear 1",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Throttle modulation to rotate car left and right, use whole width of track",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Back on throttle at Apex point",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Not using all of the width of the track",
+          "videos": 1,
+          "cars": [
+            "mx5"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake using trail braking and engine braking in Gear 1. Use whole track width for rotation. Back on throttle at Apex."
+    },
+    "T7": {
+      "name": "Terlamenbocht",
+      "videos": 2,
+      "cars": [
+        "ferrari gt3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "blue sign on left, brake for first gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "use all entry curve, avoid blue and gray curbs",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Straight line, use as much kerb as possible",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "stay left, full throttle, nip bit of blue curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Patience, then full throttle",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't drift wide, avoid off track",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 1st gear at blue sign, use entry curve, avoid blue and gray curbs. Exit left, touch blue curb, full throttle."
+    },
+    "T8": {
+      "name": "Bolderbergbocht",
+      "videos": 1,
+      "cars": [
+        "ferrari gt3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at 100 meter board",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Take tight line, mid apex",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Use track dip to pull through corner",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Braking later than 100 meter board",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 100m board, take tight line with mid apex, use track dip on exit. Avoid braking late."
+    },
+    "T10": {
+      "name": "Jacky Ickxbocht",
+      "videos": 1,
+      "cars": [
+        "ferrari gt3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake slightly after 100m board, between 100m and bio racer sponsorship",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn in using inside curve, apex using more inside curve",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Open throttle, use track on left",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Careful with wall on left and grass",
+          "videos": 1,
+          "cars": [
+            "ferrari gt3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake after 100m board, turn in early, apex inside, exit left, avoid wall and grass."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.938,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T5": [
+      {
+        "claim": "chicane",
+        "statement": "Chicane",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Chicane at T5: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

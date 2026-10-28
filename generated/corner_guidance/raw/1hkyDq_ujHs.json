@@ -1,0 +1,189 @@
+{
+  "video_id": "1hkyDq_ujHs",
+  "track_id": 185,
+  "track_name": "Oulton Park Circuit - Intl w/no Chicanes",
+  "title": "Oulton Park No Chicanes - FIA F4 Track Guide - 2023 Season 1 - 1:24.898 - Fixed Setup",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:35:10.391813+00:00",
+  "passages": 16,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "Turn one",
+      "start_time": "3:45",
+      "sequence": 2,
+      "line": "Turn in late, apex late",
+      "exit": "Throttle hard, stay on track",
+      "mistakes": "Early apex, losing momentum"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:03",
+      "sequence": 3,
+      "label_guess": "T2",
+      "braking": "brake at end of ad boards, quick dab",
+      "exit": "aggressive throttle on exit, keep right side tires on tarmac",
+      "mistakes": "early apex closes exit, risk off track"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "6:23",
+      "sequence": 4,
+      "braking": "stay right for turn three entry"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "6:23",
+      "sequence": 4,
+      "braking": "start braking at the first major dip",
+      "line": "ease the car into the corner with steering",
+      "exit": "use the second dip to help with getting to the apex",
+      "mistakes": "be too aggressive with steering"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "7:42",
+      "sequence": 5,
+      "gear": "Flat out"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "9:06",
+      "sequence": 6,
+      "line": "later apex to stay left on exit",
+      "mistakes": "turning in too early, touching grass on exit"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "9:06",
+      "sequence": 6,
+      "line": "tight line through camber",
+      "exit": "use banking on exit"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "10:25",
+      "sequence": 7,
+      "braking": "brake at end of tire barrier on left, avoid locking tires",
+      "line": "turn in at green board on left, stay tight to curbing",
+      "exit": "get on throttle early, use banking to avoid running wide",
+      "mistakes": "locking up tires, peaking too high on brake pressure"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "Turn six",
+      "start_time": "11:42",
+      "sequence": 8,
+      "gear": "Flat out",
+      "line": "Stay tight",
+      "exit": "Maintain momentum"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "Turn seven",
+      "start_time": "11:42",
+      "sequence": 8,
+      "line": "Maintain good momentum",
+      "exit": "Trust the car",
+      "mistakes": "Avoid touching the grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "13:00",
+      "sequence": 9,
+      "label_guess": "T4",
+      "braking": "brake around gap in left curbs",
+      "line": "turn-in left, apex at end of right grass patch",
+      "exit": "follow turning arc, look up track to avoid running wide",
+      "mistakes": "avoid rear sliding at apex bump, manage understeer on bump"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "this bump",
+      "start_time": "14:18",
+      "sequence": 10,
+      "exit": "get back on throttle aggressively",
+      "mistakes": "left braking too late, turned in too late, too harsh on braking or steering inputs"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 10",
+      "start_time": "14:18",
+      "sequence": 10,
+      "line": "stay on red and white curbing",
+      "mistakes": "going beyond the curb into bumpy grass"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "Druids",
+      "start_time": "15:36",
+      "sequence": 11,
+      "braking": "Brake smoothly for the first apex, trail brake into it.",
+      "line": "Hit both apexes, prioritize the second apex.",
+      "exit": "Stay on throttle after first apex, keep eyes on second apex.",
+      "mistakes": "Running wide at second apex makes exit tricky."
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "16:52",
+      "sequence": 12,
+      "line": "Maintain turning arc towards second apex",
+      "exit": "Open hands on exit, trust track after crest",
+      "mistakes": "Avoid getting car loose after crest"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "18:11",
+      "sequence": 13,
+      "braking": "brake after left turn-in board, trail off brakes",
+      "line": "late apex, place a tire or less on curb",
+      "exit": "get back on throttle late to stay in control",
+      "mistakes": "brake too late, run wide on exit, touch grass after curb"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "Turn 12",
+      "start_time": "19:32",
+      "sequence": 14,
+      "line": "Stay tight to minimize distance",
+      "exit": "Use exit curbing to maximize track usage"
+    }
+  ],
+  "general_tips": [
+    "Maintain momentum throughout the lap",
+    "maintain good momentum on entry",
+    "apex a little bit later",
+    "use the dips to help with rotation",
+    "Use the feeling of the two dips to get a rhythm for the corner.",
+    "Hold the apex for as long as possible.",
+    "Avoid using the off-track curbing on the exit of T3.",
+    "maintain momentum",
+    "use heavily cambered banking",
+    "Keep eyes up the track to spot the exit",
+    "Let the car run up the banking out towards the exit curbing",
+    "Maintain momentum through the corner, entries and exits are roughly as fast.",
+    "stay smooth as we approach turn 10",
+    "Druids or turn 10 is a momentum corner",
+    "Stay smooth to handle minor bumps.",
+    "Focus on hitting both apexes, especially the second one.",
+    "Keep eyes on second apex to ensure car gets there.",
+    "Hit second apex to avoid running wide on exit",
+    "focus on not sliding, be patient, wait for car to settle before getting back on throttle",
+    "Develop trust in track position on exit",
+    "Be conscious of off tracks when pushing"
+  ],
+  "dropped_ungrounded": 3
+}

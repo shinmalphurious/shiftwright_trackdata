@@ -1,0 +1,127 @@
+{
+  "video_id": "7OgeevoR7Js",
+  "track_id": 213,
+  "track_name": "Autódromo José Carlos Pace - Moto",
+  "title": "Track Guide Autodromo Jose Carlos Pace Moto GR86 iRacing",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:38:42.136338+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn 1",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "use end of wall on right as braking marker, brake to 95% pressure, ease off to first curb",
+      "line": "cut curb quite a lot, full throttle on curb",
+      "mistakes": "don't take too much curb as it is raised"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn 2",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "cut all of the curb"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn 3",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "use road on right as braking marker, brake hard to 90% pressure, ease off to inside curb",
+      "line": "lean on inside curb, follow as long as possible",
+      "mistakes": "don't cut curb too much, inside part is raised"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn 6",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "by the Marshall's post, quick tap to 40%",
+      "line": "turn in before braking",
+      "exit": "stay close to right side, use outside curb for turn 7",
+      "mistakes": "do not touch solid green part"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn 7",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "use outside curb",
+      "exit": "hit both curves, walk out to outside for turn 8"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn 8",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "outside text 'sa Paulo', 90% brake pressure, ease off to inside curb",
+      "line": "use outside curb, cut a lot",
+      "exit": "Full Throttle",
+      "mistakes": "could cut inside curb more"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "stabilize car with trail braking",
+      "exit": "Full Throttle"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "65% brake pressure at tree marker",
+      "line": "cut curb, apex late",
+      "exit": "Full Throttle",
+      "mistakes": "don't cut curb too much"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "2:36",
+      "sequence": 2,
+      "line": "hug curb"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "2:36",
+      "sequence": 2,
+      "line": "green and white part of curb",
+      "mistakes": "don't touch solid green"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "3:53",
+      "sequence": 3,
+      "line": "Cut the curb a little bit on the outside.",
+      "exit": "Full throttle, use all of the curb on the outside.",
+      "mistakes": "Cutting the curb too much can unsettle the car."
+    },
+    {
+      "label": null,
+      "spoken_as": "little quick bit",
+      "start_time": "3:53",
+      "sequence": 3,
+      "line": "Cut the first, second, and third curb as much as possible.",
+      "mistakes": "Be smooth with inputs to scrub up as little speed as possible."
+    }
+  ],
+  "general_tips": [
+    "sit up for exit on turns 1, 2, and 3 for long straight after",
+    "breaking zone down to turn five is good overtaking spot",
+    "in qualifying, be all the way on the right to open up turn",
+    "maximize exit speed",
+    "Take the shortest route to the finish line.",
+    "For qualifying, hug the inside wall all the way to the finish line.",
+    "In the race, walk out to the right."
+  ],
+  "dropped_ungrounded": 1
+}

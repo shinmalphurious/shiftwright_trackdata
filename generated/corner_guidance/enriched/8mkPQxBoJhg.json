@@ -1,0 +1,599 @@
+{
+  "video_id": "8mkPQxBoJhg",
+  "track_id": 129,
+  "track_name": "New Hampshire Motor Speedway - Road Course",
+  "title": "New Hampshire Track Guide I iRacing NASCAR NextGen I Team Conti Sim Performance",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake on first seam",
+      "line": "wrap around corner",
+      "exit": "put power down on exit",
+      "note_id": "8mkPQxBoJhg:0",
+      "text": "braking: brake on first seam; line: wrap around corner; exit: put power down on exit",
+      "spoken_as": "turn one",
+      "passage_time": "1:19",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:15",
+      "snippet": "that first seam and wrap it for as much of the corner as possible.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "hover around hash marks",
+      "note_id": "8mkPQxBoJhg:1",
+      "text": "line: hover around hash marks",
+      "spoken_as": "turn two",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:59",
+      "snippet": "hovering around the first set of hash marks. Little bit more disciplined in staying"
+    },
+    {
+      "line": "enter below first seam, slide up",
+      "note_id": "8mkPQxBoJhg:2",
+      "text": "line: enter below first seam, slide up",
+      "spoken_as": "turn three",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:11",
+      "snippet": "the first seam and slide up, whereas turn one, put that left front right on that first seam"
+    },
+    {
+      "line": "enter below first seam, slide up",
+      "note_id": "8mkPQxBoJhg:3",
+      "text": "line: enter below first seam, slide up",
+      "spoken_as": "turn four",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:11",
+      "snippet": "the first seam and slide up, whereas turn one, put that left front right on that first seam"
+    },
+    {
+      "braking": "Mobil 1 banner, brake early",
+      "gear": "early to partial throttle",
+      "line": "creep around the seam",
+      "exit": "lift after Mobil 1 signage",
+      "mistakes": "overshoot entry speed, miss seam, lose front turn, blow right front",
+      "note_id": "8mkPQxBoJhg:4",
+      "text": "braking: Mobil 1 banner, brake early; gear: early to partial throttle; line: creep around the seam; exit: lift after Mobil 1 signage; mistakes: overshoot entry speed, miss seam, lose front turn, blow right front",
+      "spoken_as": "turn one",
+      "passage_time": "2:37",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "gear": 1.0,
+          "line": 1.0,
+          "exit": 1.0
+        }
+      },
+      "time": "3:04",
+      "snippet": "The Mobil 1 banner into turn one, that's a pretty good brake point. Lots of partial throttle. Just creeping",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "be careful with the crest and dip",
+      "exit": "stay low, avoid the wall",
+      "mistakes": "getting near the wall on exit",
+      "note_id": "8mkPQxBoJhg:5",
+      "text": "braking: be careful with the crest and dip; exit: stay low, avoid the wall; mistakes: getting near the wall on exit",
+      "spoken_as": "turn two",
+      "passage_time": "3:54",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:53",
+      "snippet": "Not really getting anywhere near the wall on exit. And that's simply just to keep a little bit of right rear tire",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "shift right before straightaway",
+      "line": "disciplined rolling through center",
+      "mistakes": "slip the back, upset the car",
+      "note_id": "8mkPQxBoJhg:6",
+      "text": "gear: shift right before straightaway; line: disciplined rolling through center; mistakes: slip the back, upset the car",
+      "spoken_as": "three",
+      "passage_time": "5:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:15",
+      "snippet": "Disciplined rolling through the center of three and four. You can see right there at shift point"
+    },
+    {
+      "mistakes": "slip the back, upset the car",
+      "note_id": "8mkPQxBoJhg:7",
+      "text": "mistakes: slip the back, upset the car",
+      "spoken_as": "four",
+      "passage_time": "5:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:05",
+      "snippet": "Really easy to upset the car and slip the back. Keep sliding that right rear and you're"
+    },
+    {
+      "braking": "Little harder into three that time, using the flat to turn the car.",
+      "line": "Follow the seam.",
+      "exit": "Partial throttle, get aggressive there, but don't slip the rears.",
+      "mistakes": "Slipping the rears.",
+      "note_id": "8mkPQxBoJhg:8",
+      "text": "braking: Little harder into three that time, using the flat to turn the car.; line: Follow the seam.; exit: Partial throttle, get aggressive there, but don't slip the rears.; mistakes: Slipping the rears.",
+      "spoken_as": "three",
+      "passage_time": "6:31",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.65,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:08",
+      "snippet": "Little harder into three that time, using the flat to turn the car. Grip's good right now, plenty to use. 13"
+    },
+    {
+      "braking": "run way up here on entry in the center",
+      "line": "cut it down on exit",
+      "exit": "build a gigantic run",
+      "mistakes": "running this line puts a lot of pressure on both right side tires",
+      "note_id": "8mkPQxBoJhg:9",
+      "text": "braking: run way up here on entry in the center; line: cut it down on exit; exit: build a gigantic run; mistakes: running this line puts a lot of pressure on both right side tires",
+      "spoken_as": "three",
+      "passage_time": "7:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:22",
+      "snippet": "run way up here on entry in the center. And then you can cut it down on exit and build a gigantic run."
+    },
+    {
+      "line": "cut it down on exit",
+      "exit": "build a gigantic run",
+      "mistakes": "running this line puts a lot of pressure on both right side tires",
+      "note_id": "8mkPQxBoJhg:10",
+      "text": "line: cut it down on exit; exit: build a gigantic run; mistakes: running this line puts a lot of pressure on both right side tires",
+      "spoken_as": "four",
+      "passage_time": "7:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:44",
+      "snippet": "really both right side tires. So, if you do it lap after lap, you're going to pay the price later."
+    },
+    {
+      "braking": "slow entry and center",
+      "line": "center, slide up in the center",
+      "exit": "point it back down up off",
+      "mistakes": "straddle the seam, watch the bump",
+      "note_id": "8mkPQxBoJhg:11",
+      "text": "braking: slow entry and center; line: center, slide up in the center; exit: point it back down up off; mistakes: straddle the seam, watch the bump",
+      "spoken_as": "next option",
+      "passage_time": "9:12",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:37",
+      "snippet": "I really have to slow my entry and center to make sure I exit on the flat and not straddle the seam."
+    },
+    {
+      "line": "enter on the bottom, slide up to the conventional line",
+      "exit": "drive off in the middle",
+      "mistakes": "try not to crash",
+      "note_id": "8mkPQxBoJhg:12",
+      "text": "line: enter on the bottom, slide up to the conventional line; exit: drive off in the middle; mistakes: try not to crash",
+      "spoken_as": "next line",
+      "passage_time": "10:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:49",
+      "snippet": "Enter on the bottom, slide up to that conventional line, and then drive off in the middle."
+    },
+    {
+      "line": "drive it in",
+      "note_id": "8mkPQxBoJhg:13",
+      "text": "line: drive it in",
+      "spoken_as": "in",
+      "passage_time": "10:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:51",
+      "snippet": "conventional line, and then drive off in the middle. That's pretty good right there. I'll do"
+    },
+    {
+      "line": "find that seam",
+      "exit": "put the power down",
+      "note_id": "8mkPQxBoJhg:14",
+      "text": "line: find that seam; exit: put the power down",
+      "spoken_as": "up to the middle",
+      "passage_time": "10:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:07",
+      "snippet": "Find that seam. Put the power down. Back to a back to an O. That's pretty"
+    },
+    {
+      "line": "give up some time on entry",
+      "exit": "claw it back in the center, break even on exit",
+      "note_id": "8mkPQxBoJhg:15",
+      "text": "line: give up some time on entry; exit: claw it back in the center, break even on exit",
+      "spoken_as": "let's go back conventional here",
+      "passage_time": "10:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:17",
+      "snippet": "going to give up some time on entry. Should start clawing it back in the center."
+    },
+    {
+      "braking": "Drive it in",
+      "line": "Pull ahead",
+      "exit": "Down the back",
+      "note_id": "8mkPQxBoJhg:16",
+      "text": "braking: Drive it in; line: Pull ahead; exit: Down the back",
+      "spoken_as": "conventional in three",
+      "passage_time": "11:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:53",
+      "snippet": "Conventional line pulling ahead. Down the back. Drive it in."
+    },
+    {
+      "line": "Pull ahead",
+      "exit": "Down the back",
+      "note_id": "8mkPQxBoJhg:17",
+      "text": "line: Pull ahead; exit: Down the back",
+      "spoken_as": "conventional in four",
+      "passage_time": "11:46",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:53",
+      "snippet": "Conventional line pulling ahead. Down the back. Drive it in."
+    },
+    {
+      "braking": "Straight entry. Slide up in the center, park the center",
+      "line": "Turn it back down",
+      "exit": "Exit up top right here off of two",
+      "mistakes": "Not all of the lanes are as fast as each other. Some clear winners and losers",
+      "note_id": "8mkPQxBoJhg:18",
+      "text": "braking: Straight entry. Slide up in the center, park the center; line: Turn it back down; exit: Exit up top right here off of two; mistakes: Not all of the lanes are as fast as each other. Some clear winners and losers",
+      "spoken_as": "next braking marker",
+      "passage_time": "13:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:57",
+      "snippet": "as fast as each other. There are some clear winners and losers, especially on a clean track, but"
+    },
+    {
+      "braking": "Brake at the cone, avoid the bump on the apron",
+      "gear": "3rd gear",
+      "line": "Cut down tight to the wall",
+      "exit": "Throttle merge points with the blue cone",
+      "mistakes": "Track up too far, hit the bump, bottom the diffuser, crash",
+      "note_id": "8mkPQxBoJhg:19",
+      "text": "braking: Brake at the cone, avoid the bump on the apron; gear: 3rd gear; line: Cut down tight to the wall; exit: Throttle merge points with the blue cone; mistakes: Track up too far, hit the bump, bottom the diffuser, crash",
+      "spoken_as": "next braking marker",
+      "passage_time": "15:41",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:28",
+      "snippet": "throttle merge points with the blue cone off of two. Like I said, big bump right about here, third gear, really tight to"
+    },
+    {
+      "braking": "before Mobil 1 signs, heavy brake pressure",
+      "note_id": "8mkPQxBoJhg:20",
+      "text": "braking: before Mobil 1 signs, heavy brake pressure",
+      "spoken_as": "into 1 and 3",
+      "passage_time": "16:58",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:13",
+      "snippet": "some heavy brake pressure here. Definitely using a lot of brake to slow this thing down, over 50%."
+    },
+    {
+      "braking": "Over 50% brake pressure, heavy braking.",
+      "gear": "Blip to third gear.",
+      "line": "Left front on the seam, trail braking.",
+      "exit": "Free roll, partial throttle, 25-30%, drive back to the seam.",
+      "mistakes": "Too much throttle causes pushing and off-line exit.",
+      "note_id": "8mkPQxBoJhg:21",
+      "text": "braking: Over 50% brake pressure, heavy braking.; gear: Blip to third gear.; line: Left front on the seam, trail braking.; exit: Free roll, partial throttle, 25-30%, drive back to the seam.; mistakes: Too much throttle causes pushing and off-line exit.",
+      "spoken_as": "next braking marker",
+      "passage_time": "18:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 1.0,
+          "line": 1.0
+        }
+      },
+      "time": "18:23",
+      "snippet": "thing into third gear. And then just tapering off the brake, tapering off the brake. As I land into"
+    },
+    {
+      "braking": "Heavy braking initially, lots of trail brake",
+      "exit": "Partial throttle comes a little bit thereafter, but that partial throttle is just forever. 25-30% initially, eventually to 50-60%",
+      "mistakes": "Don't increase throttle too much before having positive front rotation",
+      "note_id": "8mkPQxBoJhg:22",
+      "text": "braking: Heavy braking initially, lots of trail brake; exit: Partial throttle comes a little bit thereafter, but that partial throttle is just forever. 25-30% initially, eventually to 50-60%; mistakes: Don't increase throttle too much before having positive front rotation",
+      "spoken_as": "next braking marker",
+      "passage_time": "19:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:42",
+      "snippet": "forever. 25-30% initially, eventually to 50-60. Just make sure you've got that positive front rotation before"
+    },
+    {
+      "braking": "Brake at 1/4 mark, less than turn one.",
+      "gear": "Down to third.",
+      "line": "Short cut bottom lane, trail brake.",
+      "exit": "Roll throttle, increase as rear tires allow.",
+      "mistakes": "Slide up track, correct with wheel position.",
+      "note_id": "8mkPQxBoJhg:23",
+      "text": "braking: Brake at 1/4 mark, less than turn one.; gear: Down to third.; line: Short cut bottom lane, trail brake.; exit: Roll throttle, increase as rear tires allow.; mistakes: Slide up track, correct with wheel position.",
+      "spoken_as": "three and four",
+      "passage_time": "20:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83
+        }
+      },
+      "time": "21:06",
+      "snippet": "little bit less than turn one. Down to third. Little bit of a lower entry here where"
+    },
+    {
+      "gear": "full throttle",
+      "mistakes": "missed the shift",
+      "note_id": "8mkPQxBoJhg:24",
+      "text": "gear: full throttle; mistakes: missed the shift",
+      "spoken_as": "start of the front stretch",
+      "passage_time": "22:09",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "22:49",
+      "snippet": "Yep, missed the shift right there. We got back to it, no problem. Lots of partial again."
+    },
+    {
+      "line": "higher in entry, kept lower in center",
+      "exit": "rolling and rolling following that seam",
+      "mistakes": "using too much throttle and exit, slip the rear",
+      "note_id": "8mkPQxBoJhg:25",
+      "text": "line: higher in entry, kept lower in center; exit: rolling and rolling following that seam; mistakes: using too much throttle and exit, slip the rear",
+      "spoken_as": "three",
+      "passage_time": "23:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "23:51",
+      "snippet": "use too much throttle and exit and slip the rear, it's really good. Especially right there, late exit down the front"
+    },
+    {
+      "line": "follow the paint in lane one",
+      "mistakes": "unstable with this cup car",
+      "note_id": "8mkPQxBoJhg:26",
+      "text": "line: follow the paint in lane one; mistakes: unstable with this cup car",
+      "spoken_as": "the apron",
+      "passage_time": "23:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "24:30",
+      "snippet": "apron. This is going to be lane one, where you're just following the paint. It's just very unstable"
+    },
+    {
+      "braking": "Brake early, avoid right rear getting on the transition from lane one to lane two",
+      "line": "Run lane one, avoid bump, slide up into lane one and back to apron off of two",
+      "exit": "Normal exit on first seam",
+      "mistakes": "Getting right rear on transition, hitting bump",
+      "note_id": "8mkPQxBoJhg:27",
+      "text": "braking: Brake early, avoid right rear getting on the transition from lane one to lane two; line: Run lane one, avoid bump, slide up into lane one and back to apron off of two; exit: Normal exit on first seam; mistakes: Getting right rear on transition, hitting bump",
+      "spoken_as": "next braking marker",
+      "passage_time": "24:45",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "24:57",
+      "snippet": "transition from lane one to lane two. That'll dewage the car rapidly and crash. So, don't do that. Got to stay"
+    },
+    {
+      "braking": "brake hard right before Toyota signage",
+      "gear": "2nd gear",
+      "line": "enter normally, brake, turn down straight off track",
+      "exit": "use speed line",
+      "mistakes": "warn others if cars close behind",
+      "note_id": "8mkPQxBoJhg:28",
+      "text": "braking: brake hard right before Toyota signage; gear: 2nd gear; line: enter normally, brake, turn down straight off track; exit: use speed line; mistakes: warn others if cars close behind",
+      "spoken_as": "turn three",
+      "passage_time": "26:03",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "gear": 0.67,
+          "exit": 0.67
+        }
+      },
+      "time": "26:51",
+      "snippet": "that heavy braking right before the Toyota signage right here, instead of increasing throttle, just start jumping",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

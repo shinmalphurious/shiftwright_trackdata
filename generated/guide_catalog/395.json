@@ -1,35 +1,145 @@
 {
   "track_id": 395,
   "layout": "395-hockenheim-outer",
+  "name": "Hockenheimring Baden-Württemberg - Outer",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:03:05.529056+00:00",
+  "candidates_seen": 22,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 22,
+    "new_candidates": 12,
+    "accepted": 10,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 12,
+    "rejection_reasons": {
+      "no guide words in title": 6,
+      "too long": 4,
+      "too short": 1,
+      "venue not in title": 1
+    }
+  },
   "selected_guides": {
     "bmw_m2": [
       {
         "video_id": "9XcLsW4l9mk",
         "title": "iRacing BMW M2 Hockenheim Guide 1:43.2 BMW M2 G87 Hockenheim Outer Track Guide",
-        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from\u00a0...",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 492,
         "video_type": "lap_walkthrough",
         "car": "bmw_m2",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
       }
     ],
     "mx5": [
       {
         "video_id": "Yri-TCMGHGA",
         "title": "iRacing MX5 Hockenheim Guide 1:48.2 Mazda MX 5 Hockenheim Outer Track Guide",
-        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from\u00a0...",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 655,
         "video_type": "lap_walkthrough",
         "car": "mx5",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
       }
     ],
-    "legends": [
+    "general": [
       {
-        "video_id": "qizCt8X3RBc",
-        "title": "iRacing Grand Prix Legends at Hockenheim Baden-Wurttemberg Outer Layout",
-        "description": "iRacing Grand Prix Legends at Hockenheim Baden-Wurttemberg Outer Layout -- Watch live at https://www.twitch.tv/kinduciracing.",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
+        "video_id": "hemxFt9JRwY",
+        "title": "iRacing Hockenheimring Baden-Württemberg - Grand Prix F3 Dallara (Dry) Track Guide",
+        "description": "Sign up with the code HOCKENHEIM4 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 329,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "6xpIPCkrXpc",
+        "title": "Track Guide: iRacing Hockenheimring Baden-Württemberg - Grand Prix Acura NSX GT3 EVO 22 (Dry) (H...",
+        "description": "Sign up with the code HOCKENHEIMRING862 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "iRacing Track Guides",
+        "duration": 350,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "KMPN075RHEU",
+        "title": "iRacing GR86 Hockenheim Guide 1:45.3 Toyota GR86 Hockenheim Outer Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 539,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "Pw3xNZB4FMw",
+        "title": "HOW TO DO HOCKENHEIM IN iRacing | GT3 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Hockenheim in iRacing GT3. Perfect for improving your lap times ...",
+        "channel": "HYMO Academy",
+        "duration": 196,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "Nhm7PaQv8-8",
+        "title": "Cowy - iRacing - V8 Supercars - Hockenheimring Outer - Track Guide",
+        "description": "Hi everyone, it's week 9 for Season 4 2023 in iRacing , and we back at a track we havent visited for a couple of years ...",
+        "channel": "Cowy Your Average Sim Racer",
+        "duration": 471,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "g82wXUIDMUk",
+        "title": "iRacing Track Guide Hockenheimring | Formula F4 | W12 S2 2022",
+        "description": "Join at www.iracing.com Right then! In this video I try and explain my racing line and braking points to help you improve your lap ...",
+        "channel": "Tdi99",
+        "duration": 580,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "7uWLX6TQ1xQ",
+        "title": "Track Guide - FIA F4 Hockenheim - 2022 Season 3 - 1:38.988",
+        "description": "Track guide for the FIA F4 at Hockenheim for 2022 Season 3 using the iRacing fixed setup. Track at 34C with Moderate usage.",
+        "channel": "Jeffrey Decker",
+        "duration": 964,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "icTMSoCwF70",
+        "title": "iRacing Porsche GT3 Hockenheimring Guide 1:37.4 Porsche GT3 Hockenheim Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 526,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
       }
     ]
   }

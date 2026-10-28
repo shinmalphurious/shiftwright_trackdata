@@ -1,5 +1,42 @@
 {
   "track_id": 513,
   "layout": "513-millbridge",
-  "selected_guides": {}
+  "name": "Millbridge Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:07:01.958481+00:00",
+  "candidates_seen": 64,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 64,
+    "new_candidates": 63,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 63,
+    "rejection_reasons": {
+      "venue not in title": 35,
+      "no guide words in title": 27,
+      "too short": 1
+    }
+  },
+  "selected_guides": {
+    "general": [
+      {
+        "video_id": "_K6hwbDzIq8",
+        "title": "How to Drive on the Fence - 600cc Micro Sprint Racing at Millbridge Speedway: KKM Giveback Classic",
+        "description": "As the season is winding down we take the longest trip of the season all the way to North Carolina to race at Millbridge Speedway ...",
+        "channel": "Kenton Brewer Racing",
+        "duration": 712,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 130,
+        "venue_confidence": 1.0
+      }
+    ]
+  }
 }

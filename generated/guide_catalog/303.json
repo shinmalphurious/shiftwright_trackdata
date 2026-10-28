@@ -1,23 +1,112 @@
 {
   "track_id": 303,
   "layout": "303-limaland",
+  "name": "Limaland Motorsports Park",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:16:35.378890+00:00",
+  "candidates_seen": 58,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 58,
+    "new_candidates": 49,
+    "accepted": 9,
+    "selected": 9,
+    "kept_previous": 9,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 49,
+    "rejection_reasons": {
+      "no guide words in title": 21,
+      "duplicate title": 18,
+      "too short": 5,
+      "venue not in title": 3,
+      "live stream": 1,
+      "too long": 1
+    }
+  },
   "selected_guides": {
+    "general": [
+      {
+        "video_id": "_rr0tJeLdO0",
+        "title": "iRacing SRX Track Guide - Limaland 25S3",
+        "description": "Join my Discord for SRX Community Races: https://discord.gg/8sRH3Z4dZw ▶️ Twitch: http://twitch.tv/reskakyoso ▶️ Bluesky: ...",
+        "channel": "Reska Kyoso【Racing VTuber】",
+        "duration": 272,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "83V_Fap6Et8",
+        "title": "iRacing DIRT Limaland Super Latemodel Guide/Intro",
+        "description": "Guide/Intro to Limaland in the Super Latemodel with a decent setup https://www.twitch.tv/garrett19n.",
+        "channel": "Garrett19N",
+        "duration": 366,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 176,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "MbfaZuBiMBI",
+        "title": "iRacing Limaland Motorsports Park Dirt Mini Stock (Dry) Track Guide (Hotlap + Telemetry)",
+        "description": "Sign up with the code LIMALAND6941 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 150,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 140,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "FDfRlGQPQ8I",
+        "title": "Track Guide: iRacing Limaland Motorsports Park Stock Non-Winged Micro Sprint (Dry) (Hotlap + Tel...",
+        "description": "Sign up with the code LIMALAND3 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=LIMALAND3 ...",
+        "channel": "iRacing Track Guides",
+        "duration": 150,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 140,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "xoIWNIXW7i0",
+        "title": "iRacing Limaland Motorsports Park Stock Winged Micro Sprint (Dry) Track Guide (Hotlap + Telemetry)",
+        "description": "Sign up with the code LIMALAND6 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=LIMALAND6 ...",
+        "channel": "iRacing Track Guides",
+        "duration": 140,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 140,
+        "venue_confidence": 1.0
+      }
+    ],
     "late_model": [
       {
         "video_id": "Q1iAXiS-M7c",
         "title": "iRacing Limaland Motorsports Park Dirt Limited Late Model (Dry) Track Guide (Hotlap + Telemetry)",
         "description": "Sign up with the code LIMALAND17 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 144,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 220
+        "quality_score": 160,
+        "venue_confidence": 1.0
       },
       {
         "video_id": "qGZJbL19wBA",
         "title": "iRacing Limaland Motorsports Park Dirt Late Model - Super (Dry) Track Guide (Hotlap + Telemetry)",
         "description": "Sign up with the code LIMALAND21 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 148,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 220
+        "quality_score": 160,
+        "venue_confidence": 1.0
       }
     ],
     "truck": [
@@ -25,19 +114,25 @@
         "video_id": "Yr_9nMc-97E",
         "title": "Track Guide: iRacing Limaland Motorsports Park Lucas Oil Off Road Pro 2 Lite Truck (Dry) (Hotlap...",
         "description": "Sign up with the code LIMALAND13 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 149,
         "video_type": "lap_walkthrough",
         "car": "truck",
-        "quality_score": 220
+        "quality_score": 160,
+        "venue_confidence": 1.0
       }
     ],
-    "street_stock": [
+    "modified": [
       {
-        "video_id": "1dZzpvBIyBI",
-        "title": "iRacing: Dirt Street Stock @ Limaland",
-        "description": "Get This EXACT Same Setup Pack Here(Lap Time Shown): https://bit.ly/3GnqvZ2 \u25bb What Is Premier Racing Setups? Premier\u00a0...",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
+        "video_id": "woLedwhRctQ",
+        "title": "iRacing Limaland Motorsports Park Dirt UMP Modified (Dry) Track Guide (Hotlap + Telemetry)",
+        "description": "Sign up with the code LIMALAND4 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=LIMALAND4 ...",
+        "channel": "Track Titan",
+        "duration": 140,
+        "video_type": "lap_walkthrough",
+        "car": "modified",
+        "quality_score": 160,
+        "venue_confidence": 1.0
       }
     ]
   }

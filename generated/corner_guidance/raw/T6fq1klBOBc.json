@@ -1,0 +1,114 @@
+{
+  "video_id": "T6fq1klBOBc",
+  "track_id": 230,
+  "track_name": "Circuit of the Americas - East",
+  "title": "iRacing Mustang GT3 COTA Guide 2:04.8 Ford Mustang GT3 Circuit Of The Americas Track Guide",
+  "car_hint": "general",
+  "car": "Mustang GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:00:46.922897+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:46",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Midway between 150 and 100, brake late, 55% to second, then first",
+      "gear": "First",
+      "line": "Turn in, apex, flat",
+      "exit": "Back on gas at apex"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next braking marker",
+      "start_time": "2:46",
+      "sequence": 1,
+      "braking": "Flat, get on brakes at rumble strip, 25% trail off",
+      "line": "Flat left side, left front tires on track",
+      "exit": "Flat until left side, then get on gas 100%"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "next corner",
+      "start_time": "2:46",
+      "sequence": 1,
+      "braking": "Get on brakes at apex, 10-15% long trail off",
+      "line": "Left side, apex",
+      "exit": "Briefly 100% gas, then brake"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn seven",
+      "start_time": "4:04",
+      "sequence": 2,
+      "braking": "brakes to about 10% before asphalt goes from dark to light",
+      "exit": "start picking back up on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "4:04",
+      "sequence": 2,
+      "braking": "brakes to about 15% before the walkway",
+      "exit": "start picking back up on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 10",
+      "start_time": "4:04",
+      "sequence": 2,
+      "line": "cut the corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "4:04",
+      "sequence": 2,
+      "braking": "brakes to about 60% alongside the orange marshal's inlet",
+      "gear": "first gear",
+      "exit": "back on the gas at the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:22",
+      "sequence": 3,
+      "label_guess": "T6",
+      "braking": "Brake at 170 marker, 55-60% to first gear",
+      "gear": "1",
+      "line": "Trail off, turn in, apex on left side",
+      "exit": "Slowly increase throttle, cut corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "next white line",
+      "start_time": "5:22",
+      "sequence": 3,
+      "braking": "Brake at white line, 35-40% to first gear",
+      "gear": "1",
+      "line": "Trail off, turn in, apex on right side",
+      "exit": "Slowly increase throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "6:39",
+      "sequence": 4,
+      "label_guess": "T6",
+      "braking": "Brake to 55-60%, trail off to 1st gear",
+      "gear": "1st gear",
+      "line": "Cut the corner, left tires on curb, right tires on track",
+      "exit": "Accelerate smoothly, exit wide",
+      "mistakes": "Do not use F1 start finish line"
+    }
+  ],
+  "general_tips": [
+    "Get car over the edge for turn two",
+    "go flat through the kink of turn 10",
+    "Good throttle and brake control is rewarded"
+  ],
+  "dropped_ungrounded": 1
+}

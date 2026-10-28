@@ -1,0 +1,424 @@
+{
+  "track_id": 231,
+  "track": "Circuit of the Americas - West",
+  "records": {
+    "231:T1:heavy_braking": {
+      "id": "231:T1:heavy_braking",
+      "track_id": 231,
+      "track": "Circuit of the Americas - West",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after starting straight, typically requires heavy braking.",
+          "at": "2026-10-28T09:33:30+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "yApLRS-pobQ",
+              "result": "confirm",
+              "time": "4:08",
+              "note": "braking: Brake at least four or five car lengths before the 150 marker, use 100% brake pressure; gear: Fourth gear, downshift to third, then second; line: Stay tight to the curb, start turning off the curb at the white line; mistakes: Easy to undershoot or overshoot corner speed",
+              "transcript_snippet": "least four or five car lengths before it. Hopefully, as you do more and more laps around this place, it'll just",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=yApLRS-pobQ"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit of the Americas - Grand Prix",
+            "source_track_id": 229,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "231:T1:slow_corner": {
+      "id": "231:T1:slow_corner",
+      "track_id": 231,
+      "track": "Circuit of the Americas - West",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after starting straight, typically a slow corner.",
+          "at": "2026-10-28T09:33:30+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "yApLRS-pobQ",
+              "result": "confirm",
+              "time": "5:34",
+              "note": "braking: 100% brake pressure, white line; gear: 2nd gear turning in, 1st gear at apex; line: turn-in at white line, tight to curb at apex; exit: throttle up, careful with rear tires; mistakes: blow apex, use runoff",
+              "transcript_snippet": "Still 100% brake pressure. Second gear turning in. Now I'm finally rolling off the brake a little bit into first gear",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=yApLRS-pobQ"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "231:T7:slow_corner": {
+      "id": "231:T7:slow_corner",
+      "track_id": 231,
+      "track": "Circuit of the Americas - West",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Seventh corner, typically a slow corner.",
+          "at": "2026-10-28T09:33:30+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "jDJmVck65Ww",
+              "result": "confirm",
+              "time": "9:44",
+              "note": "braking: straight line brake, downshift to first gear; gear: 1st; line: get as far right as possible; exit: get close to tire barrier; mistakes: not getting close enough to tire barrier",
+              "transcript_snippet": "this curb as possible to straight line my braking zone. I'm going to be going down to first gear. The technique here",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jDJmVck65Ww"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T7: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "231:T9:slow_corner": {
+      "id": "231:T9:slow_corner",
+      "track_id": 231,
+      "track": "Circuit of the Americas - West",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Ninth corner, typically a slow corner.",
+          "at": "2026-10-28T09:33:30+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "jDJmVck65Ww",
+              "result": "confirm",
+              "time": "13:23",
+              "note": "gear: 1st gear; line: Turn left at curbing, apex at curbing; exit: Partial throttle at curbing, full throttle at exit, 2nd gear; mistakes: Pinch exit, don't open wheel",
+              "transcript_snippet": "gear first at the right spot when you start adding some wheel input to the left. But you want to do as much",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jDJmVck65Ww"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T9: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "231:T10:slow_corner": {
+      "id": "231:T10:slow_corner",
+      "track_id": 231,
+      "track": "Circuit of the Americas - West",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Tenth corner, typically a slow corner.",
+          "at": "2026-10-28T09:33:30+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "jDJmVck65Ww",
+              "result": "confirm",
+              "time": "15:14",
+              "note": "braking: straight line braking, off brake by max wheel angle at apex; gear: second; line: max wheel angle at apex; exit: in throttle at apex, exit with speed; mistakes: sliding rear tires in first gear, overusing RPMs",
+              "transcript_snippet": "get to my max wheel angle at the apex. My goal is to be in the throttle at the apex of these corners. Okay? So, I'm",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jDJmVck65Ww"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "231:T12:slow_corner": {
+      "id": "231:T12:slow_corner",
+      "track_id": 231,
+      "track": "Circuit of the Americas - West",
+      "corner": "T12",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Twelfth corner, typically a slow corner.",
+          "at": "2026-10-28T09:33:30+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "jDJmVck65Ww",
+              "result": "confirm",
+              "time": "16:55",
+              "note": "braking: straight line brake; gear: first gear; line: turn in early, aim for apex, clip curb; exit: partial throttle, extend exit to green paint, drop to second gear",
+              "transcript_snippet": "first gear, drop into second right there, and now we're going to the sweeping section. Okay? You know, 13 14",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jDJmVck65Ww"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T12: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

@@ -1,51 +1,115 @@
 {
   "track_id": 248,
   "layout": "248-fiveflags",
+  "name": "Five Flags Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:16:01.571963+00:00",
+  "candidates_seen": 69,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 69,
+    "new_candidates": 61,
+    "accepted": 7,
+    "selected": 8,
+    "kept_previous": 8,
+    "kept_despite_rejection": [
+      "I2LAudHZLGc"
+    ],
+    "new_selected": 0,
+    "rejected": 61,
+    "rejection_reasons": {
+      "no guide words in title": 39,
+      "too long": 12,
+      "too short": 7,
+      "venue not in title": 2,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
     "late_model": [
       {
         "video_id": "hmgEEvysPoA",
         "title": "Learn to Drive Five Flags in a Late Model Stock for iRacing 2025 S4 Week 8 Lap Guide & Tutorial",
         "description": "Learn to Drive Five Flags in an iRacing Late Model Stock (LMSC) for the iRacing 2025 Season 4 Week 8 of official races!",
+        "channel": "Team53",
+        "duration": 497,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "qUnjOJkgWHM",
+        "title": "iRacing SK Modified: Learn to Drive Five Flags for iRacing 2025 Season 1 Week 5",
+        "description": "Learn to drive Five Flags in an iRacing Super Late Model for the iRacing 2025 S1 Week 5 of official races! The owner of Team53 ...",
+        "channel": "Team53",
+        "duration": 302,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "9j1d7fvHO98",
+        "title": "iRacing Super Late Model: Learn to Drive Five Flags for the iRacing Super Late Model Tour Lap Guide",
+        "description": "Learn to drive Five Flags in an iRacing Super Late Model (SLM) for the iRacing Super Late Model Tour official races! The owner of ...",
+        "channel": "Team53",
+        "duration": 750,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "xRNc2p5LQ1E",
+        "title": "iRacing Super Late Model: Learn to Drive Five Flags for 2025 Season 2 Week 1 Lap Guide",
+        "description": "Learn to drive Five Flags in an iRacing Super Late Model (SLM) for the iRacing official races! The owner of Team53 provides a lap ...",
+        "channel": "Team53",
+        "duration": 635,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "I2LAudHZLGc",
         "title": "Lap Guide: Super Late Model at Five Flags",
         "description": "Join Brian Yaczik in the Super Late Model as he takes a few laps around Five Flags Speedway.",
+        "channel": "Global SimRacing Channel",
+        "duration": 58,
         "video_type": "lap_walkthrough",
         "car": "late_model",
-        "quality_score": 120
-      },
+        "quality_score": null,
+        "venue_confidence": 0.9
+      }
+    ],
+    "nascar": [
       {
-        "video_id": "Cgjqr6XIx0w",
-        "title": "iRacing - Late Model Stocks at Five Flags",
-        "description": "I still haven't fully figured out this car. Tire wear is my biggest issue Don't forget to like and subscribe for more iRacing content!",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
+        "video_id": "k02-BkN3H6A",
+        "title": "Team Conti Sim Performance I iRacing Track Guide︱NASCAR Truck at Five Flags",
+        "description": "Driven by: Adam Benefiel 2025, S1 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp Thanks for ...",
+        "channel": "Team Conti",
+        "duration": 688,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
     "arca": [
       {
         "video_id": "cR-763B3pww",
         "title": "iRacing ARCA Five Flags Guide to Qualifying and Race 23S3",
-        "description": "iRacing ARCA Qualifying and Race Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the\u00a0...",
+        "description": "iRacing ARCA Qualifying and Race Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 602,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
-      }
-    ],
-    "nascar": [
-      {
-        "video_id": "k02-BkN3H6A",
-        "title": "Team Conti Sim Performance I iRacing Track Guide\ufe31NASCAR Truck at Five Flags",
-        "description": "Driven by: Adam Benefiel 2025, S1 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp Thanks for\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "nascar",
-        "quality_score": 220
+        "quality_score": 196,
+        "venue_confidence": 0.9
       }
     ],
     "modified": [
@@ -53,17 +117,12 @@
         "video_id": "14_z4nipse4",
         "title": "Lap Guide: SK Modified at Five Flags",
         "description": "Join Brian Yaczik behind the wheel of the SK Modified as he talks us around a couple laps of Five Flags Speedway.",
+        "channel": "Global SimRacing Channel",
+        "duration": 101,
         "video_type": "lap_walkthrough",
         "car": "modified",
-        "quality_score": 120
-      },
-      {
-        "video_id": "ap0qEeL4iQ0",
-        "title": "iRacing: SK Modified @ Five Flags",
-        "description": "Get This EXACT Same Setup Pack Here(Lap Time Shown): https://bit.ly/3mR0dGU \u25bb What Is Premier Racing Setups? Premier\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
+        "quality_score": 146,
+        "venue_confidence": 0.9
       }
     ]
   }

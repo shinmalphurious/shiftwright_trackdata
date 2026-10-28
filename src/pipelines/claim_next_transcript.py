@@ -1,78 +1,49 @@
+"""Claim the next ready video and write it to current_transcript_task.json.
+
+Prints GLOBAL_TRANSCRIPT_PAUSE during a rate-limit pause and QUEUE_EMPTY when nothing is
+left; in both cases no task file exists afterwards, so the download step does nothing.
+"""
 import json
-from datetime import datetime,timezone
+import sys
+from datetime import datetime
+from pathlib import Path
 
-rate_limit = json.load(
-    open(
-        "generated/transcript_rate_limit.json",
-        encoding="utf-8"
-    )
-)
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-pause_until = rate_limit.get(
-    "global_pause_until"
-)
+from src.shared import transcript_queue as tq
+from src.shared.paths import GENERATED
 
-if pause_until:
 
-    unlock = datetime.fromisoformat(
-        pause_until
-    )
+def main():
+    tq.clear_task()
 
-    if unlock > datetime.now(
-        timezone.utc
-    ):
+    rate_limit_path = GENERATED / "transcript_rate_limit.json"
+    rate_limit = json.loads(rate_limit_path.read_text(encoding="utf-8")) if rate_limit_path.exists() else {}
+    pause_until = rate_limit.get("global_pause_until")
+    if pause_until and datetime.fromisoformat(pause_until) > tq.now():
+        print("GLOBAL_TRANSCRIPT_PAUSE until", pause_until)
+        return
 
-        print(
-            "GLOBAL_TRANSCRIPT_PAUSE"
-        )
+    queue = tq.load()
+    have = tq.downloaded_ids()
+    claimed = None
+    for item in queue:
+        if item["status"] != "ready_for_download":
+            continue
+        if item["video_id"] in have:
+            item["status"] = "downloaded"
+            continue
+        item["status"] = "claimed"
+        claimed = item
+        break
+    tq.save(queue)
 
-        raise SystemExit
+    if claimed is None:
+        print("QUEUE_EMPTY")
+        return
+    tq.save_task(claimed)
+    print("claimed:", claimed["video_id"])
 
-queue = json.load(
-    open(
-        "generated/transcript_queue.json",
-        encoding="utf-8"
-    )
-)
 
-for item in queue:
-
-    if item["status"] != "ready_for_download":
-        continue
-
-    item["status"] = "claimed"
-
-    with open(
-        "generated/current_transcript_task.json",
-        "w",
-        encoding="utf-8"
-    ) as fp:
-
-        json.dump(
-            item,
-            fp,
-            indent=2
-        )
-
-    with open(
-        "generated/transcript_queue.json",
-        "w",
-        encoding="utf-8"
-    ) as fp:
-
-        json.dump(
-            queue,
-            fp,
-            indent=2
-        )
-
-    print(
-        "claimed:",
-        item["video_id"]
-    )
-
-    raise SystemExit
-
-print(
-    "nothing available"
-)
+if __name__ == "__main__":
+    main()

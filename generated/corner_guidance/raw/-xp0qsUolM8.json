@@ -1,0 +1,116 @@
+{
+  "video_id": "-xp0qsUolM8",
+  "track_id": 152,
+  "track_name": "Phillip Island Circuit",
+  "title": "iRacing LMP3 Phillip Island Guide 1:23.6 Ligier JS P320 LMP3 Phillip Island Track Guide",
+  "car_hint": "general",
+  "car": "Ligier JS P320 LMP3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:09:02.947891+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "brakes to about 35%",
+      "gear": "long trail off down to third gear",
+      "line": "get absolutely flat",
+      "exit": "back on the throttle, catch the rear"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:01",
+      "sequence": 0,
+      "line": "get absolutely flat down to the bottom"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "lightly on the brakes",
+      "gear": "down second gear",
+      "exit": "go smoothly back on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 12",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "before the 50, on the brakes to about 70%",
+      "gear": "down to first, short shift up to third",
+      "line": "off-camber entry, power through",
+      "exit": "over and across the road or the line even"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "this is where I brake at",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake at 35%, trail off",
+      "gear": "3rd",
+      "line": "Flat",
+      "exit": "Get back on throttle past marshal"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Turn three",
+      "start_time": "2:36",
+      "sequence": 2,
+      "line": "Flat",
+      "exit": "Flat"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake to 85%, trail off",
+      "gear": "1st",
+      "mistakes": "Avoid wheel spin"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Brake to 30%",
+      "gear": "2nd",
+      "line": "End of white rumble strip",
+      "exit": "Trail off to apex"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "Turn seven",
+      "start_time": "3:54",
+      "sequence": 3,
+      "line": "Very flat",
+      "exit": "Very flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "Turn number nine",
+      "start_time": "3:54",
+      "sequence": 3,
+      "label_guess": "T9",
+      "braking": "Brakes max 10-12% before entrance road, trail off",
+      "gear": "First gear preferred",
+      "exit": "50% throttle until car grips, then 100%, lift under gantry",
+      "mistakes": "Brake too early at 50 marker"
+    }
+  ],
+  "general_tips": [
+    "On low fuel cuz I've burnt it all off.",
+    "flat through turns seven and eight",
+    "drop it down to fourth gear before turn 12",
+    "hold the gas at about 50%",
+    "power through turn 12",
+    "final corner, getting down to rumble strip",
+    "Get on the brakes midway between the 150 and the 100"
+  ],
+  "dropped_ungrounded": 0
+}

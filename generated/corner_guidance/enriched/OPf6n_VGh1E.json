@@ -1,0 +1,253 @@
+{
+  "video_id": "OPf6n_VGh1E",
+  "track_id": 142,
+  "track_name": "Summit Point Raceway - Jefferson Reverse",
+  "title": "Track Guide Summit Point Mazda MX5 Fixed iRacing",
+  "car": null,
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake hard at two cones, trail brake to curb",
+      "line": "follow repaved part around, touch curb",
+      "exit": "full throttle, get to right when repaved part stops",
+      "mistakes": "hitting curb too much unsettles car",
+      "note_id": "OPf6n_VGh1E:0",
+      "text": "braking: brake hard at two cones, trail brake to curb; line: follow repaved part around, touch curb; exit: full throttle, get to right when repaved part stops; mistakes: hitting curb too much unsettles car",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "line": 0.83,
+          "exit": 0.67
+        }
+      },
+      "time": "0:17",
+      "snippet": "car length before the two cones here on the left and for this one you want to break really hard all you can get and I",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "use tree as reference, brake to 40% when tree out of sight",
+      "line": "apex in middle, take some inside curb",
+      "exit": "full throttle, use outside curb",
+      "mistakes": "touching gravel kills momentum",
+      "note_id": "OPf6n_VGh1E:1",
+      "text": "braking: use tree as reference, brake to 40% when tree out of sight; line: apex in middle, take some inside curb; exit: full throttle, use outside curb; mistakes: touching gravel kills momentum",
+      "spoken_as": "t three",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:02",
+      "snippet": "middle of the corner and I do take some of the curb on the inside and once I get to the curb I'll go Full Throttle again"
+    },
+    {
+      "braking": "Feel when car is settled, brake hard initially, trail brake to curb",
+      "line": "Follow repaved part, apex where curb and repaved part meet",
+      "exit": "Ease in throttle after apex",
+      "note_id": "OPf6n_VGh1E:2",
+      "text": "braking: Feel when car is settled, brake hard initially, trail brake to curb; line: Follow repaved part, apex where curb and repaved part meet; exit: Ease in throttle after apex",
+      "spoken_as": "turn five",
+      "passage_time": "1:18",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:36",
+      "snippet": "Apex where the curb and the repaved part meets just after the Apex you will be able to go on the throttle again I ease",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Quick hit of brakes to 60%, trail brake to repaved part",
+      "line": "Follow repaved part, apex where curb and repaved part meet",
+      "exit": "Go on throttle after apex, smooth inputs",
+      "note_id": "OPf6n_VGh1E:3",
+      "text": "braking: Quick hit of brakes to 60%, trail brake to repaved part; line: Follow repaved part, apex where curb and repaved part meet; exit: Go on throttle after apex, smooth inputs",
+      "spoken_as": "6",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:57",
+      "snippet": "brakes to about 60% and Trail the brake to the repay part of the track once again we'll follow the repaved part of",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.253,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "start/finish",
+        "estimated_pct": 0.7517,
+        "corner_pct": 0.7881,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "start/finish",
+        "corners_between": [
+          "T6",
+          "T7"
+        ]
+      }
+    },
+    {
+      "line": "Take a bit of curb, follow repaved part",
+      "exit": "Full throttle through",
+      "note_id": "OPf6n_VGh1E:4",
+      "text": "line: Take a bit of curb, follow repaved part; exit: Full throttle through",
+      "spoken_as": "7",
+      "passage_time": "1:18",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:33",
+      "snippet": "to the curb once again we follow the repaved part of the track around and we Apex where the curb and the repaved part",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Get close to curb but do not touch, avoid grass on inside",
+      "mistakes": "Do not touch curb or grass",
+      "note_id": "OPf6n_VGh1E:5",
+      "text": "line: Get close to curb but do not touch, avoid grass on inside; mistakes: Do not touch curb or grass",
+      "spoken_as": "turn eight",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:23",
+      "snippet": "touch the grass on the inside either and you want to be all the way here on the left you want to turn in for turn nine",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "start/finish",
+        "estimated_pct": 0.893,
+        "corner_pct": 0.7881,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "start/finish",
+        "corners_between": [
+          "T6",
+          "T7"
+        ]
+      }
+    },
+    {
+      "line": "Turn in early for uphill curve",
+      "exit": "Use all curb on outside if necessary",
+      "note_id": "OPf6n_VGh1E:6",
+      "text": "line: Turn in early for uphill curve; exit: Use all curb on outside if necessary",
+      "spoken_as": "turn nine",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:32",
+      "snippet": "of course use all of the curb on the outside if necessary that combination of Corners really took me a long time to",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T5",
+        "before": "start/finish",
+        "estimated_pct": 0.9453,
+        "corner_pct": 0.7881,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T5",
+        "before": "start/finish",
+        "corners_between": [
+          "T6",
+          "T7"
+        ]
+      }
+    },
+    {
+      "braking": "patch of dirt on left, quick 50% brake, roll into curb",
+      "line": "turn in early, use curb on outside",
+      "exit": "apply throttle on curb, use asphalt and curb on outside",
+      "mistakes": "touching gravel loses momentum, car goes sideways",
+      "note_id": "OPf6n_VGh1E:7",
+      "text": "braking: patch of dirt on left, quick 50% brake, roll into curb; line: turn in early, use curb on outside; exit: apply throttle on curb, use asphalt and curb on outside; mistakes: touching gravel loses momentum, car goes sideways",
+      "spoken_as": "turn one",
+      "passage_time": "2:36",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "mistakes": 0.86
+        }
+      },
+      "time": "2:44",
+      "snippet": "breaking marker is this patch of dirt here on the left once I get to that I'll hit the brake a quick hit to about 50%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

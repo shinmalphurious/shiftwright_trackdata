@@ -1,0 +1,102 @@
+{
+  "video_id": "q1nPfG3e-1U",
+  "track_id": 195,
+  "track_name": "Mobility Resort Motegi - Grand Prix",
+  "title": "iRacing Porsche GT3 Motegi Guide 1:48.9 Porsche 992 R GT3 Mobility Resort Motegi Tarck Guide",
+  "car_hint": "general",
+  "car": "Porsche GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:56:58.231711+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:37",
+      "sequence": 1,
+      "braking": "after 100 board, 50% brake pressure",
+      "line": "turn-in left, ignore first apex, late apex",
+      "exit": "exit wide, 100% throttle"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:54",
+      "sequence": 2,
+      "braking": "break alongside the 100 board to 55%",
+      "line": "left tires over rumble strip",
+      "exit": "exit wide"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "second apex",
+      "start_time": "2:54",
+      "sequence": 2,
+      "line": "left tires over rumble strip",
+      "exit": "exit wide"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "2:54",
+      "sequence": 2,
+      "braking": "break ahead of the 100 to 55%",
+      "gear": "2nd",
+      "line": "right tires over rumble strip",
+      "exit": "exit wide"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "2:54",
+      "sequence": 2,
+      "line": "run over rumble strip, tight on mud"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:54",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "brake up to 45%",
+      "line": "trail brake to first apex"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "4:12",
+      "sequence": 3,
+      "braking": "55% to second gear",
+      "exit": "start picking back up on the gas"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "4:12",
+      "sequence": 3,
+      "braking": "60% after the 100 board",
+      "line": "trail it off lay apex",
+      "exit": "back on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:30",
+      "sequence": 4,
+      "label_guess": "T11",
+      "gear": "trail off, drop to second",
+      "line": "get nose pointed in, attack curb, flat to grass patch",
+      "exit": "exit wide, right side over white line, pin it to start finish",
+      "mistakes": "breaking hard, living in ABS"
+    }
+  ],
+  "general_tips": [
+    "Welcome to Samoir Racing's full track guide for Mobility Resort Motegi in GT3s.",
+    "Visit sambar setups.com for the exact setup used in this guide.",
+    "New features include a revamped website, telemetry tool, and companion app for subscribers.",
+    "get on the brakes a little bit earlier between the 150 and the 100",
+    "brake to about 60%"
+  ],
+  "dropped_ungrounded": 5
+}

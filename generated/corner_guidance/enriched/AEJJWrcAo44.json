@@ -1,0 +1,127 @@
+{
+  "video_id": "AEJJWrcAo44",
+  "track_id": 559,
+  "track_name": "Iowa Speedway - Oval",
+  "title": "Get FASTER  ON iRacing OVALS! | iRacing Track Guide | Iowa | NASCAR GEN 6",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "drag brakes, rotate nose",
+      "line": "point nose toward yellow line",
+      "exit": "get back on gas once car rotates",
+      "mistakes": "get back on gas too soon, hit wall",
+      "note_id": "AEJJWrcAo44:0",
+      "text": "braking: drag brakes, rotate nose; line: point nose toward yellow line; exit: get back on gas once car rotates; mistakes: get back on gas too soon, hit wall",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:48",
+      "snippet": "toward the yellow line get back on the gas once you feel the car begin to rotate around the second pit exit line"
+    },
+    {
+      "line": "position wide, take similar arc",
+      "exit": "ease back on throttle once car hooks up",
+      "note_id": "AEJJWrcAo44:1",
+      "text": "line: position wide, take similar arc; exit: ease back on throttle once car hooks up",
+      "spoken_as": "turn two",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:02",
+      "snippet": "and take a similar Arc and turns three and four gently drag your brakes aim with the yellow line with your left"
+    },
+    {
+      "braking": "drag brakes for moment",
+      "line": "arc down half a lane",
+      "exit": "build momentum",
+      "note_id": "AEJJWrcAo44:2",
+      "text": "braking: drag brakes for moment; line: arc down half a lane; exit: build momentum",
+      "spoken_as": "turn three and four",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:36",
+      "snippet": "four drag the brakes for a moment to rotate the nose and Arc down half a lane to build as much momentum as you can now"
+    },
+    {
+      "braking": "avoid massive bumps on the outside",
+      "line": "stay below dotted white line",
+      "exit": "avoid overdriving, back up entries",
+      "mistakes": "overshooting corners, squaring off exits",
+      "note_id": "AEJJWrcAo44:3",
+      "text": "braking: avoid massive bumps on the outside; line: stay below dotted white line; exit: avoid overdriving, back up entries; mistakes: overshooting corners, squaring off exits",
+      "spoken_as": "turn one",
+      "passage_time": "1:22",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 1.0,
+          "mistakes": 0.75
+        }
+      },
+      "time": "1:39",
+      "snippet": "also have a few massive bumps on the outside of turn one so you want to avoid those at all costs they'll upset the car",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "roll center of corners",
+      "exit": "every lane fair game, use outside line sparingly",
+      "mistakes": "overdriving corners, failing to back up entries",
+      "note_id": "AEJJWrcAo44:4",
+      "text": "line: roll center of corners; exit: every lane fair game, use outside line sparingly; mistakes: overdriving corners, failing to back up entries",
+      "spoken_as": "turns three and four",
+      "passage_time": "1:22",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:05",
+      "snippet": "that outside line sparingly it pays off if you use it properly but if you find yourself overdriving corners and failing",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

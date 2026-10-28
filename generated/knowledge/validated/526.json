@@ -1,0 +1,731 @@
+{
+  "track_id": 526,
+  "track": "Circuit de Spa-Francorchamps - Bike",
+  "records": {
+    "526:T1:heavy_braking": {
+      "id": "526:T1:heavy_braking",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T1",
+      "corner_name": "La Source",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known as a braking zone",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:16+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T2:fast_corner": {
+      "id": "526:T2:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T2",
+      "corner_name": "Eau Rouge",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "High-speed entry into a series of fast corners",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:16+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T2",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T2: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T3:fast_corner": {
+      "id": "526:T3:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Continuation of high-speed sections",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:16+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T3",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T4:fast_corner": {
+      "id": "526:T4:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Continuation of high-speed sections",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:16+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T4",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T4: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T18:chicane": {
+      "id": "526:T18:chicane",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T18",
+      "corner_name": "Chicane",
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known as a chicane",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:16+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.924,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T18",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T18",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 2
+      },
+      "explanation": "Chicane at T18: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T10:fast_corner": {
+      "id": "526:T10:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically a faster corner in the sequence",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.913,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:57:11+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.777,
+        "consensus": 0.913
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T10",
+            "inheritance_confidence": 0.9,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T10: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.91 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T11:fast_corner": {
+      "id": "526:T11:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically a faster corner in the sequence",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:57:11+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T11",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T11: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T15:fast_corner": {
+      "id": "526:T15:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T15",
+      "corner_name": "Stavelot",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "High-speed corner known for speed",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.98,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:57:11+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.941,
+        "consensus": 0.98
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T15",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          },
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T15",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 2
+      },
+      "explanation": "Fast corner at T15: research 0.75 from 1 source(s); confirmed at 2 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T16:fast_corner": {
+      "id": "526:T16:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically a faster corner in the sequence",
+          "at": "2026-10-28T10:06:59+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:57:11+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T16",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T16: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "526:T4:important_exit": {
+      "id": "526:T4:important_exit",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.968
+      },
+      "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "source_track_id": 523,
+      "source_corner": "T4",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "523:T4:important_exit"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T4 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "526:T5:heavy_braking": {
+      "id": "526:T5:heavy_braking",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.989
+      },
+      "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "source_track_id": 523,
+      "source_corner": "T5",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "523:T5:heavy_braking"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Heavy braking zone at T5: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "526:T15:important_exit": {
+      "id": "526:T15:important_exit",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T15",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.968
+      },
+      "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "source_track_id": 523,
+      "source_corner": "T15",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "523:T15:important_exit"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T15: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T15 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T15: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "526:T1:slow_corner": {
+      "id": "526:T1:slow_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "source_track_id": 523,
+      "source_corner": "T1",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "523:T1:slow_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Slow corner at T1: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T1 (same corner, inheritance 1.00); Slow corner at T1: research 0.75 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "526:T7:fast_corner": {
+      "id": "526:T7:fast_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.964
+      },
+      "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "source_track_id": 523,
+      "source_corner": "T7",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "523:T7:fast_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Fast corner at T7: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T7 (same corner, inheritance 1.00); Fast corner at T7: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    },
+    "526:T19:slow_corner": {
+      "id": "526:T19:slow_corner",
+      "track_id": 526,
+      "track": "Circuit de Spa-Francorchamps - Bike",
+      "corner": "T19",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "source_track_id": 523,
+      "source_corner": "T19",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "523:T19:slow_corner"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Slow corner at T19: inherited from Circuit de Spa-Francorchamps - Grand Prix Pits T19 (same corner, inheritance 1.00); Slow corner at T19: research 0.75 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

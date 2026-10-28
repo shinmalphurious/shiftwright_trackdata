@@ -1,33 +1,143 @@
 {
   "track_id": 225,
   "layout": "225-california-oval",
+  "name": "Auto Club Speedway - Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:23:20.577716+00:00",
+  "candidates_seen": 20,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 20,
+    "new_candidates": 10,
+    "accepted": 13,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 7,
+    "rejection_reasons": {
+      "venue not in title": 4,
+      "no guide words in title": 1,
+      "too short": 1,
+      "too long": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
-        "video_id": "Ws6RZm4euQw",
-        "title": "Darrell Waltrip Track Tours - NR2002 - California",
-        "description": "This is from Nascar Racing 2002 Season's Track Tours with Darrell Waltrip. He gives a step by step guide around the California\u00a0...",
+        "video_id": "T-Nb43inNOs",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Auto Club Speedway",
+        "description": "We're here to help you get up to speed! Get out of the garage and into victory lane with Team Conti Sim Performance! Driven by: ...",
+        "channel": "Team Conti",
+        "duration": 917,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 260,
+        "venue_confidence": 1.0
       },
       {
-        "video_id": "8SrC70ceqSk",
-        "title": "Every NASCAR Track Explained in 15 minutes",
-        "description": "NASCAR's schedule is as challenging as ever With 28 different racetracks and several track types, there's no telling who will take\u00a0...",
-        "video_type": "other",
+        "video_id": "PUUny_ry8Hk",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance︱NASCAR Xfinity at Auto Club Speedway",
+        "description": "Driven by: Nick Ottinger 2024, S4 Visit our website: https://teamconti.gg/ Join our Discord: https://discord.gg/tcsp 00:00 ...",
+        "channel": "Team Conti",
+        "duration": 1528,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 20
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "Ra4Fc3U3vSo",
+        "title": "Auto Club Brawl I iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S3 Visit ...",
+        "channel": "Team Conti",
+        "duration": 1392,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "w0s8Pxxx4xE",
+        "title": "Nascar iRacing Series Track Guides 2017 - Auto Club",
+        "description": "The week five track guide for the NASCAR iRacing Series​ 2017 season at Auto Club Speedway​. This week's video was made ...",
+        "channel": "NASCAR iRacing Series",
+        "duration": 204,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 256,
+        "venue_confidence": 0.9
       }
     ],
-    "legends": [
+    "general": [
       {
-        "video_id": "TEvRorkiYkw",
-        "title": "IndyCar - My Long Beach Track Guide",
-        "description": "My last 2021 IndyCar race is coming this weekend! So follow me on the sim around the legendary Californian track! See you this\u00a0...",
+        "video_id": "8hblj9YMWcI",
+        "title": "iRacing Track Guides - Auto Club Speedway (Oval)",
+        "description": "Here is the first video of my iracing track guide series. It should be number 4 but i forgot to upload the other 3.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 280,
         "video_type": "lap_walkthrough",
-        "car": "legends",
-        "quality_score": 120
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "8dQlVlhkGd0",
+        "title": "iRacing | Xfinity B Fixed | Auto Club Speedway | Track Guide",
+        "description": "0:00 Intro 2:36 Slowed Down Single Lap 6:07 Full Speed Lap 7:22 Multiple Laps with Variety of Lines 11:45 Green Flag Pit Stop ...",
+        "channel": "Jon Honaker",
+        "duration": 800,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "KlO37vQTXoQ",
+        "title": "iRacing Indycar Auto Club Track Guide | Team I5G",
+        "description": "A basic track guide with quick tips for Auto Club Speedway in the IR18 on iRacing. Weekly Forum Thread: ...",
+        "channel": "Team I5G",
+        "duration": 264,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "oEV-i3w2-FA",
+        "title": "iRacing Track Guides 2020 - Autoclub Speedway",
+        "description": "3:41 for lap A bumpy track that is wide.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 383,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "yk-SkYzV6So",
+        "title": "iRacing Track Guides 2018 - Autoclub",
+        "description": "a decent lap.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 354,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "vCX5nO62ND4",
+        "title": "2022 iRacing Track Guides - NIS Fixed at Autoclub",
+        "description": "fun track and good to be back.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 528,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

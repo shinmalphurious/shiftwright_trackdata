@@ -234,5 +234,611 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": "Paddock Hill Bend",
+      "videos": 1,
+      "cars": [
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake at 75 board, 45% pressure, trail brake",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4th gear",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Tuck in on the right",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "70% throttle on right side, work to full throttle",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Don't track over into the grass",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 75 board, 45% pressure, tuck in on the right. Use 4th gear, 70% throttle on exit, work to full throttle. Avoid grass."
+    },
+    "T2": {
+      "name": "Druids",
+      "videos": 1,
+      "cars": [
+        "Caterham 420R"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake to 45% at end of gravel trap",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "trail off, get slowly back on gas",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 45% at gravel trap end, shift to 2nd gear, trail off and slowly regain throttle."
+    },
+    "T3": {
+      "name": "Graham Hill Bend",
+      "videos": 1,
+      "cars": [
+        "Caterham 420R"
+      ],
+      "notes_by_method": {
+        "sequence_match": 1
+      },
+      "braking": [
+        {
+          "text": "50 marker, 25%, trail off",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "left tires over rumble strip",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "100%, go wide",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "tip": "Brake at 50 marker, 25% pressure, trail off. Use 3rd gear. Aim left tires over rumble strip. Exit wide at 100% throttle."
+    },
+    "T4": {
+      "name": "Surtees",
+      "videos": 1,
+      "cars": [
+        "Caterham 420R"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "50 board, 35-40%, trail off",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "point at cairns, light apex",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "100%, wide but off grass",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50 board at 35-40%, shift to 3rd, point at cairns, light apex, exit wide but off grass at 100%."
+    },
+    "T5": {
+      "name": "Hawthorn Bend",
+      "videos": 1,
+      "cars": [
+        "Porsche 718 GT4"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "between 100 and 50 markers, 60%",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "fourth gear",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "midway between 100 and 50 markers",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "exit wide, third gear",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake from 60% at 100 markers to 50 markers, use 4th gear, then take a wide exit in 3rd gear."
+    },
+    "T6": {
+      "name": "Westfield Bend",
+      "videos": 1,
+      "cars": [
+        "Porsche 718 GT4"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "braking marker midway between the 100 and the 50",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "third",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cutting the corner, right-hand tires on the rumble strip",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "exit wide, right-hand tires on the rumble strip",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50 marker in third gear, cut the corner with right tires on rumble strip, exit wide."
+    },
+    "T7": {
+      "name": "Sheene's",
+      "videos": 2,
+      "cars": [
+        "Caterham 420R",
+        "Porsche 718 GT4"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "close to 50, 25% trail off",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "right-hand side 50 marker",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "third gear",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail off long, left front tire on track, right front tire on grass",
+          "videos": 1,
+          "cars": [
+            "Caterham 420R"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "exit wide",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50 marker, 25% trail off. Use third gear. Trail off long, left tire on track, right on grass. Exit wide."
+    },
+    "T8": {
+      "name": "Stirling's",
+      "videos": 1,
+      "cars": [
+        "Porsche 718 GT4"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "50 board",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "third",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get back over to the right-hand side",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50 board, shift to third gear, and exit right."
+    },
+    "T9": {
+      "name": "Clark Curve",
+      "videos": 2,
+      "cars": [
+        "Porsche 718 GT4",
+        "ff1600"
+      ],
+      "notes_by_method": {
+        "alias_match": 1,
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brake midway between 100 and 50 board, 60%",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "tap of brake",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "down to third gear",
+          "videos": 2,
+          "cars": [
+            "Porsche 718 GT4",
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "alias_match",
+            "explicit"
+          ]
+        },
+        {
+          "text": "Fourth gear",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "smoothly back on the gas",
+          "videos": 1,
+          "cars": [
+            "Porsche 718 GT4"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Punch it full on the exit",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "roll into the throttle",
+          "videos": 1,
+          "cars": [
+            "ff1600"
+          ],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "tip": "Brake to 60% at 75 board, downshift to 3rd, then smoothly accelerate out."
+    }
+  },
+  "corner_facts": {}
 }

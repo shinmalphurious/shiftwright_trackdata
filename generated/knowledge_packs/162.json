@@ -85,5 +85,228 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "turn away from the wall before the auto trader sign",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "left point is slow, stay rolling",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "angle first part of apex, get close to apron",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "trajectory down into turn one",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "start lifting phase near A-post crossing auto trader sign",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "start lifting too late, miss the compression zone",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "overspeed entry, add too much wheel, hit apron",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake before the auto trader sign, stay rolling through the left point. Angle your apex, get close to the apron. Lift near the A-post to avoid missing the compression zone."
+    },
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "turn down the hill, shape exit fully",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "use bank, 100% throttle, open wheel",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "front end washes out early, delay full throttle",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on the downhill line, shape the exit fully. Use 100% throttle on the banked exit, avoid front end washout and delay in acceleration."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "nascar"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "lift throttle before getting under the crosswalk, about a car length and a half before",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "straight entry, crosswalk reference",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "use partial throttle on entry, maintain partial throttle through the corner",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "turning the wheel too much, going wide on the diamond",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "using too much wheel load",
+          "videos": 1,
+          "cars": [
+            "nascar"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake before the crosswalk, lift throttle early. Use a straight entry, keep partial throttle, avoid oversteer and excessive wheel angle."
+    }
+  },
+  "corner_facts": {}
 }

@@ -1,25 +1,103 @@
 {
   "track_id": 137,
   "layout": "137-pocono-east",
+  "name": "[Legacy] Pocono Raceway - 2009 - East",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:13:39.806668+00:00",
+  "candidates_seen": 61,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 61,
+    "new_candidates": 55,
+    "accepted": 6,
+    "selected": 6,
+    "kept_previous": 6,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 55,
+    "rejection_reasons": {
+      "venue not in title": 26,
+      "no guide words in title": 20,
+      "too long": 8,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
     "mx5": [
       {
         "video_id": "150bNG_-1P8",
         "title": "Impromptu Pocono East Track Guide (iRacing -- Production Cup MX-5)",
-        "description": "This is not your father's roval. Or grandfather's. Or great-great-uncle's. +++++++ Twitter: http://www.twitter.com/nihontigerlp Twitch:\u00a0...",
+        "description": "This is not your father's roval. Or grandfather's. Or great-great-uncle's. +++++++ Twitter: http://www.twitter.com/nihontigerlp Twitch: ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "mx5",
-        "quality_score": 220
+        "quality_score": 252,
+        "venue_confidence": 0.8
       }
     ],
     "nascar": [
       {
-        "video_id": "TK0GGJ7i8uk",
-        "title": "Pocono Southeast + NASCAR 1 Time Attack with EMRA Racing 1st Place 1.23.292 June 5 2022",
-        "description": "Could of been done faster but had traffic see video :-(",
-        "video_type": "other",
+        "video_id": "ZBooii-DBJI",
+        "title": "iRacing.com Pocono Raceway track guide (NASCAR CUP CAR)",
+        "description": "Struggling at Pocono in the cup car? See what you may be doing wrong and how to start mastering the track. -This is not my best ...",
+        "channel": "xxdreamtheaterx",
+        "duration": 736,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 20
+        "quality_score": 252,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "GtvotqkQbdw",
+        "title": "iRacing - Gen 6 NASCAR Ford Mustang - Michigan [Legacy] input guide",
+        "description": "",
+        "channel": "Oscar__RH",
+        "duration": 127,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 215,
+        "venue_confidence": 0.63
+      }
+    ],
+    "general": [
+      {
+        "video_id": "RLtwl9r6_fA",
+        "title": "iRacing Track Guide: Pickup Cup at Legacy Pocono",
+        "description": "If you're out, can you pick me up a Giant #56 on white from Jersey Mike's?",
+        "channel": "PDResh",
+        "duration": 594,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "GaZnHAWkkIw",
+        "title": "iRacing Track Guides 2018 - Pocono Race 2",
+        "description": "sorry for late video.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 401,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "hH_8vQuRGCw",
+        "title": "Iracing Arca CHAMPION'S Guide to Legacy Phoenix Qualifying",
+        "description": "Well I thought I would be out of town, but guess whose flight got canceled? At least I got a $12 meal voucher for the troubles.",
+        "channel": "DJ Yee-J",
+        "duration": 565,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 215,
+        "venue_confidence": 0.63
       }
     ]
   }

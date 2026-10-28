@@ -54,5 +54,373 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "late_model"
+      ],
+      "notes_by_method": {
+        "explicit": 3,
+        "sequence_match": 1
+      },
+      "braking": [
+        {
+          "text": "brake as the wall switches to concrete",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Heavy under braking to get the car slowed down and get it to rotate.",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn in a couple of car lengths before the wall switches",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Throttle up at apex, aim for yellow marker",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Drive left side tires close to yellow line, turn in, roll center, throttle up past center.",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Stay 2/3 to halfway up the banking, avoid the wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "pass when guys push tight",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't brake too late, lift and brake to set the nose",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Overrunning turn three",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Throttle up too soon, spin out or plow up track.",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "tip": "Brake heavily as the wall switches to concrete, turn in a couple car lengths earlier. Throttle up at apex, aim for yellow marker. Stay 2/3 up the banking on exit."
+    },
+    "T2": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "late_model"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "line": [
+        {
+          "text": "Get car low in dog leg, run to pitch towards wall.",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "fill and take them into turn three",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "50-60% throttle, maybe more, ride throttle the entire way.",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "not getting all the way down to the yellow",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay low in the dog leg, run wide open into turn three. Exit at 50-60% throttle, ride the throttle. Avoid cutting the corner short."
+    },
+    "T3": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "late_model"
+      ],
+      "notes_by_method": {
+        "explicit": 5
+      },
+      "braking": [
+        {
+          "text": "lift off throttle, brake at orange billboard",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake before Troutman motor sign",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Lift out early, take a wider arc",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "run wide down banking, use banking to help turn",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "wide arc into corner",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "wide entry",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Drive right underneath them on exit",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "throttle up and drive off corner",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "pass underneath them",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "throttle up on exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "screwing up turn three will hurt you for two laps",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Sending it down on the bottom, diving in",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "drifting wide or running low",
+          "videos": 1,
+          "cars": [
+            "late_model"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "dive low and wash up center",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake before Troutman motor sign, lift off early. Take wide entry, use banking to turn. Exit wide, pass underneath competitors. Avoid diving low to prevent mistakes."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "banked",
+        "statement": "Banked corner",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Banked corner at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T3": [
+      {
+        "claim": "banked",
+        "statement": "Banked corner",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Banked corner at T3: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

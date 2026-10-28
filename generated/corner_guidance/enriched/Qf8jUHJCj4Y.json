@@ -1,0 +1,246 @@
+{
+  "video_id": "Qf8jUHJCj4Y",
+  "track_id": 168,
+  "track_name": "Suzuka International Racing Course - Grand Prix",
+  "title": "iRacing NEW BMW M2 Racing Suzuka Guide 2:21.5 BMW M2 G87 Suzuka Grand Prix Track Guide",
+  "car": null,
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at marker after 100, 45% pressure, trail brake",
+      "gear": "4th",
+      "line": "Turn left, trail brake, get car turned in",
+      "exit": "Start accelerating left side, 100% throttle exit",
+      "note_id": "Qf8jUHJCj4Y:0",
+      "text": "braking: Brake at marker after 100, 45% pressure, trail brake; gear: 4th; line: Turn left, trail brake, get car turned in; exit: Start accelerating left side, 100% throttle exit",
+      "spoken_as": "this braking marker",
+      "passage_time": "3:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.8
+        }
+      },
+      "time": "3:32",
+      "snippet": "the car turned in and then we're going to start kicking back up on the gas once we've got it in there. So, if you look"
+    },
+    {
+      "braking": "Brake, lift, brake, lift",
+      "line": "Turn in after concrete boulders, lift brakes at apex",
+      "note_id": "Qf8jUHJCj4Y:1",
+      "text": "braking: Brake, lift, brake, lift; line: Turn in after concrete boulders, lift brakes at apex",
+      "spoken_as": "S's",
+      "passage_time": "3:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:13",
+      "snippet": "concrete boulders, we're going to turn in and we're going to do a lift with the brakes. So, this"
+    },
+    {
+      "braking": "lift to 25%",
+      "exit": "smoothly back on the gas",
+      "note_id": "Qf8jUHJCj4Y:2",
+      "text": "braking: lift to 25%; exit: smoothly back on the gas",
+      "spoken_as": "turn number five",
+      "passage_time": "4:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:43",
+      "snippet": "smoothly back on the gas. Then we do the final break. So, again, briefly up to about 15% trail"
+    },
+    {
+      "braking": "lift once more",
+      "note_id": "Qf8jUHJCj4Y:3",
+      "text": "braking: lift once more",
+      "spoken_as": "turn seven",
+      "passage_time": "4:22",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:04",
+      "snippet": "just a lift once more. So, break, break, lift, break, lift. That's what you should remember as you're going up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "40% to apex",
+      "line": "cut the corner",
+      "exit": "back on the gas",
+      "note_id": "Qf8jUHJCj4Y:4",
+      "text": "braking: 40% to apex; line: cut the corner; exit: back on the gas",
+      "spoken_as": "turn eight",
+      "passage_time": "4:22",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:30",
+      "snippet": "going to cut that corner. So, you're going to feel the car jump up over the curb. Once we're hitting that curb,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 45-50%, trail off to fourth gear",
+      "gear": "fourth gear",
+      "line": "cut the corner",
+      "exit": "back on gas at apex",
+      "note_id": "Qf8jUHJCj4Y:5",
+      "text": "braking: brake to 45-50%, trail off to fourth gear; gear: fourth gear; line: cut the corner; exit: back on gas at apex",
+      "spoken_as": "turn nine",
+      "passage_time": "5:39",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:59",
+      "snippet": "trail that off again down to fourth gear, back on the gas once we get to the apex. And if we get that right, it's",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 55%, trail off to third gear",
+      "gear": "third gear",
+      "line": "flat through turn 12, cut the corner",
+      "exit": "start picking back up on gas at apex",
+      "note_id": "Qf8jUHJCj4Y:6",
+      "text": "braking: brake to 55%, trail off to third gear; gear: third gear; line: flat through turn 12, cut the corner; exit: start picking back up on gas at apex",
+      "spoken_as": "turn 12",
+      "passage_time": "5:39",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:45",
+      "snippet": "start picking back up on the gas quite fast up to 100%. We're going to go flat through turn 12.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "three car lengths before the road on the right, 50%",
+      "line": "trail braking to apex",
+      "exit": "start picking back up on the gas, 80%",
+      "mistakes": "going early can cause washout on exit",
+      "note_id": "Qf8jUHJCj4Y:7",
+      "text": "braking: three car lengths before the road on the right, 50%; line: trail braking to apex; exit: start picking back up on the gas, 80%; mistakes: going early can cause washout on exit",
+      "spoken_as": "turn number 13",
+      "passage_time": "6:56",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:14",
+      "snippet": "about three car lengths before this little There you go. For this little road on the right-hand side. So,"
+    },
+    {
+      "braking": "on the curb rumble strip, 25%",
+      "line": "trail braking to apex",
+      "exit": "back on the gas in force, 100%",
+      "note_id": "Qf8jUHJCj4Y:8",
+      "text": "braking: on the curb rumble strip, 25%; line: trail braking to apex; exit: back on the gas in force, 100%",
+      "spoken_as": "turn number 14",
+      "passage_time": "6:56",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:52",
+      "snippet": "the gas in force. We get up to 100%. If we get it right, we're going to exit out here still on the track. No problems"
+    },
+    {
+      "braking": "50 board, 25%, trail off",
+      "gear": "up to 100%",
+      "line": "left-hand side of the track",
+      "exit": "back on the gas, straight up to 100%",
+      "note_id": "Qf8jUHJCj4Y:9",
+      "text": "braking: 50 board, 25%, trail off; gear: up to 100%; line: left-hand side of the track; exit: back on the gas, straight up to 100%",
+      "spoken_as": "next braking marker",
+      "passage_time": "8:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:25",
+      "snippet": "over to left-hand side of the track and then roughly halfway between the 150 and the 100, we're going to get on the"
+    },
+    {
+      "braking": "55-60%",
+      "gear": "down to third",
+      "line": "left-hand tires just on the track",
+      "exit": "blip of gas up to 70%, lift, back on the gas, cut final corner",
+      "note_id": "Qf8jUHJCj4Y:10",
+      "text": "braking: 55-60%; gear: down to third; line: left-hand tires just on the track; exit: blip of gas up to 70%, lift, back on the gas, cut final corner",
+      "spoken_as": "roughly halfway between the 150 and the 100",
+      "passage_time": "8:15",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:41",
+      "snippet": "Again, just to show you, left-hand tires just on the track. We do a little blip of gas up to about 70% and then we're"
+    }
+  ]
+}

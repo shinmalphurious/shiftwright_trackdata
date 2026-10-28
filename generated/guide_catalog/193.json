@@ -1,5 +1,147 @@
 {
   "track_id": 193,
   "layout": "193-daytona-2011-bike",
-  "selected_guides": {}
+  "name": "Daytona International Speedway - Moto",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:22:21.227232+00:00",
+  "candidates_seen": 23,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 23,
+    "new_candidates": 13,
+    "accepted": 13,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 10,
+    "rejection_reasons": {
+      "no guide words in title": 10
+    }
+  },
+  "selected_guides": {
+    "general": [
+      {
+        "video_id": "AmAgi0ATwTU",
+        "title": "iRacing  Skip Barber Daytona Moto Track Guide 1.57.5",
+        "description": "SPO 5, ARB 8, Brakes 53%",
+        "channel": "edward buchanan",
+        "duration": 1021,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "EzRk2IZFqXE",
+        "title": "iRacing Lap Guide - Daytona circa 2007 - Nissan GTP ZX-T (2017S1)",
+        "description": "Lap Time: 1:34.231 Weather: Late Afternoon, 78°F, track 86° F Qualifying Setup: ...",
+        "channel": "Keith Richey",
+        "duration": 1083,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "NS1dHdAESCw",
+        "title": "Beginner Track Guide: iRacing Daytona International Speedway - Oval NASCAR XFINITY Chevrolet Cam...",
+        "description": "Sign up with the code DAYTONA14 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=DAYTONA14 ...",
+        "channel": "Track Titan",
+        "duration": 232,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "TPfTlebFLWU",
+        "title": "iRacing Track Guides - 2016 Daytona 500",
+        "description": "Hey guys we are back to making these guides for the whole Nascar iRacing Series season where the cars will be different and so ...",
+        "channel": "Sim Racing Chewyside",
+        "duration": 374,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "AB-hESrfwd4",
+        "title": "Lap Guide- iRacing NASCAR Next Gen (A Fixed)@ Daytona Road Course",
+        "description": "I figured I'd put together a sort of \"lap guide\" for anyone who is struggling with the Daytona road course this week in A fixed since I ...",
+        "channel": "Justin Mitchell",
+        "duration": 903,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "SQUnZ9llX4c",
+        "title": "NASCAR Legends - Daytona Track Guide - iRacing",
+        "description": "Back to Daytona we go for the next round of the Legends 87 series! Here is how to get around Daytona effectively. Join this ...",
+        "channel": "Stevens Motorsports",
+        "duration": 471,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "rallycross_beetle": [
+      {
+        "video_id": "Wp0L7UzzZN4",
+        "title": "iRacing Rallycross Track Guide | Daytona Short RX | FIA Cross Car",
+        "description": "Looking to dominate Daytona Short in iRacing Rallycross? This guide breaks down everything you need to know to maximize ...",
+        "channel": "Kieran Liflander",
+        "duration": 203,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "bmw_m2": [
+      {
+        "video_id": "ghfWAQNUT-Y",
+        "title": "iRacing NEW BMW M2 Daytona Guide 2:02.1 BMW M2 Racing Daytona Track Guide",
+        "description": "... complete track guide for the BMW M2 Racing (G87) at Daytona International Speedway Road Course in iRacing. Daytona Road ...",
+        "channel": "Sambo iRacing",
+        "duration": 569,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "0GpE53PBq34",
+        "title": "iRacing Kia Optima Daytona Road track guide",
+        "description": "I made this video for the Penny-Arcade league, as we were running a multiclass race with GT3 cars and the Optima as the free ...",
+        "channel": "Michael Carpenter",
+        "duration": 845,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "irbt-eY1Fhw",
+        "title": "DAYTONA TRACK GUIDE | Week 10 ARCA iRacing Series Tutorial | Be Fast and Draft Like A Pro!",
+        "description": "Welcome to Week 10 of the Spark ARCA iRacing Series! This week, we take on the high banks of Daytona International ...",
+        "channel": "Slingshot Racing Media",
+        "duration": 271,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ]
+  }
 }

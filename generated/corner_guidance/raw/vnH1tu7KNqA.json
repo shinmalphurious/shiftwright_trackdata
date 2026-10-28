@@ -1,0 +1,140 @@
+{
+  "video_id": "vnH1tu7KNqA",
+  "track_id": 142,
+  "track_name": "Summit Point Raceway - Jefferson Reverse",
+  "title": "iRacing New M2 Racing Summit Point Guide 1:20.4 BMW M2 Racing G87 Summit Point Track Guide Fixed",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2 Racing G87",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:28:29.109852+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker into turn one, four cones on the left, 55% and trail off",
+      "gear": "3rd",
+      "line": "turn-in to braking marker, apex less important, get on gas early",
+      "exit": "full throttle exit, plenty of room"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T2",
+      "braking": "grass patch, lift and brake to 18-20%",
+      "gear": "5th",
+      "exit": "full throttle exit, touch gravel trap on right"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "full lift, brake to 60%",
+      "gear": "3rd"
+    },
+    {
+      "label": null,
+      "spoken_as": "little notch in the tire wall",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T5",
+      "braking": "brake to 25%",
+      "gear": "3rd",
+      "exit": "back on gas in third"
+    },
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "1:20",
+      "sequence": 1,
+      "braking": "brake at four cone on left, initially 50%, then 56%"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number three",
+      "start_time": "2:38",
+      "sequence": 2,
+      "label_guess": "T2",
+      "braking": "brake to 18% at grass bit, trail off",
+      "gear": "hold 3rd gear",
+      "line": "miss left kerb, slight kiss to left curbing",
+      "exit": "get back on gas briefly, lift off, brake to 60% at apex",
+      "mistakes": "kissing curbing costs time"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:57",
+      "sequence": 3,
+      "braking": "drop it down to fourth and then to third",
+      "gear": "third",
+      "line": "trail it off and then pick back up on the gas at the apex",
+      "exit": "flat"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:57",
+      "sequence": 3,
+      "braking": "briefly on the brakes to about 25%",
+      "gear": "third",
+      "line": "get to the apex",
+      "exit": "pick back up on the gas"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:57",
+      "sequence": 3,
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn eight",
+      "start_time": "3:57",
+      "sequence": 3,
+      "line": "flat",
+      "exit": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn nine",
+      "start_time": "3:57",
+      "sequence": 3,
+      "braking": "doing a little lift",
+      "line": "get all the way down to the inside",
+      "exit": "pick back up on the gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "pit lane entrance",
+      "start_time": "3:57",
+      "sequence": 3,
+      "braking": "get on the brakes to about 40%",
+      "gear": "fifth",
+      "line": "right into the middle",
+      "exit": "pick back up on the gas just ahead of the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "right-hand lock",
+      "start_time": "5:15",
+      "sequence": 4,
+      "exit": "full gas just ahead of apex",
+      "mistakes": "panicking, washing out in gravel"
+    }
+  ],
+  "general_tips": [
+    "Use engine braking to slow down",
+    "ensure track temp shown at bottom right of dashboard is correct",
+    "First couple of laps, you might need to do a little lift through there."
+  ],
+  "dropped_ungrounded": 3
+}

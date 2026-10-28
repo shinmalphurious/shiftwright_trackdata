@@ -1,59 +1,144 @@
 {
   "track_id": 197,
   "layout": "197-twinring-west",
+  "name": "Mobility Resort Motegi - West",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:22:31.980423+00:00",
+  "candidates_seen": 30,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 30,
+    "new_candidates": 20,
+    "accepted": 11,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 19,
+    "rejection_reasons": {
+      "no guide words in title": 9,
+      "too long": 8,
+      "too short": 2
+    }
+  },
   "selected_guides": {
+    "bmw_m2": [
+      {
+        "video_id": "ZoNBv1mg77M",
+        "title": "iRacing BMW M2 Motegi Guide 1:30.9 BMW M2 Racing Mobility Resort Motegi East Track Guide",
+        "description": "Get the setup used in this guide from £3.99, or subscribe for £9.99 per month for access to our full setup library across GT3, GT4, ...",
+        "channel": "Sambo iRacing",
+        "duration": 443,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      }
+    ],
+    "general": [
+      {
+        "video_id": "Apy_KX1jEV4",
+        "title": "iRacing Mobility Resort Motegi - Grand Prix Porsche 718 Cayman GT4 Clubsport (Dry) Track Guide",
+        "description": "Sign up with the code TWINRING7 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?referralCode=TWINRING7 ...",
+        "channel": "Track Titan",
+        "duration": 405,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "-Gme0-yplr0",
+        "title": "iRacing F4 Mobility Resort Motegi Guide - 1:51.4 (Using Fixed Setup) - Track Guide F4 Motegi",
+        "description": "We're back for another track guide in the F4, this time it's at the Mobility resort Motegi for the Moza Global eSport Championship ...",
+        "channel": "Sambo iRacing",
+        "duration": 551,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "L7QzheH-qhI",
+        "title": "iRacing McLaren GT3 Motegi Guide 1:49.3 McLaren 720S GT3 Mobility Resort Motegi Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 263,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "phWQ-Xufcig",
+        "title": "IRPAS Season 11 Mobility Resort Motegi iRacing Lap Guide",
+        "description": "Our resident Race Medical Staff takes us for a lap around Mobility Resort Motegi's Grand Prix Circuit with a Baby on Board!",
+        "channel": "Jukich Racing",
+        "duration": 1246,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "wBE6ESiBJ0U",
+        "title": "iRacing Mercedes GT3 Motegi Guide 1:49.2 Mercedes AMG GT3 Mobility Resort Motegi Tarck Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 263,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "woT5Nigt3L0",
+        "title": "iRacing Ferrari GT3 Motegi Guide 1:49.2 Ferrari 296 GT3 Mobility Resort Motegi Tarck Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 490,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "Cvk-SHBoy58",
+        "title": "iRacing Mustang GT3 Motegi Guide 1:49.4 Ford Mustang GT3 Mobility Resort Motegi Tarck Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 260,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "q1nPfG3e-1U",
+        "title": "iRacing Porsche GT3 Motegi Guide 1:48.9 Porsche 992 R GT3 Mobility Resort Motegi Tarck Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 516,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      }
+    ],
     "nascar": [
       {
         "video_id": "QWU3OJpyEc0",
         "title": "*Short Track Road Course?!* Iracing Arca CHAMPION'S Guide to Twin Ring West",
         "description": "Join the Discord! https://discord.gg/HbguhBg3 Weird as hell, but surprisingly fun! #nascar #simracing #Motegi.",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
-      },
-      {
-        "video_id": "nEBorOsofPI",
-        "title": "ARCA Series - Twin Ring Motegi - West - iRacing NASCAR",
-        "description": "iRacing Referral Code and Equipment listed in description. iRacing Referral code\u00a0...",
-        "video_type": "other",
-        "car": "nascar",
-        "quality_score": 120
-      }
-    ],
-    "truck": [
-      {
-        "video_id": "HTH-D_HOYN0",
-        "title": "PRO2 Track Guide | Wild West Motorsports Park",
-        "description": "Walkthrough of #WildWestMotorsportsPark in #iRacing's #PRO2 Short Course truck. Recorded with the 2020S1 build.",
-        "video_type": "lap_walkthrough",
-        "car": "truck",
-        "quality_score": 220
-      }
-    ],
-    "arca": [
-      {
-        "video_id": "r5no-ovt9Yw",
-        "title": "iRacing ARCA Series - Running a Fast Lap at Twin Ring Motegi West",
-        "description": "I am not a road course racer. If this makes you slower, it's your fault for listening to me! Kidding of course. Hopefully this helps!",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 120
-      },
-      {
-        "video_id": "CkOc3356vHI",
-        "title": "iRacing ARCA Menards Series at Twin Ring Motegi - Hug. That. Line.",
-        "description": "First time taking the ARCA car to Twin Ring Motegi in official competition and with an official setup underneath me! Relatively flat\u00a0...",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 120
-      },
-      {
-        "video_id": "pQ6I0xV5Efo",
-        "title": "ARCA @ Twin Ring Motegi (West) - No Light Switch - iRacing",
-        "description": "ARCA's Season 4 schedule thread is up now on the iRacing forums! If you run ARCA, I highly recommend stopping by and\u00a0...",
-        "video_type": "other",
-        "car": "arca",
-        "quality_score": 120
+        "quality_score": 222,
+        "venue_confidence": 0.8
       }
     ]
   }

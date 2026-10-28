@@ -1,0 +1,147 @@
+{
+  "track_id": 199,
+  "track": "Circuit Zolder - Grand Prix",
+  "records": {
+    "199:T1:heavy_braking": {
+      "id": "199:T1:heavy_braking",
+      "track_id": 199,
+      "track": "Circuit Zolder - Grand Prix",
+      "corner": "T1",
+      "corner_name": "Earste",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "625 m from the previous corner",
+          "at": "2026-10-28T09:27:51+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner (625m) suggests a braking zone before a long straight.",
+          "at": "2026-10-28T09:27:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:11+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.918
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "tKssNSBcX6U",
+              "result": "confirm",
+              "time": "2:35",
+              "note": "braking: 100 board or orange marshal's inlet, 60% to 100%, trail brake to 3rd; gear: 3rd; line: inside curb, run over edges; exit: smoothly back on gas",
+              "transcript_snippet": "this inside curb and just run over the edges of it here. So, I'll show you in the reverse. This is exactly where our",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=tKssNSBcX6U"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "199:T5:chicane": {
+      "id": "199:T5:chicane",
+      "track_id": 199,
+      "track": "Circuit Zolder - Grand Prix",
+      "corner": "T5",
+      "corner_name": "Kleine Chicane",
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Name 'Kleine Chicane' directly indicates a chicane.",
+          "at": "2026-10-28T09:27:51+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:11+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit Zolder - Alternate",
+            "source_track_id": 200,
+            "corner": "T5",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Chicane at T5: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

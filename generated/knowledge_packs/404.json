@@ -151,5 +151,41 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T6": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.938,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T6: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T4": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: inherited from Red Bull Ring - Grand Prix T8 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Red Bull Ring - Grand Prix",
+        "source_corner": "T8",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

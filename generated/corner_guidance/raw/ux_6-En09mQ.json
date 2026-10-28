@@ -1,0 +1,52 @@
+{
+  "video_id": "ux_6-En09mQ",
+  "track_id": 131,
+  "track_name": "New Hampshire Motor Speedway - Oval",
+  "title": "Get FASTER ON iRacing OVALS! | iRacing Track Guide | New Hampshire NASCAR GEN 6",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:26:40.333736+00:00",
+  "passages": 2,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "aim for the first row of dotted white lines, brake early",
+      "line": "hook the white line through the corner",
+      "exit": "give it a bit of gas to get the back end rotated, ease back onto throttle",
+      "mistakes": "aiming for the flat will shoot you up the track"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "break hard",
+      "mistakes": "sliding up the track a bit"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T2",
+      "line": "aim further down the track on exit",
+      "exit": "ease back on the throttle as you Arc out towards the wall",
+      "mistakes": "watch out for the bumps in the center of the corner"
+    }
+  ],
+  "general_tips": [
+    "use your first lap as your warm-up lap",
+    "run a bit deeper into the corners, give it some extra brake",
+    "alternate between the gas and brake with each swerve to build heat in your brakes",
+    "run at the bottom of the banked portion of the track and give the tires time to heat up",
+    "hook the white lines with your left front and avoid kicking the back end out on exit",
+    "use the dotted white lines as a reference point",
+    "use the flat portion of the track to gain time on Entry but if you don't get the car rotated you will slide up the track ruin your right front tire and potentially cause a wreck"
+  ],
+  "dropped_ungrounded": 1
+}

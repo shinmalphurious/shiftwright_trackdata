@@ -1,0 +1,246 @@
+{
+  "video_id": "HmMhVTV9xtk",
+  "track_id": 18,
+  "track_name": "Road America - Full Course",
+  "title": "iRacing US Open Wheel D USF2000 Road America Track Guide",
+  "car": null,
+  "car_hint": "usf2000",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7109
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "between three cone and one cone, brake to fourth gear",
+      "gear": "fourth gear",
+      "line": "carry lots of speed",
+      "exit": "use exit curve, pick up power early",
+      "note_id": "HmMhVTV9xtk:0",
+      "text": "braking: between three cone and one cone, brake to fourth gear; gear: fourth gear; line: carry lots of speed; exit: use exit curve, pick up power early",
+      "spoken_as": "turn one",
+      "passage_time": "3:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:31",
+      "snippet": "this three cone and the one cone, you're on the brakes down to fourth gear. And it's a really fast corner is turn",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T3",
+        "estimated_pct": 0.0493,
+        "corner_pct": 0.1016,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T3",
+        "corners_between": [
+          "T1",
+          "T2"
+        ]
+      }
+    },
+    {
+      "braking": "between two and one marker boards, brake to third gear",
+      "gear": "third gear",
+      "line": "sweep into corner",
+      "exit": "pick up throttle nicely",
+      "mistakes": "people making a mistake, be wary on opening laps",
+      "note_id": "HmMhVTV9xtk:1",
+      "text": "braking: between two and one marker boards, brake to third gear; gear: third gear; line: sweep into corner; exit: pick up throttle nicely; mistakes: people making a mistake, be wary on opening laps",
+      "spoken_as": "turn three",
+      "passage_time": "3:17",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:05",
+      "snippet": "the two and one, Tora is going to brake down to third gear. Really, really important corner",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake to second gear at number two board.",
+      "gear": "2",
+      "line": "Move to right side of track, use camber.",
+      "exit": "Use all run-off area on exit, be precise.",
+      "note_id": "HmMhVTV9xtk:2",
+      "text": "braking: Brake to second gear at number two board.; gear: 2; line: Move to right side of track, use camber.; exit: Use all run-off area on exit, be precise.",
+      "spoken_as": "turn four",
+      "passage_time": "4:36",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:58",
+      "snippet": "looking for the number two board here. Here it comes now, and braking down to second gear.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake before Corvette bridge.",
+      "mistakes": "Feel off camber, prone to spinning.",
+      "note_id": "HmMhVTV9xtk:3",
+      "text": "braking: Brake before Corvette bridge.; mistakes: Feel off camber, prone to spinning.",
+      "spoken_as": "turn five",
+      "passage_time": "4:36",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:30",
+      "snippet": "As we head up to the Corvette bridge for turn five, you're going to brake just before you get to the bridge.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the two board",
+      "line": "pick up the entry curb, pick up the exit curb",
+      "mistakes": "don't be afraid of the camber, commit to the corner",
+      "note_id": "HmMhVTV9xtk:4",
+      "text": "braking: brake at the two board; line: pick up the entry curb, pick up the exit curb; mistakes: don't be afraid of the camber, commit to the corner",
+      "spoken_as": "turn seven",
+      "passage_time": "5:54",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:37",
+      "snippet": "On the brakes at the two board. Now, there is camber in the middle of the corner, so really commit to this one.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "tiny patch of trail braking",
+      "exit": "use exit curb, but no more",
+      "mistakes": "too far off exit curb leads to spin",
+      "note_id": "HmMhVTV9xtk:5",
+      "text": "braking: tiny patch of trail braking; exit: use exit curb, but no more; mistakes: too far off exit curb leads to spin",
+      "spoken_as": "the carousel",
+      "passage_time": "7:12",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:29",
+      "snippet": "you're going to use the exit curb, then pick it up, but no more. If you get too far off, you're going to have a spin.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break at three board, drop to third gear",
+      "gear": "Third gear",
+      "line": "Use second gear briefly for extra rotation",
+      "exit": "Flat out, use run-off if needed",
+      "mistakes": "Don't commit, can feel sketchy on cold tires",
+      "note_id": "HmMhVTV9xtk:6",
+      "text": "braking: Break at three board, drop to third gear; gear: Third gear; line: Use second gear briefly for extra rotation; exit: Flat out, use run-off if needed; mistakes: Don't commit, can feel sketchy on cold tires",
+      "spoken_as": "Canada Corner",
+      "passage_time": "8:32",
+      "corner_id": "T12",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 1.0,
+          "line": 0.71,
+          "exit": 0.6,
+          "mistakes": 0.67
+        }
+      },
+      "time": "8:39",
+      "snippet": "Um, Tour drops down to third gear, but then he uses second briefly with lots and lots of revs just to get the extra",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Second gear",
+      "line": "Use line in road as turning point",
+      "mistakes": "Critical corner due to long main straight",
+      "note_id": "HmMhVTV9xtk:7",
+      "text": "gear: Second gear; line: Use line in road as turning point; mistakes: Critical corner due to long main straight",
+      "spoken_as": "final corner",
+      "passage_time": "8:32",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:35",
+      "snippet": "that you use as your turning point. and again Torus is just going to use second gear here",
+      "best_candidate": {
+        "corner_id": "T14",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T12",
+        "before": "start/finish",
+        "estimated_pct": 0.9704,
+        "corner_pct": 0.9014,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T12",
+        "before": "start/finish",
+        "corners_between": [
+          "T13",
+          "T14"
+        ]
+      }
+    }
+  ]
+}

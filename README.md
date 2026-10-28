@@ -1,12 +1,14 @@
 # Shiftwright Track Knowledge
 
+```text
 Track Structure
-?
+      ↓
 Track Characteristics
-?
+      ↓
 Track Knowledge
-?
+      ↓
 Track Intelligence
+```
 
 Purpose:
 
@@ -24,3 +26,8 @@ Examples:
 This repository is independent of telemetry analytics.
 
 Telemetry remains inside Shiftwright.
+
+---
+
+See [`docs/README.md`](docs/README.md) for the current architecture
+documentation and development roadmap.

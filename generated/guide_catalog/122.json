@@ -1,15 +1,78 @@
 {
   "track_id": 122,
   "layout": "122-texas-roadcourse",
+  "name": "[Legacy] Texas Motor Speedway - 2009 - Road Course Combined",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:10:32.328287+00:00",
+  "candidates_seen": 52,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 52,
+    "new_candidates": 48,
+    "accepted": 4,
+    "selected": 4,
+    "kept_previous": 4,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 48,
+    "rejection_reasons": {
+      "too long": 18,
+      "no guide words in title": 14,
+      "venue not in title": 12,
+      "too short": 2,
+      "live stream": 2
+    }
+  },
   "selected_guides": {
+    "general": [
+      {
+        "video_id": "I0GyXLlkTzg",
+        "title": "iRacing Track Guide: A Fixed at Legacy Texas",
+        "description": "Let me know how you race week is going! Intro Song: Cam Cole - Mama.",
+        "channel": "PDResh",
+        "duration": 559,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 202,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "RLtwl9r6_fA",
+        "title": "iRacing Track Guide: Pickup Cup at Legacy Pocono",
+        "description": "If you're out, can you pick me up a Giant #56 on white from Jersey Mike's?",
+        "channel": "PDResh",
+        "duration": 594,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 195,
+        "venue_confidence": 0.63
+      }
+    ],
     "arca": [
       {
-        "video_id": "OIExI5dFU28",
-        "title": "iRacing Track Guide: ARCA at World Wide Technology Raceway",
-        "description": "I said 31.184 but apparently I can't read numbers. I meant to say 34.184 for the lap time.",
+        "video_id": "uY6hW2uFJZU",
+        "title": "Iracing Arca *NEW* Texas Guide to Qualifying and Race",
+        "description": "https://trophytracks.com The setup used in this video is the correct one for now. It may change later.",
+        "channel": "DJ Yee-J",
+        "duration": 1210,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 192,
+        "venue_confidence": 0.8
+      },
+      {
+        "video_id": "DjhUea8pjw4",
+        "title": "*Iracing Changed It!* Arca Updated Guide to Texas Qualifying and Race",
+        "description": "Ya that old setup was bad huh? Well this one is good as long as you approach it correctly. Join the Discord!",
+        "channel": "DJ Yee-J",
+        "duration": 613,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 192,
+        "venue_confidence": 0.8
       }
     ]
   }

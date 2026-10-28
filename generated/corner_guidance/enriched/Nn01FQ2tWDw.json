@@ -1,0 +1,318 @@
+{
+  "video_id": "Nn01FQ2tWDw",
+  "track_id": 185,
+  "track_name": "Oulton Park Circuit - Intl w/no Chicanes",
+  "title": "iRacing MX5 Oulton Park Guide 1:41.7 Mazda MX5 Oulton Park With No Chicanes Track Guide",
+  "car": "Mazda MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brakes about 30%, drop it down third",
+      "gear": "3",
+      "line": "turn-in wide, apex tight, exit wide",
+      "exit": "back on the gas well ahead of the apex",
+      "mistakes": "not as wide as we used to before the old refresh",
+      "note_id": "Nn01FQ2tWDw:0",
+      "text": "braking: brakes about 30%, drop it down third; gear: 3; line: turn-in wide, apex tight, exit wide; exit: back on the gas well ahead of the apex; mistakes: not as wide as we used to before the old refresh",
+      "spoken_as": "end of these ad holdings on the left-hand side",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:37",
+      "snippet": "gas ahead of the apex. Exit wide, not as wide as we used to before the old refresh that came about. Now, head of to",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.368,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.0545,
+        "corner_pct": 0.0654,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "brakes about 40%, drop it down to third",
+      "gear": "3",
+      "line": "turn-in wide, apex tight, exit wide",
+      "exit": "back on the gas well ahead of the apex",
+      "mistakes": "running over the apex curb and the exit curb",
+      "note_id": "Nn01FQ2tWDw:1",
+      "text": "braking: brakes about 40%, drop it down to third; gear: 3; line: turn-in wide, apex tight, exit wide; exit: back on the gas well ahead of the apex; mistakes: running over the apex curb and the exit curb",
+      "spoken_as": "little dip",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.69,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:37",
+      "snippet": "gas ahead of the apex. Exit wide, not as wide as we used to before the old refresh that came about. Now, head of to",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.368,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.0545,
+        "corner_pct": 0.0654,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "brakes sharply to about 8%, trail it off",
+      "line": "turn-in right, late apex",
+      "exit": "back on the gas",
+      "note_id": "Nn01FQ2tWDw:2",
+      "text": "braking: brakes sharply to about 8%, trail it off; line: turn-in right, late apex; exit: back on the gas",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:06",
+      "snippet": "get that, on the brakes sharply to about 8%. Trail it off. I'm looking for a nice late apex cuz we've got this long, long",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the red and white curb",
+      "gear": "3rd",
+      "line": "slide it round",
+      "exit": "exit wide",
+      "mistakes": "missed the second apex, ended up in the bush",
+      "note_id": "Nn01FQ2tWDw:3",
+      "text": "braking: brake at the red and white curb; gear: 3rd; line: slide it round; exit: exit wide; mistakes: missed the second apex, ended up in the bush",
+      "spoken_as": "turn seven",
+      "passage_time": "1:21",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:33",
+      "snippet": "white curb. Going to brake there, back on the gas in third. Slide it round. Exit nice and wide. Now, did I do that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake down to second gear",
+      "gear": "2nd",
+      "line": "right hand tires over the curb",
+      "exit": "exit wide, straighten out, hug left side, shorten track",
+      "note_id": "Nn01FQ2tWDw:4",
+      "text": "braking: brake down to second gear; gear: 2nd; line: right hand tires over the curb; exit: exit wide, straighten out, hug left side, shorten track",
+      "spoken_as": "final corner",
+      "passage_time": "1:21",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.65,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:01",
+      "snippet": "drop it down second gear, right hand tires over the curb, exit wide, straighten her out, and then hug it"
+    },
+    {
+      "braking": "brake briefly up to 40%",
+      "gear": "drop to third",
+      "line": "turn in, trail off, get nose pointing right direction",
+      "exit": "pick up to 80% gas, exit wide",
+      "mistakes": "touching grass between curbing",
+      "note_id": "Nn01FQ2tWDw:5",
+      "text": "braking: brake briefly up to 40%; gear: drop to third; line: turn in, trail off, get nose pointing right direction; exit: pick up to 80% gas, exit wide; mistakes: touching grass between curbing",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:39",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "gear": 1.0,
+          "line": 0.83,
+          "exit": 0.8,
+          "mistakes": 1.0
+        }
+      },
+      "time": "3:30",
+      "snippet": "also braking. We break briefly up to about 40%. We're going to trail it off. We drop it down to third. That's going"
+    },
+    {
+      "braking": "Brake at curbs on right, 45%",
+      "line": "Turn in at curbs, apex past curbs",
+      "exit": "Accelerate to 100%",
+      "mistakes": "Do not touch grass after curbing",
+      "note_id": "Nn01FQ2tWDw:6",
+      "text": "braking: Brake at curbs on right, 45%; line: Turn in at curbs, apex past curbs; exit: Accelerate to 100%; mistakes: Do not touch grass after curbing",
+      "spoken_as": "Turn four",
+      "passage_time": "3:56",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:17",
+      "snippet": "we've gone past this apex. Now, we can't hit this grass at all after this curbing, so this is about as far over to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "80% gas, trail brake to apex",
+      "line": "Straighten wheel after apex",
+      "exit": "Get back on brakes, accelerate",
+      "note_id": "Nn01FQ2tWDw:7",
+      "text": "braking: 80% gas, trail brake to apex; line: Straighten wheel after apex; exit: Get back on brakes, accelerate",
+      "spoken_as": "That's turn five",
+      "passage_time": "3:56",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:15",
+      "snippet": "to start picking back up on the gas once we've gone past this apex. Now, we can't hit this grass at all after this",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "briefly up to 50-55%, trailing off",
+      "gear": "third",
+      "line": "right-hand tires over the side, left-hand tires on track",
+      "exit": "100% by second set",
+      "mistakes": "ended up in wall on left",
+      "note_id": "Nn01FQ2tWDw:8",
+      "text": "braking: briefly up to 50-55%, trailing off; gear: third; line: right-hand tires over the side, left-hand tires on track; exit: 100% by second set; mistakes: ended up in wall on left",
+      "spoken_as": "turn seven",
+      "passage_time": "5:15",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:26",
+      "snippet": "the curves, left-hand tires running on the track and then we're back up 100% by the time we get past the second set. And",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "35-40% at white line bowing left",
+      "gear": "third",
+      "line": "left edge of track, over curb",
+      "exit": "100%",
+      "note_id": "Nn01FQ2tWDw:9",
+      "text": "braking: 35-40% at white line bowing left; gear: third; line: left edge of track, over curb; exit: 100%",
+      "spoken_as": "turn 10",
+      "passage_time": "5:15",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:48",
+      "snippet": "on the left edge of the track here, you can see where the white line bows out to the left and then comes back in.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at about 1 car and a half's length before the turn, 75-80% pressure",
+      "gear": "3rd, 2nd",
+      "line": "turn-in wide, apex right side of curb, exit wide",
+      "exit": "get back on the gas, hug left on exit",
+      "note_id": "Nn01FQ2tWDw:10",
+      "text": "braking: brake at about 1 car and a half's length before the turn, 75-80% pressure; gear: 3rd, 2nd; line: turn-in wide, apex right side of curb, exit wide; exit: get back on the gas, hug left on exit",
+      "spoken_as": "turn 11",
+      "passage_time": "6:32",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.7,
+          "line": 0.71,
+          "exit": 0.8
+        }
+      },
+      "time": "6:33",
+      "snippet": "11. So, just in about a car and a half's length from now, I get on the brakes again up to about 75-80%.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

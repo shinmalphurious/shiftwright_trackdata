@@ -1,16 +1,30 @@
 {
   "track_id": 361,
   "layout": "361-lankebanen-road-roadshort",
-  "selected_guides": {
-    "legends": [
-      {
-        "video_id": "v28NKLuOJN0",
-        "title": "The Ultimate Gibb River Road Trip Guide | Kimberley Gorges, Waterfalls & WA Outback Highlights",
-        "description": "Ready to explore the wild frontier of Western Australia? The Gibb River Road is one of the country's most legendary outback\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "legends",
-        "quality_score": 120
-      }
-    ]
-  }
+  "name": "Lånkebanen (Hell RX) - Road Short",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:00:30.371665+00:00",
+  "candidates_seen": 52,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 52,
+    "new_candidates": 52,
+    "accepted": 0,
+    "selected": 0,
+    "kept_previous": 0,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 52,
+    "rejection_reasons": {
+      "no guide words in title": 20,
+      "venue not in title": 20,
+      "too short": 8,
+      "too long": 3,
+      "live stream": 1
+    }
+  },
+  "selected_guides": {}
 }

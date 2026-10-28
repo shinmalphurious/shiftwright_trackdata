@@ -1,0 +1,90 @@
+{
+  "video_id": "DtajiNunZUI",
+  "track_id": 8,
+  "track_name": "Summit Point Raceway - Jefferson Circuit",
+  "title": "Track Guide Summit Point - Jefferson BMW M2 CSR 51.1 iRacing",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2 CSR",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:20:39.311107+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "Turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at the left wall, 90% pressure, trail brake to the top of the corner.",
+      "gear": "2nd",
+      "line": "Turn-in to the inside curb, apex close to the inside curb.",
+      "exit": "Accelerate smoothly, cut the first inside curb of turn two.",
+      "mistakes": "Overbraking and losing the inside curb."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "next braking marker",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at the middle of the track, no more than 10% pressure.",
+      "gear": "3rd",
+      "line": "Cut the second curb, apex in the middle of the track.",
+      "exit": "Accelerate smoothly, stay close to the inside curb.",
+      "mistakes": "Going wider than the middle of the track."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake just before the corner, 50% pressure, trail brake to the top of the corner.",
+      "gear": "3rd",
+      "line": "Stay close to the inside curb.",
+      "exit": "Accelerate smoothly, short shift into 3rd.",
+      "mistakes": "Going wider than the middle of the track."
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake once losing the tree on the left, 80% pressure, trail brake to the inside curb.",
+      "line": "Stay as far to the right side of the track as possible.",
+      "mistakes": "Hitting the curb."
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "Break once you lose the tree on the left, 80% brake pressure, trail off to the inside curb.",
+      "line": "Stay close to the inside curb.",
+      "exit": "Slowly apply throttle, avoid grass to prevent spinning.",
+      "mistakes": "Hitting the traction control, going onto the grass."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "Brake at the end of the curb on the right, 70% brake pressure, trail off to the top of the hill.",
+      "line": "Take a tighter line, get close to the inside curb.",
+      "exit": "Accelerate smoothly, aim for mid-track before turn seven.",
+      "mistakes": "Spinning the car, hitting the traction control."
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "Aim for mid-track before turn seven.",
+      "exit": "Use all the room on the outside, accelerate smoothly.",
+      "mistakes": "Spinning the car."
+    }
+  ],
+  "general_tips": [
+    "Be smooth with throttle application.",
+    "Stay as far right as possible in qualifying."
+  ],
+  "dropped_ungrounded": 0
+}

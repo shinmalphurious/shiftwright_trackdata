@@ -1,0 +1,235 @@
+{
+  "track_id": 212,
+  "track": "Autódromo José Carlos Pace - Grand Prix",
+  "records": {
+    "212:T1:heavy_braking": {
+      "id": "212:T1:heavy_braking",
+      "track_id": 212,
+      "track": "Autódromo José Carlos Pace - Grand Prix",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "606 m from the previous corner",
+          "at": "2026-10-28T09:29:53+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after long straight, likely requires heavy braking.",
+          "at": "2026-10-28T09:29:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.978,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:16:21+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.978
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "jySb4J0mIJg",
+              "result": "confirm",
+              "time": "0:50",
+              "note": "braking: 50 board, 70% briefly, trail to apex; gear: 2; line: flat; exit: flat",
+              "transcript_snippet": "board. Just after that, we break briefly up to about 70%, but then we hold it, hold it, trail it off down to second",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jySb4J0mIJg"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Autódromo José Carlos Pace - Moto",
+            "source_track_id": 213,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "212:T2:heavy_braking": {
+      "id": "212:T2:heavy_braking",
+      "track_id": 212,
+      "track": "Autódromo José Carlos Pace - Grand Prix",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner suggests heavy braking.",
+          "at": "2026-10-28T09:29:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.964,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:20:19+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.964
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "jySb4J0mIJg",
+              "result": "confirm",
+              "time": "1:17",
+              "note": "braking: 75% down to third gear; gear: third; exit: exit nice and wide",
+              "transcript_snippet": "about 75% down to third gear. Back on the gas. Exit nice and wide. Goodness knows what's happening with the track",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=jySb4J0mIJg"
+            },
+            {
+              "video_id": "zCm3azyHWSs",
+              "result": "confirm",
+              "time": "3:01",
+              "note": "braking: Brake after 50 board, 80-85% pressure; gear: 2nd; line: Turn left, use left kerb; exit: Flat out, cut turn two",
+              "transcript_snippet": "And we want to really cut turn two. So, we're just keeping our left-hand tires on the track, right-hand tires almost in",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=zCm3azyHWSs"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "212:T3:heavy_braking": {
+      "id": "212:T3:heavy_braking",
+      "track_id": 212,
+      "track": "Autódromo José Carlos Pace - Grand Prix",
+      "corner": "T3",
+      "corner_name": "Curva do Sol",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests heavy braking.",
+          "at": "2026-10-28T09:29:53+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.923,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:20:19+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.923
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Autódromo José Carlos Pace - Moto",
+            "source_track_id": 213,
+            "corner": "T3",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T3: research 0.75 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

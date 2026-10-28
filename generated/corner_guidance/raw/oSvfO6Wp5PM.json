@@ -1,0 +1,119 @@
+{
+  "video_id": "oSvfO6Wp5PM",
+  "track_id": 101,
+  "track_name": "Bristol Motor Speedway - Dual Pit Roads",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I 2026 NASCAR O'Reilly at Bristol",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:26:49.946006+00:00",
+  "passages": 10,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "Coca-Cola sign on the wall",
+      "start_time": "2:15",
+      "sequence": 1,
+      "braking": "Turn away from the wall at the Coca-Cola sign",
+      "line": "Run the bottom line, left front close to the painted yellow line",
+      "mistakes": "Lift off the throttle too much, inefficient entry"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "3:34",
+      "sequence": 2,
+      "braking": "under braking, find point, partial braking, smooth",
+      "line": "turn in, work wheel into banking, apex at bottom of track",
+      "exit": "get off brake pedal as smooth as possible",
+      "mistakes": "adding too much wheel input, tipping into brake pressure too aggressively"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn 1",
+      "start_time": "4:52",
+      "sequence": 3,
+      "braking": "Brake into the yellow line, focus on commitment to the apex.",
+      "line": "Stay straddled on the yellow line, partial throttle to full throttle.",
+      "exit": "Use banking to advantage, rapid throttle application.",
+      "mistakes": "Deviate from the apex, lose grip, back off throttle."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "6:10",
+      "sequence": 4,
+      "braking": "limit brake pressure, add more wheel input",
+      "line": "turn in to get into load point",
+      "exit": "off brake, rolling phase",
+      "mistakes": "too much wheel angle, too much brake pressure"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "7:28",
+      "sequence": 5,
+      "label_guess": "T4",
+      "line": "wrap the corner exit efficiently",
+      "exit": "100% throttle just before opening the wheel",
+      "mistakes": "throttle heavy off the throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "8:46",
+      "sequence": 6,
+      "label_guess": "T4",
+      "braking": "brake late, use too much brake pressure and wheel angle",
+      "line": "overshoot entry, drive too far into the corner",
+      "exit": "get back to the throttle before restart zone",
+      "mistakes": "slide in before getting all the way into the bank, recatch the car"
+    },
+    {
+      "label": null,
+      "spoken_as": "pit entry",
+      "start_time": "10:05",
+      "sequence": 7,
+      "line": "smooth entry",
+      "mistakes": "being on and off, on and off"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "11:22",
+      "sequence": 8,
+      "braking": "Transition off in the brake.",
+      "gear": "Get into second gear.",
+      "line": "Cut this as much as I can."
+    },
+    {
+      "label": null,
+      "spoken_as": "pit entry",
+      "start_time": "12:42",
+      "sequence": 9,
+      "label_guess": "T2",
+      "braking": "manage balance, partial braking to stabilize entry",
+      "line": "turn-in to corner entry, consistent approach",
+      "mistakes": "overshoot entry, lose balance, turn into the wall"
+    }
+  ],
+  "general_tips": [
+    "Improve stability on entry",
+    "Commit on entry",
+    "Build core temperature for grip",
+    "Factor in dirty air and turbulence",
+    "Commit to entry with predetermined throttle and braking",
+    "Run the bottom line of the track",
+    "Keep left front close to the painted yellow line",
+    "Take 4-5 laps to build grip, maintain grip under corner load.",
+    "be smooth and consistent",
+    "get into the corner efficiently",
+    "navigate the line wrapping towards the wall",
+    "commit to entry speed, wrap bottom line efficiently, navigate linear process",
+    "be disciplined and technical",
+    "Maintain 36 miles per hour and 3,900 RPMs in second gear to avoid speed penalties.",
+    "commitment and confidence are key"
+  ],
+  "dropped_ungrounded": 2
+}

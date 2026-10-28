@@ -1,0 +1,73 @@
+{
+  "video_id": "YM2CEw8Wo5w",
+  "track_id": 238,
+  "track_name": "World Wide Technology Raceway (Gateway) - Road Course",
+  "title": "iRacing GR86 World Wide Technology Raceway Guide 1:04.6 Toyota GR86 Gateway Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:05:43.637520+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:46",
+      "sequence": 1,
+      "braking": "Brake at second and third seams, 50%, trail brake to third gear",
+      "gear": "3",
+      "exit": "Accelerate to 100%"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:46",
+      "sequence": 1,
+      "braking": "Brake briefly to 10% before entrance road",
+      "line": "Cut corner, left tires on curb, right tires on track",
+      "exit": "Accelerate flat"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:46",
+      "sequence": 1,
+      "line": "Nick curb",
+      "exit": "Accelerate flat"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn number five",
+      "start_time": "3:05",
+      "sequence": 2,
+      "braking": "50-55% before curbing, 25-30% at black tires, 14-15% near right curb",
+      "line": "Shallow angle, left tires in grass, right tires on track",
+      "exit": "Blip of gas, back on brakes, pick up in third",
+      "mistakes": "Giving too much room on right side"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "3:05",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "40% at tire wall, trail off to cones",
+      "exit": "Slowly back on gas to 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "next final turn",
+      "start_time": "4:27",
+      "sequence": 3,
+      "line": "keep belted down, run load line",
+      "exit": "car comes up by itself, over across the line"
+    }
+  ],
+  "general_tips": [
+    "Use engine braking to drop to third gear",
+    "keep right pedal to the floor",
+    "run load line"
+  ],
+  "dropped_ungrounded": 1
+}

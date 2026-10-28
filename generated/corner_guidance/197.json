@@ -1,0 +1,156 @@
+{
+  "track_id": 197,
+  "track_name": "Mobility Resort Motegi - West",
+  "videos": 1,
+  "corners": {
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Before 50 board, hard",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Float to middle, loop around final apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Maximize acceleration",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Picking up an off track on exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard before 50 board, float to middle, loop around final apex, maximize acceleration on exit, avoid off-track."
+    },
+    "T5": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "past the 100 meter board, hard",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "late apex",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "hard on throttle, wait for traction",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "running wide, inducing wheel spin",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake hard past the 100m board, downshift to 2nd gear. Aim for a late apex, then hard throttle, wait for traction. Avoid running wide and wheel spin."
+    },
+    "T6": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "alias_match": 1
+      },
+      "braking": [
+        {
+          "text": "between 100 and 50 board",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "compromising exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 0.9,
+          "methods": [
+            "alias_match"
+          ]
+        }
+      ],
+      "tip": "Brake from 100 to 50 board, focus on clean exit to maintain speed through next section."
+    }
+  },
+  "unplaced_notes": 10
+}

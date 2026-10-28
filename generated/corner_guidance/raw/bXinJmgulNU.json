@@ -1,0 +1,94 @@
+{
+  "video_id": "bXinJmgulNU",
+  "track_id": 179,
+  "track_name": "Long Beach Street Circuit",
+  "title": "iRacing Mercedes GT3 Long Beach Guide 1:17.5 Mercedes AMG GT3 Long Beach Track Guide",
+  "car_hint": "general",
+  "car": "Mercedes AMG",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:40:53.096991+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "1:55",
+      "sequence": 1,
+      "braking": "500 board, 55% braking, alongside board",
+      "gear": "2nd",
+      "line": "attack left-hand curve",
+      "exit": "get back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "Bubba's Burgers",
+      "start_time": "1:55",
+      "sequence": 1,
+      "braking": "brake after Bubba's Burgers, 35-40%",
+      "gear": "1st",
+      "exit": "avoid wall, exit wide",
+      "mistakes": "avoid wall on exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number four",
+      "start_time": "1:55",
+      "sequence": 1,
+      "label_guess": "T4",
+      "braking": "post phasing through barrier, 30%",
+      "gear": "2nd",
+      "exit": "exit wide"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:55",
+      "sequence": 1,
+      "braking": "pale patch on left, 35%",
+      "line": "attack gas at apex",
+      "exit": "exit wide"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:11",
+      "sequence": 2,
+      "braking": "brakes midway between 300 and 200, 55%",
+      "gear": "2nd",
+      "line": "trail off, attack apex",
+      "exit": "wide, left-hand side"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "3:11",
+      "sequence": 2,
+      "braking": "brakes after 400 ft marker, 55%",
+      "gear": "2nd",
+      "line": "attack corner"
+    },
+    {
+      "label": null,
+      "spoken_as": "underneath this bridge",
+      "start_time": "3:11",
+      "sequence": 2,
+      "braking": "brakes under bridge, 10%",
+      "line": "trail off, curve",
+      "exit": "55-60%"
+    },
+    {
+      "label": null,
+      "spoken_as": "this final little bit of painted corner",
+      "start_time": "4:29",
+      "sequence": 3,
+      "label_guess": "T7",
+      "braking": "roll on to the brakes up to about 50%",
+      "gear": "first gear",
+      "line": "get the car turned in",
+      "exit": "plowing on to the line"
+    }
+  ],
+  "general_tips": [],
+  "dropped_ungrounded": 3
+}

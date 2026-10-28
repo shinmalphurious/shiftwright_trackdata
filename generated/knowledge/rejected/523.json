@@ -1,0 +1,399 @@
+{
+  "track_id": 523,
+  "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+  "records": {
+    "523:T16:heavy_braking": {
+      "id": "523:T16:heavy_braking",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m from the previous corner",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.029,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.029
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.009,
+            "speed_drop": 0.018,
+            "min_speed_share": 0.949,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.098,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T16: research 0.60 from 1 source(s); telemetry contradicts over 6 lap(s); consensus 0.03 -> rejected (telemetry contradicts the claim)"
+    },
+    "523:T4:slow_corner": {
+      "id": "523:T4:slow_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a slower corner.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:56:21+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.001,
+            "speed_drop": 0.004,
+            "min_speed_share": 0.923,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.144,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T4: research 0.75 from 1 source(s); telemetry contradicts over 6 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "523:T8:fast_corner": {
+      "id": "523:T8:fast_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T8",
+      "corner_name": "Bruxelles",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high speed.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.043,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:56:21+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": 0.02,
+        "variants": 0.2,
+        "consensus": 0.043
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "af4Wee36oxw",
+              "result": "confirm",
+              "time": "4:38",
+              "note": "braking: brake at curb on left, 50% pressure; gear: 3 to 2; line: trail braking, double apex; exit: flat out on left side",
+              "transcript_snippet": "going to start braking at this curb on the left-hand side and straight up to about 50%. We're going to trail that",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=af4Wee36oxw"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.759,
+            "speed_drop": 0.463,
+            "min_speed_share": 0.448,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.016,
+            "laps": 6
+          }
+        },
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T8",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T8: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry contradicts over 6 lap(s); consensus 0.04 -> rejected (telemetry contradicts the claim)"
+    },
+    "523:T10:slow_corner": {
+      "id": "523:T10:slow_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T10",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner suggests a tight corner.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:56:21+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.503,
+            "speed_drop": 0.161,
+            "min_speed_share": 0.783,
+            "min_throttle": 0.092,
+            "flat_after_pct": 0.07,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T10: research 0.75 from 1 source(s); telemetry contradicts over 6 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "523:T11:slow_corner": {
+      "id": "523:T11:slow_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T11",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner suggests a tight corner.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:56:21+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.0,
+            "speed_drop": 0.068,
+            "min_speed_share": 0.801,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.046,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T11: research 0.75 from 1 source(s); telemetry contradicts over 6 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    },
+    "523:T16:slow_corner": {
+      "id": "523:T16:slow_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner suggests a tight corner.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.057,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:56:21+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.057
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.009,
+            "speed_drop": 0.018,
+            "min_speed_share": 0.949,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.098,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T16: research 0.75 from 1 source(s); telemetry contradicts over 6 lap(s); consensus 0.06 -> rejected (telemetry contradicts the claim)"
+    }
+  }
+}

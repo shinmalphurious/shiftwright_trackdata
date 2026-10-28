@@ -1,31 +1,43 @@
 {
   "track_id": 383,
   "layout": "383-crandon-short",
+  "name": "Crandon International Raceway - Short",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:06:11.626266+00:00",
+  "candidates_seen": 64,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 64,
+    "new_candidates": 63,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 63,
+    "rejection_reasons": {
+      "no guide words in title": 23,
+      "too long": 21,
+      "venue not in title": 13,
+      "too short": 5,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
     "truck": [
-      {
-        "video_id": "HTH-D_HOYN0",
-        "title": "PRO2 Track Guide | Wild West Motorsports Park",
-        "description": "Walkthrough of #WildWestMotorsportsPark in #iRacing's #PRO2 Short Course truck. Recorded with the 2020S1 build.",
-        "video_type": "lap_walkthrough",
-        "car": "truck",
-        "quality_score": 220
-      },
       {
         "video_id": "kTZv_1tiTgo",
         "title": "Pro 4 Truck - Crandon Short Track Guide",
         "description": "FRA: New Track Guide video for Pro 4 Truck Fixed with the Crandon Short circuit!\n\nIn this video, you'll find the complete lap ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "truck",
-        "quality_score": 120
-      },
-      {
-        "video_id": "gzI_NYAhJ9Y",
-        "title": "Crandon Short Pro 4 Truck 42.936  | iRacing",
-        "description": "Driver and Builder for FactorySimsport #69 You can buy my and Keaton Swane's setups here: https://factorysimsport.com/ Skin of\u00a0...",
-        "video_type": "other",
-        "car": "truck",
-        "quality_score": 120
+        "quality_score": 176,
+        "venue_confidence": 0.9
       }
     ]
   }

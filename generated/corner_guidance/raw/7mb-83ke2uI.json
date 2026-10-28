@@ -1,0 +1,130 @@
+{
+  "video_id": "7mb-83ke2uI",
+  "track_id": 187,
+  "track_name": "Oulton Park Circuit - Island Historic",
+  "title": "iRacing Track Guide Oulton Park | Skip Barber | 1:50.828",
+  "car_hint": "general",
+  "car": "skippy",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:38:13.480673+00:00",
+  "passages": 10,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "brake to first gear at banners on left",
+      "gear": "1st",
+      "line": "turn in, apex at banner, exit on dirt",
+      "exit": "accelerate to 4th gear before apex",
+      "mistakes": "do not run wide, harsh off track"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "little kink",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "full throttle"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "this little kink",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "None, full throttle",
+      "gear": "Full throttle",
+      "line": "Straight line",
+      "exit": "Full throttle",
+      "mistakes": "Hit the kerb on the inside"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:34",
+      "sequence": 2,
+      "braking": "Brake for turn three, down to third gear",
+      "gear": "Third gear",
+      "line": "Wide entry, late apex, use inside curbing",
+      "exit": "Full throttle early",
+      "mistakes": "Use no more than the red and white curbing on the right"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "hairpin of turn five",
+      "start_time": "3:52",
+      "sequence": 3,
+      "braking": "Start braking for the hairpin, second gear, cold tires maybe first.",
+      "gear": "2nd",
+      "line": "Lay the apex and get on power as soon as possible.",
+      "exit": "Better exit benefits the upcoming straight.",
+      "mistakes": "Don't run too far wide, curb crests onto grass."
+    },
+    {
+      "label": "T6",
+      "spoken_as": "little kink of turn six",
+      "start_time": "3:52",
+      "sequence": 3,
+      "line": "Keep it on the left side for the straight as much as possible.",
+      "exit": "Minimize scrub and steering angle.",
+      "mistakes": "Not really a corner, avoid running wide on left."
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:52",
+      "sequence": 3,
+      "braking": "Break down into second gear at cement dust white marking.",
+      "gear": "2nd",
+      "line": "Straight line it as much as possible.",
+      "exit": "Cut it as much as possible.",
+      "mistakes": "Don't run wide on left, off track and slow down."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 12",
+      "start_time": "5:10",
+      "sequence": 4,
+      "label_guess": "T9",
+      "braking": "braking board 50 meters, down to first gear",
+      "gear": "cut to first gear",
+      "line": "keep to the left-hand side",
+      "exit": "keep it on throttle, watch for pothole",
+      "mistakes": "run wide, hit off track and slowdown"
+    },
+    {
+      "label": null,
+      "spoken_as": "one corner",
+      "start_time": "6:26",
+      "sequence": 5,
+      "label_guess": "T9",
+      "braking": "tap brakes, down to third gear",
+      "gear": "3",
+      "line": "clip the apex on the inside",
+      "exit": "full power",
+      "mistakes": "don't bother about the first apex, run wide over the crest"
+    },
+    {
+      "label": null,
+      "spoken_as": "this corner",
+      "start_time": "6:26",
+      "sequence": 5,
+      "label_guess": "T10",
+      "braking": "stand on the brakes, down to second gear",
+      "gear": "2",
+      "line": "late late apex",
+      "exit": "good exit, avoid running wide",
+      "mistakes": "run wide, off track"
+    }
+  ],
+  "general_tips": [
+    "keep rear end in check on skippy",
+    "Careful of overtaking on left or right over the crest",
+    "Avoid running wide on the left side.",
+    "keep it to the left-hand side to avoid the kink",
+    "minimize angle on exit",
+    "keep in fourth gear, fifth if following someone"
+  ],
+  "dropped_ungrounded": 0
+}

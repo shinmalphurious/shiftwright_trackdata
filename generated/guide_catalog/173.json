@@ -1,23 +1,142 @@
 {
   "track_id": 173,
   "layout": "173-suzuka-moto",
+  "name": "Suzuka International Racing Course - Moto",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:21:25.056367+00:00",
+  "candidates_seen": 23,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 23,
+    "new_candidates": 13,
+    "accepted": 10,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 13,
+    "rejection_reasons": {
+      "venue not in title": 10,
+      "too long": 2,
+      "no guide words in title": 1
+    }
+  },
   "selected_guides": {
-    "legends": [
+    "bmw_m2": [
       {
-        "video_id": "lAJi-YRdBCo",
-        "title": "F1 Circuit Guide | Japanese Grand Prix 2016",
-        "description": "Suzuka's unique figure-of-eight layout, famous corners and dedicated fans make it a legendary circuit. For more F1\u00ae videos, visit\u00a0...",
+        "video_id": "Qf8jUHJCj4Y",
+        "title": "iRacing NEW BMW M2 Racing Suzuka Guide 2:21.5 BMW M2 G87 Suzuka Grand Prix Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 717,
         "video_type": "lap_walkthrough",
-        "car": "legends",
-        "quality_score": 120
+        "car": "bmw_m2",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "iSp0B9ckHcI",
+        "title": "iRacing Porsche GT3 Suzuka Guide 1:56.1 Porsche 992 R GT3 Suzuka GP Track Guide",
+        "description": "To race with this setup, you have two options: Get it directly from our website: https://www.SamboSetups.com Or join our Patreon ...",
+        "channel": "Sambo iRacing",
+        "duration": 585,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "IVdDm2ZwnwU",
-        "title": "Suzuka Circuit Track Day Experience | Toprank Customers at SHIBATIRE Shibaso",
-        "description": "Join us at Suzuka Circuit as Toprank customers participate in the legendary SHIBATIRE \u201cShibaso / \u30b7\u30d0\u8d70\u201d Track Day \u2014 one of\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 20
+        "video_id": "zUY_jHOetvU",
+        "title": "GlacierTV Track Guide - Suzuka Circuit",
+        "description": "GlacierTV Track Introduction Track : Suzuka Circuit Simulator : iRacing.com Commentary : Wil Vincent Graphics + Footage : Joni ...",
+        "channel": "GlacierTV Video Archive",
+        "duration": 179,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "bkAfTCrmDWI",
+        "title": "iRacing LMP3 Suzuka Guide 1:54.1 Ligier JS P320 LMP3 Suzuka Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 532,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "fhFsaAIzgjU",
+        "title": "iRacing BMW GT4 Suzuka Guide 2:09.5 BMW M4 GT4 Suzuka GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 576,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "LqCymoljQVI",
+        "title": "iRacing Porsche GT4 Suzuka Guide 2:09.6 Porsche Cayman 718 GT4 Suzuka GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 568,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "qv5Vyibw-pc",
+        "title": "iRacing Mustang GT4 Suzuka Guide 2:09.6 Ford Mustang GT4 Suzuka GP Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 556,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "cDA2yimycew",
+        "title": "Suzuka GT3 Track Guide | iRacing",
+        "description": "Compare with our Pro Laps FOR FREE: https://go-fast.gg/DownloadGOFast Learn More about GO Fast https://go-fast.gg ...",
+        "channel": "GO Fast",
+        "duration": 201,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "WixYuAq4-tM",
+        "title": "HOW TO DO SUZUKA IN iRacing | GT3 Track Guide & Tips",
+        "description": "Learn the fastest lines, braking points, and setup tips to master Suzuka in iRacing GT3. Perfect for improving your lap times and ...",
+        "channel": "HYMO Academy",
+        "duration": 238,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "c9SYYGv076Y",
+        "title": "iRacing Ford Mustang GT3 - SUZUKA Track Guide - 1:56.487",
+        "description": "COACHING / COURSES: https://gitgudracing.com ACADEMY: https://gitgudracing.com/iracing-academy/ GO Setups 10% OFF: ...",
+        "channel": "GITGUD Racing",
+        "duration": 468,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

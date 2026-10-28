@@ -1,0 +1,94 @@
+{
+  "video_id": "tKssNSBcX6U",
+  "track_id": 199,
+  "track_name": "Circuit Zolder - Grand Prix",
+  "title": "iRacing Mustang GT4 Zolder Guide 1:34.0 Ford Mustang GT4 Circuit Zolder GP Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:01:08.173535+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:14",
+      "sequence": 1,
+      "braking": "100 board or orange marshal's inlet, 60% to 100%, trail brake to 3rd",
+      "gear": "3rd",
+      "line": "inside curb, run over edges",
+      "exit": "smoothly back on gas"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:14",
+      "sequence": 1,
+      "line": "flat"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:14",
+      "sequence": 1,
+      "braking": "end of gravel patch, 50%, trail brake to 3rd",
+      "gear": "3rd",
+      "exit": "back on gas ahead of"
+    },
+    {
+      "label": null,
+      "spoken_as": "the chicane",
+      "start_time": "3:32",
+      "sequence": 2,
+      "label_guess": "T5",
+      "braking": "100 board, 65% to 2nd",
+      "gear": "2nd",
+      "line": "no cut curbs, run wide, cut back",
+      "exit": "100% throttle",
+      "mistakes": "be aggressive on first curve, stay out of gravel trap"
+    },
+    {
+      "label": null,
+      "spoken_as": "next chicane",
+      "start_time": "3:32",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "100 board, opposite car",
+      "line": "straighten steering wheel"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "4:51",
+      "sequence": 3,
+      "braking": "straighten the steering wheel, control the slide, brake in a straight line",
+      "gear": "2",
+      "line": "straighten the steering wheel, control the slide",
+      "exit": "get back on the gas very lightly, lift through the right hander, back on full gas"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "4:51",
+      "sequence": 3,
+      "braking": "ahead of the 100 board, 80% brake pressure",
+      "gear": "1",
+      "exit": "back on the gas at the apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "last little chicane",
+      "start_time": "4:51",
+      "sequence": 3,
+      "label_guess": "T9",
+      "braking": "midway between the armco and the 100 board, 65-70% brake pressure",
+      "gear": "2",
+      "exit": "back on the gas once we get to the first curve"
+    }
+  ],
+  "general_tips": [
+    "nice inputs"
+  ],
+  "dropped_ungrounded": 1
+}

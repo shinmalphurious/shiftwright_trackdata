@@ -1,0 +1,120 @@
+{
+  "video_id": "vySs2SYL1Qs",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "iRacing BMW M2 CS Summit Point Raceway Track Guide 1:15.969 - Rookie Fixed Setup",
+  "car_hint": "bmw_m2",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:29:02.958971+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "break at the full c i Peak at 92% brake pressure before reducing to roughly 70 to 75%",
+      "line": "keep the car tight at Apex and get back to full throttle in an instant",
+      "exit": "allow the car to track out but no more than the middle of one exit"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:05",
+      "sequence": 0,
+      "gear": "fourth gear",
+      "line": "keep a tight line going through turn two to shorten track distance"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "break it as soon as you are level with the first access r t rate peeking at 50% before reducing to Apex",
+      "line": "get as close to Apex curve",
+      "exit": "gradually get back to full throttle the car will be moving around",
+      "mistakes": "best to keep steering input smooth and minimal"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:05",
+      "sequence": 0,
+      "braking": "dab the brakes just after the last Tree on your right",
+      "line": "kiss the Apex curb",
+      "exit": "get back to full throttle once you see the S TI marks on the left"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 3",
+      "start_time": "1:24",
+      "sequence": 1,
+      "label_guess": "T3",
+      "braking": "brake in the middle of the track",
+      "gear": "3rd",
+      "line": "turn to Apex as you start your trajectory",
+      "exit": "get back to throttle end of Apex curve",
+      "mistakes": "don't track out too wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 5",
+      "start_time": "1:24",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "use a small amount of brake pressure",
+      "gear": "3rd",
+      "line": "keep the car tight at Apex",
+      "exit": "get back to throttle end of Apex curve"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn 6",
+      "start_time": "1:24",
+      "sequence": 1,
+      "line": "get back to the left",
+      "exit": "use maintenance throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 7",
+      "start_time": "1:24",
+      "sequence": 1,
+      "label_guess": "T7",
+      "line": "keep car to the left",
+      "exit": "reduce to half throttle before increasing to Full Throttle at Apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 8",
+      "start_time": "1:24",
+      "sequence": 1,
+      "label_guess": "T8",
+      "exit": "allow the car to run wide on exit curve and keep steering minimal",
+      "mistakes": "prevent Tire scrubbing"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn 9",
+      "start_time": "1:24",
+      "sequence": 1,
+      "exit": "place the car in the middle and reduce throttle"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "1:24",
+      "sequence": 1,
+      "braking": "start breaking as the tree on your left ends using No More than 70% brake pressure",
+      "line": "quickly reduce pressure to Apex",
+      "exit": "get back to full and purposely track out wide on exit"
+    }
+  ],
+  "general_tips": [
+    "make full use of the exit curve and position the car in a diagonal line to shorten track distance",
+    "place the car in the middle of the road and use maintenance throttle as you hit the Apex curve to minimize bouncing"
+  ],
+  "dropped_ungrounded": 1
+}

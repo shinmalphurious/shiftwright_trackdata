@@ -1,0 +1,84 @@
+{
+  "video_id": "RVKquin4rB8",
+  "track_id": 218,
+  "track_name": "Circuit Gilles Villeneuve",
+  "title": "iRacing McLaren GT3 Montreal Guide 1339 McLaren 720S GT3 Circuit Gilles Villeneuve Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:58:37.446136+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "little bend",
+      "start_time": "1:57",
+      "sequence": 1,
+      "braking": "get on brakes alongside right marker, 60%",
+      "gear": "2",
+      "line": "attack left curb",
+      "exit": "back on gas, blip, roll on to 30%, light apex, back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "1:57",
+      "sequence": 1,
+      "braking": "midway between two markers, 45-50%",
+      "line": "tread off to apex, attack",
+      "exit": "back on gas, avoid wall, tight on exit",
+      "mistakes": "avoid wall on exit"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:17",
+      "sequence": 2,
+      "gear": "flat",
+      "line": "flat"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:17",
+      "sequence": 2,
+      "braking": "beside orange marshals inlet, 60%",
+      "gear": "down to 2nd",
+      "line": "attack right curb, left tires over rumble strip",
+      "exit": "100% throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "turns number eight and nine",
+      "start_time": "3:17",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "2/3 beyond 3 marker, 60-65%",
+      "gear": "down to 2nd",
+      "line": "attack right curb, right tires over white",
+      "exit": "95% throttle"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10 hair pin",
+      "start_time": "3:17",
+      "sequence": 2,
+      "braking": "beside asphalt, 60-65%"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 13",
+      "start_time": "4:36",
+      "sequence": 3,
+      "label_guess": "T13",
+      "gear": "second gear",
+      "line": "really attack this curb on entry",
+      "exit": "hold the gas at about 2/3, attack the second curb"
+    }
+  ],
+  "general_tips": [
+    "It's not just a race to one individual apex."
+  ],
+  "dropped_ungrounded": 2
+}

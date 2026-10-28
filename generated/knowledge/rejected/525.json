@@ -1,0 +1,144 @@
+{
+  "track_id": 525,
+  "track": "Circuit de Spa-Francorchamps - Endurance",
+  "records": {
+    "525:T16:heavy_braking": {
+      "id": "525:T16:heavy_braking",
+      "track_id": 525,
+      "track": "Circuit de Spa-Francorchamps - Endurance",
+      "corner": "T16",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m from the previous corner",
+          "at": "2026-10-28T10:06:44+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.273,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:01+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.273
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T16",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T16: research 0.60 from 1 source(s); consensus 0.27 -> rejected (evidence contradicts the claim)"
+    },
+    "525:T8:fast_corner": {
+      "id": "525:T8:fast_corner",
+      "track_id": 525,
+      "track": "Circuit de Spa-Francorchamps - Endurance",
+      "corner": "T8",
+      "corner_name": "Bruxelles",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typical corner characteristics and distance to next corner.",
+          "at": "2026-10-28T10:06:44+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.429,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.198,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T22:55:01+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.198
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "B_Koltr4Rtk",
+              "result": "contradict",
+              "time": "4:19",
+              "note": "braking: brakes three or four car lengths ahead of the curb on the left, 45% long trail off; gear: 2; line: trail off the brake all the way through until pointing at the pits; exit: very gingerly back on the gas, reach 100% when rear won't kick out; mistakes: don't reach 100% too early",
+              "transcript_snippet": "or four car lengths ahead of the curb on the left-hand side. [music] There we go. Maybe two car lengths in",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=B_Koltr4Rtk"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+            "source_track_id": 523,
+            "corner": "T8",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 1,
+            "telemetry": "contradict"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T8: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.20 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

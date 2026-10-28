@@ -1,0 +1,155 @@
+{
+  "video_id": "eGeY0y72Cds",
+  "track_id": 50,
+  "track_name": "Road America - Bend",
+  "title": "iRacing MX5 Road America Guide 2:31.8 Mazda MX-5 Road America Track Guide",
+  "car_hint": "mx5",
+  "car": "Mazda MX-5",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:21:18.674076+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake up to 60% trailer off at one cone",
+      "gear": "3rd",
+      "line": "slide it through",
+      "exit": "keep on the gas from apex onwards"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake to 70% trailer off",
+      "gear": "2nd",
+      "exit": "back on the gas in second",
+      "mistakes": "don't mind the back end kicking out"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "just before the one, 100%",
+      "gear": "second",
+      "line": "right-hand side, wide, cut back in",
+      "exit": "decent exit",
+      "mistakes": "missed apex"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:18",
+      "sequence": 1,
+      "gear": "flat",
+      "line": "right-hand side, wide"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "just before the one, 90%",
+      "gear": "first or second",
+      "exit": "look for concrete wall, lift, build throttle"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "1:18",
+      "sequence": 1,
+      "gear": "flat",
+      "line": "wide on rumble strip, cut back in"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "two marker, 90%",
+      "gear": "second"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "turn 13",
+      "start_time": "2:37",
+      "sequence": 2,
+      "braking": "brake at two marker on left, 40-45%",
+      "gear": "2nd",
+      "line": "use all track, rumble strip",
+      "exit": "exit wide, carry speed up hill"
+    },
+    {
+      "label": null,
+      "spoken_as": "first breaking marker",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T14",
+      "braking": "brake before one cone, 60%",
+      "gear": "3rd",
+      "line": "right-hand side of car up and over curbs, left tires on track",
+      "exit": "three-quarter pressure on gas at apex, exit wide"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "here",
+      "start_time": "3:55",
+      "sequence": 3,
+      "braking": "just ahead of the one, 60-70%",
+      "gear": "2",
+      "line": "kick back end out",
+      "exit": "right side over curbs, left side on track",
+      "mistakes": "touch grass on left"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:55",
+      "sequence": 3,
+      "braking": "just before the one, 100%",
+      "exit": "get on gas at apex",
+      "mistakes": "miss apex by two feet"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "5:12",
+      "sequence": 4,
+      "braking": "brake up to 90%, trail off",
+      "gear": "1st",
+      "line": "left-hand tires up over the curb",
+      "exit": "use all the exit",
+      "mistakes": "not using all the track, missing entrance and apex curbing"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "6:30",
+      "sequence": 5,
+      "braking": "brake midway between three and two markers, straight line",
+      "gear": "drop to 2nd",
+      "line": "left-hand tires on rumble strip",
+      "exit": "use all track, including rumble strip"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 13",
+      "start_time": "6:30",
+      "sequence": 5,
+      "label_guess": "T13",
+      "line": "right-hand tires on rumble strip",
+      "exit": "use all track, including rumble strip"
+    }
+  ],
+  "general_tips": [
+    "MX-5 is a car that you can control the steering with the right foot",
+    "use all the track, including entrance and apex curbing",
+    "build throttle gradually after lift"
+  ],
+  "dropped_ungrounded": 4
+}

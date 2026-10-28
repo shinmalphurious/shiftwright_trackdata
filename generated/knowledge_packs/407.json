@@ -126,5 +126,42 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T2": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T2: inherited from Red Bull Ring - Grand Prix T4 (same corner, same approach, inheritance 1.00); Heavy braking zone at T4: research 0.60 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+        "source_track": "Red Bull Ring - Grand Prix",
+        "source_corner": "T4",
+        "inheritance_confidence": 1.0
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.984,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T2: inherited from Red Bull Ring - Grand Prix T4 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+        "source_track": "Red Bull Ring - Grand Prix",
+        "source_corner": "T4",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

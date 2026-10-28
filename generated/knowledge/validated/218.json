@@ -1,0 +1,356 @@
+{
+  "track_id": 218,
+  "track": "Circuit Gilles Villeneuve",
+  "records": {
+    "218:T2:slow_corner": {
+      "id": "218:T2:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "131m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "2:21",
+              "note": "line: hug the inside as much as you can; exit: start getting on power at about the three-quarter mark; mistakes: be careful for cars exiting pit lane",
+              "transcript_snippet": "power at about this three-quarter mark and then get your way get your way down this sort of kinked small straight",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T2: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "218:T5:fast_corner": {
+      "id": "218:T5:fast_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T5",
+      "corner_name": "T5",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "231m distance from previous corner suggests a longer corner that can be taken at higher speeds.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.964,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.964
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "b452FSk3g2M",
+              "result": "confirm",
+              "time": "3:07",
+              "note": "line: go flat through turn five",
+              "transcript_snippet": "We're going to go flat through turn five. Now for turn six, we're going to get on the brakes once we're alongside",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=b452FSk3g2M"
+            },
+            {
+              "video_id": "RVKquin4rB8",
+              "result": "confirm",
+              "time": "3:17",
+              "note": "gear: flat; line: flat",
+              "transcript_snippet": "Go flat as we go through turn five. Now for turn six, we're going to get on the brakes once we're alongside this orange",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=RVKquin4rB8"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T5: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "218:T9:slow_corner": {
+      "id": "218:T9:slow_corner",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "635m distance from previous corner suggests a tight corner.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "4:55",
+              "note": "braking: Brake at 4 board; line: Tight hairpin, similar to Sonoma final corner; exit: Square off kinked braking zone",
+              "transcript_snippet": "then square this kinked breaking zone off and break at the four board and uh and and if you're good at sonoma",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T9: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "218:T10:hairpin": {
+      "id": "218:T10:hairpin",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T10",
+      "corner_name": "L'Epingle",
+      "claim": "hairpin",
+      "statement": "Hairpin",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "L'Epingle is known as a hairpin turn.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "5:20",
+              "note": "braking: break at the four board; line: turn-in early, apex tight; exit: start getting the power back down long straight",
+              "transcript_snippet": "be able to start getting the power back down long straight best passing opportunity",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Hairpin at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "218:T10:important_exit": {
+      "id": "218:T10:important_exit",
+      "track_id": 218,
+      "track": "Circuit Gilles Villeneuve",
+      "corner": "T10",
+      "corner_name": "L'Epingle",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Hairpin turns often lead to long straights where exit speed is crucial.",
+          "at": "2026-10-28T09:30:52+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:17:23+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "ImDLvvvkuB0",
+              "result": "confirm",
+              "time": "5:20",
+              "note": "braking: break at the four board; line: turn-in early, apex tight; exit: start getting the power back down long straight",
+              "transcript_snippet": "be able to start getting the power back down long straight best passing opportunity",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ImDLvvvkuB0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

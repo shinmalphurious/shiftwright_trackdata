@@ -1,0 +1,860 @@
+{
+  "track_id": 9,
+  "track": "Summit Point Raceway - Summit Point Raceway",
+  "records": {
+    "9:T1:heavy_braking": {
+      "id": "9:T1:heavy_braking",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "validated",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "978 m from the previous corner",
+          "at": "2026-10-28T09:08:50+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance from previous corner suggests high speed approach, and short distance to next corner suggests hard braking.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.997,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.999,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.988,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.999
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "eOa0jyihzRE",
+              "result": "confirm",
+              "time": "0:13",
+              "note": "braking: braking marker is the four cones here on the left, 90% brake pressure; line: follow the inner side of the repaved part; exit: start to apply throttle where the repaved part and the curb meet, ease in; mistakes: don't make the rear slide",
+              "transcript_snippet": "breaking marker is the four cones here on the left once we get to them we go to about 90% break pressure easing that off",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=eOa0jyihzRE"
+            },
+            {
+              "video_id": "KCIALBLc9GA",
+              "result": "confirm",
+              "time": "0:17",
+              "note": "braking: Break halfway between the four cones and the three cones, 75% pressure; line: Follow the repaved part, turn-in at inside curb; exit: Accelerate following repave, end up middle of track; mistakes: Don't hit the inside curb, avoid gravel",
+              "transcript_snippet": "track. We break halfway between the four cones and the three cones here on the left, aiming for 75% brake pressure,",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=KCIALBLc9GA"
+            },
+            {
+              "video_id": "vySs2SYL1Qs",
+              "result": "confirm",
+              "time": "0:36",
+              "note": "braking: break at the full c i Peak at 92% brake pressure before reducing to roughly 70 to 75%; line: keep the car tight at Apex and get back to full throttle in an instant; exit: allow the car to track out but no more than the middle of one exit",
+              "transcript_snippet": "no more than the middle of one exit keep a tight line going through turn two to shorten track",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=vySs2SYL1Qs"
+            },
+            {
+              "video_id": "Z8ungZzQZqg",
+              "result": "confirm",
+              "time": "0:28",
+              "note": "braking: brake just before the free cone, 80% pressure; gear: 2nd; line: turn-in before free cone, apex at cone, follow lighter gray tarmac; exit: hard on throttle, follow lighter gray tarmac",
+              "transcript_snippet": "the free cone. Keep brake pressure of 80% and into second gear. Get back to power just before you reach the apex.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Z8ungZzQZqg"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Summit Point Raceway - School",
+            "source_track_id": 159,
+            "corner": "T1",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 4,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 4 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 1.00 -> validated (evidence supports the claim)"
+    },
+    "9:T1:overtaking_zone": {
+      "id": "9:T1:overtaking_zone",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "overtaking_zone",
+      "statement": "Overtaking opportunity",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.45,
+          "basis": "978 m from the previous corner",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.45,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.45,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.45
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Overtaking opportunity at T1: research 0.45 from 1 source(s); consensus 0.45 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T10:important_exit": {
+      "id": "9:T10:important_exit",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T10",
+      "corner_name": "Paddock Bend",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "978 m to the next corner",
+          "at": "2026-10-28T09:08:50+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner suggests that exit speed is important.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.745,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:00+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.745,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.745
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.70 from 2 source(s); consensus 0.74 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T2:heavy_braking": {
+      "id": "9:T2:heavy_braking",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner and long distance to next corner suggest hard braking.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T3:slow_corner": {
+      "id": "9:T3:slow_corner",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T3",
+      "corner_name": "Wagon Bend",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance from previous corner and long distance to next corner suggest a slower corner.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T3: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T4:flat_out": {
+      "id": "9:T4:flat_out",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T4",
+      "corner_name": "Chute",
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner and short distance to next corner suggest a fast, flat-out corner.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T4: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T9:important_exit": {
+      "id": "9:T9:important_exit",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T9",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner suggests that exit speed is important.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-27T23:08:31+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:00+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:31+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T9: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T1:important_exit": {
+      "id": "9:T1:important_exit",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Short distance to next corner suggests that exit speed is crucial for lap time.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T1: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T2:important_exit": {
+      "id": "9:T2:important_exit",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner suggests that exit speed is important.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T2: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T3:important_exit": {
+      "id": "9:T3:important_exit",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T3",
+      "corner_name": "Wagon Bend",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.7,
+          "basis": "Long distance to next corner suggests that exit speed is important.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.7,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.7,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.7
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T3: research 0.70 from 1 source(s); consensus 0.70 -> pending (no transcript, telemetry or variant evidence yet)"
+    },
+    "9:T5:flat_out": {
+      "id": "9:T5:flat_out",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner and short distance to next corner suggest a fast, flat-out corner.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.497,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.248,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.497
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "KCIALBLc9GA",
+              "result": "contradict",
+              "time": "1:20",
+              "note": "braking: 50% brake pressure, break away from corner to right side; line: follow repaved part of track; exit: pick up throttle once leaving curb, follow to mid track",
+              "transcript_snippet": "away from the corner over to the right side of the track. Easing off the pressure until we leave the inside curb.",
+              "placed_by": "sequence_match",
+              "placement_confidence": 0.903,
+              "source": "https://www.youtube.com/watch?v=KCIALBLc9GA"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 1,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T5: research 0.75 from 1 source(s); 0 video(s) confirm, 1 contradict; consensus 0.50 -> pending (evidence not yet strong enough)"
+    },
+    "9:T6:flat_out": {
+      "id": "9:T6:flat_out",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner and short distance to next corner suggest a fast, flat-out corner.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.246,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.098,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.246
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": [
+            {
+              "video_id": "eOa0jyihzRE",
+              "result": "contradict",
+              "time": "1:51",
+              "note": "braking: break when on dirt, 50% easing off; line: follow repave part out to outside curb; exit: apply throttle, ease in; mistakes: using too much throttle",
+              "transcript_snippet": "in and we want to follow the repave part out to the outside curb and now it's all about balance through 7 8 and 9 and",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=eOa0jyihzRE"
+            },
+            {
+              "video_id": "KCIALBLc9GA",
+              "result": "contradict",
+              "time": "1:26",
+              "note": "braking: 40% brake pressure, break at debris, ease off until top of corner; line: follow repaved part of track; exit: start to accelerate at top of corner, follow to mid track",
+              "transcript_snippet": "track around this corner. Once we start to leave the curb, we want to pick up the throttle again. And then we want to",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=KCIALBLc9GA"
+            }
+          ]
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 2,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T6: research 0.75 from 1 source(s); 0 video(s) confirm, 2 contradict; consensus 0.25 -> rejected (evidence contradicts the claim)"
+    },
+    "9:T7:flat_out": {
+      "id": "9:T7:flat_out",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner and short distance to next corner suggest a fast, flat-out corner.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.429,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "evidence not yet strong enough",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.429
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Summit Point Raceway - Short",
+            "source_track_id": 24,
+            "corner": "T6",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T7: research 0.75 from 1 source(s); consensus 0.43 -> pending (evidence not yet strong enough)"
+    },
+    "9:T8:flat_out": {
+      "id": "9:T8:flat_out",
+      "track_id": 9,
+      "track": "Summit Point Raceway - Summit Point Raceway",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "flat_out",
+      "statement": "Taken flat, no braking",
+      "status": "pending",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner and short distance to next corner suggest a fast, flat-out corner.",
+          "at": "2026-10-28T09:08:50+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        }
+      ],
+      "created_at": "2026-10-28T00:59:11+00:00",
+      "reason": "no transcript, telemetry or variant evidence yet",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.75
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Taken flat, no braking at T8: research 0.75 from 1 source(s); consensus 0.75 -> pending (no transcript, telemetry or variant evidence yet)"
+    }
+  }
+}

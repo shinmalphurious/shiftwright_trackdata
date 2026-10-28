@@ -1,0 +1,221 @@
+{
+  "snapshot": "generated\\discovery_snapshots\\20261027-195832",
+  "before": {
+    "layouts": 421,
+    "layouts_with_guides": 404,
+    "unique_videos": 1977,
+    "candidates": 14687,
+    "candidates_recorded": false,
+    "unique_candidates": null,
+    "accepted": null,
+    "unique_accepted": null,
+    "selected": 3662,
+    "unique_selected": 1977
+  },
+  "after": {
+    "layouts": 421,
+    "layouts_with_guides": 411,
+    "unique_videos": 8685,
+    "candidates": 14451,
+    "candidates_recorded": true,
+    "unique_candidates": 8685,
+    "accepted": 6104,
+    "unique_accepted": 3432,
+    "selected": 3754,
+    "unique_selected": 2008
+  },
+  "delta": {
+    "new_unique_videos": 6695,
+    "new_unique_accepted": 1451,
+    "new_layout_candidates": 10789,
+    "new_layout_accepted": 2442,
+    "new_selected": 92,
+    "new_selected_new_videos": 56,
+    "new_selected_known_videos": 36,
+    "alias_candidates": 224,
+    "alias_accepted": 172,
+    "alias_selected": 13,
+    "alias_unique_videos": 62,
+    "repair_candidates": 1276,
+    "repair_accepted": 383,
+    "repair_selected": 22,
+    "repair_unique_videos": 645
+  },
+  "validation": {
+    "broken_files": [],
+    "catalog_problems": [],
+    "duplicate_in_selection": [],
+    "duplicate_in_queue": [],
+    "lost_selections": [],
+    "manifest_mismatch": [],
+    "unlinked_transcripts": [],
+    "lost_queue_items": [],
+    "leftover_tmp_files": []
+  },
+  "kept_despite_rejection": [
+    "BUiKLrWxRX0",
+    "EbRZp_skzH4",
+    "I2LAudHZLGc",
+    "J7EvmpH-6yk",
+    "P64Nu6pctD8",
+    "SaPZF_7NDp4",
+    "Sai0zGNDWH4",
+    "bxpSErGYeVk",
+    "irQBDXlaEh8",
+    "jseyAbKcExw",
+    "of1Xd6WL2uU",
+    "ukTjyJX8WWY",
+    "v_QgwXbDlcI"
+  ],
+  "focus": [
+    {
+      "track_id": 212,
+      "name": "Autódromo José Carlos Pace - Grand Prix",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 66,
+      "accepted_after": 57,
+      "selected_after": 10,
+      "queries": "7/12",
+      "rejection_reasons": {
+        "duplicate title": 8,
+        "no guide words in title": 1
+      }
+    },
+    {
+      "track_id": 213,
+      "name": "Autódromo José Carlos Pace - Moto",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 76,
+      "accepted_after": 59,
+      "selected_after": 10,
+      "queries": "7/12",
+      "rejection_reasons": {
+        "no guide words in title": 10,
+        "duplicate title": 4,
+        "too long": 2,
+        "venue not in title": 1
+      }
+    },
+    {
+      "track_id": 572,
+      "name": "Autódromo Hermanos Rodríguez - Grand Prix",
+      "candidates_before": 20,
+      "selected_before": 10,
+      "candidates_after": 47,
+      "accepted_after": 35,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "no guide words in title": 6,
+        "venue not in title": 3,
+        "too short": 1,
+        "duplicate title": 1,
+        "too long": 1
+      }
+    },
+    {
+      "track_id": 573,
+      "name": "Autódromo Hermanos Rodríguez - Grand Prix Historic",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 55,
+      "accepted_after": 36,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "no guide words in title": 7,
+        "venue not in title": 6,
+        "too short": 3,
+        "too long": 2,
+        "duplicate title": 1
+      }
+    },
+    {
+      "track_id": 574,
+      "name": "Autódromo Hermanos Rodríguez - National",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 59,
+      "accepted_after": 36,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "venue not in title": 11,
+        "no guide words in title": 7,
+        "too long": 2,
+        "too short": 2,
+        "duplicate title": 1
+      }
+    },
+    {
+      "track_id": 575,
+      "name": "Autódromo Hermanos Rodríguez - National Historic",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 51,
+      "accepted_after": 36,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "no guide words in title": 5,
+        "venue not in title": 5,
+        "too long": 2,
+        "too short": 2,
+        "duplicate title": 1
+      }
+    },
+    {
+      "track_id": 576,
+      "name": "Autódromo Hermanos Rodríguez - EV Circuit",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 45,
+      "accepted_after": 35,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "no guide words in title": 4,
+        "venue not in title": 3,
+        "duplicate title": 1,
+        "too short": 1,
+        "too long": 1
+      }
+    },
+    {
+      "track_id": 577,
+      "name": "Autódromo Hermanos Rodríguez - Oval",
+      "candidates_before": 1,
+      "selected_before": 1,
+      "candidates_after": 63,
+      "accepted_after": 35,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "venue not in title": 15,
+        "no guide words in title": 7,
+        "too short": 3,
+        "too long": 2,
+        "duplicate title": 1
+      }
+    },
+    {
+      "track_id": 578,
+      "name": "Autódromo Hermanos Rodríguez - Oval Stadium",
+      "candidates_before": 0,
+      "selected_before": 0,
+      "candidates_after": 44,
+      "accepted_after": 35,
+      "selected_after": 10,
+      "queries": "6/11",
+      "rejection_reasons": {
+        "no guide words in title": 4,
+        "venue not in title": 2,
+        "duplicate title": 1,
+        "too short": 1,
+        "too long": 1
+      }
+    }
+  ]
+}

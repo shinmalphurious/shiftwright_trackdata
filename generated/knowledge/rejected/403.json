@@ -1,0 +1,79 @@
+{
+  "track_id": 403,
+  "track": "Red Bull Ring - Grand Prix",
+  "records": {
+    "403:T2:heavy_braking": {
+      "id": "403:T2:heavy_braking",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "685 m from the previous corner",
+          "at": "2026-10-28T09:50:09+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance from previous corner, likely high-speed entry.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.029,
+          "status": "rejected"
+        },
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.07,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "telemetry contradicts the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.02,
+        "variants": null,
+        "consensus": 0.07
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "contradict",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.008,
+            "speed_drop": 0.02,
+            "min_speed_share": 0.949,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.035,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "contradict",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.75 from 2 source(s); telemetry contradicts over 10 lap(s); consensus 0.07 -> rejected (telemetry contradicts the claim)"
+    }
+  }
+}

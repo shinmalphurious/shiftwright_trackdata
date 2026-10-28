@@ -1,0 +1,346 @@
+{
+  "video_id": "iNsvNLC3NCY",
+  "track_id": 115,
+  "track_name": "Darlington Raceway",
+  "title": "Darlington I iRacing Pro Track Guide by TCSP I NASCAR O'Reilly Series",
+  "car": "NASCAR",
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Full lift right before turn-in",
+      "line": "Stay on throttle through compression zone",
+      "exit": "Ramp up throttle on exit",
+      "mistakes": "Getting too free in the compression zone",
+      "note_id": "iNsvNLC3NCY:0",
+      "text": "braking: Full lift right before turn-in; line: Stay on throttle through compression zone; exit: Ramp up throttle on exit; mistakes: Getting too free in the compression zone",
+      "spoken_as": "turn one",
+      "passage_time": "3:30",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:13",
+      "snippet": "Full lift right here. Getting into that compression zone. And then let's go to lap three.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift at third red before Cookout logo",
+      "mistakes": "overdrive compression zone, lift at Cookout logo",
+      "note_id": "iNsvNLC3NCY:1",
+      "text": "braking: lift at third red before Cookout logo; mistakes: overdrive compression zone, lift at Cookout logo",
+      "spoken_as": "turn one",
+      "passage_time": "4:50",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:00",
+      "snippet": "lift the third red leading into it. The third red before we get to the cookout logo in the turn one.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift earlier to manage car balance",
+      "exit": "get in compression zone correctly",
+      "mistakes": "overspeeding, getting free on entry",
+      "note_id": "iNsvNLC3NCY:2",
+      "text": "braking: lift earlier to manage car balance; exit: get in compression zone correctly; mistakes: overspeeding, getting free on entry",
+      "spoken_as": "this point",
+      "passage_time": "6:09",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 1.0
+        }
+      },
+      "time": "7:24",
+      "snippet": "in this compression zone correctly. So, we're slowing this up. You can see once I get to this exact compression zone now"
+    },
+    {
+      "line": "turn-in on seam, apex on seam, line through corner maintaining balance",
+      "exit": "throttle ramp up through compression zone, aim for center of turn one and two",
+      "mistakes": "don't hit splitter edge, avoid pushing fronts to wall too early",
+      "note_id": "iNsvNLC3NCY:3",
+      "text": "line: turn-in on seam, apex on seam, line through corner maintaining balance; exit: throttle ramp up through compression zone, aim for center of turn one and two; mistakes: don't hit splitter edge, avoid pushing fronts to wall too early",
+      "spoken_as": "turn one",
+      "passage_time": "7:28",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "mistakes": 0.8
+        }
+      },
+      "time": "8:07",
+      "snippet": "where I actually hit that splitter edge and push the fronts technically way to the wall too early.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "pivot away from the wall",
+      "mistakes": "stressing the tire out, carrying too much speed",
+      "note_id": "iNsvNLC3NCY:4",
+      "text": "line: pivot away from the wall; mistakes: stressing the tire out, carrying too much speed",
+      "spoken_as": "turn one",
+      "passage_time": "8:45",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:54",
+      "snippet": "and I'm going to carry too much speed well into the center portion of turns one and two. Okay. So",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "pivot away from the wall",
+      "mistakes": "being at the wall at full throttle",
+      "note_id": "iNsvNLC3NCY:5",
+      "text": "line: pivot away from the wall; mistakes: being at the wall at full throttle",
+      "spoken_as": "turn two",
+      "passage_time": "8:45",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:13",
+      "snippet": "I need to pivot away from this wall in one and two. Right? So doing that, let's look at this. I need",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "partial throttle",
+      "line": "turn away from the wall",
+      "exit": "partial throttle, may lift to pivot",
+      "mistakes": "sliding the fronts, not turning away from the wall",
+      "note_id": "iNsvNLC3NCY:6",
+      "text": "gear: partial throttle; line: turn away from the wall; exit: partial throttle, may lift to pivot; mistakes: sliding the fronts, not turning away from the wall",
+      "spoken_as": "the cookout sign",
+      "passage_time": "10:05",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:30",
+      "snippet": "stay partial throttle. I may have to lift here, right? I may have to lift here to get pivot away from the wall so"
+    },
+    {
+      "line": "Turn down the hill, straddle the seam splitter.",
+      "exit": "Maintain exit velocity, use micro adjustments of counter steering.",
+      "mistakes": "Modulating throttle too much, not crossing seams smoothly.",
+      "note_id": "iNsvNLC3NCY:7",
+      "text": "line: Turn down the hill, straddle the seam splitter.; exit: Maintain exit velocity, use micro adjustments of counter steering.; mistakes: Modulating throttle too much, not crossing seams smoothly.",
+      "spoken_as": "turn two",
+      "passage_time": "11:23",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:08",
+      "snippet": "much and use micro adjustments of counter steering crossing those seams. So I have enough of a wide arc at the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "throttle early, maintain speed",
+      "mistakes": "dive in too much",
+      "note_id": "iNsvNLC3NCY:8",
+      "text": "exit: throttle early, maintain speed; mistakes: dive in too much",
+      "spoken_as": "turn three",
+      "passage_time": "12:42",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:57",
+      "snippet": "that corner too much. Much like the truck last week, we have grip on the We have grip on the inside line, putting",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at the point where the wall opens up",
+      "line": "use extra radius to widen entry",
+      "mistakes": "overshooting entry speed",
+      "note_id": "iNsvNLC3NCY:9",
+      "text": "braking: brake at the point where the wall opens up; line: use extra radius to widen entry; mistakes: overshooting entry speed",
+      "spoken_as": "turn three",
+      "passage_time": "13:59",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:57",
+      "snippet": "wall opens up just a hair. So, my goal is to kind of use that extra extra radius as much as I can to widen that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Smooth braking, get left front on seam.",
+      "line": "Use references, turn in early, roll through.",
+      "exit": "Off brake early, back to throttle before Cookout logo.",
+      "mistakes": "Too much initial throttle can cause drift, lose control.",
+      "note_id": "iNsvNLC3NCY:10",
+      "text": "braking: Smooth braking, get left front on seam.; line: Use references, turn in early, roll through.; exit: Off brake early, back to throttle before Cookout logo.; mistakes: Too much initial throttle can cause drift, lose control.",
+      "spoken_as": "turn three",
+      "passage_time": "15:17",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8
+        }
+      },
+      "time": "15:36",
+      "snippet": "as I can. Getting a left front on the seam. And now I'm creating a lot of a rolling rolling zone. Right now that we",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "More braking. Same braking points a lot longer on like a 70 to 80% range of throttle.",
+      "line": "Manage less throttle in this whole phase. Wait longer to full throttle.",
+      "mistakes": "Rushing the process, picking up the throttle too early.",
+      "note_id": "iNsvNLC3NCY:11",
+      "text": "braking: More braking. Same braking points a lot longer on like a 70 to 80% range of throttle.; line: Manage less throttle in this whole phase. Wait longer to full throttle.; mistakes: Rushing the process, picking up the throttle too early.",
+      "spoken_as": "three and four",
+      "passage_time": "16:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:42",
+      "snippet": "a lot longer on like a a 70 to 80% range of throttle. Right? You can see this again. We'll show it in exterior"
+    },
+    {
+      "line": "turn-in to left throttle, cross seam",
+      "exit": "open wheel up as soon as possible",
+      "mistakes": "get free crossing seam, use full throttle too early",
+      "note_id": "iNsvNLC3NCY:12",
+      "text": "line: turn-in to left throttle, cross seam; exit: open wheel up as soon as possible; mistakes: get free crossing seam, use full throttle too early",
+      "spoken_as": "turn down",
+      "passage_time": "17:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:26",
+      "snippet": "committed to turn down, left throttle, and then boom, my right rear cross this seam. Whereas before, I could use all"
+    },
+    {
+      "braking": "Same breaking point, heavy peak pressure",
+      "line": "Get to the bottom a little earlier, straighter approach",
+      "exit": "Slow 80% throttle, 90% throttle, full throttle on exit",
+      "mistakes": "Balancing the car incorrectly on exit",
+      "note_id": "iNsvNLC3NCY:13",
+      "text": "braking: Same breaking point, heavy peak pressure; line: Get to the bottom a little earlier, straighter approach; exit: Slow 80% throttle, 90% throttle, full throttle on exit; mistakes: Balancing the car incorrectly on exit",
+      "spoken_as": "three",
+      "passage_time": "19:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "19:47",
+      "snippet": "80% throttle, 90% throttle, and then boom, I know I have the ability to get to full throttle because I"
+    },
+    {
+      "braking": "Brake before crossing yellow line, off brake by cone.",
+      "gear": "2nd gear before crossing yellow line",
+      "line": "Point before cone, delay angle entry, shape angle to racing line.",
+      "mistakes": "Slipping, locking left and right front wheels.",
+      "note_id": "iNsvNLC3NCY:14",
+      "text": "braking: Brake before crossing yellow line, off brake by cone.; gear: 2nd gear before crossing yellow line; line: Point before cone, delay angle entry, shape angle to racing line.; mistakes: Slipping, locking left and right front wheels.",
+      "spoken_as": "next braking marker",
+      "passage_time": "20:30",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "mistakes": 0.83
+        }
+      },
+      "time": "20:54",
+      "snippet": "cross into where this yellow line is. And it's key to make sure you're pointing before this cone, but also"
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "track_id": 195,
+  "track_name": "Mobility Resort Motegi - Grand Prix",
+  "videos": 3,
+  "corners": {
+    "T1": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Ferrari 296 GT3",
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "after 100 board, 50% brake pressure",
+          "videos": 2,
+          "cars": [
+            "Ferrari 296 GT3",
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd gear",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn-in left, ignore first apex, late apex",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "miss first apex, go wide, late apex",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "get back on gas early, exit wide",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "exit wide, 100% throttle",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 100 board with 50% pressure, turn left and miss first apex, go wide for late apex, exit wide and accelerate fully."
+    },
+    "T3": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Ferrari 296 GT3",
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "100 board, ahead of 70 board, 60% brake pressure",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break alongside the 100 board to 55%",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd gear",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "left tires over rumble strip",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "hold 95% throttle until second apex, clear to 100%",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "exit wide",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 100 board at 60% (Ferrari) or 55% (Porsche), use 2nd gear. Aim left tires over rumble strip. Exit wide, hold 95% throttle until second apex, then 100%."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "left tires over rumble strip",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "exit wide",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay left over rumble strip, exit wide."
+    },
+    "T5": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "Ferrari 296 GT3",
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Brake ahead of 100 board, 60-65%",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "break ahead of the 100 to 55%",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "50 m board, nearly 90%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 2,
+          "cars": [
+            "Ferrari 296 GT3",
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "wide entry, cut corner slightly",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "right tires over rumble strip",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Right tires over grass, curb",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Increase to 100%, exit wide",
+          "videos": 2,
+          "cars": [
+            "Ferrari 296 GT3",
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "full power",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 50m board, 90%. Take wide entry, cut corner slightly. Use 2nd gear. Exit wide, full power."
+    },
+    "T6": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "Ferrari 296 GT3",
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "Get on brakes, 50%",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Right tires over rumble strip, up against muddy bit",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "run over rumble strip, tight on mud",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Left tires over rumble strip",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "flat",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50% at T6, shift to 2nd. Run right tires over rumble strip, tight on mud, exit with left tires over rumble strip."
+    },
+    "T7": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "50 m board, 55%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4th",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "2/3 power, straighten wheel, full power, dab on brakes",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "braking too hard",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50m board at 55%, shift to 4th gear. Use 2/3 power on exit, straighten wheel, go full power, dab brakes if needed."
+    },
+    "T8": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "50 m board, 75%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full power",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "getting back on gas early",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 50m board to 75%, shift to 3rd gear, wait for full exit speed before applying power."
+    },
+    "T9": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "55% to second gear",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "50 board",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "down to third gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cutting the corner",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "start picking back up on the gas",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "getting on the gas",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "slippy on exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 50 board at 55%, downshift to 2nd gear, then 3rd. Cut the corner, be cautious of slip on exit. Start accelerating as you exit."
+    },
+    "T10": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "Ferrari 296 GT3",
+        "Porsche GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "brakes at 100 board, 50-55% to first gear",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "50-m board, braking hard",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "60% after the 100 board",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "down to second gear",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "first gear",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail it off lay apex",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "late apex",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "gradually easing on with the gas pedal",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "right tires over rumble strip",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "back on the gas",
+          "videos": 1,
+          "cars": [
+            "Porsche GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 100 board, 50-60% to first gear (Ferrari 296 GT3), downshift to second gear (Porsche GT3). Late apex for Ferrari, trail off for Porsche. Gas gradually, right tires over rumble strip (Ferrari), back on gas (Porsche)."
+    },
+    "T11": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Ferrari 296 GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brakes at 150 board, 60% to apex",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brake to 90%",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "change to 3rd",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "second gear",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "break early on left side",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "2/3 pressure at apex, up to 100% on exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "exit wide, right side, cut back in",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "inside line is slower",
+          "videos": 1,
+          "cars": [
+            "Ferrari 296 GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 90% at 150 board, change to 2nd gear. Take the outside line, brake early on left, apex in 3rd gear, exit wide on right, cut back in. Avoid inside line."
+    },
+    "T12": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "gear": [
+        {
+          "text": "up to 4th",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "flat through",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "straighten the wheel out",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay flat in 4th gear, straighten the wheel at the exit for the best line."
+    }
+  },
+  "unplaced_notes": 12
+}

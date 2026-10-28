@@ -1,0 +1,367 @@
+{
+  "video_id": "zCm3azyHWSs",
+  "track_id": 212,
+  "track_name": "Autódromo José Carlos Pace - Grand Prix",
+  "title": "iRacing GR86 Interlagos Guide 1:48.7 Toyota GR86 Autodromo Jose Carlos Pace Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "50 board, 80% brake, down to second",
+      "gear": "second",
+      "line": "cut the corner slightly",
+      "exit": "get straight back on the gas",
+      "note_id": "zCm3azyHWSs:0",
+      "text": "braking: 50 board, 80% brake, down to second; gear: second; line: cut the corner slightly; exit: get straight back on the gas",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:43",
+      "snippet": "corner slightly. Now, we get straight back on the gas. We can take turn two absolutely flat as we can through turn"
+    },
+    {
+      "braking": "80% brake, down to third",
+      "gear": "third",
+      "line": "cut the corner",
+      "exit": "exit nice and wide, flat out through turn five",
+      "note_id": "zCm3azyHWSs:1",
+      "text": "braking: 80% brake, down to third; gear: third; line: cut the corner; exit: exit nice and wide, flat out through turn five",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:07",
+      "snippet": "Down to third gear, cut the corner, back on the gas. Exit nice and wide. Now, we can cut back absolutely flat out through"
+    },
+    {
+      "braking": "brakes to about 40% short trail off",
+      "gear": "third",
+      "line": "cut that corner at the end",
+      "exit": "back on the gas",
+      "note_id": "zCm3azyHWSs:2",
+      "text": "braking: brakes to about 40% short trail off; gear: third; line: cut that corner at the end; exit: back on the gas",
+      "spoken_as": "marshals at number 10",
+      "passage_time": "1:16",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:22",
+      "snippet": "40% short trail off, back on the gas in third. Wanting to make sure that we're just cutting that corner at the end of"
+    },
+    {
+      "braking": "brakes to about 70-75% short trail off",
+      "gear": "second",
+      "line": "cut that corner",
+      "exit": "flat out",
+      "note_id": "zCm3azyHWSs:3",
+      "text": "braking: brakes to about 70-75% short trail off; gear: second; line: cut that corner; exit: flat out",
+      "spoken_as": "turn 11",
+      "passage_time": "1:16",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:42",
+      "snippet": "brakes up to about 70-75% short trail off again, down second gear, back on the gas. We can take turn 11",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes to about 65-70%",
+      "gear": "second",
+      "exit": "back on the gas",
+      "mistakes": "braking any harder than 75%, maybe 80%",
+      "note_id": "zCm3azyHWSs:4",
+      "text": "braking: brakes to about 65-70%; gear: second; exit: back on the gas; mistakes: braking any harder than 75%, maybe 80%",
+      "spoken_as": "halfway along this paved section",
+      "passage_time": "1:16",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.93,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:58",
+      "snippet": "about 65-70% down second gear, back on the gas. If you are braking any harder than sort of 75%, maybe 80% in turn one",
+      "best_candidate": {
+        "corner_id": "T14",
+        "confidence": 0.256,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T11",
+        "before": "start/finish",
+        "estimated_pct": 0.8182,
+        "corner_pct": 0.8428,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T11",
+        "before": "start/finish",
+        "corners_between": [
+          "T12",
+          "T13",
+          "T14",
+          "T15"
+        ]
+      }
+    },
+    {
+      "braking": "Brake after 50 board, 80-85% pressure",
+      "gear": "2nd",
+      "line": "Turn left, use left kerb",
+      "exit": "Flat out, cut turn two",
+      "note_id": "zCm3azyHWSs:5",
+      "text": "braking: Brake after 50 board, 80-85% pressure; gear: 2nd; line: Turn left, use left kerb; exit: Flat out, cut turn two",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:34",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.8
+        }
+      },
+      "time": "3:01",
+      "snippet": "And we want to really cut turn two. So, we're just keeping our left-hand tires on the track, right-hand tires almost in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Reverse of turn two",
+      "exit": "Use right side of track",
+      "mistakes": "Not cutting the track",
+      "note_id": "zCm3azyHWSs:6",
+      "text": "line: Reverse of turn two; exit: Use right side of track; mistakes: Not cutting the track",
+      "spoken_as": "turn three",
+      "passage_time": "2:34",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:01",
+      "snippet": "And we want to really cut turn two. So, we're just keeping our left-hand tires on the track, right-hand tires almost in",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake after 100 board, 80% pressure",
+      "gear": "3rd",
+      "line": "Cut the corner",
+      "exit": "Full throttle, left tires on track",
+      "mistakes": "Not cutting the track",
+      "note_id": "zCm3azyHWSs:7",
+      "text": "braking: Brake after 100 board, 80% pressure; gear: 3rd; line: Cut the corner; exit: Full throttle, left tires on track; mistakes: Not cutting the track",
+      "spoken_as": "turn four",
+      "passage_time": "2:34",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "exit": 0.6
+        }
+      },
+      "time": "3:03",
+      "snippet": "we're just keeping our left-hand tires on the track, right-hand tires almost in the grass here.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "cut the corner without hitting the grass on exit, flat",
+      "mistakes": "hitting the grass on exit",
+      "note_id": "zCm3azyHWSs:8",
+      "text": "braking: cut the corner without hitting the grass on exit, flat; mistakes: hitting the grass on exit",
+      "spoken_as": "turn five",
+      "passage_time": "3:52",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {
+        "after": "T4",
+        "before": "T6",
+        "corners_between": [
+          "T5"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:54",
+      "snippet": "without hitting the grass on exit and do it flat. For turn six, what we're waiting for is",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "brake up to 35-40%, shortest trail off, drop to third",
+      "gear": "third",
+      "line": "cut the corner, left-hand tires just on track",
+      "exit": "get back on gas alongside right-hand curbing",
+      "note_id": "zCm3azyHWSs:9",
+      "text": "braking: brake up to 35-40%, shortest trail off, drop to third; gear: third; line: cut the corner, left-hand tires just on track; exit: get back on gas alongside right-hand curbing",
+      "spoken_as": "turn six",
+      "passage_time": "3:52",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:16",
+      "snippet": "Shortest trail off, we drop it down to third. I then start getting back on the gas once I'm",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake for rumble strip",
+      "line": "cut rumble strip",
+      "note_id": "zCm3azyHWSs:10",
+      "text": "braking: brake for rumble strip; line: cut rumble strip",
+      "spoken_as": "turn seven",
+      "passage_time": "3:52",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:33",
+      "snippet": "that rumble strip at turn seven. Now, on the left-hand side, you can see Portuguese.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 78%, trail off, cut corner",
+      "line": "left-hand tires just on track",
+      "exit": "start picking up gas at apex",
+      "mistakes": "not keeping left-hand tires on track",
+      "note_id": "zCm3azyHWSs:11",
+      "text": "braking: brake to 78%, trail off, cut corner; line: left-hand tires just on track; exit: start picking up gas at apex; mistakes: not keeping left-hand tires on track",
+      "spoken_as": "turn eight",
+      "passage_time": "3:52",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:58",
+      "snippet": "corner, just keeping the left-hand tires on the track. I'm then going to start picking back up on the gas at the apex.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at tree marker, 70-75%",
+      "line": "cut corner, left tires on track",
+      "exit": "progressive throttle, wide exit",
+      "mistakes": "driving into tree",
+      "note_id": "zCm3azyHWSs:12",
+      "text": "braking: brake at tree marker, 70-75%; line: cut corner, left tires on track; exit: progressive throttle, wide exit; mistakes: driving into tree",
+      "spoken_as": "turn 10",
+      "passage_time": "5:08",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "line": 0.8
+        }
+      },
+      "time": "5:38",
+      "snippet": "straight up to sort of 70-75% and then straight back down, cutting this corner again. Only my left-hand",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake halfway along right-hand side, 65%",
+      "gear": "drop to 3rd, then 2nd",
+      "line": "early apex",
+      "exit": "hug left side, run over curb",
+      "note_id": "zCm3azyHWSs:13",
+      "text": "braking: brake halfway along right-hand side, 65%; gear: drop to 3rd, then 2nd; line: early apex; exit: hug left side, run over curb",
+      "spoken_as": "turn 11",
+      "passage_time": "5:08",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86,
+          "gear": 0.6
+        }
+      },
+      "time": "6:04",
+      "snippet": "here. I'm going to brake halfway along this paved section on the right-hand side."
+    }
+  ]
+}

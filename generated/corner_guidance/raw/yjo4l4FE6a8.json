@@ -1,0 +1,75 @@
+{
+  "video_id": "yjo4l4FE6a8",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "iRacing NASCAR A Class Weekly Track Guide - Indianapolis Motor Speedway 2025",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:29:09.315553+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:06",
+      "sequence": 0,
+      "braking": "Early lift into turn one",
+      "gear": "Fourth to fifth",
+      "line": "Turn in a little earlier",
+      "exit": "Get left sides below white line",
+      "mistakes": "Plow on exit, hit the wall"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:23",
+      "sequence": 1,
+      "braking": "hit the bottom, get down, left front against the concrete",
+      "gear": "downshift",
+      "line": "turn-in a little earlier",
+      "exit": "focus on the exit",
+      "mistakes": "killed the lap, slip the rears"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "1:23",
+      "sequence": 1,
+      "gear": "fourth gear",
+      "line": "feed the throttle slow, build momentum",
+      "exit": "not slip the rears",
+      "mistakes": "slip the rears"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:23",
+      "sequence": 1,
+      "exit": "focus on the exit"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:41",
+      "sequence": 2,
+      "braking": "tip early",
+      "line": "hit apex",
+      "exit": "throttle up",
+      "mistakes": "driving into turn two"
+    }
+  ],
+  "general_tips": [
+    "Stay away from the wall to reduce drag",
+    "Keep air off the spoiler",
+    "turn two and turn four are way more important because they're setting you up onto these long straightaways",
+    "carry fourth gear into turn two",
+    "stay in fifth gear is a little better for saving the tires, managing the power, and carrying momentum",
+    "be precise, smooth, consistent",
+    "not ask too much out of the car",
+    "be smart on restarts",
+    "get and maintain track position"
+  ],
+  "dropped_ungrounded": 2
+}

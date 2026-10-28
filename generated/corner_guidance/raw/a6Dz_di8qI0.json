@@ -1,0 +1,144 @@
+{
+  "video_id": "a6Dz_di8qI0",
+  "track_id": 523,
+  "track_name": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+  "title": "iRacing F4 Spa Grand Prix - 2:21.735 (Fixed Setup) - Spa Grand Prix F4 Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:30:36.724842+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "La Source",
+      "start_time": "0:00",
+      "sequence": 0,
+      "label_guess": "T1",
+      "braking": "Max braking before 100m board",
+      "line": "Straight line",
+      "exit": "Smooth exit",
+      "mistakes": "Too much curbing"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Eau Rouge",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Flat out",
+      "exit": "Smooth exit",
+      "mistakes": "Too much curbing"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Raidillon",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Flat out",
+      "exit": "Smooth exit",
+      "mistakes": "Too much curbing"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "Before 50 board, brake, trail brake, leave in 4th gear",
+      "gear": "4th",
+      "line": "Flat",
+      "exit": "Exit wide, look for 50 meter, down to 3rd gear"
+    },
+    {
+      "label": null,
+      "spoken_as": "curve Paul Frere",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T8",
+      "gear": "4th",
+      "line": "Flat",
+      "exit": "Flat to bus stop chicane"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "T1",
+      "start_time": "2:40",
+      "sequence": 2,
+      "braking": "Brake at the marshal's position on left, 90% pressure.",
+      "gear": "2nd",
+      "exit": "Take some curb on exit, same on right."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 2",
+      "start_time": "4:01",
+      "sequence": 3,
+      "label_guess": "T2",
+      "braking": "Brake at 50 marker, 70% pressure, trail off in third gear.",
+      "gear": "3",
+      "line": "Turn-in on left curb, apex mid-corner, long trail off.",
+      "exit": "Build power gradually to 100% at exit."
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn 7",
+      "start_time": "4:01",
+      "sequence": 3,
+      "line": "Flat corner.",
+      "exit": "Flat exit."
+    },
+    {
+      "label": null,
+      "spoken_as": "the big one",
+      "start_time": "5:19",
+      "sequence": 4,
+      "label_guess": "T8",
+      "braking": "50 m marker board, 35% brake, drop to fifth",
+      "gear": "fourth",
+      "line": "curbing, lift to 10-15%, build to 50-60% at apex",
+      "exit": "wide exit, sixth gear",
+      "mistakes": "everyone gets wrong"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "5:19",
+      "sequence": 4,
+      "braking": "curbing starts, 70%",
+      "gear": "fourth"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "turn 13",
+      "start_time": "5:19",
+      "sequence": 4,
+      "braking": "tiny lift",
+      "exit": "smoothly back on"
+    },
+    {
+      "label": "T14",
+      "spoken_as": "turn 14",
+      "start_time": "5:19",
+      "sequence": 4,
+      "braking": "before curb, brake onto curb",
+      "line": "curb to open corner",
+      "exit": "100% at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "that Mhm",
+      "start_time": "6:40",
+      "sequence": 5,
+      "gear": "flat",
+      "line": "flat"
+    }
+  ],
+  "general_tips": [
+    "Trail brake into La Source",
+    "Use curbing but not too much",
+    "Flat through Eau Rouge and Raidillon",
+    "Smooth exit onto Kemmel Straight",
+    "Look at that trail brake, people."
+  ],
+  "dropped_ungrounded": 3
+}

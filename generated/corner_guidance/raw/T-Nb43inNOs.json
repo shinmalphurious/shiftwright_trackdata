@@ -1,0 +1,157 @@
+{
+  "video_id": "T-Nb43inNOs",
+  "track_id": 225,
+  "track_name": "Auto Club Speedway - Oval",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Auto Club Speedway",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:00:20.675636+00:00",
+  "passages": 12,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "be patient on throttle, maintain lower line",
+      "mistakes": "being committed, tight into it"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "mistakes": "being committed"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:20",
+      "sequence": 1,
+      "braking": "Stay off rolling in, not too much throttle initially.",
+      "line": "Keep the front end pointing into the second, hold the weight line.",
+      "exit": "Keep pointing down to the weight line, hold the weight line.",
+      "mistakes": "Don't hit the weight line and come instantly off of it."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:20",
+      "sequence": 1,
+      "line": "Stay on that weight line, keep the car stable.",
+      "exit": "Keep 100% throttle, open the wheel up gradually."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "three",
+      "start_time": "2:41",
+      "sequence": 2,
+      "gear": "3",
+      "exit": "keep 100% throttle, open wheel gradually",
+      "mistakes": "micro adjustments in wheel"
+    },
+    {
+      "label": null,
+      "spoken_as": "four",
+      "start_time": "2:41",
+      "sequence": 2,
+      "label_guess": "T4",
+      "gear": "4",
+      "exit": "roll through"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "the corner",
+      "start_time": "3:59",
+      "sequence": 3,
+      "braking": "Cross patches, slow lift off throttle to 50%, then lift completely",
+      "line": "Hit patches in the center, arch to corner",
+      "mistakes": "Taking too much entry speed away, not committing to corner entry"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "one",
+      "start_time": "6:36",
+      "sequence": 5,
+      "braking": "straddle scene, partial throttle",
+      "line": "wrap left front on top of scene near wall",
+      "exit": "maintain mid speed, partial throttle",
+      "mistakes": "overshot entry speed, got slideways"
+    },
+    {
+      "label": null,
+      "spoken_as": "two",
+      "start_time": "6:36",
+      "sequence": 5,
+      "label_guess": "T2",
+      "braking": "straddle scene, partial throttle",
+      "line": "wrap left front on top of scene near wall",
+      "exit": "maintain mid speed, partial throttle",
+      "mistakes": "overshot entry speed, got slideways"
+    },
+    {
+      "label": null,
+      "spoken_as": "three",
+      "start_time": "9:14",
+      "sequence": 7,
+      "label_guess": "T3",
+      "mistakes": "Over speeding entry, turning late, lifting late"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "10:34",
+      "sequence": 8,
+      "braking": "turn before the two sign on the wall",
+      "line": "turn before the two sign on the wall, cross seams off throttle",
+      "exit": "use maintenance throttle, cross white line, wrap past center"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "13:09",
+      "sequence": 10,
+      "braking": "limited breaking, smooth entry",
+      "line": "cross the bank and down to the apron",
+      "exit": "least amount of resistance to the front",
+      "mistakes": "don't exit in the racing line, don't bounce the car, don't carry too much speed"
+    }
+  ],
+  "general_tips": [
+    "absorb bumps with springs",
+    "wide exit on four and a half",
+    "can shortcut exit four",
+    "Try not to steer too much wheel and foot to the left or right when crossing the seat.",
+    "Make sure you got the park in line.",
+    "try to build a run and stay out of dirty air",
+    "move up to second, third, fourth, fifth lane or the wall",
+    "Slow lift off the throttle to get front grip back",
+    "Watch out for burning the right front tire",
+    "Pace yourself on the track",
+    "Move up to the top side of one and two",
+    "Straddle the scene partial throttle",
+    "Keep wrapping the left front on top of the scene near the wall",
+    "Maintain mid speed, partial throttle",
+    "Avoid getting too close to the wall",
+    "Drive right up against the seam for a little bit of room",
+    "Lower entry here.",
+    "Straight line braking into pit road.",
+    "Aggressive pedal entry can gain time.",
+    "Cross from bank to apron for straight line entry.",
+    "Car is compliant over bumps",
+    "Avoid overshooting entry speed",
+    "Maintain momentum through corners.",
+    "Ensure car balance for efficiency.",
+    "Avoid overshooting and underdriving.",
+    "Manage main speed correctly.",
+    "Be patient and let car work through bumps.",
+    "Stay on the bottom line.",
+    "be mindful of wind variants",
+    "don't compromise other drivers",
+    "Avoid excessive wheel angle to prevent front tire slip.",
+    "Track has bumps and high speeds, making it challenging."
+  ],
+  "dropped_ungrounded": 5
+}

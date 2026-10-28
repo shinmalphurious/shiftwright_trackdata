@@ -1,0 +1,82 @@
+{
+  "video_id": "0cGougubTm0",
+  "track_id": 181,
+  "track_name": "Oulton Park Circuit - Fosters",
+  "title": "Track Guide Oulton Park Fosters BMW M2 Rookie Fixed iRacing",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:34:08.259003+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "the banner here on the left",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake at the banner, 50% pressure, trail brake to inside curb",
+      "line": "Take all of the inside curb",
+      "exit": "Accelerate naturally to outside curbing",
+      "mistakes": "Going over outside curb can slow the car"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "Turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "Flat out"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "Turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Lift off at dip, hold a few% brake pressure",
+      "line": "Take all of the inside curb",
+      "exit": "Come out at most at the middle of the track"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "Turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "70% brake pressure, trail brake to inside curb",
+      "line": "Take inside curb, avoid anti-cut",
+      "exit": "Ease in throttle, avoid outside curb",
+      "mistakes": "Hitting anti-cut can un-silt the car, touching outside curb causes wheel spin"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Brake at the tree, 50% pressure, ease off until first curb",
+      "line": "Get close to both curbs, double apex",
+      "exit": "Slowly accelerate after first curb, full throttle on hitting second curb",
+      "mistakes": "Steer off second curb if accelerating too hard"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn 9",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "Break after track dip, 70% pressure, ease off until emergency road",
+      "exit": "Ease in throttle after emergency road, use curbing for exit speed",
+      "mistakes": "Run off road if accelerating too hard, avoid grass"
+    },
+    {
+      "label": null,
+      "spoken_as": "10",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T10",
+      "line": "Get close to inside wall",
+      "exit": "Race to start finish line"
+    }
+  ],
+  "general_tips": [
+    "Be as smooth as possible and shorten the distance where we can"
+  ],
+  "dropped_ungrounded": 0
+}

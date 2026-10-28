@@ -1,0 +1,474 @@
+{
+  "video_id": "fWk5qSjDhkc",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing Circuit Guide: GR86 - Oulton Park - International",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake at start of jordanbikes.com advertising board",
+      "gear": "downshift to 3rd",
+      "line": "use all track on entry",
+      "mistakes": "don't use white line as edge of track",
+      "note_id": "fWk5qSjDhkc:0",
+      "text": "braking: brake at start of jordanbikes.com advertising board; gear: downshift to 3rd; line: use all track on entry; mistakes: don't use white line as edge of track",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:57",
+      "snippet": "Uh obviously make sure that you use all the track on the edge here. Just remember that the white line",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Downshift to third gear, use all the road on the outside.",
+      "gear": "Third",
+      "line": "Turn in late, use all the apex curve available.",
+      "exit": "Full throttle by the time you're in line with the green and white striped fence, run wide on exit.",
+      "mistakes": "Using too much of the grated section on exit can bog the car down.",
+      "note_id": "fWk5qSjDhkc:1",
+      "text": "braking: Downshift to third gear, use all the road on the outside.; gear: Third; line: Turn in late, use all the apex curve available.; exit: Full throttle by the time you're in line with the green and white striped fence, run wide on exit.; mistakes: Using too much of the grated section on exit can bog the car down.",
+      "spoken_as": "T1",
+      "passage_time": "1:18",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 0.71
+        }
+      },
+      "time": "1:36",
+      "snippet": "downshift to third, and then picking up the throttle here. So, you can see I'm already",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake after crest, as soon as crest finishes.",
+      "gear": "4 to 3",
+      "mistakes": "Don't brake over the crest.",
+      "note_id": "fWk5qSjDhkc:2",
+      "text": "braking: Brake after crest, as soon as crest finishes.; gear: 4 to 3; mistakes: Don't brake over the crest.",
+      "spoken_as": "next corner",
+      "passage_time": "2:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:34",
+      "snippet": "Uh you want to break after the crest down here. So, just as soon as you get over the crest, boom, then you hit the"
+    },
+    {
+      "braking": "Brake just after the crest to third gear.",
+      "gear": "3",
+      "line": "Apex where the curve changes.",
+      "exit": "Start throttle pickup before apex, full throttle just before apex.",
+      "mistakes": "Avoid spending too long on the bumpy parts.",
+      "note_id": "fWk5qSjDhkc:3",
+      "text": "braking: Brake just after the crest to third gear.; gear: 3; line: Apex where the curve changes.; exit: Start throttle pickup before apex, full throttle just before apex.; mistakes: Avoid spending too long on the bumpy parts.",
+      "spoken_as": "this corner",
+      "passage_time": "3:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:07",
+      "snippet": "So, braking just after the crest um down to third gear. And then your apex point is nice it's"
+    },
+    {
+      "braking": "brake shape similar to turn one",
+      "gear": "same downshift point as turn one",
+      "line": "same on-off throttle technique as turn one",
+      "note_id": "fWk5qSjDhkc:4",
+      "text": "braking: brake shape similar to turn one; gear: same downshift point as turn one; line: same on-off throttle technique as turn one",
+      "spoken_as": "second proper corner",
+      "passage_time": "5:11",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:25",
+      "snippet": "brake shape for turn one, brake shape for turn two, or turn three, whatever it's called."
+    },
+    {
+      "braking": "lift at the start",
+      "note_id": "fWk5qSjDhkc:5",
+      "text": "braking: lift at the start",
+      "spoken_as": "third proper corner",
+      "passage_time": "5:11",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:25",
+      "snippet": "something. This one's just a lift. Uh lifting point is at the start of this uh road over here. I forget what this uh",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "4th",
+      "line": "smooth lift and smooth steering input",
+      "exit": "full throttle at the end of apex curb",
+      "mistakes": "overload the front wheels, scrub the front wheels, push understeer, no grip for the hairpin",
+      "note_id": "fWk5qSjDhkc:6",
+      "text": "gear: 4th; line: smooth lift and smooth steering input; exit: full throttle at the end of apex curb; mistakes: overload the front wheels, scrub the front wheels, push understeer, no grip for the hairpin",
+      "spoken_as": "turn four or something",
+      "passage_time": "6:30",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:56",
+      "snippet": "to overload the front wheels. As soon as you start to scrub the front wheels through here, you'll just get",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "Smooth throttle application to avoid overheating tires.",
+      "mistakes": "Over scrubbing the front tires, understeering.",
+      "note_id": "fWk5qSjDhkc:7",
+      "text": "exit: Smooth throttle application to avoid overheating tires.; mistakes: Over scrubbing the front tires, understeering.",
+      "spoken_as": "the hairpin",
+      "passage_time": "7:48",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.33,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.78
+      }
+    },
+    {
+      "braking": "end of tire bundle, straight steering, then brake",
+      "mistakes": "do not turn in early, avoid ABS",
+      "note_id": "fWk5qSjDhkc:8",
+      "text": "braking: end of tire bundle, straight steering, then brake; mistakes: do not turn in early, avoid ABS",
+      "spoken_as": "the hairpin",
+      "passage_time": "9:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "9:24",
+      "snippet": "um my braking reference is the end of this tire bundle. Um"
+    },
+    {
+      "braking": "brake early, use all road on the outside",
+      "gear": "2",
+      "line": "turn in early, middle apex",
+      "exit": "throttle input, follow banking",
+      "mistakes": "don't use late apex, don't cut back",
+      "note_id": "fWk5qSjDhkc:9",
+      "text": "braking: brake early, use all road on the outside; gear: 2; line: turn in early, middle apex; exit: throttle input, follow banking; mistakes: don't use late apex, don't cut back",
+      "spoken_as": "slow-speed corner",
+      "passage_time": "10:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "line": 1.0,
+          "mistakes": 0.67
+        }
+      },
+      "time": "10:36",
+      "snippet": "Um so, use all the road on the outside. This is Normally, for a hairpin like this, you would come out wide and then"
+    },
+    {
+      "braking": "88% at peak, trail off",
+      "line": "middle apex",
+      "exit": "commit to throttle input",
+      "mistakes": "late apex, hitting barriers",
+      "note_id": "fWk5qSjDhkc:10",
+      "text": "braking: 88% at peak, trail off; line: middle apex; exit: commit to throttle input; mistakes: late apex, hitting barriers",
+      "spoken_as": "Old Hall Corner",
+      "passage_time": "11:42",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "exit": 1.0
+        }
+      },
+      "time": "11:58",
+      "snippet": "It's like 88% at the peak. Um, you know, boom, hit the peak and then trailing",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at second angle in tire wall, keep steering straight.",
+      "gear": "2nd",
+      "line": "Straighten steering wheel as you brake.",
+      "mistakes": "Following the curve of the road when braking.",
+      "note_id": "fWk5qSjDhkc:11",
+      "text": "braking: Brake at second angle in tire wall, keep steering straight.; gear: 2nd; line: Straighten steering wheel as you brake.; mistakes: Following the curve of the road when braking.",
+      "spoken_as": "this one",
+      "passage_time": "12:59",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:04",
+      "snippet": "steering wheel straight as you brake. Steering wheel straight. Don't sort of get tied into following the curve of the"
+    },
+    {
+      "braking": "Brake to the left curb without hitting the tire barrier.",
+      "gear": "Second gear",
+      "line": "Take as much curb as possible, then change direction.",
+      "mistakes": "Avoid hitting the tire barrier on the right side.",
+      "note_id": "fWk5qSjDhkc:12",
+      "text": "braking: Brake to the left curb without hitting the tire barrier.; gear: Second gear; line: Take as much curb as possible, then change direction.; mistakes: Avoid hitting the tire barrier on the right side.",
+      "spoken_as": "first chicane",
+      "passage_time": "14:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:39",
+      "snippet": "of this curb as you can without hitting tire barrier, obviously, to set up the second part of the chicane. As soon as"
+    },
+    {
+      "braking": "Half a meter off the inside curve, brake early",
+      "line": "Turn-in early, aim for second apex",
+      "exit": "Throttle at second apex",
+      "mistakes": "Aiming for hard-to-see references",
+      "note_id": "fWk5qSjDhkc:13",
+      "text": "braking: Half a meter off the inside curve, brake early; line: Turn-in early, aim for second apex; exit: Throttle at second apex; mistakes: Aiming for hard-to-see references",
+      "spoken_as": "next braking marker",
+      "passage_time": "15:35",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "mistakes": 0.75
+        }
+      },
+      "time": "15:51",
+      "snippet": "car to be about half a meter away from the inside curve here. And I and I know that that's a good"
+    },
+    {
+      "gear": "2nd gear",
+      "exit": "full throttle on second apex",
+      "mistakes": "touch grass lightly, avoid off-track",
+      "note_id": "fWk5qSjDhkc:14",
+      "text": "gear: 2nd gear; exit: full throttle on second apex; mistakes: touch grass lightly, avoid off-track",
+      "spoken_as": "first chicane",
+      "passage_time": "16:52",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:45",
+      "snippet": "second apex here. It's where you want to start picking up your throttle. Uh you can touch the grass a little bit"
+    },
+    {
+      "gear": "2nd gear",
+      "exit": "full throttle on second apex",
+      "mistakes": "touch grass lightly, avoid off-track",
+      "note_id": "fWk5qSjDhkc:15",
+      "text": "gear: 2nd gear; exit: full throttle on second apex; mistakes: touch grass lightly, avoid off-track",
+      "spoken_as": "second one",
+      "passage_time": "16:52",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:45",
+      "snippet": "second apex here. It's where you want to start picking up your throttle. Uh you can touch the grass a little bit"
+    },
+    {
+      "braking": "Between 100 and 50 m, hold brakes until second apex",
+      "gear": "Second",
+      "line": "Middle of car to miss white line, aim for middle of car",
+      "exit": "Transition to throttle at second apex",
+      "mistakes": "Too much margin, missing white line",
+      "note_id": "fWk5qSjDhkc:16",
+      "text": "braking: Between 100 and 50 m, hold brakes until second apex; gear: Second; line: Middle of car to miss white line, aim for middle of car; exit: Transition to throttle at second apex; mistakes: Too much margin, missing white line",
+      "spoken_as": "second chicane",
+      "passage_time": "18:11",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "exit": 1.0,
+          "mistakes": 0.67
+        }
+      },
+      "time": "18:56",
+      "snippet": "you know, holding using the brakes until the second apex here. So, trying to really"
+    },
+    {
+      "braking": "Brake reference is a curve in the road, hard to see.",
+      "gear": "4th",
+      "line": "Short shift to 3rd, lift early, turn in and full throttle at apex.",
+      "mistakes": "Watch out for off-track trigger on the inside curb.",
+      "note_id": "fWk5qSjDhkc:17",
+      "text": "braking: Brake reference is a curve in the road, hard to see.; gear: 4th; line: Short shift to 3rd, lift early, turn in and full throttle at apex.; mistakes: Watch out for off-track trigger on the inside curb.",
+      "spoken_as": "next one",
+      "passage_time": "19:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "19:56",
+      "snippet": "Um so, short shift to third, early lift, as you lift you turn in, and then at the apex, you should be at full throttle."
+    },
+    {
+      "line": "maximize track usage on the outside",
+      "exit": "smooth throttle application",
+      "mistakes": "over push the entry, turn in late, understeer",
+      "note_id": "fWk5qSjDhkc:18",
+      "text": "line: maximize track usage on the outside; exit: smooth throttle application; mistakes: over push the entry, turn in late, understeer",
+      "spoken_as": "this first curb",
+      "passage_time": "20:47",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 1.0,
+          "exit": 0.67,
+          "mistakes": 0.6
+        }
+      },
+      "time": "20:47",
+      "snippet": "Really maximize your track usage on the outside, and then you start picking up the"
+    },
+    {
+      "braking": "just after the crest",
+      "gear": "downshift to second",
+      "mistakes": "brake on top of the crest",
+      "note_id": "fWk5qSjDhkc:19",
+      "text": "braking: just after the crest; gear: downshift to second; mistakes: brake on top of the crest",
+      "spoken_as": "the last corner",
+      "passage_time": "20:47",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "21:57",
+      "snippet": "Then you're going to downshift to second gear. So, look, there's the crest and then just after the crest, boom, braking",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake assertively, trail brake into corner",
+      "line": "Rotate car to be full throttle by road",
+      "exit": "Throttle naturally to exit curb",
+      "note_id": "fWk5qSjDhkc:20",
+      "text": "braking: Brake assertively, trail brake into corner; line: Rotate car to be full throttle by road; exit: Throttle naturally to exit curb",
+      "spoken_as": "the road",
+      "passage_time": "22:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "22:21",
+      "snippet": "corner, picking up the throttle here and then letting the car naturally run out to the exit curb."
+    }
+  ]
+}

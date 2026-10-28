@@ -1,0 +1,312 @@
+{
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02,
+    "alias_requires_spoken_reference": true,
+    "method_confidence": {
+      "explicit": 1.0,
+      "alias_match": 0.9,
+      "telemetry_match": 0.95,
+      "sequence_match": 0.903,
+      "lap_position": 0.431
+    }
+  },
+  "enhancements": [
+    {
+      "step": "first rollout: plain location, 1 pass",
+      "notes_located": 1290,
+      "notes": 1606,
+      "recovered": 53,
+      "unassigned": 739,
+      "coverage_pct": 54.0,
+      "holdout_placed": 127,
+      "holdout_hidden": 814,
+      "holdout_accuracy": 0.724
+    },
+    {
+      "step": "+ provenance fixes (spelling, per field, context)",
+      "notes_located": 1591,
+      "notes": 1606,
+      "recovered": 60,
+      "unassigned": 732,
+      "coverage_pct": 54.4,
+      "holdout_placed": 160,
+      "holdout_hidden": 814,
+      "holdout_accuracy": 0.75
+    },
+    {
+      "step": "+ multi-pass",
+      "notes_located": 1591,
+      "notes": 1606,
+      "recovered": 60,
+      "unassigned": 732,
+      "coverage_pct": 54.4,
+      "holdout_placed": 160,
+      "holdout_hidden": 814,
+      "holdout_accuracy": 0.75
+    },
+    {
+      "step": "+ alias needs the note's own spoken reference",
+      "notes_located": 1591,
+      "notes": 1606,
+      "recovered": 41,
+      "unassigned": 751,
+      "coverage_pct": 53.2,
+      "holdout_placed": 149,
+      "holdout_hidden": 814,
+      "holdout_accuracy": 0.826
+    },
+    {
+      "step": "+ calibrated method confidence",
+      "notes_located": 1591,
+      "notes": 1606,
+      "recovered": 19,
+      "unassigned": 773,
+      "coverage_pct": 51.9,
+      "holdout_placed": 110,
+      "holdout_hidden": 814,
+      "holdout_accuracy": 0.918
+    }
+  ],
+  "thresholds": [
+    {
+      "threshold": 0.95,
+      "recovered": 1,
+      "still_unassigned": 791,
+      "holdout_hidden": 814,
+      "holdout_placed": 1,
+      "holdout_accuracy": 1.0,
+      "holdout_by_method": {
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.9,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.85,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.8,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.75,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.7,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.65,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.6,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "threshold": 0.5,
+      "recovered": 19,
+      "still_unassigned": 773,
+      "holdout_hidden": 814,
+      "holdout_placed": 110,
+      "holdout_accuracy": 0.918,
+      "holdout_by_method": {
+        "alias_match": {
+          "placed": 8,
+          "correct": 8
+        },
+        "sequence_match": {
+          "placed": 101,
+          "correct": 92
+        },
+        "telemetry_match": {
+          "placed": 1,
+          "correct": 1
+        }
+      }
+    }
+  ],
+  "histogram": [
+    {
+      "band": "0.95-1.00",
+      "accepted": 1,
+      "rejected": 0
+    },
+    {
+      "band": "0.90-0.95",
+      "accepted": 18,
+      "rejected": 0
+    },
+    {
+      "band": "below 0.50",
+      "accepted": 0,
+      "rejected": 110
+    }
+  ],
+  "calibration": {
+    "by_band": {
+      "0.95-1.00": {
+        "placed": 1,
+        "correct": 1,
+        "accuracy": 1.0
+      },
+      "0.90-0.95": {
+        "placed": 109,
+        "correct": 100,
+        "accuracy": 0.92
+      }
+    },
+    "by_method": {
+      "telemetry_match": {
+        "placed": 1,
+        "correct": 1,
+        "accuracy": 1.0
+      },
+      "sequence_match": {
+        "placed": 101,
+        "correct": 92,
+        "accuracy": 0.91
+      },
+      "alias_match": {
+        "placed": 8,
+        "correct": 8,
+        "accuracy": 1.0
+      }
+    }
+  }
+}

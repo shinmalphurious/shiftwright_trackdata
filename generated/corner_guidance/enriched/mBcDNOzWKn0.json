@@ -1,0 +1,185 @@
+{
+  "video_id": "mBcDNOzWKn0",
+  "track_id": 192,
+  "track_name": "Daytona International Speedway - Road Course",
+  "title": "Track Guide Daytona Road Course Toyota GR86 Fixed iRacing",
+  "car": "Toyota GR86",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at last white line, 65% pressure to inside wall",
+      "line": "Turn in close to wall, past tires",
+      "exit": "Accelerate on exit, use curbing but not too much",
+      "mistakes": "Going over curbing too much will slow you down",
+      "note_id": "mBcDNOzWKn0:0",
+      "text": "braking: Brake at last white line, 65% pressure to inside wall; line: Turn in close to wall, past tires; exit: Accelerate on exit, use curbing but not too much; mistakes: Going over curbing too much will slow you down",
+      "spoken_as": "Turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.75,
+          "line": 0.6
+        }
+      },
+      "time": "0:14",
+      "snippet": "we cross the last white line here in front of us, we start to break, aiming for about 65% brake pressure. And we",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Flat out, shortest route",
+      "note_id": "mBcDNOzWKn0:1",
+      "text": "line: Flat out, shortest route",
+      "spoken_as": "Turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:33",
+      "snippet": "shortest route possible, ending up on the left side of the track for turn four. Turn four is also going to be a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Flat out, shortest route",
+      "exit": "End up on left side of track for turn four",
+      "note_id": "mBcDNOzWKn0:2",
+      "text": "line: Flat out, shortest route; exit: End up on left side of track for turn four",
+      "spoken_as": "Turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:35",
+      "snippet": "the left side of the track for turn four. Turn four is also going to be a place where people will try and overtake",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake halfway between poles, 85% pressure",
+      "gear": "2nd",
+      "line": "Up on inside curbing, be careful not to go too far",
+      "exit": "Accelerate on exit, stand on throttle",
+      "mistakes": "Going on curbing too much will unsettle the car",
+      "note_id": "mBcDNOzWKn0:3",
+      "text": "braking: Brake halfway between poles, 85% pressure; gear: 2nd; line: Up on inside curbing, be careful not to go too far; exit: Accelerate on exit, stand on throttle; mistakes: Going on curbing too much will unsettle the car",
+      "spoken_as": "Turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:47",
+      "snippet": "85% brake pressure. And we're easing that off until the top of the corner. I'm going a little bit up on the inside",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Darkening part, 80% brake pressure, easing off until top of corner",
+      "line": "Use inside curb",
+      "exit": "Accelerate, stand on throttle",
+      "mistakes": "Going on throttle too early, going into grass",
+      "note_id": "mBcDNOzWKn0:4",
+      "text": "braking: Darkening part, 80% brake pressure, easing off until top of corner; line: Use inside curb; exit: Accelerate, stand on throttle; mistakes: Going on throttle too early, going into grass",
+      "spoken_as": "turn six",
+      "passage_time": "1:17",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:28",
+      "snippet": "pressure, easing that until the top of the corner here as well. We're also going to use a little bit of the inside",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Middle of asphalt path, 60% brake pressure, easing off until yellow curb",
+      "line": "Cut all inside curb",
+      "exit": "Accelerate, be smooth",
+      "note_id": "mBcDNOzWKn0:5",
+      "text": "braking: Middle of asphalt path, 60% brake pressure, easing off until yellow curb; line: Cut all inside curb; exit: Accelerate, be smooth",
+      "spoken_as": "turn seven",
+      "passage_time": "1:17",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:55",
+      "snippet": "easing off the pressure until the yellow inside curb. We're going to cut all of the inside curb. And once we get to the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break halfway between the LED banner and the one sign, 60% brake pressure",
+      "line": "cut the first curb on the left, barely touch the first right side curb",
+      "exit": "accelerate, hit the second right side curb, full throttle, hit only blue and white curbing on last curb",
+      "mistakes": "too much of the last curve, get a slowdown, hit the wall",
+      "note_id": "mBcDNOzWKn0:6",
+      "text": "braking: break halfway between the LED banner and the one sign, 60% brake pressure; line: cut the first curb on the left, barely touch the first right side curb; exit: accelerate, hit the second right side curb, full throttle, hit only blue and white curbing on last curb; mistakes: too much of the last curve, get a slowdown, hit the wall",
+      "spoken_as": "turn 11",
+      "passage_time": "2:34",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 0.78,
+          "exit": 0.85
+        }
+      },
+      "time": "2:39",
+      "snippet": "LED banner and the one sign down here, aiming for 60% brake pressure, and we're going to ease off the pressure until the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

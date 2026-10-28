@@ -1,0 +1,84 @@
+{
+  "video_id": "c9bdN5K2nSI",
+  "track_id": 167,
+  "track_name": "Okayama International Circuit - Short",
+  "title": "Track Guide Okayama Short Mazda MX5 iRacing",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:55:10.856789+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker at tire marks, 85% brake pressure",
+      "line": "aim for inside curb",
+      "exit": "let car walk out to left side of track",
+      "mistakes": "don't go into gravel"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "turn in before braking marker, end of gravel, close to inside curb"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "red and white curb",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "70% brake pressure easing off",
+      "line": "get on red and white curb",
+      "exit": "Full Throttle",
+      "mistakes": "turn in too early, exit wide in grass"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "next corner",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "use the fence here on the left as breaking marker, 80% brake pressure, ease off to curb",
+      "line": "turn in late, aim for mid track exit",
+      "exit": "throttle gradually, aim for mid track",
+      "mistakes": "go on throttle too early, go on grass"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "no clear breaking marker, 55% brake pressure, ease off to curb",
+      "line": "later apex, use curb",
+      "exit": "full throttle",
+      "mistakes": "overwork tires, spin"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "cut curb on inside, exit left side",
+      "exit": "full throttle"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn 7",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "use the wall here on the inside as breaking marker, 70% brake pressure, ease off to curb",
+      "line": "use all available flat curb on outside",
+      "exit": "full throttle",
+      "mistakes": "go into"
+    }
+  ],
+  "general_tips": [
+    "overtake in turn one and turn four in the race",
+    "use left side of track for turn two"
+  ],
+  "dropped_ungrounded": 0
+}

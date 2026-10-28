@@ -1,0 +1,192 @@
+{
+  "video_id": "QNamnlImC-s",
+  "track_id": 200,
+  "track_name": "Circuit Zolder - Alternate",
+  "title": "I NEED YOUR INPUT! - Track Guide: Zolder Alternate | Mazda MX5 | iRacing",
+  "car": null,
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Trail breaking through here",
+      "gear": "gearing down to 2",
+      "line": "sticking to the right hand side there little bit of a Turnin and we're Trail breaking through here",
+      "exit": "utilizing the entire width of the track",
+      "mistakes": "probably could have carried a bit",
+      "note_id": "QNamnlImC-s:0",
+      "text": "braking: Trail breaking through here; gear: gearing down to 2; line: sticking to the right hand side there little bit of a Turnin and we're Trail breaking through here; exit: utilizing the entire width of the track; mistakes: probably could have carried a bit",
+      "spoken_as": "turn one",
+      "passage_time": "1:33",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:37",
+      "snippet": "sticking to the right hand side there little bit of a Turnin and we're Trail breaking through here gearing down to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "braking at the right hand side, trail braking",
+      "gear": "gear down to 2",
+      "line": "utilize entire width, turn-in on the left",
+      "exit": "throttle modulation, hit apex, back on throttle",
+      "mistakes": "hitting bumps, losing speed",
+      "note_id": "QNamnlImC-s:1",
+      "text": "braking: braking at the right hand side, trail braking; gear: gear down to 2; line: utilize entire width, turn-in on the left; exit: throttle modulation, hit apex, back on throttle; mistakes: hitting bumps, losing speed",
+      "spoken_as": "turn two",
+      "passage_time": "2:51",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "2:57",
+      "snippet": "left hand side as I should be gearing down to second gear again to help turn that car in little bit of a trail break",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "big sweeping right-hander, carry speed",
+      "note_id": "QNamnlImC-s:2",
+      "text": "line: big sweeping right-hander, carry speed",
+      "spoken_as": "turn three",
+      "passage_time": "2:51",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:14",
+      "snippet": "right-hander and it's important to carry the speed through here and we're going to have a little bit of a straight",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "breaking at the gray FRS",
+      "gear": "gear down to 2",
+      "line": "all the way on the right hand side",
+      "exit": "throttle modulation, back on throttle",
+      "mistakes": "hitting bumps",
+      "note_id": "QNamnlImC-s:3",
+      "text": "braking: breaking at the gray FRS; gear: gear down to 2; line: all the way on the right hand side; exit: throttle modulation, back on throttle; mistakes: hitting bumps",
+      "spoken_as": "first tricky chicane",
+      "passage_time": "2:51",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:47",
+      "snippet": "unmanageable so all the way on the right hand side I could have utilized a bit more track that's an error on my part",
+      "best_candidate": {
+        "corner_id": "T4",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T3",
+        "before": "T6",
+        "estimated_pct": 0.3639,
+        "corner_pct": 0.29,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T3",
+        "before": "T6",
+        "corners_between": [
+          "T4",
+          "T5"
+        ]
+      }
+    },
+    {
+      "braking": "Trail braking, using engine braking",
+      "gear": "Gear 1",
+      "line": "Throttle modulation to rotate car left and right, use whole width of track",
+      "exit": "Back on throttle at Apex point",
+      "mistakes": "Not using all of the width of the track",
+      "note_id": "QNamnlImC-s:4",
+      "text": "braking: Trail braking, using engine braking; gear: Gear 1; line: Throttle modulation to rotate car left and right, use whole width of track; exit: Back on throttle at Apex point; mistakes: Not using all of the width of the track",
+      "spoken_as": "sweeping left-hander of turn six",
+      "passage_time": "4:08",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:26",
+      "snippet": "car in we're Trail braking we're using the engine braking and this is all all about throttle modulation this point if",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Breaking at the 100 marker",
+      "line": "Hit the Apex as best as possible",
+      "mistakes": "Going a little bit wider to utilize more width",
+      "note_id": "QNamnlImC-s:5",
+      "text": "braking: Breaking at the 100 marker; line: Hit the Apex as best as possible; mistakes: Going a little bit wider to utilize more width",
+      "spoken_as": "second chicane",
+      "passage_time": "4:08",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:02",
+      "snippet": "front as well breaking at the 100 marker here on the brakes down into one it's a really tight hair pin this trying to hit"
+    },
+    {
+      "braking": "lift on the throttle to turn yourself in",
+      "gear": "3",
+      "line": "full speed",
+      "exit": "up on the throttle as soon as you can get that to 100%",
+      "note_id": "QNamnlImC-s:6",
+      "text": "braking: lift on the throttle to turn yourself in; gear: 3; line: full speed; exit: up on the throttle as soon as you can get that to 100%",
+      "spoken_as": "this left",
+      "passage_time": "5:28",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:43",
+      "snippet": "speed just lift on the throttle to turn yourself in and then up on the throttle as soon as you can get that to 100%"
+    }
+  ]
+}

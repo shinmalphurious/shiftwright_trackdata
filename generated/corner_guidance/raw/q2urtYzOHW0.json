@@ -1,0 +1,88 @@
+{
+  "video_id": "q2urtYzOHW0",
+  "track_id": 152,
+  "track_name": "Phillip Island Circuit",
+  "title": "iRacing Ferrari Challenge Phillip Island Track Guide 1:25.3 - Ferrari 296 Challenge Phillip Island",
+  "car_hint": "general",
+  "car": "Ferrari 296",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:22:41.862838+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:02",
+      "sequence": 1,
+      "braking": "20 m after white line, 50-55%",
+      "gear": "5th",
+      "line": "trail braking, back on gas at apex"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:02",
+      "sequence": 1,
+      "braking": "start braking at lower tire wall on right"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "3:20",
+      "sequence": 2,
+      "braking": "brake halfway along the dirt patch, 65-70%",
+      "gear": "hold until apex, trail off in 3rd",
+      "line": "flat",
+      "exit": "start picking up gas at apex"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:20",
+      "sequence": 2,
+      "braking": "brake at end of white and blue rumble strip, 50%",
+      "gear": "trail off in 3rd",
+      "line": "flat",
+      "exit": "start picking up gas at apex"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "4:40",
+      "sequence": 3,
+      "braking": "Start braking halfway along the rumble strip, 40%.",
+      "gear": "4th",
+      "line": "Mid track, trail off."
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "4:40",
+      "sequence": 3,
+      "braking": "Brake two to three car lengths before the 50m board, 65-70%.",
+      "gear": "2nd",
+      "exit": "Slowly trail off, back on gas."
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "4:40",
+      "sequence": 3,
+      "braking": "Lift from 100% to 50%."
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "5:58",
+      "sequence": 4,
+      "line": "floor it all the way through",
+      "exit": "back on the gas"
+    }
+  ],
+  "general_tips": [
+    "trail off in 3rd gear",
+    "floor it all the way through turn 12"
+  ],
+  "dropped_ungrounded": 2
+}

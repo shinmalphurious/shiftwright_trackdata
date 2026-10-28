@@ -1,0 +1,515 @@
+{
+  "video_id": "-WHsJTUmNcU",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Ferrari 296 Challenge Zandvoort Guide - 1:31.9 - Ferrari 296 Track Guide Circuit Zandvoort",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7344
+    ],
+    [
+      "T1",
+      0.7197
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "midway between cm.com sign and 100 meter sign, 80% long trail off",
+      "gear": "down to third gear at apex",
+      "line": "get back on the gas",
+      "exit": "exit nice and wide, up to fourth gear",
+      "note_id": "-WHsJTUmNcU:0",
+      "text": "braking: midway between cm.com sign and 100 meter sign, 80% long trail off; gear: down to third gear at apex; line: get back on the gas; exit: exit nice and wide, up to fourth gear",
+      "spoken_as": "first braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:59",
+      "snippet": "gas. Exit nice and wide. Up to fourth gear. Back over to the left hand side as we hit this curb. Breaking up to about",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.296,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.1079,
+        "corner_pct": 0.0859,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "breaking up to about 50%",
+      "gear": "down to fourth",
+      "line": "back on the gas",
+      "exit": "back on the gas as we go through this wonderfully banked section",
+      "note_id": "-WHsJTUmNcU:1",
+      "text": "braking: breaking up to about 50%; gear: down to fourth; line: back on the gas; exit: back on the gas as we go through this wonderfully banked section",
+      "spoken_as": "next curb",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.91,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:04",
+      "snippet": "50%. Down to fourth. Back on the gas as we go through this wonderfully banked section. Down to third gear. Back on the",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.411,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.187,
+        "corner_pct": 0.1885,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "gear": "down to third gear",
+      "line": "go absolutely flat",
+      "exit": "back on the gas",
+      "note_id": "-WHsJTUmNcU:2",
+      "text": "gear: down to third gear; line: go absolutely flat; exit: back on the gas",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:09",
+      "snippet": "section. Down to third gear. Back on the gas. Now, we're going to go absolutely flat here through turns four, five, and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "go absolutely flat",
+      "exit": "back on the gas",
+      "note_id": "-WHsJTUmNcU:3",
+      "text": "line: go absolutely flat; exit: back on the gas",
+      "spoken_as": "turn five",
+      "passage_time": "0:00",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:12",
+      "snippet": "gas. Now, we're going to go absolutely flat here through turns four, five, and six. I'm not even going to try and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "go absolutely flat",
+      "exit": "back on the gas",
+      "note_id": "-WHsJTUmNcU:4",
+      "text": "line: go absolutely flat; exit: back on the gas",
+      "spoken_as": "turn six",
+      "passage_time": "0:00",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:12",
+      "snippet": "gas. Now, we're going to go absolutely flat here through turns four, five, and six. I'm not even going to try and",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "breaking up to about 50%, long trail off",
+      "gear": "fifth",
+      "line": "flat",
+      "exit": "back on the gas, patient",
+      "note_id": "-WHsJTUmNcU:5",
+      "text": "braking: breaking up to about 50%, long trail off; gear: fifth; line: flat; exit: back on the gas, patient",
+      "spoken_as": "turn six",
+      "passage_time": "1:18",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.82,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:22",
+      "snippet": "to about 50% and a long trail off, leaving it in fifth gear, picking back up on the gas, nice and patient. Now, as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "breaking up to about 70%, quick trail off",
+      "gear": "fourth",
+      "note_id": "-WHsJTUmNcU:6",
+      "text": "braking: breaking up to about 70%, quick trail off; gear: fourth",
+      "spoken_as": "this curbing",
+      "passage_time": "1:18",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:30",
+      "snippet": "about 70%, quick trail off down to fourth gear. And now we get back on the brakes as we're on the outside. Long",
+      "best_candidate": {
+        "corner_id": "T8",
+        "confidence": 0.26,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T9",
+        "estimated_pct": 0.4548,
+        "corner_pct": 0.4795,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T9",
+        "corners_between": [
+          "T7",
+          "T8"
+        ]
+      }
+    },
+    {
+      "braking": "breaking hard, sharp trail off, long trail off",
+      "gear": "third",
+      "line": "on the outside",
+      "exit": "back on the gas",
+      "mistakes": "don't floor it",
+      "note_id": "-WHsJTUmNcU:7",
+      "text": "braking: breaking hard, sharp trail off, long trail off; gear: third; line: on the outside; exit: back on the gas; mistakes: don't floor it",
+      "spoken_as": "turn nine",
+      "passage_time": "1:18",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:37",
+      "snippet": "trail off in third gear as we go around turn nine as we go back to the outside of the track again. breaking hard, sharp",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "breaking just after the 50 up to about 70%",
+      "gear": "fourth",
+      "line": "wide attack angle, using all of that banking, pushed to the outside",
+      "exit": "absolutely flat",
+      "note_id": "-WHsJTUmNcU:8",
+      "text": "braking: breaking just after the 50 up to about 70%; gear: fourth; line: wide attack angle, using all of that banking, pushed to the outside; exit: absolutely flat",
+      "spoken_as": "final corner",
+      "passage_time": "1:18",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {
+        "alias": "final corner"
+      },
+      "provenance": {
+        "share": 0.59,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:06",
+      "snippet": "after the 50 up to about 70% down to fourth gear. He's on the gas. And now he's absolutely flat. really wide attack",
+      "confidence": 0.9,
+      "assignment_method": "alias_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "80% to apex, trail brake",
+      "gear": "3rd",
+      "exit": "accelerate to 100%",
+      "note_id": "-WHsJTUmNcU:9",
+      "text": "braking: 80% to apex, trail brake; gear: 3rd; exit: accelerate to 100%",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:09",
+      "snippet": "the brakes up to about 50%, trails it off down to the apex, and then he gets back on the gas, gets up to 100%. And",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.23,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T7",
+        "estimated_pct": 0.2035,
+        "corner_pct": 0.1885,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T7",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "50% to apex, trail brake",
+      "line": "curbing on left, high line",
+      "exit": "accelerate to 100%",
+      "note_id": "-WHsJTUmNcU:10",
+      "text": "braking: 50% to apex, trail brake; line: curbing on left, high line; exit: accelerate to 100%",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:09",
+      "snippet": "the brakes up to about 50%, trails it off down to the apex, and then he gets back on the gas, gets up to 100%. And",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.23,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T7",
+        "estimated_pct": 0.2035,
+        "corner_pct": 0.1885,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T7",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "line": "flat",
+      "note_id": "-WHsJTUmNcU:11",
+      "text": "line: flat",
+      "spoken_as": "this bit",
+      "passage_time": "2:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:41",
+      "snippet": "This bit's just flat. Now you can see he's just under half full, but he has got warm tires.",
+      "best_candidate": {
+        "corner_id": "T6",
+        "confidence": 0.33,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T7",
+        "estimated_pct": 0.3345,
+        "corner_pct": 0.3447,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T7",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "as you get to the flat pit at the top, braking up to 50%, trail off in fifth gear",
+      "gear": "fifth gear",
+      "exit": "gets up to 100% at apex",
+      "note_id": "-WHsJTUmNcU:12",
+      "text": "braking: as you get to the flat pit at the top, braking up to 50%, trail off in fifth gear; gear: fifth gear; exit: gets up to 100% at apex",
+      "spoken_as": "turn seven",
+      "passage_time": "3:54",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:56",
+      "snippet": "get to the flat pit at the top, breaking up to about 50% trails it off down in fifth gear still, sorry. and picking up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "as he hits the apex curbing on the left, braking up to 70%, quick trail off",
+      "gear": "fourth gear",
+      "exit": "2/3 power at apex",
+      "note_id": "-WHsJTUmNcU:13",
+      "text": "braking: as he hits the apex curbing on the left, braking up to 70%, quick trail off; gear: fourth gear; exit: 2/3 power at apex",
+      "spoken_as": "turn eight",
+      "passage_time": "3:54",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:15",
+      "snippet": "uh this little apex curbing on the left hand side. So as he hits that, it's on the brakes up to about 70%. It's a",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "just before the 50 meter board, braking up to 50%, sharp trail off",
+      "exit": "2/3 pressure at apex, starts to get back on the gas",
+      "note_id": "-WHsJTUmNcU:14",
+      "text": "braking: just before the 50 meter board, braking up to 50%, sharp trail off; exit: 2/3 pressure at apex, starts to get back on the gas",
+      "spoken_as": "turn nine",
+      "passage_time": "3:54",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:35",
+      "snippet": "the 50 meter board as you see here. So um basically yeah as you're coming to the end of the uh they look like sort of",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at 100m board, 90%",
+      "exit": "exit wide, long trail off",
+      "mistakes": "hard braking, slippy understeer, patient throttle control",
+      "note_id": "-WHsJTUmNcU:15",
+      "text": "braking: brake at 100m board, 90%; exit: exit wide, long trail off; mistakes: hard braking, slippy understeer, patient throttle control",
+      "spoken_as": "next breaking marker",
+      "passage_time": "5:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "5:22",
+      "snippet": "throttle control on exit. Next breaking marker is going to be more or less the 100 meter board on the left"
+    },
+    {
+      "braking": "brake at 50m board, 70%",
+      "gear": "4th",
+      "exit": "get back on gas, flat exit",
+      "note_id": "-WHsJTUmNcU:16",
+      "text": "braking: brake at 50m board, 70%; gear: 4th; exit: get back on gas, flat exit",
+      "spoken_as": "final braking mark",
+      "passage_time": "5:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:18",
+      "snippet": "in fourth gear. Starts getting back on the gas. Gets up to 100% as he starts opening the steering. And now it's just"
+    }
+  ]
+}

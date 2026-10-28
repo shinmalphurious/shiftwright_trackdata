@@ -1,0 +1,114 @@
+{
+  "video_id": "CtUnf6fdqUE",
+  "track_id": 162,
+  "track_name": "Dover Motor Speedway",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Dover",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:32:56.214197+00:00",
+  "passages": 10,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:57",
+      "sequence": 1,
+      "braking": "turn away from the wall before the auto trader sign",
+      "line": "trajectory down into turn one",
+      "exit": "start lifting phase near A-post crossing auto trader sign",
+      "mistakes": "start lifting too late, miss the compression zone"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:17",
+      "sequence": 2,
+      "braking": "left point is slow, stay rolling",
+      "line": "angle first part of apex, get close to apron",
+      "mistakes": "overspeed entry, add too much wheel, hit apron"
+    },
+    {
+      "label": null,
+      "spoken_as": "one and two",
+      "start_time": "5:36",
+      "sequence": 3,
+      "label_guess": "T2",
+      "line": "Continue rolling, start opening up the line to create a sharper exit",
+      "exit": "Maintain partial throttle, avoid excessive throttle to prevent rear swing",
+      "mistakes": "Using too much throttle can cause rear end to break free"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "6:54",
+      "sequence": 4,
+      "line": "turn down the hill, shape exit fully",
+      "exit": "use bank, 100% throttle, open wheel",
+      "mistakes": "front end washes out early, delay full throttle"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "6:54",
+      "sequence": 4,
+      "line": "straight entry, crosswalk reference",
+      "mistakes": "using too much wheel load"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "8:11",
+      "sequence": 5,
+      "braking": "lift throttle before getting under the crosswalk, about a car length and a half before",
+      "exit": "use partial throttle on entry, maintain partial throttle through the corner",
+      "mistakes": "turning the wheel too much, going wide on the diamond"
+    },
+    {
+      "label": null,
+      "spoken_as": "pit entry",
+      "start_time": "9:29",
+      "sequence": 6,
+      "line": "keep left front pinned close to apron",
+      "exit": "100% throttle",
+      "mistakes": "pinching off"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn four exit",
+      "start_time": "9:29",
+      "sequence": 6,
+      "exit": "keep wheels narrow to avoid exit wall",
+      "mistakes": "getting into exit wall"
+    },
+    {
+      "label": null,
+      "spoken_as": "Four left",
+      "start_time": "12:05",
+      "sequence": 8,
+      "line": "Keep it pinched down",
+      "exit": "Straight exit as much as I can"
+    }
+  ],
+  "general_tips": [
+    "ensure front end is positive and connecting to track with least resistance",
+    "Maintain a diamond quality line to exit straighter",
+    "keep front and rear as one to one",
+    "keep balance consistent into center of corner",
+    "use partial throttle to maintain balance",
+    "commit for exit speed",
+    "Pointing after the center is key for this track.",
+    "Full throttle moments are delayed with hotter tires.",
+    "Use partial throttle for stability with hotter tires.",
+    "Partial throttle now",
+    "Full left and out",
+    "Get close to the apron",
+    "Stay partial throttle",
+    "Full throttle",
+    "Manage tires at the earliest points",
+    "Avoid overusing tires from laps 10 to 20",
+    "up the center a little bit and then wrap the exit with a pinched exit as much as you can"
+  ],
+  "dropped_ungrounded": 0
+}

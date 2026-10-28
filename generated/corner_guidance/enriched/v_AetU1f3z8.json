@@ -1,0 +1,386 @@
+{
+  "video_id": "v_AetU1f3z8",
+  "track_id": 127,
+  "track_name": "Road Atlanta - Full Course",
+  "title": "iRacing GT3 Track Guide | Road Atlanta | 2025 Season 3 Week 9",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "100 meter board, cut over to the outside run off",
+      "line": "cut over to the outside run off",
+      "exit": "carry more speed, use less brake",
+      "mistakes": "leaning on the front left too much",
+      "note_id": "v_AetU1f3z8:0",
+      "text": "braking: 100 meter board, cut over to the outside run off; line: cut over to the outside run off; exit: carry more speed, use less brake; mistakes: leaning on the front left too much",
+      "spoken_as": "turn one",
+      "passage_time": "0:01",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:51",
+      "snippet": "Carry more speed, use less brake, but also the biggest thing, you do not lean on the front left as much. If you lean",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break 20-30% on tarmac, not in runoff.",
+      "gear": "Downshift once at white line.",
+      "line": "Turn in at white line, arc in.",
+      "exit": "Throttle at curb or marshall hood.",
+      "mistakes": "Avoid braking in runoff, dip left wheels over grass.",
+      "note_id": "v_AetU1f3z8:1",
+      "text": "braking: Break 20-30% on tarmac, not in runoff.; gear: Downshift once at white line.; line: Turn in at white line, arc in.; exit: Throttle at curb or marshall hood.; mistakes: Avoid braking in runoff, dip left wheels over grass.",
+      "spoken_as": "turn one",
+      "passage_time": "1:18",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "gear": 0.75,
+          "line": 0.75,
+          "exit": 1.0
+        }
+      },
+      "time": "1:56",
+      "snippet": "But onto tarmac, break 20% 30% at most. It's nothing crazy. You just want to like just slow the car down ever so",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift off at the Marshall hut",
+      "line": "run wide, avoid the outside curb",
+      "mistakes": "dipping a wheel, risking spinning off the track",
+      "note_id": "v_AetU1f3z8:2",
+      "text": "braking: lift off at the Marshall hut; line: run wide, avoid the outside curb; mistakes: dipping a wheel, risking spinning off the track",
+      "spoken_as": "turn one",
+      "passage_time": "2:35",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:38",
+      "snippet": "instance dipping a wheel here or you're very close to this outside curb, you've just gone in a little bit too hot an",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift off at the Marshall hut",
+      "note_id": "v_AetU1f3z8:3",
+      "text": "braking: lift off at the Marshall hut",
+      "spoken_as": "turn three",
+      "passage_time": "2:35",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:31",
+      "snippet": "lifting and braking. This Marshall hut is quite a nice little reference. You want to lift off once you get to it. So,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "tiny bit of brake, build brake pressure just before end of curve",
+      "line": "turn in coming off curb at end of curve, aim central, left wheels on track",
+      "exit": "slowly bleed off brake, patient on throttle, bounce 60-70%, get on power once steering lock off",
+      "mistakes": "chase cut over curb, commit to throttle too early on grass/dirt",
+      "note_id": "v_AetU1f3z8:4",
+      "text": "braking: tiny bit of brake, build brake pressure just before end of curve; line: turn in coming off curb at end of curve, aim central, left wheels on track; exit: slowly bleed off brake, patient on throttle, bounce 60-70%, get on power once steering lock off; mistakes: chase cut over curb, commit to throttle too early on grass/dirt",
+      "spoken_as": "turn three",
+      "passage_time": "3:52",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.86
+        }
+      },
+      "time": "4:12",
+      "snippet": "curve. Now I build my brake pressure in. You can see I've got the steering pretty much straight almost angled to turning",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Turn-in on the curb, apex on the top of the dirt, exit on the left side of the track",
+      "exit": "75-80% throttle through the curb, 100% throttle off the curb, avoid full throttle on grass",
+      "mistakes": "Committing to throttle too early, spinning on exit if on grass",
+      "note_id": "v_AetU1f3z8:5",
+      "text": "line: Turn-in on the curb, apex on the top of the dirt, exit on the left side of the track; exit: 75-80% throttle through the curb, 100% throttle off the curb, avoid full throttle on grass; mistakes: Committing to throttle too early, spinning on exit if on grass",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:10",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.27,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.68
+      }
+    },
+    {
+      "braking": "Commit in deep, brake before curb",
+      "line": "Turn in deep, aim for blue part of curb",
+      "exit": "Come off curb towards end",
+      "mistakes": "Overworking entry or underdoing entry, bouncing on outside curb",
+      "note_id": "v_AetU1f3z8:6",
+      "text": "braking: Commit in deep, brake before curb; line: Turn in deep, aim for blue part of curb; exit: Come off curb towards end; mistakes: Overworking entry or underdoing entry, bouncing on outside curb",
+      "spoken_as": "turn five",
+      "passage_time": "6:27",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.8,
+          "exit": 1.0
+        }
+      },
+      "time": "7:41",
+      "snippet": "in quite deep and then just before you get to the curb itself, there's no real reference here, but normally once I'm",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift off past orange line, brake softly at 50%",
+      "line": "angle to hook curb, aim for flat part of curb",
+      "exit": "come off curb before end, car rotates and bounces",
+      "mistakes": "commit to curb, hit curb causing bounce into track",
+      "note_id": "v_AetU1f3z8:7",
+      "text": "braking: lift off past orange line, brake softly at 50%; line: angle to hook curb, aim for flat part of curb; exit: come off curb before end, car rotates and bounces; mistakes: commit to curb, hit curb causing bounce into track",
+      "spoken_as": "turn five",
+      "passage_time": "7:45",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.67,
+          "mistakes": 0.67
+        }
+      },
+      "time": "7:53",
+      "snippet": "You want to be angling to hook the curb and aiming for this flat part here where my cursor is. Do not try and commit to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to the orange line",
+      "line": "use curb for apex, otherwise stay wide",
+      "exit": "100% throttle on exit, aim for outside run off",
+      "mistakes": "bouncing off curb costs exit position",
+      "note_id": "v_AetU1f3z8:8",
+      "text": "braking: brake to the orange line; line: use curb for apex, otherwise stay wide; exit: 100% throttle on exit, aim for outside run off; mistakes: bouncing off curb costs exit position",
+      "spoken_as": "turn five",
+      "passage_time": "9:04",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "exit": 0.67
+        }
+      },
+      "time": "9:08",
+      "snippet": "on the orange line. You can get away with using the curb here. Driver preference. But if you want to use the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "200 board, brake 70%, 60%",
+      "gear": "late downshift between second and third set of lines",
+      "line": "get nice and close to inside curb, touch orange line",
+      "exit": "power and commit to exit",
+      "mistakes": "overwork braking, over-push entry, go wide onto grass",
+      "note_id": "v_AetU1f3z8:9",
+      "text": "braking: 200 board, brake 70%, 60%; gear: late downshift between second and third set of lines; line: get nice and close to inside curb, touch orange line; exit: power and commit to exit; mistakes: overwork braking, over-push entry, go wide onto grass",
+      "spoken_as": "turn six",
+      "passage_time": "10:21",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "gear": 1.0,
+          "exit": 1.0,
+          "mistakes": 0.67
+        }
+      },
+      "time": "10:42",
+      "snippet": "Pretty easy. So 200 board, brake, second set of lines here, start turning in, and then you want to do a late downshift",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break a nice straight line, 65 70% brake",
+      "line": "follow the curb, turn-in towards the end of the curb",
+      "exit": "slow release the brakes, trail brake 40 50% to 20%",
+      "mistakes": "overshoot the entry to the apex",
+      "note_id": "v_AetU1f3z8:10",
+      "text": "braking: break a nice straight line, 65 70% brake; line: follow the curb, turn-in towards the end of the curb; exit: slow release the brakes, trail brake 40 50% to 20%; mistakes: overshoot the entry to the apex",
+      "spoken_as": "turn seven",
+      "passage_time": "11:40",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:25",
+      "snippet": "straight line again, 65 70% brake, break a nice straight line. I find with this corner, it's very easy to miss it very",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Left wheels on curb, brake early, 40-50% to 20%",
+      "line": "Cut over the curb, mid-corner throttle 60-70%",
+      "exit": "100% throttle, let car run wide, avoid fighting the car",
+      "mistakes": "Too aggressive on initial power, fighting the car",
+      "note_id": "v_AetU1f3z8:11",
+      "text": "braking: Left wheels on curb, brake early, 40-50% to 20%; line: Cut over the curb, mid-corner throttle 60-70%; exit: 100% throttle, let car run wide, avoid fighting the car; mistakes: Too aggressive on initial power, fighting the car",
+      "spoken_as": "next corner",
+      "passage_time": "12:59",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.71,
+          "exit": 0.75,
+          "mistakes": 0.83
+        }
+      },
+      "time": "13:32",
+      "snippet": "pretty much. So midc corner throttle 60 70%. Hold it hold it hold it. And once you can get the steer and lock off then"
+    },
+    {
+      "braking": "Brake just before 100 board",
+      "line": "Keep car right, use outside curb as reference",
+      "exit": "100% throttle down crest",
+      "mistakes": "Drifting left, lifting off too early in traffic",
+      "note_id": "v_AetU1f3z8:12",
+      "text": "braking: Brake just before 100 board; line: Keep car right, use outside curb as reference; exit: 100% throttle down crest; mistakes: Drifting left, lifting off too early in traffic",
+      "spoken_as": "10 AA",
+      "passage_time": "14:17",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "exit": 1.0
+        }
+      },
+      "time": "15:20",
+      "snippet": "you're breaking just before the 100 board. So now just before 100 with a lifting and stuff you'll be probably"
+    },
+    {
+      "braking": "Build up to 100% brake just before the outside curb",
+      "line": "Turn-in at curb, apex at curb, cut inside on exit",
+      "exit": "Release brakes over crest, use right wheels on white line",
+      "mistakes": "Don't smash the brake, build up gradually",
+      "note_id": "v_AetU1f3z8:13",
+      "text": "braking: Build up to 100% brake just before the outside curb; line: Turn-in at curb, apex at curb, cut inside on exit; exit: Release brakes over crest, use right wheels on white line; mistakes: Don't smash the brake, build up gradually",
+      "spoken_as": "next braking marker",
+      "passage_time": "15:35",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0
+        }
+      },
+      "time": "15:54",
+      "snippet": "builds up 100% just before this outside curb here. Again, very key. Get your right wheels fully over this curb. I go"
+    },
+    {
+      "line": "Cut inside curb, aim for left part of curb, half car over line.",
+      "exit": "100% throttle after settling from curb bounce.",
+      "mistakes": "Wiggling here loses time to line, aggressive throttle can cause car to snap around.",
+      "note_id": "v_AetU1f3z8:14",
+      "text": "line: Cut inside curb, aim for left part of curb, half car over line.; exit: 100% throttle after settling from curb bounce.; mistakes: Wiggling here loses time to line, aggressive throttle can cause car to snap around.",
+      "spoken_as": "turn one",
+      "passage_time": "16:53",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.29,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.86
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

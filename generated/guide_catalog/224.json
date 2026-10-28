@@ -1,15 +1,63 @@
 {
   "track_id": 224,
   "layout": "224-newjersey-secondchicane",
+  "name": "New Jersey Motorsports Park - Thunderbolt w/second chicane",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:09:44.343329+00:00",
+  "candidates_seen": 74,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 74,
+    "new_candidates": 71,
+    "accepted": 3,
+    "selected": 3,
+    "kept_previous": 3,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 71,
+    "rejection_reasons": {
+      "venue not in title": 50,
+      "no guide words in title": 17,
+      "too short": 4
+    }
+  },
   "selected_guides": {
-    "usf2000": [
+    "general": [
       {
-        "video_id": "DPkDMXT12t8",
-        "title": "iRacing USF2000 (R/INDYCAR League USF2K Tuner Championship S1W7 @Belle Isle)",
+        "video_id": "Batj9eahK9Q",
+        "title": "iRacing Track Guides - New Hampshire 2015",
+        "description": "Hey guys here is the guide for New Hampshire Motor Speedway. Not the best track for me but its ok. Best i could get was a 30.2.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 317,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 198,
+        "venue_confidence": 0.7
+      },
+      {
+        "video_id": "xwNk7s0CGE0",
+        "title": "iRacing Track Guides 2020 - New Hampshire",
+        "description": "a 1 mile oval that is ass.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 382,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 198,
+        "venue_confidence": 0.7
+      },
+      {
+        "video_id": "_2V1uBCRFa0",
+        "title": "Lap Guide SimRaceSA 2022.1 Audi TT Cup - New Jersey Motorsport Park",
         "description": "",
-        "video_type": "other",
-        "car": "usf2000",
-        "quality_score": 120
+        "channel": "Nick Hodgson",
+        "duration": 91,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 126,
+        "venue_confidence": 0.9
       }
     ]
   }

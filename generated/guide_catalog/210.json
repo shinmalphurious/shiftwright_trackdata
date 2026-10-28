@@ -1,33 +1,146 @@
 {
   "track_id": 210,
   "layout": "210-oran-northb",
+  "name": "Oran Park Raceway - North B",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:23:03.381784+00:00",
+  "candidates_seen": 29,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 29,
+    "new_candidates": 19,
+    "accepted": 11,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 18,
+    "rejection_reasons": {
+      "no guide words in title": 8,
+      "venue not in title": 8,
+      "too short": 2
+    }
+  },
   "selected_guides": {
     "ff1600": [
       {
-        "video_id": "SRWCYru9NMM",
-        "title": "iRacing Rays FF1600 Fixed - Track Guide - Oran Park Raceway - Week 5, Season 2 2023",
-        "description": "Today join Chris from Virtual Motorsport Mentor as he gives an in-depth looking at Oran Park Raceway in Preparation for Week 5\u00a0...",
+        "video_id": "Q7g60_ga-nI",
+        "title": "iRacing FF1600 Oran Park Grand Prix Guide - 1:08.863 - Oran Park GP FF1600 Track Guide",
+        "description": "We're back for a track guide on iRacing in the Ray Formula Ford FF1600 Rookie Fixed at Oran Park Grand Prix for the full course ...",
+        "channel": "Sambo iRacing",
+        "duration": 417,
         "video_type": "lap_walkthrough",
         "car": "ff1600",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
       }
     ],
-    "vee": [
+    "mx5": [
       {
-        "video_id": "s_I-58yvTy4",
-        "title": "Formula Vee - Oran Park Raceway - iRacing",
-        "description": "No skippy race, no one was in them so I jumped into a race with the new Formula Vee car, these things are a ton of fun! Sorry for\u00a0...",
-        "video_type": "other",
-        "car": "vee",
-        "quality_score": 120
+        "video_id": "IunalMgCwV0",
+        "title": "iRacing MX5 Oran Park Guide 1:14.0 Mazda MX5 Oran Park Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 374,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 256,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "EgmRGfcJULU",
-        "title": "iRacing | Like a Mini Monaco! | Formula Vee at Oran Park-North B Hotlap: 38.875",
-        "description": "",
-        "video_type": "other",
-        "car": "vee",
-        "quality_score": 120
+        "video_id": "2vXBbQZDVmw",
+        "title": "Track Guide Oran Park   Grand Prix MX5 Fixed iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Oran Park - Grand Prix in the Mazda MX-5. It s a really good combo ...",
+        "channel": "Erilla",
+        "duration": 400,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "bmw_m2": [
+      {
+        "video_id": "XdU5zjI9HRU",
+        "title": "iRacing NEW BMW M2 Oran Park Guide 1:12.2 BMW M2 Racing G87 Oran Park Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 346,
+        "video_type": "lap_walkthrough",
+        "car": "bmw_m2",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "DTEeo_a6MDY",
+        "title": "iRacing F4 Oran Park Raceway - South Track Guide - 0:38.5",
+        "description": "Get Quicker!! GitGud Course: https://gitgudracing.com/simracingcourse/ Budget-friendly coaching sessions, tailored specifically for ...",
+        "channel": "GITGUD Racing",
+        "duration": 394,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "_2EZzioZh5E",
+        "title": "iRacing Skip Barber Track Guide Season 3 2017 - Oran Park",
+        "description": "My latest iracing track guide for Oran Park on iracing.com in the skip barber. Like My Content? Subscribe for More Awesome!",
+        "channel": "Kinduci",
+        "duration": 379,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "A9t8ip2lFjY",
+        "title": "iRacing Ferrari GT3 Oran Park Guide 1:02.4 Ferrari 296 GT3 Oran Park Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 360,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "IupNXA7fHi4",
+        "title": "Cowy - iRacing - V8 Supercars - Oran Park Track Guide",
+        "description": "Howdy everyone, Cowy here with this week's track guide at Oran Park Raceway - a little track in the western suburbs of Sydney ...",
+        "channel": "Cowy Your Average Sim Racer",
+        "duration": 336,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "rbfDTtmjvJ4",
+        "title": "Cowy - iRacing - Gen 3 V8 Supercars - Oran Park - Track Guide (dry & wet)",
+        "description": "Hi everyone, Cowy here, and I'm back with my latest track guide. It's Week 12 , Season 1 for 2025 in iRacing for the V8 Supercars, ...",
+        "channel": "Cowy Your Average Sim Racer",
+        "duration": 699,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "HxrillruLSA",
+        "title": "iRacing Corvette GT3 Oran Park Guide 1:02.9 Corvette GT3 Oran Park Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 165,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

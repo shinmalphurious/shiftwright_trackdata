@@ -1,0 +1,640 @@
+{
+  "video_id": "RbxxGUchyIA",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "Summit Point | @Dave Cam iRacing Mazda MX-5 Track Guide",
+  "car": null,
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake at the three cones",
+      "gear": "fifth gear",
+      "line": "turn in at the left-hand side",
+      "mistakes": "turn in too early",
+      "note_id": "RbxxGUchyIA:0",
+      "text": "braking: brake at the three cones; gear: fifth gear; line: turn in at the left-hand side; mistakes: turn in too early",
+      "spoken_as": "turn number one",
+      "passage_time": "2:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:07",
+      "snippet": "we're gonna be in fifth gear approaching turn number one over to the left-hand side"
+    },
+    {
+      "braking": "braking at the three cones",
+      "line": "follow the left hand line to the last broken white line",
+      "exit": "flat out to the exit",
+      "mistakes": "turning in too early",
+      "note_id": "RbxxGUchyIA:1",
+      "text": "braking: braking at the three cones; line: follow the left hand line to the last broken white line; exit: flat out to the exit; mistakes: turning in too early",
+      "spoken_as": "turn number one",
+      "passage_time": "3:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:28",
+      "snippet": "the white line follow the left hand line all the way down as far as you can and then when it ends there just as that"
+    },
+    {
+      "braking": "20 percent brake at the end of the small access road",
+      "gear": "third gear",
+      "line": "tight line all the way around",
+      "exit": "accelerating up to third gear",
+      "note_id": "RbxxGUchyIA:2",
+      "text": "braking: 20 percent brake at the end of the small access road; gear: third gear; line: tight line all the way around; exit: accelerating up to third gear",
+      "spoken_as": "turn number two",
+      "passage_time": "3:24",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:14",
+      "snippet": "accelerating up to third gear and we're going to leave it in third game we're not going to change the fourth just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "3rd gear",
+      "line": "turn late, brush left kerb",
+      "exit": "keep left, exit wide",
+      "note_id": "RbxxGUchyIA:3",
+      "text": "gear: 3rd gear; line: turn late, brush left kerb; exit: keep left, exit wide",
+      "spoken_as": "turn number three",
+      "passage_time": "4:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:47",
+      "snippet": "this is third gear and then if we brush the kerb on the left-hand side that's fine just not too much"
+    },
+    {
+      "braking": "hard on brakes",
+      "gear": "4th gear",
+      "line": "touch right kerb",
+      "exit": "flat out",
+      "note_id": "RbxxGUchyIA:4",
+      "text": "braking: hard on brakes; gear: 4th gear; line: touch right kerb; exit: flat out",
+      "spoken_as": "the kink",
+      "passage_time": "4:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "5:14",
+      "snippet": "fourth gear and then we're going to be turning in and just touching the curb on the"
+    },
+    {
+      "braking": "hard on brakes",
+      "gear": "1st gear",
+      "line": "tight line, take left curb",
+      "exit": "steady with accelerator",
+      "note_id": "RbxxGUchyIA:5",
+      "text": "braking: hard on brakes; gear: 1st gear; line: tight line, take left curb; exit: steady with accelerator",
+      "spoken_as": "turn number five",
+      "passage_time": "4:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:49",
+      "snippet": "curb on the left that's fine but nice and steady with the accelerator then get on the gas hard"
+    },
+    {
+      "gear": "no gear change",
+      "exit": "get on gas hard",
+      "note_id": "RbxxGUchyIA:6",
+      "text": "gear: no gear change; exit: get on gas hard",
+      "spoken_as": "turn number six",
+      "passage_time": "4:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:53",
+      "snippet": "then get on the gas hard the run to turn number six and i don't change into second gear here"
+    },
+    {
+      "braking": "hit the first apex",
+      "gear": "first",
+      "line": "center the circuit",
+      "exit": "accelerator hard",
+      "mistakes": "car will push out wide",
+      "note_id": "RbxxGUchyIA:7",
+      "text": "braking: hit the first apex; gear: first; line: center the circuit; exit: accelerator hard; mistakes: car will push out wide",
+      "spoken_as": "turn number five",
+      "passage_time": "6:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.73,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:11",
+      "snippet": "hit the first apex and as soon as we hit this apex here we're going to be on the accelerator hard the car will push out"
+    },
+    {
+      "gear": "first",
+      "line": "center the circuit",
+      "exit": "modulate throttle",
+      "note_id": "RbxxGUchyIA:8",
+      "text": "gear: first; line: center the circuit; exit: modulate throttle",
+      "spoken_as": "turn number six",
+      "passage_time": "6:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:04",
+      "snippet": "back down to first just unsettles the car so keep it first gear center the circuit's fine then"
+    },
+    {
+      "gear": "second",
+      "line": "nice early turning",
+      "exit": "flat out",
+      "note_id": "RbxxGUchyIA:9",
+      "text": "gear: second; line: nice early turning; exit: flat out",
+      "spoken_as": "turn number seven",
+      "passage_time": "6:02",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:10",
+      "snippet": "here and then nice early turning and you want the car here because as you can see the the"
+    },
+    {
+      "braking": "Brake to third gear before the braking marker, turn in early.",
+      "gear": "Third",
+      "line": "Kiss the kerb on the right, flat out on exit.",
+      "exit": "Use all of the track on exit.",
+      "mistakes": "Turn in too late, scrubbing speed on exit.",
+      "note_id": "RbxxGUchyIA:10",
+      "text": "braking: Brake to third gear before the braking marker, turn in early.; gear: Third; line: Kiss the kerb on the right, flat out on exit.; exit: Use all of the track on exit.; mistakes: Turn in too late, scrubbing speed on exit.",
+      "spoken_as": "turn number 10",
+      "passage_time": "7:20",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "7:27",
+      "snippet": "use all of this kerb on the exit just so you don't scrub off too much speed then the run down to turn number 10",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at the three cones.",
+      "gear": "Fifth",
+      "note_id": "RbxxGUchyIA:11",
+      "text": "braking: Brake at the three cones.; gear: Fifth",
+      "spoken_as": "turn number one",
+      "passage_time": "7:20",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:31",
+      "snippet": "breaking at the three cones we're going to be in fifth gear at this point breaking up the three cones and try and"
+    },
+    {
+      "braking": "brake just a little bit",
+      "gear": "third gear",
+      "line": "follow the white line, turn in at end of broken white line",
+      "exit": "accelerate before apex, move left, flat out",
+      "note_id": "RbxxGUchyIA:12",
+      "text": "braking: brake just a little bit; gear: third gear; line: follow the white line, turn in at end of broken white line; exit: accelerate before apex, move left, flat out",
+      "spoken_as": "turn number two",
+      "passage_time": "8:37",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:50",
+      "snippet": "then we're gonna move to third gear holding the right hand side and then just after the access road on the right",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "on the brakes",
+      "gear": "first gear",
+      "line": "early turn in",
+      "exit": "accelerate before apex, short shift to second",
+      "note_id": "RbxxGUchyIA:13",
+      "text": "braking: on the brakes; gear: first gear; line: early turn in; exit: accelerate before apex, short shift to second",
+      "spoken_as": "turn number eight",
+      "passage_time": "8:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:22",
+      "snippet": "short shift a second there's the cooling tower so we need to modulate the throttle now"
+    },
+    {
+      "braking": "brakes all the way down to first gear after the broken water line",
+      "gear": "leave third gear after the access road where the grass begins",
+      "line": "turn in get on the gas before the apex",
+      "exit": "move the car to the left now this should be flat out easily",
+      "mistakes": "the car will run out wide you can use a little bit of sand on the right",
+      "note_id": "RbxxGUchyIA:14",
+      "text": "braking: brakes all the way down to first gear after the broken water line; gear: leave third gear after the access road where the grass begins; line: turn in get on the gas before the apex; exit: move the car to the left now this should be flat out easily; mistakes: the car will run out wide you can use a little bit of sand on the right",
+      "spoken_as": "turn number three",
+      "passage_time": "9:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "gear": 0.89,
+          "line": 1.0,
+          "exit": 1.0,
+          "mistakes": 1.0
+        }
+      },
+      "time": "10:04",
+      "snippet": "all the way down to first gear after the broken water line then get on the gas at the apex"
+    },
+    {
+      "braking": "on the brakes on the first gear nice and tight",
+      "gear": "use that kerb if you need to it's fine but leave it first here",
+      "line": "break hit the first apex",
+      "exit": "get on the gas looking for that cooling tower there",
+      "note_id": "RbxxGUchyIA:15",
+      "text": "braking: on the brakes on the first gear nice and tight; gear: use that kerb if you need to it's fine but leave it first here; line: break hit the first apex; exit: get on the gas looking for that cooling tower there",
+      "spoken_as": "here",
+      "passage_time": "9:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:35",
+      "snippet": "first gear nice and tight around here use that kerb if you need to it's fine but leave it first here break hit the"
+    },
+    {
+      "braking": "modulating at the car position correctly for this turn",
+      "exit": "flat out all the way around",
+      "note_id": "RbxxGUchyIA:16",
+      "text": "braking: modulating at the car position correctly for this turn; exit: flat out all the way around",
+      "spoken_as": "turn number nine",
+      "passage_time": "9:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.89,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:49",
+      "snippet": "turn then it's flat out all the way around if you've got it right nicely turning for turn number nine open up the"
+    },
+    {
+      "braking": "breaking down the third gear nice early turning",
+      "line": "just missed that curb a little bit there that's fine",
+      "note_id": "RbxxGUchyIA:17",
+      "text": "braking: breaking down the third gear nice early turning; line: just missed that curb a little bit there that's fine",
+      "spoken_as": "turn number ten",
+      "passage_time": "9:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.9,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:04",
+      "snippet": "breaking down the third gear nice early turning just missed that curb a little bit there"
+    },
+    {
+      "braking": "brake on entry to pit lane, third gear",
+      "mistakes": "get pit limiter on before 72 km/h",
+      "note_id": "RbxxGUchyIA:18",
+      "text": "braking: brake on entry to pit lane, third gear; mistakes: get pit limiter on before 72 km/h",
+      "spoken_as": "turn number 10",
+      "passage_time": "11:12",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:11",
+      "snippet": "probably going to be in third gear then there's the cone there where you need to get your pit limiter on so you don't"
+    },
+    {
+      "mistakes": "stick right over to your right hand side until they've done what they need to do",
+      "note_id": "RbxxGUchyIA:19",
+      "text": "mistakes: stick right over to your right hand side until they've done what they need to do",
+      "spoken_as": "turn number one",
+      "passage_time": "12:30",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:56",
+      "snippet": "until they've done what they need to do and then when you can just move over and try and slot in behind them but as you"
+    },
+    {
+      "line": "outside line, turn-in wide, apex late",
+      "mistakes": "holding outside line is sketchy, risk of being punted onto the sand",
+      "note_id": "RbxxGUchyIA:20",
+      "text": "line: outside line, turn-in wide, apex late; mistakes: holding outside line is sketchy, risk of being punted onto the sand",
+      "spoken_as": "turn number three",
+      "passage_time": "13:49",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:55",
+      "snippet": "sketchy i have been punted onto the sand on the right so make sure that whoever you're racing against is going to race",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "set up for overtake",
+      "note_id": "RbxxGUchyIA:21",
+      "text": "line: set up for overtake",
+      "spoken_as": "turn number six",
+      "passage_time": "13:49",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "14:35",
+      "snippet": "would be trying to set up an overtake going into turn number six so we're just approaching turn three"
+    },
+    {
+      "braking": "Brake now going down, tight line, may need to shift to 3rd",
+      "gear": "3rd",
+      "line": "Inside line",
+      "exit": "Flat out",
+      "mistakes": "Punted into tire barrier on outside",
+      "note_id": "RbxxGUchyIA:22",
+      "text": "braking: Brake now going down, tight line, may need to shift to 3rd; gear: 3rd; line: Inside line; exit: Flat out; mistakes: Punted into tire barrier on outside",
+      "spoken_as": "turn number four",
+      "passage_time": "15:07",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "mistakes": 0.75
+        }
+      },
+      "time": "15:15",
+      "snippet": "outside because you do get punted in turn number four it's pretty much race over because you straight into the tire"
+    },
+    {
+      "line": "Inside line, tight line",
+      "exit": "Flat out",
+      "mistakes": "Difficult on outside line",
+      "note_id": "RbxxGUchyIA:23",
+      "text": "line: Inside line, tight line; exit: Flat out; mistakes: Difficult on outside line",
+      "spoken_as": "turn number five",
+      "passage_time": "15:07",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:33",
+      "snippet": "tight line to give them a bit of room but if you can position yourself on the inside here"
+    },
+    {
+      "line": "Inside line",
+      "exit": "Flat out",
+      "mistakes": "Not holding outside line",
+      "note_id": "RbxxGUchyIA:24",
+      "text": "line: Inside line; exit: Flat out; mistakes: Not holding outside line",
+      "spoken_as": "turn number six",
+      "passage_time": "15:07",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:40",
+      "snippet": "then you're gonna have the outside line this is turn number five and it's much more difficult"
+    },
+    {
+      "line": "Inside line",
+      "exit": "Flat out",
+      "mistakes": "Not holding outside line",
+      "note_id": "RbxxGUchyIA:25",
+      "text": "line: Inside line; exit: Flat out; mistakes: Not holding outside line",
+      "spoken_as": "turn number seven",
+      "passage_time": "15:07",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:40",
+      "snippet": "then you're gonna have the outside line this is turn number five and it's much more difficult"
+    },
+    {
+      "braking": "if defending, take a later turn",
+      "exit": "think about the exit, aim for higher exit speed",
+      "mistakes": "defending can compromise exit speed",
+      "note_id": "RbxxGUchyIA:26",
+      "text": "braking: if defending, take a later turn; exit: think about the exit, aim for higher exit speed; mistakes: defending can compromise exit speed",
+      "spoken_as": "this turn here",
+      "passage_time": "16:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:00",
+      "snippet": "going to think about the exit their exit speed is going to be much lower than ours"
+    },
+    {
+      "line": "take inside line if defending",
+      "exit": "aim for higher exit speed",
+      "mistakes": "defending can compromise exit speed",
+      "note_id": "RbxxGUchyIA:27",
+      "text": "line: take inside line if defending; exit: aim for higher exit speed; mistakes: defending can compromise exit speed",
+      "spoken_as": "turn number ten",
+      "passage_time": "16:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.6
+        }
+      },
+      "time": "16:56",
+      "snippet": "they're defending we're going to take a little bit of a later turn and we're going to think about the exit"
+    },
+    {
+      "line": "inside line",
+      "mistakes": "try to get a good run for the next corner",
+      "note_id": "RbxxGUchyIA:28",
+      "text": "line: inside line; mistakes: try to get a good run for the next corner",
+      "spoken_as": "turn number one",
+      "passage_time": "16:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:05",
+      "snippet": "and hopefully we can get a really good run get on the inside"
+    },
+    {
+      "line": "inside line",
+      "mistakes": "try to get a good run for the next corner",
+      "note_id": "RbxxGUchyIA:29",
+      "text": "line: inside line; mistakes: try to get a good run for the next corner",
+      "spoken_as": "turn number three",
+      "passage_time": "16:25",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:05",
+      "snippet": "and hopefully we can get a really good run get on the inside",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "inside line around five, outside line around three and four",
+      "mistakes": "try to get a good run for the next corner",
+      "note_id": "RbxxGUchyIA:30",
+      "text": "line: inside line around five, outside line around three and four; mistakes: try to get a good run for the next corner",
+      "spoken_as": "turn number six",
+      "passage_time": "16:25",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:24",
+      "snippet": "inside line four outside line around five and overtake them going into turn number six but it's"
+    }
+  ]
+}

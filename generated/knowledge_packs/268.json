@@ -523,5 +523,313 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.987,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); telemetry confirms over 9 lap(s); consensus 0.99 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T10": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.987,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.75 from 2 source(s); telemetry confirms over 9 lap(s); consensus 0.99 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T11": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T11: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.968,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T11: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T11: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T12": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T12: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T12: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T14": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T14: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T14: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T15": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.968,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T15: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T18": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.968,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T18: research 0.60 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.97 -> validated (evidence supports the claim)"
+      },
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T18: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T2": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T2: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T3": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T3: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T17": [
+      {
+        "claim": "flat_out",
+        "statement": "Taken flat, no braking",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Taken flat, no braking at T17: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T30": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T30: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T31": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T31: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T32": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T32: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T9": [
+      {
+        "claim": "flat_out",
+        "statement": "Taken flat, no braking",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Taken flat, no braking at T9: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T19": [
+      {
+        "claim": "slow_corner",
+        "statement": "Slow corner",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Slow corner at T19: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T20": [
+      {
+        "claim": "important_exit",
+        "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+        "confidence": 0.984,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 9,
+          "variants": 0
+        },
+        "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T20: research 0.75 from 1 source(s); telemetry confirms over 9 lap(s); consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

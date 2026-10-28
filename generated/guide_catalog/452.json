@@ -1,25 +1,115 @@
 {
   "track_id": 452,
   "layout": "452-wheatland",
+  "name": "Lucas Oil Speedway - Dirt Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:14:02.340236+00:00",
+  "candidates_seen": 82,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 82,
+    "new_candidates": 76,
+    "accepted": 7,
+    "selected": 7,
+    "kept_previous": 6,
+    "kept_despite_rejection": [],
+    "new_selected": 1,
+    "rejected": 75,
+    "rejection_reasons": {
+      "no guide words in title": 38,
+      "venue not in title": 30,
+      "too short": 5,
+      "too long": 1,
+      "live stream": 1
+    }
+  },
   "selected_guides": {
-    "truck": [
+    "general": [
       {
-        "video_id": "JXZpMgICUkI",
-        "title": "Pro4 Tutorial - How To Get Fast - Wild West",
-        "description": "iRacing Lucas Oil Off-Road Truck Series Pro4 Tutorial - How To Get Fast - Wild West Please join our Discord\u00a0...",
-        "video_type": "other",
-        "car": "truck",
-        "quality_score": 120
+        "video_id": "pQWhg_OVZf0",
+        "title": "iRacing - Bumps N Bends - Track Guide - Lucas Oil Raceway",
+        "description": "iRacing I don't like to show cheats in iRacing, but this is the biggest anomoly I have seen within the simulator and needs to be ...",
+        "channel": "GleNRG",
+        "duration": 894,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "R3xbZC5ZHeI",
+        "title": "iRacing Maconi B-Fixed Lucas Oil IRP Guide to Qualifying and Race 26S4",
+        "description": "iRacing NOAPS Qualifying and Race Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 456,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ],
-    "street_stock": [
+    "rallycross_beetle": [
       {
-        "video_id": "yaV1OBeBkMI",
-        "title": "Dirt Driving Techniques - Street Stock - By Andrew Fayash III",
-        "description": "www.thesimpit.com presents Andrew Fayash III once again with some insight on dirt track racing. Andrew is one of the top oval\u00a0...",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 20
+        "video_id": "eXuYFs4X_pY",
+        "title": "iRacing Rallycross Track Tutorial | Lucas Oil",
+        "description": "Welcome to a Kinda Fast IRX Group Lap Tutorial! We are at Lucas Oil this week, a tough and technical circuit with a tricky joker.",
+        "channel": "Kinda Fast iRX Group",
+        "duration": 1916,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "BBxnG2f91uY",
+        "title": "iRacing Lap Tutorial: Lucas Oil Off Road Pro 2 Lite @ Daytona International Speedway Rallycross Long",
+        "description": "It's been a long time since iRacing has been on this channel! Since I made my return to the service due to the pandemic, I decided ...",
+        "channel": "Kyle Young",
+        "duration": 972,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "EQ00bL6UsP4",
+        "title": "iRacing Maconi C-Fixed Trucks IRP (Lucas Oil) Guide to Qualifying and Race 25S3",
+        "description": "iRacing NASCAR Series Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the Open ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 391,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "G51NliWpH1c",
+        "title": "Qualifying Breakdown // iRacing C-Fixed Trucks at IRP Lucas Oil Raceway",
+        "description": "iRacing NASCAR Camping World Truck Series Qualifying Guide for IRP Lucas Oil Raceway. C-Fixed. Lap time is a 22.170 on a ...",
+        "channel": "Car Inside",
+        "duration": 245,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "truck": [
+      {
+        "video_id": "mclEEhFltgs",
+        "title": "Pro 4 Truck - Lucas OIL Speedway Track Guide",
+        "description": "FRA: New Track Guide video for Pro 4 Truck Fixed with the Lucas OIL Speedway circuit!\n\nIn this video, you'll find the complete ...",
+        "channel": "Quentin DALL'OLMO",
+        "duration": 1168,
+        "video_type": "lap_walkthrough",
+        "car": "truck",
+        "quality_score": 180,
+        "venue_confidence": 1.0
       }
     ]
   }

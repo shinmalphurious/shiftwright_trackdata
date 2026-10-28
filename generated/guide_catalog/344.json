@@ -1,67 +1,43 @@
 {
   "track_id": 344,
   "layout": "344-fairbury",
+  "name": "Fairbury Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:05:52.215016+00:00",
+  "candidates_seen": 66,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 66,
+    "new_candidates": 65,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 65,
+    "rejection_reasons": {
+      "no guide words in title": 43,
+      "too short": 11,
+      "venue not in title": 8,
+      "live stream": 2,
+      "too long": 1
+    }
+  },
   "selected_guides": {
-    "late_model": [
+    "general": [
       {
-        "video_id": "5jbwiXxw6QQ",
-        "title": "iRacing: Dirt Super Late Model @ Fairbury",
-        "description": "Get This EXACT Same Setup Pack Here(Lap Time Shown): https://bit.ly/3IcmYNJ \u25bb What Is Premier Racing Setups? Premier\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
-      },
-      {
-        "video_id": "RskaY6e3_1c",
-        "title": "WORKING IT HARD from the driver's seat at Fairbury Speedway's FALS Frenzy Mars Racing Event",
-        "description": "Gotta work harder than ever when the rear-end on your dirt late model breaks on lap one of qualifying against a great field of dirt\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 20
-      },
-      {
-        "video_id": "zEOF52eZ_kY",
-        "title": "Custom set up for Fairbury | Dirt Late Models | World of Outlaws Dirt Racing",
-        "description": "The Official Game of The World of Outlaws! Race in both the premier World of Outlaws Sprint Car and Late Model Series, as well\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 20
-      }
-    ],
-    "street_stock": [
-      {
-        "video_id": "453HOY-LryE",
-        "title": "iRacing: Dirt Street Stock @ Fairbury",
-        "description": "Get This EXACT Same Setup Pack Here(Lap Time Shown): https://bit.ly/3FcfUie \u25bb What Is Premier Racing Setups? Premier\u00a0...",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      },
-      {
-        "video_id": "S6CqAaPQWJM",
-        "title": "Street Stocks - Fairbury - iRacing Dirt",
-        "description": "iRacing Referral code : https://www.iracing.com/membership/?refid=16613 Twitter - @KNEEBON5 i9-9900 , 2080TI, 32GB RAM.",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      },
-      {
-        "video_id": "Clr3KZPtYIQ",
-        "title": "DIRTcar eSports Street Stocks Fairbury Speedway April 25th, 2020 | HIGHLIGHTS",
-        "description": "DIRTcar eSports Street Stocks Feature Event Highlights from Fairbury Speedway in Fairbury, Illinois on April 25th, 2020.",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 20
-      }
-    ],
-    "modified": [
-      {
-        "video_id": "QA-GBLYiNYA",
-        "title": "$5,000 To Win The Modified Feature Fairbury Speedway",
-        "description": "to win the modified feature Fairbury Speedway Top 5 1 # 24H Mike Harrison 2 #1 8L Michael Long 3 # 8 Kyle Steffens 4 # 25 Tyler\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 20
+        "video_id": "7JikTZOIV8Y",
+        "title": "How to Drive Fairbury",
+        "description": "",
+        "channel": "Iamindy33",
+        "duration": 1239,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 126,
+        "venue_confidence": 0.9
       }
     ]
   }

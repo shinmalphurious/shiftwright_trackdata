@@ -210,5 +210,737 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Mustang GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brake before 300 marker, full brake until turn-in at 100 board",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Brake at 500 marker, 55-60% pressure, trail off",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn-in at 100 board, apex at inside curb, full throttle exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Turn left, tight to the wall",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle, stay close to outside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't take too much curb, don't cross pit lane exit line",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at 500, 55-60% pressure, trail off. Turn left at 100, tight to the wall. Full throttle exit, stay close to outside wall. Avoid curb and pit lane exit line."
+    },
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake crossing yellow line, 70% brake pressure to inside curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "get close to left wall, apex at inside curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle, stay close to inside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't cut too much inside curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 70% at yellow line, get close to left wall, apex at inside curb, full throttle on exit, stay close to inside wall, avoid cutting curb."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "tap brake to 10% at markers, off brake before curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle before curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't hit curb too hard",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Tap brake to 10% at markers, release before curb. Full throttle before curb. Avoid hitting curb hard."
+    },
+    "T5": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Mercedes AMG"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "brake to 25% at discolorations, off brake before curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "pale patch on left, 35%",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cut curb, left side tires on main curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "attack gas at apex",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle after curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "exit wide",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "avoid slow down on inside",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 25% at discolorations, then 35% at pale patch (Mercedes AMG). Cut curb, left side tires on main curb. Attack gas at apex, exit wide and full throttle after curb."
+    },
+    "T6": {
+      "name": null,
+      "videos": 3,
+      "cars": [
+        "Mercedes AMG",
+        "Mustang GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "brake to 90% at 200 board, ease off to inside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "brakes midway between 300 and 200, 55%",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "50-55% braking, trail off, second gear",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "2",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "head over to the right side",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "get close to inside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "trail off, attack apex",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle after inside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "wide, left-hand side",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "exit nice and wide",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "don't hit wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 55% between 300 and 200, ease off. Use 2nd gear. Stay close to inside wall, trail off, attack apex. Exit wide on left-hand side. Full throttle after inside wall. Avoid hitting the wall."
+    },
+    "T7": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "Mustang GT3"
+      ],
+      "notes_by_method": {
+        "sequence_match": 1
+      },
+      "braking": [
+        {
+          "text": "60% braking, trail off, second gear",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 0.903,
+          "methods": [
+            "sequence_match"
+          ]
+        }
+      ],
+      "tip": "Brake to 60%, trail off, use second gear."
+    },
+    "T8": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Mustang GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 3
+      },
+      "braking": [
+        {
+          "text": "200 board, 50% brake pressure to curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "50% braking, trail off, second gear",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "cut all red and white curb, inside wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "head over to the left-hand side",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "easy throttle, avoid wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "exit nice and wide",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "lift off throttle to avoid wall",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "hitting the wall slows you down",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 200 board with 50% pressure, trail off, use second gear. Cut red and white curbs, stay close to inside wall. Exit wide, avoid wall by easing throttle."
+    },
+    "T9": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "Mercedes AMG"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brakes after 400 ft marker, 55%",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "attack corner",
+          "videos": 1,
+          "cars": [
+            "Mercedes AMG"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 55% at 400 ft marker, shift to 2nd gear, take an aggressive line."
+    },
+    "T10": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "25% brake pressure under Firestone bridge",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "follow red and white curb on inside",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle when curb ends",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 25% under Firestone bridge, follow red and white curb, full throttle when curb ends."
+    },
+    "T11": {
+      "name": null,
+      "videos": 1,
+      "cars": [],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "when the curb straightens, 90% brake pressure, easing off",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn in early, follow red and white curb",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "full throttle as early as possible",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "getting too far off the curb, bad exit",
+          "videos": 1,
+          "cars": [],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 90% at curb straightening, ease off. Turn in early, follow red and white curb. Go full throttle early on exit. Avoid going wide and losing exit speed."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.918,
+        "basis": "consensus",
+        "evidence": {
+          "research": 2,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T11": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.9,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 1,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T11: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

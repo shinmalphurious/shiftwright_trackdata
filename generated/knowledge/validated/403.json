@@ -1,0 +1,564 @@
+{
+  "track_id": 403,
+  "track": "Red Bull Ring - Grand Prix",
+  "records": {
+    "403:T1:heavy_braking": {
+      "id": "403:T1:heavy_braking",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T1",
+      "corner_name": "Niki Lauda Kurve",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "736 m from the previous corner",
+          "at": "2026-10-28T09:50:09+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after long straight, significant distance to next corner.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.987
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.788,
+            "speed_drop": 0.541,
+            "min_speed_share": 0.45,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.183,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); telemetry confirms over 10 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T1:important_exit": {
+      "id": "403:T1:important_exit",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T1",
+      "corner_name": "Niki Lauda Kurve",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "685 m to the next corner",
+          "at": "2026-10-28T09:50:09+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high-speed run.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.987
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.788,
+            "speed_drop": 0.541,
+            "min_speed_share": 0.45,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.183,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T1: research 0.75 from 2 source(s); telemetry confirms over 10 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T3:important_exit": {
+      "id": "403:T3:important_exit",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T3",
+      "corner_name": "Remus",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "874 m to the next corner",
+          "at": "2026-10-28T09:50:09+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high-speed run.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-27T19:30:49+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.987
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.888,
+            "speed_drop": 0.743,
+            "min_speed_share": 0.251,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.149,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T3: research 0.75 from 2 source(s); telemetry confirms over 10 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T4:heavy_braking": {
+      "id": "403:T4:heavy_braking",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T4",
+      "corner_name": "Schlossgold",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "874 m from the previous corner",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.968
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.739,
+            "speed_drop": 0.673,
+            "min_speed_share": 0.327,
+            "min_throttle": 0.0,
+            "flat_after_pct": 0.084,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T4: research 0.60 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T10:important_exit": {
+      "id": "403:T10:important_exit",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T10",
+      "corner_name": "Red Bull Mobile",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "736 m to the next corner",
+          "at": "2026-10-28T09:50:09+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high-speed run.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-27T19:30:49+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.987
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.549,
+            "speed_drop": 0.297,
+            "min_speed_share": 0.52,
+            "min_throttle": 0.036,
+            "flat_after_pct": 0.147,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T10: research 0.75 from 2 source(s); telemetry confirms over 10 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T8:important_exit": {
+      "id": "403:T8:important_exit",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T8",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high-speed run.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:25:04+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:23:51+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.984
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.0,
+            "speed_drop": 0.107,
+            "min_speed_share": 0.677,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.101,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T4:important_exit": {
+      "id": "403:T4:important_exit",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T4",
+      "corner_name": "Schlossgold",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner, but long distance to corner after that.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:37:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.984
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.739,
+            "speed_drop": 0.673,
+            "min_speed_share": 0.327,
+            "min_throttle": 0.0,
+            "flat_after_pct": 0.084,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "403:T7:important_exit": {
+      "id": "403:T7:important_exit",
+      "track_id": 403,
+      "track": "Red Bull Ring - Grand Prix",
+      "corner": "T7",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance to next corner, but long distance to corner after that.",
+          "at": "2026-10-28T09:50:09+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:40:25+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.984
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 10,
+          "metrics": {
+            "peak_brake": 0.454,
+            "speed_drop": 0.254,
+            "min_speed_share": 0.591,
+            "min_throttle": 0.014,
+            "flat_after_pct": 0.131,
+            "laps": 10
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 10,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T7: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

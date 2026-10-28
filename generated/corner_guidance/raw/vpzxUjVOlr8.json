@@ -1,0 +1,84 @@
+{
+  "video_id": "vpzxUjVOlr8",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Corvette GT3 Zandvoort Guide 1:30.9 Corvette Circuit Zandvoort GP Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:28:39.243063+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "2:10",
+      "sequence": 1,
+      "braking": "lamp post on left, 60%",
+      "gear": "down to second",
+      "line": "late apex",
+      "exit": "100% exiting wide, back left, front tires alongside yellow ADAC"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn number three",
+      "start_time": "2:10",
+      "sequence": 1,
+      "braking": "30-35 40%",
+      "gear": "down to third",
+      "line": "trail braking, flat",
+      "exit": "back on gas at apex"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "2:10",
+      "sequence": 1,
+      "braking": "50 board, 40%",
+      "gear": "fourth",
+      "line": "trail braking",
+      "exit": "pick back up on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:29",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "end of left curb, 40%",
+      "gear": "4th",
+      "line": "wide exit",
+      "exit": "gas on wide exit",
+      "mistakes": "don't run over curb"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "3:29",
+      "sequence": 2,
+      "braking": "ahead of 50 board, 40%",
+      "gear": "3rd",
+      "line": "get nose pointed in",
+      "exit": "gas on when seeing cm.com banner"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "4:50",
+      "sequence": 3,
+      "label_guess": "T10",
+      "braking": "brake to 60% at 100 board, trail off to 15%",
+      "gear": "down to second",
+      "line": "left tires on rumble strip, attack curb",
+      "exit": "gas to 50%, back off, brake to 45%, trail off to third, gas to 100%",
+      "mistakes": "don't take too much curb, don't over brake"
+    }
+  ],
+  "general_tips": [
+    "objects on for braking markers",
+    "brake at portter potty, 35%",
+    "gas on when car points left of cm.com banner"
+  ],
+  "dropped_ungrounded": 0
+}

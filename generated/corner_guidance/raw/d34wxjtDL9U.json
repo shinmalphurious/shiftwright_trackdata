@@ -1,0 +1,111 @@
+{
+  "video_id": "d34wxjtDL9U",
+  "track_id": 47,
+  "track_name": "WeatherTech Raceway at Laguna Seca - Full Course",
+  "title": "iRacing Track Guide Laguna Seca | Formula Vee | 1:43.061",
+  "car_hint": "vee",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:33:25.050067+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "1:18",
+      "sequence": 1,
+      "line": "turn-in then hit both apexes",
+      "exit": "get on power early",
+      "mistakes": "don't run wide"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "brake on two board, straight line to apex",
+      "line": "double apex",
+      "mistakes": "don't run wide"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "dab of brakes between the one and two board, 150 mark",
+      "line": "turn in at the two board, use all of the curb",
+      "exit": "smooth exit, get on full power as soon as possible",
+      "mistakes": "running wide, missing the apex, hitting the red kerb"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "2:36",
+      "sequence": 2,
+      "line": "use all of the curb, follow as the curb tapers back onto the track",
+      "exit": "smooth exit, get on throttle nice and early",
+      "mistakes": "missing the red kerb, using all of the exit curve"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "breaking down to third",
+      "exit": "get on throttle nice and early",
+      "mistakes": "using all of the exit"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "the corkscrew",
+      "start_time": "3:54",
+      "sequence": 3,
+      "braking": "brake in a straight line along the curbing",
+      "gear": "3rd or 2nd (prefer 3rd)",
+      "line": "straight line",
+      "mistakes": "awkward because there is an off track and a slow down on the second part"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn nine",
+      "start_time": "3:54",
+      "sequence": 3,
+      "label_guess": "T9",
+      "gear": "3rd",
+      "line": "miss the red thing on the inside"
+    },
+    {
+      "label": null,
+      "spoken_as": "second last corner",
+      "start_time": "3:54",
+      "sequence": 3,
+      "label_guess": "T10",
+      "braking": "break i don't change down the gear",
+      "gear": "3rd",
+      "mistakes": "be very cautious turning in with brakes here the rear end of the car will let go quite easily"
+    },
+    {
+      "label": null,
+      "spoken_as": "final corner",
+      "start_time": "3:54",
+      "sequence": 3,
+      "label_guess": "T11",
+      "braking": "stand on the brakes just down one gear",
+      "line": "hit the red kerb because we're going a lot slower",
+      "exit": "full power there and did get a little bit of a slide going on keep it in a straight line to the apex just under the bridge there"
+    }
+  ],
+  "general_tips": [
+    "Check track temperature and adjust braking points accordingly.",
+    "Be cautious of rear-end instability under braking.",
+    "Ease off the brakes, gently turn in, then get on power.",
+    "Third gear is deceptive; change gear earlier than expected.",
+    "high brake bias in 60s, dropped to 58-60%",
+    "this car is all about apex speed",
+    "get on full power as soon as possible",
+    "don't use all of the exit curve",
+    "the car cam doesn't go through the dip so it really does rotate quite well up the hill"
+  ],
+  "dropped_ungrounded": 0
+}

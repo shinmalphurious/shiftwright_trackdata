@@ -73,5 +73,108 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "legends"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "slowly off the gas, little bit of brake",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "high line, follow the wall, keep left tires on the Groove",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "slowly getting into the gas, drive the car out",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "low line ruins exit speed",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake gently, stay high on the track, hug the wall. Keep left tires in the groove. Avoid the low line to maintain exit speed."
+    },
+    "T4": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "legends"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "braking markers, let off gas, brake before turn-in",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "turning wheel while braking, hitting the wall",
+          "videos": 1,
+          "cars": [
+            "legends"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake at the markers, let off gas, brake before turn-in (legends). Avoid turning the wheel while braking to prevent hitting the wall."
+    }
+  },
+  "corner_facts": {}
 }

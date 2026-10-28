@@ -1,0 +1,58 @@
+{
+  "video_id": "uL_gQZWDwoE",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "Indianapolis Road Course - Foracer Ajira Racing Track Guides 2013",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:26:07.356217+00:00",
+  "passages": 3,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first corner",
+      "start_time": "1:23",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "attack as much as you can"
+    },
+    {
+      "label": null,
+      "spoken_as": "second corner",
+      "start_time": "1:23",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "attack as much as you can"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn 4",
+      "start_time": "1:23",
+      "sequence": 1,
+      "exit": "fight with the oversteer",
+      "mistakes": "not an easy one"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn 5",
+      "start_time": "1:23",
+      "sequence": 1,
+      "gear": "second gear",
+      "line": "flat out"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn 7",
+      "start_time": "1:23",
+      "sequence": 1,
+      "exit": "a bit complicated very slippery"
+    }
+  ],
+  "general_tips": [
+    "be really aggressive but at the same time really precise to find the perfect line",
+    "have a good traction"
+  ],
+  "dropped_ungrounded": 0
+}

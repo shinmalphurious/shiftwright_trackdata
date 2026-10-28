@@ -142,5 +142,480 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {
+    "T1": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "skippy"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "brake to first gear at banners on left",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "1st",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "turn in, apex at banner, exit on dirt",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "accelerate to 4th gear before apex",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "do not run wide, harsh off track",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 1st gear at left banners, turn in, apex at banner, exit on dirt. Accelerate to 4th gear before apex. Avoid running wide."
+    },
+    "T2": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "skippy"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "None, full throttle",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Full throttle",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "full throttle",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Straight line",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Full throttle",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Hit the kerb on the inside",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay on the straight line, avoid hitting the inside kerb. Full throttle throughout."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "skippy"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Brake for turn three, down to third gear",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "Third gear",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Wide entry, late apex, use inside curbing",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Full throttle early",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Use no more than the red and white curbing on the right",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to third gear, take wide entry, use inside curbing for late apex. Full throttle early, avoid excessive curbing."
+    },
+    "T5": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "skippy"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Start braking for the hairpin, second gear, cold tires maybe first.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Lay the apex and get on power as soon as possible.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Better exit benefits the upcoming straight.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Don't run too far wide, curb crests onto grass.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake early to 1st or 2nd gear, depending on tire grip. Aim for the apex, avoid the curb and grass. Power out for a strong exit onto the straight."
+    },
+    "T6": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "skippy"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "Keep it on the left side for the straight as much as possible.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Minimize scrub and steering angle.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Not really a corner, avoid running wide on left.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay left, minimize scrub and steering angle, avoid running wide."
+    },
+    "T8": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "skippy"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "braking": [
+        {
+          "text": "Break down into second gear at cement dust white marking.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "2nd",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Straight line it as much as possible.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Cut it as much as possible.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "text": "Don't run wide on left, off track and slow down.",
+          "videos": 1,
+          "cars": [
+            "skippy"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to cement dust, downshift to 2nd gear. Stay straight, cut exit. Avoid left side, slow if off track."
+    }
+  },
+  "corner_facts": {
+    "T1": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.98,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 4
+        },
+        "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); confirmed at 4 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T9": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.977,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 4
+        },
+        "explanation": "Heavy braking zone at T9: research 0.75 from 1 source(s); confirmed at 4 identical corner(s) of other layouts; consensus 0.98 -> validated (evidence supports the claim)"
+      }
+    ]
+  }
 }

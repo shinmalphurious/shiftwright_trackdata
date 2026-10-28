@@ -1,0 +1,133 @@
+{
+  "video_id": "iSp0B9ckHcI",
+  "track_id": 173,
+  "track_name": "Suzuka International Racing Course - Moto",
+  "title": "iRacing Porsche GT3 Suzuka Guide 1:56.1 Porsche 992 R GT3 Suzuka GP Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:56:08.037462+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:37",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at 50 marker, turn in flat",
+      "line": "Turn in at 50 marker or cone, flat entry",
+      "exit": "Roll to 40-45%, give room, roll off brakes, back on gas ahead of apex"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "2:37",
+      "sequence": 1,
+      "braking": "Light dab of brakes, down to third gear",
+      "gear": "3",
+      "line": "Turn in flat, lift as coming across track",
+      "exit": "Back on gas at apex, don't go 100% before lifting again"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "3:55",
+      "sequence": 2,
+      "braking": "Lightly on the brakes just to get us turned in",
+      "line": "Turn in, apex at the apex, back on the gas",
+      "exit": "Back on the gas at the apex"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "3:55",
+      "sequence": 2,
+      "braking": "Get on the brakes, off the gas",
+      "line": "Get the nose pointed in, back on the gas at the apex",
+      "exit": "Back on the gas at the apex"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:55",
+      "sequence": 2,
+      "braking": "No brakes",
+      "line": "No braking, lift but not full",
+      "exit": "No braking"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "3:55",
+      "sequence": 2,
+      "braking": "Braking throughout 40%",
+      "gear": "Trail it off down to second",
+      "line": "Midway between 100 board and 50 board",
+      "exit": "Back on the gas at the apex"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "3:55",
+      "sequence": 2,
+      "braking": "Braking halfway along rumble strip",
+      "gear": "Trail it off down to second",
+      "line": "Right-hand tires over rumble strip and curbing",
+      "exit": "Back on the gas at the apex"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "5:14",
+      "sequence": 3,
+      "braking": "brake to 50-55% at second to last lamp post, drop to 1st gear",
+      "gear": "1st",
+      "line": "flat across",
+      "exit": "smoothly come back on gas"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "5:14",
+      "sequence": 3,
+      "line": "flat"
+    },
+    {
+      "label": null,
+      "spoken_as": "13",
+      "start_time": "5:14",
+      "sequence": 3,
+      "label_guess": "T13",
+      "braking": "brake to 45-50% before entrance road, trail off",
+      "line": "pick back up on gas at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "14",
+      "start_time": "5:14",
+      "sequence": 3,
+      "label_guess": "T14",
+      "braking": "brake to 10-15% on right-hand curbing",
+      "line": "get nose pointed in"
+    },
+    {
+      "label": "T15",
+      "spoken_as": "turn 15",
+      "start_time": "6:31",
+      "sequence": 4,
+      "braking": "brake at 50 to 80%",
+      "gear": "down to 2nd gear",
+      "line": "turn-in at 50, apex at curb, exit on right side",
+      "exit": "back on gas at apex, keep left tires on track",
+      "mistakes": "too early turn-in leads to off-track"
+    }
+  ],
+  "general_tips": [
+    "Use light brake dabs to ensure weight over front wheels for turn-in grip",
+    "final braking at 150-100m, 60%",
+    "blip of gas, lift over second curb"
+  ],
+  "dropped_ungrounded": 0
+}

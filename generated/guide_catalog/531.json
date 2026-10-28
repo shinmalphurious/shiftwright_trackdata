@@ -1,5 +1,29 @@
 {
   "track_id": 531,
   "layout": "531-husets",
+  "name": "Huset's Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:04:52.105572+00:00",
+  "candidates_seen": 59,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 59,
+    "new_candidates": 59,
+    "accepted": 0,
+    "selected": 0,
+    "kept_previous": 0,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 59,
+    "rejection_reasons": {
+      "no guide words in title": 27,
+      "venue not in title": 16,
+      "too short": 14,
+      "too long": 2
+    }
+  },
   "selected_guides": {}
 }

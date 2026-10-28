@@ -1,0 +1,108 @@
+{
+  "track_id": 404,
+  "track": "Red Bull Ring - National",
+  "records": {
+    "404:T6:important_exit": {
+      "id": "404:T6:important_exit",
+      "track_id": 404,
+      "track": "Red Bull Ring - National",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "741 m to the next corner",
+          "at": "2026-10-28T09:50:17+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests that exit speed is crucial for maintaining speed.",
+          "at": "2026-10-28T09:50:17+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.938,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T00:44:03+00:00",
+          "consensus": 0.857,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.938,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:37:52+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.938
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Red Bull Ring - Grand Prix",
+            "source_track_id": 403,
+            "corner": "T10",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 0,
+            "telemetry": "confirm"
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T6: research 0.75 from 2 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.94 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "404:T4:important_exit": {
+      "id": "404:T4:important_exit",
+      "track_id": 404,
+      "track": "Red Bull Ring - National",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "basis": "inherited",
+      "confidence": {
+        "consensus": 0.984
+      },
+      "source_track": "Red Bull Ring - Grand Prix",
+      "source_track_id": 403,
+      "source_corner": "T8",
+      "inheritance_confidence": 1.0,
+      "evidence": {
+        "inherited_from": "403:T8:important_exit"
+      },
+      "reason": "validated at an identical corner",
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: inherited from Red Bull Ring - Grand Prix T8 (same corner, same approach, inheritance 1.00); Exit leads onto a long full-throttle run; exit speed matters at T8: research 0.75 from 1 source(s); telemetry confirms over 10 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "inherited_at": "2026-10-28T10:17:13+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "video_id": "idfsvgS1WzI",
+  "track_id": 105,
+  "track_name": "[Legacy] Phoenix Raceway - 2008 - Road Course",
+  "title": "iRacing BMW M2 Phoenix Road Guide - 1:03.0 - M2 Phoenix Legacy Road Track Guide",
+  "car_hint": "bmw_m2",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:22:59.210232+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "midc corner or mid track",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake initially up to 45%, long trail off",
+      "gear": "3rd",
+      "line": "wide turn-in, cut back in",
+      "exit": "jump over right curb, lift"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "flat"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "0:00",
+      "sequence": 0,
+      "gear": "3rd",
+      "exit": "wide exit"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "white line",
+      "line": "cut back in"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn seven",
+      "start_time": "1:18",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "brake to 60%, down to second gear",
+      "line": "wide exit"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn eight",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "lift at second Marshall's hut",
+      "gear": "fourth gear"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "midc corner",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "brake at 10-15%, increase to 45%",
+      "line": "wide entry",
+      "exit": "get back on the gas at NASCAR number board",
+      "mistakes": "do not cut the corner"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "get on brakes up to 25%, trail off to first apex, increase to 45%",
+      "gear": "third",
+      "line": "wide entry, tight to wall at apex",
+      "exit": "pick up on gas at apex in second"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:35",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "brakes about 60%",
+      "gear": "second",
+      "line": "wide entry, lift at Marshall's hut",
+      "exit": "pick up on gas before subway and NASCAR sign"
+    }
+  ],
+  "general_tips": [
+    "Stay wide on exit from previous corner to set up for turn eight.",
+    "everything's slippy slidy around here"
+  ],
+  "dropped_ungrounded": 3
+}

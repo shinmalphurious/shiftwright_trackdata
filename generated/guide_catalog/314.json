@@ -1,51 +1,150 @@
 {
   "track_id": 314,
   "layout": "314-charlottedirt",
+  "name": "The Dirt Track at Charlotte",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:25:42.111187+00:00",
+  "candidates_seen": 63,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 63,
+    "new_candidates": 53,
+    "accepted": 15,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 48,
+    "rejection_reasons": {
+      "no guide words in title": 26,
+      "venue not in title": 12,
+      "too long": 5,
+      "too short": 4,
+      "duplicate title": 1
+    }
+  },
   "selected_guides": {
-    "late_model": [
-      {
-        "video_id": "OIYOYCU1j8o",
-        "title": "Charlotte Fixed Qaulifying Guide- Super Late Model #iRacing",
-        "description": "5% Track with 20 Laps Ran. 14.9-15.0's should get you up front! *iRacing referral Code:\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "late_model",
-        "quality_score": 220
-      }
-    ],
     "street_stock": [
       {
         "video_id": "eMOML0mZUag",
         "title": "iRacing Charlotte Motor Speedway - Oval -2018 Dirt Street Stock (Dry) Beginner Track Guide",
         "description": "Sign up with the code CHARLOTTE6 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 198,
         "video_type": "lap_walkthrough",
         "car": "street_stock",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "AHYACsfG318",
-        "title": "iRacing Charlotte Motor Speedway - Oval -2018 Dirt Street Stock (Dry) Beginner Track Guide",
-        "description": "Sign up with the code CHARLOTTE6 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "video_id": "WdHy2DA7Bu0",
+        "title": "iRacing How To Drive - Street Stock at Charlotte Oval 2018",
+        "description": "Follow along with this simple guide to run quick laps at Charlotte Motor Speedway in the Street Stock on iRacing!",
+        "channel": "JBSIMWORKS",
+        "duration": 204,
         "video_type": "lap_walkthrough",
         "car": "street_stock",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
-        "video_id": "eKp24FyCaIo",
-        "title": "How to Qualify Pole Every time in Charlotte Street Stocks (iRacing)",
-        "description": "https://discord.gg/NMmzG5h8Xj.",
-        "video_type": "other",
+        "video_id": "9gVnpc_zl_A",
+        "title": "iRacing Track Guide: Street Stock at Charlotte Daytime",
+        "description": "Music by Karl Casey at White Bat Audio.",
+        "channel": "PDResh",
+        "duration": 550,
+        "video_type": "lap_walkthrough",
         "car": "street_stock",
-        "quality_score": 120
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "rallycross_beetle": [
+      {
+        "video_id": "mXvvWFxOm98",
+        "title": "iRacing Rallycross Track Guide | Charlotte RX | FIA Cross Car",
+        "description": "Looking to dominate Charlotte Rallycross in iRacing Rallycross? This guide breaks down everything you need to know to ...",
+        "channel": "Kieran Liflander",
+        "duration": 290,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "rlbpATHgKLg",
+        "title": "iRacing Rallycross Track Guide | Charlotte RX | Volkswagen Beetle Lite",
+        "description": "Looking to dominate Charlotte RX in iRacing Rallycross? This guide breaks down everything you need to know to maximize ...",
+        "channel": "Kieran Liflander",
+        "duration": 349,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "mS4FdKTuP28",
+        "title": "iRacing Rallycross Track Guide | Volkswagen Beetle Lite @ Charlotte RX",
+        "description": "Track guide for iRacing Charlotte RX in VW Beetle Lite Laptime 44.714 | Track temp 24°C | Track Wear ~40% If you enjoy this ...",
+        "channel": "Emin3X",
+        "duration": 481,
+        "video_type": "lap_walkthrough",
+        "car": "rallycross_beetle",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
     "nascar": [
       {
-        "video_id": "-8q-bBHqqDY",
-        "title": "Charlotte Motor Speedway Track Guide S1 2025 Indycar Oval Fixed",
-        "description": "Hi, it's Klendy! I'm here to show you around Charlotte, the home track of NASCAR which has been taken over by Indycar! With a\u00a0...",
+        "video_id": "qAd_kZnLVEw",
+        "title": "iRacing Cup Series - Charlotte - Track Guide",
+        "description": "All right i'm just doing a quick little video this week uh charlotte a little bit easier track uh not as much uh technicality to it so just ...",
+        "channel": "Jon Honaker",
+        "duration": 390,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "-8q-bBHqqDY",
+        "title": "Charlotte Motor Speedway Track Guide S1 2025 Indycar Oval Fixed",
+        "description": "Hi, it's Klendy! I'm here to show you around Charlotte, the home track of NASCAR which has been taken over by Indycar! With a ...",
+        "channel": null,
+        "duration": null,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 146,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "VKRIsentt_c",
+        "title": "iRacing Track Guides 2018 - Charlotte Race 2",
+        "description": "not the roval but oh well. also no 60fps.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 271,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      }
+    ],
+    "late_model": [
+      {
+        "video_id": "OIYOYCU1j8o",
+        "title": "Charlotte Fixed Qaulifying Guide- Super Late Model #iRacing",
+        "description": "5% Track with 20 Laps Ran. 14.9-15.0's should get you up front! *iRacing referral Code: ...",
+        "channel": "Justin Norwood Simsports",
+        "duration": 255,
+        "video_type": "lap_walkthrough",
+        "car": "late_model",
+        "quality_score": 196,
+        "venue_confidence": 0.9
       }
     ]
   }

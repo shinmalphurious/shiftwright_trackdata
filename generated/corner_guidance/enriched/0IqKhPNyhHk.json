@@ -1,0 +1,184 @@
+{
+  "video_id": "0IqKhPNyhHk",
+  "track_id": 128,
+  "track_name": "Road Atlanta - Short",
+  "title": "iRacing MX5 Road Atlanta Guide 1:35.3 Mazda MX5 Road Atlanta Track Guide",
+  "car": "Mazda MX-5",
+  "car_hint": "mx5",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "braking marker into turn one, lightly on the brakes to about 30%",
+      "gear": "third gear",
+      "line": "get out to left-hand side, trail it off down to the apex",
+      "exit": "back on the gas in third gear, exit nice and wide",
+      "note_id": "0IqKhPNyhHk:0",
+      "text": "braking: braking marker into turn one, lightly on the brakes to about 30%; gear: third gear; line: get out to left-hand side, trail it off down to the apex; exit: back on the gas in third gear, exit nice and wide",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:42",
+      "snippet": "lightly on the brakes to about 30%. Trail it off down to the apex back on the gas in third gear. We're going to go",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "200-ft line, just before the 100 or the 150",
+      "note_id": "0IqKhPNyhHk:1",
+      "text": "braking: 200-ft line, just before the 100 or the 150",
+      "spoken_as": "turn six",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:15",
+      "snippet": "going to go through the 200-ft line and just before the 100 or the 150, whatever it is, the second line."
+    },
+    {
+      "braking": "get on brakes from left-hand position, 30-35%",
+      "gear": "trail braking",
+      "line": "straight past grass bit",
+      "note_id": "0IqKhPNyhHk:2",
+      "text": "braking: get on brakes from left-hand position, 30-35%; gear: trail braking; line: straight past grass bit",
+      "spoken_as": "turn one",
+      "passage_time": "1:20",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:32",
+      "snippet": "from a left-hand position. We get on the brakes to about 30-35%. Now, we're just going to trail that off, we're going to",
+      "best_candidate": {
+        "corner_id": "T1",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T1",
+        "estimated_pct": 0.0646,
+        "corner_pct": 0.1807,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T1",
+        "corners_between": []
+      }
+    },
+    {
+      "gear": "drop into 3rd ahead of apex",
+      "line": "turn-in left, apex left, cut curbing on exit",
+      "exit": "get back on gas 100% at apex, left tires on rumble strip curbing",
+      "mistakes": "can be slippy, may need counter steering",
+      "note_id": "0IqKhPNyhHk:3",
+      "text": "gear: drop into 3rd ahead of apex; line: turn-in left, apex left, cut curbing on exit; exit: get back on gas 100% at apex, left tires on rumble strip curbing; mistakes: can be slippy, may need counter steering",
+      "spoken_as": "turn one",
+      "passage_time": "2:38",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:12",
+      "snippet": "apex curb itself, we're getting back on the gas already. Now, you may need to do a little bit of counter steering through",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 55-60%, short trail off",
+      "line": "right tires on curbing, left tires on left curbing",
+      "exit": "get back on gas 100% at left apex",
+      "note_id": "0IqKhPNyhHk:4",
+      "text": "braking: brake to 55-60%, short trail off; line: right tires on curbing, left tires on left curbing; exit: get back on gas 100% at left apex",
+      "spoken_as": "turn five",
+      "passage_time": "2:38",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.54,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:36",
+      "snippet": "short trail off, left-hand tires now getting over this curbing on the left-hand side, and we should be back up"
+    },
+    {
+      "braking": "Brake before second set of dashed lines, 75% pressure, sharp trail off",
+      "gear": "2nd, then 1st, back to 2nd at apex",
+      "line": "Left-hand curbing at apex",
+      "exit": "100% throttle before apex",
+      "note_id": "0IqKhPNyhHk:5",
+      "text": "braking: Brake before second set of dashed lines, 75% pressure, sharp trail off; gear: 2nd, then 1st, back to 2nd at apex; line: Left-hand curbing at apex; exit: 100% throttle before apex",
+      "spoken_as": "turn seven",
+      "passage_time": "3:54",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:10",
+      "snippet": "second gear, and then back onto 100% gas before that apex. We now want to get all of our left-hand",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at this line, briefly hit 100%",
+      "line": "turn in slightly early",
+      "exit": "flat out",
+      "mistakes": "could have turned in earlier, might have cost a tenth",
+      "note_id": "0IqKhPNyhHk:6",
+      "text": "braking: brake at this line, briefly hit 100%; line: turn in slightly early; exit: flat out; mistakes: could have turned in earlier, might have cost a tenth",
+      "spoken_as": "turn 10",
+      "passage_time": "5:12",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:32",
+      "snippet": "But, I could have turned in, yeah, just a fraction earlier. Maybe cost me a tenth.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

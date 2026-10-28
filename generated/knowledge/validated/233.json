@@ -1,0 +1,74 @@
+{
+  "track_id": 233,
+  "track": "Donington Park Racing Circuit - Grand Prix",
+  "records": {
+    "233:T11:hairpin": {
+      "id": "233:T11:hairpin",
+      "track_id": 233,
+      "track": "Donington Park Racing Circuit - Grand Prix",
+      "corner": "T11",
+      "corner_name": "Melbourne Hairpin",
+      "claim": "hairpin",
+      "statement": "Hairpin",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Named 'Hairpin', indicates a sharp, tight corner.",
+          "at": "2026-10-28T09:33:49+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.9,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:20:29+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.9
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "o677D5G_sKU",
+              "result": "confirm",
+              "time": "1:39",
+              "note": "braking: Braking hard to second gear.; gear: Second gear; line: Miss bollards, brake hard.; exit: Gentle throttle on exit.",
+              "transcript_snippet": "down to second gear. Now, I lost it so many times here at Goddards.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=o677D5G_sKU"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Hairpin at T11: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; consensus 0.90 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

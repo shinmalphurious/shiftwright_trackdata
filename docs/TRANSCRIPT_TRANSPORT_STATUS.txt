@@ -1,0 +1,168 @@
+HOW TO RUN (2026-10-27) - supersedes the notes below
+
+1. Find guides (about 10 per layout; small venues have fewer). Resumable: layouts already
+   searched are skipped. Roughly 1-2 hours for all 421.
+     python -m src.pipelines.run_guide_discovery
+     python -m src.pipelines.run_guide_discovery --limit 25     (a batch)
+     python -m src.pipelines.run_guide_discovery --track 403    (one layout, re-searched)
+   Titles must name the venue and read like a lap guide; hotlaps/onboards rank last.
+
+2. Queue the guides (safe to re-run; keeps progress, one item per video):
+     python -m src.pipelines.build_transcript_queue
+
+3. Download until the queue is empty or YouTube rate-limits:
+     python -m src.pipelines.run_transcript_master
+   "new transcripts" counts real new files only. It stops on QUEUE_EMPTY or a 429.
+
+4. Check which transcripts walk through the lap in order (the master runs this at the end):
+     python -m src.pipelines.verify_lap_guide_transcripts
+   -> generated/transcript_verification.json: lap_walkthrough / likely_walkthrough / rejected
+
+5. Extract per-corner instructions with local Ollama (about 20-80 s per video, resumable):
+     python -m src.pipelines.extract_corner_guidance            (--include-likely, --model)
+   -> generated/corner_guidance/raw/<video_id>.json
+
+5b. Place notes the extractor left without a corner, deterministically (no model, no downloads):
+     python -m src.pipelines.enrich_corner_assignments   (--min-confidence, --max-passes, --decay,
+                                                          --no-calibrate, --no-analysis)
+   Settings: config/enrichment.json. Aliases: config/corner_aliases.json.
+   Stages: explicit 1.00 > alias_match > telemetry_match / sequence_match > lap_position, over
+   up to max_passes passes (placements become fixed points for the next pass, never gaining
+   confidence). Each run hides every third explicit note, measures how often each method puts
+   it back right, and caps that method's confidence at its accuracy (calibration).
+   -> generated/corner_guidance/enriched/, enrichment_report.json, enrichment_review.csv,
+      provenance_report.json (notes hard to find in their transcript, and why),
+      confidence_analysis.json (per enhancement, per threshold, histogram, accuracy)
+   Telemetry comes from your own laps in shiftwright.db and reference traces under
+   external/references/<car>/<track_id>/; it is used automatically on the next run.
+
+5c. Coverage and validation:
+     python -m src.pipelines.build_telemetry_coverage   -> generated/telemetry/telemetry_coverage.json
+        (which layouts have guidance / telemetry; where a reference lap would help most)
+     python -m src.pipelines.validate_track_knowledge   -> generated/validation/track_knowledge_validation.json
+        (duplicate or missing turn ids, turns out of order, alias clashes; also run by
+         build_track_knowledge_pack)
+   Tests: python -m unittest discover tests
+
+5d. Research -> validation -> consensus (corner facts such as heavy braking, flat, hairpin):
+     python -m src.pipelines.research_track_candidates     (--track N, --all, --no-ai, --model)
+        Tier 1: geometry rules + local Ollama hypotheses -> generated/knowledge/candidates/
+        Research only proposes; claims are limited to src/knowledge/claims.py.
+     python -m src.pipelines.validate_knowledge_candidates
+        Tiers 2-3: transcript notes, telemetry (own laps + reference laps) and identical
+        corners of sibling layouts test each claim; consensus (config/consensus.json) promotes,
+        rejects or keeps it pending. Validated claims are inherited by identical corners.
+        -> generated/knowledge/validated/ (source of truth), rejected/, consensus_report.json
+   Re-run both whenever transcripts or telemetry are added: pending claims get decided.
+
+6. Merge per layout and write a coaching tip per corner:
+     python -m src.pipelines.build_corner_guidance
+     python -m src.pipelines.build_track_knowledge_pack
+   -> generated/corner_guidance/<track_id>.json and corner_guidance in the knowledge packs
+
+7. In Project_Shiftwright: python scripts/import_knowledge_packs.py
+   (fills description and coaching_tip, which the AI coach reads; never overwrites hand-written text)
+
+Fixed 2026-10-27: when nothing was claimed, the downloader re-downloaded the previous video
+forever and counted it as a success (FBl4Cy1rT68 was saved about 2,700 times).
+
+------------------------------------------------------------------------------------------
+2026-10-24 note: the queue counts below (76 ready / 1 rate_limited / 1
+claimed) are stale — as of today it's 55 ready_for_download / 14
+downloaded / 9 claimed, and generated/transcript_rate_limit.json shows
+no active global pause, so caption downloads are not currently blocked
+the way this doc describes. run_transcript_master.py is a wrapper that
+loops the run_transcript_pipeline command below with a sleep between
+cycles and stops itself on a detected rate limit — same engine, just
+looped. Re-run the "To see queue health" commands below to get today's
+real numbers before acting on this doc.
+
+When the subtitle transport starts working again, the script that should drive actual transcript acquisition is:
+
+python -m src.pipelines.run_transcript_pipeline
+
+
+Current lifecycle:
+
+release_transcript_queue
+↓
+claim_next_transcript
+↓
+attempt_transcript_download
+
+
+The queue currently contains approximately:
+
+ready_for_download: 76
+rate_limited: 1
+claimed: 1
+
+
+so there is already plenty of work waiting.
+
+To inspect the next candidate
+python -m src.pipelines.claim_next_transcript
+
+
+Then:
+
+Get-Content generated\current_transcript_task.json
+
+To see queue health
+Get-Content generated\transcript_rate_limit.json
+Get-Content generated\transcript_queue.json -First 40
+
+To continue discovery while transcripts are blocked
+python -m src.pipelines.run_discovery_batch
+
+
+or a single track:
+
+python -m src.pipelines.run_track_discovery
+
+Reality Check
+
+The current blocker is still:
+
+YouTube caption download endpoint
+↓
+HTTP 429
+
+
+Metadata retrieval works:
+
+Caption metadata ✅
+Caption languages ✅
+Caption URLs ✅
+
+
+But the actual caption file retrieval does not.
+
+So today:
+
+run_transcript_pipeline
+
+
+will mostly exercise:
+
+Queue
+↓
+Claim
+↓
+Backoff
+↓
+Pause
+
+
+rather than produce transcripts.
+
+The good news is that the transcript system is now in place:
+
+Queue ✅
+Provider Abstraction ✅
+Backoff ✅
+Circuit Breaker ✅
+Caption Cache ✅
+
+
+When transport becomes available, run_transcript_pipeline is the script that should drive enrichment.

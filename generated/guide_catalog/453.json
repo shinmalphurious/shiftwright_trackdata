@@ -1,15 +1,145 @@
 {
   "track_id": 453,
   "layout": "453-indianapolis-2022-oval",
+  "name": "Indianapolis Motor Speedway - Open Wheel Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:28:24.493934+00:00",
+  "candidates_seen": 28,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 28,
+    "new_candidates": 18,
+    "accepted": 11,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 17,
+    "rejection_reasons": {
+      "venue not in title": 13,
+      "too short": 2,
+      "no guide words in title": 1,
+      "too long": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
-        "video_id": "mzCw6M0OpOw",
-        "title": "iRacing Fixed NASCAR Series Tutorial: B Fixed Xfinity at Indianapolis Oval 23S1. Maconi Setup Shop",
-        "description": "iRacing NASCAR Fixed Series Tutorial by Justin Yee for Maconi Setup Shop LLC.",
-        "video_type": "other",
+        "video_id": "yjo4l4FE6a8",
+        "title": "iRacing NASCAR A Class Weekly Track Guide - Indianapolis Motor Speedway 2025",
+        "description": "Use promo code 'ALFREDOPRO' to save on Logitech G products: https://logi.gg/alfredopro Check out all my links here: ...",
+        "channel": "Anthony Alfredo",
+        "duration": 232,
+        "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 120
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "C5kFZfZ8qoA",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Indianapolis",
+        "description": "New aero, new tires, new setups, new...everything! Let TCSP help you get dialed in! And...don't miss the iRacing Brickyard 400's ...",
+        "channel": "Team Conti",
+        "duration": 1930,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "mx5": [
+      {
+        "video_id": "NyehuCQiJd4",
+        "title": "Track Guide: iRacing Indianapolis Motor Speedway - Road Course Global Mazda MX-5 Cup (Dry) (Hotl...",
+        "description": "Sign up with the code INDIANAPOLIS9808 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 358,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      }
+    ],
+    "general": [
+      {
+        "video_id": "E_HcSJxdecE",
+        "title": "IndyCar iRacing Series - Oval - Fixed Setup Track Guide | 2025S3 W4 at Indianapolis Motor Speedway",
+        "description": "Learn to master the new INDYCAR Dallara IR18 tire model around the Indianapolis Motor Speedway on iRacing. Timestamps",
+        "channel": "TTSR SimSport ",
+        "duration": 201,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "fvqnYSZgVvI",
+        "title": "Track Guide: iRacing Indianapolis Motor Speedway - Road Course Mercedes-AMG GT3 2020 (Dry) (Hotl...",
+        "description": "Sign up with the code INDIANAPOLIS8766 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 329,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 210,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "SdfcnjAcRPg",
+        "title": "Indianapolis Oval Setup and Track Guide (Indycar iRacing Series)",
+        "description": "Click this link for the community setups: ...",
+        "channel": "P1 Broadcasting",
+        "duration": 408,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "dlWLK6oATv4",
+        "title": "iRacing Mercedes GT3 Indy Road Guide 1:23.0 Mercedes AMG GT3 Indianapolis Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 208,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "uimNh4puy2Y",
+        "title": "iRacing Mustang GT3 Indy Road Guide 1:22.9 Ford Mustang GT3 Indianapolis Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 419,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "Sy_9qR-qN1Q",
+        "title": "iRacing Ferrari GT3 Indy Road Guide 1:22.8 Ferrari 296 GT3 Indianapolis Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 421,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "bSugRf5WCgE",
+        "title": "iRacing Corvette GT3 Indy Road Guide 1:22.9 Corvette GT3 Indianapolis Track Guide",
+        "description": "To race with this setup, you can visit our website: https://www.SamboSetups.com You can either purchase a single setup from ...",
+        "channel": "Sambo iRacing",
+        "duration": 208,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

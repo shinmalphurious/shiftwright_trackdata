@@ -1,0 +1,228 @@
+{
+  "video_id": "sYVt_IKnzdc",
+  "track_id": 199,
+  "track_name": "Circuit Zolder - Grand Prix",
+  "title": "iRacing LMP3 Zolder Guide 1:23.6 Ligier JS P320 LMP3 CIrcuit Zolder GP Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at third to last Coca-Cola sign, 45% pressure, trail brake to 3rd gear.",
+      "gear": "3rd",
+      "exit": "Accelerate to 100% after clearing left curb.",
+      "note_id": "sYVt_IKnzdc:0",
+      "text": "braking: Brake at third to last Coca-Cola sign, 45% pressure, trail brake to 3rd gear.; gear: 3rd; exit: Accelerate to 100% after clearing left curb.",
+      "spoken_as": "first braking marker",
+      "passage_time": "1:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "2:12",
+      "snippet": "going to break about this third to last Coca-Cola sign here on the right hand side before the end of the red. So you"
+    },
+    {
+      "braking": "Brake alongside marshall, 30% pressure, trail brake to curb.",
+      "line": "Apex right curb, exit right side.",
+      "note_id": "sYVt_IKnzdc:1",
+      "text": "braking: Brake alongside marshall, 30% pressure, trail brake to curb.; line: Apex right curb, exit right side.",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:48",
+      "snippet": "longest trail off down to the curb on the right hand side and then we start picking back up on the gas."
+    },
+    {
+      "braking": "remain flat",
+      "note_id": "sYVt_IKnzdc:2",
+      "text": "braking: remain flat",
+      "spoken_as": "turn three",
+      "passage_time": "2:55",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:55",
+      "snippet": "We're going to remain flat as we go through [music] turn three. Now coming into turn four. What we're looking for",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes to 20-25%, trail off",
+      "gear": "4th",
+      "line": "curb on right, grass between roads",
+      "exit": "100% throttle well ahead of curb",
+      "note_id": "sYVt_IKnzdc:3",
+      "text": "braking: brakes to 20-25%, trail off; gear: 4th; line: curb on right, grass between roads; exit: 100% throttle well ahead of curb",
+      "spoken_as": "turn four",
+      "passage_time": "2:55",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:16",
+      "snippet": "gas well ahead of the curb in fourth gear. So by the time we actually get to I don't know why this always resets. So",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes around lamp post, 75%",
+      "gear": "3rd",
+      "exit": "attack second curb, jump over curbs",
+      "mistakes": "ignore first curb",
+      "note_id": "sYVt_IKnzdc:4",
+      "text": "braking: brakes around lamp post, 75%; gear: 3rd; exit: attack second curb, jump over curbs; mistakes: ignore first curb",
+      "spoken_as": "turn five chic",
+      "passage_time": "2:55",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:55",
+      "snippet": "going to pretty much ignore this first curb because we want to attack the second curb rather head on. So, we're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after 100 board, 75-80%",
+      "gear": "down to 2nd",
+      "note_id": "sYVt_IKnzdc:5",
+      "text": "braking: after 100 board, 75-80%; gear: down to 2nd",
+      "spoken_as": "turn six",
+      "passage_time": "4:13",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:12",
+      "snippet": "100 board. So just ahead of it on the brakes again up to about 75 80%. Going to come down through to second gear.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lift",
+      "exit": "increase",
+      "note_id": "sYVt_IKnzdc:6",
+      "text": "braking: lift; exit: increase",
+      "spoken_as": "turn seven",
+      "passage_time": "4:13",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:58",
+      "snippet": "and then we're going to lift to get through turn seven and then just increase.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "before 100 board, 75-80%",
+      "gear": "down to 2nd",
+      "line": "trail to curb",
+      "exit": "back up to 100%",
+      "note_id": "sYVt_IKnzdc:7",
+      "text": "braking: before 100 board, 75-80%; gear: down to 2nd; line: trail to curb; exit: back up to 100%",
+      "spoken_as": "turn eight",
+      "passage_time": "4:13",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:12",
+      "snippet": "100 board. So just ahead of it on the brakes again up to about 75 80%. Going to come down through to second gear.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after 100 board",
+      "note_id": "sYVt_IKnzdc:8",
+      "text": "braking: after 100 board",
+      "spoken_as": "turn 10",
+      "passage_time": "4:13",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:24",
+      "snippet": "after the 100 board here on the right hand side. Now, unfortunately, we've got this big quarter pillar um which blocks",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brakes just after 100 board, 80%",
+      "gear": "second",
+      "line": "trail off, lift through righthander",
+      "exit": "back on gas in second",
+      "note_id": "sYVt_IKnzdc:9",
+      "text": "braking: brakes just after 100 board, 80%; gear: second; line: trail off, lift through righthander; exit: back on gas in second",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.69,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:42",
+      "snippet": "trail it off, back on the gas in second. Do a little lift to go through the righthander and then just finish it off."
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "video_id": "jDJmVck65Ww",
+  "track_id": 231,
+  "track_name": "Circuit of the Americas - West",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR O'Reilly Series at COTA (NASCAR West)",
+  "car_hint": "nascar",
+  "car": "NASCAR B car",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:49:36.326356+00:00",
+  "passages": 18,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake before 150 braking marker, earlier than the marker."
+    },
+    {
+      "label": null,
+      "spoken_as": "this corner",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "175 mark, brake near pedexit cone, maximize brake pressure before downshifting to second",
+      "gear": "downshift to first over crest",
+      "exit": "off the brake by the sec portion",
+      "mistakes": "rear too light, front lacking positive turns"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "this portion",
+      "start_time": "2:35",
+      "sequence": 2,
+      "braking": "center of track, off brake by apex",
+      "line": "center of track, turn-in to left",
+      "exit": "straighter exit, keep rear wheels connected",
+      "mistakes": "one rear wheel spinning too aggressively"
+    },
+    {
+      "label": null,
+      "spoken_as": "second corner",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T2",
+      "braking": "Manage downhill momentum, focus on turn radius",
+      "gear": "3rd",
+      "line": "Open exit, use downhill momentum",
+      "exit": "Focus on entry angle into next corner",
+      "mistakes": "Costing momentum on exit"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn 1",
+      "start_time": "5:12",
+      "sequence": 4,
+      "braking": "clip right edge of curb, top of curbing",
+      "line": "far right, center of track",
+      "mistakes": "slide across curb, lose aerodynamics"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "5:12",
+      "sequence": 4,
+      "line": "far left, red curbing",
+      "mistakes": "off track slowdowns, lose two tires on curbing"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "6:31",
+      "sequence": 5,
+      "braking": "brake to slow entry momentum",
+      "line": "get as far left as possible, pivot to right",
+      "mistakes": "not getting left far enough, losing front grip"
+    },
+    {
+      "label": null,
+      "spoken_as": "this curbing",
+      "start_time": "7:48",
+      "sequence": 6,
+      "label_guess": "T5",
+      "braking": "slow entry speed before curbing",
+      "line": "get as far right as possible, clip white paint, later apex",
+      "exit": "get right side tires on curbing, right front and rear close to edge"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "9:06",
+      "sequence": 7,
+      "braking": "cross curbon, get as far right as possible",
+      "mistakes": "hit curbon at tall part of section"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "9:06",
+      "sequence": 7,
+      "braking": "straight line brake, downshift to first gear",
+      "gear": "1st",
+      "line": "get as far right as possible",
+      "exit": "get close to tire barrier",
+      "mistakes": "not getting close enough to tire barrier"
+    },
+    {
+      "label": null,
+      "spoken_as": "next section",
+      "start_time": "10:26",
+      "sequence": 8,
+      "label_guess": "T7",
+      "braking": "Trail brake to blue wall, slow play",
+      "gear": "1st",
+      "line": "Turn before right-hand curbing, aim for inside wall",
+      "exit": "Partial throttle over left curbing, extend out",
+      "mistakes": "Overuse of throttle causing rear traction loss"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "11:45",
+      "sequence": 9,
+      "braking": "Brake on the paint, stay right of the curbing.",
+      "mistakes": "Stay precise to avoid splitter contact."
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "13:05",
+      "sequence": 10,
+      "gear": "1st gear",
+      "line": "Turn left at curbing, apex at curbing",
+      "exit": "Partial throttle at curbing, full throttle at exit, 2nd gear",
+      "mistakes": "Pinch exit, don't open wheel"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "14:23",
+      "sequence": 11,
+      "braking": "straight line braking, off brake by max wheel angle at apex",
+      "gear": "second",
+      "line": "max wheel angle at apex",
+      "exit": "in throttle at apex, exit with speed",
+      "mistakes": "sliding rear tires in first gear, overusing RPMs"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "14:23",
+      "sequence": 11,
+      "line": "try to straighten line as much as possible"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "turn 12",
+      "start_time": "15:41",
+      "sequence": 12,
+      "braking": "straight line brake",
+      "gear": "first gear",
+      "line": "turn in early, aim for apex, clip curb",
+      "exit": "partial throttle, extend exit to green paint, drop to second gear"
+    },
+    {
+      "label": null,
+      "spoken_as": "13",
+      "start_time": "17:00",
+      "sequence": 13,
+      "label_guess": "T13",
+      "braking": "Don't overspeed entry, get fronts connected with rear",
+      "line": "Hold apex into T14",
+      "exit": "Partial throttle",
+      "mistakes": "Over speeding entry"
+    },
+    {
+      "label": null,
+      "spoken_as": "14",
+      "start_time": "17:00",
+      "sequence": 13,
+      "label_guess": "T14",
+      "line": "Hold apex from T13",
+      "exit": "Partial throttle",
+      "mistakes": "Over speeding entry"
+    },
+    {
+      "label": null,
+      "spoken_as": "15",
+      "start_time": "17:00",
+      "sequence": 13,
+      "label_guess": "T15",
+      "gear": "Second",
+      "line": "Hug exit to straighten entry into T16",
+      "exit": "Second gear"
+    },
+    {
+      "label": "T16",
+      "spoken_as": "turn 16",
+      "start_time": "17:00",
+      "sequence": 13,
+      "gear": "Second",
+      "exit": "Second gear",
+      "mistakes": "Extending too far out to runoff"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 17",
+      "start_time": "17:00",
+      "sequence": 13,
+      "label_guess": "T17",
+      "gear": "Second",
+      "exit": "Second gear"
+    },
+    {
+      "label": null,
+      "spoken_as": "this portion",
+      "start_time": "18:19",
+      "sequence": 14,
+      "braking": "partial brake, then full max pressure in a straight line",
+      "gear": "1st or 2nd",
+      "line": "cut the curbing, aim for the inside painted line",
+      "exit": "partial throttle to maximize radius, full throttle on exit",
+      "mistakes": "tunnel vision on apex, not looking ahead for exit"
+    },
+    {
+      "label": null,
+      "spoken_as": "17",
+      "start_time": "19:38",
+      "sequence": 15,
+      "label_guess": "T17",
+      "gear": "Second",
+      "line": "Extend out into painted section.",
+      "exit": "Partial throttle to maximize exit.",
+      "mistakes": "Costing momentum by not pushing limits."
+    }
+  ],
+  "general_tips": [
+    "Use slow motion to find the braking point.",
+    "be off the brake by apex",
+    "use max wheel angle to left",
+    "focus on straighter exits",
+    "keep rear wheels connected",
+    "Think ahead about the corner ahead",
+    "Maintain two tires on red curbing to avoid penalties.",
+    "timing is crucial to cut as much as possible and make corners straight",
+    "Think ahead to gear upshifts",
+    "Extend out to the grass to use all available track.",
+    "keep in second gear for longevity of rear tires",
+    "keep car stable, pivot right to straight line brake into turn 12",
+    "Advise keeping in second gear for rear drive quality.",
+    "Focus on rear drive and rear tires connecting in a straight line",
+    "Avoid spinning rear wheels by not shifting to first gear",
+    "Driver's perspective lap to demonstrate",
+    "Webcam off for full perspective view",
+    "Keep in second gear for some corners for good performance."
+  ],
+  "dropped_ungrounded": 4
+}

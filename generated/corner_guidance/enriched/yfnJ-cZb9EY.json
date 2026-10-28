@@ -1,0 +1,307 @@
+{
+  "video_id": "yfnJ-cZb9EY",
+  "track_id": 145,
+  "track_name": "Brands Hatch Circuit - Grand Prix",
+  "title": "iRacing Caterham 420R Brands Hatch Guide 1:30.5 Caterham 420R Brands Hatch GP Track Guide",
+  "car": "Caterham 420R",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake to 30% at first braking marker, trail off",
+      "gear": "4th",
+      "exit": "get back on gas early, exit wide",
+      "note_id": "yfnJ-cZb9EY:0",
+      "text": "braking: brake to 30% at first braking marker, trail off; gear: 4th; exit: get back on gas early, exit wide",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:10",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:26",
+      "snippet": "First braking marker is going to be on the left-hand side midway between the 100 and the 50. We're not going to brake"
+    },
+    {
+      "braking": "brake to 45% at end of gravel trap",
+      "gear": "2nd",
+      "exit": "trail off, get slowly back on gas",
+      "note_id": "yfnJ-cZb9EY:1",
+      "text": "braking: brake to 45% at end of gravel trap; gear: 2nd; exit: trail off, get slowly back on gas",
+      "spoken_as": "turn two",
+      "passage_time": "2:10",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:25",
+      "snippet": "slowly back on the gas, reaching 100% there. Lovely traces from Gianni as shown on our overlays. We're going to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 marker, 25%, trail off",
+      "gear": "3rd",
+      "line": "left tires over rumble strip",
+      "exit": "100%, go wide",
+      "note_id": "yfnJ-cZb9EY:2",
+      "text": "braking: 50 marker, 25%, trail off; gear: 3rd; line: left tires over rumble strip; exit: 100%, go wide",
+      "spoken_as": "turn number three",
+      "passage_time": "3:32",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {
+        "after": "T2",
+        "before": "T4",
+        "corners_between": [
+          "T3"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:40",
+      "snippet": "trail it off, leave it in third gear, getting our left-hand tires over this rumble strip. Perfect alignment there,",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "50 board, 35-40%, trail off",
+      "gear": "3rd",
+      "line": "point at cairns, light apex",
+      "exit": "100%, wide but off grass",
+      "note_id": "yfnJ-cZb9EY:3",
+      "text": "braking: 50 board, 35-40%, trail off; gear: 3rd; line: point at cairns, light apex; exit: 100%, wide but off grass",
+      "spoken_as": "turn four",
+      "passage_time": "3:32",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:23",
+      "snippet": "to 100% looking for a light apex. Exiting wide but keeping off the grass as you can see.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "midway between 50 and 100, straight on",
+      "note_id": "yfnJ-cZb9EY:4",
+      "text": "braking: midway between 50 and 100, straight on",
+      "spoken_as": "turn number five",
+      "passage_time": "3:32",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:46",
+      "snippet": "midway between the 50 and the 100 to be honest. Straight on the brakes to about 25% trail it off. We're not going to cut",
+      "best_candidate": {
+        "corner_id": "T5",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T7",
+        "estimated_pct": 0.4458,
+        "corner_pct": 0.5244,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T7",
+        "corners_between": [
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "between 100 and 50, 30% trail off",
+      "line": "run along the asphalt, do not cut",
+      "mistakes": "cutting the corner",
+      "note_id": "yfnJ-cZb9EY:5",
+      "text": "braking: between 100 and 50, 30% trail off; line: run along the asphalt, do not cut; mistakes: cutting the corner",
+      "spoken_as": "next corner",
+      "passage_time": "4:50",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:50",
+      "snippet": "25% trail it off. We're not going to cut this corner. We're just going to run along the asphalt straight up to 100%.",
+      "best_candidate": {
+        "corner_id": "T5",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T7",
+        "estimated_pct": 0.4659,
+        "corner_pct": 0.5244,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T7",
+        "corners_between": [
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "between 100 and 50, 25% trail off",
+      "line": "cut the corner, left front tire on track, right front tire on grass",
+      "note_id": "yfnJ-cZb9EY:6",
+      "text": "braking: between 100 and 50, 25% trail off; line: cut the corner, left front tire on track, right front tire on grass",
+      "spoken_as": "next corner",
+      "passage_time": "4:50",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:39",
+      "snippet": "front tire just stays on the track so it's not an off track. Right front tire is all the way over the grass crete. Let"
+    },
+    {
+      "braking": "close to 50, 25% trail off",
+      "line": "trail off long, left front tire on track, right front tire on grass",
+      "note_id": "yfnJ-cZb9EY:7",
+      "text": "braking: close to 50, 25% trail off; line: trail off long, left front tire on track, right front tire on grass",
+      "spoken_as": "final corner in this little section",
+      "passage_time": "4:50",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:39",
+      "snippet": "front tire just stays on the track so it's not an off track. Right front tire is all the way over the grass crete. Let",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "between 100 and 50, 35% trail off",
+      "exit": "back on the gas",
+      "note_id": "yfnJ-cZb9EY:8",
+      "text": "braking: between 100 and 50, 35% trail off; exit: back on the gas",
+      "spoken_as": "turn number eight",
+      "passage_time": "4:50",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:01",
+      "snippet": "bit 100 between the 100 and the 50 coming into the next corner. And again, only on the brakes to about 30% trail it",
+      "best_candidate": {
+        "corner_id": "T5",
+        "confidence": 0.41,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T7",
+        "estimated_pct": 0.5205,
+        "corner_pct": 0.5244,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T7",
+        "corners_between": [
+          "T5",
+          "T6"
+        ]
+      }
+    },
+    {
+      "braking": "braking midway between the 100 and the 50, 45% trail braking",
+      "gear": "fourth gear",
+      "exit": "back on the gas well ahead of the apex",
+      "note_id": "yfnJ-cZb9EY:9",
+      "text": "braking: braking midway between the 100 and the 50, 45% trail braking; gear: fourth gear; exit: back on the gas well ahead of the apex",
+      "spoken_as": "turn number eight",
+      "passage_time": "6:08",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:12",
+      "snippet": "45% trail it off, leave it fourth gear, and then back on the gas well ahead of the apex. And just wait for it to grip",
+      "best_candidate": {
+        "corner_id": "T9",
+        "confidence": 0.306,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "start/finish",
+        "estimated_pct": 0.9223,
+        "corner_pct": 0.8867,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "start/finish",
+        "corners_between": [
+          "T8",
+          "T9"
+        ]
+      }
+    }
+  ]
+}

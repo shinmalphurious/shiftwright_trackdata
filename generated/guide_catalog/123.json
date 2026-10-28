@@ -1,49 +1,142 @@
 {
   "track_id": 123,
   "layout": "123-chicagoland",
+  "name": "Chicagoland Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:19:10.036816+00:00",
+  "candidates_seen": 22,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 22,
+    "new_candidates": 12,
+    "accepted": 21,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 1,
+    "rejection_reasons": {
+      "venue not in title": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
-      {
-        "video_id": "zTkTzTul-oQ",
-        "title": "Chicagoland Track Guide I iRacing NASCAR Truck Series I Team Conti Sim Performance",
-        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Dustin Hall 2026, S3 Visit our\u00a0...",
-        "video_type": "lap_walkthrough",
-        "car": "nascar",
-        "quality_score": 220
-      },
       {
         "video_id": "7-x3XiZm5VA",
         "title": "Chicagoland Speedway Track Guide iRacing Fixed A NASCAR Next Gen Stock Car",
         "description": "Join Zach Panzarella of VRN and Jordan Fisher of Fishspeed Brakes for a Fixed A Track Guide at Chicagoland Speedway!",
+        "channel": "Vortex Racing Network",
+        "duration": 641,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "Kd2bcL9xxVQ",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Chicagoland Speedway",
+        "description": "We're here to help you get up to speed! Get out of the garage and into victory lane with Team Conti Sim Performance! Driven by: ...",
+        "channel": "Team Conti",
+        "duration": 1557,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 230,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "zTkTzTul-oQ",
+        "title": "Chicagoland Track Guide I iRacing NASCAR Truck Series I Team Conti Sim Performance",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Dustin Hall 2026, S3 Visit our ...",
+        "channel": null,
+        "duration": null,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       },
       {
         "video_id": "c4LW4bPRhEY",
         "title": "Chicagoland is Back! I iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen",
-        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S3 Visit\u00a0...",
+        "description": "Get out of the garage and into victory lane on iRacing with Team Conti Sim Performance! Driven by: Michael Conti 2026, S3 Visit ...",
+        "channel": "Team Conti",
+        "duration": 1665,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "jSngPs-b-QQ",
+        "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at Chicagoland",
+        "description": "Driven by: Michael Conti 2024, S4 Visit our website: https://teamconti.gg/ Book Coaching: ...",
+        "channel": "Team Conti",
+        "duration": 1500,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 226,
+        "venue_confidence": 0.9
       }
     ],
     "arca": [
       {
-        "video_id": "LmG0GStIAAA",
-        "title": "ARCA Chicagoland Qualifying Guide | 2026 S3 | iRacing",
-        "description": "",
-        "video_type": "lap_walkthrough",
-        "car": "arca",
-        "quality_score": 220
-      },
-      {
         "video_id": "cML3dDITVAY",
         "title": "Learn to Drive Chicagoland in an ARCA Car for iRacing 2025 S4 Week 6 Lap Guide & Tutorial",
-        "description": "Learn to drive Chicagoland in an ARCA Car for the iRacing 2025 S4 Week 6 of official races! This is the first official series week of\u00a0...",
+        "description": "Learn to drive Chicagoland in an ARCA Car for the iRacing 2025 S4 Week 6 of official races! This is the first official series week of ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "arca",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "RE3R0tlcnpA",
+        "title": "STOP Losing Time at Chicagoland | iRacing B Car Track Guide and Long Run Tips",
+        "description": "Welcome back to Finding Speed! In this iRacing Chicagoland Speedway Track Guide for the O'Reilly B Car Series, we're ...",
+        "channel": "Finding Speed Now",
+        "duration": 741,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "3eSAWBCABKY",
+        "title": "iRacing Track Guides 2018 - Chicagoland",
+        "description": "alright.",
+        "channel": "Sim Racing Chewyside",
+        "duration": 262,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "YmjV6Q1PnTo",
+        "title": "iRacing Track Guides - Chicagoland",
+        "description": "similar to Atlanta this place is fast and with a much more stable setup. There are only 2 more guides left of this series. iRacing ...",
+        "channel": "Sim Racing Chewyside",
+        "duration": 454,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "FVqr8zwsgAk",
+        "title": "Gen 4 Chicagoland Qualifying Lap Guide | iRacing",
+        "description": "On further testing, I think top 1/2 is just barely equal to the late apex. If you run what you're comfortable most, you'll be fine.",
+        "channel": "Jon M Racing",
+        "duration": 221,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

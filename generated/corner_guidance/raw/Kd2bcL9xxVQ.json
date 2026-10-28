@@ -1,0 +1,182 @@
+{
+  "video_id": "Kd2bcL9xxVQ",
+  "track_id": 123,
+  "track_name": "Chicagoland Speedway",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR Xfinity at Chicagoland Speedway",
+  "car_hint": "nascar",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:17:23.599808+00:00",
+  "passages": 19,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "4:55",
+      "sequence": 2,
+      "line": "Turn in early and use the apron to set up for the banking.",
+      "mistakes": "Avoid using the grass as it adds stress to the right front tire."
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "6:15",
+      "sequence": 3,
+      "braking": "Look where stands end, brake before, close to wall",
+      "line": "Parallel to wall, turn-in just before stands end"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "7:36",
+      "sequence": 4,
+      "label_guess": "T2",
+      "braking": "Brake before the seam patch, lift before crossing it.",
+      "line": "Turn-in before the seam patch, apex around the white line.",
+      "exit": "Maintain partial throttle into the banking, watch for bumps.",
+      "mistakes": "Avoid lifting too early and using too much wheel input."
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn, that",
+      "start_time": "8:53",
+      "sequence": 5,
+      "line": "Hold partial throttle through the banking transition and maintain it until apex.",
+      "mistakes": "Adding too much wheel input to break the car free."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "10:12",
+      "sequence": 6,
+      "exit": "Maintain full throttle after iRacing logo and billboard on right.",
+      "mistakes": "Opening the wheel up too early to the light."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "11:30",
+      "sequence": 7,
+      "exit": "Maintain line to safer barrier, peak exit near concrete wall."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "12:48",
+      "sequence": 8,
+      "line": "Curve back to follow radius, lift off throttle, maintain partial throttle",
+      "exit": "Feel same quality centered exit as turn two",
+      "mistakes": "Watch for bumps, avoid hitting splitter"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "14:04",
+      "sequence": 9,
+      "braking": "shallow entry up just a hair at the initial turn away from the wall",
+      "line": "pointed all the way down to this white line",
+      "exit": "keep the front and rear working together to hold your apex line",
+      "mistakes": "turn in too late and have to dump too much throttle out to get the front to turn"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "15:22",
+      "sequence": 10,
+      "braking": "Before crossing the middle seam, start lifting phase",
+      "line": "Clip the white line where the billboards end, apex on the white line",
+      "exit": "Maintain momentum on exit, partial throttle",
+      "mistakes": "Too much throttle through bumps, throwing the car left or right"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "19:20",
+      "sequence": 13,
+      "braking": "close the throttle",
+      "line": "center of the track",
+      "exit": "wrap the bottom a little bit longer",
+      "mistakes": "get closer to the wall"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turns three and four",
+      "start_time": "20:40",
+      "sequence": 14,
+      "line": "run high line",
+      "exit": "maximize drive off",
+      "mistakes": "don't go to the wall through the bumps"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turns three and four",
+      "start_time": "20:40",
+      "sequence": 14,
+      "line": "run high line",
+      "mistakes": "don't go to the wall through the bumps"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "21:58",
+      "sequence": 15,
+      "braking": "Utilize banking as long as possible, then brake to downshift to third and second.",
+      "gear": "Third, Second",
+      "line": "Partial throttle at center, manage balance.",
+      "mistakes": "Maximize entry down crossing banking to apron."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "23:15",
+      "sequence": 16,
+      "label_guess": "T4",
+      "braking": "cross this, get the front slowed down enough to turn",
+      "line": "on the racing line, cross the bank and down on the apron",
+      "exit": "straight line entry, no brake, below the cone",
+      "mistakes": "slide the front, get a penalty"
+    },
+    {
+      "label": null,
+      "spoken_as": "one and two",
+      "start_time": "24:32",
+      "sequence": 17,
+      "line": "attack the middle of the track",
+      "mistakes": "speed loss out of the center, not gaining lap time"
+    },
+    {
+      "label": null,
+      "spoken_as": "three and four",
+      "start_time": "24:32",
+      "sequence": 17,
+      "line": "skeptical of running the second lane due to bumps",
+      "mistakes": "waiting on the front to settle, too aggressive for the car to turn"
+    }
+  ],
+  "general_tips": [
+    "Utilize throttle effectively to minimize speed loss",
+    "Second or third lap is usually optimal time",
+    "Utilize apron and grass at start finish line",
+    "Maintain the banking and avoid the apron for tire longevity.",
+    "Manage the balance of the car to keep the front and rear turning without excessive wheel input.",
+    "Maintain partial throttle until you can maintain balance and grip.",
+    "The back straight is actually a back stretch with a curve.",
+    "Look for same balance and readability of the front as in previous turns",
+    "Maintain partial throttle longer into the lap.",
+    "Minimize throttle on entry to keep car balanced.",
+    "Find minimal speed in the corner to maintain balance.",
+    "Maintain balance of the car neutral and capable through the center of the corner.",
+    "Find minimal speed just before starting to work back to linear.",
+    "Hold throttle all the way to keep apex.",
+    "Minimal speed is before 100% throttle moment.",
+    "Regain momentum after 100% throttle moment.",
+    "use seams to get car to point and pivot",
+    "keep partial throttle to manage balance",
+    "limit speed loss",
+    "keep front capable and rear under control on entry",
+    "attack the low side of the track",
+    "attack the high side of the track"
+  ],
+  "dropped_ungrounded": 5
+}

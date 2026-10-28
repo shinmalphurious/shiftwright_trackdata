@@ -1,0 +1,359 @@
+{
+  "video_id": "hxxAzr-QnrI",
+  "track_id": 207,
+  "track_name": "Oran Park Raceway - North",
+  "title": "iRacing - Johnny Guindi Skip Barber Track Guide @ Oran Park",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "at end of pit wall, lift after white line",
+      "line": "turn in late, keep car at angle",
+      "mistakes": "turning in too late, missing apex",
+      "note_id": "hxxAzr-QnrI:0",
+      "text": "braking: at end of pit wall, lift after white line; line: turn in late, keep car at angle; mistakes: turning in too late, missing apex",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:25",
+      "snippet": "in pretty late missing the the apex of turn one just to get the car straight and also parallel to the edge of the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake with car a few meters after white line, keep angle straight",
+      "line": "turn-in after inside kerb, double apex, get close to both curbs on left",
+      "note_id": "hxxAzr-QnrI:1",
+      "text": "braking: brake with car a few meters after white line, keep angle straight; line: turn-in after inside kerb, double apex, get close to both curbs on left",
+      "spoken_as": "next braking marker",
+      "passage_time": "1:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "context_window",
+        "issue": "context_window",
+        "fields": {
+          "braking": 0.6
+        }
+      },
+      "time": "1:12",
+      "snippet": "so just a few meters after that's our around here I'd lift off completely try to run that inside kerb and just after"
+    },
+    {
+      "braking": "brake a few meters after left white curbing, drop to first gear at end",
+      "gear": "3, then 1",
+      "line": "turn in, carry brakes to apex",
+      "note_id": "hxxAzr-QnrI:2",
+      "text": "braking: brake a few meters after left white curbing, drop to first gear at end; gear: 3, then 1; line: turn in, carry brakes to apex",
+      "spoken_as": "turn three",
+      "passage_time": "2:41",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:17",
+      "snippet": "first gear you wanna turn in but through here as well as through the next corner turn four I find it's very helpful to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake before the grain tires on the left side",
+      "gear": "2nd or 3rd",
+      "line": "use all the curve on the left side",
+      "exit": "get on the throttle early, use all the space",
+      "mistakes": "overbraking, not using the space on exit",
+      "note_id": "hxxAzr-QnrI:3",
+      "text": "braking: brake before the grain tires on the left side; gear: 2nd or 3rd; line: use all the curve on the left side; exit: get on the throttle early, use all the space; mistakes: overbraking, not using the space on exit",
+      "spoken_as": "turn four",
+      "passage_time": "4:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 1.0,
+          "exit": 0.8
+        }
+      },
+      "time": "4:26",
+      "snippet": "the grain tires on the left side and I'll drop down at the second here so through here as I said as well as in the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "turn in full throttle, coast to right curbing",
+      "gear": "3rd",
+      "line": "turn in full throttle, coast to right curbing",
+      "exit": "get completely on throttle after curbing",
+      "mistakes": "avoid bump at end of curbing",
+      "note_id": "hxxAzr-QnrI:4",
+      "text": "braking: turn in full throttle, coast to right curbing; gear: 3rd; line: turn in full throttle, coast to right curbing; exit: get completely on throttle after curbing; mistakes: avoid bump at end of curbing",
+      "spoken_as": "turn five",
+      "passage_time": "5:22",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:08",
+      "snippet": "after I've I've got to that curbing on the right side so two right here be able to get completely on the throttle most"
+    },
+    {
+      "braking": "brush brakes as turn, before curbing starts",
+      "gear": "3rd",
+      "line": "use left side of track, turn-in before curbing",
+      "exit": "use curve itself, avoid concrete beyond curve",
+      "mistakes": "going beyond curve, car bottoms out",
+      "note_id": "hxxAzr-QnrI:5",
+      "text": "braking: brush brakes as turn, before curbing starts; gear: 3rd; line: use left side of track, turn-in before curbing; exit: use curve itself, avoid concrete beyond curve; mistakes: going beyond curve, car bottoms out",
+      "spoken_as": "turn six",
+      "passage_time": "6:40",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:19",
+      "snippet": "that curbing starts on the left side and and you want to I find it's a little bit more consistent - not necessarily try to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake after curbing starts on right, drop to 3rd gear.",
+      "gear": "3rd",
+      "line": "Use curbing, apex near white curbing.",
+      "exit": "Get on throttle early, use all exit curbing.",
+      "mistakes": "Avoid overusing curbing, may brush brakes lightly.",
+      "note_id": "hxxAzr-QnrI:6",
+      "text": "braking: Brake after curbing starts on right, drop to 3rd gear.; gear: 3rd; line: Use curbing, apex near white curbing.; exit: Get on throttle early, use all exit curbing.; mistakes: Avoid overusing curbing, may brush brakes lightly.",
+      "spoken_as": "next braking marker",
+      "passage_time": "8:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.78,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.78,
+          "line": 0.6
+        }
+      },
+      "time": "8:39",
+      "snippet": "few meters after the curbing starts on the right side here I'll drop down a gear into third and through here I find"
+    },
+    {
+      "line": "Keep car in middle of track, avoid left side",
+      "exit": "Full throttle",
+      "mistakes": "Using the white concrete on the left side",
+      "note_id": "hxxAzr-QnrI:7",
+      "text": "line: Keep car in middle of track, avoid left side; exit: Full throttle; mistakes: Using the white concrete on the left side",
+      "spoken_as": "next bit of the corner",
+      "passage_time": "9:26",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:50",
+      "snippet": "get the car all the way to the left side of the track you can pretty much keep it right in the"
+    },
+    {
+      "mistakes": "Using the white concrete on the left side, car will bottom out",
+      "note_id": "hxxAzr-QnrI:8",
+      "text": "mistakes: Using the white concrete on the left side, car will bottom out",
+      "spoken_as": "final corner",
+      "passage_time": "9:26",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {
+        "alias": "final corner"
+      },
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:20",
+      "snippet": "concrete on the left side again because the car will bottom out a little bit and you lose it a little bit of speed doing",
+      "confidence": 0.9,
+      "assignment_method": "alias_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "Brake at end of brown spots, stay right.",
+      "line": "Turn in late, apex far in.",
+      "mistakes": "Inconsistent braking reference, turn in late.",
+      "note_id": "hxxAzr-QnrI:9",
+      "text": "braking: Brake at end of brown spots, stay right.; line: Turn in late, apex far in.; mistakes: Inconsistent braking reference, turn in late.",
+      "spoken_as": "final corner",
+      "passage_time": "10:45",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.75
+        }
+      },
+      "time": "11:48",
+      "snippet": "look as far ahead as you can look at your apex spotted and that'll vaguely tell you when you when you have to turn"
+    },
+    {
+      "braking": "Lightly brake midway through the corner to tuck in the nose.",
+      "line": "Wide entry, apex at the curbing that goes from darker to lighter on the inside.",
+      "exit": "Get on the throttle a little bit before reaching the apex.",
+      "note_id": "hxxAzr-QnrI:10",
+      "text": "braking: Lightly brake midway through the corner to tuck in the nose.; line: Wide entry, apex at the curbing that goes from darker to lighter on the inside.; exit: Get on the throttle a little bit before reaching the apex.",
+      "spoken_as": "T6",
+      "passage_time": "12:05",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.39,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "12:43",
+      "snippet": "midway through the corner so just brushing them to get the nose to to tuck in and ideally you're what you're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "Get close to wall, straighten wheels fully",
+      "note_id": "hxxAzr-QnrI:11",
+      "text": "exit: Get close to wall, straighten wheels fully",
+      "spoken_as": "the curves",
+      "passage_time": "13:26",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "13:41",
+      "snippet": "wall a little bit and just get as close as you can to it and also it's it's it's also important to even if you feel you"
+    },
+    {
+      "braking": "on brakes or coasting before braking",
+      "mistakes": "bouncing after apex if going too fast",
+      "note_id": "hxxAzr-QnrI:12",
+      "text": "braking: on brakes or coasting before braking; mistakes: bouncing after apex if going too fast",
+      "spoken_as": "turn one",
+      "passage_time": "14:45",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:33",
+      "snippet": "before you get on the brakes if I post all the way I'm okay but if I try to go too fast I start bouncing so I'm going"
+    },
+    {
+      "mistakes": "bouncing, car unsettled if going too fast",
+      "note_id": "hxxAzr-QnrI:13",
+      "text": "mistakes: bouncing, car unsettled if going too fast",
+      "spoken_as": "between turn one and two",
+      "passage_time": "14:45",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:40",
+      "snippet": "too fast I start bouncing so I'm going into turn two between turn one and two do you notice the bouncing just because"
+    },
+    {
+      "braking": "Brake with a tiny bit of steering input.",
+      "mistakes": "Steering input can cause rear to step out.",
+      "note_id": "hxxAzr-QnrI:14",
+      "text": "braking: Brake with a tiny bit of steering input.; mistakes: Steering input can cause rear to step out.",
+      "spoken_as": "T1",
+      "passage_time": "16:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:08",
+      "snippet": "with maybe just a tiny bit of a steering Rock on and that's what it'll get the rear to step out not not the actual"
+    },
+    {
+      "braking": "lift before the white line, brake around the inside kerb",
+      "line": "turn-in at the white line, coast to braking point",
+      "exit": "coast until braking point, then brake",
+      "mistakes": "don't get back on the throttle until braking point",
+      "note_id": "hxxAzr-QnrI:15",
+      "text": "braking: lift before the white line, brake around the inside kerb; line: turn-in at the white line, coast to braking point; exit: coast until braking point, then brake; mistakes: don't get back on the throttle until braking point",
+      "spoken_as": "that first turn",
+      "passage_time": "18:01",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:19",
+      "snippet": "first inside kerb yeah I definitely lift before that so I'll turn in and I'll typically lift right around this stripe"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "video_id": "fJJ1Qo-k1CY",
+  "track_id": 182,
+  "track_name": "Oulton Park Circuit - Island",
+  "title": "Track guide Oulton Park - Island Historic Ray FF1600 Open iRacing",
+  "car": null,
+  "car_hint": "ff1600",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake to 60 at left banner, trail off",
+      "line": "Apex late third, use curb",
+      "exit": "full throttle, use outside",
+      "mistakes": "hit hill inside, right tires off track",
+      "note_id": "fJJ1Qo-k1CY:0",
+      "text": "braking: brake to 60 at left banner, trail off; line: Apex late third, use curb; exit: full throttle, use outside; mistakes: hit hill inside, right tires off track",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "0:22",
+      "snippet": "the banner on the left I break to about 60 and then I quickly get off the break again I Apex in the later third of the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 50, trail brake",
+      "exit": "full throttle",
+      "mistakes": "brake too much, rear will slide; avoid incident point on outside",
+      "note_id": "fJJ1Qo-k1CY:1",
+      "text": "braking: brake to 50, trail brake; exit: full throttle; mistakes: brake too much, rear will slide; avoid incident point on outside",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:04",
+      "snippet": "get to that I'll go full throttle and be aware on the outside there is a really harsh incident point out there I just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "quick touch on the brake to about 40",
+      "gear": "fourth",
+      "line": "aim for a little part of a curb on the inside",
+      "exit": "full throttle once the car gets grip again",
+      "mistakes": "overdo this corner and you will end up in the wall",
+      "note_id": "fJJ1Qo-k1CY:2",
+      "text": "braking: quick touch on the brake to about 40; gear: fourth; line: aim for a little part of a curb on the inside; exit: full throttle once the car gets grip again; mistakes: overdo this corner and you will end up in the wall",
+      "spoken_as": "turn five",
+      "passage_time": "1:17",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:02",
+      "snippet": "the brake to about 40 and then you want to leave it in fourth and aim for a little part of a curb on the inside the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break to about 60 and then a trail to break all the way to the first curve",
+      "note_id": "fJJ1Qo-k1CY:3",
+      "text": "braking: break to about 60 and then a trail to break all the way to the first curve",
+      "spoken_as": "turn 7",
+      "passage_time": "1:17",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:31",
+      "snippet": "trail to break all the way to the first curve I don't have a clear braking marker so I found myself just feeling",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake on the first curb",
+      "line": "Apex late on the first curb, middle on the second",
+      "exit": "Full throttle",
+      "note_id": "fJJ1Qo-k1CY:4",
+      "text": "braking: Brake on the first curb; line: Apex late on the first curb, middle on the second; exit: Full throttle",
+      "spoken_as": "first curve",
+      "passage_time": "2:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.82,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:40",
+      "snippet": "late and the second one I have Apex around the middle once I get close to the first curve I will go full throttle",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "T9",
+        "estimated_pct": 0.5935,
+        "corner_pct": 0.5693,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "T9",
+        "corners_between": [
+          "T8"
+        ]
+      }
+    },
+    {
+      "line": "Use all of the outside curb",
+      "exit": "Full throttle",
+      "mistakes": "Use all of the curve on the outside, hit the grass and you'll spin",
+      "note_id": "fJJ1Qo-k1CY:5",
+      "text": "line: Use all of the outside curb; exit: Full throttle; mistakes: Use all of the curve on the outside, hit the grass and you'll spin",
+      "spoken_as": "next",
+      "passage_time": "2:34",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.91,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:20",
+      "snippet": "outside hit the grass and you'll Spin and 1010 is just Full Throttle and a race to the Finish Line that's my lap",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake hard",
+      "line": "Trail brake to the curb",
+      "exit": "Full throttle",
+      "mistakes": "Brake too hard and hit 100",
+      "note_id": "fJJ1Qo-k1CY:6",
+      "text": "braking: Brake hard; line: Trail brake to the curb; exit: Full throttle; mistakes: Brake too hard and hit 100",
+      "spoken_as": "penultimate tree before the Marshall's post",
+      "passage_time": "2:34",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:44",
+      "snippet": "the first curve I will go full throttle and if you get it right the car should be able to hit it on the second curb as",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T7",
+        "before": "T9",
+        "estimated_pct": 0.6033,
+        "corner_pct": 0.5693,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T7",
+        "before": "T9",
+        "corners_between": [
+          "T8"
+        ]
+      }
+    }
+  ]
+}

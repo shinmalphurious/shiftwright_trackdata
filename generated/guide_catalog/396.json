@@ -1,31 +1,43 @@
 {
   "track_id": 396,
   "layout": "396-barkriver",
+  "name": "Bark River International Raceway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:06:24.914753+00:00",
+  "candidates_seen": 48,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 48,
+    "new_candidates": 47,
+    "accepted": 1,
+    "selected": 1,
+    "kept_previous": 1,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 47,
+    "rejection_reasons": {
+      "no guide words in title": 16,
+      "venue not in title": 16,
+      "too long": 7,
+      "too short": 5,
+      "live stream": 3
+    }
+  },
   "selected_guides": {
     "truck": [
       {
         "video_id": "bBYTkUguZnA",
         "title": "Pro 4 Truck - Bark River Track Guide",
         "description": "FRA: New Track Guide video for Pro 4 Truck Fixed with the Bark River circuit!\n\nIn this video, you'll find the complete lap ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "truck",
-        "quality_score": 120
-      },
-      {
-        "video_id": "YQbIjWBF3oQ",
-        "title": "iRacing: James Watson Qualifying Trim (Pro 4 Truck @ Bark River)",
-        "description": "Get This EXACT Same Setup Pack Here: https://bit.ly/3lHBUKe \u25bb What Is Rocket Racing Setups? Rocket Racing Setups is a\u00a0...",
-        "video_type": "other",
-        "car": "truck",
-        "quality_score": 120
-      },
-      {
-        "video_id": "4u9buNMegW4",
-        "title": "iRacing Pro 4 Trucks @ Bark River | S3 2022 #13 (Week 7)",
-        "description": "Full race of Pro 4 Offroad Trucks at Bark River International Raceway. 0:00 Qualifying 3:07 Race.",
-        "video_type": "other",
-        "car": "truck",
-        "quality_score": 120
+        "quality_score": 146,
+        "venue_confidence": 0.9
       }
     ]
   }

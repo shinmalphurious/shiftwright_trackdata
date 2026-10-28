@@ -1,25 +1,144 @@
 {
   "track_id": 516,
   "layout": "516-navarra-speedmedium",
+  "name": "Circuito de Navarra - Speed Circuit - Medium",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:29:53.196654+00:00",
+  "candidates_seen": 22,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 22,
+    "new_candidates": 12,
+    "accepted": 19,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 3,
+    "rejection_reasons": {
+      "duplicate title": 3
+    }
+  },
   "selected_guides": {
+    "vee": [
+      {
+        "video_id": "JZWWGERnlVg",
+        "title": "iRacing Formula Vee Circuito De Navarra Speed Circuit Medium - Track Guide 1:16.766 Rookie Fixed Vee",
+        "description": "We're back for a track guide in iRacing in the Formula Vee at Circuito De Navarra - Speed Circuit Medium Layout for another lap ...",
+        "channel": "Sambo iRacing",
+        "duration": 402,
+        "video_type": "lap_walkthrough",
+        "car": "vee",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "py6e0OcY9NQ",
+        "title": "iRacing Circuito de Navarra - Speed Circuit - Medium Formula Vee (Dry) Track Guide",
+        "description": "Sign up with the code CIRCUITO4421 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 300,
+        "video_type": "lap_walkthrough",
+        "car": "vee",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "58pzvOsmbhk",
+        "title": "iRacing Formula Vee Navarra Speed Medium Guide 1:15.9 Vee Navarra Speed Circuit Medium Track Guide",
+        "description": "This video features the Formula Vee at Navarra Speed Circuit (Medium layout) in iRacing. Navarra Medium is a compact and ...",
+        "channel": "Sambo iRacing",
+        "duration": 411,
+        "video_type": "lap_walkthrough",
+        "car": "vee",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "njHkoRmPOYw",
+        "title": "Track Guide Navarra Speed Circuit - Medium Formula Vee iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Circuito de Navarra Speed Circuit - Medium in the Formula Vee.",
+        "channel": "Erilla",
+        "duration": 303,
+        "video_type": "lap_walkthrough",
+        "car": "vee",
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      }
+    ],
+    "nascar": [
+      {
+        "video_id": "SiEZEU4WKSw",
+        "title": "Track Guide: iRacing Circuito de Navarra - Speed Circuit - Medium [Legacy] NASCAR Nationwide Che...",
+        "description": "Sign up with the code CIRCUITO7909 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 281,
+        "video_type": "lap_walkthrough",
+        "car": "nascar",
+        "quality_score": 260,
+        "venue_confidence": 1.0
+      }
+    ],
     "ff1600": [
       {
         "video_id": "LOtILFMXmyU",
         "title": "iRacing FF1600 Navarra Medium Guide 1:04.6 FF1600 Navarra Speed Circuit Medium Track Guide",
-        "description": "Navarra Speed Medium Layout is a technical and flowing circuit where momentum is key. With no downforce to rely on, the\u00a0...",
+        "description": "Navarra Speed Medium Layout is a technical and flowing circuit where momentum is key. With no downforce to rely on, the ...",
+        "channel": "Sambo iRacing",
+        "duration": 366,
         "video_type": "lap_walkthrough",
         "car": "ff1600",
-        "quality_score": 220
+        "quality_score": 256,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "qEWyII0RdSg",
+        "title": "Track Guide Navarra Speed Circuit - Medium Ray FF1600 iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Circuito de Navarra Speed Circuit - Medium layout in the Ray ...",
+        "channel": "Erilla",
+        "duration": 307,
+        "video_type": "lap_walkthrough",
+        "car": "ff1600",
+        "quality_score": 256,
+        "venue_confidence": 0.9
       }
     ],
-    "vee": [
+    "general": [
       {
-        "video_id": "58pzvOsmbhk",
-        "title": "iRacing Formula Vee Navarra Speed Medium Guide 1:15.9 Vee Navarra Speed Circuit Medium Track Guide",
-        "description": "This video features the Formula Vee at Navarra Speed Circuit (Medium layout) in iRacing. Navarra Medium is a compact and\u00a0...",
+        "video_id": "bqJaeZjUzkY",
+        "title": "Track Guide: iRacing Circuito de Navarra - Speed Circuit - Medium SCCA Spec Racer Ford (Dry) (Ho...",
+        "description": "Sign up with the code CIRCUITO5293 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "Track Titan",
+        "duration": 290,
         "video_type": "lap_walkthrough",
-        "car": "vee",
-        "quality_score": 220
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "o9iAl_E1e_g",
+        "title": "Track Guide: iRacing Circuito de Navarra - Speed Circuit - Medium Porsche 911 Cup (992.2) (Dry) ...",
+        "description": "Sign up with the code CIRCUITO8677 for 30 days of unlimited AI driving tips at https://www.tracktitan.io/?",
+        "channel": "iRacing Track Guides",
+        "duration": 260,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 240,
+        "venue_confidence": 1.0
+      },
+      {
+        "video_id": "uvBEfTWhphk",
+        "title": "Track Guide Navarra - Medium Speed Toyota GR86 iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Circuito de Navarra - Medium Speed Circuit in the Toyota GR86.",
+        "channel": "Erilla",
+        "duration": 282,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 236,
+        "venue_confidence": 0.9
       }
     ]
   }

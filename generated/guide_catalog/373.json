@@ -1,52 +1,29 @@
 {
   "track_id": 373,
   "layout": "373-weedsport",
-  "selected_guides": {
-    "modified": [
-      {
-        "video_id": "t7h1-rfvNPs",
-        "title": "iRacing: Richie Yost (UMP Modified @ Weedsport)",
-        "description": "Subscribe To Our Monthly Subscription Here:\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
-      },
-      {
-        "video_id": "SQVnesgNYFo",
-        "title": "iRacing: Ethan Bill (Big Block Modified @ Weedsport)",
-        "description": "Subscribe To Our Monthly Subscription Here:\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
-      },
-      {
-        "video_id": "E8GkQQkULVs",
-        "title": "iRacing: Jenson Cook (Small Block Modified @ Weedsport)",
-        "description": "Get This EXACT Same Setup Pack Here: https://www.premierracingsetups.com/product/small-block-modified-weedsport-26s2\u00a0...",
-        "video_type": "other",
-        "car": "modified",
-        "quality_score": 120
-      }
-    ],
-    "street_stock": [
-      {
-        "video_id": "UroWcJBhN_o",
-        "title": "iRacing - Dirt Street Stocks - Weedsport - Loving This Track!",
-        "description": "First time running this new track in these dirt street stocks! Wow, what a race! Such hard side by side racing and not hitting each\u00a0...",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      }
-    ],
-    "late_model": [
-      {
-        "video_id": "MV2DXiDiP9o",
-        "title": "Can't Believe I Did This! - Weedsport - Limited Late Models - iRacing",
-        "description": "Today we are in the Limited Late Models at Weedsport! This race was amazing! Side by side racing, super slick track, and a crazy\u00a0...",
-        "video_type": "other",
-        "car": "late_model",
-        "quality_score": 120
-      }
-    ]
-  }
+  "name": "Weedsport Speedway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:04:08.550058+00:00",
+  "candidates_seen": 54,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 6,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 54,
+    "new_candidates": 54,
+    "accepted": 0,
+    "selected": 0,
+    "kept_previous": 0,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 54,
+    "rejection_reasons": {
+      "no guide words in title": 43,
+      "too short": 5,
+      "too long": 4,
+      "venue not in title": 2
+    }
+  },
+  "selected_guides": {}
 }

@@ -1,0 +1,58 @@
+{
+  "video_id": "KRnKtDz7ENs",
+  "track_id": 167,
+  "track_name": "Okayama International Circuit - Short",
+  "title": "Track guide Okayama Short Ray FF1600 - Fixed iRacing",
+  "car_hint": "ff1600",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:56:23.132675+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake hard at tire marks, trail brake to apex",
+      "line": "turn-in left, apex at brown patch, track out",
+      "exit": "full throttle, use all track, take curb",
+      "mistakes": "don't go off track with curb"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake to 50% at white line, trail brake to middle",
+      "line": "wider entry, turn-in towards curb, apex on curb",
+      "exit": "full throttle, take all curb, steer into next curve",
+      "mistakes": "don't go too close to first curb, avoid spinning off curb"
+    },
+    {
+      "label": null,
+      "spoken_as": "next turn",
+      "start_time": "1:19",
+      "sequence": 1,
+      "label_guess": "T5",
+      "braking": "Break just before the fins on the outside, quick tap to 25%",
+      "line": "Apex in the second half of the curb",
+      "exit": "Go on throttle, open steering, use outside curb",
+      "mistakes": "Taking too much curb can cause a spin"
+    },
+    {
+      "label": null,
+      "spoken_as": "six",
+      "start_time": "1:19",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "Brake on green astro turf, peak 60%",
+      "line": "Apex in the middle of the turn, on the curb",
+      "exit": "Full throttle, use all of the curb",
+      "mistakes": "Cutting curb too much will unsettle the car"
+    }
+  ],
+  "general_tips": [],
+  "dropped_ungrounded": 0
+}

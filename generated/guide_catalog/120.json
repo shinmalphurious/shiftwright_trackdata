@@ -1,67 +1,102 @@
 {
   "track_id": 120,
   "layout": "120-texas-legendsoval",
+  "name": "[Legacy] Texas Motor Speedway - 2009 - Legends Oval",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:13:34.594686+00:00",
+  "candidates_seen": 47,
+  "diagnostics": {
+    "queries_planned": 7,
+    "queries_run": 7,
+    "queries_cached": 5,
+    "search_failures": 0,
+    "candidates": 47,
+    "new_candidates": 41,
+    "accepted": 6,
+    "selected": 6,
+    "kept_previous": 6,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 41,
+    "rejection_reasons": {
+      "too long": 18,
+      "no guide words in title": 14,
+      "venue not in title": 6,
+      "live stream": 2,
+      "too short": 1
+    }
+  },
   "selected_guides": {
     "nascar": [
       {
         "video_id": "3rlV8CTcc0U",
         "title": "iRacing | NASCAR Legends Fixed | Charlotte (Legacy) | Track Guide",
-        "description": "This video is made for inexperienced drivers to iRacing, the track, or the car to help you successfully make your way around the\u00a0...",
+        "description": "This video is made for inexperienced drivers to iRacing, the track, or the car to help you successfully make your way around the ...",
+        "channel": null,
+        "duration": null,
         "video_type": "lap_walkthrough",
         "car": "nascar",
-        "quality_score": 220
-      }
-    ],
-    "street_stock": [
+        "quality_score": 245,
+        "venue_confidence": 0.63
+      },
       {
-        "video_id": "WdHy2DA7Bu0",
-        "title": "iRacing How To Drive - Street Stock at Charlotte Oval 2018",
-        "description": "Follow along with this simple guide to run quick laps at Charlotte Motor Speedway in the Street Stock on iRacing!",
+        "video_id": "LMr-mrHdlTg",
+        "title": "iRacing Fixed NASCAR Series Tutorial: B Fixed Xfinity at Texas 23S2. Maconi Setup Shop",
+        "description": "iRacing NASCAR Fixed Series Tutorial by Justin Yee for Maconi Setup Shop LLC. When you're ready to run at the front in the ...",
+        "channel": "Maconi Setup Shop LLC",
+        "duration": 654,
         "video_type": "lap_walkthrough",
-        "car": "street_stock",
-        "quality_score": 220
-      },
-      {
-        "video_id": "eKp24FyCaIo",
-        "title": "How to Qualify Pole Every time in Charlotte Street Stocks (iRacing)",
-        "description": "https://discord.gg/NMmzG5h8Xj.",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
-      },
-      {
-        "video_id": "MgGhVjZS3jU",
-        "title": "Iracing Street Stock Charlotte Infield Road Course racing line",
-        "description": "this is a short tutorial on what line to take when racing the street stock on the Charlotte infield road course This is a 48.683 lap\u00a0...",
-        "video_type": "other",
-        "car": "street_stock",
-        "quality_score": 120
+        "car": "nascar",
+        "quality_score": 222,
+        "venue_confidence": 0.8
       }
     ],
-    "legends": [
+    "general": [
       {
-        "video_id": "iGVSRYs7kmU",
-        "title": "iRacing: Get the ******* hell outta my way! (RFOD Skip Barber @ Texas Legends Oval)",
-        "description": "It's a road car. It's an oval track. It's a very short oval track. Swearing is in full effect on this one! Race free or Die is the league.",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
+        "video_id": "I0GyXLlkTzg",
+        "title": "iRacing Track Guide: A Fixed at Legacy Texas",
+        "description": "Let me know how you race week is going! Intro Song: Cam Cole - Mama.",
+        "channel": "PDResh",
+        "duration": 559,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 232,
+        "venue_confidence": 0.8
       },
       {
-        "video_id": "mV7oU4z9Q58",
-        "title": "\u3010iRacing\u3011Legends CHARLOTTE Infield Road Course hot lap",
-        "description": "\u3010iRacing\u3011Legends Ford '34 Coupe CHARLOTTE Infield Road Course hot lap 47.185.",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
+        "video_id": "RLtwl9r6_fA",
+        "title": "iRacing Track Guide: Pickup Cup at Legacy Pocono",
+        "description": "If you're out, can you pick me up a Giant #56 on white from Jersey Mike's?",
+        "channel": "PDResh",
+        "duration": 594,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 225,
+        "venue_confidence": 0.63
+      }
+    ],
+    "arca": [
+      {
+        "video_id": "DjhUea8pjw4",
+        "title": "*Iracing Changed It!* Arca Updated Guide to Texas Qualifying and Race",
+        "description": "Ya that old setup was bad huh? Well this one is good as long as you approach it correctly. Join the Discord!",
+        "channel": "DJ Yee-J",
+        "duration": 613,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 222,
+        "venue_confidence": 0.8
       },
       {
-        "video_id": "d13qc50v2fk",
-        "title": "EZ Pass... iRacing Rookie Legends at Thompson s4-2022",
-        "description": "the 1 car had packet loss issues during qual.... his loss was my gain.... glad this track was on the schedule to offset the ir losses\u00a0...",
-        "video_type": "other",
-        "car": "legends",
-        "quality_score": 120
+        "video_id": "uY6hW2uFJZU",
+        "title": "Iracing Arca *NEW* Texas Guide to Qualifying and Race",
+        "description": "https://trophytracks.com The setup used in this video is the correct one for now. It may change later.",
+        "channel": "DJ Yee-J",
+        "duration": 1210,
+        "video_type": "lap_walkthrough",
+        "car": "arca",
+        "quality_score": 222,
+        "venue_confidence": 0.8
       }
     ]
   }

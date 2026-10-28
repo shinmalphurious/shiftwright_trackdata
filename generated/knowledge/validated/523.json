@@ -1,0 +1,835 @@
+{
+  "track_id": 523,
+  "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+  "records": {
+    "523:T4:important_exit": {
+      "id": "523:T4:important_exit",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1096 m to the next corner",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.987,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-27T23:08:33+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.968
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.001,
+            "speed_drop": 0.004,
+            "min_speed_share": 0.923,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.144,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T4: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T5:heavy_braking": {
+      "id": "523:T5:heavy_braking",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1096 m from the previous corner",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.989,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.75,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.989
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "af4Wee36oxw",
+              "result": "confirm",
+              "time": "4:02",
+              "note": "braking: Brake on left curbing, 60% pressure.; gear: 3rd; line: Brake at curbing, apex on right.; exit: Start accelerating at apex.",
+              "transcript_snippet": "maximum brake pressure of about 60%. I pull that speed off down to third. We start picking back up on the gas at the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=af4Wee36oxw"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.878,
+            "speed_drop": 0.465,
+            "min_speed_share": 0.53,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.004,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T5: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T15:important_exit": {
+      "id": "523:T15:important_exit",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T15",
+      "corner_name": "Stavelot",
+      "claim": "important_exit",
+      "statement": "Exit leads onto a long full-throttle run; exit speed matters",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "711 m to the next corner",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.968,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.968
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.0,
+            "speed_drop": 0.107,
+            "min_speed_share": 0.687,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.2,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Exit leads onto a long full-throttle run; exit speed matters at T15: research 0.60 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T1:heavy_braking": {
+      "id": "523:T1:heavy_braking",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T1",
+      "corner_name": "La Source",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "First corner after long straight, requires heavy braking.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.994,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.994
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "a6Dz_di8qI0",
+              "result": "confirm",
+              "time": "3:48",
+              "note": "braking: Brake at the marshal's position on left, 90% pressure.; gear: 2nd; exit: Take some curb on exit, same on right.",
+              "transcript_snippet": "So, he's just taking some curb on the on the And then the same on the right.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=a6Dz_di8qI0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.85,
+            "speed_drop": 0.627,
+            "min_speed_share": 0.315,
+            "min_throttle": 0.0,
+            "flat_after_pct": 0.258,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T1:slow_corner": {
+      "id": "523:T1:slow_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T1",
+      "corner_name": "La Source",
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Typically a slow corner due to the need for heavy braking.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.984
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.85,
+            "speed_drop": 0.627,
+            "min_speed_share": 0.315,
+            "min_throttle": 0.0,
+            "flat_after_pct": 0.258,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T1: research 0.75 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T2:fast_corner": {
+      "id": "523:T2:fast_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T2",
+      "corner_name": "Eau Rouge",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known for high-speed entry and exit.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.994,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.994
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "a6Dz_di8qI0",
+              "result": "confirm",
+              "time": "1:06",
+              "note": "line: Flat out; exit: Smooth exit; mistakes: Too much curbing",
+              "transcript_snippet": "but not too much of the old curbing. As we head up the Kemmel Straight. We're in sixth gear. Gianni is using 55%",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=a6Dz_di8qI0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.022,
+            "speed_drop": 0.044,
+            "min_speed_share": 0.916,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.18,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T2: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T3:fast_corner": {
+      "id": "523:T3:fast_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T3",
+      "corner_name": null,
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Short distance between corners suggests high speed.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.994,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.994
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "a6Dz_di8qI0",
+              "result": "confirm",
+              "time": "1:06",
+              "note": "line: Flat out; exit: Smooth exit; mistakes: Too much curbing",
+              "transcript_snippet": "but not too much of the old curbing. As we head up the Kemmel Straight. We're in sixth gear. Gianni is using 55%",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=a6Dz_di8qI0"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.0,
+            "speed_drop": 0.04,
+            "min_speed_share": 0.923,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.164,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T3: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; telemetry confirms over 6 lap(s); consensus 0.99 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T7:fast_corner": {
+      "id": "523:T7:fast_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T7",
+      "corner_name": "Malmedy",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high speed.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.964,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.964
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "a6Dz_di8qI0",
+              "result": "confirm",
+              "time": "1:36",
+              "note": "braking: Before 50 board, brake, trail brake, leave in 4th gear; gear: 4th; line: Flat; exit: Exit wide, look for 50 meter, down to 3rd gear",
+              "transcript_snippet": "And again, down to third gear. Look at that trail brake, people. Look at that trail brake.",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=a6Dz_di8qI0"
+            },
+            {
+              "video_id": "af4Wee36oxw",
+              "result": "confirm",
+              "time": "4:21",
+              "note": "braking: brake lightly to 70% at apex; gear: 3 to 4; line: flat in 3, short shift to 4, lift to 70% at apex; exit: flat out on right side",
+              "transcript_snippet": "going to short shift up to fourth and as soon as we do that, a little lift to get through turn seven. And it is a little",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=af4Wee36oxw"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": null,
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.01,
+            "speed_drop": 0.149,
+            "min_speed_share": 0.578,
+            "min_throttle": 0.753,
+            "flat_after_pct": 0.032,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Fast corner at T7: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T15:fast_corner": {
+      "id": "523:T15:fast_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T15",
+      "corner_name": "Stavelot",
+      "claim": "fast_corner",
+      "statement": "Fast corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests high speed.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "af4Wee36oxw",
+              "result": "confirm",
+              "time": "6:47",
+              "note": "line: Flat",
+              "transcript_snippet": "Turn 15, we can do absolutely flat as we can at 16 and 17. I've got one final bit of braking to",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=af4Wee36oxw"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": null,
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.0,
+            "speed_drop": 0.107,
+            "min_speed_share": 0.687,
+            "min_throttle": 1.0,
+            "flat_after_pct": 0.2,
+            "laps": 6
+          }
+        },
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T15",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 6,
+        "variant_confirmations": 1
+      },
+      "explanation": "Fast corner at T15: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T18:chicane": {
+      "id": "523:T18:chicane",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T18",
+      "corner_name": "Chicane",
+      "claim": "chicane",
+      "statement": "Chicane",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Known for being a chicane.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:50+00:00",
+          "consensus": 0.75,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.973,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:30:43+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.973
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "af4Wee36oxw",
+              "result": "confirm",
+              "time": "7:31",
+              "note": "braking: brake just after 100 board, 55-60%; gear: 2nd, then 1st; line: use curbing on left, brake 3/4 of the way down; exit: 25% throttle, bigger lift, back on gas in 1st; mistakes: too much camber, curb strike moves second apex",
+              "transcript_snippet": "the 100 board here in this specific car. And we get on the brakes again, only up to about 55-60%. While I pull that speed",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=af4Wee36oxw"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit de Spa-Francorchamps - Endurance",
+            "source_track_id": 525,
+            "corner": "T18",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Chicane at T18: research 0.75 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.97 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "523:T19:slow_corner": {
+      "id": "523:T19:slow_corner",
+      "track_id": 523,
+      "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+      "corner": "T19",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "Long distance to next corner suggests a slower corner.",
+          "at": "2026-10-28T10:06:06+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:15+00:00",
+          "consensus": 0.984,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-28T01:56:21+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": null,
+        "telemetry": 0.952,
+        "variants": null,
+        "consensus": 0.984
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": {
+          "result": "confirm",
+          "laps": 6,
+          "metrics": {
+            "peak_brake": 0.005,
+            "speed_drop": 0.436,
+            "min_speed_share": 0.305,
+            "min_throttle": -0.0,
+            "flat_after_pct": 0.053,
+            "laps": 6
+          }
+        },
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": "confirm",
+        "telemetry_laps": 6,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T19: research 0.75 from 1 source(s); telemetry confirms over 6 lap(s); consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

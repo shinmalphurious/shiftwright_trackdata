@@ -1,0 +1,254 @@
+{
+  "video_id": "q1nPfG3e-1U",
+  "track_id": 195,
+  "track_name": "Mobility Resort Motegi - Grand Prix",
+  "title": "iRacing Porsche GT3 Motegi Guide 1:48.9 Porsche 992 R GT3 Mobility Resort Motegi Tarck Guide",
+  "car": "Porsche GT3",
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "after 100 board, 50% brake pressure",
+      "line": "turn-in left, ignore first apex, late apex",
+      "exit": "exit wide, 100% throttle",
+      "note_id": "q1nPfG3e-1U:0",
+      "text": "braking: after 100 board, 50% brake pressure; line: turn-in left, ignore first apex, late apex; exit: exit wide, 100% throttle",
+      "spoken_as": "turn one",
+      "passage_time": "1:37",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:31",
+      "snippet": "through the 100 board on the left hand side. There we got our left hand tires all the way over on the edge of the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break alongside the 100 board to 55%",
+      "line": "left tires over rumble strip",
+      "exit": "exit wide",
+      "note_id": "q1nPfG3e-1U:1",
+      "text": "braking: break alongside the 100 board to 55%; line: left tires over rumble strip; exit: exit wide",
+      "spoken_as": "turn three",
+      "passage_time": "2:54",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:02",
+      "snippet": "board. Going to break again to about 55% so as not toast the um tires in the GT3. The model here",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "left tires over rumble strip",
+      "exit": "exit wide",
+      "note_id": "q1nPfG3e-1U:2",
+      "text": "line: left tires over rumble strip; exit: exit wide",
+      "spoken_as": "second apex",
+      "passage_time": "2:54",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:47",
+      "snippet": "that rumble strip. Exit nice and wide. And we're going to go flat through turn six again. Just running over the rumble",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break ahead of the 100 to 55%",
+      "gear": "2nd",
+      "line": "right tires over rumble strip",
+      "exit": "exit wide",
+      "note_id": "q1nPfG3e-1U:3",
+      "text": "braking: break ahead of the 100 to 55%; gear: 2nd; line: right tires over rumble strip; exit: exit wide",
+      "spoken_as": "turn five",
+      "passage_time": "2:54",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.58,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:47",
+      "snippet": "that rumble strip. Exit nice and wide. And we're going to go flat through turn six again. Just running over the rumble",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "run over rumble strip, tight on mud",
+      "note_id": "q1nPfG3e-1U:4",
+      "text": "line: run over rumble strip, tight on mud",
+      "spoken_as": "turn six",
+      "passage_time": "2:54",
+      "corner_id": "T6",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:56",
+      "snippet": "strip. Getting nice and tight on that mud on the right hand side. Head over to the right now. Once we're",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake up to 45%",
+      "line": "trail brake to first apex",
+      "note_id": "q1nPfG3e-1U:5",
+      "text": "braking: brake up to 45%; line: trail brake to first apex",
+      "spoken_as": "next braking marker",
+      "passage_time": "2:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:10",
+      "snippet": "down to the first apex. Then we're going to start picking back up on the gas. We're going to get up to about 90%",
+      "best_candidate": {
+        "corner_id": "T7",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T6",
+        "before": "T9",
+        "estimated_pct": 0.4685,
+        "corner_pct": 0.4844,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T6",
+        "before": "T9",
+        "corners_between": [
+          "T7",
+          "T8"
+        ]
+      }
+    },
+    {
+      "braking": "55% to second gear",
+      "exit": "start picking back up on the gas",
+      "note_id": "q1nPfG3e-1U:6",
+      "text": "braking: 55% to second gear; exit: start picking back up on the gas",
+      "spoken_as": "turn nine",
+      "passage_time": "4:12",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:38",
+      "snippet": "breaking to about 55% down to second gear. left hand over and then we start picking back up on the gas.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "60% after the 100 board",
+      "line": "trail it off lay apex",
+      "exit": "back on the gas",
+      "note_id": "q1nPfG3e-1U:7",
+      "text": "braking: 60% after the 100 board; line: trail it off lay apex; exit: back on the gas",
+      "spoken_as": "turn 10",
+      "passage_time": "4:12",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.78,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:55",
+      "snippet": "again about 60% trail it off lay apex get the nose pointed in and then back on the gas.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "trail off, drop to second",
+      "line": "get nose pointed in, attack curb, flat to grass patch",
+      "exit": "exit wide, right side over white line, pin it to start finish",
+      "mistakes": "breaking hard, living in ABS",
+      "note_id": "q1nPfG3e-1U:8",
+      "text": "gear: trail off, drop to second; line: get nose pointed in, attack curb, flat to grass patch; exit: exit wide, right side over white line, pin it to start finish; mistakes: breaking hard, living in ABS",
+      "spoken_as": "next braking marker",
+      "passage_time": "5:30",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "gear": 1.0
+        }
+      },
+      "time": "6:18",
+      "snippet": "it down to second and then trail off. Really attacking this final bit of corner again. Just running over the edge",
+      "best_candidate": {
+        "corner_id": "T14",
+        "confidence": 0.215,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T10",
+        "before": "start/finish",
+        "estimated_pct": 0.9566,
+        "corner_pct": 0.9297,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T10",
+        "before": "start/finish",
+        "corners_between": [
+          "T11",
+          "T12",
+          "T13",
+          "T14"
+        ]
+      }
+    }
+  ]
+}

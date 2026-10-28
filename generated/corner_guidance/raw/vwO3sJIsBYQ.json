@@ -1,0 +1,93 @@
+{
+  "video_id": "vwO3sJIsBYQ",
+  "track_id": 229,
+  "track_name": "Circuit of the Americas - Grand Prix",
+  "title": "iRacing Indycar Circuit of the Americas Track Guide | Team I5G",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:02:39.625545+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "cut the entry, turn early",
+      "line": "hit the apex",
+      "exit": "down the throttle as soon as possible",
+      "mistakes": "light rear tires up due to elevation change"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turns three four five and six",
+      "start_time": "0:00",
+      "sequence": 0,
+      "line": "same mechanics and line as Silverstone",
+      "mistakes": "hit the big yellow curbs"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 11",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking hard",
+      "line": "very tight apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 17",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T17",
+      "line": "use inside curb to the left",
+      "mistakes": "get an off track"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 18",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T18",
+      "line": "use inside curb to the left",
+      "mistakes": "get an off track"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 19",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T19",
+      "line": "use as much of the inside curb to the left as we dare",
+      "mistakes": "get an off track or slow down"
+    },
+    {
+      "label": "T20",
+      "spoken_as": "turn 20",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "be aggressive on the left side",
+      "mistakes": "get an off track"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "2:34",
+      "sequence": 2,
+      "line": "take a wider arc into the corner",
+      "exit": "better exit and a little push to pass",
+      "mistakes": "defending the inside line"
+    }
+  ],
+  "general_tips": [
+    "be careful with elevation changes",
+    "be careful with the new damage model",
+    "be careful not to overcook your left front or your right front for these corners",
+    "it's quite easy to do so",
+    "use track limits to your advantage on exits",
+    "avoid cutting corner entry to avoid slowdown penalty"
+  ],
+  "dropped_ungrounded": 0
+}

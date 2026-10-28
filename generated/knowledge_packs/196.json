@@ -254,5 +254,41 @@
     }
   ],
   "youtube_summary": {},
-  "turn_consensus": {}
+  "turn_consensus": {},
+  "corner_guidance": {},
+  "corner_facts": {
+    "T7": [
+      {
+        "claim": "fast_corner",
+        "statement": "Fast corner",
+        "confidence": 0.903,
+        "basis": "consensus",
+        "evidence": {
+          "research": 1,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 1
+        },
+        "explanation": "Fast corner at T7: research 0.70 from 1 source(s); confirmed at 1 identical corner(s) of other layouts; consensus 0.90 -> validated (evidence supports the claim)"
+      }
+    ],
+    "T6": [
+      {
+        "claim": "heavy_braking",
+        "statement": "Heavy braking zone",
+        "confidence": 0.931,
+        "basis": "inherited",
+        "evidence": {
+          "research": 0,
+          "transcript": 0,
+          "telemetry_laps": 0,
+          "variants": 0
+        },
+        "explanation": "Heavy braking zone at T6: inherited from Mobility Resort Motegi - Grand Prix T5 (same corner, same approach, inheritance 1.00); Heavy braking zone at T5: research 0.60 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.93 -> validated (evidence supports the claim)",
+        "source_track": "Mobility Resort Motegi - Grand Prix",
+        "source_corner": "T5",
+        "inheritance_confidence": 1.0
+      }
+    ]
+  }
 }

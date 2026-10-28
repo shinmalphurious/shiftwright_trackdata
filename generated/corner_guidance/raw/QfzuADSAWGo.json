@@ -1,0 +1,251 @@
+{
+  "video_id": "QfzuADSAWGo",
+  "track_id": 8,
+  "track_name": "Summit Point Raceway - Jefferson Circuit",
+  "title": "Summit Point Jefferson | @Dave Cam iRacing Mazda MX-5 Track Guide",
+  "car_hint": "mx5",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:23:41.558084+00:00",
+  "passages": 12,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn number one",
+      "start_time": "1:52",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "no braking marker, use access road on left",
+      "gear": "3rd gear"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number one",
+      "start_time": "3:09",
+      "sequence": 2,
+      "label_guess": "T1",
+      "braking": "Brake hard in a straight line to first gear, hug inside curb.",
+      "gear": "1st",
+      "line": "Turn-in at grass patch, apex late, clip inside kerb.",
+      "exit": "Accelerate early, clip inside kerb.",
+      "mistakes": "Oversteer or understeer, wide exit."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number two",
+      "start_time": "3:09",
+      "sequence": 2,
+      "label_guess": "T2",
+      "braking": "Lift off, brake for turn.",
+      "gear": "2nd",
+      "line": "Clip inside kerb to help rotation.",
+      "exit": "Burst of acceleration."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number three",
+      "start_time": "3:09",
+      "sequence": 2,
+      "label_guess": "T3",
+      "braking": "Hard braking, down to first gear.",
+      "gear": "1st",
+      "line": "Apex late.",
+      "exit": "Get on the gas about this point.",
+      "mistakes": "Understeer or oversteer, sliding."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "4:27",
+      "sequence": 3,
+      "label_guess": "T1",
+      "braking": "brake fully at tire marks, get back on gas fully",
+      "line": "turn-in late, apex late",
+      "exit": "get on gas fully, up to 2nd gear",
+      "mistakes": "car will push out wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number four",
+      "start_time": "4:27",
+      "sequence": 3,
+      "label_guess": "T4",
+      "braking": "stab brakes early",
+      "gear": "2nd",
+      "line": "turn-in early, use inside curb for rotation",
+      "exit": "back on gas",
+      "mistakes": "car pushed off apex by bump"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "4:27",
+      "sequence": 3,
+      "label_guess": "T5",
+      "braking": "brake smoothly before marks, trail brake, turn in early",
+      "gear": "2nd",
+      "line": "turn-in early, use inside curb for rotation",
+      "exit": "back on gas",
+      "mistakes": "car unsettled, pushed off apex by bump"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn number six",
+      "start_time": "5:46",
+      "sequence": 4,
+      "braking": "break in the middle of the circuit across the white lines, 30-35%",
+      "gear": "fourth to second",
+      "line": "turn right, miss kerb on right",
+      "exit": "get on gas early",
+      "mistakes": "car will run wide, be careful"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number one",
+      "start_time": "7:05",
+      "sequence": 5,
+      "label_guess": "T1",
+      "braking": "braking at dark bit of grass, down into first gear",
+      "gear": "first",
+      "line": "brush curb on right, up to second, lift, touch curb on right",
+      "exit": "accelerate hard, keep turning left"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "7:05",
+      "sequence": 5,
+      "label_guess": "T2",
+      "braking": "braking at worn piece of grass on right",
+      "gear": "fourth, then second, then first",
+      "line": "turn early, clip bit across on left",
+      "exit": "accelerate, lift, hold brakes",
+      "mistakes": "easy to get off track on right"
+    },
+    {
+      "label": null,
+      "spoken_as": "final turn",
+      "start_time": "8:22",
+      "sequence": 6,
+      "label_guess": "T7",
+      "braking": "on the second on the first, be patient",
+      "gear": "up to fourth",
+      "line": "turn in early",
+      "exit": "get on the accelerator, be patient",
+      "mistakes": "so easy to do that, so easy to do that"
+    },
+    {
+      "label": null,
+      "spoken_as": "across the white line",
+      "start_time": "9:40",
+      "sequence": 7,
+      "label_guess": "T7",
+      "braking": "braking down the third, second, first",
+      "gear": "up to second",
+      "line": "turn in early, clip the grass on the left",
+      "exit": "lift, back on the accelerator, get on the gas at apex, drift wide, move car to center, then right",
+      "mistakes": "touching the bit of grass, getting a pit warning signal"
+    },
+    {
+      "label": null,
+      "spoken_as": "second clip",
+      "start_time": "9:40",
+      "sequence": 7,
+      "gear": "up to second",
+      "line": "clip the grass on the left",
+      "exit": "lift, back on the accelerator"
+    },
+    {
+      "label": null,
+      "spoken_as": "right hand side",
+      "start_time": "9:40",
+      "sequence": 7,
+      "gear": "up to second, then third",
+      "line": "looking for the worn piece of grass on the right",
+      "exit": "get on the gas at apex, let the car drift wide"
+    },
+    {
+      "label": null,
+      "spoken_as": "across the white line",
+      "start_time": "9:40",
+      "sequence": 7,
+      "braking": "braking down the first",
+      "line": "use the curb on the inside for rotation",
+      "exit": "get on the gas",
+      "mistakes": "not rotating enough"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "10:57",
+      "sequence": 8,
+      "label_guess": "T5",
+      "braking": "get the car nice and settled before you turn in",
+      "mistakes": "can't be stabbing at the brakes"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "10:57",
+      "sequence": 8,
+      "label_guess": "T7",
+      "exit": "be really patient on the throttle"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "turn number one",
+      "start_time": "12:15",
+      "sequence": 9,
+      "line": "hold an outside line",
+      "mistakes": "try to hold it around the outside, difficult"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn number two",
+      "start_time": "12:15",
+      "sequence": 9,
+      "line": "inside line"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number five",
+      "start_time": "13:33",
+      "sequence": 10,
+      "exit": "get a really good exit",
+      "mistakes": "take a awkward line"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "13:33",
+      "sequence": 10,
+      "mistakes": "not much grip on the outside"
+    }
+  ],
+  "general_tips": [
+    "Track temperature is 26 degrees Celsius",
+    "Use Iris and Baseline setup",
+    "Corners change depending on tyre temperatures",
+    "Be careful on the first few laps due to lack of grip.",
+    "be patient with the throttle coming out the final turn",
+    "look for the warm piece of grass on the right",
+    "turn in early and get on the acceleration of the air pick",
+    "let the car all the way out wide",
+    "tires are starting to come in now",
+    "be nice and patient",
+    "be smooth",
+    "be really smooth through there",
+    "be really smooth as the car goes up the crest",
+    "overtaking difficult, rely on others to race clean",
+    "potential move on outside of turn one, inside of turn two",
+    "get move done in turns three and four",
+    "get the move done in turns three and four",
+    "give them room at turn number two",
+    "position your car as if you're gonna go for an overtake and then get it back online",
+    "clear them before turn number six",
+    "Hold it through turn two and overtake them in three and four.",
+    "Overtake on the exit of turn number five."
+  ],
+  "dropped_ungrounded": 2
+}

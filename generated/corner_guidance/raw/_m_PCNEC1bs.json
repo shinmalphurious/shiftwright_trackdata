@@ -1,0 +1,137 @@
+{
+  "video_id": "_m_PCNEC1bs",
+  "track_id": 179,
+  "track_name": "Long Beach Street Circuit",
+  "title": "Track Guide Long Beach Street Circuit Toyota GR86 iRacing",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:39:29.827313+00:00",
+  "passages": 4,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake before 300 marker, full brake until turn-in at 100 board",
+      "line": "turn-in at 100 board, apex at inside curb, full throttle exit",
+      "exit": "full throttle, stay close to outside wall",
+      "mistakes": "don't take too much curb, don't cross pit lane exit line"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake crossing yellow line, 70% brake pressure to inside curb",
+      "line": "get close to left wall, apex at inside curb",
+      "exit": "full throttle, stay close to inside wall",
+      "mistakes": "don't cut too much inside curb"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "tap brake at markers on left of wall, 10% brake"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "tap brake to 10% at markers, off brake before curb",
+      "exit": "full throttle before curb",
+      "mistakes": "don't hit curb too hard"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "brake to 25% at discolorations, off brake before curb",
+      "line": "cut curb, left side tires on main curb",
+      "exit": "full throttle after curb",
+      "mistakes": "avoid slow down on inside"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "brake to 90% at 200 board, ease off to inside wall",
+      "line": "get close to inside wall",
+      "exit": "full throttle after inside wall",
+      "mistakes": "don't hit wall"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "1:19",
+      "sequence": 1,
+      "braking": "brake to 50% at 200 board",
+      "mistakes": "lift off throttle to avoid wall"
+    },
+    {
+      "label": "T8",
+      "spoken_as": "turn eight",
+      "start_time": "2:37",
+      "sequence": 2,
+      "braking": "200 board, 50% brake pressure to curb",
+      "line": "cut all red and white curb, inside wall",
+      "exit": "easy throttle, avoid wall",
+      "mistakes": "hitting the wall slows you down"
+    },
+    {
+      "label": null,
+      "spoken_as": "the shortest line to the 300 board",
+      "start_time": "2:37",
+      "sequence": 2,
+      "label_guess": "T9",
+      "braking": "300 board, 95% brake pressure to curb",
+      "line": "cut all curb, one set of wheels on red and white curb",
+      "exit": "half throttle, stabilize car"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "2:37",
+      "sequence": 2,
+      "braking": "25% brake pressure under Firestone bridge",
+      "line": "follow red and white curb on inside",
+      "exit": "full throttle when curb ends"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "2:37",
+      "sequence": 2,
+      "line": "over red and white curb"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "3:54",
+      "sequence": 3,
+      "braking": "when the curb straightens, 90% brake pressure, easing off",
+      "line": "turn in early, follow red and white curb",
+      "exit": "full throttle as early as possible",
+      "mistakes": "getting too far off the curb, bad exit"
+    }
+  ],
+  "general_tips": [
+    "hug inside wall to turn one",
+    "full throttle exit from turn one",
+    "stay on left side of track for turn two",
+    "stay close to inside wall on exit of turn two",
+    "tap brake lightly at markers for turn four",
+    "use outside as needed without hitting wall",
+    "take shortest line to 300 board",
+    "stabilize car with half throttle",
+    "use brake a little bit for turn 10",
+    "don't get too far off next red and white curb for turn 11"
+  ],
+  "dropped_ungrounded": 0
+}

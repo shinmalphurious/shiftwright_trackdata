@@ -1,0 +1,106 @@
+{
+  "video_id": "cHVlvDTkttw",
+  "track_id": 18,
+  "track_name": "Road America - Full Course",
+  "title": "iRacing Porsche GT3 Road America Guide 2:02.4 Porsche GT3 Road America Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:41:16.875054+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "brake down",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "Brake down to 50%"
+    },
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:38",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Brake at three count, 55%, hold till final cone",
+      "gear": "4",
+      "line": "Trail brake, apex in 4th gear",
+      "exit": "Exit wide, right tires on track"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number three",
+      "start_time": "2:38",
+      "sequence": 1,
+      "label_guess": "T3",
+      "braking": "Brake at two marker, 50-55%, trail off",
+      "gear": "4",
+      "line": "Trail brake, apex full throttle"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "2:38",
+      "sequence": 1,
+      "braking": "Brake after three marker, earlier than expected"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "3:55",
+      "sequence": 2,
+      "label_guess": "T6",
+      "braking": "40% at right-hand side concrete barrier",
+      "gear": "2",
+      "line": "trail off to apex, back on gas",
+      "exit": "wide exit, room on left",
+      "mistakes": "don't go wide if someone is passing"
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "3:55",
+      "sequence": 2,
+      "braking": "80%",
+      "exit": "wide exit",
+      "mistakes": "lift slightly"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "3:55",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "55% at three and two marker",
+      "line": "trail off to apex",
+      "exit": "back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number nine",
+      "start_time": "5:13",
+      "sequence": 3,
+      "label_guess": "T9",
+      "braking": "lift, light brake to end of green armco",
+      "exit": "accelerate when seeing Porta Potty",
+      "mistakes": "braking hard damages tires"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number 10",
+      "start_time": "5:13",
+      "sequence": 3,
+      "label_guess": "T10",
+      "braking": "40-45% under airport sign",
+      "gear": "3rd",
+      "line": "right-hand side"
+    }
+  ],
+  "general_tips": [
+    "open up the corner",
+    "be careful of early braking",
+    "enjoy higher apex speed all the way up the start-finish straight"
+  ],
+  "dropped_ungrounded": 2
+}

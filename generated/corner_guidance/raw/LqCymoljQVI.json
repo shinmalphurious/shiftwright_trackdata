@@ -1,0 +1,146 @@
+{
+  "video_id": "LqCymoljQVI",
+  "track_id": 173,
+  "track_name": "Suzuka International Racing Course - Moto",
+  "title": "iRacing Porsche GT4 Suzuka Guide 2:09.6 Porsche Cayman 718 GT4 Suzuka GP Track Guide",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T00:56:49.170162+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "first braking marker",
+      "start_time": "2:48",
+      "sequence": 1,
+      "braking": "Brake to 45% at traffic lights on left.",
+      "gear": "3",
+      "line": "Kiss first apex, leave room left.",
+      "exit": "Slowly pick up throttle ahead of apex.",
+      "mistakes": "Don't over brake."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:48",
+      "sequence": 1,
+      "braking": "Brake to 10-15% to apex, trail off.",
+      "line": "Turn left, then right.",
+      "exit": "Blip of gas, don't reach 100%."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:48",
+      "sequence": 1,
+      "braking": "Brake to 10-15%, trail off.",
+      "line": "Turn right.",
+      "exit": "Back on gas."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "2:48",
+      "sequence": 1,
+      "braking": "Brake to 5%, trail off.",
+      "line": "Turn left.",
+      "exit": "Back on gas."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number six",
+      "start_time": "2:48",
+      "sequence": 1,
+      "label_guess": "T6",
+      "braking": "Brake to 10%, trail off.",
+      "line": "Hold until apex visible.",
+      "exit": "Slowly back on gas."
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number eight",
+      "start_time": "4:08",
+      "sequence": 2,
+      "label_guess": "T8",
+      "braking": "braking just after 100 to 45%, trail off to apex",
+      "gear": "fourth",
+      "exit": "exit wide, back on gas 100% at apex"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "4:08",
+      "sequence": 2,
+      "label_guess": "T9",
+      "braking": "braking 45-50%, trail off to apex",
+      "gear": "second",
+      "exit": "gently on gas, avoid traction control"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "4:08",
+      "sequence": 2,
+      "braking": "braking to 50%, roll and increase",
+      "gear": "second",
+      "exit": "gently on gas, avoid traction control"
+    },
+    {
+      "label": "T13",
+      "spoken_as": "turn 13",
+      "start_time": "4:08",
+      "sequence": 2,
+      "mistakes": "tricky to avoid traction control"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn 14",
+      "start_time": "5:26",
+      "sequence": 3,
+      "label_guess": "T14",
+      "braking": "brake roughly halfway between rumble strip and entrance road",
+      "gear": "2nd",
+      "line": "trail off down to apex",
+      "exit": "little blip of gas",
+      "mistakes": "don't go too early, avoid gravel trap"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "5:26",
+      "sequence": 3,
+      "label_guess": "T15",
+      "braking": "brake to about 35% between 100 and 50 markers",
+      "gear": "2nd",
+      "line": "trail off to apex",
+      "exit": "get back on gas to 100%"
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "5:26",
+      "sequence": 3,
+      "label_guess": "T16",
+      "braking": "brake just before 150 marker",
+      "gear": "2nd",
+      "line": "brake in straight line towards outside of track",
+      "exit": "turn in, back on gas, little blip in 2nd gear, left, back on gas"
+    },
+    {
+      "label": null,
+      "spoken_as": "this corner",
+      "start_time": "6:43",
+      "sequence": 4,
+      "braking": "cut the corner as much as possible",
+      "line": "get all the steer out",
+      "exit": "over and across the line"
+    }
+  ],
+  "general_tips": [
+    "get it right and learn it ahead of time to make time up on others",
+    "If you found this useful, can you possibly consider giving this video a like?"
+  ],
+  "dropped_ungrounded": 0
+}

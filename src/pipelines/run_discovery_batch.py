@@ -1,34 +1,5 @@
+"""Kept for the old command: runs run_guide_discovery (same arguments, e.g. --limit 25)."""
 import subprocess
 import sys
 
-PYTHON = sys.executable
-
-LIMIT = 25
-
-for i in range(LIMIT):
-
-    print()
-    print(
-        f"DISCOVERY {i+1}/{LIMIT}"
-    )
-
-    result = subprocess.run(
-        [
-            PYTHON,
-            "-m",
-            "src.pipelines.run_track_discovery"
-        ]
-    )
-
-    if result.returncode != 0:
-
-        print(
-            "STOPPED"
-        )
-
-        break
-
-print()
-print(
-    "BATCH COMPLETE"
-)
+raise SystemExit(subprocess.call([sys.executable, "-m", "src.pipelines.run_guide_discovery", *sys.argv[1:]]))

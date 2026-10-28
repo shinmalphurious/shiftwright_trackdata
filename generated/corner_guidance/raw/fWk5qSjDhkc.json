@@ -1,0 +1,245 @@
+{
+  "video_id": "fWk5qSjDhkc",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "iRacing Circuit Guide: GR86 - Oulton Park - International",
+  "car_hint": "general",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:44:30.157452+00:00",
+  "passages": 18,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "brake at start of jordanbikes.com advertising board",
+      "gear": "downshift to 3rd",
+      "line": "use all track on entry",
+      "mistakes": "don't use white line as edge of track"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "T1",
+      "start_time": "1:18",
+      "sequence": 1,
+      "braking": "Downshift to third gear, use all the road on the outside.",
+      "gear": "Third",
+      "line": "Turn in late, use all the apex curve available.",
+      "exit": "Full throttle by the time you're in line with the green and white striped fence, run wide on exit.",
+      "mistakes": "Using too much of the grated section on exit can bog the car down."
+    },
+    {
+      "label": null,
+      "spoken_as": "next corner",
+      "start_time": "2:36",
+      "sequence": 2,
+      "label_guess": "T2",
+      "braking": "Brake after crest, as soon as crest finishes.",
+      "gear": "4 to 3",
+      "mistakes": "Don't brake over the crest."
+    },
+    {
+      "label": null,
+      "spoken_as": "this corner",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T2",
+      "braking": "Brake just after the crest to third gear.",
+      "gear": "3",
+      "line": "Apex where the curve changes.",
+      "exit": "Start throttle pickup before apex, full throttle just before apex.",
+      "mistakes": "Avoid spending too long on the bumpy parts."
+    },
+    {
+      "label": null,
+      "spoken_as": "second proper corner",
+      "start_time": "5:11",
+      "sequence": 4,
+      "label_guess": "T2",
+      "braking": "brake shape similar to turn one",
+      "gear": "same downshift point as turn one",
+      "line": "same on-off throttle technique as turn one"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "third proper corner",
+      "start_time": "5:11",
+      "sequence": 4,
+      "braking": "lift at the start"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four or something",
+      "start_time": "6:30",
+      "sequence": 5,
+      "gear": "4th",
+      "line": "smooth lift and smooth steering input",
+      "exit": "full throttle at the end of apex curb",
+      "mistakes": "overload the front wheels, scrub the front wheels, push understeer, no grip for the hairpin"
+    },
+    {
+      "label": null,
+      "spoken_as": "the hairpin",
+      "start_time": "7:48",
+      "sequence": 6,
+      "label_guess": "T4",
+      "exit": "Smooth throttle application to avoid overheating tires.",
+      "mistakes": "Over scrubbing the front tires, understeering."
+    },
+    {
+      "label": null,
+      "spoken_as": "the hairpin",
+      "start_time": "9:04",
+      "sequence": 7,
+      "label_guess": "T4",
+      "braking": "end of tire bundle, straight steering, then brake",
+      "mistakes": "do not turn in early, avoid ABS"
+    },
+    {
+      "label": null,
+      "spoken_as": "slow-speed corner",
+      "start_time": "10:24",
+      "sequence": 8,
+      "label_guess": "T2",
+      "braking": "brake early, use all road on the outside",
+      "gear": "2",
+      "line": "turn in early, middle apex",
+      "exit": "throttle input, follow banking",
+      "mistakes": "don't use late apex, don't cut back"
+    },
+    {
+      "label": "T1",
+      "spoken_as": "Old Hall Corner",
+      "start_time": "11:42",
+      "sequence": 9,
+      "braking": "88% at peak, trail off",
+      "line": "middle apex",
+      "exit": "commit to throttle input",
+      "mistakes": "late apex, hitting barriers"
+    },
+    {
+      "label": null,
+      "spoken_as": "this one",
+      "start_time": "12:59",
+      "sequence": 10,
+      "label_guess": "T2",
+      "braking": "Brake at second angle in tire wall, keep steering straight.",
+      "gear": "2nd",
+      "line": "Straighten steering wheel as you brake.",
+      "mistakes": "Following the curve of the road when braking."
+    },
+    {
+      "label": null,
+      "spoken_as": "first chicane",
+      "start_time": "14:17",
+      "sequence": 11,
+      "label_guess": "T2",
+      "braking": "Brake to the left curb without hitting the tire barrier.",
+      "gear": "Second gear",
+      "line": "Take as much curb as possible, then change direction.",
+      "mistakes": "Avoid hitting the tire barrier on the right side."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "15:35",
+      "sequence": 12,
+      "label_guess": "T2",
+      "braking": "Half a meter off the inside curve, brake early",
+      "line": "Turn-in early, aim for second apex",
+      "exit": "Throttle at second apex",
+      "mistakes": "Aiming for hard-to-see references"
+    },
+    {
+      "label": null,
+      "spoken_as": "first chicane",
+      "start_time": "16:52",
+      "sequence": 13,
+      "label_guess": "T2",
+      "gear": "2nd gear",
+      "exit": "full throttle on second apex",
+      "mistakes": "touch grass lightly, avoid off-track"
+    },
+    {
+      "label": null,
+      "spoken_as": "second one",
+      "start_time": "16:52",
+      "sequence": 13,
+      "label_guess": "T3",
+      "gear": "2nd gear",
+      "exit": "full throttle on second apex",
+      "mistakes": "touch grass lightly, avoid off-track"
+    },
+    {
+      "label": null,
+      "spoken_as": "second chicane",
+      "start_time": "18:11",
+      "sequence": 14,
+      "label_guess": "T2",
+      "braking": "Between 100 and 50 m, hold brakes until second apex",
+      "gear": "Second",
+      "line": "Middle of car to miss white line, aim for middle of car",
+      "exit": "Transition to throttle at second apex",
+      "mistakes": "Too much margin, missing white line"
+    },
+    {
+      "label": null,
+      "spoken_as": "next one",
+      "start_time": "19:29",
+      "sequence": 15,
+      "label_guess": "T2",
+      "braking": "Brake reference is a curve in the road, hard to see.",
+      "gear": "4th",
+      "line": "Short shift to 3rd, lift early, turn in and full throttle at apex.",
+      "mistakes": "Watch out for off-track trigger on the inside curb."
+    },
+    {
+      "label": null,
+      "spoken_as": "this first curb",
+      "start_time": "20:47",
+      "sequence": 16,
+      "line": "maximize track usage on the outside",
+      "exit": "smooth throttle application",
+      "mistakes": "over push the entry, turn in late, understeer"
+    },
+    {
+      "label": "T2",
+      "spoken_as": "the last corner",
+      "start_time": "20:47",
+      "sequence": 16,
+      "braking": "just after the crest",
+      "gear": "downshift to second",
+      "mistakes": "brake on top of the crest"
+    },
+    {
+      "label": null,
+      "spoken_as": "the road",
+      "start_time": "22:06",
+      "sequence": 17,
+      "braking": "Brake assertively, trail brake into corner",
+      "line": "Rotate car to be full throttle by road",
+      "exit": "Throttle naturally to exit curb"
+    }
+  ],
+  "general_tips": [
+    "use all track on entry",
+    "white line is not edge of track",
+    "Use the grated stuff on the exit but it may bog the car.",
+    "stay off the grated stuff on exit",
+    "Be smooth with throttle and steering inputs.",
+    "Lift throttle if understeer is felt.",
+    "smooth throttle application",
+    "maximize braking capacity by avoiding steering input during braking",
+    "precision is key through the chicanes",
+    "focus on being precise to avoid barriers and maintain speed",
+    "Focus on the left side of the car for easier reference points.",
+    "Throttle application at second apex to make it look like one corner on data",
+    "Full throttle by the road",
+    "Assertive braking",
+    "Trail brake into corner"
+  ],
+  "dropped_ungrounded": 3
+}

@@ -1,0 +1,232 @@
+{
+  "video_id": "af4Wee36oxw",
+  "track_id": 523,
+  "track_name": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+  "title": "iRacing F3 Spa Guide 2:11.1 Dallara F3 Spa Grand Prix Pits Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 6,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake midway between 100 and 50, 55-60% pressure.",
+      "gear": "2nd",
+      "line": "Straight on brakes, drop to 1st, apex to 100% throttle.",
+      "exit": "Flat through Eau Rouge and Raidillon.",
+      "mistakes": "Take curb on left in first set, avoid curb in second and third sets.",
+      "note_id": "af4Wee36oxw:0",
+      "text": "braking: Brake midway between 100 and 50, 55-60% pressure.; gear: 2nd; line: Straight on brakes, drop to 1st, apex to 100% throttle.; exit: Flat through Eau Rouge and Raidillon.; mistakes: Take curb on left in first set, avoid curb in second and third sets.",
+      "spoken_as": "first braking marker",
+      "passage_time": "2:53",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "exit": 1.0
+        }
+      },
+      "time": "2:58",
+      "snippet": "midway between the 100 and the 50 when we start braking. So, exactly where we are now, we get straight on the brakes"
+    },
+    {
+      "braking": "Brake on left curbing, 60% pressure.",
+      "gear": "3rd",
+      "line": "Brake at curbing, apex on right.",
+      "exit": "Start accelerating at apex.",
+      "note_id": "af4Wee36oxw:1",
+      "text": "braking: Brake on left curbing, 60% pressure.; gear: 3rd; line: Brake at curbing, apex on right.; exit: Start accelerating at apex.",
+      "spoken_as": "turn five",
+      "passage_time": "2:53",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:02",
+      "snippet": "maximum brake pressure of about 60%. I pull that speed off down to third. We start picking back up on the gas at the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake lightly to 70% at apex",
+      "gear": "3 to 4",
+      "line": "flat in 3, short shift to 4, lift to 70% at apex",
+      "exit": "flat out on right side",
+      "note_id": "af4Wee36oxw:2",
+      "text": "braking: brake lightly to 70% at apex; gear: 3 to 4; line: flat in 3, short shift to 4, lift to 70% at apex; exit: flat out on right side",
+      "spoken_as": "turn seven",
+      "passage_time": "4:11",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:21",
+      "snippet": "going to short shift up to fourth and as soon as we do that, a little lift to get through turn seven. And it is a little",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at curb on left, 50% pressure",
+      "gear": "3 to 2",
+      "line": "trail braking, double apex",
+      "exit": "flat out on left side",
+      "note_id": "af4Wee36oxw:3",
+      "text": "braking: brake at curb on left, 50% pressure; gear: 3 to 2; line: trail braking, double apex; exit: flat out on left side",
+      "spoken_as": "turn eight",
+      "passage_time": "4:11",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:38",
+      "snippet": "going to start braking at this curb on the left-hand side and straight up to about 50%. We're going to trail that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "On left curb, 5-10%",
+      "gear": "5th",
+      "line": "Trail off, pick up gas at apex",
+      "exit": "100%",
+      "mistakes": "Right side is 1x",
+      "note_id": "af4Wee36oxw:4",
+      "text": "braking: On left curb, 5-10%; gear: 5th; line: Trail off, pick up gas at apex; exit: 100%; mistakes: Right side is 1x",
+      "spoken_as": "Buell",
+      "passage_time": "5:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 0.75,
+          "mistakes": 0.67
+        }
+      },
+      "time": "5:42",
+      "snippet": "curb again on the left-hand side. So we're on the right-hand side looking for the start of that curb and we're likely"
+    },
+    {
+      "braking": "On left curb, 40%",
+      "gear": "3rd",
+      "line": "Trail off, 3/4-2/3 gas at apex",
+      "exit": "100% before lift for T13",
+      "note_id": "af4Wee36oxw:5",
+      "text": "braking: On left curb, 40%; gear: 3rd; line: Trail off, 3/4-2/3 gas at apex; exit: 100% before lift for T13",
+      "spoken_as": "next curb",
+      "passage_time": "5:29",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:12",
+      "snippet": "up to about 40%, trail it off down to third gear, and then back up to sort of 3/4 2/3 gas at the apex."
+    },
+    {
+      "braking": "On left curb, 30-35%",
+      "gear": "3rd",
+      "line": "Trail off, 100% at apex",
+      "exit": "100%",
+      "note_id": "af4Wee36oxw:6",
+      "text": "braking: On left curb, 30-35%; gear: 3rd; line: Trail off, 100% at apex; exit: 100%",
+      "spoken_as": "left curb",
+      "passage_time": "5:29",
+      "corner_id": "T14",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:39",
+      "snippet": "30-35% down to third gear, trail it off, back up to 100% at the apex.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Flat",
+      "note_id": "af4Wee36oxw:7",
+      "text": "line: Flat",
+      "spoken_as": "Turn 15",
+      "passage_time": "5:29",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:47",
+      "snippet": "Turn 15, we can do absolutely flat as we can at 16 and 17. I've got one final bit of braking to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake just after 100 board, 55-60%",
+      "gear": "2nd, then 1st",
+      "line": "use curbing on left, brake 3/4 of the way down",
+      "exit": "25% throttle, bigger lift, back on gas in 1st",
+      "mistakes": "too much camber, curb strike moves second apex",
+      "note_id": "af4Wee36oxw:8",
+      "text": "braking: brake just after 100 board, 55-60%; gear: 2nd, then 1st; line: use curbing on left, brake 3/4 of the way down; exit: 25% throttle, bigger lift, back on gas in 1st; mistakes: too much camber, curb strike moves second apex",
+      "spoken_as": "bus stop chicane",
+      "passage_time": "6:54",
+      "corner_id": "T18",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83,
+          "line": 0.6,
+          "exit": 0.75
+        }
+      },
+      "time": "7:31",
+      "snippet": "the 100 board here in this specific car. And we get on the brakes again, only up to about 55-60%. While I pull that speed",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "video_id": "Tx78QjFRP9U",
+  "track_id": 15,
+  "track_name": "Concord Speedway",
+  "title": "iRacing Super Late Model: Learn to Drive Concord for iRacing Season 1 Week 4 Official Series",
+  "car_hint": "late_model",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T23:25:54.738249+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "1:19",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "Heavy under braking to get the car slowed down and get it to rotate.",
+      "line": "Drive left side tires close to yellow line, turn in, roll center, throttle up past center.",
+      "mistakes": "Throttle up too soon, spin out or plow up track."
+    },
+    {
+      "label": "T2",
+      "spoken_as": "turn two",
+      "start_time": "1:19",
+      "sequence": 1,
+      "line": "Get car low in dog leg, run to pitch towards wall.",
+      "exit": "50-60% throttle, maybe more, ride throttle the entire way."
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:37",
+      "sequence": 2,
+      "braking": "brake before Troutman motor sign",
+      "line": "wide arc into corner",
+      "exit": "throttle up and drive off corner",
+      "mistakes": "drifting wide or running low"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "3:55",
+      "sequence": 3,
+      "braking": "Lift out early, take a wider arc",
+      "exit": "Drive right underneath them on exit",
+      "mistakes": "Sending it down on the bottom, diving in"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "5:13",
+      "sequence": 4,
+      "mistakes": "screwing up turn one can be made up"
+    },
+    {
+      "label": null,
+      "spoken_as": "the dog leg",
+      "start_time": "5:13",
+      "sequence": 4,
+      "mistakes": "lifting too much on the dog leg can be made up"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "5:13",
+      "sequence": 4,
+      "mistakes": "screwing up turn three will hurt you for two laps"
+    }
+  ],
+  "general_tips": [
+    "Get heat in the tires for better grip.",
+    "Expect a super slick track at 100+ degrees.",
+    "Go high in turn 3 for a strong run down the front stretch.",
+    "Check your speed at the start finish line.",
+    "get car slowed up to drive out of corner fast",
+    "Turn three is key to every lap, backing it up gains time",
+    "aggressive throttle use can be beneficial"
+  ],
+  "dropped_ungrounded": 1
+}

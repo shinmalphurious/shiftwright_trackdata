@@ -1,0 +1,239 @@
+{
+  "track_id": 230,
+  "track_name": "Circuit of the Americas - East",
+  "videos": 3,
+  "corners": {
+    "T2": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Aston Martin Vantage",
+        "Mustang GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Flat, get on brakes at rumble strip, 25% trail off",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "20-25% to first gear, trail off to apex",
+          "videos": 1,
+          "cars": [
+            "Aston Martin Vantage"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "3rd",
+          "videos": 1,
+          "cars": [
+            "Aston Martin Vantage"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "Turn-in at rumble strip, apex left, flat exit",
+          "videos": 1,
+          "cars": [
+            "Aston Martin Vantage"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Flat left side, left front tires on track",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "Flat until left side, then get on gas 100%",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Back on gas in 3rd gear",
+          "videos": 1,
+          "cars": [
+            "Aston Martin Vantage"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 25% at rumble strip, trail off to apex, turn left flat, exit flat until left side, then full throttle in 3rd gear."
+    },
+    "T3": {
+      "name": null,
+      "videos": 1,
+      "cars": [
+        "Corvette GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 1
+      },
+      "line": [
+        {
+          "text": "flat, left curb",
+          "videos": 1,
+          "cars": [
+            "Corvette GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "straighten steering, 40% brakes",
+          "videos": 1,
+          "cars": [
+            "Corvette GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Stay flat, use left curb. Straighten steering, apply 40% brakes on exit."
+    },
+    "T5": {
+      "name": null,
+      "videos": 2,
+      "cars": [
+        "Corvette GT3",
+        "Mustang GT3"
+      ],
+      "notes_by_method": {
+        "explicit": 2
+      },
+      "braking": [
+        {
+          "text": "Get on brakes at apex, 10-15% long trail off",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "8-10% to first apex",
+          "videos": 1,
+          "cars": [
+            "Corvette GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "text": "4th",
+          "videos": 1,
+          "cars": [
+            "Corvette GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "line": [
+        {
+          "text": "trail off, flat",
+          "videos": 1,
+          "cars": [
+            "Corvette GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Left side, apex",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "exit": [
+        {
+          "text": "lightly brake, curb, back on gas",
+          "videos": 1,
+          "cars": [
+            "Corvette GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        },
+        {
+          "text": "Briefly 100% gas, then brake",
+          "videos": 1,
+          "cars": [
+            "Mustang GT3"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "explicit"
+          ]
+        }
+      ],
+      "tip": "Brake to 8-10% at first apex, trail off left side, apex, use 4th gear, lightly brake on exit curb, back on gas."
+    }
+  },
+  "unplaced_notes": 20
+}

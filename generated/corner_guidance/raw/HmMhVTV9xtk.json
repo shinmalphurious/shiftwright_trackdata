@@ -1,0 +1,106 @@
+{
+  "video_id": "HmMhVTV9xtk",
+  "track_id": 18,
+  "track_name": "Road America - Full Course",
+  "title": "iRacing US Open Wheel D USF2000 Road America Track Guide",
+  "car_hint": "usf2000",
+  "car": null,
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:45:23.180374+00:00",
+  "passages": 7,
+  "corners": [
+    {
+      "label": null,
+      "spoken_as": "turn one",
+      "start_time": "3:17",
+      "sequence": 1,
+      "label_guess": "T1",
+      "braking": "between three cone and one cone, brake to fourth gear",
+      "gear": "fourth gear",
+      "line": "carry lots of speed",
+      "exit": "use exit curve, pick up power early"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "3:17",
+      "sequence": 1,
+      "braking": "between two and one marker boards, brake to third gear",
+      "gear": "third gear",
+      "line": "sweep into corner",
+      "exit": "pick up throttle nicely",
+      "mistakes": "people making a mistake, be wary on opening laps"
+    },
+    {
+      "label": "T4",
+      "spoken_as": "turn four",
+      "start_time": "4:36",
+      "sequence": 2,
+      "braking": "Brake to second gear at number two board.",
+      "gear": "2",
+      "line": "Move to right side of track, use camber.",
+      "exit": "Use all run-off area on exit, be precise."
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "4:36",
+      "sequence": 2,
+      "braking": "Brake before Corvette bridge.",
+      "mistakes": "Feel off camber, prone to spinning."
+    },
+    {
+      "label": "T7",
+      "spoken_as": "turn seven",
+      "start_time": "5:54",
+      "sequence": 3,
+      "braking": "brake at the two board",
+      "line": "pick up the entry curb, pick up the exit curb",
+      "mistakes": "don't be afraid of the camber, commit to the corner"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "the carousel",
+      "start_time": "7:12",
+      "sequence": 4,
+      "braking": "tiny patch of trail braking",
+      "exit": "use exit curb, but no more",
+      "mistakes": "too far off exit curb leads to spin"
+    },
+    {
+      "label": "T12",
+      "spoken_as": "Canada Corner",
+      "start_time": "8:32",
+      "sequence": 5,
+      "braking": "Break at three board, drop to third gear",
+      "gear": "Third gear",
+      "line": "Use second gear briefly for extra rotation",
+      "exit": "Flat out, use run-off if needed",
+      "mistakes": "Don't commit, can feel sketchy on cold tires"
+    },
+    {
+      "label": null,
+      "spoken_as": "final corner",
+      "start_time": "8:32",
+      "sequence": 5,
+      "label_guess": "T13",
+      "gear": "Second gear",
+      "line": "Use line in road as turning point",
+      "mistakes": "Critical corner due to long main straight"
+    }
+  ],
+  "general_tips": [
+    "carry lots of speed through turn one",
+    "be careful on cold tires",
+    "be wary on opening laps in turn three",
+    "this section of track called the Hurry Downs",
+    "turn eight is a downhill corner",
+    "the carousel is tricky to get right",
+    "turn one, turn three, turn five, turn six, and turn eight are definite spin points",
+    "Be wary of the corner, use run-off if needed",
+    "Get a good run out of final corner.",
+    "Blast up the main straight."
+  ],
+  "dropped_ungrounded": 4
+}

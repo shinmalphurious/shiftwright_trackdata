@@ -1,0 +1,152 @@
+{
+  "track_id": 8,
+  "track": "Summit Point Raceway - Jefferson Circuit",
+  "records": {
+    "8:T1:heavy_braking": {
+      "id": "8:T1:heavy_braking",
+      "track_id": 8,
+      "track": "Summit Point Raceway - Jefferson Circuit",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner, significant distance to next corner",
+          "at": "2026-10-28T09:08:38+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.964,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.964
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "DtajiNunZUI",
+              "result": "confirm",
+              "time": "0:36",
+              "note": "braking: Brake at the left wall, 90% pressure, trail brake to the top of the corner.; gear: 2nd; line: Turn-in to the inside curb, apex close to the inside curb.; exit: Accelerate smoothly, cut the first inside curb of turn two.; mistakes: Overbraking and losing the inside curb.",
+              "transcript_snippet": "to cut the first inside curb of turn two. And as we cross the middle of the track, we want to break a little bit, no",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=DtajiNunZUI"
+            },
+            {
+              "video_id": "ItIRPdjDGgU",
+              "result": "confirm",
+              "time": "0:15",
+              "note": "braking: Break at the tree on the right, 90% brake pressure, trail to curb.; line: Turn-in at curb, let car roll, exit mid-track.; exit: Get on throttle as exit, aim mid-track.; mistakes: People will try to overtake in race.",
+              "transcript_snippet": "the right. I aim for about 90% brake pressure, trailing that off all the way to the curb. Once I get to the curb, I",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ItIRPdjDGgU"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "8:T6:heavy_braking": {
+      "id": "8:T6:heavy_braking",
+      "track_id": 8,
+      "track": "Summit Point Raceway - Jefferson Circuit",
+      "corner": "T6",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner, significant distance to next corner",
+          "at": "2026-10-28T09:08:38+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T19:30:48+00:00",
+          "consensus": 0.964,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T19:27:10+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.9,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.964
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "DtajiNunZUI",
+              "result": "confirm",
+              "time": "1:42",
+              "note": "braking: Brake at the end of the curb on the right, 70% brake pressure, trail off to the top of the hill.; line: Take a tighter line, get close to the inside curb.; exit: Accelerate smoothly, aim for mid-track before turn seven.; mistakes: Spinning the car, hitting the traction control.",
+              "transcript_snippet": "the top of the little hill before turn. I prefer to take a tighter line here getting close into the inside curb of",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=DtajiNunZUI"
+            },
+            {
+              "video_id": "ItIRPdjDGgU",
+              "result": "confirm",
+              "time": "1:52",
+              "note": "braking: Brake at the inside curb, 60% pressure.; line: Take a tighter line close to the inside curb.; exit: Accelerate as you get to the top of the hill.",
+              "transcript_snippet": "hill. I prefer to take a tighter line here. So, I go close to the inside curb of turn six and out to just about mid",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=ItIRPdjDGgU"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 2,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T6: research 0.75 from 1 source(s); 2 video(s) confirm, 0 contradict; consensus 0.96 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

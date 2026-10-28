@@ -1,15 +1,145 @@
 {
   "track_id": 481,
   "layout": "481-willow-international",
+  "name": "Willow Springs International Raceway",
+  "discovery_version": 3,
+  "searched_at": "2026-10-27T20:29:07.296333+00:00",
+  "candidates_seen": 20,
+  "diagnostics": {
+    "queries_planned": 6,
+    "queries_run": 1,
+    "queries_cached": 0,
+    "search_failures": 0,
+    "candidates": 20,
+    "new_candidates": 10,
+    "accepted": 13,
+    "selected": 10,
+    "kept_previous": 10,
+    "kept_despite_rejection": [],
+    "new_selected": 0,
+    "rejected": 7,
+    "rejection_reasons": {
+      "no guide words in title": 6,
+      "too short": 1
+    }
+  },
   "selected_guides": {
     "bmw_m2": [
       {
         "video_id": "4gL1f0HSfjg",
         "title": "iRacing BMW M2 CSR Willow Springs Track Guide // PCC 2025 S2W2",
-        "description": "00:00 - Intro 01:52 - Turn 1 03:24 - Turn 2 05:35 - Turn 3 06:49 - Turn 4 08:16 - Turn 5 & 6 09:54 - Turn 8 10:45 - Turn 9 14:18\u00a0...",
+        "description": "00:00 - Intro 01:52 - Turn 1 03:24 - Turn 2 05:35 - Turn 3 06:49 - Turn 4 08:16 - Turn 5 & 6 09:54 - Turn 8 10:45 - Turn 9 14:18 ...",
+        "channel": "SprawlRacer",
+        "duration": 1374,
         "video_type": "lap_walkthrough",
         "car": "bmw_m2",
-        "quality_score": 220
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "mx5": [
+      {
+        "video_id": "MfW5J14lNko",
+        "title": "iRacing MX5 Willow Springs Guide 1:27.4 Maza MX5 Miata Willow Springs Track Guide",
+        "description": "To race with this setup, you have two options: Get it directly from our website: https://www.SamboSetups.com Or join our Patreon ...",
+        "channel": "Sambo iRacing",
+        "duration": 527,
+        "video_type": "lap_walkthrough",
+        "car": "mx5",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "ff1600": [
+      {
+        "video_id": "geSee2B07iA",
+        "title": "Track guide Willow Springs Ray FF1600 Open iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Willow Springs - Big Willow in the Ray FF1600/ Formula Ford.",
+        "channel": "Erilla",
+        "duration": 408,
+        "video_type": "lap_walkthrough",
+        "car": "ff1600",
+        "quality_score": 226,
+        "venue_confidence": 0.9
+      }
+    ],
+    "general": [
+      {
+        "video_id": "20bfnYUI1s4",
+        "title": "iRacing Willow Springs Lap Guide | Pacific Cup GT3 | Racing Cockpits x Camber & Caster",
+        "description": "Ready to get faster at Willow Springs International Raceway? This week's Pacific Cup Lap Guide breaks down Big Willow ...",
+        "channel": "Camber & Caster and Racing Cockpits",
+        "duration": 518,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "31glTR6Vzxc",
+        "title": "iRacing Toyota GR86 Willow Springs (Big Willow) Track Guide - 1:28.5 - 2024 Season 1",
+        "description": "Get Quicker!! GitGud Course: https://gitgudracing.com/simracingcourse/ Coaching Lessons: https://gitgudracing.com/ Join the ...",
+        "channel": "GITGUD Racing",
+        "duration": 602,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "CXAdBjMFDkw",
+        "title": "Track Guide Willow Springs - Big Willow Toyota GR86 iRacing",
+        "description": "With this guide I hope to help you improve and get quicker at Willow Springs - Big Willow in the Toyota GR86. It s a really good ...",
+        "channel": "Erilla",
+        "duration": 377,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "DjwkQSQIzUI",
+        "title": "iRacing Track Guide Willow Springs | Ligier JS P320 LMP3 | W9 S3 2023",
+        "description": "Join at www.iracing.com Right then! In this video I try and explain my racing line and braking points to help you improve your lap ...",
+        "channel": "Tdi99",
+        "duration": 446,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "gBp8nIkZEbw",
+        "title": "Willow Springs Track Guide | iRacing Porsche GT3 Cup 992.1",
+        "description": "Welcome to another thrilling iRacing track guide! Today, we're taking on the high-speed challenges of Willow Springs ...",
+        "channel": "Josh Garner (Piltdown Films)",
+        "duration": 687,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "Z3-gPrej5Sc",
+        "title": "Cowy - iRacing - V8 Supercars - Willow Springs Track Guide",
+        "description": "Hi everyone, it's week 9 for Season 3 2023 in iRacing , and we are at a new track for the V8 Supercar - Willow Springs ...",
+        "channel": "Cowy Your Average Sim Racer",
+        "duration": 540,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
+      },
+      {
+        "video_id": "bq31-oPVM-Y",
+        "title": "#iracing - Ferrari GT3 Challenge Track Guide - Willow Springs  - Season 3 2023",
+        "description": "esports #iracingofficial #simracing Today join Chris from Virtual Motorsport Mentor as he gives an indepth look at Willow Springs ...",
+        "channel": "That Motorsports Guy",
+        "duration": 602,
+        "video_type": "lap_walkthrough",
+        "car": "general",
+        "quality_score": 206,
+        "venue_confidence": 0.9
       }
     ]
   }

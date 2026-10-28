@@ -1,0 +1,177 @@
+{
+  "video_id": "vpzxUjVOlr8",
+  "track_id": 485,
+  "track_name": "Circuit Zandvoort - Grand Prix",
+  "title": "iRacing Corvette GT3 Zandvoort Guide 1:30.9 Corvette Circuit Zandvoort GP Track Guide",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.7344
+    ],
+    [
+      "T1",
+      0.7197
+    ]
+  ],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "lamp post on left, 60%",
+      "gear": "down to second",
+      "line": "late apex",
+      "exit": "100% exiting wide, back left, front tires alongside yellow ADAC",
+      "note_id": "vpzxUjVOlr8:0",
+      "text": "braking: lamp post on left, 60%; gear: down to second; line: late apex; exit: 100% exiting wide, back left, front tires alongside yellow ADAC",
+      "spoken_as": "turn one",
+      "passage_time": "2:10",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:28",
+      "snippet": "background. Up to 100% exiting wide. Going to get back over to the left hand side. Left hand tires on this curb.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "30-35 40%",
+      "gear": "down to third",
+      "line": "trail braking, flat",
+      "exit": "back on gas at apex",
+      "note_id": "vpzxUjVOlr8:1",
+      "text": "braking: 30-35 40%; gear: down to third; line: trail braking, flat; exit: back on gas at apex",
+      "spoken_as": "turn number three",
+      "passage_time": "2:10",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.45,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:44",
+      "snippet": "Back on the gas at the apex to show you whereabouts our wheels are. They're well over the curb. We get up to about 70%",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "50 board, 40%",
+      "gear": "fourth",
+      "line": "trail braking",
+      "exit": "pick back up on gas",
+      "note_id": "vpzxUjVOlr8:2",
+      "text": "braking: 50 board, 40%; gear: fourth; line: trail braking; exit: pick back up on gas",
+      "spoken_as": "turn seven",
+      "passage_time": "2:10",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.7,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:25",
+      "snippet": "Going to trail it off and then pick back up on the gas in fourth gear. Well ahead of this curb, as you can see, straight",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "end of left curb, 40%",
+      "gear": "4th",
+      "line": "wide exit",
+      "exit": "gas on wide exit",
+      "mistakes": "don't run over curb",
+      "note_id": "vpzxUjVOlr8:3",
+      "text": "braking: end of left curb, 40%; gear: 4th; line: wide exit; exit: gas on wide exit; mistakes: don't run over curb",
+      "spoken_as": "turn number eight",
+      "passage_time": "3:29",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {
+        "after": "T7",
+        "before": "T9",
+        "corners_between": [
+          "T8"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 0.55,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:47",
+      "snippet": "curb. And we don't want to run over it. So to show you whereabouts, our wheel is not quite running over the curb. We want",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "braking": "ahead of 50 board, 40%",
+      "gear": "3rd",
+      "line": "get nose pointed in",
+      "exit": "gas on when seeing cm.com banner",
+      "note_id": "vpzxUjVOlr8:4",
+      "text": "braking: ahead of 50 board, 40%; gear: 3rd; line: get nose pointed in; exit: gas on when seeing cm.com banner",
+      "spoken_as": "turn nine",
+      "passage_time": "3:29",
+      "corner_id": "T9",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:09",
+      "snippet": "third gear, get the nose pointed in, and then get back on the gas once we can see this orange Marshall's inlet signage.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake to 60% at 100 board, trail off to 15%",
+      "gear": "down to second",
+      "line": "left tires on rumble strip, attack curb",
+      "exit": "gas to 50%, back off, brake to 45%, trail off to third, gas to 100%",
+      "mistakes": "don't take too much curb, don't over brake",
+      "note_id": "vpzxUjVOlr8:5",
+      "text": "braking: brake to 60% at 100 board, trail off to 15%; gear: down to second; line: left tires on rumble strip, attack curb; exit: gas to 50%, back off, brake to 45%, trail off to third, gas to 100%; mistakes: don't take too much curb, don't over brake",
+      "spoken_as": "turn one",
+      "passage_time": "4:50",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.67
+        }
+      },
+      "time": "4:58",
+      "snippet": "want our left hand tires on the rumble strip on entry. We're going to come down through the gears to second. We're going"
+    }
+  ]
+}

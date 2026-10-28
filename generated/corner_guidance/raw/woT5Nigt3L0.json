@@ -1,0 +1,106 @@
+{
+  "video_id": "woT5Nigt3L0",
+  "track_id": 195,
+  "track_name": "Mobility Resort Motegi - Grand Prix",
+  "title": "iRacing Ferrari GT3 Motegi Guide 1:49.2 Ferrari 296 GT3 Mobility Resort Motegi Tarck Guide",
+  "car_hint": "general",
+  "car": "Ferrari 296 GT3",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T09:03:06.060144+00:00",
+  "passages": 6,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "1:56",
+      "sequence": 1,
+      "braking": "100 board, 50% brake pressure",
+      "gear": "2nd gear",
+      "line": "miss first apex, go wide, late apex",
+      "exit": "get back on gas early, exit wide"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "1:56",
+      "sequence": 1,
+      "braking": "100 board, ahead of 70 board, 60% brake pressure",
+      "gear": "2nd gear",
+      "exit": "hold 95% throttle until second apex, clear to 100%"
+    },
+    {
+      "label": "T5",
+      "spoken_as": "turn five",
+      "start_time": "3:16",
+      "sequence": 2,
+      "braking": "Brake ahead of 100 board, 60-65%",
+      "gear": "2nd",
+      "line": "Right tires over grass, curb",
+      "exit": "Increase to 100%, exit wide"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "next braking marker",
+      "start_time": "3:16",
+      "sequence": 2,
+      "braking": "Get on brakes, 50%",
+      "gear": "2nd",
+      "line": "Right tires over rumble strip, up against muddy bit",
+      "exit": "Left tires over rumble strip"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn number seven",
+      "start_time": "3:16",
+      "sequence": 2,
+      "label_guess": "T7",
+      "braking": "Brake slightly before 50 board, 50%",
+      "gear": "1st",
+      "exit": "Increase to 75-80%, then off gas, back on"
+    },
+    {
+      "label": "T10",
+      "spoken_as": "turn 10",
+      "start_time": "4:35",
+      "sequence": 3,
+      "braking": "brakes at 100 board, 50-55% to first gear",
+      "gear": "first gear",
+      "line": "late apex",
+      "exit": "right tires over rumble strip"
+    },
+    {
+      "label": "T11",
+      "spoken_as": "turn 11",
+      "start_time": "4:35",
+      "sequence": 3,
+      "braking": "brakes at 150 board, 60% to apex",
+      "gear": "second gear",
+      "line": "break early on left side",
+      "exit": "exit wide, right side, cut back in",
+      "mistakes": "inside line is slower"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "5:55",
+      "sequence": 4,
+      "label_guess": "T12",
+      "braking": "brakes off, decreasing",
+      "line": "attacking curb smoothly",
+      "exit": "on the gas, powering to the line"
+    }
+  ],
+  "general_tips": [
+    "Welcome to Samoir Racing's GT3 track guide at Mobility Resort Motegi.",
+    "Visit sambar setups.com for the exact setup used in this guide.",
+    "New features include a revamped website, telemetry tool, and companion app for subscribers.",
+    "Coming into turns three and four, double left-hander. We're only going to break once.",
+    "Run over rumble strip on exit",
+    "passes done into turn 11",
+    "practice taking the inside line",
+    "fastest line is breaking early on left side",
+    "Heat"
+  ],
+  "dropped_ungrounded": 1
+}

@@ -1,0 +1,310 @@
+{
+  "video_id": "f3BzbyhkWks",
+  "track_id": 180,
+  "track_name": "Oulton Park Circuit - International",
+  "title": "Track Guide Oulton Park International BMW M2 CSR iRacing",
+  "car": "BMW M2 CSR",
+  "car_hint": "bmw_m2",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "break once I get to the marker here on the left",
+      "gear": "down to third before I apply the throttle again",
+      "line": "cut the curb as much as you can",
+      "exit": "let the car walk out to the left side of the track",
+      "mistakes": "keep one set of wheels within the white line",
+      "note_id": "f3BzbyhkWks:0",
+      "text": "braking: break once I get to the marker here on the left; gear: down to third before I apply the throttle again; line: cut the curb as much as you can; exit: let the car walk out to the left side of the track; mistakes: keep one set of wheels within the white line",
+      "spoken_as": "turn one",
+      "passage_time": "0:00",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:33",
+      "snippet": "track just keep one set of wheels within the white line turn two is going to be flat out just make sure to be on the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "flat out",
+      "note_id": "f3BzbyhkWks:1",
+      "text": "line: flat out",
+      "spoken_as": "turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:37",
+      "snippet": "flat out just make sure to be on the right side of the track for turn three for turn three there is a clear marker",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break just before we get to the little jump in the road",
+      "line": "take a later Apex here and get all the way up on the curb",
+      "exit": "apply the throttle again",
+      "mistakes": "put too much of the car out there and now it's a track race",
+      "note_id": "f3BzbyhkWks:2",
+      "text": "braking: break just before we get to the little jump in the road; line: take a later Apex here and get all the way up on the curb; exit: apply the throttle again; mistakes: put too much of the car out there and now it's a track race",
+      "spoken_as": "turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:03",
+      "snippet": "give a 1x if you put too much of the car out there and now it's a track race down to turn four in qualifying you want to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break a little bit when I get to the road here on the right side of the track",
+      "note_id": "f3BzbyhkWks:3",
+      "text": "braking: break a little bit when I get to the road here on the right side of the track",
+      "spoken_as": "turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:13",
+      "snippet": "get to the road here on the right side of the track and initi shall hit to about 30% and quickly easing it off into",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break a little bit when on the right side of the track",
+      "gear": "Second",
+      "line": "ease in the throttle to come out mid track",
+      "exit": "bring the car over to the left side of the track for turn five",
+      "mistakes": "be too aggressive with the throttle and push it too far out for turn five",
+      "note_id": "f3BzbyhkWks:4",
+      "text": "braking: break a little bit when on the right side of the track; gear: Second; line: ease in the throttle to come out mid track; exit: bring the car over to the left side of the track for turn five; mistakes: be too aggressive with the throttle and push it too far out for turn five",
+      "spoken_as": "turn four",
+      "passage_time": "1:16",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:25",
+      "snippet": "car over to the left side of the track for turn five being to aggressive with the throttle and push it too far out for",
+      "best_candidate": {
+        "corner_id": "T4",
+        "confidence": 0.365,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T5",
+        "estimated_pct": 0.3335,
+        "corner_pct": 0.3232,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T5",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "break when past the tires on the left side",
+      "gear": "Second",
+      "line": "aim for the inside curb",
+      "exit": "ease in the throttle again",
+      "mistakes": "be too hard on the throttle causing oversteer",
+      "note_id": "f3BzbyhkWks:5",
+      "text": "braking: break when past the tires on the left side; gear: Second; line: aim for the inside curb; exit: ease in the throttle again; mistakes: be too hard on the throttle causing oversteer",
+      "spoken_as": "turn five",
+      "passage_time": "1:16",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.41,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:32",
+      "snippet": "ease in the throttle again don't be too aggressive the car is really unstable here and we want a good exit because",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break with an initial hit of about 70% easing off to the first curb",
+      "line": "get as close as possible to the tires on the left side, then the right side",
+      "exit": "ease in the throttle again",
+      "mistakes": "don't drop a wheel into the grass",
+      "note_id": "f3BzbyhkWks:6",
+      "text": "braking: break with an initial hit of about 70% easing off to the first curb; line: get as close as possible to the tires on the left side, then the right side; exit: ease in the throttle again; mistakes: don't drop a wheel into the grass",
+      "spoken_as": "turn 78",
+      "passage_time": "1:16",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:16",
+      "snippet": "break with an initial hit of about 70% slowly easing off to the first curb getting as close as I can to the tires",
+      "best_candidate": {
+        "corner_id": "T5",
+        "confidence": 0.326,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "T4",
+        "before": "T5",
+        "estimated_pct": 0.377,
+        "corner_pct": 0.3906,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "T4",
+        "before": "T5",
+        "corners_between": []
+      }
+    },
+    {
+      "braking": "100 board, 80% brake pressure, ease off to tire wall",
+      "gear": "2nd",
+      "line": "cut left, get close to tire wall",
+      "exit": "slowly apply throttle, aim for mid-track",
+      "mistakes": "be aggressive, car is unstable",
+      "note_id": "f3BzbyhkWks:7",
+      "text": "braking: 100 board, 80% brake pressure, ease off to tire wall; gear: 2nd; line: cut left, get close to tire wall; exit: slowly apply throttle, aim for mid-track; mistakes: be aggressive, car is unstable",
+      "spoken_as": "turn 10",
+      "passage_time": "2:34",
+      "corner_id": "T10",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.62,
+          "line": 0.6,
+          "exit": 0.83,
+          "mistakes": 1.0
+        }
+      },
+      "time": "2:51",
+      "snippet": "here aim for about 80% break pressure easing that off all the way to the first tire wall and we want to get as close to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after tire wall",
+      "gear": "3rd",
+      "line": "lift, cut curb",
+      "exit": "ease throttle in",
+      "mistakes": "car is unstable",
+      "note_id": "f3BzbyhkWks:8",
+      "text": "braking: after tire wall; gear: 3rd; line: lift, cut curb; exit: ease throttle in; mistakes: car is unstable",
+      "spoken_as": "turn 11",
+      "passage_time": "2:34",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.67,
+          "line": 1.0
+        }
+      },
+      "time": "2:55",
+      "snippet": "tire wall and we want to get as close to that tire wall we can without hitting it I'm also going down to Second here at",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "after turn 14",
+      "line": "cut left, get close to curb",
+      "exit": "apply throttle",
+      "note_id": "f3BzbyhkWks:9",
+      "text": "braking: after turn 14; line: cut left, get close to curb; exit: apply throttle",
+      "spoken_as": "turn 15",
+      "passage_time": "2:34",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.44,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:21",
+      "snippet": "can see you can cut the curb on the inside you should start to apply the throttle again again ease it in because",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at the board on the left, 80% brake pressure, ease off to the curb",
+      "line": "Hit both apexes, use the inside curb",
+      "exit": "Ease throttle in, use curb if needed, take shortest route to the line",
+      "mistakes": "Understeering too far left, missing the corner, being too aggressive on exit",
+      "note_id": "f3BzbyhkWks:10",
+      "text": "braking: Brake at the board on the left, 80% brake pressure, ease off to the curb; line: Hit both apexes, use the inside curb; exit: Ease throttle in, use curb if needed, take shortest route to the line; mistakes: Understeering too far left, missing the corner, being too aggressive on exit",
+      "spoken_as": "Druids Corner",
+      "passage_time": "3:51",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "exit": 0.8
+        }
+      },
+      "time": "4:12",
+      "snippet": "about 80% brake pressure I missed it in this one and this is why I also miss the corner a little bit but you want to ease"
+    }
+  ]
+}

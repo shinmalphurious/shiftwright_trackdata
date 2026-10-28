@@ -1,0 +1,128 @@
+{
+  "track_id": 486,
+  "track": "Circuit Zandvoort - Grand Prix w/chicane",
+  "records": {
+    "486:T4:slow_corner": {
+      "id": "486:T4:slow_corner",
+      "track_id": 486,
+      "track": "Circuit Zandvoort - Grand Prix w/chicane",
+      "corner": "T4",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.6,
+          "basis": "Unnamed corner, likely a slow corner.",
+          "at": "2026-10-28T10:00:46+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.273,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:51:03+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.273
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit Zandvoort - Grand Prix",
+            "source_track_id": 485,
+            "corner": "T4",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T4: research 0.60 from 1 source(s); consensus 0.27 -> rejected (evidence contradicts the claim)"
+    },
+    "486:T5:slow_corner": {
+      "id": "486:T5:slow_corner",
+      "track_id": 486,
+      "track": "Circuit Zandvoort - Grand Prix w/chicane",
+      "corner": "T5",
+      "corner_name": null,
+      "claim": "slow_corner",
+      "statement": "Slow corner",
+      "status": "rejected",
+      "research": [
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.6,
+          "basis": "Unnamed corner, likely a slow corner.",
+          "at": "2026-10-28T10:00:46+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-28T02:07:14+00:00",
+          "consensus": 0.273,
+          "status": "rejected"
+        }
+      ],
+      "created_at": "2026-10-28T01:51:03+00:00",
+      "reason": "evidence contradicts the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": null,
+        "telemetry": null,
+        "variants": 0.2,
+        "consensus": 0.273
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Circuit Zandvoort - Grand Prix",
+            "source_track_id": 485,
+            "corner": "T5",
+            "inheritance_confidence": 1.0,
+            "result": "contradict",
+            "transcript_confirmations": 0,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 0,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Slow corner at T5: research 0.60 from 1 source(s); consensus 0.27 -> rejected (evidence contradicts the claim)"
+    }
+  }
+}

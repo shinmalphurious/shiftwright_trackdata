@@ -1,0 +1,491 @@
+{
+  "video_id": "c4LW4bPRhEY",
+  "track_id": 123,
+  "track_name": "Chicagoland Speedway",
+  "title": "Chicagoland is Back! I iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "lift after the cones on the fence",
+      "note_id": "c4LW4bPRhEY:0",
+      "text": "braking: lift after the cones on the fence",
+      "spoken_as": "one",
+      "passage_time": "2:37",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:48",
+      "snippet": "into one, you can see there's some cones on the fence. So if you're going to be using those, I'm lifting after that one"
+    },
+    {
+      "braking": "Brake at the start of the three cone, lift around the one cones.",
+      "line": "Turn off the wall at the start of the three cone.",
+      "exit": "Initial throttle application is fairly aggressive, up to 80 to 90%.",
+      "mistakes": "Over driving entry, cranking wheel in the center, driving in dirty air.",
+      "note_id": "c4LW4bPRhEY:1",
+      "text": "braking: Brake at the start of the three cone, lift around the one cones.; line: Turn off the wall at the start of the three cone.; exit: Initial throttle application is fairly aggressive, up to 80 to 90%.; mistakes: Over driving entry, cranking wheel in the center, driving in dirty air.",
+      "spoken_as": "three",
+      "passage_time": "3:55",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "4:09",
+      "snippet": "Lifting somewhere around the one cones. Not very easy to really see that stuff when you're at speed."
+    },
+    {
+      "line": "roll about a lane higher",
+      "exit": "keep out of the worst of that rubber, helps get launched off the corner",
+      "mistakes": "spinning the right rear tire as launching up off the corner",
+      "note_id": "c4LW4bPRhEY:2",
+      "text": "line: roll about a lane higher; exit: keep out of the worst of that rubber, helps get launched off the corner; mistakes: spinning the right rear tire as launching up off the corner",
+      "spoken_as": "turn two",
+      "passage_time": "6:39",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:09",
+      "snippet": "right rear tire as they're launching up off that corner. So by rolling about a lane higher, you",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "try the middle line",
+      "note_id": "c4LW4bPRhEY:3",
+      "text": "line: try the middle line",
+      "spoken_as": "turn three",
+      "passage_time": "6:39",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:42",
+      "snippet": "the middle line in three and four. There's a lot of bumps down here. We've got some wind.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "try the middle line",
+      "exit": "still a little bit of momentum gained off of exit",
+      "note_id": "c4LW4bPRhEY:4",
+      "text": "line: try the middle line; exit: still a little bit of momentum gained off of exit",
+      "spoken_as": "turn four",
+      "passage_time": "6:39",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "7:52",
+      "snippet": "middle, but you can see there's still a little bit of momentum gained off of exit.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "middle line",
+      "exit": "throttle off exit",
+      "note_id": "c4LW4bPRhEY:5",
+      "text": "line: middle line; exit: throttle off exit",
+      "spoken_as": "three and four",
+      "passage_time": "7:57",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "8:23",
+      "snippet": "that middle line just beats me by about a hundredth right there. Now, we'll go up another lane right"
+    },
+    {
+      "line": "Run the third groove",
+      "exit": "Gain momentum into turn three",
+      "mistakes": "Running the top groove loses time on front stretch",
+      "note_id": "c4LW4bPRhEY:6",
+      "text": "line: Run the third groove; exit: Gain momentum into turn three; mistakes: Running the top groove loses time on front stretch",
+      "spoken_as": "three and four",
+      "passage_time": "9:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.43,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:26",
+      "snippet": "there, ran the third groove, gave up some time versus running the bottom, but that groove will come in really well in"
+    },
+    {
+      "line": "Run the bottom groove",
+      "exit": "Gain entry to center",
+      "note_id": "c4LW4bPRhEY:7",
+      "text": "line: Run the bottom groove; exit: Gain entry to center",
+      "spoken_as": "back down to the bottom",
+      "passage_time": "9:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "9:36",
+      "snippet": "gain entry to center. All because of that momentum I carried off of turn four in the last lap. Back"
+    },
+    {
+      "line": "Run the top seam",
+      "exit": "Gain momentum all the way down the back",
+      "note_id": "c4LW4bPRhEY:8",
+      "text": "line: Run the top seam; exit: Gain momentum all the way down the back",
+      "spoken_as": "the tippy top",
+      "passage_time": "9:14",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.62,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:12",
+      "snippet": "momentum gain all the way down the back. Lost a ton entry to center, gained it all back into three."
+    },
+    {
+      "braking": "no break until late in the run",
+      "line": "left front enters above seam, exit below it",
+      "exit": "cross seam, no ill handling effects",
+      "mistakes": "marry yourself to one line, keep searching for grip",
+      "note_id": "c4LW4bPRhEY:9",
+      "text": "braking: no break until late in the run; line: left front enters above seam, exit below it; exit: cross seam, no ill handling effects; mistakes: marry yourself to one line, keep searching for grip",
+      "spoken_as": "the start/finish line",
+      "passage_time": "10:31",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "line": 1.0,
+          "exit": 0.8
+        }
+      },
+      "time": "10:47",
+      "snippet": "need any break at all really until way, way late in the run. Gaining a little bit, but I'm going to",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Little break into three",
+      "line": "Wide open, full throttle",
+      "exit": "Right back in the throttle",
+      "mistakes": "don't overshoot the entry speed",
+      "note_id": "c4LW4bPRhEY:10",
+      "text": "braking: Little break into three; line: Wide open, full throttle; exit: Right back in the throttle; mistakes: don't overshoot the entry speed",
+      "spoken_as": "three",
+      "passage_time": "11:49",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.69,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:26",
+      "snippet": "speed. Right back in the throttle. Almost 2/10 up lap or lap. This will put me back in the low ones."
+    },
+    {
+      "braking": "Little bit more brakes",
+      "line": "turn it down and you almost get under that rubber",
+      "exit": "Just to get the car up off the corner without spinning the rears",
+      "note_id": "c4LW4bPRhEY:11",
+      "text": "braking: Little bit more brakes; line: turn it down and you almost get under that rubber; exit: Just to get the car up off the corner without spinning the rears",
+      "spoken_as": "really high entry",
+      "passage_time": "11:49",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:44",
+      "snippet": "And then you turn it down and you almost get under that rubber. And that becomes really good, too,"
+    },
+    {
+      "braking": "Huge green",
+      "gear": "third groove",
+      "line": "Hook the second highest seam",
+      "exit": "Watch through that slip on exit",
+      "mistakes": "Slip on exit",
+      "note_id": "c4LW4bPRhEY:12",
+      "text": "braking: Huge green; gear: third groove; line: Hook the second highest seam; exit: Watch through that slip on exit; mistakes: Slip on exit",
+      "spoken_as": "one",
+      "passage_time": "14:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.79,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "15:15",
+      "snippet": "We'll go third groove right here. Hook the second highest seam. And just watch through that slip on"
+    },
+    {
+      "braking": "Little break on entry",
+      "line": "Get it turned back down",
+      "exit": "I've committed to throttle",
+      "note_id": "c4LW4bPRhEY:13",
+      "text": "braking: Little break on entry; line: Get it turned back down; exit: I've committed to throttle",
+      "spoken_as": "one",
+      "passage_time": "15:44",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:54",
+      "snippet": "There we go. I've committed to throttle. And look at that gain, 1/10, probably almost two by the time I get into three."
+    },
+    {
+      "braking": "Enter on the bottom",
+      "gear": "Drive that halfway around and start downshifting",
+      "exit": "Nice and straight off the track",
+      "note_id": "c4LW4bPRhEY:14",
+      "text": "braking: Enter on the bottom; gear: Drive that halfway around and start downshifting; exit: Nice and straight off the track",
+      "spoken_as": "into three",
+      "passage_time": "17:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.8,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:38",
+      "snippet": "Drive that halfway around and start downshifting. Nice and straight off the track."
+    },
+    {
+      "braking": "This will be on old tires, so it'll be especially greasy",
+      "gear": "Probably short shift into third",
+      "line": "Drive out almost to the track",
+      "exit": "Angle it down just a smidge on exit",
+      "mistakes": "Be careful with that",
+      "note_id": "c4LW4bPRhEY:15",
+      "text": "braking: This will be on old tires, so it'll be especially greasy; gear: Probably short shift into third; line: Drive out almost to the track; exit: Angle it down just a smidge on exit; mistakes: Be careful with that",
+      "spoken_as": "pit road exit",
+      "passage_time": "17:03",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.47,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:08",
+      "snippet": "Probably short shift into third. And then you want to angle it down just a smidge on exit, but this is flatter"
+    },
+    {
+      "braking": "swing out to the wall on entry, lift",
+      "line": "moderate arc, get all the way down to the bottom left front at or near the white line",
+      "exit": "slowly start to increase throttle",
+      "mistakes": "entering from way off the wall, binding up the nose",
+      "note_id": "c4LW4bPRhEY:16",
+      "text": "braking: swing out to the wall on entry, lift; line: moderate arc, get all the way down to the bottom left front at or near the white line; exit: slowly start to increase throttle; mistakes: entering from way off the wall, binding up the nose",
+      "spoken_as": "turn one",
+      "passage_time": "18:24",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.48,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "19:32",
+      "snippet": "down to the bottom left front at or near the white line, and then slowly start to increase throttle.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "lifting just before the one",
+      "line": "start turning off the wall at those three cones",
+      "exit": "slow lift and quick lift",
+      "note_id": "c4LW4bPRhEY:17",
+      "text": "braking: lifting just before the one; line: start turning off the wall at those three cones; exit: slow lift and quick lift",
+      "spoken_as": "three",
+      "passage_time": "19:43",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:21",
+      "snippet": "Slow lift here into three, a little bit of a slow lift into a quick. Yep, slow lift and quick lift."
+    },
+    {
+      "braking": "lift really early",
+      "line": "turn-in at the three",
+      "exit": "back in it super early",
+      "note_id": "c4LW4bPRhEY:18",
+      "text": "braking: lift really early; line: turn-in at the three; exit: back in it super early",
+      "spoken_as": "the three",
+      "passage_time": "21:01",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.86,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "22:08",
+      "snippet": "Three is interesting because you lift really early or so it feels like and then you're back in it super early. So,"
+    },
+    {
+      "exit": "back to the bottom",
+      "note_id": "c4LW4bPRhEY:19",
+      "text": "exit: back to the bottom",
+      "spoken_as": "three",
+      "passage_time": "22:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "22:37",
+      "snippet": "generated down the back. Again, will be especially good when the bottom gets rubbered in and greasy."
+    },
+    {
+      "line": "right between these two seams",
+      "note_id": "c4LW4bPRhEY:20",
+      "text": "line: right between these two seams",
+      "spoken_as": "four",
+      "passage_time": "22:19",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "23:29",
+      "snippet": "four, right between these two seams. It's a good spot to live. Really maintains well throughout the race as"
+    },
+    {
+      "line": "Straddle top seam, close to the wall",
+      "exit": "Commit off corner for momentum",
+      "mistakes": "Not gaining time on exit",
+      "note_id": "c4LW4bPRhEY:21",
+      "text": "line: Straddle top seam, close to the wall; exit: Commit off corner for momentum; mistakes: Not gaining time on exit",
+      "spoken_as": "three and four",
+      "passage_time": "23:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.36,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "23:52",
+      "snippet": "Staying in between the top seam and the wall. Big, big commitment off the corner to"
+    },
+    {
+      "line": "Different lines available, depends on car compliance",
+      "mistakes": "Not being able to handle bumps",
+      "note_id": "c4LW4bPRhEY:22",
+      "text": "line: Different lines available, depends on car compliance; mistakes: Not being able to handle bumps",
+      "spoken_as": "three and four",
+      "passage_time": "23:36",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.3,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.6
+      }
+    },
+    {
+      "braking": "braking hard at 5/8 point, past center",
+      "gear": "downshift to second",
+      "exit": "straight exit from track to apron, 50 mph",
+      "mistakes": "be careful as you roll around three and four",
+      "note_id": "c4LW4bPRhEY:23",
+      "text": "braking: braking hard at 5/8 point, past center; gear: downshift to second; exit: straight exit from track to apron, 50 mph; mistakes: be careful as you roll around three and four",
+      "spoken_as": "three and four",
+      "passage_time": "24:54",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "25:45",
+      "snippet": "start braking hard, downshifting to second while you're on the track, and getting that straight exit from track to"
+    }
+  ]
+}

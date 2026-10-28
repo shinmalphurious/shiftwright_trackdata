@@ -1,0 +1,88 @@
+{
+  "video_id": "eOa0jyihzRE",
+  "track_id": 9,
+  "track_name": "Summit Point Raceway - Summit Point Raceway",
+  "title": "Track Guide Summit Point Raceway BMW M2 CS iRacing",
+  "car_hint": "bmw_m2",
+  "car": "BMW M2 CS",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-27T17:21:42.905141+00:00",
+  "passages": 5,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "race turn one",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker is the four cones here on the left, 90% brake pressure",
+      "line": "follow the inner side of the repaved part",
+      "exit": "start to apply throttle where the repaved part and the curb meet, ease in",
+      "mistakes": "don't make the rear slide"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "0:00",
+      "sequence": 0,
+      "braking": "braking marker is the cones here on the right, 50% brake pressure",
+      "line": "cut the curb on the inside",
+      "exit": "use all of the curb on the right side, don't go into the gravel",
+      "mistakes": "don't hit the curb too hard"
+    },
+    {
+      "label": "T6",
+      "spoken_as": "turn six",
+      "start_time": "1:17",
+      "sequence": 1,
+      "braking": "break when on dirt, 50% easing off",
+      "line": "follow repave part out to outside curb",
+      "exit": "apply throttle, ease in",
+      "mistakes": "using too much throttle"
+    },
+    {
+      "label": null,
+      "spoken_as": "number seven",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T7",
+      "line": "touch inside curb",
+      "exit": "slowly increase throttle to 100%",
+      "mistakes": "hitting curb too hard"
+    },
+    {
+      "label": null,
+      "spoken_as": "T it",
+      "start_time": "1:17",
+      "sequence": 1,
+      "label_guess": "T8",
+      "line": "touch inside curb",
+      "exit": "slowly increase throttle to 100%",
+      "mistakes": "car sliding too much"
+    },
+    {
+      "label": "T9",
+      "spoken_as": "turn nine",
+      "start_time": "1:17",
+      "sequence": 1,
+      "line": "get close to inside curb",
+      "exit": "use all of the curve on the outside"
+    },
+    {
+      "label": null,
+      "spoken_as": "last turn",
+      "start_time": "2:34",
+      "sequence": 2,
+      "label_guess": "T10",
+      "braking": "brake at the two Marshal markers, 70% brake pressure",
+      "exit": "use all of the track outside the red and white curb, jam the throttle down"
+    }
+  ],
+  "general_tips": [
+    "stay on the right side of the track after turn three, ding as few meters as possible all the way up to turn five",
+    "control car with throttle through 7, 8, and 9",
+    "touch some curbs for balance",
+    "be on left side of track for turn nine"
+  ],
+  "dropped_ungrounded": 0
+}

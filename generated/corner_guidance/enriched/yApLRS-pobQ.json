@@ -1,0 +1,481 @@
+{
+  "video_id": "yApLRS-pobQ",
+  "track_id": 231,
+  "track_name": "Circuit of the Americas - West",
+  "title": "iRacing Pro Track Guide by Team Conti Sim Performance I NASCAR NextGen at COTA (NASCAR West)",
+  "car": null,
+  "car_hint": "nascar",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [
+    [
+      "T1",
+      0.5195
+    ],
+    [
+      "T1",
+      0.5205
+    ]
+  ],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "brake as far right as possible, use runoff area",
+      "gear": "2nd",
+      "line": "use outside line, cross curb to apex",
+      "exit": "use runoff to apex, accelerate out",
+      "note_id": "yApLRS-pobQ:0",
+      "text": "braking: brake as far right as possible, use runoff area; gear: 2nd; line: use outside line, cross curb to apex; exit: use runoff to apex, accelerate out",
+      "spoken_as": "turn 16",
+      "passage_time": "1:25",
+      "corner_id": "T16",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.27,
+        "how": null,
+        "issue": "summarised_across_passage",
+        "passage_share": 0.67
+      },
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "spot dark patches of asphalt for braking point",
+      "note_id": "yApLRS-pobQ:1",
+      "text": "braking: spot dark patches of asphalt for braking point",
+      "spoken_as": "turn one",
+      "passage_time": "1:25",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:39",
+      "snippet": "dark patches of asphalt that I've been using as a reference point into turn one of my testing. Now, I will say the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "past end of pit wall, use dark patches as reference",
+      "mistakes": "using break markers on fence, no 200 marker",
+      "note_id": "yApLRS-pobQ:2",
+      "text": "braking: past end of pit wall, use dark patches as reference; mistakes: using break markers on fence, no 200 marker",
+      "spoken_as": "turn one",
+      "passage_time": "2:44",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "3:24",
+      "snippet": "zone here. So, past the end of the pit wall. lift point is right here. Now, where is",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Brake at least four or five car lengths before the 150 marker, use 100% brake pressure",
+      "gear": "Fourth gear, downshift to third, then second",
+      "line": "Stay tight to the curb, start turning off the curb at the white line",
+      "mistakes": "Easy to undershoot or overshoot corner speed",
+      "note_id": "yApLRS-pobQ:3",
+      "text": "braking: Brake at least four or five car lengths before the 150 marker, use 100% brake pressure; gear: Fourth gear, downshift to third, then second; line: Stay tight to the curb, start turning off the curb at the white line; mistakes: Easy to undershoot or overshoot corner speed",
+      "spoken_as": "this deceleration zone",
+      "passage_time": "4:02",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.71,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.71,
+          "mistakes": 0.8
+        }
+      },
+      "time": "4:08",
+      "snippet": "least four or five car lengths before it. Hopefully, as you do more and more laps around this place, it'll just",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "100% brake pressure, white line",
+      "gear": "2nd gear turning in, 1st gear at apex",
+      "line": "turn-in at white line, tight to curb at apex",
+      "exit": "throttle up, careful with rear tires",
+      "mistakes": "blow apex, use runoff",
+      "note_id": "yApLRS-pobQ:4",
+      "text": "braking: 100% brake pressure, white line; gear: 2nd gear turning in, 1st gear at apex; line: turn-in at white line, tight to curb at apex; exit: throttle up, careful with rear tires; mistakes: blow apex, use runoff",
+      "spoken_as": "this turn",
+      "passage_time": "5:21",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.6,
+          "exit": 0.75
+        }
+      },
+      "time": "5:34",
+      "snippet": "Still 100% brake pressure. Second gear turning in. Now I'm finally rolling off the brake a little bit into first gear",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Over this curb, keep it on the track",
+      "gear": "First gear",
+      "line": "Get the car straightened out",
+      "exit": "Partial throttle quickly into second gear",
+      "note_id": "yApLRS-pobQ:5",
+      "text": "braking: Over this curb, keep it on the track; gear: First gear; line: Get the car straightened out; exit: Partial throttle quickly into second gear",
+      "spoken_as": "one",
+      "passage_time": "6:40",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "6:55",
+      "snippet": "throttle quickly into a second and then we'll go down into the S's. Now, a quick call out I want to make here is that if",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "second gear",
+      "line": "get to the inside of this red and white curb",
+      "exit": "use a lot of this red paint",
+      "mistakes": "no slowdown, no 1x",
+      "note_id": "yApLRS-pobQ:6",
+      "text": "gear: second gear; line: get to the inside of this red and white curb; exit: use a lot of this red paint; mistakes: no slowdown, no 1x",
+      "spoken_as": "turn two",
+      "passage_time": "9:14",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "10:28",
+      "snippet": "to use a lot of this red paint here. Again, uh, no slowdown, no 1x, no nothing. You can use as much of the",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "fourth gear",
+      "line": "left of the curb",
+      "exit": "use aggressively",
+      "mistakes": "whole car left of curb paint transition gets 1x",
+      "note_id": "yApLRS-pobQ:7",
+      "text": "gear: fourth gear; line: left of the curb; exit: use aggressively; mistakes: whole car left of curb paint transition gets 1x",
+      "spoken_as": "turn three",
+      "passage_time": "10:32",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "11:18",
+      "snippet": "fourth gear, fourth gear, a lift, a little bit of break, and again using to the left of this curb. Can use that",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "downshift to third",
+      "line": "swing it back to the left",
+      "mistakes": "cutting too much, could trigger a 1x",
+      "note_id": "yApLRS-pobQ:8",
+      "text": "gear: downshift to third; line: swing it back to the left; mistakes: cutting too much, could trigger a 1x",
+      "spoken_as": "next corner",
+      "passage_time": "11:50",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.42,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "12:56",
+      "snippet": "Still in third gear. And a little bit of break again as I swing it back to the left. I've oneexed this corner a lot in"
+    },
+    {
+      "braking": "Brake at curb, easy to lock up front tire",
+      "gear": "Second",
+      "line": "Run wide, wrap curb, turn-in to right",
+      "exit": "Partial throttle, straight line braking into next corner",
+      "mistakes": "Drive off curb to left, lose angle into next corner",
+      "note_id": "yApLRS-pobQ:9",
+      "text": "braking: Brake at curb, easy to lock up front tire; gear: Second; line: Run wide, wrap curb, turn-in to right; exit: Partial throttle, straight line braking into next corner; mistakes: Drive off curb to left, lose angle into next corner",
+      "spoken_as": "next braking marker",
+      "passage_time": "13:10",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 0.83
+        }
+      },
+      "time": "14:04",
+      "snippet": "throttle. Big braking. Easy to lock up a front tire. So, be careful with that. Straight line braking into seven. Pop it"
+    },
+    {
+      "braking": "Brake way to the left, cut the tire pack close",
+      "gear": "Third",
+      "line": "Cut tire pack close",
+      "exit": "Use all runoff curbing, exit on next white line",
+      "mistakes": "Not getting into third gear",
+      "note_id": "yApLRS-pobQ:10",
+      "text": "braking: Brake way to the left, cut the tire pack close; gear: Third; line: Cut tire pack close; exit: Use all runoff curbing, exit on next white line; mistakes: Not getting into third gear",
+      "spoken_as": "turn eight",
+      "passage_time": "14:28",
+      "corner_id": "T8",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.37,
+        "how": "normalised",
+        "issue": "spelling_variant"
+      },
+      "time": "15:22",
+      "snippet": "backstretch. Use all of this uh runoff curbing here. And then my break point is going to be not this white line,",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "Second",
+      "line": "Run off the track at the apex.",
+      "exit": "Partial throttle over the curb.",
+      "mistakes": "Lock up the inside rear tire, especially in low RPM.",
+      "note_id": "yApLRS-pobQ:11",
+      "text": "gear: Second; line: Run off the track at the apex.; exit: Partial throttle over the curb.; mistakes: Lock up the inside rear tire, especially in low RPM.",
+      "spoken_as": "this",
+      "passage_time": "15:48",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.53,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "16:49",
+      "snippet": "low RPM in second gear. Really don't want to hit this orange turtle, if you will. Not really a turtle. It's like the"
+    },
+    {
+      "braking": "Straight line break from the inside of the track down to first gear.",
+      "gear": "First gear.",
+      "line": "Take it out on the approach to 12 and then into the apex.",
+      "exit": "Even before I get to the apex, I'm just going to start throttling up a little bit.",
+      "note_id": "yApLRS-pobQ:12",
+      "text": "braking: Straight line break from the inside of the track down to first gear.; gear: First gear.; line: Take it out on the approach to 12 and then into the apex.; exit: Even before I get to the apex, I'm just going to start throttling up a little bit.",
+      "spoken_as": "12",
+      "passage_time": "17:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.69,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "17:21",
+      "snippet": "inside of the track down to first gear. Take it out on the approach to 12 and then into the apex. Even before I get to"
+    },
+    {
+      "braking": "Heavy heavy break.",
+      "gear": "Third gear.",
+      "line": "Roll this 1314 sequence in third gear.",
+      "exit": "Lots of partial throttle.",
+      "mistakes": "Fighting the nose a bit. Just trying not to shove the front or slip the rear.",
+      "note_id": "yApLRS-pobQ:13",
+      "text": "braking: Heavy heavy break.; gear: Third gear.; line: Roll this 1314 sequence in third gear.; exit: Lots of partial throttle.; mistakes: Fighting the nose a bit. Just trying not to shove the front or slip the rear.",
+      "spoken_as": "1314 sequence",
+      "passage_time": "17:06",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.56,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:02",
+      "snippet": "Lots of partial throttle. Fighting the nose a bit. Just trying not to shove the front or slip the rear."
+    },
+    {
+      "braking": "Heavy heavy break. Just clipping that grass a little bit and breaking as I get there.",
+      "gear": "Second gear",
+      "line": "Cut it decisively across the the outside curbing into the apex curbing",
+      "exit": "Third gear. Fourth gear. Full throttle",
+      "note_id": "yApLRS-pobQ:14",
+      "text": "braking: Heavy heavy break. Just clipping that grass a little bit and breaking as I get there.; gear: Second gear; line: Cut it decisively across the the outside curbing into the apex curbing; exit: Third gear. Fourth gear. Full throttle",
+      "spoken_as": "16",
+      "passage_time": "18:24",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "18:59",
+      "snippet": "there. Second gear. Cut it decisively across the the outside curbing into the apex curbing in 16. And then a nice"
+    },
+    {
+      "braking": "Get your nose pointed in. Two. 1 2 3 4 5 six gear down to second",
+      "gear": "Second",
+      "line": "Watch for that bounce right there",
+      "exit": "Up to third on the exit",
+      "mistakes": "Easy to lock up and nail this wall",
+      "note_id": "yApLRS-pobQ:15",
+      "text": "braking: Get your nose pointed in. Two. 1 2 3 4 5 six gear down to second; gear: Second; line: Watch for that bounce right there; exit: Up to third on the exit; mistakes: Easy to lock up and nail this wall",
+      "spoken_as": "seven",
+      "passage_time": "19:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.5,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "19:57",
+      "snippet": "Watch for that bounce right there. Easy to lock up and nail this wall. There's that mistake. That's okay. Up to third"
+    },
+    {
+      "braking": "Heavy heavy braking. 100% brake pressure into the apex",
+      "gear": "Second",
+      "line": "Go nine. Now we're going to go 10 11 12",
+      "exit": "Very important to set up this exit",
+      "note_id": "yApLRS-pobQ:16",
+      "text": "braking: Heavy heavy braking. 100% brake pressure into the apex; gear: Second; line: Go nine. Now we're going to go 10 11 12; exit: Very important to set up this exit",
+      "spoken_as": "10",
+      "passage_time": "19:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.83,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:07",
+      "snippet": "Heavy heavy braking. 100% brake pressure into the apex. Go nine. Now we're going to go 10 11 12. Here comes 10. Second"
+    },
+    {
+      "braking": "Heavy brake",
+      "gear": "Third",
+      "line": "Lug in third gear through 13",
+      "exit": "Straight out over the exit curve",
+      "note_id": "yApLRS-pobQ:17",
+      "text": "braking: Heavy brake; gear: Third; line: Lug in third gear through 13; exit: Straight out over the exit curve",
+      "spoken_as": "13",
+      "passage_time": "19:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:29",
+      "snippet": "exit. Now we're going to lug in third gear through 13. 14. Out. Back in."
+    },
+    {
+      "braking": "Heavy brake. and just cut as much 15 as possible",
+      "line": "Drive it back to the right hand side of the track",
+      "note_id": "yApLRS-pobQ:18",
+      "text": "braking: Heavy brake. and just cut as much 15 as possible; line: Drive it back to the right hand side of the track",
+      "spoken_as": "15",
+      "passage_time": "19:42",
+      "corner_id": "T15",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:41",
+      "snippet": "Drive it back to the right hand side of the track. Heavy brake. and just cut as much 15 as possible. Straight out over",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "line": "Do the apex of 16 and 134 134",
+      "note_id": "yApLRS-pobQ:19",
+      "text": "line: Do the apex of 16 and 134 134",
+      "spoken_as": "16",
+      "passage_time": "19:42",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "20:54",
+      "snippet": "Do the apex of 16 and 134 134."
+    },
+    {
+      "line": "Big big wheel. I'm always looking at getting set up for the next set.",
+      "exit": "caring out. You can almost hear the engine.",
+      "note_id": "yApLRS-pobQ:20",
+      "text": "line: Big big wheel. I'm always looking at getting set up for the next set.; exit: caring out. You can almost hear the engine.",
+      "spoken_as": "next set",
+      "passage_time": "21:04",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.64,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "21:38",
+      "snippet": "I'm always looking at getting set up for the next set. caring out."
+    }
+  ]
+}

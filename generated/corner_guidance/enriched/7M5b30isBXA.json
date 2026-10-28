@@ -1,0 +1,181 @@
+{
+  "video_id": "7M5b30isBXA",
+  "track_id": 185,
+  "track_name": "Oulton Park Circuit - Intl w/no Chicanes",
+  "title": "Track Guide Oulton Park INT W/O Chicanes Toyota GR86 iRacing",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Brake at the banner with yellow text, 70% pressure, ease off to mid track.",
+      "line": "Roll into the corner, cut the inside curb, accelerate before the dip.",
+      "exit": "Accelerate using the outside curb, avoid the grass.",
+      "mistakes": "Cut too much inside curb, touch grass to spin the car.",
+      "note_id": "7M5b30isBXA:0",
+      "text": "braking: Brake at the banner with yellow text, 70% pressure, ease off to mid track.; line: Roll into the corner, cut the inside curb, accelerate before the dip.; exit: Accelerate using the outside curb, avoid the grass.; mistakes: Cut too much inside curb, touch grass to spin the car.",
+      "spoken_as": "next braking marker",
+      "passage_time": "0:00",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "line": 0.88,
+          "mistakes": 0.89
+        }
+      },
+      "time": "0:20",
+      "snippet": "car roll into the corner. Just before we get to the inside curb, you want to start to accelerate. We're going to cut"
+    },
+    {
+      "line": "Go out wide for turn two.",
+      "note_id": "7M5b30isBXA:1",
+      "text": "line: Go out wide for turn two.",
+      "spoken_as": "Turn two",
+      "passage_time": "0:00",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "0:32",
+      "snippet": "wheels within the white line. Turn two is going to that out. Just make sure you get over to the right side of the track",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "70% brake pressure, trail brake to inside curb.",
+      "line": "Apex about a car length before no-cut zone, use outside curb on exit.",
+      "exit": "Pick up throttle at apex, use outside curb, avoid grass.",
+      "mistakes": "Cut too much inside curb, touch grass to spin the car.",
+      "note_id": "7M5b30isBXA:2",
+      "text": "braking: 70% brake pressure, trail brake to inside curb.; line: Apex about a car length before no-cut zone, use outside curb on exit.; exit: Pick up throttle at apex, use outside curb, avoid grass.; mistakes: Cut too much inside curb, touch grass to spin the car.",
+      "spoken_as": "Turn three",
+      "passage_time": "0:00",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "mistakes": 0.89
+        }
+      },
+      "time": "0:42",
+      "snippet": "for about 70% brake pressure. And we're pretty much trailing that off until we get to the inside curb. There's a little",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Lift off at curb, 50% throttle.",
+      "line": "Aim for end of inside curb as apex.",
+      "mistakes": "Stay on right side of track to avoid overtaking.",
+      "note_id": "7M5b30isBXA:3",
+      "text": "braking: Lift off at curb, 50% throttle.; line: Aim for end of inside curb as apex.; mistakes: Stay on right side of track to avoid overtaking.",
+      "spoken_as": "Turn four",
+      "passage_time": "0:00",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.57,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:11",
+      "snippet": "about 50% throttle. I aim for the end of the inside curb as my apex point. And we do that because we want to be as left as",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "break once at the end of the tire wall, 80% pressure, trail brake to top",
+      "line": "aim for end of inside curb as apex",
+      "exit": "pick up throttle at top, use outside curb for speed",
+      "mistakes": "stay close to inside curb, avoid outside curb too early",
+      "note_id": "7M5b30isBXA:4",
+      "text": "braking: break once at the end of the tire wall, 80% pressure, trail brake to top; line: aim for end of inside curb as apex; exit: pick up throttle at top, use outside curb for speed; mistakes: stay close to inside curb, avoid outside curb too early",
+      "spoken_as": "turn five",
+      "passage_time": "1:17",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.38,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "1:22",
+      "snippet": "break once I get to the end of the tire wall here on the left. I aim for about 80% brake pressure and we are trailing",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake at first curb on left, 80% pressure, trail brake to inside grass",
+      "exit": "pick up throttle past inside grass, avoid bump",
+      "mistakes": "don't cut grass too aggressively, avoid going wide",
+      "note_id": "7M5b30isBXA:5",
+      "text": "braking: brake at first curb on left, 80% pressure, trail brake to inside grass; exit: pick up throttle past inside grass, avoid bump; mistakes: don't cut grass too aggressively, avoid going wide",
+      "spoken_as": "turn 7",
+      "passage_time": "1:17",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:03",
+      "snippet": "is the first curb here on the left. Once I get to that, I start to break and I aim for 80% brake pressure and I'm",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Break just before the dip, 90% brake pressure, trail off to emergency road",
+      "line": "Flat out, use exit curve",
+      "exit": "Pick up throttle, use exit curve",
+      "mistakes": "Do not hit curb, do not take too much curb",
+      "note_id": "7M5b30isBXA:6",
+      "text": "braking: Break just before the dip, 90% brake pressure, trail off to emergency road; line: Flat out, use exit curve; exit: Pick up throttle, use exit curve; mistakes: Do not hit curb, do not take too much curb",
+      "spoken_as": "Turn 11",
+      "passage_time": "2:34",
+      "corner_id": "T11",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.35,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "3:02",
+      "snippet": "90% brake pressure and I'm trailing it off all the way to the emergency road on the inside. Once we get to the emergency",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

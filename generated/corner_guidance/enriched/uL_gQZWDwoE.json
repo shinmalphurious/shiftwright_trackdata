@@ -1,0 +1,158 @@
+{
+  "video_id": "uL_gQZWDwoE",
+  "track_id": 448,
+  "track_name": "Indianapolis Motor Speedway - Road Course",
+  "title": "Indianapolis Road Course - Foracer Ajira Racing Track Guides 2013",
+  "car": null,
+  "car_hint": "general",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    0
+  ],
+  "notes": [
+    {
+      "braking": "attack as much as you can",
+      "note_id": "uL_gQZWDwoE:0",
+      "text": "braking: attack as much as you can",
+      "spoken_as": "first corner",
+      "passage_time": "1:23",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:05",
+      "snippet": "attack as much as you can the kerbs turn 4 is not an easy one especially on exit you have to fight",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.297,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.2419,
+        "corner_pct": 0.2285,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "braking": "attack as much as you can",
+      "note_id": "uL_gQZWDwoE:1",
+      "text": "braking: attack as much as you can",
+      "spoken_as": "second corner",
+      "passage_time": "1:23",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:05",
+      "snippet": "attack as much as you can the kerbs turn 4 is not an easy one especially on exit you have to fight",
+      "best_candidate": {
+        "corner_id": "T3",
+        "confidence": 0.297,
+        "assignment_method": "lap_position",
+        "enrichment_pass": 1,
+        "after": "start/finish",
+        "before": "T4",
+        "estimated_pct": 0.2419,
+        "corner_pct": 0.2285,
+        "timing": "proportional",
+        "anchor_confidence": 1.0
+      },
+      "unresolved": {
+        "after": "start/finish",
+        "before": "T4",
+        "corners_between": [
+          "T1",
+          "T2",
+          "T3"
+        ]
+      }
+    },
+    {
+      "exit": "fight with the oversteer",
+      "mistakes": "not an easy one",
+      "note_id": "uL_gQZWDwoE:2",
+      "text": "exit: fight with the oversteer; mistakes: not an easy one",
+      "spoken_as": "turn 4",
+      "passage_time": "1:23",
+      "corner_id": "T4",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:06",
+      "snippet": "kerbs turn 4 is not an easy one especially on exit you have to fight with the oversteer",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "gear": "second gear",
+      "line": "flat out",
+      "note_id": "uL_gQZWDwoE:3",
+      "text": "gear: second gear; line: flat out",
+      "spoken_as": "turn 5",
+      "passage_time": "1:23",
+      "corner_id": "T5",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.75,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:18",
+      "snippet": "i do it with the second gear turn seven exit a bit complicated very slippery the track",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "exit": "a bit complicated very slippery",
+      "note_id": "uL_gQZWDwoE:4",
+      "text": "exit: a bit complicated very slippery",
+      "spoken_as": "turn 7",
+      "passage_time": "1:23",
+      "corner_id": "T7",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 1.0,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:20",
+      "snippet": "gear turn seven exit a bit complicated very slippery the track and now into the back straight",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

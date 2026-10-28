@@ -1,0 +1,256 @@
+{
+  "track_id": 202,
+  "track": "Oran Park Raceway - Grand Prix",
+  "records": {
+    "202:T1:heavy_braking": {
+      "id": "202:T1:heavy_braking",
+      "track_id": 202,
+      "track": "Oran Park Raceway - Grand Prix",
+      "corner": "T1",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "1460 m from the previous corner",
+          "at": "2026-10-28T09:28:16+00:00"
+        },
+        {
+          "source": "ai:qwen2.5:14b",
+          "confidence": 0.75,
+          "basis": "long straight before corner",
+          "at": "2026-10-28T09:28:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.918,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:36+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.75,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.918
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "Q7g60_ga-nI",
+              "result": "confirm",
+              "time": "1:30",
+              "note": "braking: braking hard, dropping down to second; gear: first; line: cutting the corner quite severely; exit: get on the gas nice and early; mistakes: don't hit the wall on exit",
+              "transcript_snippet": "second. Get on the gas nice and early. Don't hit the wall on exit. Aim",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Q7g60_ga-nI"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 2,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T1: research 0.75 from 2 source(s); 1 video(s) confirm, 0 contradict; consensus 0.92 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "202:T2:heavy_braking": {
+      "id": "202:T2:heavy_braking",
+      "track_id": 202,
+      "track": "Oran Park Raceway - Grand Prix",
+      "corner": "T2",
+      "corner_name": null,
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "2379 m from the previous corner",
+          "at": "2026-10-28T09:28:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T00:44:01+00:00",
+          "consensus": 0.789,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T02:07:13+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.976,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:36+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.964,
+        "telemetry": null,
+        "variants": null,
+        "consensus": 0.976
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "2vXBbQZDVmw",
+              "result": "confirm",
+              "time": "0:31",
+              "note": "braking: hit the curb on the inside, brake hard to turn-in; gear: 1st; line: stick close to the curb on the inside, go wide on exit; exit: throttle on exit, stay close to the curb; mistakes: go too far and drop a wheel, end up in the wall",
+              "transcript_snippet": "too far and drop a wheel you will end up in the wall I use first gear for turn two and I stick close to the curb on the",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2vXBbQZDVmw"
+            },
+            {
+              "video_id": "Q7g60_ga-nI",
+              "result": "confirm",
+              "time": "2:21",
+              "note": "braking: braking almost up to about 90%; gear: first; line: trail it off down to the apex; exit: up through the gears again",
+              "transcript_snippet": "brake almost up to about 90%. We're now going to trail it off down to the apex. Drop it down to first gear and now we're",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=Q7g60_ga-nI"
+            },
+            {
+              "video_id": "XdU5zjI9HRU",
+              "result": "confirm",
+              "time": "2:29",
+              "note": "braking: brake on concrete curbing, 55-60%; gear: 3rd; line: trail brake to apex; exit: get back on gas at apex",
+              "transcript_snippet": "On the brakes about 55-60% again trail it off leave it in third gear. This car does not like second gear. All the power",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=XdU5zjI9HRU"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": []
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 3,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 0
+      },
+      "explanation": "Heavy braking zone at T2: research 0.60 from 1 source(s); 3 video(s) confirm, 0 contradict; consensus 0.98 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    },
+    "202:T12:heavy_braking": {
+      "id": "202:T12:heavy_braking",
+      "track_id": 202,
+      "track": "Oran Park Raceway - Grand Prix",
+      "corner": "T12",
+      "corner_name": "The Sweeper",
+      "claim": "heavy_braking",
+      "statement": "Heavy braking zone",
+      "status": "approved",
+      "research": [
+        {
+          "source": "geometry",
+          "confidence": 0.6,
+          "basis": "2402 m from the previous corner",
+          "at": "2026-10-28T09:28:16+00:00"
+        }
+      ],
+      "confidence_history": [
+        {
+          "at": "2026-10-27T23:08:32+00:00",
+          "consensus": 0.6,
+          "status": "pending"
+        },
+        {
+          "at": "2026-10-28T10:17:12+00:00",
+          "consensus": 0.947,
+          "status": "validated"
+        }
+      ],
+      "created_at": "2026-10-27T22:14:36+00:00",
+      "reason": "evidence supports the claim",
+      "confidence": {
+        "research": 0.6,
+        "transcript": 0.75,
+        "telemetry": null,
+        "variants": 0.8,
+        "consensus": 0.947
+      },
+      "evidence": {
+        "transcript": {
+          "confirm": [
+            {
+              "video_id": "2vXBbQZDVmw",
+              "result": "confirm",
+              "time": "3:05",
+              "note": "braking: Brake before getting to the bottom of the hill, hard to 95-100%, trail brake to inside curb.; gear: 1st; line: Take shortest route, use all curb.; exit: Apply throttle on darkened part, keep full throttle.; mistakes: Taking too much curb causes spin, use 2nd gear to avoid spin.",
+              "transcript_snippet": "take the shortest route possible I take a little bit of curb on turn 10 and all of the curb on turn 11 if you take too",
+              "placed_by": "explicit",
+              "placement_confidence": 1.0,
+              "source": "https://www.youtube.com/watch?v=2vXBbQZDVmw"
+            }
+          ],
+          "contradict": []
+        },
+        "telemetry": null,
+        "variants": [
+          {
+            "source_track": "Oran Park Raceway - Moto",
+            "source_track_id": 211,
+            "corner": "T12",
+            "inheritance_confidence": 1.0,
+            "result": "confirm",
+            "transcript_confirmations": 1,
+            "telemetry": null
+          }
+        ]
+      },
+      "counts": {
+        "research_sources": 1,
+        "transcript_confirmations": 1,
+        "transcript_contradictions": 0,
+        "telemetry": null,
+        "telemetry_laps": 0,
+        "variant_confirmations": 1
+      },
+      "explanation": "Heavy braking zone at T12: research 0.60 from 1 source(s); 1 video(s) confirm, 0 contradict; confirmed at 1 identical corner(s) of other layouts; consensus 0.95 -> validated (evidence supports the claim)",
+      "basis": "consensus"
+    }
+  }
+}

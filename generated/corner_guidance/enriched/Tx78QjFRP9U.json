@@ -1,0 +1,174 @@
+{
+  "video_id": "Tx78QjFRP9U",
+  "track_id": 15,
+  "track_name": "Concord Speedway",
+  "title": "iRacing Super Late Model: Learn to Drive Concord for iRacing Season 1 Week 4 Official Series",
+  "car": null,
+  "car_hint": "late_model",
+  "settings": {
+    "minimum_confidence": 0.75,
+    "max_passes": 3,
+    "confidence_decay_per_pass": 0.02
+  },
+  "telemetry_laps": 0,
+  "dropped_turn_markers": [],
+  "placed_per_pass": [
+    1,
+    0
+  ],
+  "notes": [
+    {
+      "braking": "Heavy under braking to get the car slowed down and get it to rotate.",
+      "line": "Drive left side tires close to yellow line, turn in, roll center, throttle up past center.",
+      "mistakes": "Throttle up too soon, spin out or plow up track.",
+      "note_id": "Tx78QjFRP9U:0",
+      "text": "braking: Heavy under braking to get the car slowed down and get it to rotate.; line: Drive left side tires close to yellow line, turn in, roll center, throttle up past center.; mistakes: Throttle up too soon, spin out or plow up track.",
+      "spoken_as": "turn one",
+      "passage_time": "1:19",
+      "corner_id": "T1",
+      "status": "assigned",
+      "evidence": {
+        "after": "start/finish",
+        "before": "T2",
+        "corners_between": [
+          "T1"
+        ],
+        "anchor_confidence": 1.0
+      },
+      "provenance": {
+        "share": 1.0,
+        "how": "per_field",
+        "issue": "multi_field_spread",
+        "fields": {
+          "braking": 1.0,
+          "mistakes": 0.67
+        }
+      },
+      "time": "1:30",
+      "snippet": "Heavy under braking to get the car slowed down and get it to rotate. And then when we bring this in, we're going",
+      "confidence": 0.903,
+      "assignment_method": "sequence_match",
+      "enrichment_pass": 1
+    },
+    {
+      "line": "Get car low in dog leg, run to pitch towards wall.",
+      "exit": "50-60% throttle, maybe more, ride throttle the entire way.",
+      "note_id": "Tx78QjFRP9U:1",
+      "text": "line: Get car low in dog leg, run to pitch towards wall.; exit: 50-60% throttle, maybe more, ride throttle the entire way.",
+      "spoken_as": "turn two",
+      "passage_time": "1:19",
+      "corner_id": "T2",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.4,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:14",
+      "snippet": "Turn two, you want to get the car as low as you can in this little dog leg and just run it to pitch yourself to go up",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "brake before Troutman motor sign",
+      "line": "wide arc into corner",
+      "exit": "throttle up and drive off corner",
+      "mistakes": "drifting wide or running low",
+      "note_id": "Tx78QjFRP9U:2",
+      "text": "braking: brake before Troutman motor sign; line: wide arc into corner; exit: throttle up and drive off corner; mistakes: drifting wide or running low",
+      "spoken_as": "turn three",
+      "passage_time": "2:37",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.46,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "2:47",
+      "snippet": "before the Troutman motor sign. And we get this car slowed down for turn three. We're going to take a wide arc into",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "braking": "Lift out early, take a wider arc",
+      "exit": "Drive right underneath them on exit",
+      "mistakes": "Sending it down on the bottom, diving in",
+      "note_id": "Tx78QjFRP9U:3",
+      "text": "braking: Lift out early, take a wider arc; exit: Drive right underneath them on exit; mistakes: Sending it down on the bottom, diving in",
+      "spoken_as": "turn three",
+      "passage_time": "3:55",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.77,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "4:03",
+      "snippet": "three, lift out early, take a wider arc, and you should just be able to drive right underneath them on exit and get",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    },
+    {
+      "mistakes": "screwing up turn one can be made up",
+      "note_id": "Tx78QjFRP9U:4",
+      "text": "mistakes: screwing up turn one can be made up",
+      "spoken_as": "turn one",
+      "passage_time": "5:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.6,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:13",
+      "snippet": "screw up turn one, you can make it up. If you screw up the dog leg and lift too much, you can make it up. But, if you"
+    },
+    {
+      "mistakes": "lifting too much on the dog leg can be made up",
+      "note_id": "Tx78QjFRP9U:5",
+      "text": "mistakes: lifting too much on the dog leg can be made up",
+      "spoken_as": "the dog leg",
+      "passage_time": "5:13",
+      "corner_id": null,
+      "status": "unassigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.67,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:15",
+      "snippet": "If you screw up the dog leg and lift too much, you can make it up. But, if you screw up turn three, it's going to hurt"
+    },
+    {
+      "mistakes": "screwing up turn three will hurt you for two laps",
+      "note_id": "Tx78QjFRP9U:6",
+      "text": "mistakes: screwing up turn three will hurt you for two laps",
+      "spoken_as": "turn three",
+      "passage_time": "5:13",
+      "corner_id": "T3",
+      "status": "assigned",
+      "evidence": {},
+      "provenance": {
+        "share": 0.88,
+        "how": "whole_note",
+        "issue": null
+      },
+      "time": "5:19",
+      "snippet": "screw up turn three, it's going to hurt you for two laps, and that's certainly not what you want to do.",
+      "confidence": 1.0,
+      "assignment_method": "explicit",
+      "enrichment_pass": 0
+    }
+  ]
+}

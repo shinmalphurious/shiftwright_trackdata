@@ -21,7 +21,33 @@ def _load(path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
 
+def corner_facts(track_id):
+    """{label: [{claim, statement, confidence, basis, evidence, source_track?}]} from the validated
+    repository."""
+    records = _load(GENERATED / "knowledge" / "validated" / f"{track_id}.json", {}).get("records", {})
+    facts = {}
+    for r in records.values():
+        if r.get("status") != "approved":
+            continue
+        counts = r.get("counts") or {}
+        fact = {"claim": r["claim"], "statement": r["statement"],
+                "confidence": r["confidence"]["consensus"], "basis": r.get("basis"),
+                "evidence": {"research": counts.get("research_sources", 0),
+                             "transcript": counts.get("transcript_confirmations", 0),
+                             "telemetry_laps": counts.get("telemetry_laps", 0) if counts.get("telemetry") == "confirm" else 0,
+                             "variants": counts.get("variant_confirmations", 0)},
+                "explanation": r.get("explanation")}
+        if r.get("basis") == "inherited":
+            fact.update(source_track=r["source_track"], source_corner=r["source_corner"],
+                        inheritance_confidence=r["inheritance_confidence"])
+        facts.setdefault(r["corner"], []).append(fact)
+    return facts
+
+
 def main():
+    # Warnings about the source data (duplicate turn ids, gaps, alias clashes); they do not stop the build
+    from src.pipelines.validate_track_knowledge import run as validate
+    validate()
     OUTDIR.mkdir(exist_ok=True)
     built = 0
     checks = _load(GENERATED / "axes" / "axis_quality.json", {})
@@ -56,6 +82,11 @@ def main():
             "generated_corner_regions": _load(GENERATED / "corner_regions" / f"{track_id}.json", {}).get("corners", []),
             "youtube_summary": youtube.get("track_summary", {}),
             "turn_consensus": youtube.get("turn_consensus", {}),
+            # Per-turn driving instructions from lap-guide videos (build_corner_guidance)
+            "corner_guidance": _load(GENERATED / "corner_guidance" / f"{track_id}.json", {}).get("corners", {}),
+            # Consensus-approved facts only (generated/knowledge/validated, the source of truth);
+            # research candidates never reach the pack
+            "corner_facts": corner_facts(track_id),
         }
         (OUTDIR / f"{track_id}.json").write_text(json.dumps(pack, indent=2), encoding="utf-8")
         built += 1

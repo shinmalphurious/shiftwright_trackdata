@@ -1,0 +1,118 @@
+{
+  "video_id": "PWHNIw-sWDc",
+  "track_id": 194,
+  "track_name": "Daytona International Speedway - Short",
+  "title": "iRacing Daytona 24 hour 2026 GTP Lap Guide - By professional Sim Driver",
+  "car_hint": "general",
+  "car": "various",
+  "model": "qwen2.5:14b",
+  "prompt_version": 3,
+  "extracted_at": "2026-10-28T08:56:33.306705+00:00",
+  "passages": 9,
+  "corners": [
+    {
+      "label": "T1",
+      "spoken_as": "turn one",
+      "start_time": "0:01",
+      "sequence": 0,
+      "braking": "green lantern or white line",
+      "line": "straight center steering wheel",
+      "mistakes": "cannot use esports line"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "1:19",
+      "sequence": 1,
+      "label_guess": "T2",
+      "braking": "White line, stay within it",
+      "gear": "Second gear",
+      "exit": "Hug inside, then go wide on exit",
+      "mistakes": "Going off track, not going wide enough on exit"
+    },
+    {
+      "label": "T3",
+      "spoken_as": "turn three",
+      "start_time": "2:36",
+      "sequence": 2,
+      "braking": "Build brake pressure gradually, avoid locking tires",
+      "mistakes": "Too quick on brake, lock tires; outside rubber in 24-hour event, lock tires easily"
+    },
+    {
+      "label": null,
+      "spoken_as": "corner then",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T4",
+      "braking": "hold brake, build up to 50-60% throttle",
+      "gear": "1",
+      "line": "don't roll, use curb on exit",
+      "exit": "flat through kink"
+    },
+    {
+      "label": null,
+      "spoken_as": "breaking point here",
+      "start_time": "3:53",
+      "sequence": 3,
+      "label_guess": "T5",
+      "braking": "build up pressure in area of black mark and end of white line",
+      "gear": "1",
+      "mistakes": "don't spam downshifts"
+    },
+    {
+      "label": null,
+      "spoken_as": "turn seven",
+      "start_time": "5:12",
+      "sequence": 4,
+      "label_guess": "T4",
+      "braking": "build up pressure 60%",
+      "gear": "1st",
+      "line": "stick the car close to the curb all the way around",
+      "exit": "let it out wide around here, but not until you've staked it around the entire yellow curb on the inside",
+      "mistakes": "letting the car float out more, causing snaps and losing time on acceleration"
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "6:30",
+      "sequence": 5,
+      "label_guess": "T4",
+      "braking": "Brake at green lamp, build pressure early",
+      "line": "Keep out, reach curb at turn-in",
+      "exit": "Throttle early, let rear float out"
+    },
+    {
+      "label": null,
+      "spoken_as": "next righthander",
+      "start_time": "7:48",
+      "sequence": 6,
+      "label_guess": "T4",
+      "braking": "60-70%. Stay on brakes over first curb.",
+      "gear": "3 to 4",
+      "line": "Nudge blue and yellow curb on entry and mid-corner.",
+      "exit": "Use full width on exit.",
+      "mistakes": "Lower gear may cause rear wheels to spin."
+    },
+    {
+      "label": null,
+      "spoken_as": "next braking marker",
+      "start_time": "9:06",
+      "sequence": 7,
+      "label_guess": "T4",
+      "line": "Enter smoothly, avoid apron.",
+      "exit": "Slingshot on exit, flat out through oval."
+    }
+  ],
+  "general_tips": [
+    "Build up pressure, use ARB for rotation, switch back to 1 for next corner",
+    "Use 100 mark for braking reference, but focus on apex",
+    "Build up brake pressure around 80%",
+    "Be soft on initial brake pressure",
+    "follow braking along in first gear",
+    "use mechanical grip rather than downforce",
+    "take a shorter line in and out to cut meters and gain time",
+    "Use front ARB 2-3 on P1 setup",
+    "Build brake pressure slowly to avoid lock-up"
+  ],
+  "dropped_ungrounded": 6
+}
